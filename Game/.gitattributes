@@ -1,0 +1,5 @@
+# All unreal engine specific lfs stuff is stored in this file.
+# The unreal project must be in the same directory or subdirectory of this file.
+
+*.uasset filter=lfs diff=lfs merge=lfs -text
+*.umap   filter=lfs diff=lfs merge=lfs -text
