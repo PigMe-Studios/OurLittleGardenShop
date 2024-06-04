@@ -5,6 +5,8 @@
 #include "InputMappingContext.h"
 #include "EnhancedInputSubsystems.h"
 #include "EnhancedInputComponent.h"
+#include "Kismet/GameplayStatics.h"
+#include "GameFramework/PlayerController.h"
 
 // Sets default values
 ACursorController::ACursorController()
@@ -18,12 +20,16 @@ ACursorController::ACursorController()
 void ACursorController::BeginPlay()
 {
 	Super::BeginPlay();
-	GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Yellow, TEXT("Scene is Working"));
+	GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Red, TEXT("Scene is Working"));
+
+	APlayerController* PlayerControllerRef = UGameplayStatics::GetPlayerController(GetWorld(), 0);
+	PlayerControllerRef->SetShowMouseCursor(true);
+
 }
 
 void ACursorController::Interaction(const FInputActionValue& Value)
 {
-	GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Yellow, TEXT("interact event triggered"));
+	GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Red, TEXT("interact event triggered"));
 }
 
 // Called every frame
@@ -37,6 +43,7 @@ void ACursorController::Tick(float DeltaTime)
 void ACursorController::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
+
 
 	if (UEnhancedInputComponent* EnhancedInputComponent = CastChecked<UEnhancedInputComponent>(PlayerInputComponent))
 	{

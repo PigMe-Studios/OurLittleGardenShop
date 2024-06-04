@@ -24,7 +24,7 @@ protected:
 	virtual void BeginPlay() override;
 
 	//cursor visibility
-	bool bShowMouseCursor = true;
+	
 
 	//xUPROPERTY(EditAnywhere, BlueprintReadWrite, category = "Cursor")
 	//xEMouseCursorType MouseCursor = EMouseCursorType: Default;
@@ -33,10 +33,11 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "EnhancedInput")
 	UInputMappingContext* InputMappingContext;
 
-
+	//Interaction action on click
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "EnhancedInput")
 	class UInputAction* InteractAction;
 
+	//Called when LMB pressed
 	void Interaction(const FInputActionValue& Value);
 
 public:	
@@ -45,5 +46,4 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-
 };
