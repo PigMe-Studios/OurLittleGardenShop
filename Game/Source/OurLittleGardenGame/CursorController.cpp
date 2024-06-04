@@ -11,9 +11,11 @@
 // Sets default values
 ACursorController::ACursorController()
 {
- 	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+ 	// Set this pawn to call Tick() every frame. You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	//posess player on start
+	AutoPossessPlayer = EAutoReceiveInput::Player0;
 }
 
 // Called when the game starts or when spawned
@@ -29,14 +31,34 @@ void ACursorController::BeginPlay()
 
 void ACursorController::Interaction(const FInputActionValue& Value)
 {
-	GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Red, TEXT("interact event triggered"));
+	FVector Start = //()->GetComponentLocation();
+	FVector End = Start + //->GetForwardVector() * 300.0f;
+	FHitResult HitResult;
+
+	FCollisionQueryParams Params;
+	Params.AddIgnoredActor(this);
+
+	if (GetWorld()->LineTraceSingleByChannel(HitResult, Start, End, ECollisionChannel::ECC_Visibility, Params, FCollisionResponseParams()))
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Red, TEXT("Interact Event Triggered"));
+	}
+
+	DrawDebugLine(GetWorld(), Start, End, FColor::Magenta, false, 5.0f, 0, 5.0f);
+
+	//todo:change mouse cursor to different state on interact
+
+	//todo:return back to normal on release
 }
 
 // Called every frame
 void ACursorController::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	//xGEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Emerald, TEXT("Tick is Working"));
 
+	//mouse location on the screen
+	UGameplayStatics::GetPlayerController(GetWorld(), 0)->GetMousePosition(MouseX, MouseY);
+	GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Red, FString::Printf(TEXT("Mouse LocSation: %f %f"), MouseX, MouseY));
 }
 
 // Called to bind functionality to input
@@ -44,10 +66,9 @@ void ACursorController::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
-
 	if (UEnhancedInputComponent* EnhancedInputComponent = CastChecked<UEnhancedInputComponent>(PlayerInputComponent))
 	{
-		EnhancedInputComponent->BindAction(InteractAction, ETriggerEvent::Triggered, this, &ACursorController::Interaction);
+		EnhancedInputComponent->BindAction(InteractAction, ETriggerEvent::Started, this, &ACursorController::Interaction);
 	}
 }
 

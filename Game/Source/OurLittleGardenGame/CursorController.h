@@ -19,6 +19,7 @@ public:
 	// Sets default values for this pawn's properties
 	ACursorController();
 
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -39,6 +40,10 @@ protected:
 
 	//Called when LMB pressed
 	void Interaction(const FInputActionValue& Value);
+
+	//mouse detection for screen location
+	float MouseX;
+	float MouseY;
 
 public:	
 	// Called every frame
