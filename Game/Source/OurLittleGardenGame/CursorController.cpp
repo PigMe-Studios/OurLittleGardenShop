@@ -26,13 +26,14 @@ void ACursorController::BeginPlay()
 
 	APlayerController* PlayerControllerRef = UGameplayStatics::GetPlayerController(GetWorld(), 0);
 	PlayerControllerRef->SetShowMouseCursor(true);
-
+	//xPlayerControllerRef->DeprojectMousePositionToWorld()
 }
 
 void ACursorController::Interaction(const FInputActionValue& Value)
 {
-	FVector Start = //()->GetComponentLocation();
-	FVector End = Start + //->GetForwardVector() * 300.0f;
+	//!im having an issue with thisss ): cant find a way to get the mouse position for this hmm
+	FVector Start = (APlayerController::GetMousePosition)->GetComponentLocation();
+	FVector End = Start + (APlayerController::GetMousePosition)->GetForwardVector() * 300.0f;
 	FHitResult HitResult;
 
 	FCollisionQueryParams Params;
