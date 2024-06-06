@@ -45,7 +45,7 @@ struct FResponse
 };
 
 USTRUCT(BlueprintType)
-struct FDialogueLine
+struct FDialogueLine : public FTableRowBase
 {
 	GENERATED_USTRUCT_BODY()
 

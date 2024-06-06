@@ -1,3 +1,3 @@
----,LineName,LineDialogue,CharacterSpeaking,CharacterEmotion,bRespondable,Responses
-NewRow,"Test1","This is a test line grr","CHEF","ANGRY","False","((Name=""TestResponse"",Line=""Sorry youre angry"",DialogueName=""""))"
-NewRow_0,"Test2","I am no longer angr","CHEF","HAPPY","False",""
+---,Name,Content,CharacterSpeaking,CharacterEmotion,bRespondable,Responses,NextLine
+NewRow,"Test1","Im angry grr","CHEF","ANGRY","True","((Name=""Test1"",Content=""dont be angry"",NextLine=""Test2""))","None"
+NewRow_0,"Test2","","CHEF","HAPPY","False","","None"
