@@ -24,42 +24,45 @@ void ACursorController::BeginPlay()
 	Super::BeginPlay();
 	GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Red, TEXT("Scene is Working"));
 
-	APlayerController* PlayerControllerRef = UGameplayStatics::GetPlayerController(GetWorld(), 0);
+	APlayerController* PlayerControllerRef = Cast<APlayerController>(GetController());
 	PlayerControllerRef->SetShowMouseCursor(true);
 	//xPlayerControllerRef->DeprojectMousePositionToWorld()
+
+	
 }
 
 void ACursorController::Interaction(const FInputActionValue& Value)
 {
-	//!im having an issue with thisss ): cant find a way to get the mouse position for this hmm
-	FVector Start = (APlayerController::GetMousePosition)->GetComponentLocation();
-	FVector End = Start + (APlayerController::GetMousePosition)->GetForwardVector() * 300.0f;
-	FHitResult HitResult;
+	//tResult Hit;
+	//tHitResultUnderCursor(ECC_Visibility, false, Hit);
+	
+	// (Hit.bBlockingHit) 
+	//
+	//f (Hit.Actor != NULL) 
+	//
+	//OnSelected();
+			//ursorController* Selected = Cast<ACursorController>(Hit.GetActor());
+	//
+	//
+	//Clicked
+	//OnEndCursorOver
+	//OnBeginCursorOver
 
-	FCollisionQueryParams Params;
-	Params.AddIgnoredActor(this);
-
-	if (GetWorld()->LineTraceSingleByChannel(HitResult, Start, End, ECollisionChannel::ECC_Visibility, Params, FCollisionResponseParams()))
-	{
-		GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Red, TEXT("Interact Event Triggered"));
-	}
-
-	DrawDebugLine(GetWorld(), Start, End, FColor::Magenta, false, 5.0f, 0, 5.0f);
+	//! what needs to happen here is: player click, object clicked found, return obkect name. as a base. fueihfewousihgewos
 
 	//todo:change mouse cursor to different state on interact
-
 	//todo:return back to normal on release
 }
 
+
 // Called every frame
 void ACursorController::Tick(float DeltaTime)
-{
+{ 
 	Super::Tick(DeltaTime);
-	//xGEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Emerald, TEXT("Tick is Working"));
 
 	//mouse location on the screen
 	UGameplayStatics::GetPlayerController(GetWorld(), 0)->GetMousePosition(MouseX, MouseY);
-	GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Red, FString::Printf(TEXT("Mouse LocSation: %f %f"), MouseX, MouseY));
+	GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Red, FString::Printf(TEXT("Mouse Location %f %f"), MouseX, MouseY));
 }
 
 // Called to bind functionality to input
