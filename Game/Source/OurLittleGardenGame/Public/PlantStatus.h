@@ -8,6 +8,9 @@
 /**
  * 
  */
+//!Forward Declarations
+class ADecorationParent;
+class APlantParent;
 
 //!Structs
 
@@ -33,6 +36,7 @@ struct FPlantResistancesAndRequirements
 	//UPROPERTY()
 };
 
+
 USTRUCT(BlueprintType)
 struct FDecorativeObject
 {
@@ -42,7 +46,9 @@ struct FDecorativeObject
 	FTransform Transform;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	UClass* Class; //ToDo: change this to the base decoration actor class
+	ADecorationParent* Class;
+
+	//xUClass* Class; //ToDo: change this to the base decoration actor class
 };
 
 USTRUCT(BlueprintType)
@@ -54,7 +60,8 @@ struct FPlantSaveData
 	FTransform Transform;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	UClass* Class; //ToDo: change this to the base plant class
+	APlantParent* Class;
+	//xUClass* Class; //ToDo: change this to the base plant class
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FPlantStatus Status;
