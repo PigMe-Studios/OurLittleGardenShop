@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "PlantStatus.h"
+#include "Growable.h"
 #include "PlantParent.generated.h"
 
 //!Functions
@@ -14,7 +15,7 @@
 //ToDo:Growth instant on load
 
 UCLASS()
-class OURLITTLEGARDENGAME_API APlantParent : public AActor
+class OURLITTLEGARDENGAME_API APlantParent : public AActor, public IGrowable
 {
 	GENERATED_BODY()
 	
