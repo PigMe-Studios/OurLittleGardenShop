@@ -9,63 +9,9 @@
  * 
  */
 //!Forward Declarations
+
 class ADecorationParent;
 class APlantParent;
-
-//!Structs
-
-USTRUCT(BlueprintType)
-struct FPlantStatus
-{
-	GENERATED_USTRUCT_BODY()
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	float GrowthPercent;
-
-	//UPROPERTY()
-};
-
-USTRUCT(BlueprintType)
-struct FPlantResistancesAndRequirements
-{
-	GENERATED_USTRUCT_BODY()
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	float GrowthPercent;
-
-	//UPROPERTY()
-};
-
-
-USTRUCT(BlueprintType)
-struct FDecorativeObject
-{
-	GENERATED_USTRUCT_BODY()
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	FTransform Transform;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	ADecorationParent* Class;
-
-	//xUClass* Class; //ToDo: change this to the base decoration actor class
-};
-
-USTRUCT(BlueprintType)
-struct FPlantSaveData
-{
-	GENERATED_USTRUCT_BODY()
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	FTransform Transform;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	APlantParent* Class;
-	//xUClass* Class; //ToDo: change this to the base plant class
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	FPlantStatus Status;
-};
 
 //!Enums
 
@@ -74,6 +20,10 @@ enum EWaterStat
 {
 	BoneDry UMETA(DisplayName = "BoneDry"),
 	Dry UMETA(DisplayName = "Dry"),
+	Moist UMETA(DisplayName = "Moist"),
+	Wet UMETA(DisplayName = "Wet"),
+	Sopping UMETA(DisplayName = "Sopping"),
+	Drowned UMETA(DisplayName = "Drowned"),
 };
 
 UENUM(BlueprintType)
@@ -100,3 +50,81 @@ enum EPlants
 	Potato UMETA(DisplayName = "Potato"),
 	Lavender UMETA(DisplayName = "Lavender"),
 };
+
+
+//!Structs
+
+USTRUCT(BlueprintType)
+struct FPlantStatus
+{
+	GENERATED_USTRUCT_BODY()
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float GrowthPercent;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TEnumAsByte<EWaterStat> WaterStatus;
+
+	//UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	//EDisease Diseased;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float RandomisationSeed;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float PlantHealth;
+
+	//UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	//EIrreparableDamage PermanentDefects;
+};
+
+USTRUCT(BlueprintType)
+struct FPlantResistancesAndRequirements
+{
+	GENERATED_USTRUCT_BODY()
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float TypicalGrowthSpeed;
+
+	//!Desires
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TEnumAsByte<EWaterStat> DesiredWater;
+
+	//UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	//ELightExposure DesiredLight;
+
+	//!Resistance
+
+	//UPROPERTY(EditAnywhere, BlueprintReadWrite)
+};
+
+
+USTRUCT(BlueprintType)
+struct FDecorativeObject
+{
+	GENERATED_USTRUCT_BODY()
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FTransform Transform;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TSubclassOf<ADecorationParent> Class;
+
+};
+
+USTRUCT(BlueprintType)
+struct FPlantSaveData
+{
+	GENERATED_USTRUCT_BODY()
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FTransform Transform;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TSubclassOf<APlantParent> Class;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FPlantStatus Status;
+};
+
