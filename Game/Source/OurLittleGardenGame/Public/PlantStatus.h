@@ -79,7 +79,7 @@ struct FPlantStatus
 };
 
 USTRUCT(BlueprintType)
-struct FPlantResistancesAndRequirements
+struct FPlantResistancesAndRequirements : public FTableRowBase
 {
 	GENERATED_USTRUCT_BODY()
 
