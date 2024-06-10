@@ -18,6 +18,14 @@ void ACustomer::BeginPlay()
 	
 }
 
+bool ACustomer::UpdateDialogue(FName Name)
+{
+	FDialogueLine* Row = DIALOGUE_TABLE->FindRow<FDialogueLine>(Name, "");
+	Emotion = Row->CharacterEmotion;
+	// TODO: Add UI element to update, update it's text
+	return false;
+}
+
 // Called every frame
 void ACustomer::Tick(float DeltaTime)
 {

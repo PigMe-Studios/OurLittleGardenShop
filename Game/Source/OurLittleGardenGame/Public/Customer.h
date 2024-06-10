@@ -20,6 +20,11 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+	/// @brief Update Dialogue text and character emotion with new line
+	/// @param Name the desired dialogue line
+	/// @return Was an appropriate line found?
+	bool UpdateDialogue(FName Name);
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
