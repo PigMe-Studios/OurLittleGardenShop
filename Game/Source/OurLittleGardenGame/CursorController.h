@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
-#include "InputAction.h"
+#include "InputActionValue.h"
 #include "CursorController.generated.h"
 
 class UInputMappingContext;
