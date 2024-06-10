@@ -41,9 +41,14 @@ protected:
 	//Called when LMB pressed
 	void Interaction(const FInputActionValue& Value);
 
+	void CursorWorldPosition();
+
 	//mouse detection for screen location
 	float MouseX;
 	float MouseY;
+
+	FVector CursorWorldLocation;
+	FVector CursorWorldDirection;
 
 public:	
 	// Called every frame

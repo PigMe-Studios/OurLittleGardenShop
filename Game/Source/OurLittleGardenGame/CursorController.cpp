@@ -28,31 +28,50 @@ void ACursorController::BeginPlay()
 	PlayerControllerRef->SetShowMouseCursor(true);
 	//xPlayerControllerRef->DeprojectMousePositionToWorld()
 
-	
+}
+
+void ACursorController::CursorWorldPosition()
+{
+	//playercontroller reference
+	APlayerController* PlayerControllerRef = Cast<APlayerController>(GetController());
+
+	//checks if cursor is reallife + pos
+	if (!PlayerControllerRef->GetMousePosition(MouseX, MouseY))
+	{
+		return;
+	}
+
+	//converting cursor position ref to world position ref
+	if (PlayerControllerRef->DeprojectScreenPositionToWorld(MouseX, MouseY, CursorWorldLocation, CursorWorldDirection))
+	{
+		//success
+		//GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Red, FString::Printf(TEXT("Mouse Location %f %f"), MouseX, MouseY));
+	}
+	else
+	{
+		// failed
+	}
 }
 
 void ACursorController::Interaction(const FInputActionValue& Value)
 {
-	//tResult Hit;
-	//tHitResultUnderCursor(ECC_Visibility, false, Hit);
-	
-	// (Hit.bBlockingHit) 
-	//
-	//f (Hit.Actor != NULL) 
-	//
-	//OnSelected();
-			//ursorController* Selected = Cast<ACursorController>(Hit.GetActor());
-	//
-	//
-	//Clicked
-	//OnEndCursorOver
-	//OnBeginCursorOver
+	GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Red, TEXT("clicked"));
 
-	//! what needs to happen here is: player click, object clicked found, return obkect name. as a base. fueihfewousihgewos
+	FVector Start = CursorWorldLocation; //()->GetComponentLocation();
+	FVector End = Start + (CursorWorldDirection * 5000.0f); //->GetForwardVector() * 300.0f;
+	
+	FHitResult HitResult;
+	FCollisionQueryParams LineTraceParams;
+
+	if (GetWorld()->LineTraceSingleByChannel(HitResult, Start, End, ECollisionChannel::ECC_Visibility, LineTraceParams, FCollisionResponseParams()))
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Red, TEXT("Interact Event Triggered"));
+	}
 
 	//todo:change mouse cursor to different state on interact
 	//todo:return back to normal on release
 }
+
 
 
 // Called every frame
@@ -60,9 +79,9 @@ void ACursorController::Tick(float DeltaTime)
 { 
 	Super::Tick(DeltaTime);
 
-	//mouse location on the screen
-	UGameplayStatics::GetPlayerController(GetWorld(), 0)->GetMousePosition(MouseX, MouseY);
-	GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Red, FString::Printf(TEXT("Mouse Location %f %f"), MouseX, MouseY));
+	//updates cursor position on tick
+	CursorWorldPosition();
+
 }
 
 // Called to bind functionality to input
