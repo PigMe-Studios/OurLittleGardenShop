@@ -26,7 +26,7 @@ class IGrowable
 public:
 
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-	void Grow();
+	void Grow(float GrowthPerTick);
 
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
 	void Harvest();

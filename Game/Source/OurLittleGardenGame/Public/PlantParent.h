@@ -39,6 +39,8 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-
+	
+	
+	void Grow_Implementation(float GrowthPerTick)override;
 
 };
