@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "CharacterEnumeration.h"
+#include "ConversationWidget.h"
 #include "Customer.generated.h"
 
 UCLASS()
@@ -25,12 +26,20 @@ protected:
 	/// @return Was an appropriate line found?
 	bool UpdateDialogue(FName Name);
 
+	/// @brief Create a new Conversation widget and add to viewport
+	void CreateConversationWidget();
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	UDataTable* DIALOGUE_TABLE;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TSubclassOf<class UConversationWidget> CONVERSATION_CLASS;
+
+	class UConversationWidget* ConversationWidget;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	ECharacter Character;
