@@ -31,18 +31,6 @@ void ACursorController::BeginPlay()
 	APlayerController* PlayerControllerRef = Cast<APlayerController>(GetController());
 	PlayerControllerRef->SetShowMouseCursor(true);
 	//xPlayerControllerRef->DeprojectMousePositionToWorld()
-	
-	//PhysicsHandle = GetOwner()->FindComponentByClass<UPhysicsHandleComponent>();
-	//if (PhysicsHandle)
-	//{
-		//found
-	//}
-	//else
-	//{
-		//not found
-	//	GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Red, TEXT("physics handle not found"));
-	//}
-
 }
 
 void ACursorController::CursorWorldPosition()
@@ -69,7 +57,7 @@ void ACursorController::CursorWorldPosition()
 	
 }
 
-void ACursorController::Interaction(const FInputActionValue& Value)
+void ACursorController::GrabActor(const FInputActionValue& Value)
 {
 	GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Red, TEXT("clicked"));
 
@@ -94,7 +82,18 @@ void ACursorController::Interaction(const FInputActionValue& Value)
 		//todo:change mouse cursor to different state on interact
 		
 	}
-	//todo:return back to normal on release
+}
+
+
+void ACursorController::ReleaseActor(const FInputActionValue& Value)
+{
+	if (PhysicsHandle->GrabbedComponent)
+	{
+		PhysicsHandle->ReleaseComponent();
+		GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Red, TEXT("released actor"));
+		//todo:return back to normal on release
+	}
+
 }
 
 
@@ -133,7 +132,8 @@ void ACursorController::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 
 	if (UEnhancedInputComponent* EnhancedInputComponent = CastChecked<UEnhancedInputComponent>(PlayerInputComponent))
 	{
-		EnhancedInputComponent->BindAction(InteractAction, ETriggerEvent::Triggered, this, &ACursorController::Interaction);
+		EnhancedInputComponent->BindAction(InteractAction, ETriggerEvent::Started, this, &ACursorController::GrabActor);
+		EnhancedInputComponent->BindAction(InteractAction, ETriggerEvent::Completed, this, &ACursorController::ReleaseActor);
 		//todo:one for pressed and one for released
 
 	}

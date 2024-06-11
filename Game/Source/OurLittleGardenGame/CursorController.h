@@ -40,7 +40,9 @@ protected:
 	class UInputAction* InteractAction;
 
 	//Called when LMB pressed
-	void Interaction(const FInputActionValue& Value);
+	void GrabActor(const FInputActionValue& Value);
+	//called when lmb released
+	void ReleaseActor(const FInputActionValue& Value);
 
 	void CursorWorldPosition();
 
