@@ -16,7 +16,7 @@ public:
 	AInteractableObjectParent();
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
-	UStaticMeshComponent* Mesh;
+	UStaticMeshComponent* StaticMesh;
 
 protected:
 	// Called when the game starts or when spawned

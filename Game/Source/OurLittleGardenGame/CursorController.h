@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
 #include "InputActionValue.h"
+#include "PhysicsEngine/PhysicsHandleComponent.h"
 #include "CursorController.generated.h"
 
 class UInputMappingContext;
@@ -47,8 +48,12 @@ protected:
 	float MouseX;
 	float MouseY;
 
+	//world position of the mouse location
 	FVector CursorWorldLocation;
 	FVector CursorWorldDirection;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
+	UPhysicsHandleComponent* PhysicsHandle;
 
 public:	
 	// Called every frame

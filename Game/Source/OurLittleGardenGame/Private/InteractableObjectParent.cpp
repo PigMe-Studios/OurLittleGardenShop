@@ -8,6 +8,13 @@ AInteractableObjectParent::AInteractableObjectParent()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+	
+	StaticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("StaticMesh"));
+	RootComponent = StaticMesh;
+
+	StaticMesh->SetSimulatePhysics(true);
+	StaticMesh->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
+	StaticMesh->SetCollisionObjectType(ECollisionChannel::ECC_PhysicsBody);
 
 }
 

@@ -6,6 +6,7 @@
 #include "EnhancedInputSubsystems.h"
 #include "EnhancedInputComponent.h"
 #include "Kismet/GameplayStatics.h"
+#include "PhysicsEngine/PhysicsHandleComponent.h"
 #include "GameFramework/PlayerController.h"
 
 // Sets default values
@@ -16,6 +17,9 @@ ACursorController::ACursorController()
 
 	//posess player on start
 	AutoPossessPlayer = EAutoReceiveInput::Player0;
+
+	//initialising physics handle 
+	PhysicsHandle = CreateDefaultSubobject<UPhysicsHandleComponent>(TEXT("PhysicsHandle"));
 }
 
 // Called when the game starts or when spawned
@@ -27,6 +31,17 @@ void ACursorController::BeginPlay()
 	APlayerController* PlayerControllerRef = Cast<APlayerController>(GetController());
 	PlayerControllerRef->SetShowMouseCursor(true);
 	//xPlayerControllerRef->DeprojectMousePositionToWorld()
+	
+	//PhysicsHandle = GetOwner()->FindComponentByClass<UPhysicsHandleComponent>();
+	//if (PhysicsHandle)
+	//{
+		//found
+	//}
+	//else
+	//{
+		//not found
+	//	GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Red, TEXT("physics handle not found"));
+	//}
 
 }
 
@@ -51,14 +66,15 @@ void ACursorController::CursorWorldPosition()
 	{
 		// failed
 	}
+	
 }
 
 void ACursorController::Interaction(const FInputActionValue& Value)
 {
 	GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Red, TEXT("clicked"));
 
-	FVector Start = CursorWorldLocation; //()->GetComponentLocation();
-	FVector End = Start + (CursorWorldDirection * 5000.0f); //->GetForwardVector() * 300.0f;
+	FVector Start = CursorWorldLocation; 
+	FVector End = Start + (CursorWorldDirection * 5000.0f);
 	
 	FHitResult HitResult;
 	FCollisionQueryParams LineTraceParams;
@@ -66,9 +82,18 @@ void ACursorController::Interaction(const FInputActionValue& Value)
 	if (GetWorld()->LineTraceSingleByChannel(HitResult, Start, End, ECollisionChannel::ECC_Visibility, LineTraceParams, FCollisionResponseParams()))
 	{
 		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("HitSomething: %s"), *HitResult.GetActor()->GetName()));
-	}
 
-	//todo:change mouse cursor to different state on interact
+		//check if obkect already sim physics
+		UPrimitiveComponent* HitComponent = HitResult.GetComponent();
+		if (HitComponent && HitComponent->IsSimulatingPhysics())
+		{
+			//grab object hit 
+			PhysicsHandle->GrabComponentAtLocationWithRotation(HitComponent, NAME_None, HitResult.ImpactPoint, HitComponent->GetComponentRotation());
+			//GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Red, TEXT("grabbing"));
+		}
+		//todo:change mouse cursor to different state on interact
+		
+	}
 	//todo:return back to normal on release
 }
 
@@ -81,6 +106,14 @@ void ACursorController::Tick(float DeltaTime)
 
 	//updates cursor position on tick
 	CursorWorldPosition();
+
+	if (PhysicsHandle->GrabbedComponent)
+	{
+		//todo: make sure object is at a set distance from player.... spooky atm 
+		//uodates ovject location based on cursor movement
+		FVector updatelocation = CursorWorldLocation;
+		PhysicsHandle->SetTargetLocation(updatelocation);
+	}
 
 }
 
@@ -101,6 +134,8 @@ void ACursorController::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 	if (UEnhancedInputComponent* EnhancedInputComponent = CastChecked<UEnhancedInputComponent>(PlayerInputComponent))
 	{
 		EnhancedInputComponent->BindAction(InteractAction, ETriggerEvent::Triggered, this, &ACursorController::Interaction);
+		//todo:one for pressed and one for released
+
 	}
 }
 
