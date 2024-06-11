@@ -49,6 +49,7 @@ protected:
 	//mouse detection for screen location
 	float MouseX;
 	float MouseY;
+	float MouseObjectDistance;
 
 	//world position of the mouse location
 	FVector CursorWorldLocation;

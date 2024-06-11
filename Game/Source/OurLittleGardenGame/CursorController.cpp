@@ -20,6 +20,8 @@ ACursorController::ACursorController()
 
 	//initialising physics handle 
 	PhysicsHandle = CreateDefaultSubobject<UPhysicsHandleComponent>(TEXT("PhysicsHandle"));
+
+	MouseObjectDistance = 200.0f;
 }
 
 // Called when the game starts or when spawned
@@ -80,7 +82,8 @@ void ACursorController::GrabActor(const FInputActionValue& Value)
 			//GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Red, TEXT("grabbing"));
 		}
 		//todo:change mouse cursor to different state on interact
-		
+		//todo: distance from cursor lol
+
 	}
 }
 
@@ -93,7 +96,6 @@ void ACursorController::ReleaseActor(const FInputActionValue& Value)
 		GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Red, TEXT("released actor"));
 		//todo:return back to normal on release
 	}
-
 }
 
 
@@ -108,10 +110,11 @@ void ACursorController::Tick(float DeltaTime)
 
 	if (PhysicsHandle->GrabbedComponent)
 	{
-		//todo: make sure object is at a set distance from player.... spooky atm 
-		//uodates ovject location based on cursor movement
-		FVector updatelocation = CursorWorldLocation;
-		PhysicsHandle->SetTargetLocation(updatelocation);
+		//updates object location based on cursor movement x distance offset (wip)
+		FVector updatelocation = CursorWorldLocation + (CursorWorldLocation * MouseObjectDistance);
+		FRotator CursorWorldRotation = CursorWorldDirection.Rotation();
+
+		PhysicsHandle->SetTargetLocationAndRotation(updatelocation, CursorWorldRotation);
 	}
 
 }
@@ -134,7 +137,7 @@ void ACursorController::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 	{
 		EnhancedInputComponent->BindAction(InteractAction, ETriggerEvent::Started, this, &ACursorController::GrabActor);
 		EnhancedInputComponent->BindAction(InteractAction, ETriggerEvent::Completed, this, &ACursorController::ReleaseActor);
-		//todo:one for pressed and one for released
+		//todo: need to fix it being held on contuinuously if clicked once and not held 
 
 	}
 }
