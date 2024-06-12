@@ -18,6 +18,18 @@ AInteractableObjectParent::AInteractableObjectParent()
 
 }
 
+void AInteractableObjectParent::OnGrab()
+{
+	bIsHeld = true;
+	GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Blue, TEXT("BISHELD"));
+}
+
+void AInteractableObjectParent::OnRelease()
+{
+	bIsHeld = false;
+	GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Blue, TEXT("BISRELEASED"));
+}
+
 // Called when the game starts or when spawned
 void AInteractableObjectParent::BeginPlay()
 {

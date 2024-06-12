@@ -7,6 +7,7 @@
 #include "EnhancedInputComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "PhysicsEngine/PhysicsHandleComponent.h"
+#include "InteractableObjectParent.h"
 #include "GameFramework/PlayerController.h"
 
 // Sets default values
@@ -75,14 +76,22 @@ void ACursorController::GrabActor(const FInputActionValue& Value)
 
 		//check if obkect already sim physics
 		UPrimitiveComponent* HitComponent = HitResult.GetComponent();
+		AActor* HitActor = HitResult.GetActor();
+
 		if (HitComponent && HitComponent->IsSimulatingPhysics())
 		{
 			//grab object hit 
 			PhysicsHandle->GrabComponentAtLocationWithRotation(HitComponent, NAME_None, HitResult.ImpactPoint, HitComponent->GetComponentRotation());
 			//GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Red, TEXT("grabbing"));
+			
+			//tells object its being held
+			AInteractableObjectParent* InteractableObject = Cast<AInteractableObjectParent>(HitActor);
+			if (InteractableObject)
+			{
+				InteractableObject->OnGrab();
+			}
 		}
 		//todo:change mouse cursor to different state on interact
-		//todo: distance from cursor lol
 
 	}
 }
@@ -92,23 +101,21 @@ void ACursorController::ReleaseActor(const FInputActionValue& Value)
 {
 	if (PhysicsHandle->GrabbedComponent)
 	{
+
+		AActor* HitActor = PhysicsHandle->GrabbedComponent->GetOwner();
+
 		PhysicsHandle->ReleaseComponent();
 		GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Red, TEXT("released actor"));
+
+		//tells object that its been released
+		AInteractableObjectParent* InteractableObject = Cast<AInteractableObjectParent>(HitActor);
+		if (InteractableObject)
+		{
+			InteractableObject->OnRelease();
+		}
 		//todo:return back to normal on release
 	}
 }
-
-//void ACursorController::StopInteraction(const FInputActionValue& Value)
-//{
-//	if (PhysicsHandle->GrabbedComponent)
-//	{
-//		PhysicsHandle->ReleaseComponent();
-//		GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Red, TEXT("released actor"));
-		//todo:return back to normal on release
-//	}
-//}
-
-
 
 // Called every frame
 void ACursorController::Tick(float DeltaTime)
@@ -149,7 +156,6 @@ void ACursorController::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 		EnhancedInputComponent->BindAction(InteractAction, ETriggerEvent::Completed, this, &ACursorController::ReleaseActor);
 
 		EnhancedInputComponent->BindAction(UnInteractAction, ETriggerEvent::Triggered, this, &ACursorController::ReleaseActor);
-		//todo: need to fix it being held on contuinuously if clicked once and not held 
 
 	}
 }

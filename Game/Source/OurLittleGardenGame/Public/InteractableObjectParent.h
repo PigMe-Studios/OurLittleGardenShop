@@ -18,6 +18,12 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 	UStaticMeshComponent* StaticMesh;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "HoldState")
+	bool bIsHeld;
+
+	void OnGrab();
+	void OnRelease();
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
