@@ -38,11 +38,16 @@ protected:
 	//Interaction action on click
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "EnhancedInput")
 	class UInputAction* InteractAction;
+	//stop interation action on click
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "EnhancedInput")
+	class UInputAction* UnInteractAction;
 
 	//Called when LMB pressed
 	void GrabActor(const FInputActionValue& Value);
 	//called when lmb released
 	void ReleaseActor(const FInputActionValue& Value);
+	//stop all interaction
+	//void StopInteraction(const FInputActionValue& Value);
 
 	void CursorWorldPosition();
 

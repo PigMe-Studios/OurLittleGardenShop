@@ -98,6 +98,16 @@ void ACursorController::ReleaseActor(const FInputActionValue& Value)
 	}
 }
 
+//void ACursorController::StopInteraction(const FInputActionValue& Value)
+//{
+//	if (PhysicsHandle->GrabbedComponent)
+//	{
+//		PhysicsHandle->ReleaseComponent();
+//		GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Red, TEXT("released actor"));
+		//todo:return back to normal on release
+//	}
+//}
+
 
 
 // Called every frame
@@ -111,7 +121,7 @@ void ACursorController::Tick(float DeltaTime)
 	if (PhysicsHandle->GrabbedComponent)
 	{
 		//updates object location based on cursor movement x distance offset (wip)
-		FVector updatelocation = CursorWorldLocation + (CursorWorldLocation * MouseObjectDistance);
+		FVector updatelocation = CursorWorldLocation + (CursorWorldDirection * MouseObjectDistance);
 		FRotator CursorWorldRotation = CursorWorldDirection.Rotation();
 
 		PhysicsHandle->SetTargetLocationAndRotation(updatelocation, CursorWorldRotation);
@@ -137,6 +147,8 @@ void ACursorController::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 	{
 		EnhancedInputComponent->BindAction(InteractAction, ETriggerEvent::Started, this, &ACursorController::GrabActor);
 		EnhancedInputComponent->BindAction(InteractAction, ETriggerEvent::Completed, this, &ACursorController::ReleaseActor);
+
+		EnhancedInputComponent->BindAction(UnInteractAction, ETriggerEvent::Triggered, this, &ACursorController::ReleaseActor);
 		//todo: need to fix it being held on contuinuously if clicked once and not held 
 
 	}
