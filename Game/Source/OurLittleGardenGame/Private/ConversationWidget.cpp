@@ -14,12 +14,21 @@ void UConversationWidget::UpdateContentText(FName Name, FString Content)
 {
 	NAME_TEXT->SetText(FText::FromName(Name));
 	CONTENT_TEXT->SetText(FText::FromString(Content));
-	DisplayResponses(0);
+	DisplayResponses(1);
 }
 
 void UConversationWidget::DisplayResponses(int Amount)
 {
-	HideResponses();
+	for (int i = 0; i < ResponseButtons.Num(); i++) {
+		if (Amount  > i)
+		{
+			ResponseButtons[i]->SetVisibility(ESlateVisibility::Visible);
+		}
+		else
+		{
+			ResponseButtons[i]->SetVisibility(ESlateVisibility::Hidden);
+		}
+	}
 }
 
 void UConversationWidget::HideResponses()
