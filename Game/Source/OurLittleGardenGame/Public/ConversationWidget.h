@@ -4,9 +4,12 @@
 
 #include "CoreMinimal.h"
 #include "Blueprint/UserWidget.h"
+#include "Components/TextBlock.h"
+#include "Components/Button.h"
 #include "ConversationWidget.generated.h"
 
 class UTextBlock;
+class UButton;
 
 /**
  * 
@@ -28,4 +31,18 @@ public:
 
 	UPROPERTY(EditAnywhere, meta = (BindWidget))
 	UTextBlock* CONTENT_TEXT;
+
+	// Reponse buttons
+	UPROPERTY(EditAnywhere, meta = (BindWidget))
+	UButton* RESPONSE_BUTTON_1;
+	UPROPERTY(EditAnywhere, meta = (BindWidget))
+	UButton* RESPONSE_BUTTON_2;
+	UPROPERTY(EditAnywhere, meta = (BindWidget))
+	UButton* RESPONSE_BUTTON_3;
+	UPROPERTY(EditAnywhere, meta = (BindWidget))
+	UTextBlock* RESPONSE_TEXT_1;
+	UPROPERTY(EditAnywhere, meta = (BindWidget))
+	UTextBlock* RESPONSE_TEXT_2;
+	UPROPERTY(EditAnywhere, meta = (BindWidget))
+	UTextBlock* RESPONSE_TEXT_3;
 };

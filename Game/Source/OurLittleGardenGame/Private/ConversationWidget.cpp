@@ -2,7 +2,6 @@
 
 
 #include "ConversationWidget.h"
-#include "Components/TextBlock.h"
 
 void UConversationWidget::UpdateContentText(FName Name, FString Content)
 {
