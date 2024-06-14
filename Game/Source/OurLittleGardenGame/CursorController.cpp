@@ -2,12 +2,17 @@
 
 
 #include "CursorController.h"
+#include "Engine/Engine.h"
+#include "DrawDebugHelpers.h"
+#include "GameFramework/Actor.h"
+#include "Components/PrimitiveComponent.h"
 #include "InputMappingContext.h"
 #include "EnhancedInputSubsystems.h"
 #include "EnhancedInputComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "PhysicsEngine/PhysicsHandleComponent.h"
 #include "InteractableObjectParent.h"
+#include "InteractionInterface.h"
 #include "GameFramework/PlayerController.h"
 
 // Sets default values
@@ -21,6 +26,8 @@ ACursorController::ACursorController()
 
 	//initialising physics handle 
 	PhysicsHandle = CreateDefaultSubobject<UPhysicsHandleComponent>(TEXT("PhysicsHandle"));
+
+	bIsInteracting = false;
 
 	MouseObjectDistance = 200.0f;
 }
@@ -62,7 +69,11 @@ void ACursorController::CursorWorldPosition()
 
 void ACursorController::GrabActor(const FInputActionValue& Value)
 {
-	GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Red, TEXT("clicked"));
+	//check if already hoilding item
+	if (bIsInteracting)
+	{
+		return;
+	}
 
 	FVector Start = CursorWorldLocation; 
 	FVector End = Start + (CursorWorldDirection * 5000.0f);
@@ -75,22 +86,33 @@ void ACursorController::GrabActor(const FInputActionValue& Value)
 		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("HitSomething: %s"), *HitResult.GetActor()->GetName()));
 
 		//check if obkect already sim physics
-		UPrimitiveComponent* HitComponent = HitResult.GetComponent();
+		//UPrimitiveComponent* HitComponent = HitResult.GetComponent();
 		AActor* HitActor = HitResult.GetActor();
-
-		if (HitComponent && HitComponent->IsSimulatingPhysics())
+		//jollyhelp xd
+		if (HitResult.GetActor()->GetClass()->ImplementsInterface(UInteractionInterface::StaticClass()))
 		{
-			//grab object hit 
-			PhysicsHandle->GrabComponentAtLocationWithRotation(HitComponent, NAME_None, HitResult.ImpactPoint, HitComponent->GetComponentRotation());
-			//GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Red, TEXT("grabbing"));
-			
-			//tells object its being held
-			AInteractableObjectParent* InteractableObject = Cast<AInteractableObjectParent>(HitActor);
-			if (InteractableObject)
+			IInteractionInterface::Execute_Interact(HitResult.GetActor());
+		}
+		else
+		{
+			UPrimitiveComponent* HitComponent = HitResult.GetComponent();
+
+			if (HitComponent && HitComponent->IsSimulatingPhysics())
 			{
-				InteractableObject->OnGrab();
+				//grab object hit 
+				PhysicsHandle->GrabComponentAtLocationWithRotation(HitComponent, NAME_None, HitResult.ImpactPoint, HitComponent->GetComponentRotation());
+				//GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Red, TEXT("grabbing"));
+				bIsInteracting = true;
+
+				//tells object its being held
+				AInteractableObjectParent* InteractableObject = Cast<AInteractableObjectParent>(HitActor);
+				if (InteractableObject)
+				{
+					InteractableObject->OnGrab();
+				}
 			}
 		}
+		//if (HitActor->GetClass()->ImplementsInterface(UInteractionInterface::StaticClass()	
 		//todo:change mouse cursor to different state on interact
 
 	}
@@ -99,12 +121,18 @@ void ACursorController::GrabActor(const FInputActionValue& Value)
 
 void ACursorController::ReleaseActor(const FInputActionValue& Value)
 {
+	if (!bIsInteracting)
+	{
+		return;
+	}
+
 	if (PhysicsHandle->GrabbedComponent)
 	{
 
 		AActor* HitActor = PhysicsHandle->GrabbedComponent->GetOwner();
 
 		PhysicsHandle->ReleaseComponent();
+		bIsInteracting = false;
 		GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Red, TEXT("released actor"));
 
 		//tells object that its been released
@@ -113,7 +141,7 @@ void ACursorController::ReleaseActor(const FInputActionValue& Value)
 		{
 			InteractableObject->OnRelease();
 		}
-		//todo:return back to normal on release
+		//todo:return cursor back to normal on release
 	}
 }
 
@@ -156,6 +184,8 @@ void ACursorController::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 		EnhancedInputComponent->BindAction(InteractAction, ETriggerEvent::Completed, this, &ACursorController::ReleaseActor);
 
 		EnhancedInputComponent->BindAction(UnInteractAction, ETriggerEvent::Triggered, this, &ACursorController::ReleaseActor);
+
+		//todo: on interact, if has tag or something of that idea, can interact in a different way. probably a seperate func but set up similarly
 
 	}
 }

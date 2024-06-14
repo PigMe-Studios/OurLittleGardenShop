@@ -26,8 +26,6 @@ protected:
 	virtual void BeginPlay() override;
 
 	//cursor visibility
-	
-
 	//xUPROPERTY(EditAnywhere, BlueprintReadWrite, category = "Cursor")
 	//xEMouseCursorType MouseCursor = EMouseCursorType: Default;
 
@@ -59,6 +57,8 @@ protected:
 	//world position of the mouse location
 	FVector CursorWorldLocation;
 	FVector CursorWorldDirection;
+
+	bool bIsInteracting;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	UPhysicsHandleComponent* PhysicsHandle;
