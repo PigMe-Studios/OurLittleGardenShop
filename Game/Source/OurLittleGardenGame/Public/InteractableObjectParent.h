@@ -20,7 +20,7 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 	UStaticMeshComponent* StaticMesh;
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Interaction")
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Interaction")
 	bool bCanBePickedUp;
 
 	void OnGrab();

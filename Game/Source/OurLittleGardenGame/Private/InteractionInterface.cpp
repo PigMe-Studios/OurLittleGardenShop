@@ -5,7 +5,8 @@
 
 // Add default functionality here for any IInteractionInterface functions that are not pure virtual.
 
-void IInteractionInterface::Interact()
-{
-	GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Blue, TEXT("i am interacting in the interatcion interface!!!"));
-}
+//**void IInteractionInterface::Interact()
+//{
+//	GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Blue, TEXT("i am interacting in the interatcion interface!!!"));
+//
+//

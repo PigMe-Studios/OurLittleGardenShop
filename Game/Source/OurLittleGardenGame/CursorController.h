@@ -9,6 +9,7 @@
 #include "CursorController.generated.h"
 
 class UInputMappingContext;
+class AInteractableObjectParent;
 class UInputAction;
 
 UCLASS()
@@ -29,7 +30,7 @@ protected:
 	//xUPROPERTY(EditAnywhere, BlueprintReadWrite, category = "Cursor")
 	//xEMouseCursorType MouseCursor = EMouseCursorType: Default;
 
-	//Character mapping context for controls
+		//Character mapping context for controls
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "EnhancedInput")
 	UInputMappingContext* InputMappingContext;
 
@@ -41,11 +42,11 @@ protected:
 	class UInputAction* UnInteractAction;
 
 	//Called when LMB pressed
-	void GrabActor(const FInputActionValue& Value);
+	void ActorInteract(const FInputActionValue& Value);
 	//called when lmb released
 	void ReleaseActor(const FInputActionValue& Value);
-	//stop all interaction
-	//void StopInteraction(const FInputActionValue& Value);
+
+
 
 	void CursorWorldPosition();
 
@@ -63,10 +64,14 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	UPhysicsHandleComponent* PhysicsHandle;
 
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
+private:
+	void GrabActor(const FHitResult& HitResult, AInteractableObjectParent* InteractableObject);
 };

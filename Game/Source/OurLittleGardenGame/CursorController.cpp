@@ -36,7 +36,6 @@ ACursorController::ACursorController()
 void ACursorController::BeginPlay()
 {
 	Super::BeginPlay();
-	GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Red, TEXT("Scene is Working"));
 
 	APlayerController* PlayerControllerRef = Cast<APlayerController>(GetController());
 	PlayerControllerRef->SetShowMouseCursor(true);
@@ -67,7 +66,7 @@ void ACursorController::CursorWorldPosition()
 	
 }
 
-void ACursorController::GrabActor(const FInputActionValue& Value)
+void ACursorController::ActorInteract(const FInputActionValue& Value)
 {
 	//check if already hoilding item
 	if (bIsInteracting)
@@ -85,55 +84,56 @@ void ACursorController::GrabActor(const FInputActionValue& Value)
 	{
 		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("HitSomething: %s"), *HitResult.GetActor()->GetName()));
 
-		//check if obkect already sim physics
-		//UPrimitiveComponent* HitComponent = HitResult.GetComponent();
 		AActor* HitActor = HitResult.GetActor();
-		//jollyhelp xd
-		if (HitResult.GetActor()->GetClass()->ImplementsInterface(UInteractionInterface::StaticClass()))
+
+		if (HitActor && HitActor->GetClass()->ImplementsInterface(UInteractionInterface::StaticClass()))
 		{
-			IInteractionInterface::Execute_Interact(HitResult.GetActor());
+			//HitResult.GetActor()
+			IInteractionInterface::Execute_Interact(HitActor);
+			//IInteractionInterface::Execute_Interact(HitActor, CursorController	
+			// 
+			AInteractableObjectParent* InteractableObject = Cast<AInteractableObjectParent>(HitActor);
+			if (InteractableObject && InteractableObject->bCanBePickedUp)
+			{
+				GrabActor(HitResult, InteractableObject);
+			}
 		}
 		else
 		{
-			UPrimitiveComponent* HitComponent = HitResult.GetComponent();
-
-			if (HitComponent && HitComponent->IsSimulatingPhysics())
-			{
-				//grab object hit 
-				PhysicsHandle->GrabComponentAtLocationWithRotation(HitComponent, NAME_None, HitResult.ImpactPoint, HitComponent->GetComponentRotation());
-				//GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Red, TEXT("grabbing"));
-				bIsInteracting = true;
-
-				//tells object its being held
-				AInteractableObjectParent* InteractableObject = Cast<AInteractableObjectParent>(HitActor);
-				if (InteractableObject)
-				{
-					InteractableObject->OnGrab();
-				}
-			}
+			//if not interactable, pick up as physical object
+			//GrabActor(HitResult, nullptr);
 		}
-		//if (HitActor->GetClass()->ImplementsInterface(UInteractionInterface::StaticClass()	
 		//todo:change mouse cursor to different state on interact
 
 	}
 }
 
+void ACursorController::GrabActor(const FHitResult& HitResult, AInteractableObjectParent* InteractableObject)
+{
+	UPrimitiveComponent* HitComponent = HitResult.GetComponent();
+
+	if (HitComponent && HitComponent->IsSimulatingPhysics())
+	{
+		PhysicsHandle->GrabComponentAtLocationWithRotation(HitComponent, NAME_None, HitResult.ImpactPoint, HitComponent->GetComponentRotation());
+		bIsInteracting = true;
+
+		if (InteractableObject)
+		{
+			InteractableObject->OnGrab();
+		}
+	}
+}
 
 void ACursorController::ReleaseActor(const FInputActionValue& Value)
 {
-	if (!bIsInteracting)
-	{
-		return;
-	}
-
-	if (PhysicsHandle->GrabbedComponent)
+	if (bIsInteracting && PhysicsHandle->GrabbedComponent)
 	{
 
 		AActor* HitActor = PhysicsHandle->GrabbedComponent->GetOwner();
 
 		PhysicsHandle->ReleaseComponent();
 		bIsInteracting = false;
-		GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Red, TEXT("released actor"));
+		//GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Red, TEXT("released actor"));
 
 		//tells object that its been released
 		AInteractableObjectParent* InteractableObject = Cast<AInteractableObjectParent>(HitActor);
@@ -144,6 +144,7 @@ void ACursorController::ReleaseActor(const FInputActionValue& Value)
 		//todo:return cursor back to normal on release
 	}
 }
+
 
 // Called every frame
 void ACursorController::Tick(float DeltaTime)
@@ -180,7 +181,7 @@ void ACursorController::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 
 	if (UEnhancedInputComponent* EnhancedInputComponent = CastChecked<UEnhancedInputComponent>(PlayerInputComponent))
 	{
-		EnhancedInputComponent->BindAction(InteractAction, ETriggerEvent::Started, this, &ACursorController::GrabActor);
+		EnhancedInputComponent->BindAction(InteractAction, ETriggerEvent::Started, this, &ACursorController::ActorInteract);
 		EnhancedInputComponent->BindAction(InteractAction, ETriggerEvent::Completed, this, &ACursorController::ReleaseActor);
 
 		EnhancedInputComponent->BindAction(UnInteractAction, ETriggerEvent::Triggered, this, &ACursorController::ReleaseActor);
