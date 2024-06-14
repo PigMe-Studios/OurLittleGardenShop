@@ -19,12 +19,22 @@ class OURLITTLEGARDENGAME_API UConversationWidget : public UUserWidget
 {
 	GENERATED_BODY()
 
+protected:
+	virtual void NativeConstruct() override;
+
 public:
 
 	/// @brief Update Name and Content textboxes
 	/// @param Name to display in Name textbox
 	/// @param Content is the text to display in the main textbox
 	void UpdateContentText(FName Name, FString Content);
+
+	/// @brief Un-hide relevant response buttons
+	/// @param Amount of response buttons to display, between 1-3
+	void DisplayResponses(int Amount);
+
+	/// @brief Hide all response buttons
+	void HideResponses();
 
 	UPROPERTY(EditAnywhere, meta = (BindWidget))
 	UTextBlock* NAME_TEXT;
@@ -45,4 +55,7 @@ public:
 	UTextBlock* RESPONSE_TEXT_2;
 	UPROPERTY(EditAnywhere, meta = (BindWidget))
 	UTextBlock* RESPONSE_TEXT_3;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TArray<UButton*> ResponseButtons;
 };

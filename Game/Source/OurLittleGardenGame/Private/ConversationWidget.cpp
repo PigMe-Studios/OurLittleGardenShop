@@ -3,8 +3,29 @@
 
 #include "ConversationWidget.h"
 
+void UConversationWidget::NativeConstruct()
+{
+	Super::NativeConstruct();
+
+	ResponseButtons = { RESPONSE_BUTTON_1, RESPONSE_BUTTON_2 , RESPONSE_BUTTON_3 };
+}
+
 void UConversationWidget::UpdateContentText(FName Name, FString Content)
 {
 	NAME_TEXT->SetText(FText::FromName(Name));
 	CONTENT_TEXT->SetText(FText::FromString(Content));
+	DisplayResponses(0);
+}
+
+void UConversationWidget::DisplayResponses(int Amount)
+{
+	HideResponses();
+}
+
+void UConversationWidget::HideResponses()
+{
+	for (UButton* Button : ResponseButtons)
+	{
+		Button->SetVisibility(ESlateVisibility::Hidden);
+	}
 }

@@ -20,15 +20,15 @@ void ACustomer::BeginPlay()
 	UpdateDialogue(FName("NewRow"));
 }
 
+// TODO: Remove "Name" from struct, as Data-tables already have row names
+// TODO: Get name of character from row
 bool ACustomer::UpdateDialogue(FName Name)
 {
 	if (FDialogueLine* Row = DIALOGUE_TABLE->FindRow<FDialogueLine>(Name, ""))
 	{
 		Emotion = Row->CharacterEmotion;
 		ConversationWidget->UpdateContentText(FName("Test"), Row->Content);
-		// TODO: Remove "Name" from struct, as Data-tables already have row names
-		// TODO: Get actual name of character from row
-		//x UE_LOG(LogTemp, Warning, TEXT("Text: %s"), *Row->Content);
+		
 		return true;
 	}
 	return false;
