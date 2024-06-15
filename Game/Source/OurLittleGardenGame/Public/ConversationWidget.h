@@ -31,7 +31,8 @@ public:
 
 	/// @brief Un-hide relevant response buttons
 	/// @param Amount of response buttons to display, between 1-3
-	void DisplayResponses(int Amount);
+	/// @param Contents of each response button
+	void DisplayResponses(int Amount, TArray<FString> Contents);
 
 	/// @brief Hide all response buttons
 	void HideResponses();
@@ -58,4 +59,5 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<UButton*> ResponseButtons;
+	TArray<UTextBlock*> ResponseTexts;
 };

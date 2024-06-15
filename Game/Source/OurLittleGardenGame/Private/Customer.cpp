@@ -28,7 +28,20 @@ bool ACustomer::UpdateDialogue(FName Name)
 	{
 		Emotion = Row->CharacterEmotion;
 		ConversationWidget->UpdateContentText(FName("Test"), Row->Content);
-		
+		if (Row->bRespondable)
+		{
+			TArray<FString> ResponseContents;
+			for (FResponse Response : Row->Responses)
+			{
+				ResponseContents.Add(Response.Content);
+			}
+			ConversationWidget->DisplayResponses(Row->Responses.Num(), ResponseContents);
+		}
+		else
+		{
+			ConversationWidget->HideResponses();
+		}
+
 		return true;
 	}
 	return false;
