@@ -2,6 +2,9 @@
 
 
 #include "InteractableObjectParent.h"
+#include "GameFramework/PlayerController.h"
+#include "CursorController.generated.h"
+#include "Engine/Engine.h"
 
 // Sets default values
 AInteractableObjectParent::AInteractableObjectParent()
@@ -16,18 +19,42 @@ AInteractableObjectParent::AInteractableObjectParent()
 	StaticMesh->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
 	StaticMesh->SetCollisionObjectType(ECollisionChannel::ECC_PhysicsBody);
 
+	//defualt pickupable actor to true
+	bCanBePickedUp = true;
+
+}
+
+void AInteractableObjectParent::Interact_Implementation()
+{
+	if (bCanBePickedUp)
+	{
+		pickup();
+	}
+	else
+	{
+		View();
+	}
 }
 
 void AInteractableObjectParent::OnGrab()
 {
-	bIsHeld = true;
 	GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Blue, TEXT("BISHELD"));
 }
 
 void AInteractableObjectParent::OnRelease()
 {
-	bIsHeld = false;
 	GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Blue, TEXT("BISRELEASED"));
+}
+
+void AInteractableObjectParent::pickup()
+{
+	//pickup
+	GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Emerald, TEXT("holding object"));
+}
+
+void AInteractableObjectParent::View()
+{
+	GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Emerald, TEXT("viewing object"));
 }
 
 // Called when the game starts or when spawned
