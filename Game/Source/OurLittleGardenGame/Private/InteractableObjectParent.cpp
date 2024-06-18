@@ -4,6 +4,7 @@
 #include "InteractableObjectParent.h"
 #include "GameFramework/PlayerController.h"
 #include "CursorController.generated.h"
+#include "Blueprint/UserWidget.h"
 #include "Engine/Engine.h"
 
 // Sets default values
@@ -21,6 +22,8 @@ AInteractableObjectParent::AInteractableObjectParent()
 
 	//defualt pickupable actor to true
 	bCanBePickedUp = true;
+
+	//ActiveWBP_RequestBoard = nullptr;
 
 }
 
@@ -54,7 +57,22 @@ void AInteractableObjectParent::pickup()
 
 void AInteractableObjectParent::View()
 {
-	GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Emerald, TEXT("viewing object"));
+
+	if (InteractionWidgetClass)
+	{
+		APlayerController* PlayerController = GetWorld()->GetFirstPlayerController();
+		if (PlayerController && ActiveWidget)
+		{
+			GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Emerald, TEXT("widget removed"));
+			ActiveWidget->RemoveFromParent();
+		}
+		ActiveWidget = CreateWidget<UUserWidget>(PlayerController, InteractionWidgetClass);
+		if (ActiveWidget)
+		{
+			GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Emerald, TEXT("widget created"));
+			ActiveWidget->AddToViewport();
+		}
+	}
 }
 
 // Called when the game starts or when spawned

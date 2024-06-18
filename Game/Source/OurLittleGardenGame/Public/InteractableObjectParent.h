@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "InteractionInterface.h"
+#include "Blueprint/UserWidget.h"
 #include "InteractableObjectParent.generated.h"
 
 
@@ -22,6 +23,9 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interaction")
 	bool bCanBePickedUp;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interaction")
+	TSubclassOf<UUserWidget> InteractionWidgetClass;
 
 	void OnGrab();
 	void OnRelease();
@@ -45,5 +49,8 @@ public:
 	void Interact(); 
 	// actual decleration of interactinterface
 	virtual void Interact_Implementation() override;
+
+private:
+	UUserWidget* ActiveWidget;
 
 };
