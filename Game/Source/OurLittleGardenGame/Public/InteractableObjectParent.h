@@ -33,6 +33,8 @@ public:
 	void pickup();
 	void View();
 
+	bool bIsWidgetVisible;
+
 	//insert other action here
 
 protected:

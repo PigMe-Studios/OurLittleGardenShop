@@ -22,6 +22,7 @@ AInteractableObjectParent::AInteractableObjectParent()
 
 	//defualt pickupable actor to true
 	bCanBePickedUp = true;
+	bIsWidgetVisible = false;
 
 	//ActiveWBP_RequestBoard = nullptr;
 
@@ -61,18 +62,24 @@ void AInteractableObjectParent::View()
 	if (InteractionWidgetClass)
 	{
 		APlayerController* PlayerController = GetWorld()->GetFirstPlayerController();
-		if (PlayerController && ActiveWidget)
+		if (bIsWidgetVisible && ActiveWidget)
 		{
-			GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Emerald, TEXT("widget removed"));
 			ActiveWidget->RemoveFromParent();
+
+			bIsWidgetVisible = false;
 		}
-		ActiveWidget = CreateWidget<UUserWidget>(PlayerController, InteractionWidgetClass);
-		if (ActiveWidget)
+		else if (!bIsWidgetVisible)
 		{
-			GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Emerald, TEXT("widget created"));
-			ActiveWidget->AddToViewport();
+			ActiveWidget = CreateWidget<UUserWidget>(PlayerController, InteractionWidgetClass);
+			if (ActiveWidget)
+			{
+				ActiveWidget->AddToViewport();
+
+				bIsWidgetVisible = true;
+			}
 		}
 	}
+//thyis just removes and creates it straight away again... need to basically flip flop itso instead it doesnt call it
 }
 
 // Called when the game starts or when spawned
