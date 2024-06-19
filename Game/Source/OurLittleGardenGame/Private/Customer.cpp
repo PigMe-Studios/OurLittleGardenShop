@@ -26,8 +26,9 @@ bool ACustomer::UpdateDialogue(FName Name)
 {
 	if (FDialogueLine* Row = DIALOGUE_TABLE->FindRow<FDialogueLine>(Name, ""))
 	{
+		CurrentDialogue = Name;
 		Emotion = Row->CharacterEmotion;
-		ConversationWidget->UpdateContentText(FName("Test"), Row->Content);
+		ConversationWidget->UpdateContentText(Row->Name, Row->Content);
 		if (Row->bRespondable)
 		{
 			TArray<FString> ResponseContents;
@@ -54,7 +55,21 @@ void ACustomer::CreateConversationWidget()
 	if (ConversationWidget)
 	{
 		ConversationWidget->AddToPlayerScreen();
+		ConversationWidget->OwningCustomer = this;
 	}
+}
+
+FName ACustomer::GetResponseDialogue(int ResponseOption)
+{
+	FDialogueLine* Row = DIALOGUE_TABLE->FindRow<FDialogueLine>(CurrentDialogue, "");
+	for (int i = 0; i < Row->Responses.Num(); i++) {
+		if (i == ResponseOption - 1)
+		{
+			FName Name = Row->Responses[i].NextLine;
+			return Name;
+		}
+	}
+	return FName();
 }
 
 // Called every frame

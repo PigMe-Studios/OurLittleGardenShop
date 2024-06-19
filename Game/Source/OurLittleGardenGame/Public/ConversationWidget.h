@@ -6,10 +6,12 @@
 #include "Blueprint/UserWidget.h"
 #include "Components/TextBlock.h"
 #include "Components/Button.h"
+#include "DialogueTrigger.h"
 #include "ConversationWidget.generated.h"
 
 class UTextBlock;
 class UButton;
+class ACustomer;
 
 /**
  * 
@@ -33,6 +35,11 @@ public:
 	/// @param Amount of response buttons to display, between 1-3
 	/// @param Contents of each response button
 	void DisplayResponses(int Amount, TArray<FString> Contents);
+
+	/// @brief Progress to next dialogue line when button pressed
+	/// @param 	Chosen response represented as an integer from 0-3 (0 when the player can't respond)
+	UFUNCTION(BlueprintCallable)
+	void ProgressDialogue(int ChosenResponse);
 
 	/// @brief Hide all response buttons
 	void HideResponses();
@@ -60,4 +67,6 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<UButton*> ResponseButtons;
 	TArray<UTextBlock*> ResponseTexts;
+
+	AActor* OwningCustomer;
 };

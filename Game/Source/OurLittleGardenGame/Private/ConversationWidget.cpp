@@ -3,6 +3,8 @@
 
 #include "ConversationWidget.h"
 
+class ACustomer;
+
 void UConversationWidget::NativeConstruct()
 {
 	Super::NativeConstruct();
@@ -29,6 +31,20 @@ void UConversationWidget::DisplayResponses(int Amount, TArray<FString> Contents)
 		else
 		{
 			ResponseButtons[i]->SetVisibility(ESlateVisibility::Hidden);
+		}
+	}
+}
+
+// This function is called in BPs as there's no easy way to bind a button's OnClicked()
+// to a function whilst also passing along a parameter
+void UConversationWidget::ProgressDialogue(int ChosenResponse)
+{
+	if (ChosenResponse > 0)
+	{
+		if (IDialogueTrigger* DialogueInterface = Cast<IDialogueTrigger>(OwningCustomer))
+		{
+			FName NextLine = DialogueInterface->GetResponseDialogue(ChosenResponse);
+			DialogueInterface->UpdateDialogue(NextLine);
 		}
 	}
 }
