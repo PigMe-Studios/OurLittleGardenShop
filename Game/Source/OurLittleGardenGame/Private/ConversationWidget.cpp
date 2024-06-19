@@ -27,6 +27,7 @@ void UConversationWidget::DisplayResponses(int Amount, TArray<FString> Contents)
 		{
 			ResponseButtons[i]->SetVisibility(ESlateVisibility::Visible);
 			ResponseTexts[i]->SetText(FText::FromString(Contents[i]));
+			PROGRESS_BUTTON->SetVisibility(ESlateVisibility::Hidden);
 		}
 		else
 		{
@@ -39,12 +40,28 @@ void UConversationWidget::DisplayResponses(int Amount, TArray<FString> Contents)
 // to a function whilst also passing along a parameter
 void UConversationWidget::ProgressDialogue(int ChosenResponse)
 {
+	FName NextLine;
 	if (ChosenResponse > 0)
 	{
 		if (IDialogueTrigger* DialogueInterface = Cast<IDialogueTrigger>(OwningCustomer))
 		{
-			FName NextLine = DialogueInterface->GetResponseDialogue(ChosenResponse);
+			NextLine = DialogueInterface->GetResponseDialogue(ChosenResponse);
 			DialogueInterface->UpdateDialogue(NextLine);
+		}
+	}
+	else
+	{
+		if (IDialogueTrigger* DialogueInterface = Cast<IDialogueTrigger>(OwningCustomer))
+		{
+			NextLine = DialogueInterface->GetNextLine();
+			if (NextLine == FName(""))
+			{
+				RemoveFromParent();
+			}
+			else
+			{
+				DialogueInterface->UpdateDialogue(NextLine);
+			}	
 		}
 	}
 }
@@ -55,4 +72,5 @@ void UConversationWidget::HideResponses()
 	{
 		Button->SetVisibility(ESlateVisibility::Hidden);
 	}
+	PROGRESS_BUTTON->SetVisibility(ESlateVisibility::Visible);
 }

@@ -32,4 +32,8 @@ public:
 	/// @param Name the desired dialogue line
 	/// @return Was an appropriate line found?
 	virtual  bool UpdateDialogue(FName Name);
+
+	/// @brief Get the Name of the next dialogue line from the current dialogue line
+	/// @return Name of the next Dialogue line
+	virtual FName GetNextLine();
 };

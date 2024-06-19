@@ -17,7 +17,7 @@ void ACustomer::BeginPlay()
 {
 	Super::BeginPlay();
 	CreateConversationWidget();
-	UpdateDialogue(FName("NewRow"));
+	UpdateDialogue(FName("NewRow_2"));
 }
 
 // TODO: Remove "Name" from struct, as Data-tables already have row names
@@ -70,6 +70,12 @@ FName ACustomer::GetResponseDialogue(int ResponseOption)
 		}
 	}
 	return FName();
+}
+
+FName ACustomer::GetNextLine()
+{
+	FDialogueLine* Row = DIALOGUE_TABLE->FindRow<FDialogueLine>(CurrentDialogue, "");
+	return Row->NextLine;
 }
 
 // Called every frame

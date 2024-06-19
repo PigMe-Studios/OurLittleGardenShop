@@ -14,3 +14,8 @@ bool IDialogueTrigger::UpdateDialogue(FName Name)
 {
 	return false;
 }
+
+FName IDialogueTrigger::GetNextLine()
+{
+	return FName();
+}

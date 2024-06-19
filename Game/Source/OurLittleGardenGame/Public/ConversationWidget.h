@@ -50,6 +50,9 @@ public:
 	UPROPERTY(EditAnywhere, meta = (BindWidget))
 	UTextBlock* CONTENT_TEXT;
 
+	UPROPERTY(EditAnywhere, meta = (BindWidget))
+	UButton* PROGRESS_BUTTON;
+
 	// Reponse buttons
 	UPROPERTY(EditAnywhere, meta = (BindWidget))
 	UButton* RESPONSE_BUTTON_1;

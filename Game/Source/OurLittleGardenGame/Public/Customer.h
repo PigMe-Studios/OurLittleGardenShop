@@ -39,6 +39,10 @@ public:
 	/// @return Name of the next Dialogue line
 	FName GetResponseDialogue(int ResponseOption) override;
 
+	/// @brief Get the Name of the next dialogue line from the current dialogue line
+	/// @return Name of the next Dialogue line
+	FName GetNextLine() override;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	UDataTable* DIALOGUE_TABLE;
 
