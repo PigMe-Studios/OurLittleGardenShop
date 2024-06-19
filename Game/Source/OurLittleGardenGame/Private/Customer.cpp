@@ -28,7 +28,9 @@ bool ACustomer::UpdateDialogue(FName Name)
 	{
 		CurrentDialogue = Name;
 		Emotion = Row->CharacterEmotion;
-		ConversationWidget->UpdateContentText(Row->Name, Row->Content);
+		FString CharacterFullName = UEnum::GetValueAsString(Row->CharacterSpeaking);
+		CharacterFullName = CharacterFullName.Replace(TEXT("ECharacter::"), TEXT(""));
+		ConversationWidget->UpdateContentText(FName(CharacterFullName), Row->Content);
 		if (Row->bRespondable)
 		{
 			TArray<FString> ResponseContents;

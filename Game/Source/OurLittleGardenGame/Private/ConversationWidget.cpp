@@ -17,7 +17,6 @@ void UConversationWidget::UpdateContentText(FName Name, FString Content)
 {
 	NAME_TEXT->SetText(FText::FromName(Name));
 	CONTENT_TEXT->SetText(FText::FromString(Content));
-	//DisplayResponses(1);
 }
 
 void UConversationWidget::DisplayResponses(int Amount, TArray<FString> Contents)
@@ -41,6 +40,7 @@ void UConversationWidget::DisplayResponses(int Amount, TArray<FString> Contents)
 void UConversationWidget::ProgressDialogue(int ChosenResponse)
 {
 	FName NextLine;
+	// Progress after player response
 	if (ChosenResponse > 0)
 	{
 		if (IDialogueTrigger* DialogueInterface = Cast<IDialogueTrigger>(OwningCustomer))
@@ -49,6 +49,7 @@ void UConversationWidget::ProgressDialogue(int ChosenResponse)
 			DialogueInterface->UpdateDialogue(NextLine);
 		}
 	}
+	// Progress for non-respondable dialogue
 	else
 	{
 		if (IDialogueTrigger* DialogueInterface = Cast<IDialogueTrigger>(OwningCustomer))
