@@ -25,3 +25,7 @@ void APlantParent::Tick(float DeltaTime)
 
 }
 
+void APlantParent::Grow_Implementation(float GrowthPerTick)
+{
+	
+}
