@@ -17,11 +17,10 @@ void ACustomer::BeginPlay()
 {
 	Super::BeginPlay();
 	CreateConversationWidget();
-	UpdateDialogue(FName("NewRow_2"));
+	UpdateDialogue(FName("Test4"));
 }
 
 // TODO: Remove "Name" from struct, as Data-tables already have row names
-// TODO: Get name of character from row
 bool ACustomer::UpdateDialogue(FName Name)
 {
 	if (FDialogueLine* Row = DIALOGUE_TABLE->FindRow<FDialogueLine>(Name, ""))

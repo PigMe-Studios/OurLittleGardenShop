@@ -49,10 +49,6 @@ struct FDialogueLine : public FTableRowBase
 {
 	GENERATED_USTRUCT_BODY()
 
-	// Name/ID used to refer to this specific response
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	FName Name;
-
 	// Text to be displayed in text box
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FString Content;

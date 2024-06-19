@@ -1,3 +1,5 @@
----,Name,Content,CharacterSpeaking,CharacterEmotion,bRespondable,Responses,NextLine
-NewRow,"Test1","Im angry grr","CHEF","ANGRY","True","((Name=""Test1"",Content=""dont be angry"",NextLine=""Test2""))","None"
-NewRow_0,"Test2","","CHEF","HAPPY","False","","None"
+---,Content,CharacterSpeaking,CharacterEmotion,bRespondable,Responses,NextLine
+NewRow,"Im angry grr","CHEF","ANGRY","True","((Name=""Response1"",Content=""dont be angry"",NextLine=""NewRow_0""),(Name="""",Content=""be sad now"",NextLine=""NewRow_1""))","None"
+NewRow_0,"i'm not angry anymore :)","CHEF","HAPPY","False","","None"
+NewRow_1,"Ok, now I'm sad :c","CHEF","SAD","False","","None"
+NewRow_2,"Hello im in your shop","CHEF","HAPPY","False","","NewRow"
