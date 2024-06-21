@@ -14,6 +14,7 @@
 //ToDo:Harvest
 //ToDo:Growth instant on load
 
+//ToDo:
 UCLASS()
 class OURLITTLEGARDENGAME_API APlantParent : public AActor, public IGrowable
 {
@@ -37,5 +38,9 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	
+	
+	void Grow_Implementation(float GrowthPerTick)override;
 
 };
