@@ -30,6 +30,11 @@ protected:
 	/// @brief Create a new Conversation widget and add to viewport
 	void CreateConversationWidget();
 
+	/// @brief Give the Player a new quest
+	/// @param Quest ID of the quest to be added
+	UFUNCTION(BlueprintImplementableEvent)
+	void AddQuest(const FName& QuestID);
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
