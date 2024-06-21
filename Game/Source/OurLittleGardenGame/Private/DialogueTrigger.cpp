@@ -19,3 +19,11 @@ FName IDialogueTrigger::GetNextLine()
 {
 	return FName();
 }
+
+void IDialogueTrigger::StartDialogue(FName DialogueLine)
+{
+}
+
+void IDialogueTrigger::EndDialogue()
+{
+}

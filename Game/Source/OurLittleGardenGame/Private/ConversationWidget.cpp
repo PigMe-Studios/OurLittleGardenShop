@@ -39,6 +39,7 @@ void UConversationWidget::DisplayResponses(int Amount, TArray<FString> Contents)
 // to a function whilst also passing along a parameter
 void UConversationWidget::ProgressDialogue(int ChosenResponse)
 {
+	//TDOD: Move interface check to reduce amount of IF statements
 	FName NextLine;
 	// Progress after player response
 	if (ChosenResponse > 0)
@@ -57,7 +58,7 @@ void UConversationWidget::ProgressDialogue(int ChosenResponse)
 			NextLine = DialogueInterface->GetNextLine();
 			if (NextLine == FName(""))
 			{
-				RemoveFromParent();
+				DialogueInterface->EndDialogue();
 			}
 			else
 			{

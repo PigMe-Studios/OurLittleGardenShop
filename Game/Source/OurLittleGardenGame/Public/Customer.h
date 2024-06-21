@@ -39,6 +39,13 @@ public:
 	/// @return Name of the next Dialogue line
 	FName GetResponseDialogue(int ResponseOption) override;
 
+	/// @brief Start a new dialogue conversation
+	/// @param Dialogue Line to start the conversation with
+	void StartDialogue(FName DialogueLine) override;
+
+	/// @brief Destroy Conversation widget and end dialogue
+	void EndDialogue() override;
+
 	/// @brief Get the Name of the next dialogue line from the current dialogue line
 	/// @return Name of the next Dialogue line
 	FName GetNextLine() override;
