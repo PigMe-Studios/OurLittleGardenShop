@@ -61,12 +61,6 @@ public:
 
 
 
-
-
-protected:
-private:
-
-
 	UFUNCTION()
 	void OpenStartMenu();
 
@@ -76,14 +70,20 @@ private:
 	UFUNCTION()
 	void QuitGame();
 
-	UFUNCTION()
+	UFUNCTION(BlueprintCallable, Category = "SaveGameData")
 	void LoadGameData();
 
-	UFUNCTION()
+	UFUNCTION(BlueprintCallable, Category = "SaveGameData")
 	void NewGameData();
 
 	UFUNCTION()
 	void ReturnToMenu();
+
+
+protected:
+private:
+
+
 
 
 
