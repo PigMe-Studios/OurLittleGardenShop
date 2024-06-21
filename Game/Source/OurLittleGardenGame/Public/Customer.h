@@ -39,6 +39,7 @@ public:
 	/// @return Name of the next Dialogue line
 	FName GetResponseDialogue(int ResponseOption) override;
 
+	UFUNCTION(BlueprintCallable)
 	/// @brief Start a new dialogue conversation
 	/// @param Dialogue Line to start the conversation with
 	void StartDialogue(FName DialogueLine) override;
