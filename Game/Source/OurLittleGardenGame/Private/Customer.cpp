@@ -42,6 +42,11 @@ bool ACustomer::UpdateDialogue(FName Name)
 			ConversationWidget->HideResponses();
 		}
 
+		if (Row->TriggeredQuest != FName(""))
+		{
+			AddQuest(Row->TriggeredQuest);
+		}
+
 		return true;
 	}
 	return false;

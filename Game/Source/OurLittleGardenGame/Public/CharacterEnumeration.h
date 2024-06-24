@@ -74,7 +74,7 @@ struct FDialogueLine : public FTableRowBase
 	FName NextLine;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	FText TriggeredQuest;
+	FName TriggeredQuest;
 
 
 	//UPROPERTY()
