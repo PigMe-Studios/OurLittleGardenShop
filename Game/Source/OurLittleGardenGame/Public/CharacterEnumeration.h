@@ -76,6 +76,12 @@ struct FDialogueLine : public FTableRowBase
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FName Conversation;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FName TriggeredQuest;
+
+
+	//UPROPERTY()
+
 };
 
 /**

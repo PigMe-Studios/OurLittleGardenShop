@@ -16,11 +16,9 @@ ACustomer::ACustomer()
 void ACustomer::BeginPlay()
 {
 	Super::BeginPlay();
-	CreateConversationWidget();
-	UpdateDialogue(FName("Test4"));
+	StartDialogue(FName("Quest2"));
 }
 
-// TODO: Remove "Name" from struct, as Data-tables already have row names
 bool ACustomer::UpdateDialogue(FName Name)
 {
 	if (FDialogueLine* Row = DIALOGUE_TABLE->FindRow<FDialogueLine>(Name, ""))
@@ -42,6 +40,11 @@ bool ACustomer::UpdateDialogue(FName Name)
 		else
 		{
 			ConversationWidget->HideResponses();
+		}
+
+		if (Row->TriggeredQuest != FName(""))
+		{
+			AddQuest(Row->TriggeredQuest);
 		}
 
 		return true;
@@ -71,6 +74,18 @@ FName ACustomer::GetResponseDialogue(int ResponseOption)
 		}
 	}
 	return FName();
+}
+
+void ACustomer::StartDialogue(FName DialogueLine)
+{
+	CreateConversationWidget();
+	UpdateDialogue(FName(DialogueLine));
+}
+
+void ACustomer::EndDialogue()
+{
+	ConversationWidget->RemoveFromParent();
+	ConversationWidget = nullptr;
 }
 
 FName ACustomer::GetNextLine()

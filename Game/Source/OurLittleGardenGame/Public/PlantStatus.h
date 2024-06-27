@@ -55,6 +55,7 @@ enum ELevel
 UENUM(BlueprintType)
 enum EPlants
 {
+	None UMETA(DisplayName = "None"),
 	Carrot UMETA(DisplayName = "Carrot"),
 	Sage UMETA(DisplayName = "Sage"),
 	Potato UMETA(DisplayName = "Potato"),
