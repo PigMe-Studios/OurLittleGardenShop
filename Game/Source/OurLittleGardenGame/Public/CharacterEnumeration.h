@@ -72,12 +72,16 @@ struct FDialogueLine : public FTableRowBase
 	// The line to display after this one, leave blank to end conversation
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FName NextLine;
+	// The conversation this line is a part of, used to organise dialogue lines
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FName Conversation;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FName TriggeredQuest;
 
 
 	//UPROPERTY()
+
 };
 
 /**
