@@ -3,7 +3,7 @@
 
 #include "InteractableObjectParent.h"
 #include "GameFramework/PlayerController.h"
-#include "CursorController.generated.h"
+//#include "CursorController.generated.h"
 #include "Blueprint/UserWidget.h"
 #include "Engine/Engine.h"
 
