@@ -38,6 +38,8 @@ void ACursorController::BeginPlay()
 
 	APlayerController* PlayerControllerRef = Cast<APlayerController>(GetController());
 	PlayerControllerRef->SetShowMouseCursor(true);
+	
+	SetCursorType(ECursorType::Default);
 	//xPlayerControllerRef->DeprojectMousePositionToWorld()
 }
 
@@ -115,11 +117,38 @@ void ACursorController::GrabActor(const FHitResult& HitResult, AInteractableObje
 	{
 		PhysicsHandle->GrabComponentAtLocationWithRotation(HitComponent, NAME_None, HitResult.ImpactPoint, HitComponent->GetComponentRotation());
 		bIsInteracting = true;
+		SetCursorType(ECursorType::Interact);
 
 		if (InteractableObject)
 		{
 			InteractableObject->OnGrab();
 		}
+	}
+}
+
+void ACursorController::SetCursorType(ECursorType CursorType)
+{
+	//cursor type
+
+	APlayerController* PlayerControllerRef = Cast<APlayerController>(GetController());
+
+	switch (CursorType)
+	{
+	case ECursorType::Default:
+		PlayerControllerRef->CurrentMouseCursor = EMouseCursor::Default;
+		break;
+	case ECursorType::Interact:
+		PlayerControllerRef->CurrentMouseCursor = EMouseCursor::GrabHandClosed;
+		break;
+		//going to add a hover state to make it more noticable what is interactable
+	case ECursorType::HoverInteract:
+		PlayerControllerRef->CurrentMouseCursor = EMouseCursor::GrabHand;
+		break;
+
+
+	default:
+		PlayerControllerRef->CurrentMouseCursor = EMouseCursor::Default;
+		break;
 	}
 }
 
@@ -132,6 +161,7 @@ void ACursorController::ReleaseActor(const FInputActionValue& Value)
 
 		PhysicsHandle->ReleaseComponent();
 		bIsInteracting = false;
+		SetCursorType(ECursorType::Default);
 		//GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Red, TEXT("released actor"));
 
 		//tells object that its been released
