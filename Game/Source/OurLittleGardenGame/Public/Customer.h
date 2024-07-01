@@ -30,6 +30,11 @@ protected:
 	/// @brief Create a new Conversation widget and add to viewport
 	void CreateConversationWidget();
 
+	/// @brief Give the Player a new quest
+	/// @param Quest ID of the quest to be added
+	UFUNCTION(BlueprintImplementableEvent)
+	void AddQuest(const FName& QuestID);
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -38,6 +43,14 @@ public:
 	/// @param Response Option chosen by the player
 	/// @return Name of the next Dialogue line
 	FName GetResponseDialogue(int ResponseOption) override;
+
+	UFUNCTION(BlueprintCallable)
+	/// @brief Start a new dialogue conversation
+	/// @param Dialogue Line to start the conversation with
+	void StartDialogue(FName DialogueLine) override;
+
+	/// @brief Destroy Conversation widget and end dialogue
+	void EndDialogue() override;
 
 	/// @brief Get the Name of the next dialogue line from the current dialogue line
 	/// @return Name of the next Dialogue line

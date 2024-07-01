@@ -36,4 +36,11 @@ public:
 	/// @brief Get the Name of the next dialogue line from the current dialogue line
 	/// @return Name of the next Dialogue line
 	virtual FName GetNextLine();
+
+	/// @brief Start a new dialogue conversation
+	/// @param Dialogue Line to start the conversation with
+	virtual void StartDialogue(FName DialogueLine);
+
+	/// @brief Destroy Conversation widget and end dialogue
+	virtual void EndDialogue();
 };
