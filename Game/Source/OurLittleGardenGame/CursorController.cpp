@@ -30,7 +30,7 @@ ACursorController::ACursorController()
 
 	MouseObjectDistance = 200.0f;
 
-	HoverCheckDelay = 0.2f;
+	HoverCheckDelay = 0.1f;
 	LastHoverCheck = 0.0f;
 }
 
@@ -158,6 +158,13 @@ void ACursorController::SetCursorType(ECursorType CursorType)
 void ACursorController::CurserHoverCheck()
 {
 	//checking for cursor hover over interactable item
+
+	if (bIsInteracting)
+	{
+		SetCursorType(ECursorType::Interact);
+		return;
+	}
+
 	FVector Start = CursorWorldLocation;
 	FVector End = Start + (CursorWorldDirection * 5000.0f);
 
