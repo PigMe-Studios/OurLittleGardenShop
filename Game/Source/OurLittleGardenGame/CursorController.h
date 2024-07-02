@@ -66,6 +66,10 @@ protected:
 	float MouseY;
 	float MouseObjectDistance;
 
+	//tick flaot check
+	float HoverCheckDelay;
+	float LastHoverCheck;
+
 	//world position of the mouse location
 	FVector CursorWorldLocation;
 	FVector CursorWorldDirection;
@@ -74,6 +78,7 @@ protected:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	UPhysicsHandleComponent* PhysicsHandle;
+
 
 
 public:	
@@ -86,6 +91,8 @@ public:
 	void GrabActor(const FHitResult& HitResult, AInteractableObjectParent* InteractableObject);
 
 	void SetCursorType(ECursorType CursorType);
+
+	void CurserHoverCheck();
 
 private:
 };

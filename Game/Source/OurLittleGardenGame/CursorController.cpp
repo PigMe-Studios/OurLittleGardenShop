@@ -29,6 +29,9 @@ ACursorController::ACursorController()
 	bIsInteracting = false;
 
 	MouseObjectDistance = 200.0f;
+
+	HoverCheckDelay = 0.2f;
+	LastHoverCheck = 0.0f;
 }
 
 // Called when the game starts or when spawned
@@ -140,7 +143,7 @@ void ACursorController::SetCursorType(ECursorType CursorType)
 	case ECursorType::Interact:
 		PlayerControllerRef->CurrentMouseCursor = EMouseCursor::GrabHandClosed;
 		break;
-		//going to add a hover state to make it more noticable what is interactable
+		//going to add a hover state to make it more noticable what is interactable 
 	case ECursorType::HoverInteract:
 		PlayerControllerRef->CurrentMouseCursor = EMouseCursor::GrabHand;
 		break;
@@ -150,6 +153,35 @@ void ACursorController::SetCursorType(ECursorType CursorType)
 		PlayerControllerRef->CurrentMouseCursor = EMouseCursor::Default;
 		break;
 	}
+}
+
+void ACursorController::CurserHoverCheck()
+{
+	//checking for cursor hover over interactable item
+	FVector Start = CursorWorldLocation;
+	FVector End = Start + (CursorWorldDirection * 5000.0f);
+
+	FHitResult HitResult;
+	FCollisionQueryParams LineTraceParams;
+
+	if (GetWorld()->LineTraceSingleByChannel(HitResult, Start, End, ECollisionChannel::ECC_Visibility, LineTraceParams, FCollisionResponseParams()))
+	{
+		AActor* HitActor = HitResult.GetActor();
+
+		if (HitActor && HitActor->GetClass()->ImplementsInterface(UInteractionInterface::StaticClass()))
+		{
+			SetCursorType(ECursorType::HoverInteract); 
+		}
+		else
+		{
+			SetCursorType(ECursorType::Default); 
+		}
+	}
+	else
+	{
+		SetCursorType(ECursorType::Default); 
+	}
+
 }
 
 void ACursorController::ReleaseActor(const FInputActionValue& Value)
@@ -190,6 +222,12 @@ void ACursorController::Tick(float DeltaTime)
 		FRotator CursorWorldRotation = CursorWorldDirection.Rotation();
 
 		PhysicsHandle->SetTargetLocationAndRotation(updatelocation, CursorWorldRotation);
+	}
+
+	if (GetWorld()->GetTimeSeconds() - LastHoverCheck >= HoverCheckDelay)
+	{
+		CurserHoverCheck();
+		LastHoverCheck = GetWorld()->GetTimeSeconds();
 	}
 
 }
