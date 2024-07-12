@@ -40,8 +40,10 @@ struct FResponse
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FName NextLine;
 
+	// The condition to check if this response should be accessible 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FName Condition;
 
-	//UPROPERTY()
 };
 
 USTRUCT(BlueprintType)
