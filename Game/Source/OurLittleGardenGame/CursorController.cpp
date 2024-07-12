@@ -29,6 +29,9 @@ ACursorController::ACursorController()
 	bIsInteracting = false;
 
 	MouseObjectDistance = 200.0f;
+
+	HoverCheckDelay = 0.1f;
+	LastHoverCheck = 0.0f;
 }
 
 // Called when the game starts or when spawned
@@ -38,6 +41,8 @@ void ACursorController::BeginPlay()
 
 	APlayerController* PlayerControllerRef = Cast<APlayerController>(GetController());
 	PlayerControllerRef->SetShowMouseCursor(true);
+	
+	SetCursorType(ECursorType::Default);
 	//xPlayerControllerRef->DeprojectMousePositionToWorld()
 }
 
@@ -115,12 +120,75 @@ void ACursorController::GrabActor(const FHitResult& HitResult, AInteractableObje
 	{
 		PhysicsHandle->GrabComponentAtLocationWithRotation(HitComponent, NAME_None, HitResult.ImpactPoint, HitComponent->GetComponentRotation());
 		bIsInteracting = true;
+		SetCursorType(ECursorType::Interact);
 
 		if (InteractableObject)
 		{
 			InteractableObject->OnGrab();
 		}
 	}
+}
+
+void ACursorController::SetCursorType(ECursorType CursorType)
+{
+	//cursor type
+
+	APlayerController* PlayerControllerRef = Cast<APlayerController>(GetController());
+
+	switch (CursorType)
+	{
+	case ECursorType::Default:
+		PlayerControllerRef->CurrentMouseCursor = EMouseCursor::Default;
+		break;
+	case ECursorType::Interact:
+		PlayerControllerRef->CurrentMouseCursor = EMouseCursor::GrabHandClosed;
+		break;
+		//going to add a hover state to make it more noticable what is interactable 
+	case ECursorType::HoverInteract:
+		PlayerControllerRef->CurrentMouseCursor = EMouseCursor::GrabHand;
+		break;
+
+
+	default:
+		PlayerControllerRef->CurrentMouseCursor = EMouseCursor::Default;
+		break;
+	}
+}
+
+void ACursorController::CurserHoverCheck()
+{
+	//checking for cursor hover over interactable item
+
+	if (bIsInteracting)
+	{
+		SetCursorType(ECursorType::Interact);
+		return;
+	}
+
+	FVector Start = CursorWorldLocation;
+	FVector End = Start + (CursorWorldDirection * 5000.0f);
+
+	FHitResult HitResult;
+	FCollisionQueryParams LineTraceParams;
+
+	if (GetWorld()->LineTraceSingleByChannel(HitResult, Start, End, ECollisionChannel::ECC_Visibility, LineTraceParams, FCollisionResponseParams()))
+	{
+		AActor* HitActor = HitResult.GetActor();
+
+		if (HitActor && HitActor->GetClass()->ImplementsInterface(UInteractionInterface::StaticClass()))
+		{
+			SetCursorType(ECursorType::HoverInteract); 
+		}
+		else
+		{
+			SetCursorType(ECursorType::Default); 
+		}
+	}
+	else
+	{
+		SetCursorType(ECursorType::Default); 
+	}
+
 }
 
 void ACursorController::ReleaseActor(const FInputActionValue& Value)
@@ -132,6 +200,7 @@ void ACursorController::ReleaseActor(const FInputActionValue& Value)
 
 		PhysicsHandle->ReleaseComponent();
 		bIsInteracting = false;
+		SetCursorType(ECursorType::Default);
 		//GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Red, TEXT("released actor"));
 
 		//tells object that its been released
@@ -160,6 +229,12 @@ void ACursorController::Tick(float DeltaTime)
 		FRotator CursorWorldRotation = CursorWorldDirection.Rotation();
 
 		PhysicsHandle->SetTargetLocationAndRotation(updatelocation, CursorWorldRotation);
+	}
+
+	if (GetWorld()->GetTimeSeconds() - LastHoverCheck >= HoverCheckDelay)
+	{
+		CurserHoverCheck();
+		LastHoverCheck = GetWorld()->GetTimeSeconds();
 	}
 
 }

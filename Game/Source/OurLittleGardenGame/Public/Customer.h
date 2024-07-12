@@ -13,8 +13,8 @@ UCLASS()
 class OURLITTLEGARDENGAME_API ACustomer : public AActor, public IDialogueTrigger
 {
 	GENERATED_BODY()
-	
-public:	
+
+public:
 	// Sets default values for this actor's properties
 	ACustomer();
 
@@ -23,7 +23,7 @@ protected:
 	virtual void BeginPlay() override;
 
 	/// @brief Update Dialogue text and character emotion with new line
-	/// @param Name the desired dialogue line
+	/// @param Name of the desired dialogue line
 	/// @return Was an appropriate line found?
 	bool UpdateDialogue(FName Name) override;
 
@@ -33,9 +33,14 @@ protected:
 	/// @brief Give the Player a new quest
 	/// @param Quest ID of the quest to be added
 	UFUNCTION(BlueprintImplementableEvent)
-	void AddQuest(const FName& QuestID);
+		void AddQuest(const FName& QuestID);
 
-public:	
+	/// @brief Search condition map to find if condition met
+	/// @param Condition to search for
+	/// @return Returns true is condition not found or condition's status is true
+	bool IsResponseConditionMet(FName Condition);
+
+public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
@@ -45,9 +50,9 @@ public:
 	FName GetResponseDialogue(int ResponseOption) override;
 
 	UFUNCTION(BlueprintCallable)
-	/// @brief Start a new dialogue conversation
-	/// @param Dialogue Line to start the conversation with
-	void StartDialogue(FName DialogueLine) override;
+		/// @brief Start a new dialogue conversation
+		/// @param Dialogue Line to start the conversation with
+		void StartDialogue(FName DialogueLine) override;
 
 	/// @brief Destroy Conversation widget and end dialogue
 	void EndDialogue() override;
@@ -57,18 +62,24 @@ public:
 	FName GetNextLine() override;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	UDataTable* DIALOGUE_TABLE;
+		UDataTable* DIALOGUE_TABLE;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	TSubclassOf<class UConversationWidget> CONVERSATION_CLASS;
+		TSubclassOf<class UConversationWidget> CONVERSATION_CLASS;
 
 	class UConversationWidget* ConversationWidget;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	ECharacter Character;
+		ECharacter Character;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	EEmotion Emotion;
+		EEmotion Emotion;
 
 	FName CurrentDialogue;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		TMap<FName, bool> ConditionMap;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		TArray<FName> DisplayedResponses;
 };

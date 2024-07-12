@@ -12,6 +12,17 @@ class UInputMappingContext;
 class AInteractableObjectParent;
 class UInputAction;
 
+
+UENUM(BlueprintType)
+enum class ECursorType : uint8
+{
+	Default UMETA(DisplayName = "Default"),
+	Interact UMETA(DisplayName = "Interact"),
+	HoverInteract UMETA(DisplayName = "Hover"),
+
+};
+
+
 UCLASS()
 class OURLITTLEGARDENGAME_API ACursorController : public APawn
 {
@@ -55,6 +66,10 @@ protected:
 	float MouseY;
 	float MouseObjectDistance;
 
+	//tick flaot check
+	float HoverCheckDelay;
+	float LastHoverCheck;
+
 	//world position of the mouse location
 	FVector CursorWorldLocation;
 	FVector CursorWorldDirection;
@@ -65,6 +80,7 @@ protected:
 	UPhysicsHandleComponent* PhysicsHandle;
 
 
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -72,6 +88,11 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-private:
 	void GrabActor(const FHitResult& HitResult, AInteractableObjectParent* InteractableObject);
+
+	void SetCursorType(ECursorType CursorType);
+
+	void CurserHoverCheck();
+
+private:
 };

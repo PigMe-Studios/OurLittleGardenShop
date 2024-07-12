@@ -42,18 +42,18 @@ void UConversationWidget::ProgressDialogue(int ChosenResponse)
 	//TDOD: Move interface check to reduce amount of IF statements
 	FName NextLine;
 	// Progress after player response
-	if (ChosenResponse > 0)
+	if (IDialogueTrigger* DialogueInterface = Cast<IDialogueTrigger>(OwningCustomer))
 	{
-		if (IDialogueTrigger* DialogueInterface = Cast<IDialogueTrigger>(OwningCustomer))
+		if (ChosenResponse > 0)
 		{
-			NextLine = DialogueInterface->GetResponseDialogue(ChosenResponse);
-			DialogueInterface->UpdateDialogue(NextLine);
+
+			{
+				NextLine = DialogueInterface->GetResponseDialogue(ChosenResponse);
+				DialogueInterface->UpdateDialogue(NextLine);
+			}
 		}
-	}
-	// Progress for non-respondable dialogue
-	else
-	{
-		if (IDialogueTrigger* DialogueInterface = Cast<IDialogueTrigger>(OwningCustomer))
+		// Progress for non-respondable dialogue
+		else
 		{
 			NextLine = DialogueInterface->GetNextLine();
 			if (NextLine == FName(""))
@@ -63,8 +63,9 @@ void UConversationWidget::ProgressDialogue(int ChosenResponse)
 			else
 			{
 				DialogueInterface->UpdateDialogue(NextLine);
-			}	
+			}
 		}
+
 	}
 }
 

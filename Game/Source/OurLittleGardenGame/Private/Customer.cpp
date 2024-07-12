@@ -16,7 +16,7 @@ ACustomer::ACustomer()
 void ACustomer::BeginPlay()
 {
 	Super::BeginPlay();
-	StartDialogue(FName("Quest2"));
+	StartDialogue(FName("MM_Intro1"));
 }
 
 bool ACustomer::UpdateDialogue(FName Name)
@@ -30,12 +30,18 @@ bool ACustomer::UpdateDialogue(FName Name)
 		ConversationWidget->UpdateContentText(FName(CharacterFullName), Row->Content);
 		if (Row->bRespondable)
 		{
+			DisplayedResponses.Empty();
+			//int ResponseAmount = 0;
 			TArray<FString> ResponseContents;
 			for (FResponse Response : Row->Responses)
 			{
-				ResponseContents.Add(Response.Content);
+				if (IsResponseConditionMet(Response.Condition))
+				{
+					ResponseContents.Add(Response.Content);
+					DisplayedResponses.Add(Response.NextLine);
+				}
 			}
-			ConversationWidget->DisplayResponses(Row->Responses.Num(), ResponseContents);
+			ConversationWidget->DisplayResponses(DisplayedResponses.Num(), ResponseContents);
 		}
 		else
 		{
@@ -66,10 +72,10 @@ void ACustomer::CreateConversationWidget()
 FName ACustomer::GetResponseDialogue(int ResponseOption)
 {
 	FDialogueLine* Row = DIALOGUE_TABLE->FindRow<FDialogueLine>(CurrentDialogue, "");
-	for (int i = 0; i < Row->Responses.Num(); i++) {
+	for (int i = 0; i < DisplayedResponses.Num(); i++) {
 		if (i == ResponseOption - 1)
 		{
-			FName Name = Row->Responses[i].NextLine;
+			FName Name = DisplayedResponses[i];
 			return Name;
 		}
 	}
@@ -92,6 +98,23 @@ FName ACustomer::GetNextLine()
 {
 	FDialogueLine* Row = DIALOGUE_TABLE->FindRow<FDialogueLine>(CurrentDialogue, "");
 	return Row->NextLine;
+}
+
+bool ACustomer::IsResponseConditionMet(FName Condition)
+{
+	//if (Response.Condition == FName("") || *ConditionMap.Find(Response.Condition))
+	//xif (Condition == FName(""))
+	//x{
+	//x	return true;
+	//x}
+
+	if (bool* ConditionValue = ConditionMap.Find(Condition))
+	{
+		return *ConditionValue;
+	}
+	return true;
+
+	
 }
 
 // Called every frame
