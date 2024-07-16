@@ -125,6 +125,7 @@ void ACursorController::GrabActor(const FHitResult& HitResult, AInteractableObje
 		if (InteractableObject)
 		{
 			InteractableObject->OnGrab();
+			MouseObjectDistance = InteractableObject->GrabDistance;
 		}
 	}
 }
@@ -201,6 +202,8 @@ void ACursorController::ReleaseActor(const FInputActionValue& Value)
 		PhysicsHandle->ReleaseComponent();
 		bIsInteracting = false;
 		SetCursorType(ECursorType::Default);
+		// Reset grab distance to default
+		MouseObjectDistance = 200.0f;
 		//GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Red, TEXT("released actor"));
 
 		//tells object that its been released
