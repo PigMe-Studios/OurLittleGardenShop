@@ -23,6 +23,8 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float GrabDistance = 200.0f;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float RotationSpeed = 10.0f;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interaction")
 	bool bCanBePickedUp;

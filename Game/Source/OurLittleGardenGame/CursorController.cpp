@@ -12,6 +12,7 @@
 #include "PhysicsEngine/PhysicsHandleComponent.h"
 #include "InteractableObjectParent.h"
 #include "InteractionInterface.h"
+#include "Kismet/GameplayStatics.h"
 #include "GameFramework/PlayerController.h"
 
 // Sets default values
@@ -118,7 +119,8 @@ void ACursorController::GrabActor(const FHitResult& HitResult, AInteractableObje
 
 	if (HitComponent && HitComponent->IsSimulatingPhysics())
 	{
-		PhysicsHandle->GrabComponentAtLocationWithRotation(HitComponent, NAME_None, HitResult.ImpactPoint, HitComponent->GetComponentRotation());
+		PhysicsHandle->GrabComponentAtLocationWithRotation(HitComponent, NAME_None, HitResult.ImpactPoint,HitComponent->GetComponentRotation());
+		//PhysicsHandle->GrabComponentAtLocation(HitComponent, NAME_None, HitResult.ImpactPoint);
 		bIsInteracting = true;
 		SetCursorType(ECursorType::Interact);
 
@@ -126,6 +128,9 @@ void ACursorController::GrabActor(const FHitResult& HitResult, AInteractableObje
 		{
 			InteractableObject->OnGrab();
 			MouseObjectDistance = InteractableObject->GrabDistance;
+			HeldActor = InteractableObject;
+			RotationYaw = InteractableObject->GetActorRotation().Yaw;
+			RotationSpeed = InteractableObject->RotationSpeed;
 		}
 	}
 }
@@ -212,7 +217,24 @@ void ACursorController::ReleaseActor(const FInputActionValue& Value)
 		{
 			InteractableObject->OnRelease();
 		}
+
+		HeldActor = nullptr;
+		RotationYaw = 0;
+		RotationSpeed = 0;
 		//todo:return cursor back to normal on release
+	}
+}
+
+void ACursorController::RotateActor(const FInputActionValue& Value)
+{
+	//TODO: Remove deprecated bits from old implementation
+	RotationMagnitude = Value.Get<float>();
+	UE_LOG(LogTemp, Warning, TEXT("Rotate Action Called"));
+	//TODO: Casting every frame tut tut! Make this a var so it only needs to be done once per grab
+	if (HeldActor &&
+		HeldActor->GetClass()->ImplementsInterface(UInteractionInterface::StaticClass()))
+	{
+		Cast<IInteractionInterface>(HeldActor)->Rotate(Value.Get<float>());
 	}
 }
 
@@ -231,7 +253,9 @@ void ACursorController::Tick(float DeltaTime)
 		FVector updatelocation = CursorWorldLocation + (CursorWorldDirection * MouseObjectDistance);
 		FRotator CursorWorldRotation = CursorWorldDirection.Rotation();
 
-		PhysicsHandle->SetTargetLocationAndRotation(updatelocation, CursorWorldRotation);
+		FRotator AddedYaw = FRotator(0, RotationYaw, 0);
+		PhysicsHandle->SetTargetLocationAndRotation(updatelocation, FRotator(CursorWorldRotation.Pitch, RotationYaw, CursorWorldRotation.Roll));//CursorWorldRotation + AddedYaw);
+		//PhysicsHandle->SetTargetLocation(updatelocation);
 	}
 
 	if (GetWorld()->GetTimeSeconds() - LastHoverCheck >= HoverCheckDelay)
@@ -239,6 +263,9 @@ void ACursorController::Tick(float DeltaTime)
 		CurserHoverCheck();
 		LastHoverCheck = GetWorld()->GetTimeSeconds();
 	}
+
+	//float DeltaTime = UGameplayStatics::GetWorldDeltaSeconds(this);
+	RotationYaw += RotationSpeed * RotationMagnitude * DeltaTime;
 
 }
 
@@ -262,6 +289,10 @@ void ACursorController::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 		EnhancedInputComponent->BindAction(InteractAction, ETriggerEvent::Completed, this, &ACursorController::ReleaseActor);
 
 		EnhancedInputComponent->BindAction(UnInteractAction, ETriggerEvent::Triggered, this, &ACursorController::ReleaseActor);
+
+		// Completed rotate action is binded to stop the input
+		EnhancedInputComponent->BindAction(RotateAction, ETriggerEvent::Triggered, this, &ACursorController::RotateActor);
+		EnhancedInputComponent->BindAction(RotateAction, ETriggerEvent::Completed, this, &ACursorController::RotateActor);
 
 		//todo: on interact, if has tag or something of that idea, can interact in a different way. probably a seperate func but set up similarly
 
