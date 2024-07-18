@@ -119,7 +119,7 @@ void ACursorController::GrabActor(const FHitResult& HitResult, AInteractableObje
 
 	if (HitComponent && HitComponent->IsSimulatingPhysics())
 	{
-		PhysicsHandle->GrabComponentAtLocationWithRotation(HitComponent, NAME_None, HitResult.ImpactPoint,HitComponent->GetComponentRotation());
+		PhysicsHandle->GrabComponentAtLocationWithRotation(HitComponent, NAME_None, HitResult.GetActor()->GetActorLocation(), HitComponent->GetComponentRotation());
 		//PhysicsHandle->GrabComponentAtLocation(HitComponent, NAME_None, HitResult.ImpactPoint);
 		bIsInteracting = true;
 		SetCursorType(ECursorType::Interact);
@@ -129,8 +129,9 @@ void ACursorController::GrabActor(const FHitResult& HitResult, AInteractableObje
 			InteractableObject->OnGrab();
 			MouseObjectDistance = InteractableObject->GrabDistance;
 			HeldActor = InteractableObject;
-			RotationYaw = InteractableObject->GetActorRotation().Yaw;
 			RotationSpeed = InteractableObject->RotationSpeed;
+			GrabRotation = InteractableObject->GetActorRotation();
+			RotationYaw = GrabRotation.Yaw;
 		}
 	}
 }
@@ -227,15 +228,7 @@ void ACursorController::ReleaseActor(const FInputActionValue& Value)
 
 void ACursorController::RotateActor(const FInputActionValue& Value)
 {
-	//TODO: Remove deprecated bits from old implementation
 	RotationMagnitude = Value.Get<float>();
-	UE_LOG(LogTemp, Warning, TEXT("Rotate Action Called"));
-	//TODO: Casting every frame tut tut! Make this a var so it only needs to be done once per grab
-	if (HeldActor &&
-		HeldActor->GetClass()->ImplementsInterface(UInteractionInterface::StaticClass()))
-	{
-		Cast<IInteractionInterface>(HeldActor)->Rotate(Value.Get<float>());
-	}
 }
 
 
@@ -253,8 +246,8 @@ void ACursorController::Tick(float DeltaTime)
 		FVector updatelocation = CursorWorldLocation + (CursorWorldDirection * MouseObjectDistance);
 		FRotator CursorWorldRotation = CursorWorldDirection.Rotation();
 
-		FRotator AddedYaw = FRotator(0, RotationYaw, 0);
-		PhysicsHandle->SetTargetLocationAndRotation(updatelocation, FRotator(CursorWorldRotation.Pitch, RotationYaw, CursorWorldRotation.Roll));//CursorWorldRotation + AddedYaw);
+		FRotator AddedYaw = FRotator(0, RotationYaw, 0) + GrabRotation;
+		PhysicsHandle->SetTargetLocationAndRotation(updatelocation, AddedYaw);//CursorWorldRotation + AddedYaw);
 		//PhysicsHandle->SetTargetLocation(updatelocation);
 	}
 

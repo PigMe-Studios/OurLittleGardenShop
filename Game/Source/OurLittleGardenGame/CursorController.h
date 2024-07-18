@@ -82,6 +82,9 @@ protected:
 
 	float RotationSpeed;
 
+	// The rotation of the grabbed object when it is first grabbed
+	FRotator GrabRotation;
+
 	//world position of the mouse location
 	FVector CursorWorldLocation;
 	FVector CursorWorldDirection;
