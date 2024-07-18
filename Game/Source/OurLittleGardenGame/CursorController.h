@@ -51,11 +51,16 @@ protected:
 	//stop interation action on click
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "EnhancedInput")
 	class UInputAction* UnInteractAction;
+	// Used to rotate grabbed objects
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "EnhancedInput")
+	class UInputAction* RotateAction;
 
 	//Called when LMB pressed
 	void ActorInteract(const FInputActionValue& Value);
 	//called when lmb released
 	void ReleaseActor(const FInputActionValue& Value);
+	// Called when scroll wheel / QE pressed
+	void RotateActor(const FInputActionValue& Value);
 
 
 
@@ -70,11 +75,21 @@ protected:
 	float HoverCheckDelay;
 	float LastHoverCheck;
 
+	// Amount to rotate a grabbed object
+	float RotationMagnitude;
+
+	float RotationYaw;
+
+	float RotationSpeed;
+
 	//world position of the mouse location
 	FVector CursorWorldLocation;
 	FVector CursorWorldDirection;
 
 	bool bIsInteracting;
+
+	// The actor currently being held by the player
+	AActor* HeldActor;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	UPhysicsHandleComponent* PhysicsHandle;
