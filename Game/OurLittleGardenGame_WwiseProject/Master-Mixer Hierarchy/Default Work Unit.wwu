@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D9368D35-E065-46B3-93B7-5187147384E4}" SchemaVersion="119">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{D9368D35-E065-46B3-93B7-5187147384E4}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{6C5E35A8-DFC2-4D8F-8807-AFDB8EAD5880}" WorkUnitID="{8576C1EE-6633-42B6-90D3-5E2EE1C4C359}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Bus_AmbienceMain" ID="{2361CC39-9E38-480C-BFEE-CAAE36414582}">
+							<ChildrenList>
+								<Bus Name="Bus_2DAmb" ID="{AA621647-7B84-413D-AC76-4BBFA01ACC3B}"/>
+								<Bus Name="Bus_3DAmb" ID="{A7D004DA-7A5D-412E-B7FE-AF07B68D1D38}"/>
+								<Bus Name="Bus_AmbBeds" ID="{B629EC4F-752A-4AC2-805F-786103F9BEE2}"/>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="Bus_DialogueMain" ID="{016BF56C-4F89-4395-8DC0-B824483205A5}"/>
+						<Bus Name="Bus_EnvironmentMain" ID="{F3C7F1CC-E9A6-46E9-9BE7-7487009DB83B}"/>
+						<Bus Name="Bus_MusicMain" ID="{B3499051-F3FB-45D0-9D09-A5EE0276A6CD}"/>
+						<Bus Name="Bus_ReverbMain" ID="{CC926357-5A3D-40D8-ADB8-2C3C5BFAC73E}"/>
+						<Bus Name="Bus_PlayerMain" ID="{1ED810A1-9436-4662-BA12-C45DC74DE6CC}"/>
+						<Bus Name="Bus_UIMain" ID="{27D152F2-3896-49A6-A472-FF8223072D63}"/>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

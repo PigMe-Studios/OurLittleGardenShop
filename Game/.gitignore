@@ -92,3 +92,13 @@ Build/Android/res/*/*
 
 ### MacOS ###
 .DS_Store
+
+# -- Start Wwise --
+
+# Unneeded generated soundbanks files
+SoundbanksInfo.xml
+PluginInfo.xml
+
+# ignores plugins folder (sorted by auto launch script)
+Plugins/*
+# -- End Wwise --

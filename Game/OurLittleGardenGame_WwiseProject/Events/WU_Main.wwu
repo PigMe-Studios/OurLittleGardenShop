@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{450AF261-550D-444A-A848-2802D6720954}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="WU_Main" ID="{450AF261-550D-444A-A848-2802D6720954}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_UI_Pop" ID="{A506968D-F0E2-491A-99D9-A0DF79AB353A}">
+					<ChildrenList>
+						<Action Name="" ID="{21624B75-3D40-4880-82B6-A617A0F2EA86}" ShortID="639353733">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Pop" ID="{9A3E4AED-7E94-4927-B99F-16B8EC7A62E3}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
