@@ -3,17 +3,188 @@
 	<Events>
 		<WorkUnit Name="WU_Main" ID="{450AF261-550D-444A-A848-2802D6720954}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_UI_Pop" ID="{A506968D-F0E2-491A-99D9-A0DF79AB353A}">
+				<Folder Name="Ambience" ID="{B61AA943-6F32-40EF-BE1B-D9A4604DA37F}" ShortID="823818076">
 					<ChildrenList>
-						<Action Name="" ID="{21624B75-3D40-4880-82B6-A617A0F2EA86}" ShortID="639353733">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="UI_Pop" ID="{9A3E4AED-7E94-4927-B99F-16B8EC7A62E3}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Play_Amb_GardenAmb_Birds_Wind" ID="{0EEFC5E7-1F69-4FAF-9ED8-D73E1E099FC4}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="17"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{FD96788C-5F68-4AC7-A1E6-96C9B41273E3}" ShortID="378043510">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_GardenAmb_Birds-Wind" ID="{2E16CD7C-7F94-4318-A082-E6F2B1354335}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
+				</Folder>
+				<Folder Name="Environment" ID="{B1B7B36E-5C77-4ADB-8BCC-9BB68FD1639D}" ShortID="16762382">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="17"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Play_Env_ShopBell" ID="{439F0EFE-EF68-487D-A78C-A4CAFF3188FC}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="17"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{A0590965-FEFE-4D0A-A496-1C637B0EEAA2}" ShortID="397874735">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Env_ShopBell" ID="{FDD29960-C5E0-45F2-97EB-C7B5B3A5FECD}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Interact" ID="{44A92588-2E7B-43F4-BC4C-2619A5C9DFFB}" ShortID="921331858">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="17"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Play_Int_Plant" ID="{E70A92C3-958A-4658-B8C5-F0E6C4E6C785}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="17"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{681AB6C3-37A7-4A0A-940C-079ED047ABCB}" ShortID="495237628">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Int_Plant" ID="{A995BECC-B4F7-411E-BDD9-5B63E05EE385}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Int_WateringCan" ID="{7165C635-8EA9-44DB-AEA1-06504646D50B}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="17"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{178987A2-1CE5-4C39-8419-48D0B4A87D71}" ShortID="725409795">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Int_WateringCan" ID="{53CD4141-E6DC-4448-9865-B58273467F7F}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Int_Dig" ID="{A9A3DFA6-FDD9-4197-8409-F19D7779B0EB}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="17"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{B42C3ABE-DB73-4E43-A538-10D884D67868}" ShortID="857483671">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Int_Dig" ID="{AD0A2865-EDDB-48A1-94F6-97936759F429}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="UI" ID="{257203CD-56C1-4441-976F-DC24A503EE3F}" ShortID="913592466">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="17"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Play_UI_Pop" ID="{A506968D-F0E2-491A-99D9-A0DF79AB353A}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="17"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{21624B75-3D40-4880-82B6-A617A0F2EA86}" ShortID="639353733">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Pop" ID="{9A3E4AED-7E94-4927-B99F-16B8EC7A62E3}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_UI_DialogueProgress" ID="{E8BD84C4-15A4-4E44-A5C3-3AE191C8E802}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="17"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{6F6F6C3A-C813-4140-9293-D5D6D234B1B8}" ShortID="723107817">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_DialogueProgress" ID="{BC9C667B-05AD-461D-AE4A-14A415F0B8C4}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_UI_Pop_Double" ID="{79475BBF-4A51-4D78-A830-3E27BE176768}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="17"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{EC76E3CA-FD75-42C7-92AD-6836215BE028}" ShortID="530430670">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Pop-Double" ID="{6338B50D-1270-4980-961B-541C1D03CD6F}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_UI_Pop_Reverse" ID="{06DFBA66-5CF9-49C3-BE6A-FB9F3EF5CCB4}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="17"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{063563B2-23BD-4CD2-80E0-580E23FE43E4}" ShortID="865199152">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Pop-Reverse" ID="{033C1A9C-48C8-4DDA-8D60-23D99EC2346A}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="MusicTemp" ID="{D4C91DA7-D0D2-4C4A-9D7E-0D793990C0A4}" ShortID="114645410">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="17"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Play_Music_DistantGentleGuitar_HRTF" ID="{C50085BD-D3FB-42B4-A59A-E92B4AB326F4}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="17"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{FD0A655C-124C-42F4-A150-5D2E311C1E0E}" ShortID="1011248961">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_DistantGentleGuitar_HRTF" ID="{3441A69F-BD87-4E8B-8110-9D2DFE56D5C6}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

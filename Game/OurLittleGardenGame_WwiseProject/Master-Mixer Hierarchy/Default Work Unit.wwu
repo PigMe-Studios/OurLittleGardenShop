@@ -21,7 +21,7 @@
 						<Bus Name="Bus_EnvironmentMain" ID="{F3C7F1CC-E9A6-46E9-9BE7-7487009DB83B}"/>
 						<Bus Name="Bus_MusicMain" ID="{B3499051-F3FB-45D0-9D09-A5EE0276A6CD}"/>
 						<Bus Name="Bus_ReverbMain" ID="{CC926357-5A3D-40D8-ADB8-2C3C5BFAC73E}"/>
-						<Bus Name="Bus_PlayerMain" ID="{1ED810A1-9436-4662-BA12-C45DC74DE6CC}"/>
+						<Bus Name="Bus_InteractMain" ID="{1ED810A1-9436-4662-BA12-C45DC74DE6CC}"/>
 						<Bus Name="Bus_UIMain" ID="{27D152F2-3896-49A6-A472-FF8223072D63}"/>
 					</ChildrenList>
 				</Bus>

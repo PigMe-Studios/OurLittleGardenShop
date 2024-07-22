@@ -3,7 +3,7 @@
 	<Attenuations>
 		<WorkUnit Name="WU_Generic" ID="{A18E6774-FB7A-46B1-BA29-19E6BBED5184}" PersistMode="Standalone">
 			<ChildrenList>
-				<Attenuation Name="Att_generic_10m" ID="{CE48D257-632E-4AB5-8B86-0D0F9E61E845}" ShortID="382653185">
+				<Attenuation Name="Att_Generic_10m" ID="{CE48D257-632E-4AB5-8B86-0D0F9E61E845}" ShortID="382653185">
 					<PropertyList>
 						<Property Name="RadiusMax" Type="Real64" Value="1000"/>
 					</PropertyList>
@@ -157,7 +157,7 @@
 						</TransmissionHPFUsage>
 					</CurveUsageInfoList>
 				</Attenuation>
-				<Attenuation Name="Att_generic_50m" ID="{B1D927F8-D3D6-4CD0-8A6D-70962152F0A9}" ShortID="791284243">
+				<Attenuation Name="Att_Generic_50m" ID="{B1D927F8-D3D6-4CD0-8A6D-70962152F0A9}" ShortID="791284243">
 					<PropertyList>
 						<Property Name="RadiusMax" Type="Real64" Value="5000"/>
 					</PropertyList>
@@ -322,7 +322,7 @@
 						</TransmissionHPFUsage>
 					</CurveUsageInfoList>
 				</Attenuation>
-				<Attenuation Name="Att_generic_100m" ID="{893D34DD-F9C4-476F-9453-6FAEA7DF0F2D}" ShortID="789096198">
+				<Attenuation Name="Att_Generic_100m" ID="{893D34DD-F9C4-476F-9453-6FAEA7DF0F2D}" ShortID="789096198">
 					<PropertyList>
 						<Property Name="RadiusMax" Type="Real64" Value="10000"/>
 					</PropertyList>
@@ -486,7 +486,7 @@
 						</TransmissionHPFUsage>
 					</CurveUsageInfoList>
 				</Attenuation>
-				<Attenuation Name="Att_generic_250m" ID="{412480D9-2DA7-43B7-B61F-076CD8DC5CBD}" ShortID="451055797">
+				<Attenuation Name="Att_Generic_250m" ID="{412480D9-2DA7-43B7-B61F-076CD8DC5CBD}" ShortID="451055797">
 					<PropertyList>
 						<Property Name="RadiusMax" Type="Real64" Value="25000"/>
 					</PropertyList>
@@ -650,7 +650,7 @@
 						</TransmissionHPFUsage>
 					</CurveUsageInfoList>
 				</Attenuation>
-				<Attenuation Name="Att_generic_5m" ID="{0B5308F9-4FFD-47C2-BA8C-D758982DA45A}" ShortID="885876656">
+				<Attenuation Name="Att_Generic_5m" ID="{0B5308F9-4FFD-47C2-BA8C-D758982DA45A}" ShortID="885876656">
 					<PropertyList>
 						<Property Name="RadiusMax" Type="Real64" Value="500"/>
 					</PropertyList>
@@ -804,7 +804,7 @@
 						</TransmissionHPFUsage>
 					</CurveUsageInfoList>
 				</Attenuation>
-				<Attenuation Name="Att_generic_500m" ID="{E3CC6A08-47B2-4F34-8DC6-A6E9BD388335}" ShortID="171343591">
+				<Attenuation Name="Att_Generic_500m" ID="{E3CC6A08-47B2-4F34-8DC6-A6E9BD388335}" ShortID="171343591">
 					<PropertyList>
 						<Property Name="RadiusMax" Type="Real64" Value="50000"/>
 					</PropertyList>
@@ -968,7 +968,7 @@
 						</TransmissionHPFUsage>
 					</CurveUsageInfoList>
 				</Attenuation>
-				<Attenuation Name="Att_generic_25m" ID="{DF33414D-F2F7-47E7-BA3E-4CBC7D81F25F}" ShortID="328189968">
+				<Attenuation Name="Att_Generic_25m" ID="{DF33414D-F2F7-47E7-BA3E-4CBC7D81F25F}" ShortID="328189968">
 					<PropertyList>
 						<Property Name="RadiusMax" Type="Real64" Value="2500"/>
 					</PropertyList>
