@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="792485676" Type="Event" GUID="{E8BD84C4-15A4-4E44-A5C3-3AE191C8E802}" Language="SFX" Hash="{B0C85DC7-27A5-0CF9-B3AB-95766BD3B84B}">
+		<SoundBank Id="792485676" Type="Event" GUID="{E8BD84C4-15A4-4E44-A5C3-3AE191C8E802}" Language="SFX" Hash="{F6F0EB0E-201B-B606-9D10-D162D6373A8F}">
 			<ObjectPath>Play_UI_DialogueProgress</ObjectPath>
 			<ShortName>Play_UI_DialogueProgress</ShortName>
 			<Path>Event/Play_UI_DialogueProgress.bnk</Path>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6094CC56-D365-FA24-CCFA-4DF6BF279996}</FileHash>
+	<FileHash>{ABFD741F-E105-5D0D-0E34-1AEEC0AB80A2}</FileHash>
 </SoundBanksInfo>

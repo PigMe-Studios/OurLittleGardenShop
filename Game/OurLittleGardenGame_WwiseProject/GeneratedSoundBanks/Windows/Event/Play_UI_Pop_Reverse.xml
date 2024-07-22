@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="100379607" Type="Event" GUID="{06DFBA66-5CF9-49C3-BE6A-FB9F3EF5CCB4}" Language="SFX" Hash="{362B4C0F-1481-CB63-9897-57952F1DD540}">
+		<SoundBank Id="100379607" Type="Event" GUID="{06DFBA66-5CF9-49C3-BE6A-FB9F3EF5CCB4}" Language="SFX" Hash="{0D2143D3-0847-AEA4-F430-FF84F194E573}">
 			<ObjectPath>Play_UI_Pop_Reverse</ObjectPath>
 			<ShortName>Play_UI_Pop_Reverse</ShortName>
 			<Path>Event/Play_UI_Pop_Reverse.bnk</Path>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C787B1E3-C1EC-19FA-AA49-A68C3390CB2F}</FileHash>
+	<FileHash>{9D2F95B3-AA56-06F4-271D-43C485A773B6}</FileHash>
 </SoundBanksInfo>

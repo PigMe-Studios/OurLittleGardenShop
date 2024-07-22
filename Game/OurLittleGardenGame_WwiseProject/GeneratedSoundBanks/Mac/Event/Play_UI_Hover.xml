@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1339559671" Type="Event" GUID="{CC2F2DC8-9DAD-4DCE-B366-7147C7AF4F04}" Language="SFX" Hash="{42BDE9FF-930E-E00B-6716-03E096D542DB}">
+			<ObjectPath>Play_UI_Hover</ObjectPath>
+			<ShortName>Play_UI_Hover</ShortName>
+			<Path>Event/Play_UI_Hover.bnk</Path>
+			<Media>
+				<File Id="623789532" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_Hover.wav</ShortName>
+					<Path>Media/623789532.wem</Path>
+					<CachePath>SFX/UI_Hover_F06BAF76.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1339559671" Name="Play_UI_Hover" ObjectPath="\Events\WU_Main\UI\Play_UI_Hover" GUID="{CC2F2DC8-9DAD-4DCE-B366-7147C7AF4F04}" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
+					<MediaRefs>
+						<MediaRef Id="623789532"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{59A2533D-3BE9-F98E-3654-27BB78FE9555}</FileHash>
+</SoundBanksInfo>

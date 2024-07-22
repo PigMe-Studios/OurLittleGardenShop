@@ -18,7 +18,7 @@
     "Type": "Event",
     "GUID": "{06DFBA66-5CF9-49C3-BE6A-FB9F3EF5CCB4}",
     "Language": "SFX",
-    "Hash": "{362B4C0F-1481-CB63-9897-57952F1DD540}",
+    "Hash": "{0D2143D3-0847-AEA4-F430-FF84F194E573}",
     "ObjectPath": "Play_UI_Pop_Reverse",
     "ShortName": "Play_UI_Pop_Reverse",
     "Path": "Event/Play_UI_Pop_Reverse.bnk",
@@ -55,7 +55,7 @@
     "Type": "Event",
     "GUID": "{E8BD84C4-15A4-4E44-A5C3-3AE191C8E802}",
     "Language": "SFX",
-    "Hash": "{B0C85DC7-27A5-0CF9-B3AB-95766BD3B84B}",
+    "Hash": "{F6F0EB0E-201B-B606-9D10-D162D6373A8F}",
     "ObjectPath": "Play_UI_DialogueProgress",
     "ShortName": "Play_UI_DialogueProgress",
     "Path": "Event/Play_UI_DialogueProgress.bnk",
@@ -92,7 +92,7 @@
     "Type": "Event",
     "GUID": "{A9A3DFA6-FDD9-4197-8409-F19D7779B0EB}",
     "Language": "SFX",
-    "Hash": "{6B8594A8-7171-57AE-8C7C-F39FBB0D139E}",
+    "Hash": "{90AF3564-3B1D-178B-7E9D-E879672CDB93}",
     "ObjectPath": "Play_Int_Dig",
     "ShortName": "Play_Int_Dig",
     "Path": "Event/Play_Int_Dig.bnk",
@@ -143,6 +143,43 @@
        },
        {
         "Id": "873291527"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "1339559671",
+    "Type": "Event",
+    "GUID": "{CC2F2DC8-9DAD-4DCE-B366-7147C7AF4F04}",
+    "Language": "SFX",
+    "Hash": "{42BDE9FF-930E-E00B-6716-03E096D542DB}",
+    "ObjectPath": "Play_UI_Hover",
+    "ShortName": "Play_UI_Hover",
+    "Path": "Event/Play_UI_Hover.bnk",
+    "Media": [
+     {
+      "Id": "623789532",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_Hover.wav",
+      "Path": "Media/623789532.wem",
+      "CachePath": "SFX/UI_Hover_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1339559671",
+      "Name": "Play_UI_Hover",
+      "ObjectPath": "\\Events\\WU_Main\\UI\\Play_UI_Hover",
+      "GUID": "{CC2F2DC8-9DAD-4DCE-B366-7147C7AF4F04}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5",
+      "DurationMax": "0.5",
+      "MediaRefs": [
+       {
+        "Id": "623789532"
        }
       ]
      }
@@ -251,7 +288,7 @@
     "Type": "Event",
     "GUID": "{C50085BD-D3FB-42B4-A59A-E92B4AB326F4}",
     "Language": "SFX",
-    "Hash": "{41B7A343-FBC7-3CB7-5973-E186A4B05D8C}",
+    "Hash": "{5DDE641A-4487-6723-874E-4A0CE3EC5056}",
     "ObjectPath": "Play_Music_DistantGentleGuitar_HRTF",
     "ShortName": "Play_Music_DistantGentleGuitar_HRTF",
     "Path": "Event/Play_Music_DistantGentleGuitar_HRTF.bnk",
@@ -286,7 +323,7 @@
     "Type": "Event",
     "GUID": "{7165C635-8EA9-44DB-AEA1-06504646D50B}",
     "Language": "SFX",
-    "Hash": "{481F74B8-94B3-ADCB-E8AA-E635073C6D24}",
+    "Hash": "{220C0AE5-0C85-EB47-1B5D-2D46921467F6}",
     "ObjectPath": "Play_Int_WateringCan",
     "ShortName": "Play_Int_WateringCan",
     "Path": "Event/Play_Int_WateringCan.bnk",
@@ -323,7 +360,7 @@
     "Type": "Event",
     "GUID": "{E70A92C3-958A-4658-B8C5-F0E6C4E6C785}",
     "Language": "SFX",
-    "Hash": "{244F2153-AC5A-CFFF-1C57-87AF6342DC92}",
+    "Hash": "{5CC6CCF7-377E-20E0-2050-292B0CEF260B}",
     "ObjectPath": "Play_Int_Plant",
     "ShortName": "Play_Int_Plant",
     "Path": "Event/Play_Int_Plant.bnk",
@@ -384,7 +421,7 @@
     "Type": "Event",
     "GUID": "{A506968D-F0E2-491A-99D9-A0DF79AB353A}",
     "Language": "SFX",
-    "Hash": "{CA2A9118-6B97-675B-A6E0-80D4C5193A0C}",
+    "Hash": "{19C01926-4429-3D5D-8210-3D43C2D4B690}",
     "ObjectPath": "Play_UI_Pop",
     "ShortName": "Play_UI_Pop",
     "Path": "Event/Play_UI_Pop.bnk",
@@ -421,7 +458,7 @@
     "Type": "Event",
     "GUID": "{439F0EFE-EF68-487D-A78C-A4CAFF3188FC}",
     "Language": "SFX",
-    "Hash": "{19CA3769-0F78-8930-E5A7-C1F26EFA0DEB}",
+    "Hash": "{C7941134-A45E-A8FC-CDE2-403ED72347D3}",
     "ObjectPath": "Play_Env_ShopBell",
     "ShortName": "Play_Env_ShopBell",
     "Path": "Event/Play_Env_ShopBell.bnk",
@@ -458,7 +495,7 @@
     "Type": "Event",
     "GUID": "{79475BBF-4A51-4D78-A830-3E27BE176768}",
     "Language": "SFX",
-    "Hash": "{79844635-1FA9-F7EB-1BA2-FF342DF5E11B}",
+    "Hash": "{996173C7-B727-2237-4483-7963439D49AD}",
     "ObjectPath": "Play_UI_Pop_Double",
     "ShortName": "Play_UI_Pop_Double",
     "Path": "Event/Play_UI_Pop_Double.bnk",
@@ -495,7 +532,7 @@
     "Type": "Event",
     "GUID": "{0EEFC5E7-1F69-4FAF-9ED8-D73E1E099FC4}",
     "Language": "SFX",
-    "Hash": "{C14FAFC3-A977-E849-46B7-E92CA3B83E51}",
+    "Hash": "{0B891796-CB28-6C9C-A046-1ED7DE64802C}",
     "ObjectPath": "Play_Amb_GardenAmb_Birds_Wind",
     "ShortName": "Play_Amb_GardenAmb_Birds_Wind",
     "Path": "Event/Play_Amb_GardenAmb_Birds_Wind.bnk",
@@ -524,8 +561,45 @@
       ]
      }
     ]
+   },
+   {
+    "Id": "3943941319",
+    "Type": "Event",
+    "GUID": "{64182781-CF6E-4824-9158-91E2E280AAE7}",
+    "Language": "SFX",
+    "Hash": "{68D55D61-0A5A-F3B8-8FBC-6629AF0AC3FB}",
+    "ObjectPath": "Play_UI_Pop_DoubleUp",
+    "ShortName": "Play_UI_Pop_DoubleUp",
+    "Path": "Event/Play_UI_Pop_DoubleUp.bnk",
+    "Media": [
+     {
+      "Id": "56378900",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_Pop-DoubleUp.wav",
+      "Path": "Media/56378900.wem",
+      "CachePath": "SFX/UI_Pop-DoubleUp_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3943941319",
+      "Name": "Play_UI_Pop_DoubleUp",
+      "ObjectPath": "\\Events\\WU_Main\\UI\\Play_UI_Pop_DoubleUp",
+      "GUID": "{64182781-CF6E-4824-9158-91E2E280AAE7}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5625",
+      "DurationMax": "0.5625",
+      "MediaRefs": [
+       {
+        "Id": "56378900"
+       }
+      ]
+     }
+    ]
    }
   ],
-  "FileHash": "{2D47C0CF-5709-0674-F0B7-1353659BAE9A}"
+  "FileHash": "{0D1D7322-D137-324A-566A-1AFD7953C844}"
  }
 }

@@ -161,6 +161,28 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_UI_Pop_DoubleUp" ID="{64182781-CF6E-4824-9158-91E2E280AAE7}">
+							<ChildrenList>
+								<Action Name="" ID="{2E6AF59F-62EF-4EEB-9DD6-0BB701958029}" ShortID="25110836">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Pop-DoubleUp" ID="{8EA2F0A9-0597-4290-A153-7F3FF117F99D}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_UI_Hover" ID="{CC2F2DC8-9DAD-4DCE-B366-7147C7AF4F04}">
+							<ChildrenList>
+								<Action Name="" ID="{D2B81FD7-F7D6-4A19-B9B4-5E9351E71ADF}" ShortID="955522198">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Hover" ID="{DA5B815D-B7BD-40B2-952F-61F353DE2452}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="MusicTemp" ID="{D4C91DA7-D0D2-4C4A-9D7E-0D793990C0A4}" ShortID="114645410">

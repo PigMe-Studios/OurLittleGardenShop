@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{79475BBF-4A51-4D78-A830-3E27BE176768}",
     "Language": "SFX",
-    "Hash": "{79844635-1FA9-F7EB-1BA2-FF342DF5E11B}",
+    "Hash": "{996173C7-B727-2237-4483-7963439D49AD}",
     "ObjectPath": "Play_UI_Pop_Double",
     "ShortName": "Play_UI_Pop_Double",
     "Path": "Event/Play_UI_Pop_Double.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{B51B570B-616E-C2AC-F6DB-497918D56CFB}"
+  "FileHash": "{C6FAE126-9A88-E9AF-995F-7D667ECB51B0}"
  }
 }

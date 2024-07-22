@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{E8BD84C4-15A4-4E44-A5C3-3AE191C8E802}",
     "Language": "SFX",
-    "Hash": "{B0C85DC7-27A5-0CF9-B3AB-95766BD3B84B}",
+    "Hash": "{F6F0EB0E-201B-B606-9D10-D162D6373A8F}",
     "ObjectPath": "Play_UI_DialogueProgress",
     "ShortName": "Play_UI_DialogueProgress",
     "Path": "Event/Play_UI_DialogueProgress.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{5AAB3D10-E264-AE06-B102-AF3D24F58644}"
+  "FileHash": "{ECD964CF-25E9-71A5-02E0-0A8F59B73BA3}"
  }
 }

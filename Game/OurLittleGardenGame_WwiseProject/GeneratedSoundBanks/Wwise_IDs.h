@@ -20,8 +20,10 @@ namespace AK
         static const AkUniqueID PLAY_INT_WATERINGCAN = 1889388075U;
         static const AkUniqueID PLAY_MUSIC_DISTANTGENTLEGUITAR_HRTF = 1539384943U;
         static const AkUniqueID PLAY_UI_DIALOGUEPROGRESS = 792485676U;
+        static const AkUniqueID PLAY_UI_HOVER = 1339559671U;
         static const AkUniqueID PLAY_UI_POP = 2723271224U;
         static const AkUniqueID PLAY_UI_POP_DOUBLE = 2951446888U;
+        static const AkUniqueID PLAY_UI_POP_DOUBLEUP = 3943941319U;
         static const AkUniqueID PLAY_UI_POP_REVERSE = 100379607U;
     } // namespace EVENTS
 

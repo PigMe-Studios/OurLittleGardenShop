@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2940245297" Type="Event" GUID="{439F0EFE-EF68-487D-A78C-A4CAFF3188FC}" Language="SFX" Hash="{19CA3769-0F78-8930-E5A7-C1F26EFA0DEB}">
+		<SoundBank Id="2940245297" Type="Event" GUID="{439F0EFE-EF68-487D-A78C-A4CAFF3188FC}" Language="SFX" Hash="{C7941134-A45E-A8FC-CDE2-403ED72347D3}">
 			<ObjectPath>Play_Env_ShopBell</ObjectPath>
 			<ShortName>Play_Env_ShopBell</ShortName>
 			<Path>Event/Play_Env_ShopBell.bnk</Path>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{5644CF98-3D33-62B3-9B40-66CAE17CD002}</FileHash>
+	<FileHash>{A903A667-550E-B14A-8A4A-8613A3DB7A2B}</FileHash>
 </SoundBanksInfo>

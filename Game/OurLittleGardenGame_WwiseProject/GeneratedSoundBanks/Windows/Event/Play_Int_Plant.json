@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{E70A92C3-958A-4658-B8C5-F0E6C4E6C785}",
     "Language": "SFX",
-    "Hash": "{244F2153-AC5A-CFFF-1C57-87AF6342DC92}",
+    "Hash": "{5CC6CCF7-377E-20E0-2050-292B0CEF260B}",
     "ObjectPath": "Play_Int_Plant",
     "ShortName": "Play_Int_Plant",
     "Path": "Event/Play_Int_Plant.bnk",
@@ -67,6 +67,6 @@
     ]
    }
   ],
-  "FileHash": "{737AF79F-3F7A-5F1F-7F06-8C7446454A7A}"
+  "FileHash": "{F405897E-6958-D4B9-F4C2-1559087A0CA3}"
  }
 }

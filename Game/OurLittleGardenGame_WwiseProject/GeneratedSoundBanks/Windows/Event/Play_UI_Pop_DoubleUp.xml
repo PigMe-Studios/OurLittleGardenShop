@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3943941319" Type="Event" GUID="{64182781-CF6E-4824-9158-91E2E280AAE7}" Language="SFX" Hash="{68D55D61-0A5A-F3B8-8FBC-6629AF0AC3FB}">
+			<ObjectPath>Play_UI_Pop_DoubleUp</ObjectPath>
+			<ShortName>Play_UI_Pop_DoubleUp</ShortName>
+			<Path>Event/Play_UI_Pop_DoubleUp.bnk</Path>
+			<Media>
+				<File Id="56378900" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_Pop-DoubleUp.wav</ShortName>
+					<Path>Media/56378900.wem</Path>
+					<CachePath>SFX/UI_Pop-DoubleUp_F06BAF76.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3943941319" Name="Play_UI_Pop_DoubleUp" ObjectPath="\Events\WU_Main\UI\Play_UI_Pop_DoubleUp" GUID="{64182781-CF6E-4824-9158-91E2E280AAE7}" DurationType="OneShot" DurationMin="0.5625" DurationMax="0.5625">
+					<MediaRefs>
+						<MediaRef Id="56378900"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{BFB838EA-B7A5-C274-4B8B-8301B5C645CE}</FileHash>
+</SoundBanksInfo>

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{06DFBA66-5CF9-49C3-BE6A-FB9F3EF5CCB4}",
     "Language": "SFX",
-    "Hash": "{362B4C0F-1481-CB63-9897-57952F1DD540}",
+    "Hash": "{0D2143D3-0847-AEA4-F430-FF84F194E573}",
     "ObjectPath": "Play_UI_Pop_Reverse",
     "ShortName": "Play_UI_Pop_Reverse",
     "Path": "Event/Play_UI_Pop_Reverse.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{90A95CF8-000A-B42A-42A0-2CA701326ABE}"
+  "FileHash": "{4CA0E240-8E57-DA71-5D15-7DAE28EFA650}"
  }
 }

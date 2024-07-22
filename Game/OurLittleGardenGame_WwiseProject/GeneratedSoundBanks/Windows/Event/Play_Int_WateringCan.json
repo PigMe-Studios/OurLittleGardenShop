@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{7165C635-8EA9-44DB-AEA1-06504646D50B}",
     "Language": "SFX",
-    "Hash": "{481F74B8-94B3-ADCB-E8AA-E635073C6D24}",
+    "Hash": "{220C0AE5-0C85-EB47-1B5D-2D46921467F6}",
     "ObjectPath": "Play_Int_WateringCan",
     "ShortName": "Play_Int_WateringCan",
     "Path": "Event/Play_Int_WateringCan.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{8AAF5F6C-4D32-B413-3DDE-A0961E4ABD25}"
+  "FileHash": "{D3582222-4EEB-0CC4-EFEF-1C388AD32845}"
  }
 }

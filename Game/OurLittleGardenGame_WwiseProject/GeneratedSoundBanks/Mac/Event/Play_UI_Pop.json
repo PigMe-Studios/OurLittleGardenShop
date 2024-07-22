@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{A506968D-F0E2-491A-99D9-A0DF79AB353A}",
     "Language": "SFX",
-    "Hash": "{CA2A9118-6B97-675B-A6E0-80D4C5193A0C}",
+    "Hash": "{19C01926-4429-3D5D-8210-3D43C2D4B690}",
     "ObjectPath": "Play_UI_Pop",
     "ShortName": "Play_UI_Pop",
     "Path": "Event/Play_UI_Pop.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{38380DED-0AA5-1ABD-D66B-BFD172E26757}"
+  "FileHash": "{E3B329D9-6A41-6D05-C075-E579EC4D0D44}"
  }
 }

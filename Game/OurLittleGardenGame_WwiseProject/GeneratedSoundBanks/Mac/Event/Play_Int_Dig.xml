@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1278797248" Type="Event" GUID="{A9A3DFA6-FDD9-4197-8409-F19D7779B0EB}" Language="SFX" Hash="{6B8594A8-7171-57AE-8C7C-F39FBB0D139E}">
+		<SoundBank Id="1278797248" Type="Event" GUID="{A9A3DFA6-FDD9-4197-8409-F19D7779B0EB}" Language="SFX" Hash="{90AF3564-3B1D-178B-7E9D-E879672CDB93}">
 			<ObjectPath>Play_Int_Dig</ObjectPath>
 			<ShortName>Play_Int_Dig</ShortName>
 			<Path>Event/Play_Int_Dig.bnk</Path>
@@ -33,5 +33,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{CA220DF0-9AD7-5DE6-F940-17BB6173F6AB}</FileHash>
+	<FileHash>{6B86EAB9-FE32-E95F-891E-3F01BF58D4B3}</FileHash>
 </SoundBanksInfo>

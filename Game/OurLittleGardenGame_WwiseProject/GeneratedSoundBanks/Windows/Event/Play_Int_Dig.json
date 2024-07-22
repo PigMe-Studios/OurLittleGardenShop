@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{A9A3DFA6-FDD9-4197-8409-F19D7779B0EB}",
     "Language": "SFX",
-    "Hash": "{6B8594A8-7171-57AE-8C7C-F39FBB0D139E}",
+    "Hash": "{90AF3564-3B1D-178B-7E9D-E879672CDB93}",
     "ObjectPath": "Play_Int_Dig",
     "ShortName": "Play_Int_Dig",
     "Path": "Event/Play_Int_Dig.bnk",
@@ -67,6 +67,6 @@
     ]
    }
   ],
-  "FileHash": "{069C61B9-E127-2808-3168-6CE1BA84D1B5}"
+  "FileHash": "{AD9515E6-6DAA-F763-8715-616783F67B9D}"
  }
 }
