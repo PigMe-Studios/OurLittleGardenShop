@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	792485676	Play_UI_DialogueProgress			\WU_Main\UI\Play_UI_DialogueProgress	
+

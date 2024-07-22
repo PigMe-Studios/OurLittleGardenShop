@@ -1,4 +1,5 @@
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	17369109	Bus_InteractMain			\Default Work Unit\Master Audio Bus\Bus_InteractMain	
 	447158585	Bus_UIMain			\Default Work Unit\Master Audio Bus\Bus_UIMain	
 	1058635679	Bus_3DAmb			\Default Work Unit\Master Audio Bus\Bus_AmbienceMain\Bus_3DAmb	
 	1626632198	Bus_MusicMain			\Default Work Unit\Master Audio Bus\Bus_MusicMain	
@@ -8,7 +9,6 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	2313054124	Bus_AmbBeds			\Default Work Unit\Master Audio Bus\Bus_AmbienceMain\Bus_AmbBeds	
 	2340005898	Bus_2DAmb			\Default Work Unit\Master Audio Bus\Bus_AmbienceMain\Bus_2DAmb	
 	3399979499	Bus_ReverbMain			\Default Work Unit\Master Audio Bus\Bus_ReverbMain	
-	3637445288	Bus_PlayerMain			\Default Work Unit\Master Audio Bus\Bus_PlayerMain	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Audio Devices	ID	Name	Type				Notes

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3321113552" Type="Event" GUID="{0EEFC5E7-1F69-4FAF-9ED8-D73E1E099FC4}" Language="SFX" Hash="{C14FAFC3-A977-E849-46B7-E92CA3B83E51}">
+			<ObjectPath>Play_Amb_GardenAmb_Birds_Wind</ObjectPath>
+			<ShortName>Play_Amb_GardenAmb_Birds_Wind</ShortName>
+			<Path>Event/Play_Amb_GardenAmb_Birds_Wind.bnk</Path>
+			<Media>
+				<File Id="743887678" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Amb_GardenAmb_Birds-Wind.wav</ShortName>
+					<Path>Media/743887678.wem</Path>
+					<CachePath>SFX/Amb_GardenAmb_Birds-Wind_8EC3C7C0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3321113552" Name="Play_Amb_GardenAmb_Birds_Wind" ObjectPath="\Events\WU_Main\Ambience\Play_Amb_GardenAmb_Birds_Wind" GUID="{0EEFC5E7-1F69-4FAF-9ED8-D73E1E099FC4}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="743887678"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{943920EC-B3B8-A599-5B86-9E5BF5ED5A8D}</FileHash>
+</SoundBanksInfo>

@@ -14,11 +14,146 @@
   "DialogueEvents": [],
   "SoundBanks": [
    {
+    "Id": "100379607",
+    "Type": "Event",
+    "GUID": "{06DFBA66-5CF9-49C3-BE6A-FB9F3EF5CCB4}",
+    "Language": "SFX",
+    "Hash": "{362B4C0F-1481-CB63-9897-57952F1DD540}",
+    "ObjectPath": "Play_UI_Pop_Reverse",
+    "ShortName": "Play_UI_Pop_Reverse",
+    "Path": "Event/Play_UI_Pop_Reverse.bnk",
+    "Media": [
+     {
+      "Id": "137982451",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_Pop-Reverse.wav",
+      "Path": "Media/137982451.wem",
+      "CachePath": "SFX/UI_Pop-Reverse_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "100379607",
+      "Name": "Play_UI_Pop_Reverse",
+      "ObjectPath": "\\Events\\WU_Main\\UI\\Play_UI_Pop_Reverse",
+      "GUID": "{06DFBA66-5CF9-49C3-BE6A-FB9F3EF5CCB4}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.47193712",
+      "DurationMax": "0.5297316",
+      "MediaRefs": [
+       {
+        "Id": "137982451"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "792485676",
+    "Type": "Event",
+    "GUID": "{E8BD84C4-15A4-4E44-A5C3-3AE191C8E802}",
+    "Language": "SFX",
+    "Hash": "{B0C85DC7-27A5-0CF9-B3AB-95766BD3B84B}",
+    "ObjectPath": "Play_UI_DialogueProgress",
+    "ShortName": "Play_UI_DialogueProgress",
+    "Path": "Event/Play_UI_DialogueProgress.bnk",
+    "Media": [
+     {
+      "Id": "996140938",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueProgress.wav",
+      "Path": "Media/996140938.wem",
+      "CachePath": "SFX/UI_DialogueProgress_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "792485676",
+      "Name": "Play_UI_DialogueProgress",
+      "ObjectPath": "\\Events\\WU_Main\\UI\\Play_UI_DialogueProgress",
+      "GUID": "{E8BD84C4-15A4-4E44-A5C3-3AE191C8E802}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.23596856",
+      "DurationMax": "0.2648658",
+      "MediaRefs": [
+       {
+        "Id": "996140938"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "1278797248",
+    "Type": "Event",
+    "GUID": "{A9A3DFA6-FDD9-4197-8409-F19D7779B0EB}",
+    "Language": "SFX",
+    "Hash": "{6B8594A8-7171-57AE-8C7C-F39FBB0D139E}",
+    "ObjectPath": "Play_Int_Dig",
+    "ShortName": "Play_Int_Dig",
+    "Path": "Event/Play_Int_Dig.bnk",
+    "Media": [
+     {
+      "Id": "44886345",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Int_Digging-001.wav",
+      "Path": "Media/44886345.wem",
+      "CachePath": "SFX/Int_Digging-001_F06BAF76.wem"
+     },
+     {
+      "Id": "79164664",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Int_Digging-002.wav",
+      "Path": "Media/79164664.wem",
+      "CachePath": "SFX/Int_Digging-002_F06BAF76.wem"
+     },
+     {
+      "Id": "873291527",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Int_Digging-003.wav",
+      "Path": "Media/873291527.wem",
+      "CachePath": "SFX/Int_Digging-003_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1278797248",
+      "Name": "Play_Int_Dig",
+      "ObjectPath": "\\Events\\WU_Main\\Interact\\Play_Int_Dig",
+      "GUID": "{A9A3DFA6-FDD9-4197-8409-F19D7779B0EB}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.3425035",
+      "DurationMax": "4.2112904",
+      "MediaRefs": [
+       {
+        "Id": "44886345"
+       },
+       {
+        "Id": "79164664"
+       },
+       {
+        "Id": "873291527"
+       }
+      ]
+     }
+    ]
+   },
+   {
     "Id": "1355168291",
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{63C1AF36-426C-DE7D-8799-A922746D7D49}",
+    "Hash": "{9939FEAE-9F37-3006-A98C-6F3588F7B0F5}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -43,6 +178,12 @@
      ]
     },
     "Busses": [
+     {
+      "Id": "17369109",
+      "Name": "Bus_InteractMain",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Bus_InteractMain",
+      "GUID": "{1ED810A1-9436-4662-BA12-C45DC74DE6CC}"
+     },
      {
       "Id": "447158585",
       "Name": "Bus_UIMain",
@@ -98,12 +239,6 @@
       "GUID": "{CC926357-5A3D-40D8-ADB8-2C3C5BFAC73E}"
      },
      {
-      "Id": "3637445288",
-      "Name": "Bus_PlayerMain",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Bus_PlayerMain",
-      "GUID": "{1ED810A1-9436-4662-BA12-C45DC74DE6CC}"
-     },
-     {
       "Id": "3803692087",
       "Name": "Master Audio Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
@@ -112,11 +247,144 @@
     ]
    },
    {
+    "Id": "1539384943",
+    "Type": "Event",
+    "GUID": "{C50085BD-D3FB-42B4-A59A-E92B4AB326F4}",
+    "Language": "SFX",
+    "Hash": "{41B7A343-FBC7-3CB7-5973-E186A4B05D8C}",
+    "ObjectPath": "Play_Music_DistantGentleGuitar_HRTF",
+    "ShortName": "Play_Music_DistantGentleGuitar_HRTF",
+    "Path": "Event/Play_Music_DistantGentleGuitar_HRTF.bnk",
+    "Media": [
+     {
+      "Id": "181664180",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Music_DistantGentleGuitar_HRTF.wav",
+      "Path": "Media/181664180.wem",
+      "CachePath": "SFX/Music_DistantGentleGuitar_HRTF_8EC3C7C0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1539384943",
+      "Name": "Play_Music_DistantGentleGuitar_HRTF",
+      "ObjectPath": "\\Events\\WU_Main\\MusicTemp\\Play_Music_DistantGentleGuitar_HRTF",
+      "GUID": "{C50085BD-D3FB-42B4-A59A-E92B4AB326F4}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "181664180"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "1889388075",
+    "Type": "Event",
+    "GUID": "{7165C635-8EA9-44DB-AEA1-06504646D50B}",
+    "Language": "SFX",
+    "Hash": "{481F74B8-94B3-ADCB-E8AA-E635073C6D24}",
+    "ObjectPath": "Play_Int_WateringCan",
+    "ShortName": "Play_Int_WateringCan",
+    "Path": "Event/Play_Int_WateringCan.bnk",
+    "Media": [
+     {
+      "Id": "138627250",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Int_WateringCan.wav",
+      "Path": "Media/138627250.wem",
+      "CachePath": "SFX/Int_WateringCan_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1889388075",
+      "Name": "Play_Int_WateringCan",
+      "ObjectPath": "\\Events\\WU_Main\\Interact\\Play_Int_WateringCan",
+      "GUID": "{7165C635-8EA9-44DB-AEA1-06504646D50B}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.7817974",
+      "DurationMax": "2.244924",
+      "MediaRefs": [
+       {
+        "Id": "138627250"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "2281605023",
+    "Type": "Event",
+    "GUID": "{E70A92C3-958A-4658-B8C5-F0E6C4E6C785}",
+    "Language": "SFX",
+    "Hash": "{244F2153-AC5A-CFFF-1C57-87AF6342DC92}",
+    "ObjectPath": "Play_Int_Plant",
+    "ShortName": "Play_Int_Plant",
+    "Path": "Event/Play_Int_Plant.bnk",
+    "Media": [
+     {
+      "Id": "17714178",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Int_Planting-002.wav",
+      "Path": "Media/17714178.wem",
+      "CachePath": "SFX/Int_Planting-002_F06BAF76.wem"
+     },
+     {
+      "Id": "103023756",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Int_Planting-001.wav",
+      "Path": "Media/103023756.wem",
+      "CachePath": "SFX/Int_Planting-001_F06BAF76.wem"
+     },
+     {
+      "Id": "406128392",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Int_Planting-003.wav",
+      "Path": "Media/406128392.wem",
+      "CachePath": "SFX/Int_Planting-003_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2281605023",
+      "Name": "Play_Int_Plant",
+      "ObjectPath": "\\Events\\WU_Main\\Interact\\Play_Int_Plant",
+      "GUID": "{E70A92C3-958A-4658-B8C5-F0E6C4E6C785}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.6712518",
+      "DurationMax": "2.1056452",
+      "MediaRefs": [
+       {
+        "Id": "17714178"
+       },
+       {
+        "Id": "103023756"
+       },
+       {
+        "Id": "406128392"
+       }
+      ]
+     }
+    ]
+   },
+   {
     "Id": "2723271224",
     "Type": "Event",
     "GUID": "{A506968D-F0E2-491A-99D9-A0DF79AB353A}",
     "Language": "SFX",
-    "Hash": "{42D66F70-A39B-74BE-B7C7-A98D1FBCB6FD}",
+    "Hash": "{CA2A9118-6B97-675B-A6E0-80D4C5193A0C}",
     "ObjectPath": "Play_UI_Pop",
     "ShortName": "Play_UI_Pop",
     "Path": "Event/Play_UI_Pop.bnk",
@@ -135,11 +403,11 @@
      {
       "Id": "2723271224",
       "Name": "Play_UI_Pop",
-      "ObjectPath": "\\Events\\WU_Main\\Play_UI_Pop",
+      "ObjectPath": "\\Events\\WU_Main\\UI\\Play_UI_Pop",
       "GUID": "{A506968D-F0E2-491A-99D9-A0DF79AB353A}",
       "DurationType": "OneShot",
-      "DurationMin": "0.5",
-      "DurationMax": "0.5",
+      "DurationMin": "0.47193712",
+      "DurationMax": "0.5297316",
       "MediaRefs": [
        {
         "Id": "646580617"
@@ -147,8 +415,117 @@
       ]
      }
     ]
+   },
+   {
+    "Id": "2940245297",
+    "Type": "Event",
+    "GUID": "{439F0EFE-EF68-487D-A78C-A4CAFF3188FC}",
+    "Language": "SFX",
+    "Hash": "{19CA3769-0F78-8930-E5A7-C1F26EFA0DEB}",
+    "ObjectPath": "Play_Env_ShopBell",
+    "ShortName": "Play_Env_ShopBell",
+    "Path": "Event/Play_Env_ShopBell.bnk",
+    "Media": [
+     {
+      "Id": "398633420",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_ShopBell.wav",
+      "Path": "Media/398633420.wem",
+      "CachePath": "SFX/Env_ShopBell_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2940245297",
+      "Name": "Play_Env_ShopBell",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Play_Env_ShopBell",
+      "GUID": "{439F0EFE-EF68-487D-A78C-A4CAFF3188FC}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.125",
+      "DurationMax": "1.125",
+      "MediaRefs": [
+       {
+        "Id": "398633420"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "2951446888",
+    "Type": "Event",
+    "GUID": "{79475BBF-4A51-4D78-A830-3E27BE176768}",
+    "Language": "SFX",
+    "Hash": "{79844635-1FA9-F7EB-1BA2-FF342DF5E11B}",
+    "ObjectPath": "Play_UI_Pop_Double",
+    "ShortName": "Play_UI_Pop_Double",
+    "Path": "Event/Play_UI_Pop_Double.bnk",
+    "Media": [
+     {
+      "Id": "737260249",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_Pop-Double.wav",
+      "Path": "Media/737260249.wem",
+      "CachePath": "SFX/UI_Pop-Double_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2951446888",
+      "Name": "Play_UI_Pop_Double",
+      "ObjectPath": "\\Events\\WU_Main\\UI\\Play_UI_Pop_Double",
+      "GUID": "{79475BBF-4A51-4D78-A830-3E27BE176768}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.47193712",
+      "DurationMax": "0.5297316",
+      "MediaRefs": [
+       {
+        "Id": "737260249"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "3321113552",
+    "Type": "Event",
+    "GUID": "{0EEFC5E7-1F69-4FAF-9ED8-D73E1E099FC4}",
+    "Language": "SFX",
+    "Hash": "{C14FAFC3-A977-E849-46B7-E92CA3B83E51}",
+    "ObjectPath": "Play_Amb_GardenAmb_Birds_Wind",
+    "ShortName": "Play_Amb_GardenAmb_Birds_Wind",
+    "Path": "Event/Play_Amb_GardenAmb_Birds_Wind.bnk",
+    "Media": [
+     {
+      "Id": "743887678",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Amb_GardenAmb_Birds-Wind.wav",
+      "Path": "Media/743887678.wem",
+      "CachePath": "SFX/Amb_GardenAmb_Birds-Wind_8EC3C7C0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3321113552",
+      "Name": "Play_Amb_GardenAmb_Birds_Wind",
+      "ObjectPath": "\\Events\\WU_Main\\Ambience\\Play_Amb_GardenAmb_Birds_Wind",
+      "GUID": "{0EEFC5E7-1F69-4FAF-9ED8-D73E1E099FC4}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "743887678"
+       }
+      ]
+     }
+    ]
    }
   ],
-  "FileHash": "{00111975-AFA6-D494-C2FE-59696860D671}"
+  "FileHash": "{2D47C0CF-5709-0674-F0B7-1353659BAE9A}"
  }
 }

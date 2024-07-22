@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1889388075" Type="Event" GUID="{7165C635-8EA9-44DB-AEA1-06504646D50B}" Language="SFX" Hash="{481F74B8-94B3-ADCB-E8AA-E635073C6D24}">
+			<ObjectPath>Play_Int_WateringCan</ObjectPath>
+			<ShortName>Play_Int_WateringCan</ShortName>
+			<Path>Event/Play_Int_WateringCan.bnk</Path>
+			<Media>
+				<File Id="138627250" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Int_WateringCan.wav</ShortName>
+					<Path>Media/138627250.wem</Path>
+					<CachePath>SFX/Int_WateringCan_F06BAF76.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1889388075" Name="Play_Int_WateringCan" ObjectPath="\Events\WU_Main\Interact\Play_Int_WateringCan" GUID="{7165C635-8EA9-44DB-AEA1-06504646D50B}" DurationType="OneShot" DurationMin="1.7817974" DurationMax="2.244924">
+					<MediaRefs>
+						<MediaRef Id="138627250"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{E4116508-F652-13FF-4B7F-A017C3171F6A}</FileHash>
+</SoundBanksInfo>

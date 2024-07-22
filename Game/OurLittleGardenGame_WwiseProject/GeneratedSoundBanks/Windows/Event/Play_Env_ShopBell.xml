@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2940245297" Type="Event" GUID="{439F0EFE-EF68-487D-A78C-A4CAFF3188FC}" Language="SFX" Hash="{19CA3769-0F78-8930-E5A7-C1F26EFA0DEB}">
+			<ObjectPath>Play_Env_ShopBell</ObjectPath>
+			<ShortName>Play_Env_ShopBell</ShortName>
+			<Path>Event/Play_Env_ShopBell.bnk</Path>
+			<Media>
+				<File Id="398633420" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_ShopBell.wav</ShortName>
+					<Path>Media/398633420.wem</Path>
+					<CachePath>SFX/Env_ShopBell_F06BAF76.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2940245297" Name="Play_Env_ShopBell" ObjectPath="\Events\WU_Main\Environment\Play_Env_ShopBell" GUID="{439F0EFE-EF68-487D-A78C-A4CAFF3188FC}" DurationType="OneShot" DurationMin="1.125" DurationMax="1.125">
+					<MediaRefs>
+						<MediaRef Id="398633420"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{5644CF98-3D33-62B3-9B40-66CAE17CD002}</FileHash>
+</SoundBanksInfo>

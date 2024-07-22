@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2281605023" Type="Event" GUID="{E70A92C3-958A-4658-B8C5-F0E6C4E6C785}" Language="SFX" Hash="{244F2153-AC5A-CFFF-1C57-87AF6342DC92}">
+			<ObjectPath>Play_Int_Plant</ObjectPath>
+			<ShortName>Play_Int_Plant</ShortName>
+			<Path>Event/Play_Int_Plant.bnk</Path>
+			<Media>
+				<File Id="17714178" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Int_Planting-002.wav</ShortName>
+					<Path>Media/17714178.wem</Path>
+					<CachePath>SFX/Int_Planting-002_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="103023756" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Int_Planting-001.wav</ShortName>
+					<Path>Media/103023756.wem</Path>
+					<CachePath>SFX/Int_Planting-001_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="406128392" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Int_Planting-003.wav</ShortName>
+					<Path>Media/406128392.wem</Path>
+					<CachePath>SFX/Int_Planting-003_F06BAF76.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2281605023" Name="Play_Int_Plant" ObjectPath="\Events\WU_Main\Interact\Play_Int_Plant" GUID="{E70A92C3-958A-4658-B8C5-F0E6C4E6C785}" DurationType="OneShot" DurationMin="1.6712518" DurationMax="2.1056452">
+					<MediaRefs>
+						<MediaRef Id="17714178"/>
+						<MediaRef Id="103023756"/>
+						<MediaRef Id="406128392"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{E29ABB6A-2778-A1C5-8060-2CC9181464AE}</FileHash>
+</SoundBanksInfo>

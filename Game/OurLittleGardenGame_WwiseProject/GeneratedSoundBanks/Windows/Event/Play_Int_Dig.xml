@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1278797248" Type="Event" GUID="{A9A3DFA6-FDD9-4197-8409-F19D7779B0EB}" Language="SFX" Hash="{6B8594A8-7171-57AE-8C7C-F39FBB0D139E}">
+			<ObjectPath>Play_Int_Dig</ObjectPath>
+			<ShortName>Play_Int_Dig</ShortName>
+			<Path>Event/Play_Int_Dig.bnk</Path>
+			<Media>
+				<File Id="44886345" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Int_Digging-001.wav</ShortName>
+					<Path>Media/44886345.wem</Path>
+					<CachePath>SFX/Int_Digging-001_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="79164664" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Int_Digging-002.wav</ShortName>
+					<Path>Media/79164664.wem</Path>
+					<CachePath>SFX/Int_Digging-002_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="873291527" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Int_Digging-003.wav</ShortName>
+					<Path>Media/873291527.wem</Path>
+					<CachePath>SFX/Int_Digging-003_F06BAF76.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1278797248" Name="Play_Int_Dig" ObjectPath="\Events\WU_Main\Interact\Play_Int_Dig" GUID="{A9A3DFA6-FDD9-4197-8409-F19D7779B0EB}" DurationType="OneShot" DurationMin="3.3425035" DurationMax="4.2112904">
+					<MediaRefs>
+						<MediaRef Id="44886345"/>
+						<MediaRef Id="79164664"/>
+						<MediaRef Id="873291527"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{39BB82E3-4417-789D-728C-76B134883200}</FileHash>
+</SoundBanksInfo>

@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1889388075	Play_Int_WateringCan			\WU_Main\Interact\Play_Int_WateringCan	
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2951446888" Type="Event" GUID="{79475BBF-4A51-4D78-A830-3E27BE176768}" Language="SFX" Hash="{79844635-1FA9-F7EB-1BA2-FF342DF5E11B}">
+			<ObjectPath>Play_UI_Pop_Double</ObjectPath>
+			<ShortName>Play_UI_Pop_Double</ShortName>
+			<Path>Event/Play_UI_Pop_Double.bnk</Path>
+			<Media>
+				<File Id="737260249" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_Pop-Double.wav</ShortName>
+					<Path>Media/737260249.wem</Path>
+					<CachePath>SFX/UI_Pop-Double_F06BAF76.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2951446888" Name="Play_UI_Pop_Double" ObjectPath="\Events\WU_Main\UI\Play_UI_Pop_Double" GUID="{79475BBF-4A51-4D78-A830-3E27BE176768}" DurationType="OneShot" DurationMin="0.47193712" DurationMax="0.5297316">
+					<MediaRefs>
+						<MediaRef Id="737260249"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{71F5D30A-869C-2887-515B-B9E919218755}</FileHash>
+</SoundBanksInfo>

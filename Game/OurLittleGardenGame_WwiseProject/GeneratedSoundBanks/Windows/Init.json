@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{63C1AF36-426C-DE7D-8799-A922746D7D49}",
+    "Hash": "{9939FEAE-9F37-3006-A98C-6F3588F7B0F5}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -35,6 +35,12 @@
      ]
     },
     "Busses": [
+     {
+      "Id": "17369109",
+      "Name": "Bus_InteractMain",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Bus_InteractMain",
+      "GUID": "{1ED810A1-9436-4662-BA12-C45DC74DE6CC}"
+     },
      {
       "Id": "447158585",
       "Name": "Bus_UIMain",
@@ -90,12 +96,6 @@
       "GUID": "{CC926357-5A3D-40D8-ADB8-2C3C5BFAC73E}"
      },
      {
-      "Id": "3637445288",
-      "Name": "Bus_PlayerMain",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Bus_PlayerMain",
-      "GUID": "{1ED810A1-9436-4662-BA12-C45DC74DE6CC}"
-     },
-     {
       "Id": "3803692087",
       "Name": "Master Audio Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
@@ -104,6 +104,6 @@
     ]
    }
   ],
-  "FileHash": "{04BC5CC7-5A1F-FC0E-29B2-988D692E17D6}"
+  "FileHash": "{881FA04A-E22E-48C6-17D5-8D7EEF64A75C}"
  }
 }

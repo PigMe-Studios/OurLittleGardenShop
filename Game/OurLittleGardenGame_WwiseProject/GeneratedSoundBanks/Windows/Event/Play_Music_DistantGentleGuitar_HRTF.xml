@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1539384943" Type="Event" GUID="{C50085BD-D3FB-42B4-A59A-E92B4AB326F4}" Language="SFX" Hash="{41B7A343-FBC7-3CB7-5973-E186A4B05D8C}">
+			<ObjectPath>Play_Music_DistantGentleGuitar_HRTF</ObjectPath>
+			<ShortName>Play_Music_DistantGentleGuitar_HRTF</ShortName>
+			<Path>Event/Play_Music_DistantGentleGuitar_HRTF.bnk</Path>
+			<Media>
+				<File Id="181664180" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Music_DistantGentleGuitar_HRTF.wav</ShortName>
+					<Path>Media/181664180.wem</Path>
+					<CachePath>SFX/Music_DistantGentleGuitar_HRTF_8EC3C7C0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1539384943" Name="Play_Music_DistantGentleGuitar_HRTF" ObjectPath="\Events\WU_Main\MusicTemp\Play_Music_DistantGentleGuitar_HRTF" GUID="{C50085BD-D3FB-42B4-A59A-E92B4AB326F4}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="181664180"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{78E40AD7-BD16-635F-0F7F-15BFC2DC5043}</FileHash>
+</SoundBanksInfo>

@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1539384943	Play_Music_DistantGentleGuitar_HRTF			\WU_Main\MusicTemp\Play_Music_DistantGentleGuitar_HRTF	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	181664180	Music_DistantGentleGuitar_HRTF	S:\Documents\Clones\OurLittleGardenShop\Game\OurLittleGardenGame_WwiseProject\.cache\Windows\SFX\Music_DistantGentleGuitar_HRTF_8EC3C7C0.wem	181664180.wem	\Actor-Mixer Hierarchy\WU_Main\MusicTemp\Music_DistantGentleGuitar_HRTF	
+

@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3321113552	Play_Amb_GardenAmb_Birds_Wind			\WU_Main\Ambience\Play_Amb_GardenAmb_Birds_Wind	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	743887678	Amb_GardenAmb_Birds-Wind	S:\Documents\Clones\OurLittleGardenShop\Game\OurLittleGardenGame_WwiseProject\.cache\Mac\SFX\Amb_GardenAmb_Birds-Wind_8EC3C7C0.wem	743887678.wem	\Actor-Mixer Hierarchy\WU_Main\Ambience\AM_AmbientBeds\Amb_GardenAmb_Birds-Wind	
+

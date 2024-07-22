@@ -13,7 +13,16 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_AMB_GARDENAMB_BIRDS_WIND = 3321113552U;
+        static const AkUniqueID PLAY_ENV_SHOPBELL = 2940245297U;
+        static const AkUniqueID PLAY_INT_DIG = 1278797248U;
+        static const AkUniqueID PLAY_INT_PLANT = 2281605023U;
+        static const AkUniqueID PLAY_INT_WATERINGCAN = 1889388075U;
+        static const AkUniqueID PLAY_MUSIC_DISTANTGENTLEGUITAR_HRTF = 1539384943U;
+        static const AkUniqueID PLAY_UI_DIALOGUEPROGRESS = 792485676U;
         static const AkUniqueID PLAY_UI_POP = 2723271224U;
+        static const AkUniqueID PLAY_UI_POP_DOUBLE = 2951446888U;
+        static const AkUniqueID PLAY_UI_POP_REVERSE = 100379607U;
     } // namespace EVENTS
 
     namespace BUSSES
@@ -24,8 +33,8 @@ namespace AK
         static const AkUniqueID BUS_AMBIENCEMAIN = 2272199487U;
         static const AkUniqueID BUS_DIALOGUEMAIN = 1648915229U;
         static const AkUniqueID BUS_ENVIRONMENTMAIN = 2223238396U;
+        static const AkUniqueID BUS_INTERACTMAIN = 17369109U;
         static const AkUniqueID BUS_MUSICMAIN = 1626632198U;
-        static const AkUniqueID BUS_PLAYERMAIN = 3637445288U;
         static const AkUniqueID BUS_REVERBMAIN = 3399979499U;
         static const AkUniqueID BUS_UIMAIN = 447158585U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="100379607" Type="Event" GUID="{06DFBA66-5CF9-49C3-BE6A-FB9F3EF5CCB4}" Language="SFX" Hash="{362B4C0F-1481-CB63-9897-57952F1DD540}">
+			<ObjectPath>Play_UI_Pop_Reverse</ObjectPath>
+			<ShortName>Play_UI_Pop_Reverse</ShortName>
+			<Path>Event/Play_UI_Pop_Reverse.bnk</Path>
+			<Media>
+				<File Id="137982451" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_Pop-Reverse.wav</ShortName>
+					<Path>Media/137982451.wem</Path>
+					<CachePath>SFX/UI_Pop-Reverse_F06BAF76.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="100379607" Name="Play_UI_Pop_Reverse" ObjectPath="\Events\WU_Main\UI\Play_UI_Pop_Reverse" GUID="{06DFBA66-5CF9-49C3-BE6A-FB9F3EF5CCB4}" DurationType="OneShot" DurationMin="0.47193712" DurationMax="0.5297316">
+					<MediaRefs>
+						<MediaRef Id="137982451"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{DC86F9F4-F2B7-ABFA-9583-13D30102F331}</FileHash>
+</SoundBanksInfo>

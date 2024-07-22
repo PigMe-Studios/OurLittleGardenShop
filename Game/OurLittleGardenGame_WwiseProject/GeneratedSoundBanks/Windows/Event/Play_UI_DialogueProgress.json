@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "792485676",
+    "Type": "Event",
+    "GUID": "{E8BD84C4-15A4-4E44-A5C3-3AE191C8E802}",
+    "Language": "SFX",
+    "Hash": "{B0C85DC7-27A5-0CF9-B3AB-95766BD3B84B}",
+    "ObjectPath": "Play_UI_DialogueProgress",
+    "ShortName": "Play_UI_DialogueProgress",
+    "Path": "Event/Play_UI_DialogueProgress.bnk",
+    "Media": [
+     {
+      "Id": "996140938",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueProgress.wav",
+      "Path": "Media/996140938.wem",
+      "CachePath": "SFX/UI_DialogueProgress_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "792485676",
+      "Name": "Play_UI_DialogueProgress",
+      "ObjectPath": "\\Events\\WU_Main\\UI\\Play_UI_DialogueProgress",
+      "GUID": "{E8BD84C4-15A4-4E44-A5C3-3AE191C8E802}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.23596856",
+      "DurationMax": "0.2648658",
+      "MediaRefs": [
+       {
+        "Id": "996140938"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{5AAB3D10-E264-AE06-B102-AF3D24F58644}"
+ }
+}

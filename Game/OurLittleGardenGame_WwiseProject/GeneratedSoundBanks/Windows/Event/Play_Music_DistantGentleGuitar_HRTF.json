@@ -1,0 +1,46 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1539384943",
+    "Type": "Event",
+    "GUID": "{C50085BD-D3FB-42B4-A59A-E92B4AB326F4}",
+    "Language": "SFX",
+    "Hash": "{41B7A343-FBC7-3CB7-5973-E186A4B05D8C}",
+    "ObjectPath": "Play_Music_DistantGentleGuitar_HRTF",
+    "ShortName": "Play_Music_DistantGentleGuitar_HRTF",
+    "Path": "Event/Play_Music_DistantGentleGuitar_HRTF.bnk",
+    "Media": [
+     {
+      "Id": "181664180",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Music_DistantGentleGuitar_HRTF.wav",
+      "Path": "Media/181664180.wem",
+      "CachePath": "SFX/Music_DistantGentleGuitar_HRTF_8EC3C7C0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1539384943",
+      "Name": "Play_Music_DistantGentleGuitar_HRTF",
+      "ObjectPath": "\\Events\\WU_Main\\MusicTemp\\Play_Music_DistantGentleGuitar_HRTF",
+      "GUID": "{C50085BD-D3FB-42B4-A59A-E92B4AB326F4}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "181664180"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{15D1889E-F7D4-E656-04EA-18FA78953F05}"
+ }
+}

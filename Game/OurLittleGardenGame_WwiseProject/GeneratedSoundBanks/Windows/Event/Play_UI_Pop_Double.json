@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2951446888",
+    "Type": "Event",
+    "GUID": "{79475BBF-4A51-4D78-A830-3E27BE176768}",
+    "Language": "SFX",
+    "Hash": "{79844635-1FA9-F7EB-1BA2-FF342DF5E11B}",
+    "ObjectPath": "Play_UI_Pop_Double",
+    "ShortName": "Play_UI_Pop_Double",
+    "Path": "Event/Play_UI_Pop_Double.bnk",
+    "Media": [
+     {
+      "Id": "737260249",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_Pop-Double.wav",
+      "Path": "Media/737260249.wem",
+      "CachePath": "SFX/UI_Pop-Double_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2951446888",
+      "Name": "Play_UI_Pop_Double",
+      "ObjectPath": "\\Events\\WU_Main\\UI\\Play_UI_Pop_Double",
+      "GUID": "{79475BBF-4A51-4D78-A830-3E27BE176768}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.47193712",
+      "DurationMax": "0.5297316",
+      "MediaRefs": [
+       {
+        "Id": "737260249"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{B51B570B-616E-C2AC-F6DB-497918D56CFB}"
+ }
+}

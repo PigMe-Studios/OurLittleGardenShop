@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2940245297	Play_Env_ShopBell			\WU_Main\Environment\Play_Env_ShopBell	
+

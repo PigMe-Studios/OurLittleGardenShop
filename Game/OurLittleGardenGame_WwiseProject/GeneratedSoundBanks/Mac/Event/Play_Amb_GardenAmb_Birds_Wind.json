@@ -1,0 +1,46 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3321113552",
+    "Type": "Event",
+    "GUID": "{0EEFC5E7-1F69-4FAF-9ED8-D73E1E099FC4}",
+    "Language": "SFX",
+    "Hash": "{C14FAFC3-A977-E849-46B7-E92CA3B83E51}",
+    "ObjectPath": "Play_Amb_GardenAmb_Birds_Wind",
+    "ShortName": "Play_Amb_GardenAmb_Birds_Wind",
+    "Path": "Event/Play_Amb_GardenAmb_Birds_Wind.bnk",
+    "Media": [
+     {
+      "Id": "743887678",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Amb_GardenAmb_Birds-Wind.wav",
+      "Path": "Media/743887678.wem",
+      "CachePath": "SFX/Amb_GardenAmb_Birds-Wind_8EC3C7C0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3321113552",
+      "Name": "Play_Amb_GardenAmb_Birds_Wind",
+      "ObjectPath": "\\Events\\WU_Main\\Ambience\\Play_Amb_GardenAmb_Birds_Wind",
+      "GUID": "{0EEFC5E7-1F69-4FAF-9ED8-D73E1E099FC4}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "743887678"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{7674D82B-6C02-DD60-A1A1-7D3FADB29379}"
+ }
+}

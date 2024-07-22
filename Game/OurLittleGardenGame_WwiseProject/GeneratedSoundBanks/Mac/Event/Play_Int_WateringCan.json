@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1889388075",
+    "Type": "Event",
+    "GUID": "{7165C635-8EA9-44DB-AEA1-06504646D50B}",
+    "Language": "SFX",
+    "Hash": "{481F74B8-94B3-ADCB-E8AA-E635073C6D24}",
+    "ObjectPath": "Play_Int_WateringCan",
+    "ShortName": "Play_Int_WateringCan",
+    "Path": "Event/Play_Int_WateringCan.bnk",
+    "Media": [
+     {
+      "Id": "138627250",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Int_WateringCan.wav",
+      "Path": "Media/138627250.wem",
+      "CachePath": "SFX/Int_WateringCan_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1889388075",
+      "Name": "Play_Int_WateringCan",
+      "ObjectPath": "\\Events\\WU_Main\\Interact\\Play_Int_WateringCan",
+      "GUID": "{7165C635-8EA9-44DB-AEA1-06504646D50B}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.7817974",
+      "DurationMax": "2.244924",
+      "MediaRefs": [
+       {
+        "Id": "138627250"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{0C6DBD4B-BF7F-253A-28C5-5E02AB58C352}"
+ }
+}

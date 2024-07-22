@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1278797248",
+    "Type": "Event",
+    "GUID": "{A9A3DFA6-FDD9-4197-8409-F19D7779B0EB}",
+    "Language": "SFX",
+    "Hash": "{6B8594A8-7171-57AE-8C7C-F39FBB0D139E}",
+    "ObjectPath": "Play_Int_Dig",
+    "ShortName": "Play_Int_Dig",
+    "Path": "Event/Play_Int_Dig.bnk",
+    "Media": [
+     {
+      "Id": "44886345",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Int_Digging-001.wav",
+      "Path": "Media/44886345.wem",
+      "CachePath": "SFX/Int_Digging-001_F06BAF76.wem"
+     },
+     {
+      "Id": "79164664",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Int_Digging-002.wav",
+      "Path": "Media/79164664.wem",
+      "CachePath": "SFX/Int_Digging-002_F06BAF76.wem"
+     },
+     {
+      "Id": "873291527",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Int_Digging-003.wav",
+      "Path": "Media/873291527.wem",
+      "CachePath": "SFX/Int_Digging-003_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1278797248",
+      "Name": "Play_Int_Dig",
+      "ObjectPath": "\\Events\\WU_Main\\Interact\\Play_Int_Dig",
+      "GUID": "{A9A3DFA6-FDD9-4197-8409-F19D7779B0EB}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.3425035",
+      "DurationMax": "4.2112904",
+      "MediaRefs": [
+       {
+        "Id": "44886345"
+       },
+       {
+        "Id": "79164664"
+       },
+       {
+        "Id": "873291527"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{B9A57862-C4E9-B4C8-5345-B743BFC911BE}"
+ }
+}
