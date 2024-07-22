@@ -157,6 +157,9 @@ struct FPlantSaveData
 	GENERATED_USTRUCT_BODY()
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TEnumAsByte<EPlants> PlantType;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FTransform Transform;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)

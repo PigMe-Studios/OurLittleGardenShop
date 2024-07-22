@@ -16,7 +16,7 @@ ACustomer::ACustomer()
 void ACustomer::BeginPlay()
 {
 	Super::BeginPlay();
-	StartDialogue(FName("MM_Intro1"));
+	//StartDialogue(FName("MM_Intro1"));
 }
 
 bool ACustomer::UpdateDialogue(FName Name)
