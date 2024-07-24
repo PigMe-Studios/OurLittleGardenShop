@@ -33,7 +33,12 @@ protected:
 	/// @brief Give the Player a new quest
 	/// @param Quest ID of the quest to be added
 	UFUNCTION(BlueprintImplementableEvent)
-		void AddQuest(const FName& QuestID);
+	void AddQuest(const FName& QuestID);
+
+	/// @brief Mark an event as completed on the event manager
+	/// @param The event to be marked complete
+	UFUNCTION(BlueprintImplementableEvent)
+	void CompleteEvent(const FName& CompletedEvent);
 
 	/// @brief Search condition map to find if condition met
 	/// @param Condition to search for
