@@ -40,6 +40,11 @@ protected:
 	UFUNCTION(BlueprintImplementableEvent)
 	void CompleteEvent(const FName& CompletedEvent);
 
+	/// @brief Switch the customer's model to different character's model
+	/// @param New Character's model to switch to
+	UFUNCTION(BlueprintImplementableEvent)
+	void SwitchCustomerModel(ECharacter NewCharacter);
+
 	/// @brief Search condition map to find if condition met
 	/// @param Condition to search for
 	/// @return Returns true is condition not found or condition's status is true

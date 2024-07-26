@@ -81,6 +81,8 @@ void ACustomer::StartDialogue(FName DialogueLine)
 {
 	CreateConversationWidget();
 	UpdateDialogue(FName(DialogueLine));
+	FDialogueLine* Row = DIALOGUE_TABLE->FindRow<FDialogueLine>(CurrentDialogue, "");
+	SwitchCustomerModel(Row->CharacterSpeaking);
 }
 
 void ACustomer::EndDialogue()
@@ -102,6 +104,8 @@ void ACustomer::EndDialogue()
 			AddQuest(Row->TriggeredQuest);
 		}
 	}
+
+	SwitchCustomerModel(ECharacter::NONE);
 
 }
 
