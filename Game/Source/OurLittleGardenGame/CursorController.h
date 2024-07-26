@@ -6,11 +6,13 @@
 #include "GameFramework/Pawn.h"
 #include "InputActionValue.h"
 #include "PhysicsEngine/PhysicsHandleComponent.h"
+#include "Public/Customer.h"
 #include "CursorController.generated.h"
 
 class UInputMappingContext;
 class AInteractableObjectParent;
 class UInputAction;
+class ACustomer;
 
 
 UENUM(BlueprintType)
@@ -111,6 +113,9 @@ public:
 	void SetCursorType(ECursorType CursorType);
 
 	void CurserHoverCheck();
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "EnhancedInput")
+	ACustomer* CustomerReference;
 
 private:
 };

@@ -85,8 +85,11 @@ void ACustomer::StartDialogue(FName DialogueLine)
 
 void ACustomer::EndDialogue()
 {
-	ConversationWidget->RemoveFromParent();
-	ConversationWidget = nullptr;
+	if (ConversationWidget)
+	{
+		ConversationWidget->RemoveFromParent();
+		ConversationWidget = nullptr;
+	}
 
 	if (FDialogueLine* Row = DIALOGUE_TABLE->FindRow<FDialogueLine>(CurrentDialogue, ""))
 	{

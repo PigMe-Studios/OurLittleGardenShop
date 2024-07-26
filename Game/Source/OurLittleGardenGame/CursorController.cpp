@@ -78,7 +78,10 @@ void ACursorController::ActorInteract(const FInputActionValue& Value)
 	{
 		return;
 	}
-
+	if (CustomerReference && CustomerReference->ConversationWidget != nullptr)
+	{
+		return;
+	}
 	FVector Start = CursorWorldLocation; 
 	FVector End = Start + (CursorWorldDirection * 5000.0f);
 	
