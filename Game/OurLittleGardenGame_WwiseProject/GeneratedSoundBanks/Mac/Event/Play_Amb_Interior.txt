@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	76573753	Play_Amb_Interior			\WU_Main\Ambience\Play_Amb_Interior	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	66858970	Amb_Interior	S:\Documents\Clones\OurLittleGardenShop\Game\OurLittleGardenGame_WwiseProject\.cache\Mac\SFX\Amb_Interior_8EC3C7C0.wem	66858970.wem	\Actor-Mixer Hierarchy\WU_Main\Ambience\AM_AmbientBeds\Amb_Interior	
+

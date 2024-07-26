@@ -20,6 +20,21 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Amb_Interior" ID="{6E036834-B727-46B5-A4B8-5BF5434403A9}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="17"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{C7642F5B-C344-4DBD-AA5D-09E5F384B7D0}" ShortID="386331283">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Interior" ID="{4C4A7380-6F40-4302-8E65-239CFBF97B36}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Environment" ID="{B1B7B36E-5C77-4ADB-8BCC-9BB68FD1639D}" ShortID="16762382">
@@ -162,6 +177,10 @@
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_UI_Pop_DoubleUp" ID="{64182781-CF6E-4824-9158-91E2E280AAE7}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="17"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
 							<ChildrenList>
 								<Action Name="" ID="{2E6AF59F-62EF-4EEB-9DD6-0BB701958029}" ShortID="25110836">
 									<ReferenceList>
@@ -173,6 +192,10 @@
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_UI_Hover" ID="{CC2F2DC8-9DAD-4DCE-B366-7147C7AF4F04}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="17"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
 							<ChildrenList>
 								<Action Name="" ID="{D2B81FD7-F7D6-4A19-B9B4-5E9351E71ADF}" ShortID="955522198">
 									<ReferenceList>

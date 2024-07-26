@@ -14,6 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_AMB_GARDENAMB_BIRDS_WIND = 3321113552U;
+        static const AkUniqueID PLAY_AMB_INTERIOR = 76573753U;
         static const AkUniqueID PLAY_ENV_SHOPBELL = 2940245297U;
         static const AkUniqueID PLAY_INT_DIG = 1278797248U;
         static const AkUniqueID PLAY_INT_PLANT = 2281605023U;

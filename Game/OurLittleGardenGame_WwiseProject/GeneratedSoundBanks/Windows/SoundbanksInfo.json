@@ -14,6 +14,41 @@
   "DialogueEvents": [],
   "SoundBanks": [
    {
+    "Id": "76573753",
+    "Type": "Event",
+    "GUID": "{6E036834-B727-46B5-A4B8-5BF5434403A9}",
+    "Language": "SFX",
+    "Hash": "{2F1D79C8-EC05-6DAD-E802-089F5BD0DD76}",
+    "ObjectPath": "Play_Amb_Interior",
+    "ShortName": "Play_Amb_Interior",
+    "Path": "Event/Play_Amb_Interior.bnk",
+    "Media": [
+     {
+      "Id": "66858970",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Amb_Interior.wav",
+      "Path": "Media/66858970.wem",
+      "CachePath": "SFX/Amb_Interior_8EC3C7C0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "76573753",
+      "Name": "Play_Amb_Interior",
+      "ObjectPath": "\\Events\\WU_Main\\Ambience\\Play_Amb_Interior",
+      "GUID": "{6E036834-B727-46B5-A4B8-5BF5434403A9}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "66858970"
+       }
+      ]
+     }
+    ]
+   },
+   {
     "Id": "100379607",
     "Type": "Event",
     "GUID": "{06DFBA66-5CF9-49C3-BE6A-FB9F3EF5CCB4}",
@@ -600,6 +635,6 @@
     ]
    }
   ],
-  "FileHash": "{0D1D7322-D137-324A-566A-1AFD7953C844}"
+  "FileHash": "{9D6E65B7-0547-E90B-4EA3-45BC280D1742}"
  }
 }
