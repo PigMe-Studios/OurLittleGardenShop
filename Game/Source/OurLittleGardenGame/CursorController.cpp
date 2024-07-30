@@ -8,6 +8,7 @@
 #include "InputMappingContext.h"
 #include "EnhancedInputSubsystems.h"
 #include "EnhancedInputComponent.h"
+#include "Materials/MaterialInstanceDynamic.h"
 //#include "Kismet/GameplayStatics.h"
 #include "PhysicsEngine/PhysicsHandleComponent.h"
 #include "InteractableObjectParent.h"
@@ -46,6 +47,7 @@ void ACursorController::BeginPlay()
 	SetCursorType(ECursorType::Default);
 	//xPlayerControllerRef->DeprojectMousePositionToWorld()
 }
+
 
 void ACursorController::CursorWorldPosition()
 {
@@ -169,6 +171,7 @@ void ACursorController::CurserHoverCheck()
 	if (bIsInteracting)
 	{
 		SetCursorType(ECursorType::Interact);
+		HoverOutline(nullptr);
 		return;
 	}
 
@@ -185,15 +188,48 @@ void ACursorController::CurserHoverCheck()
 		if (HitActor && HitActor->GetClass()->ImplementsInterface(UInteractionInterface::StaticClass()))
 		{
 			SetCursorType(ECursorType::HoverInteract); 
+			//outline triggered on current hovered object
+			HoverOutline(HitActor);
 		}
 		else
 		{
 			SetCursorType(ECursorType::Default); 
+			//remove outline
+			HoverOutline(nullptr);
 		}
 	}
 	else
 	{
 		SetCursorType(ECursorType::Default); 
+		//remove outline
+		HoverOutline(nullptr);
+	}
+
+}
+
+void ACursorController::HoverOutline(AActor* CurrentHoveredActor)
+{
+	static AActor* LastHoveredActor = nullptr;
+
+	//disable 'render customdepth pass' on the last hovered actor
+	if (LastHoveredActor && LastHoveredActor != CurrentHoveredActor)
+	{
+		if (UStaticMeshComponent* LastMeshComponent = LastHoveredActor->FindComponentByClass<UStaticMeshComponent>())
+		{
+			LastMeshComponent->SetRenderCustomDepth(false);
+		}
+	}
+
+	//update the last hovered actor
+	LastHoveredActor = CurrentHoveredActor;
+
+	//enable 'render customdepth pass' on the current hovered actor
+	if (CurrentHoveredActor)
+	{
+		if (UStaticMeshComponent* MeshComponent = CurrentHoveredActor->FindComponentByClass<UStaticMeshComponent>())
+		{
+			MeshComponent->SetRenderCustomDepth(true);
+		}
 	}
 
 }
