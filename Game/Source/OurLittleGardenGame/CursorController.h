@@ -64,7 +64,8 @@ protected:
 	// Called when scroll wheel / QE pressed
 	void RotateActor(const FInputActionValue& Value);
 
-
+	//hover outline effect 
+	void HoverOutline(AActor* CurrentHoveredActor);
 
 	void CursorWorldPosition();
 
