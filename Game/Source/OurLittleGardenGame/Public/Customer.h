@@ -79,6 +79,10 @@ public:
 
 	class UConversationWidget* ConversationWidget;
 
+	// Contains the display names of the characters, including the player
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TMap<ECharacter, FName> NameMap;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		ECharacter Character;
 

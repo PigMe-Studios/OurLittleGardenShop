@@ -10,6 +10,11 @@ ACustomer::ACustomer()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	// Initialise Name map, player name needs to be loaded from Instance in BP
+	NameMap.Add(ECharacter::CHEF, FName("Chef"));
+	NameMap.Add(ECharacter::FLORIST, FName("Florist"));
+	NameMap.Add(ECharacter::MAILMAN, FName("Post Man"));
+
 }
 
 // Called when the game starts or when spawned
@@ -27,7 +32,7 @@ bool ACustomer::UpdateDialogue(FName Name)
 		Emotion = Row->CharacterEmotion;
 		FString CharacterFullName = UEnum::GetValueAsString(Row->CharacterSpeaking);
 		CharacterFullName = CharacterFullName.Replace(TEXT("ECharacter::"), TEXT(""));
-		ConversationWidget->UpdateContentText(FName(CharacterFullName), Row->Content);
+		ConversationWidget->UpdateContentText(*NameMap.Find(Row->CharacterSpeaking), Row->Content);
 		if (Row->bRespondable)
 		{
 			DisplayedResponses.Empty();
