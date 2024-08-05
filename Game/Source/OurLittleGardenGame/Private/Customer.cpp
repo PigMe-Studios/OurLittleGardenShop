@@ -80,6 +80,7 @@ FName ACustomer::GetResponseDialogue(int ResponseOption)
 void ACustomer::StartDialogue(FName DialogueLine)
 {
 	CreateConversationWidget();
+	bDialogueOpen = true;
 	UpdateDialogue(FName(DialogueLine));
 	FDialogueLine* Row = DIALOGUE_TABLE->FindRow<FDialogueLine>(CurrentDialogue, "");
 	SwitchCustomerModel(Row->CharacterSpeaking);
@@ -106,6 +107,7 @@ void ACustomer::EndDialogue()
 	}
 
 	SwitchCustomerModel(ECharacter::NONE);
+	bDialogueOpen = false;
 
 }
 
@@ -117,11 +119,6 @@ FName ACustomer::GetNextLine()
 
 bool ACustomer::IsResponseConditionMet(FName Condition)
 {
-	//if (Response.Condition == FName("") || *ConditionMap.Find(Response.Condition))
-	//xif (Condition == FName(""))
-	//x{
-	//x	return true;
-	//x}
 
 	if (bool* ConditionValue = ConditionMap.Find(Condition))
 	{

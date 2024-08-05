@@ -92,4 +92,8 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		TArray<FName> DisplayedResponses;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		bool bDialogueOpen;
+
 };
