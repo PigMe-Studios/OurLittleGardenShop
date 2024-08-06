@@ -1,3 +1,4 @@
+#include "Customer.h"
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
@@ -86,7 +87,8 @@ FName ACustomer::GetResponseDialogue(int ResponseOption)
 void ACustomer::StartDialogue(FName DialogueLine)
 {
 	CreateConversationWidget();
-	bDialogueOpen = true;
+	//bDialogueOpen = true;
+	UpdateStatus(true);
 	UpdateDialogue(FName(DialogueLine));
 	FDialogueLine* Row = DIALOGUE_TABLE->FindRow<FDialogueLine>(CurrentDialogue, "");
 	SwitchCustomerModel(Row->CharacterSpeaking);
@@ -113,9 +115,12 @@ void ACustomer::EndDialogue()
 	}
 
 	SwitchCustomerModel(ECharacter::NONE);
-	bDialogueOpen = false;
+	//bDialogueOpen = false;
+	UpdateStatus(false);
 
 }
+
+
 
 FName ACustomer::GetNextLine()
 {
