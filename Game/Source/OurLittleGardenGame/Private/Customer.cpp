@@ -15,6 +15,7 @@ ACustomer::ACustomer()
 	NameMap.Add(ECharacter::CHEF, FName("Chef"));
 	NameMap.Add(ECharacter::FLORIST, FName("Florist"));
 	NameMap.Add(ECharacter::MAILMAN, FName("Post Man"));
+	NameMap.Add(ECharacter::PLAYER, FName("Player"));
 
 }
 
