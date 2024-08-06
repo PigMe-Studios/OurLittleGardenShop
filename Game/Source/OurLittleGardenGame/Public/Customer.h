@@ -45,6 +45,9 @@ protected:
 	UFUNCTION(BlueprintImplementableEvent)
 	void SwitchCustomerModel(ECharacter NewCharacter);
 
+	UFUNCTION(BlueprintImplementableEvent)
+	void UpdateStatus(bool bDialogueOpen);
+
 	/// @brief Search condition map to find if condition met
 	/// @param Condition to search for
 	/// @return Returns true is condition not found or condition's status is true
@@ -66,6 +69,7 @@ public:
 
 	/// @brief Destroy Conversation widget and end dialogue
 	void EndDialogue() override;
+
 
 	/// @brief Get the Name of the next dialogue line from the current dialogue line
 	/// @return Name of the next Dialogue line
@@ -102,7 +106,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		TArray<FName> DisplayedResponses;
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-		bool bDialogueOpen;
+	//UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		//bool bDialogueOpen;
 
 };
