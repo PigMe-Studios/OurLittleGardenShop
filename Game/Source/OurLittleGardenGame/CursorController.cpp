@@ -90,7 +90,8 @@ void ACursorController::ActorInteract(const FInputActionValue& Value)
 	FHitResult HitResult;
 	FCollisionQueryParams LineTraceParams;
 
-	if (GetWorld()->LineTraceSingleByChannel(HitResult, Start, End, ECollisionChannel::ECC_Visibility, LineTraceParams, FCollisionResponseParams()))
+	if (GetWorld()->LineTraceSingleByChannel(HitResult, Start, End, ECollisionChannel::ECC_Visibility, LineTraceParams, FCollisionResponseParams())
+		&& !IsDialogueActive())
 	{
 		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("HitSomething: %s"), *HitResult.GetActor()->GetName()));
 
