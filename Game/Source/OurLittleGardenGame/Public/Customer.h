@@ -71,6 +71,11 @@ public:
 	/// @return Name of the next Dialogue line
 	FName GetNextLine() override;
 
+	/// @brief Process dialogue by replacing placeholder text (e.g [Name]) with desired text
+	/// @param Content to process
+	/// @return The processed dialogue
+	FString ProcessString(FString Content);
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UDataTable* DIALOGUE_TABLE;
 

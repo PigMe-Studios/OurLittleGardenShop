@@ -32,7 +32,8 @@ bool ACustomer::UpdateDialogue(FName Name)
 		Emotion = Row->CharacterEmotion;
 		FString CharacterFullName = UEnum::GetValueAsString(Row->CharacterSpeaking);
 		CharacterFullName = CharacterFullName.Replace(TEXT("ECharacter::"), TEXT(""));
-		ConversationWidget->UpdateContentText(*NameMap.Find(Row->CharacterSpeaking), Row->Content);
+		FString ProcessedContent = ProcessString(Row->Content);
+		ConversationWidget->UpdateContentText(*NameMap.Find(Row->CharacterSpeaking), ProcessedContent);
 		if (Row->bRespondable)
 		{
 			DisplayedResponses.Empty();
@@ -120,6 +121,14 @@ FName ACustomer::GetNextLine()
 {
 	FDialogueLine* Row = DIALOGUE_TABLE->FindRow<FDialogueLine>(CurrentDialogue, "");
 	return Row->NextLine;
+}
+
+FString ACustomer::ProcessString(FString Content)
+{
+	FString ProcessedString = Content;
+	ProcessedString = ProcessedString.Replace(TEXT("[Name]"), *NameMap.Find(ECharacter::PLAYER)->ToString());
+	//ProcessedString = ProcessedString.Replace(TEXT("[Name]"), TEXT("IUHDFIOUAHOIAUDW"));
+	return ProcessedString;
 }
 
 bool ACustomer::IsResponseConditionMet(FName Condition)
