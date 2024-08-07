@@ -461,6 +461,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_UI_Camera_Move" ID="{4C04B47A-6C96-46C2-A4F4-491B6F76D1EA}">
+							<ChildrenList>
+								<Action Name="" ID="{D9D73D2E-9E5B-4867-A275-988CA3B18A1B}" ShortID="609772257">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Camera-Move" ID="{A67AD71F-D000-4A76-B70D-F77CE04104AD}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="MusicTemp" ID="{D4C91DA7-D0D2-4C4A-9D7E-0D793990C0A4}" ShortID="114645410">
