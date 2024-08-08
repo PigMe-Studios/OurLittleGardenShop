@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="60672849" Type="Event" GUID="{2AE28E24-EC6E-40A6-A4BB-BCAD8D25A77C}" Language="SFX" Hash="{5962E019-5241-58E2-AB9E-187C880B5427}">
+			<ObjectPath>Play_Env_Lamp_Interact</ObjectPath>
+			<ShortName>Play_Env_Lamp_Interact</ShortName>
+			<Path>Event/Play_Env_Lamp_Interact.bnk</Path>
+			<Media>
+				<File Id="307558579" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Lamp-Interact-001.wav</ShortName>
+					<Path>Media/307558579.wem</Path>
+					<CachePath>SFX/Env_Lamp-Interact-001_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="919023126" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Lamp-Interact-002.wav</ShortName>
+					<Path>Media/919023126.wem</Path>
+					<CachePath>SFX/Env_Lamp-Interact-002_F06BAF76.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="60672849" Name="Play_Env_Lamp_Interact" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_Lamp_Interact" GUID="{2AE28E24-EC6E-40A6-A4BB-BCAD8D25A77C}" DurationType="OneShot" DurationMin="0.47193712" DurationMax="0.5297316">
+					<MediaRefs>
+						<MediaRef Id="307558579"/>
+						<MediaRef Id="919023126"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{1634624B-B7CA-050D-5996-4588AEA692F7}</FileHash>
+</SoundBanksInfo>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="4197296339" Type="Event" GUID="{71B80328-F9C6-4369-B305-497B7553A0A1}" Language="SFX" Hash="{5516885C-D29F-98BA-69AB-ADB1F415EB2C}">
+			<ObjectPath>Play_Env_WateringCan_Pour_Start</ObjectPath>
+			<ShortName>Play_Env_WateringCan_Pour_Start</ShortName>
+			<Path>Event/Play_Env_WateringCan_Pour_Start.bnk</Path>
+			<Media>
+				<File Id="633201667" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_WateringCan-Pour_Start.wav</ShortName>
+					<Path>Media/633201667.wem</Path>
+					<CachePath>SFX/Env_WateringCan-Pour_Start_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="841646343" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_WateringCan-Pour_Sustain.wav</ShortName>
+					<Path>Media/841646343.wem</Path>
+					<CachePath>SFX/Env_WateringCan-Pour_Sustain_8EC3C7C0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="4197296339" Name="Play_Env_WateringCan_Pour_Start" ObjectPath="\Events\WU_Main\Environment\Tools\Play_Env_WateringCan_Pour_Start" GUID="{71B80328-F9C6-4369-B305-497B7553A0A1}" MaxAttenuation="10000" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="633201667"/>
+						<MediaRef Id="841646343"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{AEA2C77C-19AD-FF09-33D9-EC7480706BD3}</FileHash>
+</SoundBanksInfo>

@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "378354790",
+    "Type": "Event",
+    "GUID": "{206067AD-9C1F-421D-8786-08D770F6F297}",
+    "Language": "SFX",
+    "Hash": "{F12F35D1-69C0-A61D-0C48-EB703DF441E8}",
+    "ObjectPath": "Stop_Env_WateringCan_Pour_End",
+    "ShortName": "Stop_Env_WateringCan_Pour_End",
+    "Path": "Event/Stop_Env_WateringCan_Pour_End.bnk",
+    "Media": [
+     {
+      "Id": "717163319",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_WateringCan-Pour_End.wav",
+      "Path": "Media/717163319.wem",
+      "CachePath": "SFX/Env_WateringCan-Pour_End_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "378354790",
+      "Name": "Stop_Env_WateringCan_Pour_End",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Tools\\Stop_Env_WateringCan_Pour_End",
+      "GUID": "{206067AD-9C1F-421D-8786-08D770F6F297}",
+      "MaxAttenuation": "10000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.7817974",
+      "DurationMax": "2.244924",
+      "MediaRefs": [
+       {
+        "Id": "717163319"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{2B81D8EE-8356-402B-D33D-94DDE58702C9}"
+ }
+}

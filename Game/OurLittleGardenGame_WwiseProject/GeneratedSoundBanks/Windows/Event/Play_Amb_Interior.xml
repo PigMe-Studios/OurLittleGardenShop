@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="76573753" Type="Event" GUID="{6E036834-B727-46B5-A4B8-5BF5434403A9}" Language="SFX" Hash="{2F1D79C8-EC05-6DAD-E802-089F5BD0DD76}">
+		<SoundBank Id="76573753" Type="Event" GUID="{6E036834-B727-46B5-A4B8-5BF5434403A9}" Language="SFX" Hash="{8F3B37F6-E308-0947-EB70-12247F5A876F}">
 			<ObjectPath>Play_Amb_Interior</ObjectPath>
 			<ShortName>Play_Amb_Interior</ShortName>
 			<Path>Event/Play_Amb_Interior.bnk</Path>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C5177136-9580-1D97-DCAD-4C0045733097}</FileHash>
+	<FileHash>{65190EFF-2BEC-A8AE-CF74-A5042E632A45}</FileHash>
 </SoundBanksInfo>

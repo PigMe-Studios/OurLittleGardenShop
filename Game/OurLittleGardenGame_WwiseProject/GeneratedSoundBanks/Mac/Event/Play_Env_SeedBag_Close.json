@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2134647096",
+    "Type": "Event",
+    "GUID": "{3C643E1F-37F2-4057-9482-2AEC4B9251E2}",
+    "Language": "SFX",
+    "Hash": "{92217292-B458-B048-1E82-24D6328C3F2D}",
+    "ObjectPath": "Play_Env_SeedBag_Close",
+    "ShortName": "Play_Env_SeedBag_Close",
+    "Path": "Event/Play_Env_SeedBag_Close.bnk",
+    "Media": [
+     {
+      "Id": "209489599",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_SeedBag-Close-003.wav",
+      "Path": "Media/209489599.wem",
+      "CachePath": "SFX/Env_SeedBag-Close-003_F06BAF76.wem"
+     },
+     {
+      "Id": "583845754",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_SeedBag-Close-001.wav",
+      "Path": "Media/583845754.wem",
+      "CachePath": "SFX/Env_SeedBag-Close-001_F06BAF76.wem"
+     },
+     {
+      "Id": "875049367",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_SeedBag-Close-002.wav",
+      "Path": "Media/875049367.wem",
+      "CachePath": "SFX/Env_SeedBag-Close-002_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2134647096",
+      "Name": "Play_Env_SeedBag_Close",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Tools\\Play_Env_SeedBag_Close",
+      "GUID": "{3C643E1F-37F2-4057-9482-2AEC4B9251E2}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.8908987",
+      "DurationMax": "1.122462",
+      "MediaRefs": [
+       {
+        "Id": "209489599"
+       },
+       {
+        "Id": "583845754"
+       },
+       {
+        "Id": "875049367"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{579BEFCE-7231-9022-0516-47339CE2431D}"
+ }
+}

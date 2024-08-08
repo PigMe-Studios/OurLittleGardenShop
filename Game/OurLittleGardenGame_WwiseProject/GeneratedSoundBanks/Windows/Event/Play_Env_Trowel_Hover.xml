@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1229516846" Type="Event" GUID="{4E4E041D-3978-4629-B317-A1D96DEB7A6F}" Language="SFX" Hash="{DE0570CF-4778-EB6C-68AC-83915E58EA25}">
+			<ObjectPath>Play_Env_Trowel_Hover</ObjectPath>
+			<ShortName>Play_Env_Trowel_Hover</ShortName>
+			<Path>Event/Play_Env_Trowel_Hover.bnk</Path>
+			<Media>
+				<File Id="64273574" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Trowel-Hover-002.wav</ShortName>
+					<Path>Media/64273574.wem</Path>
+					<CachePath>SFX/Env_Trowel-Hover-002_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="142512533" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Trowel-Hover-003.wav</ShortName>
+					<Path>Media/142512533.wem</Path>
+					<CachePath>SFX/Env_Trowel-Hover-003_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="410720252" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Trowel-Hover-001.wav</ShortName>
+					<Path>Media/410720252.wem</Path>
+					<CachePath>SFX/Env_Trowel-Hover-001_F06BAF76.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1229516846" Name="Play_Env_Trowel_Hover" ObjectPath="\Events\WU_Main\Environment\Tools\Play_Env_Trowel_Hover" GUID="{4E4E041D-3978-4629-B317-A1D96DEB7A6F}" DurationType="OneShot" DurationMin="0.8908987" DurationMax="1.122462">
+					<MediaRefs>
+						<MediaRef Id="64273574"/>
+						<MediaRef Id="142512533"/>
+						<MediaRef Id="410720252"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{5181122A-9D97-FC67-52C1-52A49FC90520}</FileHash>
+</SoundBanksInfo>

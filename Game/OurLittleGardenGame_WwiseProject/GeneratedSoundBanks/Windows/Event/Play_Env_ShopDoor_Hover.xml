@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="878394813" Type="Event" GUID="{8F1E4C26-6851-4559-8E49-032EAEB15DC8}" Language="SFX" Hash="{596D1B83-335F-80F3-B812-5E142AE520E6}">
+			<ObjectPath>Play_Env_ShopDoor_Hover</ObjectPath>
+			<ShortName>Play_Env_ShopDoor_Hover</ShortName>
+			<Path>Event/Play_Env_ShopDoor_Hover.bnk</Path>
+			<Media>
+				<File Id="437583964" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_ShopDoor-Hover.wav</ShortName>
+					<Path>Media/437583964.wem</Path>
+					<CachePath>SFX/Env_ShopDoor-Hover_F06BAF76.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="878394813" Name="Play_Env_ShopDoor_Hover" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_ShopDoor_Hover" GUID="{8F1E4C26-6851-4559-8E49-032EAEB15DC8}" DurationType="OneShot" DurationMin="0.47193712" DurationMax="0.5297316">
+					<MediaRefs>
+						<MediaRef Id="437583964"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{2C08F9F3-6AD7-A06F-0C18-082DE82C1B83}</FileHash>
+</SoundBanksInfo>

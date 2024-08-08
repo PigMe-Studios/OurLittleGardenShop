@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "878394813",
+    "Type": "Event",
+    "GUID": "{8F1E4C26-6851-4559-8E49-032EAEB15DC8}",
+    "Language": "SFX",
+    "Hash": "{596D1B83-335F-80F3-B812-5E142AE520E6}",
+    "ObjectPath": "Play_Env_ShopDoor_Hover",
+    "ShortName": "Play_Env_ShopDoor_Hover",
+    "Path": "Event/Play_Env_ShopDoor_Hover.bnk",
+    "Media": [
+     {
+      "Id": "437583964",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_ShopDoor-Hover.wav",
+      "Path": "Media/437583964.wem",
+      "CachePath": "SFX/Env_ShopDoor-Hover_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "878394813",
+      "Name": "Play_Env_ShopDoor_Hover",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_ShopDoor_Hover",
+      "GUID": "{8F1E4C26-6851-4559-8E49-032EAEB15DC8}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.47193712",
+      "DurationMax": "0.5297316",
+      "MediaRefs": [
+       {
+        "Id": "437583964"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{23BED889-2B25-E591-C2C9-092AE266CC30}"
+ }
+}

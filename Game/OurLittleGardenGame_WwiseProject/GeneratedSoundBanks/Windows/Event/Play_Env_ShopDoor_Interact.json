@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1705306783",
+    "Type": "Event",
+    "GUID": "{8A612E3D-10B2-4015-B3E7-C75743580D1D}",
+    "Language": "SFX",
+    "Hash": "{48540583-B643-2CBD-B37F-9936D3A62138}",
+    "ObjectPath": "Play_Env_ShopDoor_Interact",
+    "ShortName": "Play_Env_ShopDoor_Interact",
+    "Path": "Event/Play_Env_ShopDoor_Interact.bnk",
+    "Media": [
+     {
+      "Id": "614421866",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_ShopDoor-Interact.wav",
+      "Path": "Media/614421866.wem",
+      "CachePath": "SFX/Env_ShopDoor-Interact_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1705306783",
+      "Name": "Play_Env_ShopDoor_Interact",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_ShopDoor_Interact",
+      "GUID": "{8A612E3D-10B2-4015-B3E7-C75743580D1D}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.8877485",
+      "DurationMax": "2.1189263",
+      "MediaRefs": [
+       {
+        "Id": "614421866"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{606977D3-170D-B5AD-6437-D79DA22E97B7}"
+ }
+}

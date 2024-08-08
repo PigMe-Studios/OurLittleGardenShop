@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3730387420	Play_Env_WateringCan_PickUp			\WU_Main\Environment\Tools\Play_Env_WateringCan_PickUp	
+

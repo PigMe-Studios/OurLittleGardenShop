@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2940245297" Type="Event" GUID="{439F0EFE-EF68-487D-A78C-A4CAFF3188FC}" Language="SFX" Hash="{C7941134-A45E-A8FC-CDE2-403ED72347D3}">
+		<SoundBank Id="2940245297" Type="Event" GUID="{439F0EFE-EF68-487D-A78C-A4CAFF3188FC}" Language="SFX" Hash="{E84676E3-65BF-1BAD-A358-5AE0A42120F8}">
 			<ObjectPath>Play_Env_ShopBell</ObjectPath>
 			<ShortName>Play_Env_ShopBell</ShortName>
 			<Path>Event/Play_Env_ShopBell.bnk</Path>
@@ -13,7 +13,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2940245297" Name="Play_Env_ShopBell" ObjectPath="\Events\WU_Main\Environment\Play_Env_ShopBell" GUID="{439F0EFE-EF68-487D-A78C-A4CAFF3188FC}" DurationType="OneShot" DurationMin="1.125" DurationMax="1.125">
+				<Event Id="2940245297" Name="Play_Env_ShopBell" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_ShopBell" GUID="{439F0EFE-EF68-487D-A78C-A4CAFF3188FC}" DurationType="OneShot" DurationMin="1.0618585" DurationMax="1.1918961">
 					<MediaRefs>
 						<MediaRef Id="398633420"/>
 					</MediaRefs>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A903A667-550E-B14A-8A4A-8613A3DB7A2B}</FileHash>
+	<FileHash>{FEE0F641-C39F-20AC-6EB6-7E81C4FD77C3}</FileHash>
 </SoundBanksInfo>

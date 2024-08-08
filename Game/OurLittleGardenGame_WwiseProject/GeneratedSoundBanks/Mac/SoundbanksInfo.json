@@ -14,11 +14,60 @@
   "DialogueEvents": [],
   "SoundBanks": [
    {
+    "Id": "60672849",
+    "Type": "Event",
+    "GUID": "{2AE28E24-EC6E-40A6-A4BB-BCAD8D25A77C}",
+    "Language": "SFX",
+    "Hash": "{5962E019-5241-58E2-AB9E-187C880B5427}",
+    "ObjectPath": "Play_Env_Lamp_Interact",
+    "ShortName": "Play_Env_Lamp_Interact",
+    "Path": "Event/Play_Env_Lamp_Interact.bnk",
+    "Media": [
+     {
+      "Id": "307558579",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Lamp-Interact-001.wav",
+      "Path": "Media/307558579.wem",
+      "CachePath": "SFX/Env_Lamp-Interact-001_F06BAF76.wem"
+     },
+     {
+      "Id": "919023126",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Lamp-Interact-002.wav",
+      "Path": "Media/919023126.wem",
+      "CachePath": "SFX/Env_Lamp-Interact-002_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "60672849",
+      "Name": "Play_Env_Lamp_Interact",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_Lamp_Interact",
+      "GUID": "{2AE28E24-EC6E-40A6-A4BB-BCAD8D25A77C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.47193712",
+      "DurationMax": "0.5297316",
+      "MediaRefs": [
+       {
+        "Id": "307558579"
+       },
+       {
+        "Id": "919023126"
+       }
+      ]
+     }
+    ]
+   },
+   {
     "Id": "76573753",
     "Type": "Event",
     "GUID": "{6E036834-B727-46B5-A4B8-5BF5434403A9}",
     "Language": "SFX",
-    "Hash": "{2F1D79C8-EC05-6DAD-E802-089F5BD0DD76}",
+    "Hash": "{8F3B37F6-E308-0947-EB70-12247F5A876F}",
     "ObjectPath": "Play_Amb_Interior",
     "ShortName": "Play_Amb_Interior",
     "Path": "Event/Play_Amb_Interior.bnk",
@@ -43,6 +92,67 @@
       "MediaRefs": [
        {
         "Id": "66858970"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "97207454",
+    "Type": "Event",
+    "GUID": "{D942A84E-887E-49AC-9831-48D1D081CAB3}",
+    "Language": "SFX",
+    "Hash": "{104761F4-0F39-DD83-48DB-A21695CFB388}",
+    "ObjectPath": "Play_Env_WateringCan_Hover",
+    "ShortName": "Play_Env_WateringCan_Hover",
+    "Path": "Event/Play_Env_WateringCan_Hover.bnk",
+    "Media": [
+     {
+      "Id": "120729745",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_WateringCan-Hover-002.wav",
+      "Path": "Media/120729745.wem",
+      "CachePath": "SFX/Env_WateringCan-Hover-002_F06BAF76.wem"
+     },
+     {
+      "Id": "314947773",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_WateringCan-Hover-001.wav",
+      "Path": "Media/314947773.wem",
+      "CachePath": "SFX/Env_WateringCan-Hover-001_F06BAF76.wem"
+     },
+     {
+      "Id": "997588128",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_WateringCan-Hover-003.wav",
+      "Path": "Media/997588128.wem",
+      "CachePath": "SFX/Env_WateringCan-Hover-003_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "97207454",
+      "Name": "Play_Env_WateringCan_Hover",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Tools\\Play_Env_WateringCan_Hover",
+      "GUID": "{D942A84E-887E-49AC-9831-48D1D081CAB3}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.8908987",
+      "DurationMax": "1.122462",
+      "MediaRefs": [
+       {
+        "Id": "120729745"
+       },
+       {
+        "Id": "314947773"
+       },
+       {
+        "Id": "997588128"
        }
       ]
      }
@@ -86,6 +196,142 @@
     ]
    },
    {
+    "Id": "197273286",
+    "Type": "Event",
+    "GUID": "{C3184C5C-9280-4C2F-BDFB-BC28C7E35301}",
+    "Language": "SFX",
+    "Hash": "{4B3B7D01-6B8C-35E7-6023-B0E8C31D8282}",
+    "ObjectPath": "Play_Env_Register_Interact",
+    "ShortName": "Play_Env_Register_Interact",
+    "Path": "Event/Play_Env_Register_Interact.bnk",
+    "Media": [
+     {
+      "Id": "1007202214",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Register-Interact.wav",
+      "Path": "Media/1007202214.wem",
+      "CachePath": "SFX/Env_Register-Interact_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "197273286",
+      "Name": "Play_Env_Register_Interact",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_Register_Interact",
+      "GUID": "{C3184C5C-9280-4C2F-BDFB-BC28C7E35301}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.8877485",
+      "DurationMax": "2.1189263",
+      "MediaRefs": [
+       {
+        "Id": "1007202214"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "378354790",
+    "Type": "Event",
+    "GUID": "{206067AD-9C1F-421D-8786-08D770F6F297}",
+    "Language": "SFX",
+    "Hash": "{F12F35D1-69C0-A61D-0C48-EB703DF441E8}",
+    "ObjectPath": "Stop_Env_WateringCan_Pour_End",
+    "ShortName": "Stop_Env_WateringCan_Pour_End",
+    "Path": "Event/Stop_Env_WateringCan_Pour_End.bnk",
+    "Media": [
+     {
+      "Id": "717163319",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_WateringCan-Pour_End.wav",
+      "Path": "Media/717163319.wem",
+      "CachePath": "SFX/Env_WateringCan-Pour_End_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "378354790",
+      "Name": "Stop_Env_WateringCan_Pour_End",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Tools\\Stop_Env_WateringCan_Pour_End",
+      "GUID": "{206067AD-9C1F-421D-8786-08D770F6F297}",
+      "MaxAttenuation": "10000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.7817974",
+      "DurationMax": "2.244924",
+      "MediaRefs": [
+       {
+        "Id": "717163319"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "642285692",
+    "Type": "Event",
+    "GUID": "{AF96BDDD-4061-40DF-A6BC-42FCC0594803}",
+    "Language": "SFX",
+    "Hash": "{3AE308B5-E367-63B8-5F34-C3F8AE45C6C5}",
+    "ObjectPath": "Play_Env_SeedBag_Open",
+    "ShortName": "Play_Env_SeedBag_Open",
+    "Path": "Event/Play_Env_SeedBag_Open.bnk",
+    "Media": [
+     {
+      "Id": "3760087",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_SeedBag-Open-001.wav",
+      "Path": "Media/3760087.wem",
+      "CachePath": "SFX/Env_SeedBag-Open-001_F06BAF76.wem"
+     },
+     {
+      "Id": "176880429",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_SeedBag-Open-002.wav",
+      "Path": "Media/176880429.wem",
+      "CachePath": "SFX/Env_SeedBag-Open-002_F06BAF76.wem"
+     },
+     {
+      "Id": "966916693",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_SeedBag-Open-003.wav",
+      "Path": "Media/966916693.wem",
+      "CachePath": "SFX/Env_SeedBag-Open-003_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "642285692",
+      "Name": "Play_Env_SeedBag_Open",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Tools\\Play_Env_SeedBag_Open",
+      "GUID": "{AF96BDDD-4061-40DF-A6BC-42FCC0594803}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.8908987",
+      "DurationMax": "1.122462",
+      "MediaRefs": [
+       {
+        "Id": "3760087"
+       },
+       {
+        "Id": "176880429"
+       },
+       {
+        "Id": "966916693"
+       }
+      ]
+     }
+    ]
+   },
+   {
     "Id": "792485676",
     "Type": "Event",
     "GUID": "{E8BD84C4-15A4-4E44-A5C3-3AE191C8E802}",
@@ -123,61 +369,159 @@
     ]
    },
    {
-    "Id": "1278797248",
+    "Id": "878394813",
     "Type": "Event",
-    "GUID": "{A9A3DFA6-FDD9-4197-8409-F19D7779B0EB}",
+    "GUID": "{8F1E4C26-6851-4559-8E49-032EAEB15DC8}",
     "Language": "SFX",
-    "Hash": "{90AF3564-3B1D-178B-7E9D-E879672CDB93}",
-    "ObjectPath": "Play_Int_Dig",
-    "ShortName": "Play_Int_Dig",
-    "Path": "Event/Play_Int_Dig.bnk",
+    "Hash": "{596D1B83-335F-80F3-B812-5E142AE520E6}",
+    "ObjectPath": "Play_Env_ShopDoor_Hover",
+    "ShortName": "Play_Env_ShopDoor_Hover",
+    "Path": "Event/Play_Env_ShopDoor_Hover.bnk",
     "Media": [
      {
-      "Id": "44886345",
+      "Id": "437583964",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "Int_Digging-001.wav",
-      "Path": "Media/44886345.wem",
-      "CachePath": "SFX/Int_Digging-001_F06BAF76.wem"
-     },
-     {
-      "Id": "79164664",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Int_Digging-002.wav",
-      "Path": "Media/79164664.wem",
-      "CachePath": "SFX/Int_Digging-002_F06BAF76.wem"
-     },
-     {
-      "Id": "873291527",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Int_Digging-003.wav",
-      "Path": "Media/873291527.wem",
-      "CachePath": "SFX/Int_Digging-003_F06BAF76.wem"
+      "ShortName": "Env_ShopDoor-Hover.wav",
+      "Path": "Media/437583964.wem",
+      "CachePath": "SFX/Env_ShopDoor-Hover_F06BAF76.wem"
      }
     ],
     "Events": [
      {
-      "Id": "1278797248",
-      "Name": "Play_Int_Dig",
-      "ObjectPath": "\\Events\\WU_Main\\Interact\\Play_Int_Dig",
-      "GUID": "{A9A3DFA6-FDD9-4197-8409-F19D7779B0EB}",
+      "Id": "878394813",
+      "Name": "Play_Env_ShopDoor_Hover",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_ShopDoor_Hover",
+      "GUID": "{8F1E4C26-6851-4559-8E49-032EAEB15DC8}",
       "DurationType": "OneShot",
-      "DurationMin": "3.3425035",
-      "DurationMax": "4.2112904",
+      "DurationMin": "0.47193712",
+      "DurationMax": "0.5297316",
       "MediaRefs": [
        {
-        "Id": "44886345"
+        "Id": "437583964"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "1229516846",
+    "Type": "Event",
+    "GUID": "{4E4E041D-3978-4629-B317-A1D96DEB7A6F}",
+    "Language": "SFX",
+    "Hash": "{DE0570CF-4778-EB6C-68AC-83915E58EA25}",
+    "ObjectPath": "Play_Env_Trowel_Hover",
+    "ShortName": "Play_Env_Trowel_Hover",
+    "Path": "Event/Play_Env_Trowel_Hover.bnk",
+    "Media": [
+     {
+      "Id": "64273574",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Trowel-Hover-002.wav",
+      "Path": "Media/64273574.wem",
+      "CachePath": "SFX/Env_Trowel-Hover-002_F06BAF76.wem"
+     },
+     {
+      "Id": "142512533",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Trowel-Hover-003.wav",
+      "Path": "Media/142512533.wem",
+      "CachePath": "SFX/Env_Trowel-Hover-003_F06BAF76.wem"
+     },
+     {
+      "Id": "410720252",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Trowel-Hover-001.wav",
+      "Path": "Media/410720252.wem",
+      "CachePath": "SFX/Env_Trowel-Hover-001_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1229516846",
+      "Name": "Play_Env_Trowel_Hover",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Tools\\Play_Env_Trowel_Hover",
+      "GUID": "{4E4E041D-3978-4629-B317-A1D96DEB7A6F}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.8908987",
+      "DurationMax": "1.122462",
+      "MediaRefs": [
+       {
+        "Id": "64273574"
        },
        {
-        "Id": "79164664"
+        "Id": "142512533"
        },
        {
-        "Id": "873291527"
+        "Id": "410720252"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "1235655907",
+    "Type": "Event",
+    "GUID": "{33CDF151-033E-4F85-B69E-DDA9A0D168E6}",
+    "Language": "SFX",
+    "Hash": "{5E3D3925-F397-850E-7CC0-1BC0F2A5DB0E}",
+    "ObjectPath": "Play_Env_Trowel_PutDown",
+    "ShortName": "Play_Env_Trowel_PutDown",
+    "Path": "Event/Play_Env_Trowel_PutDown.bnk",
+    "Media": [
+     {
+      "Id": "357472209",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Trowel-PutDown-001.wav",
+      "Path": "Media/357472209.wem",
+      "CachePath": "SFX/Env_Trowel-PutDown-001_F06BAF76.wem"
+     },
+     {
+      "Id": "542901787",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Trowel-PutDown-003.wav",
+      "Path": "Media/542901787.wem",
+      "CachePath": "SFX/Env_Trowel-PutDown-003_F06BAF76.wem"
+     },
+     {
+      "Id": "866723077",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Trowel-PutDown-002.wav",
+      "Path": "Media/866723077.wem",
+      "CachePath": "SFX/Env_Trowel-PutDown-002_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1235655907",
+      "Name": "Play_Env_Trowel_PutDown",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Tools\\Play_Env_Trowel_PutDown",
+      "GUID": "{33CDF151-033E-4F85-B69E-DDA9A0D168E6}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.7817974",
+      "DurationMax": "2.244924",
+      "MediaRefs": [
+       {
+        "Id": "357472209"
+       },
+       {
+        "Id": "542901787"
+       },
+       {
+        "Id": "866723077"
        }
       ]
      }
@@ -354,98 +698,159 @@
     ]
    },
    {
-    "Id": "1889388075",
+    "Id": "1705306783",
     "Type": "Event",
-    "GUID": "{7165C635-8EA9-44DB-AEA1-06504646D50B}",
+    "GUID": "{8A612E3D-10B2-4015-B3E7-C75743580D1D}",
     "Language": "SFX",
-    "Hash": "{220C0AE5-0C85-EB47-1B5D-2D46921467F6}",
-    "ObjectPath": "Play_Int_WateringCan",
-    "ShortName": "Play_Int_WateringCan",
-    "Path": "Event/Play_Int_WateringCan.bnk",
+    "Hash": "{48540583-B643-2CBD-B37F-9936D3A62138}",
+    "ObjectPath": "Play_Env_ShopDoor_Interact",
+    "ShortName": "Play_Env_ShopDoor_Interact",
+    "Path": "Event/Play_Env_ShopDoor_Interact.bnk",
     "Media": [
      {
-      "Id": "138627250",
+      "Id": "614421866",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "Int_WateringCan.wav",
-      "Path": "Media/138627250.wem",
-      "CachePath": "SFX/Int_WateringCan_F06BAF76.wem"
+      "ShortName": "Env_ShopDoor-Interact.wav",
+      "Path": "Media/614421866.wem",
+      "CachePath": "SFX/Env_ShopDoor-Interact_F06BAF76.wem"
      }
     ],
     "Events": [
      {
-      "Id": "1889388075",
-      "Name": "Play_Int_WateringCan",
-      "ObjectPath": "\\Events\\WU_Main\\Interact\\Play_Int_WateringCan",
-      "GUID": "{7165C635-8EA9-44DB-AEA1-06504646D50B}",
+      "Id": "1705306783",
+      "Name": "Play_Env_ShopDoor_Interact",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_ShopDoor_Interact",
+      "GUID": "{8A612E3D-10B2-4015-B3E7-C75743580D1D}",
       "DurationType": "OneShot",
-      "DurationMin": "1.7817974",
-      "DurationMax": "2.244924",
+      "DurationMin": "1.8877485",
+      "DurationMax": "2.1189263",
       "MediaRefs": [
        {
-        "Id": "138627250"
+        "Id": "614421866"
        }
       ]
      }
     ]
    },
    {
-    "Id": "2281605023",
+    "Id": "2134647096",
     "Type": "Event",
-    "GUID": "{E70A92C3-958A-4658-B8C5-F0E6C4E6C785}",
+    "GUID": "{3C643E1F-37F2-4057-9482-2AEC4B9251E2}",
     "Language": "SFX",
-    "Hash": "{5CC6CCF7-377E-20E0-2050-292B0CEF260B}",
-    "ObjectPath": "Play_Int_Plant",
-    "ShortName": "Play_Int_Plant",
-    "Path": "Event/Play_Int_Plant.bnk",
+    "Hash": "{92217292-B458-B048-1E82-24D6328C3F2D}",
+    "ObjectPath": "Play_Env_SeedBag_Close",
+    "ShortName": "Play_Env_SeedBag_Close",
+    "Path": "Event/Play_Env_SeedBag_Close.bnk",
     "Media": [
      {
-      "Id": "17714178",
+      "Id": "209489599",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "Int_Planting-002.wav",
-      "Path": "Media/17714178.wem",
-      "CachePath": "SFX/Int_Planting-002_F06BAF76.wem"
+      "ShortName": "Env_SeedBag-Close-003.wav",
+      "Path": "Media/209489599.wem",
+      "CachePath": "SFX/Env_SeedBag-Close-003_F06BAF76.wem"
      },
      {
-      "Id": "103023756",
+      "Id": "583845754",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "Int_Planting-001.wav",
-      "Path": "Media/103023756.wem",
-      "CachePath": "SFX/Int_Planting-001_F06BAF76.wem"
+      "ShortName": "Env_SeedBag-Close-001.wav",
+      "Path": "Media/583845754.wem",
+      "CachePath": "SFX/Env_SeedBag-Close-001_F06BAF76.wem"
      },
      {
-      "Id": "406128392",
+      "Id": "875049367",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "Int_Planting-003.wav",
-      "Path": "Media/406128392.wem",
-      "CachePath": "SFX/Int_Planting-003_F06BAF76.wem"
+      "ShortName": "Env_SeedBag-Close-002.wav",
+      "Path": "Media/875049367.wem",
+      "CachePath": "SFX/Env_SeedBag-Close-002_F06BAF76.wem"
      }
     ],
     "Events": [
      {
-      "Id": "2281605023",
-      "Name": "Play_Int_Plant",
-      "ObjectPath": "\\Events\\WU_Main\\Interact\\Play_Int_Plant",
-      "GUID": "{E70A92C3-958A-4658-B8C5-F0E6C4E6C785}",
+      "Id": "2134647096",
+      "Name": "Play_Env_SeedBag_Close",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Tools\\Play_Env_SeedBag_Close",
+      "GUID": "{3C643E1F-37F2-4057-9482-2AEC4B9251E2}",
       "DurationType": "OneShot",
-      "DurationMin": "1.6712518",
-      "DurationMax": "2.1056452",
+      "DurationMin": "0.8908987",
+      "DurationMax": "1.122462",
       "MediaRefs": [
        {
-        "Id": "17714178"
+        "Id": "209489599"
        },
        {
-        "Id": "103023756"
+        "Id": "583845754"
        },
        {
-        "Id": "406128392"
+        "Id": "875049367"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "2619604514",
+    "Type": "Event",
+    "GUID": "{79918A2A-935E-4782-8C1E-383CF88677B2}",
+    "Language": "SFX",
+    "Hash": "{4071429A-07FC-4D47-FD1C-BE71D175F402}",
+    "ObjectPath": "Play_Env_SeedBag_Hover",
+    "ShortName": "Play_Env_SeedBag_Hover",
+    "Path": "Event/Play_Env_SeedBag_Hover.bnk",
+    "Media": [
+     {
+      "Id": "347905439",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_SeedBag-Hover-003.wav",
+      "Path": "Media/347905439.wem",
+      "CachePath": "SFX/Env_SeedBag-Hover-003_F06BAF76.wem"
+     },
+     {
+      "Id": "447699529",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_SeedBag-Hover-002.wav",
+      "Path": "Media/447699529.wem",
+      "CachePath": "SFX/Env_SeedBag-Hover-002_F06BAF76.wem"
+     },
+     {
+      "Id": "538399049",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_SeedBag-Hover-001.wav",
+      "Path": "Media/538399049.wem",
+      "CachePath": "SFX/Env_SeedBag-Hover-001_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2619604514",
+      "Name": "Play_Env_SeedBag_Hover",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Tools\\Play_Env_SeedBag_Hover",
+      "GUID": "{79918A2A-935E-4782-8C1E-383CF88677B2}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.8908987",
+      "DurationMax": "1.122462",
+      "MediaRefs": [
+       {
+        "Id": "347905439"
+       },
+       {
+        "Id": "447699529"
+       },
+       {
+        "Id": "538399049"
        }
       ]
      }
@@ -489,11 +894,72 @@
     ]
    },
    {
+    "Id": "2888738896",
+    "Type": "Event",
+    "GUID": "{C1403630-CB6D-4305-9951-A36B96625330}",
+    "Language": "SFX",
+    "Hash": "{517FA44B-C6F7-D51F-4148-89603838D8C9}",
+    "ObjectPath": "Play_Env_Trowel_Dig",
+    "ShortName": "Play_Env_Trowel_Dig",
+    "Path": "Event/Play_Env_Trowel_Dig.bnk",
+    "Media": [
+     {
+      "Id": "340016934",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Trowel-Dig-002.wav",
+      "Path": "Media/340016934.wem",
+      "CachePath": "SFX/Env_Trowel-Dig-002_F06BAF76.wem"
+     },
+     {
+      "Id": "777748875",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Trowel-Dig-001.wav",
+      "Path": "Media/777748875.wem",
+      "CachePath": "SFX/Env_Trowel-Dig-001_F06BAF76.wem"
+     },
+     {
+      "Id": "867440051",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Trowel-Dig-003.wav",
+      "Path": "Media/867440051.wem",
+      "CachePath": "SFX/Env_Trowel-Dig-003_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2888738896",
+      "Name": "Play_Env_Trowel_Dig",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Tools\\Play_Env_Trowel_Dig",
+      "GUID": "{C1403630-CB6D-4305-9951-A36B96625330}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.7817974",
+      "DurationMax": "2.244924",
+      "MediaRefs": [
+       {
+        "Id": "340016934"
+       },
+       {
+        "Id": "777748875"
+       },
+       {
+        "Id": "867440051"
+       }
+      ]
+     }
+    ]
+   },
+   {
     "Id": "2940245297",
     "Type": "Event",
     "GUID": "{439F0EFE-EF68-487D-A78C-A4CAFF3188FC}",
     "Language": "SFX",
-    "Hash": "{C7941134-A45E-A8FC-CDE2-403ED72347D3}",
+    "Hash": "{E84676E3-65BF-1BAD-A358-5AE0A42120F8}",
     "ObjectPath": "Play_Env_ShopBell",
     "ShortName": "Play_Env_ShopBell",
     "Path": "Event/Play_Env_ShopBell.bnk",
@@ -512,11 +978,11 @@
      {
       "Id": "2940245297",
       "Name": "Play_Env_ShopBell",
-      "ObjectPath": "\\Events\\WU_Main\\Environment\\Play_Env_ShopBell",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_ShopBell",
       "GUID": "{439F0EFE-EF68-487D-A78C-A4CAFF3188FC}",
       "DurationType": "OneShot",
-      "DurationMin": "1.125",
-      "DurationMax": "1.125",
+      "DurationMin": "1.0618585",
+      "DurationMax": "1.1918961",
       "MediaRefs": [
        {
         "Id": "398633420"
@@ -563,6 +1029,104 @@
     ]
    },
    {
+    "Id": "3105845062",
+    "Type": "Event",
+    "GUID": "{4C04B47A-6C96-46C2-A4F4-491B6F76D1EA}",
+    "Language": "SFX",
+    "Hash": "{8C28FB0E-CC7A-5B78-6692-525020D533C1}",
+    "ObjectPath": "Play_UI_Camera_Move",
+    "ShortName": "Play_UI_Camera_Move",
+    "Path": "Event/Play_UI_Camera_Move.bnk",
+    "Media": [
+     {
+      "Id": "202476683",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_Camera-Move.wav",
+      "Path": "Media/202476683.wem",
+      "CachePath": "SFX/UI_Camera-Move_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3105845062",
+      "Name": "Play_UI_Camera_Move",
+      "ObjectPath": "\\Events\\WU_Main\\UI\\Play_UI_Camera_Move",
+      "GUID": "{4C04B47A-6C96-46C2-A4F4-491B6F76D1EA}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.94387424",
+      "DurationMax": "1.0594631",
+      "MediaRefs": [
+       {
+        "Id": "202476683"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "3148792683",
+    "Type": "Event",
+    "GUID": "{DE698F2F-D8E7-407C-96E3-7C05E4D3D805}",
+    "Language": "SFX",
+    "Hash": "{D9BC97CE-2E57-27BC-BF25-B7CACC059FA3}",
+    "ObjectPath": "Play_Env_Lamp_Hover",
+    "ShortName": "Play_Env_Lamp_Hover",
+    "Path": "Event/Play_Env_Lamp_Hover.bnk",
+    "Media": [
+     {
+      "Id": "695939908",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Lamp-Hover-003.wav",
+      "Path": "Media/695939908.wem",
+      "CachePath": "SFX/Env_Lamp-Hover-003_F06BAF76.wem"
+     },
+     {
+      "Id": "836559519",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Lamp-Hover-001.wav",
+      "Path": "Media/836559519.wem",
+      "CachePath": "SFX/Env_Lamp-Hover-001_F06BAF76.wem"
+     },
+     {
+      "Id": "1013375167",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Lamp-Hover-002.wav",
+      "Path": "Media/1013375167.wem",
+      "CachePath": "SFX/Env_Lamp-Hover-002_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3148792683",
+      "Name": "Play_Env_Lamp_Hover",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_Lamp_Hover",
+      "GUID": "{DE698F2F-D8E7-407C-96E3-7C05E4D3D805}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.94387424",
+      "DurationMax": "1.0594631",
+      "MediaRefs": [
+       {
+        "Id": "695939908"
+       },
+       {
+        "Id": "836559519"
+       },
+       {
+        "Id": "1013375167"
+       }
+      ]
+     }
+    ]
+   },
+   {
     "Id": "3321113552",
     "Type": "Event",
     "GUID": "{0EEFC5E7-1F69-4FAF-9ED8-D73E1E099FC4}",
@@ -592,6 +1156,226 @@
       "MediaRefs": [
        {
         "Id": "743887678"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "3509013868",
+    "Type": "Event",
+    "GUID": "{C0F06098-CAAB-41C6-A972-07E1B3D77B33}",
+    "Language": "SFX",
+    "Hash": "{3077051A-92BE-54C7-F94D-82A7A07689EE}",
+    "ObjectPath": "Play_Env_Trowel_PickUp",
+    "ShortName": "Play_Env_Trowel_PickUp",
+    "Path": "Event/Play_Env_Trowel_PickUp.bnk",
+    "Media": [
+     {
+      "Id": "292968602",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Trowel-PickUp-001.wav",
+      "Path": "Media/292968602.wem",
+      "CachePath": "SFX/Env_Trowel-PickUp-001_F06BAF76.wem"
+     },
+     {
+      "Id": "332250347",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Trowel-PickUp-003.wav",
+      "Path": "Media/332250347.wem",
+      "CachePath": "SFX/Env_Trowel-PickUp-003_F06BAF76.wem"
+     },
+     {
+      "Id": "515549105",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Trowel-PickUp-002.wav",
+      "Path": "Media/515549105.wem",
+      "CachePath": "SFX/Env_Trowel-PickUp-002_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3509013868",
+      "Name": "Play_Env_Trowel_PickUp",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Tools\\Play_Env_Trowel_PickUp",
+      "GUID": "{C0F06098-CAAB-41C6-A972-07E1B3D77B33}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.8908987",
+      "DurationMax": "1.122462",
+      "MediaRefs": [
+       {
+        "Id": "292968602"
+       },
+       {
+        "Id": "332250347"
+       },
+       {
+        "Id": "515549105"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "3717750106",
+    "Type": "Event",
+    "GUID": "{7FBA88AE-6E5E-4749-84E7-A7DC76D2311F}",
+    "Language": "SFX",
+    "Hash": "{D0CFB1A6-85D9-FF6C-8A42-DE637FFEEE01}",
+    "ObjectPath": "Play_Env_Register_Hover",
+    "ShortName": "Play_Env_Register_Hover",
+    "Path": "Event/Play_Env_Register_Hover.bnk",
+    "Media": [
+     {
+      "Id": "243015615",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Register-Hover.wav",
+      "Path": "Media/243015615.wem",
+      "CachePath": "SFX/Env_Register-Hover_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3717750106",
+      "Name": "Play_Env_Register_Hover",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_Register_Hover",
+      "GUID": "{7FBA88AE-6E5E-4749-84E7-A7DC76D2311F}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.47193712",
+      "DurationMax": "0.5297316",
+      "MediaRefs": [
+       {
+        "Id": "243015615"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "3730387420",
+    "Type": "Event",
+    "GUID": "{178C431B-C32F-44D0-9E98-8D4A5BF32126}",
+    "Language": "SFX",
+    "Hash": "{4F93EBF0-5863-FD00-1AAF-4DED39891E12}",
+    "ObjectPath": "Play_Env_WateringCan_PickUp",
+    "ShortName": "Play_Env_WateringCan_PickUp",
+    "Path": "Event/Play_Env_WateringCan_PickUp.bnk",
+    "Media": [
+     {
+      "Id": "9513980",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_WateringCan-PickUp-003.wav",
+      "Path": "Media/9513980.wem",
+      "CachePath": "SFX/Env_WateringCan-PickUp-003_F06BAF76.wem"
+     },
+     {
+      "Id": "138893668",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_WateringCan-PickUp-001.wav",
+      "Path": "Media/138893668.wem",
+      "CachePath": "SFX/Env_WateringCan-PickUp-001_F06BAF76.wem"
+     },
+     {
+      "Id": "804111329",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_WateringCan-PickUp-002.wav",
+      "Path": "Media/804111329.wem",
+      "CachePath": "SFX/Env_WateringCan-PickUp-002_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3730387420",
+      "Name": "Play_Env_WateringCan_PickUp",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Tools\\Play_Env_WateringCan_PickUp",
+      "GUID": "{178C431B-C32F-44D0-9E98-8D4A5BF32126}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.8908987",
+      "DurationMax": "1.122462",
+      "MediaRefs": [
+       {
+        "Id": "9513980"
+       },
+       {
+        "Id": "138893668"
+       },
+       {
+        "Id": "804111329"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "3747315027",
+    "Type": "Event",
+    "GUID": "{09DFFEAE-4EAC-4767-9CFF-299EC8FE672A}",
+    "Language": "SFX",
+    "Hash": "{0E541325-C8D8-2E99-2802-4A83F08186D9}",
+    "ObjectPath": "Play_Env_WateringCan_PutDown",
+    "ShortName": "Play_Env_WateringCan_PutDown",
+    "Path": "Event/Play_Env_WateringCan_PutDown.bnk",
+    "Media": [
+     {
+      "Id": "7582067",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_WateringCan-PutDown-002.wav",
+      "Path": "Media/7582067.wem",
+      "CachePath": "SFX/Env_WateringCan-PutDown-002_F06BAF76.wem"
+     },
+     {
+      "Id": "478489129",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_WateringCan-PutDown-003.wav",
+      "Path": "Media/478489129.wem",
+      "CachePath": "SFX/Env_WateringCan-PutDown-003_F06BAF76.wem"
+     },
+     {
+      "Id": "523470386",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_WateringCan-PutDown-001.wav",
+      "Path": "Media/523470386.wem",
+      "CachePath": "SFX/Env_WateringCan-PutDown-001_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3747315027",
+      "Name": "Play_Env_WateringCan_PutDown",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Tools\\Play_Env_WateringCan_PutDown",
+      "GUID": "{09DFFEAE-4EAC-4767-9CFF-299EC8FE672A}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.7817974",
+      "DurationMax": "2.244924",
+      "MediaRefs": [
+       {
+        "Id": "7582067"
+       },
+       {
+        "Id": "478489129"
+       },
+       {
+        "Id": "523470386"
        }
       ]
      }
@@ -633,8 +1417,117 @@
       ]
      }
     ]
+   },
+   {
+    "Id": "4197296339",
+    "Type": "Event",
+    "GUID": "{71B80328-F9C6-4369-B305-497B7553A0A1}",
+    "Language": "SFX",
+    "Hash": "{5516885C-D29F-98BA-69AB-ADB1F415EB2C}",
+    "ObjectPath": "Play_Env_WateringCan_Pour_Start",
+    "ShortName": "Play_Env_WateringCan_Pour_Start",
+    "Path": "Event/Play_Env_WateringCan_Pour_Start.bnk",
+    "Media": [
+     {
+      "Id": "633201667",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_WateringCan-Pour_Start.wav",
+      "Path": "Media/633201667.wem",
+      "CachePath": "SFX/Env_WateringCan-Pour_Start_F06BAF76.wem"
+     },
+     {
+      "Id": "841646343",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_WateringCan-Pour_Sustain.wav",
+      "Path": "Media/841646343.wem",
+      "CachePath": "SFX/Env_WateringCan-Pour_Sustain_8EC3C7C0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4197296339",
+      "Name": "Play_Env_WateringCan_Pour_Start",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Tools\\Play_Env_WateringCan_Pour_Start",
+      "GUID": "{71B80328-F9C6-4369-B305-497B7553A0A1}",
+      "MaxAttenuation": "10000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "633201667"
+       },
+       {
+        "Id": "841646343"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "4281112222",
+    "Type": "Event",
+    "GUID": "{1261A477-2724-43B9-97F1-1271FEAF1150}",
+    "Language": "SFX",
+    "Hash": "{12CCB978-5301-AC5E-2862-DA8AE967A443}",
+    "ObjectPath": "Play_Env_Trowel_SeedPlant",
+    "ShortName": "Play_Env_Trowel_SeedPlant",
+    "Path": "Event/Play_Env_Trowel_SeedPlant.bnk",
+    "Media": [
+     {
+      "Id": "438329037",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Trowel-SeedPlant-002.wav",
+      "Path": "Media/438329037.wem",
+      "CachePath": "SFX/Env_Trowel-SeedPlant-002_F06BAF76.wem"
+     },
+     {
+      "Id": "1014697496",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Trowel-SeedPlant-003.wav",
+      "Path": "Media/1014697496.wem",
+      "CachePath": "SFX/Env_Trowel-SeedPlant-003_F06BAF76.wem"
+     },
+     {
+      "Id": "1023870359",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Trowel-SeedPlant-001.wav",
+      "Path": "Media/1023870359.wem",
+      "CachePath": "SFX/Env_Trowel-SeedPlant-001_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4281112222",
+      "Name": "Play_Env_Trowel_SeedPlant",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Tools\\Play_Env_Trowel_SeedPlant",
+      "GUID": "{1261A477-2724-43B9-97F1-1271FEAF1150}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.7817974",
+      "DurationMax": "2.244924",
+      "MediaRefs": [
+       {
+        "Id": "438329037"
+       },
+       {
+        "Id": "1014697496"
+       },
+       {
+        "Id": "1023870359"
+       }
+      ]
+     }
+    ]
    }
   ],
-  "FileHash": "{B3981F01-A1D2-B71B-6658-7256BE5A346B}"
+  "FileHash": "{753BC585-DB78-26AD-F038-789C8FAF54B2}"
  }
 }

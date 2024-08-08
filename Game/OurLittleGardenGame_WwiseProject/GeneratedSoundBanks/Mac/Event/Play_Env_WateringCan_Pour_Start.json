@@ -1,0 +1,59 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "4197296339",
+    "Type": "Event",
+    "GUID": "{71B80328-F9C6-4369-B305-497B7553A0A1}",
+    "Language": "SFX",
+    "Hash": "{5516885C-D29F-98BA-69AB-ADB1F415EB2C}",
+    "ObjectPath": "Play_Env_WateringCan_Pour_Start",
+    "ShortName": "Play_Env_WateringCan_Pour_Start",
+    "Path": "Event/Play_Env_WateringCan_Pour_Start.bnk",
+    "Media": [
+     {
+      "Id": "633201667",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_WateringCan-Pour_Start.wav",
+      "Path": "Media/633201667.wem",
+      "CachePath": "SFX/Env_WateringCan-Pour_Start_F06BAF76.wem"
+     },
+     {
+      "Id": "841646343",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_WateringCan-Pour_Sustain.wav",
+      "Path": "Media/841646343.wem",
+      "CachePath": "SFX/Env_WateringCan-Pour_Sustain_8EC3C7C0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4197296339",
+      "Name": "Play_Env_WateringCan_Pour_Start",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Tools\\Play_Env_WateringCan_Pour_Start",
+      "GUID": "{71B80328-F9C6-4369-B305-497B7553A0A1}",
+      "MaxAttenuation": "10000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "633201667"
+       },
+       {
+        "Id": "841646343"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{B576916E-1680-1908-18D6-5BE47B2298B5}"
+ }
+}

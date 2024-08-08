@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3105845062	Play_UI_Camera_Move			\WU_Main\UI\Play_UI_Camera_Move	
+
