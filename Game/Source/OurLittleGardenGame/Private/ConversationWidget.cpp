@@ -11,17 +11,30 @@ void UConversationWidget::NativeConstruct()
 
 	ResponseButtons = { RESPONSE_BUTTON_1, RESPONSE_BUTTON_2 , RESPONSE_BUTTON_3 };
 	ResponseTexts = { RESPONSE_TEXT_1, RESPONSE_TEXT_2, RESPONSE_TEXT_3 };
+
+	//default anim speed
+	TypingAnimInterval = 0.04f;
 }
 
 void UConversationWidget::UpdateContentText(FName Name, FString Content)
 {
 	NAME_TEXT->SetText(FText::FromName(Name));
-	CONTENT_TEXT->SetText(FText::FromString(Content));
+
+	TextToDisplay = Content;
+	CurrentText = TEXT("");
+
+	if (CONTENT_TEXT)
+	{
+		CONTENT_TEXT->SetText(FText::FromString(CurrentText));
+	}
+
+	GetWorld()->GetTimerManager().SetTimer(TypingTimerHandle, this, &UConversationWidget::UpdateText, TypingAnimInterval, true);
 }
 
 void UConversationWidget::DisplayResponses(int Amount, TArray<FString> Contents)
 {
-	for (int i = 0; i < ResponseButtons.Num(); i++) {
+	for (int i = 0; i < ResponseButtons.Num(); i++) 
+	{
 		if (Amount  > i)
 		{
 			ResponseButtons[i]->SetVisibility(ESlateVisibility::Visible);
@@ -33,6 +46,7 @@ void UConversationWidget::DisplayResponses(int Amount, TArray<FString> Contents)
 			ResponseButtons[i]->SetVisibility(ESlateVisibility::Hidden);
 		}
 	}
+	//PROGRESS_BUTTON->SetVisibility(ESlateVisibility::Hidden);
 }
 
 // This function is called in BPs as there's no easy way to bind a button's OnClicked()
@@ -46,7 +60,6 @@ void UConversationWidget::ProgressDialogue(int ChosenResponse)
 	{
 		if (ChosenResponse > 0)
 		{
-
 			{
 				NextLine = DialogueInterface->GetResponseDialogue(ChosenResponse);
 				DialogueInterface->UpdateDialogue(NextLine);
@@ -75,5 +88,26 @@ void UConversationWidget::HideResponses()
 	{
 		Button->SetVisibility(ESlateVisibility::Hidden);
 	}
+	//show progress button
 	PROGRESS_BUTTON->SetVisibility(ESlateVisibility::Visible);
 }
+
+void UConversationWidget::UpdateText()
+{
+	//text anim updating
+	if (CurrentText.Len() < TextToDisplay.Len())
+	{
+		CurrentText += TextToDisplay[CurrentText.Len()];
+		if (CONTENT_TEXT)
+		{
+			CONTENT_TEXT->SetText(FText::FromString(CurrentText));
+		}
+	}
+	else
+	{
+		GetWorld()->GetTimerManager().ClearTimer(TypingTimerHandle);
+
+	}
+}
+
+
