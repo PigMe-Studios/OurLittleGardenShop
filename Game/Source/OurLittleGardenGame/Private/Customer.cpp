@@ -34,8 +34,9 @@ bool ACustomer::UpdateDialogue(FName Name)
 		Emotion = Row->CharacterEmotion;
 		FString CharacterFullName = UEnum::GetValueAsString(Row->CharacterSpeaking);
 		CharacterFullName = CharacterFullName.Replace(TEXT("ECharacter::"), TEXT(""));
-		FString ProcessedContent = ProcessString(Row->Content);
+		FString ProcessedContent = ProcessString(Row->Content);		
 		ConversationWidget->UpdateContentText(*NameMap.Find(Row->CharacterSpeaking), ProcessedContent);
+
 		if (Row->bRespondable)
 		{
 			DisplayedResponses.Empty();
@@ -64,11 +65,14 @@ bool ACustomer::UpdateDialogue(FName Name)
 void ACustomer::CreateConversationWidget()
 {
 	APlayerController* Controller = UGameplayStatics::GetPlayerController(GetWorld(), 0);
-	ConversationWidget = CreateWidget<UConversationWidget>(Controller, CONVERSATION_CLASS);
-	if (ConversationWidget)
+	if (Controller)
 	{
-		ConversationWidget->AddToPlayerScreen();
-		ConversationWidget->OwningCustomer = this;
+		ConversationWidget = CreateWidget<UConversationWidget>(Controller, CONVERSATION_CLASS);
+		if (ConversationWidget)
+		{
+			ConversationWidget->AddToViewport();
+			ConversationWidget->OwningCustomer = this;
+		}
 	}
 }
 

@@ -72,4 +72,14 @@ public:
 	TArray<UTextBlock*> ResponseTexts;
 
 	AActor* OwningCustomer;
+
+	//text anim bits and bobs
+	void UpdateText();
+
+	FString TextToDisplay;
+	FString CurrentText;
+	FTimerHandle TypingTimerHandle;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "DialogueAnim")
+	float TypingAnimInterval; 
 };
