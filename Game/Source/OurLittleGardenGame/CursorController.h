@@ -98,6 +98,7 @@ protected:
 	AActor* HeldActor;
 
 	AActor* PrevHoveredActor = nullptr;
+	bool bHoverSoundPlayed = false;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	UPhysicsHandleComponent* PhysicsHandle;

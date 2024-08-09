@@ -191,26 +191,41 @@ void ACursorController::CurserHoverCheck()
 	{
 		AActor* HitActor = HitResult.GetActor();
 
-		if (!IsValid(HitActor)) return;
+		if (!IsValid(HitActor))
+		{
+			// If the cursor is no longer over any actor, reset the flag
+			bHoverSoundPlayed = false;
+			return;
+		}
 
 		if (!HitActor->GetClass()->ImplementsInterface(UInteractionInterface::StaticClass()))
 		{
 			SetCursorType(ECursorType::Default);
-			//remove outline
+			// Remove outline
 			HoverOutline(nullptr);
+			// Reset the flag if the actor does not implement the interface
+			bHoverSoundPlayed = false;
 			return;
 		}
 
 		SetCursorType(ECursorType::HoverInteract);
-		//outline triggered on current hovered object
+		// Outline triggered on current hovered object
 		HoverOutline(HitActor);
 
 		// Audio - Getting the ak event for hover from the actor implementing interaction interface
-		if (HitActor !=  PrevHoveredActor)
+		if (HitActor != PrevHoveredActor)
+		{
+			bHoverSoundPlayed = false; // Reset the flag for a new actor
+		}
+
+		if (!bHoverSoundPlayed)
 		{
 			UAkAudioEvent* HoverEvent = IInteractionInterface::Execute_GetHoverAkEvent(HitActor);
-			if (!IsValid(HoverEvent)) return;
-			UAkGameplayStatics::PostEvent(HoverEvent, nullptr, 0, FOnAkPostEventCallback(), true);
+			if (IsValid(HoverEvent))
+			{
+				UAkGameplayStatics::PostEvent(HoverEvent, nullptr, 0, FOnAkPostEventCallback(), true);
+				bHoverSoundPlayed = true; // Set the flag after playing the sound
+			}
 		}
 
 		PrevHoveredActor = HitActor;
