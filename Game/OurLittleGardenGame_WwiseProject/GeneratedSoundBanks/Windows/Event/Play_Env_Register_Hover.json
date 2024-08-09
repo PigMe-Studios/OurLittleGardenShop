@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{7FBA88AE-6E5E-4749-84E7-A7DC76D2311F}",
     "Language": "SFX",
-    "Hash": "{D0CFB1A6-85D9-FF6C-8A42-DE637FFEEE01}",
+    "Hash": "{E0276889-BC1A-29D7-2AFB-BB0E4D1D8C82}",
     "ObjectPath": "Play_Env_Register_Hover",
     "ShortName": "Play_Env_Register_Hover",
     "Path": "Event/Play_Env_Register_Hover.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{03B20F48-7653-2447-5C14-D1E48CDD6559}"
+  "FileHash": "{895E7451-C2A2-822C-5A46-609F43464DF1}"
  }
 }

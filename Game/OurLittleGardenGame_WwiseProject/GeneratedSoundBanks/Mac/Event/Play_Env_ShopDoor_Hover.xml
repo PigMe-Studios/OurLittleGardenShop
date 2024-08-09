@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="878394813" Type="Event" GUID="{8F1E4C26-6851-4559-8E49-032EAEB15DC8}" Language="SFX" Hash="{596D1B83-335F-80F3-B812-5E142AE520E6}">
+		<SoundBank Id="878394813" Type="Event" GUID="{8F1E4C26-6851-4559-8E49-032EAEB15DC8}" Language="SFX" Hash="{12D3B17C-C53A-156F-6814-57A8435C8529}">
 			<ObjectPath>Play_Env_ShopDoor_Hover</ObjectPath>
 			<ShortName>Play_Env_ShopDoor_Hover</ShortName>
 			<Path>Event/Play_Env_ShopDoor_Hover.bnk</Path>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{88FF656B-5101-F69E-BACD-E0430D16AA49}</FileHash>
+	<FileHash>{1CC3F29E-1C08-9FB1-5EF4-939C66950183}</FileHash>
 </SoundBanksInfo>

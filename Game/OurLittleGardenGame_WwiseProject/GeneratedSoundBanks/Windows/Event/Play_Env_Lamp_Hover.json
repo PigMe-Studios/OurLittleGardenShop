@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{DE698F2F-D8E7-407C-96E3-7C05E4D3D805}",
     "Language": "SFX",
-    "Hash": "{D9BC97CE-2E57-27BC-BF25-B7CACC059FA3}",
+    "Hash": "{A73984B0-CA85-F220-7310-041DC703794B}",
     "ObjectPath": "Play_Env_Lamp_Hover",
     "ShortName": "Play_Env_Lamp_Hover",
     "Path": "Event/Play_Env_Lamp_Hover.bnk",
@@ -67,6 +67,6 @@
     ]
    }
   ],
-  "FileHash": "{C41457E3-293B-DB45-CE80-B56878A6757B}"
+  "FileHash": "{72B9D860-4B04-CEB8-0A38-6C442A00C94F}"
  }
 }

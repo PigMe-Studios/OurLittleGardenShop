@@ -12,6 +12,9 @@
 							</PropertyList>
 							<ChildrenList>
 								<Action Name="" ID="{FD96788C-5F68-4AC7-A1E6-96C9B41273E3}" ShortID="378043510">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Amb_GardenAmb_Birds-Wind" ID="{2E16CD7C-7F94-4318-A082-E6F2B1354335}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>

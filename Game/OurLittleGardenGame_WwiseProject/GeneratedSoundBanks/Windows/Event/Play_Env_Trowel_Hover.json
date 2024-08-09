@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{4E4E041D-3978-4629-B317-A1D96DEB7A6F}",
     "Language": "SFX",
-    "Hash": "{DE0570CF-4778-EB6C-68AC-83915E58EA25}",
+    "Hash": "{15A5A8D9-66D7-B416-0AC8-E830600454F8}",
     "ObjectPath": "Play_Env_Trowel_Hover",
     "ShortName": "Play_Env_Trowel_Hover",
     "Path": "Event/Play_Env_Trowel_Hover.bnk",
@@ -67,6 +67,6 @@
     ]
    }
   ],
-  "FileHash": "{ABCFED33-7DF1-19D5-F701-6AEE6C363FBF}"
+  "FileHash": "{F9BD95DA-7F82-6955-F24D-D2961EA25F66}"
  }
 }

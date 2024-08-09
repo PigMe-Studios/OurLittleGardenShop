@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3148792683" Type="Event" GUID="{DE698F2F-D8E7-407C-96E3-7C05E4D3D805}" Language="SFX" Hash="{D9BC97CE-2E57-27BC-BF25-B7CACC059FA3}">
+		<SoundBank Id="3148792683" Type="Event" GUID="{DE698F2F-D8E7-407C-96E3-7C05E4D3D805}" Language="SFX" Hash="{A73984B0-CA85-F220-7310-041DC703794B}">
 			<ObjectPath>Play_Env_Lamp_Hover</ObjectPath>
 			<ShortName>Play_Env_Lamp_Hover</ShortName>
 			<Path>Event/Play_Env_Lamp_Hover.bnk</Path>
@@ -33,5 +33,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{86E1B824-283E-8A3C-818B-9140D648D295}</FileHash>
+	<FileHash>{C75121B9-0BE3-AB74-CE33-C7EAA49D1891}</FileHash>
 </SoundBanksInfo>

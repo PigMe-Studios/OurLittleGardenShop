@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="97207454" Type="Event" GUID="{D942A84E-887E-49AC-9831-48D1D081CAB3}" Language="SFX" Hash="{104761F4-0F39-DD83-48DB-A21695CFB388}">
+		<SoundBank Id="97207454" Type="Event" GUID="{D942A84E-887E-49AC-9831-48D1D081CAB3}" Language="SFX" Hash="{4A27FCAF-2724-D04D-F220-28715B8BFC48}">
 			<ObjectPath>Play_Env_WateringCan_Hover</ObjectPath>
 			<ShortName>Play_Env_WateringCan_Hover</ShortName>
 			<Path>Event/Play_Env_WateringCan_Hover.bnk</Path>
@@ -33,5 +33,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E99553C4-00C8-6A63-CF34-AB065799ED7B}</FileHash>
+	<FileHash>{901AA41B-D991-7130-64AB-BEF3B6D8C4EE}</FileHash>
 </SoundBanksInfo>

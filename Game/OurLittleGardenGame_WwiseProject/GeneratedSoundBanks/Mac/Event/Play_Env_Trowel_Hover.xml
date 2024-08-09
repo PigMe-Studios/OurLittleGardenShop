@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1229516846" Type="Event" GUID="{4E4E041D-3978-4629-B317-A1D96DEB7A6F}" Language="SFX" Hash="{DE0570CF-4778-EB6C-68AC-83915E58EA25}">
+		<SoundBank Id="1229516846" Type="Event" GUID="{4E4E041D-3978-4629-B317-A1D96DEB7A6F}" Language="SFX" Hash="{15A5A8D9-66D7-B416-0AC8-E830600454F8}">
 			<ObjectPath>Play_Env_Trowel_Hover</ObjectPath>
 			<ShortName>Play_Env_Trowel_Hover</ShortName>
 			<Path>Event/Play_Env_Trowel_Hover.bnk</Path>
@@ -33,5 +33,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{AE208393-4A01-8E7C-6A9A-457F5AA0E937}</FileHash>
+	<FileHash>{1CC24558-49FF-7C92-3C4B-EBD566529406}</FileHash>
 </SoundBanksInfo>

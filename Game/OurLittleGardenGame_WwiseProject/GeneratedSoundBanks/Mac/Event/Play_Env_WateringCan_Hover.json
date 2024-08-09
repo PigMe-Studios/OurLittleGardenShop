@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{D942A84E-887E-49AC-9831-48D1D081CAB3}",
     "Language": "SFX",
-    "Hash": "{104761F4-0F39-DD83-48DB-A21695CFB388}",
+    "Hash": "{4A27FCAF-2724-D04D-F220-28715B8BFC48}",
     "ObjectPath": "Play_Env_WateringCan_Hover",
     "ShortName": "Play_Env_WateringCan_Hover",
     "Path": "Event/Play_Env_WateringCan_Hover.bnk",
@@ -67,6 +67,6 @@
     ]
    }
   ],
-  "FileHash": "{90E61192-671F-EF14-CD85-E04A07C067A9}"
+  "FileHash": "{06E34379-A4D7-58D0-B4AB-245A158B1F72}"
  }
 }

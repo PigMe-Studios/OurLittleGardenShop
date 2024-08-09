@@ -102,7 +102,7 @@
     "Type": "Event",
     "GUID": "{D942A84E-887E-49AC-9831-48D1D081CAB3}",
     "Language": "SFX",
-    "Hash": "{104761F4-0F39-DD83-48DB-A21695CFB388}",
+    "Hash": "{4A27FCAF-2724-D04D-F220-28715B8BFC48}",
     "ObjectPath": "Play_Env_WateringCan_Hover",
     "ShortName": "Play_Env_WateringCan_Hover",
     "Path": "Event/Play_Env_WateringCan_Hover.bnk",
@@ -373,7 +373,7 @@
     "Type": "Event",
     "GUID": "{8F1E4C26-6851-4559-8E49-032EAEB15DC8}",
     "Language": "SFX",
-    "Hash": "{596D1B83-335F-80F3-B812-5E142AE520E6}",
+    "Hash": "{12D3B17C-C53A-156F-6814-57A8435C8529}",
     "ObjectPath": "Play_Env_ShopDoor_Hover",
     "ShortName": "Play_Env_ShopDoor_Hover",
     "Path": "Event/Play_Env_ShopDoor_Hover.bnk",
@@ -410,7 +410,7 @@
     "Type": "Event",
     "GUID": "{4E4E041D-3978-4629-B317-A1D96DEB7A6F}",
     "Language": "SFX",
-    "Hash": "{DE0570CF-4778-EB6C-68AC-83915E58EA25}",
+    "Hash": "{15A5A8D9-66D7-B416-0AC8-E830600454F8}",
     "ObjectPath": "Play_Env_Trowel_Hover",
     "ShortName": "Play_Env_Trowel_Hover",
     "Path": "Event/Play_Env_Trowel_Hover.bnk",
@@ -800,7 +800,7 @@
     "Type": "Event",
     "GUID": "{79918A2A-935E-4782-8C1E-383CF88677B2}",
     "Language": "SFX",
-    "Hash": "{4071429A-07FC-4D47-FD1C-BE71D175F402}",
+    "Hash": "{9992A927-3822-923E-A2BE-9AC246601A7B}",
     "ObjectPath": "Play_Env_SeedBag_Hover",
     "ShortName": "Play_Env_SeedBag_Hover",
     "Path": "Event/Play_Env_SeedBag_Hover.bnk",
@@ -1070,7 +1070,7 @@
     "Type": "Event",
     "GUID": "{DE698F2F-D8E7-407C-96E3-7C05E4D3D805}",
     "Language": "SFX",
-    "Hash": "{D9BC97CE-2E57-27BC-BF25-B7CACC059FA3}",
+    "Hash": "{A73984B0-CA85-F220-7310-041DC703794B}",
     "ObjectPath": "Play_Env_Lamp_Hover",
     "ShortName": "Play_Env_Lamp_Hover",
     "Path": "Event/Play_Env_Lamp_Hover.bnk",
@@ -1131,7 +1131,7 @@
     "Type": "Event",
     "GUID": "{0EEFC5E7-1F69-4FAF-9ED8-D73E1E099FC4}",
     "Language": "SFX",
-    "Hash": "{0B891796-CB28-6C9C-A046-1ED7DE64802C}",
+    "Hash": "{C346135D-F569-87BB-688C-F7904E833E71}",
     "ObjectPath": "Play_Amb_GardenAmb_Birds_Wind",
     "ShortName": "Play_Amb_GardenAmb_Birds_Wind",
     "Path": "Event/Play_Amb_GardenAmb_Birds_Wind.bnk",
@@ -1227,7 +1227,7 @@
     "Type": "Event",
     "GUID": "{7FBA88AE-6E5E-4749-84E7-A7DC76D2311F}",
     "Language": "SFX",
-    "Hash": "{D0CFB1A6-85D9-FF6C-8A42-DE637FFEEE01}",
+    "Hash": "{E0276889-BC1A-29D7-2AFB-BB0E4D1D8C82}",
     "ObjectPath": "Play_Env_Register_Hover",
     "ShortName": "Play_Env_Register_Hover",
     "Path": "Event/Play_Env_Register_Hover.bnk",
@@ -1528,6 +1528,6 @@
     ]
    }
   ],
-  "FileHash": "{753BC585-DB78-26AD-F038-789C8FAF54B2}"
+  "FileHash": "{52FD3A91-F7EB-360C-EFF6-2BB65E9F34AD}"
  }
 }
