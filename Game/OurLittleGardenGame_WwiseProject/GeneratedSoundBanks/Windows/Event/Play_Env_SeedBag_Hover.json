@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2619604514",
+    "Type": "Event",
+    "GUID": "{79918A2A-935E-4782-8C1E-383CF88677B2}",
+    "Language": "SFX",
+    "Hash": "{9992A927-3822-923E-A2BE-9AC246601A7B}",
+    "ObjectPath": "Play_Env_SeedBag_Hover",
+    "ShortName": "Play_Env_SeedBag_Hover",
+    "Path": "Event/Play_Env_SeedBag_Hover.bnk",
+    "Media": [
+     {
+      "Id": "347905439",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_SeedBag-Hover-003.wav",
+      "Path": "Media/347905439.wem",
+      "CachePath": "SFX/Env_SeedBag-Hover-003_F06BAF76.wem"
+     },
+     {
+      "Id": "447699529",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_SeedBag-Hover-002.wav",
+      "Path": "Media/447699529.wem",
+      "CachePath": "SFX/Env_SeedBag-Hover-002_F06BAF76.wem"
+     },
+     {
+      "Id": "538399049",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_SeedBag-Hover-001.wav",
+      "Path": "Media/538399049.wem",
+      "CachePath": "SFX/Env_SeedBag-Hover-001_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2619604514",
+      "Name": "Play_Env_SeedBag_Hover",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Tools\\Play_Env_SeedBag_Hover",
+      "GUID": "{79918A2A-935E-4782-8C1E-383CF88677B2}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.8908987",
+      "DurationMax": "1.122462",
+      "MediaRefs": [
+       {
+        "Id": "347905439"
+       },
+       {
+        "Id": "447699529"
+       },
+       {
+        "Id": "538399049"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{74A80ACB-3EB3-663C-E63F-C4CF83F1C01E}"
+ }
+}

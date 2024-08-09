@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "97207454",
+    "Type": "Event",
+    "GUID": "{D942A84E-887E-49AC-9831-48D1D081CAB3}",
+    "Language": "SFX",
+    "Hash": "{4A27FCAF-2724-D04D-F220-28715B8BFC48}",
+    "ObjectPath": "Play_Env_WateringCan_Hover",
+    "ShortName": "Play_Env_WateringCan_Hover",
+    "Path": "Event/Play_Env_WateringCan_Hover.bnk",
+    "Media": [
+     {
+      "Id": "120729745",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_WateringCan-Hover-002.wav",
+      "Path": "Media/120729745.wem",
+      "CachePath": "SFX/Env_WateringCan-Hover-002_F06BAF76.wem"
+     },
+     {
+      "Id": "314947773",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_WateringCan-Hover-001.wav",
+      "Path": "Media/314947773.wem",
+      "CachePath": "SFX/Env_WateringCan-Hover-001_F06BAF76.wem"
+     },
+     {
+      "Id": "997588128",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_WateringCan-Hover-003.wav",
+      "Path": "Media/997588128.wem",
+      "CachePath": "SFX/Env_WateringCan-Hover-003_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "97207454",
+      "Name": "Play_Env_WateringCan_Hover",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Tools\\Play_Env_WateringCan_Hover",
+      "GUID": "{D942A84E-887E-49AC-9831-48D1D081CAB3}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.8908987",
+      "DurationMax": "1.122462",
+      "MediaRefs": [
+       {
+        "Id": "120729745"
+       },
+       {
+        "Id": "314947773"
+       },
+       {
+        "Id": "997588128"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{8424AFED-9576-2CF9-07E1-3FA2BF9624BC}"
+ }
+}

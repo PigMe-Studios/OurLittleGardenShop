@@ -13,6 +13,8 @@
 #include "PhysicsEngine/PhysicsHandleComponent.h"
 #include "InteractableObjectParent.h"
 #include "InteractionInterface.h"
+#include "AkGameplayStatics.h"
+#include "AkAudioEvent.h"
 #include "Kismet/GameplayStatics.h"
 #include "GameFramework/PlayerController.h"
 
@@ -90,7 +92,8 @@ void ACursorController::ActorInteract(const FInputActionValue& Value)
 	FHitResult HitResult;
 	FCollisionQueryParams LineTraceParams;
 
-	if (GetWorld()->LineTraceSingleByChannel(HitResult, Start, End, ECollisionChannel::ECC_Visibility, LineTraceParams, FCollisionResponseParams()))
+	if (GetWorld()->LineTraceSingleByChannel(HitResult, Start, End, ECollisionChannel::ECC_Visibility, LineTraceParams, FCollisionResponseParams())
+		&& !IsDialogueActive())
 	{
 		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("HitSomething: %s"), *HitResult.GetActor()->GetName()));
 
@@ -188,18 +191,44 @@ void ACursorController::CurserHoverCheck()
 	{
 		AActor* HitActor = HitResult.GetActor();
 
-		if (HitActor && HitActor->GetClass()->ImplementsInterface(UInteractionInterface::StaticClass()))
+		if (!IsValid(HitActor))
 		{
-			SetCursorType(ECursorType::HoverInteract); 
-			//outline triggered on current hovered object
-			HoverOutline(HitActor);
+			// If the cursor is no longer over any actor, reset the flag
+			bHoverSoundPlayed = false;
+			return;
 		}
-		else
+
+		if (!HitActor->GetClass()->ImplementsInterface(UInteractionInterface::StaticClass()))
 		{
-			SetCursorType(ECursorType::Default); 
-			//remove outline
+			SetCursorType(ECursorType::Default);
+			// Remove outline
 			HoverOutline(nullptr);
+			// Reset the flag if the actor does not implement the interface
+			bHoverSoundPlayed = false;
+			return;
 		}
+
+		SetCursorType(ECursorType::HoverInteract);
+		// Outline triggered on current hovered object
+		HoverOutline(HitActor);
+
+		// Audio - Getting the ak event for hover from the actor implementing interaction interface
+		if (HitActor != PrevHoveredActor)
+		{
+			bHoverSoundPlayed = false; // Reset the flag for a new actor
+		}
+
+		if (!bHoverSoundPlayed)
+		{
+			UAkAudioEvent* HoverEvent = IInteractionInterface::Execute_GetHoverAkEvent(HitActor);
+			if (IsValid(HoverEvent))
+			{
+				UAkGameplayStatics::PostEvent(HoverEvent, nullptr, 0, FOnAkPostEventCallback(), true);
+				bHoverSoundPlayed = true; // Set the flag after playing the sound
+			}
+		}
+
+		PrevHoveredActor = HitActor;
 	}
 	else
 	{

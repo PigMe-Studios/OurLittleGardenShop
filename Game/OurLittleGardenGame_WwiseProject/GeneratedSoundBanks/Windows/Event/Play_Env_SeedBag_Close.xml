@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2134647096" Type="Event" GUID="{3C643E1F-37F2-4057-9482-2AEC4B9251E2}" Language="SFX" Hash="{92217292-B458-B048-1E82-24D6328C3F2D}">
+			<ObjectPath>Play_Env_SeedBag_Close</ObjectPath>
+			<ShortName>Play_Env_SeedBag_Close</ShortName>
+			<Path>Event/Play_Env_SeedBag_Close.bnk</Path>
+			<Media>
+				<File Id="209489599" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_SeedBag-Close-003.wav</ShortName>
+					<Path>Media/209489599.wem</Path>
+					<CachePath>SFX/Env_SeedBag-Close-003_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="583845754" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_SeedBag-Close-001.wav</ShortName>
+					<Path>Media/583845754.wem</Path>
+					<CachePath>SFX/Env_SeedBag-Close-001_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="875049367" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_SeedBag-Close-002.wav</ShortName>
+					<Path>Media/875049367.wem</Path>
+					<CachePath>SFX/Env_SeedBag-Close-002_F06BAF76.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2134647096" Name="Play_Env_SeedBag_Close" ObjectPath="\Events\WU_Main\Environment\Tools\Play_Env_SeedBag_Close" GUID="{3C643E1F-37F2-4057-9482-2AEC4B9251E2}" DurationType="OneShot" DurationMin="0.8908987" DurationMax="1.122462">
+					<MediaRefs>
+						<MediaRef Id="209489599"/>
+						<MediaRef Id="583845754"/>
+						<MediaRef Id="875049367"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{2900F356-3795-184D-4E40-068FC0C60FFC}</FileHash>
+</SoundBanksInfo>

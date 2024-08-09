@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3717750106" Type="Event" GUID="{7FBA88AE-6E5E-4749-84E7-A7DC76D2311F}" Language="SFX" Hash="{E0276889-BC1A-29D7-2AFB-BB0E4D1D8C82}">
+			<ObjectPath>Play_Env_Register_Hover</ObjectPath>
+			<ShortName>Play_Env_Register_Hover</ShortName>
+			<Path>Event/Play_Env_Register_Hover.bnk</Path>
+			<Media>
+				<File Id="243015615" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Register-Hover.wav</ShortName>
+					<Path>Media/243015615.wem</Path>
+					<CachePath>SFX/Env_Register-Hover_F06BAF76.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3717750106" Name="Play_Env_Register_Hover" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_Register_Hover" GUID="{7FBA88AE-6E5E-4749-84E7-A7DC76D2311F}" DurationType="OneShot" DurationMin="0.47193712" DurationMax="0.5297316">
+					<MediaRefs>
+						<MediaRef Id="243015615"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{488CEA06-F8F1-A307-16B0-58C267A35513}</FileHash>
+</SoundBanksInfo>

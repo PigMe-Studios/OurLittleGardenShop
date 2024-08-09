@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3747315027" Type="Event" GUID="{09DFFEAE-4EAC-4767-9CFF-299EC8FE672A}" Language="SFX" Hash="{0E541325-C8D8-2E99-2802-4A83F08186D9}">
+			<ObjectPath>Play_Env_WateringCan_PutDown</ObjectPath>
+			<ShortName>Play_Env_WateringCan_PutDown</ShortName>
+			<Path>Event/Play_Env_WateringCan_PutDown.bnk</Path>
+			<Media>
+				<File Id="7582067" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_WateringCan-PutDown-002.wav</ShortName>
+					<Path>Media/7582067.wem</Path>
+					<CachePath>SFX/Env_WateringCan-PutDown-002_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="478489129" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_WateringCan-PutDown-003.wav</ShortName>
+					<Path>Media/478489129.wem</Path>
+					<CachePath>SFX/Env_WateringCan-PutDown-003_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="523470386" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_WateringCan-PutDown-001.wav</ShortName>
+					<Path>Media/523470386.wem</Path>
+					<CachePath>SFX/Env_WateringCan-PutDown-001_F06BAF76.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3747315027" Name="Play_Env_WateringCan_PutDown" ObjectPath="\Events\WU_Main\Environment\Tools\Play_Env_WateringCan_PutDown" GUID="{09DFFEAE-4EAC-4767-9CFF-299EC8FE672A}" DurationType="OneShot" DurationMin="1.7817974" DurationMax="2.244924">
+					<MediaRefs>
+						<MediaRef Id="7582067"/>
+						<MediaRef Id="478489129"/>
+						<MediaRef Id="523470386"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{AE9CFF53-1CB4-B7D4-986C-54941611274B}</FileHash>
+</SoundBanksInfo>

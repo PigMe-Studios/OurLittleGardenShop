@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1235655907" Type="Event" GUID="{33CDF151-033E-4F85-B69E-DDA9A0D168E6}" Language="SFX" Hash="{5E3D3925-F397-850E-7CC0-1BC0F2A5DB0E}">
+			<ObjectPath>Play_Env_Trowel_PutDown</ObjectPath>
+			<ShortName>Play_Env_Trowel_PutDown</ShortName>
+			<Path>Event/Play_Env_Trowel_PutDown.bnk</Path>
+			<Media>
+				<File Id="357472209" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Trowel-PutDown-001.wav</ShortName>
+					<Path>Media/357472209.wem</Path>
+					<CachePath>SFX/Env_Trowel-PutDown-001_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="542901787" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Trowel-PutDown-003.wav</ShortName>
+					<Path>Media/542901787.wem</Path>
+					<CachePath>SFX/Env_Trowel-PutDown-003_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="866723077" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Trowel-PutDown-002.wav</ShortName>
+					<Path>Media/866723077.wem</Path>
+					<CachePath>SFX/Env_Trowel-PutDown-002_F06BAF76.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1235655907" Name="Play_Env_Trowel_PutDown" ObjectPath="\Events\WU_Main\Environment\Tools\Play_Env_Trowel_PutDown" GUID="{33CDF151-033E-4F85-B69E-DDA9A0D168E6}" DurationType="OneShot" DurationMin="1.7817974" DurationMax="2.244924">
+					<MediaRefs>
+						<MediaRef Id="357472209"/>
+						<MediaRef Id="542901787"/>
+						<MediaRef Id="866723077"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{5034EBEF-361C-D85B-BFB5-8B91127E9047}</FileHash>
+</SoundBanksInfo>

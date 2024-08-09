@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "197273286",
+    "Type": "Event",
+    "GUID": "{C3184C5C-9280-4C2F-BDFB-BC28C7E35301}",
+    "Language": "SFX",
+    "Hash": "{4B3B7D01-6B8C-35E7-6023-B0E8C31D8282}",
+    "ObjectPath": "Play_Env_Register_Interact",
+    "ShortName": "Play_Env_Register_Interact",
+    "Path": "Event/Play_Env_Register_Interact.bnk",
+    "Media": [
+     {
+      "Id": "1007202214",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Register-Interact.wav",
+      "Path": "Media/1007202214.wem",
+      "CachePath": "SFX/Env_Register-Interact_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "197273286",
+      "Name": "Play_Env_Register_Interact",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_Register_Interact",
+      "GUID": "{C3184C5C-9280-4C2F-BDFB-BC28C7E35301}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.8877485",
+      "DurationMax": "2.1189263",
+      "MediaRefs": [
+       {
+        "Id": "1007202214"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{2B8EC83D-58C9-7F48-E9B8-1CFB911D6D06}"
+ }
+}

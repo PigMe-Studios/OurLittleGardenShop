@@ -1,6 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{E2EA6791-8206-4678-BD23-5EE89F3EFBCE}" SchemaVersion="119">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{E2EA6791-8206-4678-BD23-5EE89F3EFBCE}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{E2EA6791-8206-4678-BD23-5EE89F3EFBCE}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Tools" ID="{DBA189F4-3523-4C89-A1A4-71D10A9808CB}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Env_WateringCan_Hover" ID="{D942A84E-887E-49AC-9831-48D1D081CAB3}" WorkUnitID="{450AF261-550D-444A-A848-2802D6720954}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Env_WateringCan_PickUp" ID="{178C431B-C32F-44D0-9E98-8D4A5BF32126}" WorkUnitID="{450AF261-550D-444A-A848-2802D6720954}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Env_Trowel_Hover" ID="{4E4E041D-3978-4629-B317-A1D96DEB7A6F}" WorkUnitID="{450AF261-550D-444A-A848-2802D6720954}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Env_Trowel_PickUp" ID="{C0F06098-CAAB-41C6-A972-07E1B3D77B33}" WorkUnitID="{450AF261-550D-444A-A848-2802D6720954}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Env_WateringCan_Pour_Start" ID="{71B80328-F9C6-4369-B305-497B7553A0A1}" WorkUnitID="{450AF261-550D-444A-A848-2802D6720954}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_Env_WateringCan_Pour_End" ID="{206067AD-9C1F-421D-8786-08D770F6F297}" WorkUnitID="{450AF261-550D-444A-A848-2802D6720954}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Env_Trowel_Dig" ID="{C1403630-CB6D-4305-9951-A36B96625330}" WorkUnitID="{450AF261-550D-444A-A848-2802D6720954}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Env_Trowel_SeedPlant" ID="{1261A477-2724-43B9-97F1-1271FEAF1150}" WorkUnitID="{450AF261-550D-444A-A848-2802D6720954}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Env_WateringCan_PutDown" ID="{09DFFEAE-4EAC-4767-9CFF-299EC8FE672A}" WorkUnitID="{450AF261-550D-444A-A848-2802D6720954}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Env_Trowel_PutDown" ID="{33CDF151-033E-4F85-B69E-DDA9A0D168E6}" WorkUnitID="{450AF261-550D-444A-A848-2802D6720954}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

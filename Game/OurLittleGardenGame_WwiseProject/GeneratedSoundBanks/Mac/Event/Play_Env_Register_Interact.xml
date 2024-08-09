@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="197273286" Type="Event" GUID="{C3184C5C-9280-4C2F-BDFB-BC28C7E35301}" Language="SFX" Hash="{4B3B7D01-6B8C-35E7-6023-B0E8C31D8282}">
+			<ObjectPath>Play_Env_Register_Interact</ObjectPath>
+			<ShortName>Play_Env_Register_Interact</ShortName>
+			<Path>Event/Play_Env_Register_Interact.bnk</Path>
+			<Media>
+				<File Id="1007202214" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Register-Interact.wav</ShortName>
+					<Path>Media/1007202214.wem</Path>
+					<CachePath>SFX/Env_Register-Interact_F06BAF76.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="197273286" Name="Play_Env_Register_Interact" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_Register_Interact" GUID="{C3184C5C-9280-4C2F-BDFB-BC28C7E35301}" DurationType="OneShot" DurationMin="1.8877485" DurationMax="2.1189263">
+					<MediaRefs>
+						<MediaRef Id="1007202214"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{607ACC79-7355-D15C-A8F1-606C4C9C1E26}</FileHash>
+</SoundBanksInfo>

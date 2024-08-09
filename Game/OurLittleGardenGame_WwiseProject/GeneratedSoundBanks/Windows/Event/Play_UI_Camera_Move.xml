@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3105845062" Type="Event" GUID="{4C04B47A-6C96-46C2-A4F4-491B6F76D1EA}" Language="SFX" Hash="{8C28FB0E-CC7A-5B78-6692-525020D533C1}">
+			<ObjectPath>Play_UI_Camera_Move</ObjectPath>
+			<ShortName>Play_UI_Camera_Move</ShortName>
+			<Path>Event/Play_UI_Camera_Move.bnk</Path>
+			<Media>
+				<File Id="202476683" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_Camera-Move.wav</ShortName>
+					<Path>Media/202476683.wem</Path>
+					<CachePath>SFX/UI_Camera-Move_F06BAF76.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3105845062" Name="Play_UI_Camera_Move" ObjectPath="\Events\WU_Main\UI\Play_UI_Camera_Move" GUID="{4C04B47A-6C96-46C2-A4F4-491B6F76D1EA}" DurationType="OneShot" DurationMin="0.94387424" DurationMax="1.0594631">
+					<MediaRefs>
+						<MediaRef Id="202476683"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{5AF505B9-6A8A-0E03-4B38-8C52B2FF185F}</FileHash>
+</SoundBanksInfo>

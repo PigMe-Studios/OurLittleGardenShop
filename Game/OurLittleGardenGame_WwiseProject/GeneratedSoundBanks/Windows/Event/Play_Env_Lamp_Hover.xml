@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3148792683" Type="Event" GUID="{DE698F2F-D8E7-407C-96E3-7C05E4D3D805}" Language="SFX" Hash="{A73984B0-CA85-F220-7310-041DC703794B}">
+			<ObjectPath>Play_Env_Lamp_Hover</ObjectPath>
+			<ShortName>Play_Env_Lamp_Hover</ShortName>
+			<Path>Event/Play_Env_Lamp_Hover.bnk</Path>
+			<Media>
+				<File Id="695939908" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Lamp-Hover-003.wav</ShortName>
+					<Path>Media/695939908.wem</Path>
+					<CachePath>SFX/Env_Lamp-Hover-003_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="836559519" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Lamp-Hover-001.wav</ShortName>
+					<Path>Media/836559519.wem</Path>
+					<CachePath>SFX/Env_Lamp-Hover-001_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="1013375167" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Lamp-Hover-002.wav</ShortName>
+					<Path>Media/1013375167.wem</Path>
+					<CachePath>SFX/Env_Lamp-Hover-002_F06BAF76.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3148792683" Name="Play_Env_Lamp_Hover" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_Lamp_Hover" GUID="{DE698F2F-D8E7-407C-96E3-7C05E4D3D805}" DurationType="OneShot" DurationMin="0.94387424" DurationMax="1.0594631">
+					<MediaRefs>
+						<MediaRef Id="695939908"/>
+						<MediaRef Id="836559519"/>
+						<MediaRef Id="1013375167"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{C75121B9-0BE3-AB74-CE33-C7EAA49D1891}</FileHash>
+</SoundBanksInfo>

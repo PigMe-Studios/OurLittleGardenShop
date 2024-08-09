@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1705306783" Type="Event" GUID="{8A612E3D-10B2-4015-B3E7-C75743580D1D}" Language="SFX" Hash="{48540583-B643-2CBD-B37F-9936D3A62138}">
+			<ObjectPath>Play_Env_ShopDoor_Interact</ObjectPath>
+			<ShortName>Play_Env_ShopDoor_Interact</ShortName>
+			<Path>Event/Play_Env_ShopDoor_Interact.bnk</Path>
+			<Media>
+				<File Id="614421866" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_ShopDoor-Interact.wav</ShortName>
+					<Path>Media/614421866.wem</Path>
+					<CachePath>SFX/Env_ShopDoor-Interact_F06BAF76.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1705306783" Name="Play_Env_ShopDoor_Interact" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_ShopDoor_Interact" GUID="{8A612E3D-10B2-4015-B3E7-C75743580D1D}" DurationType="OneShot" DurationMin="1.8877485" DurationMax="2.1189263">
+					<MediaRefs>
+						<MediaRef Id="614421866"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{7F868F54-E88F-5A36-4325-B91464AFC0D0}</FileHash>
+</SoundBanksInfo>
