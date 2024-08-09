@@ -206,14 +206,13 @@ void ACursorController::CurserHoverCheck()
 		HoverOutline(HitActor);
 
 		// Audio - Getting the ak event for hover from the actor implementing interaction interface
-		if (HitActor !=  PrevHoveredActor)
+		if (HitActor !=  HoveredInteractable)
 		{
 			UAkAudioEvent* HoverEvent = IInteractionInterface::Execute_GetHoverAkEvent(HitActor);
 			if (!IsValid(HoverEvent)) return;
 			UAkGameplayStatics::PostEvent(HoverEvent, nullptr, 0, FOnAkPostEventCallback(), true);
+			HoveredInteractable = HitActor;
 		}
-
-		PrevHoveredActor = HitActor;
 	}
 	else
 	{
