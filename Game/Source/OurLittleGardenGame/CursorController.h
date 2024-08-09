@@ -109,11 +109,17 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	UFUNCTION(BlueprintCallable)
 	void GrabActor(const FHitResult& HitResult, AInteractableObjectParent* InteractableObject);
 
 	void SetCursorType(ECursorType CursorType);
 
 	void CurserHoverCheck();
+
+	// @Breif Check if the textbox is currently on screen
+	// @Return Is the textbox on screen?
+	UFUNCTION(BlueprintImplementableEvent)
+	bool IsDialogueActive();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "EnhancedInput")
 	ACustomer* CustomerReference;
