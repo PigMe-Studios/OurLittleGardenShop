@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1235655907",
+    "Type": "Event",
+    "GUID": "{33CDF151-033E-4F85-B69E-DDA9A0D168E6}",
+    "Language": "SFX",
+    "Hash": "{5E3D3925-F397-850E-7CC0-1BC0F2A5DB0E}",
+    "ObjectPath": "Play_Env_Trowel_PutDown",
+    "ShortName": "Play_Env_Trowel_PutDown",
+    "Path": "Event/Play_Env_Trowel_PutDown.bnk",
+    "Media": [
+     {
+      "Id": "357472209",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Trowel-PutDown-001.wav",
+      "Path": "Media/357472209.wem",
+      "CachePath": "SFX/Env_Trowel-PutDown-001_F06BAF76.wem"
+     },
+     {
+      "Id": "542901787",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Trowel-PutDown-003.wav",
+      "Path": "Media/542901787.wem",
+      "CachePath": "SFX/Env_Trowel-PutDown-003_F06BAF76.wem"
+     },
+     {
+      "Id": "866723077",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Trowel-PutDown-002.wav",
+      "Path": "Media/866723077.wem",
+      "CachePath": "SFX/Env_Trowel-PutDown-002_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1235655907",
+      "Name": "Play_Env_Trowel_PutDown",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Tools\\Play_Env_Trowel_PutDown",
+      "GUID": "{33CDF151-033E-4F85-B69E-DDA9A0D168E6}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.7817974",
+      "DurationMax": "2.244924",
+      "MediaRefs": [
+       {
+        "Id": "357472209"
+       },
+       {
+        "Id": "542901787"
+       },
+       {
+        "Id": "866723077"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{C4D35AC0-32C6-48DD-79F4-4EA95A60F992}"
+ }
+}

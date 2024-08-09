@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3730387420",
+    "Type": "Event",
+    "GUID": "{178C431B-C32F-44D0-9E98-8D4A5BF32126}",
+    "Language": "SFX",
+    "Hash": "{4F93EBF0-5863-FD00-1AAF-4DED39891E12}",
+    "ObjectPath": "Play_Env_WateringCan_PickUp",
+    "ShortName": "Play_Env_WateringCan_PickUp",
+    "Path": "Event/Play_Env_WateringCan_PickUp.bnk",
+    "Media": [
+     {
+      "Id": "9513980",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_WateringCan-PickUp-003.wav",
+      "Path": "Media/9513980.wem",
+      "CachePath": "SFX/Env_WateringCan-PickUp-003_F06BAF76.wem"
+     },
+     {
+      "Id": "138893668",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_WateringCan-PickUp-001.wav",
+      "Path": "Media/138893668.wem",
+      "CachePath": "SFX/Env_WateringCan-PickUp-001_F06BAF76.wem"
+     },
+     {
+      "Id": "804111329",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_WateringCan-PickUp-002.wav",
+      "Path": "Media/804111329.wem",
+      "CachePath": "SFX/Env_WateringCan-PickUp-002_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3730387420",
+      "Name": "Play_Env_WateringCan_PickUp",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Tools\\Play_Env_WateringCan_PickUp",
+      "GUID": "{178C431B-C32F-44D0-9E98-8D4A5BF32126}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.8908987",
+      "DurationMax": "1.122462",
+      "MediaRefs": [
+       {
+        "Id": "9513980"
+       },
+       {
+        "Id": "138893668"
+       },
+       {
+        "Id": "804111329"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{CC4DE569-23AB-E429-1874-7E56114F1E74}"
+ }
+}

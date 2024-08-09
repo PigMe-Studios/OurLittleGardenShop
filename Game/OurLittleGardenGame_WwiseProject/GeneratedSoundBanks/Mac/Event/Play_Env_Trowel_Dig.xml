@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2888738896" Type="Event" GUID="{C1403630-CB6D-4305-9951-A36B96625330}" Language="SFX" Hash="{517FA44B-C6F7-D51F-4148-89603838D8C9}">
+			<ObjectPath>Play_Env_Trowel_Dig</ObjectPath>
+			<ShortName>Play_Env_Trowel_Dig</ShortName>
+			<Path>Event/Play_Env_Trowel_Dig.bnk</Path>
+			<Media>
+				<File Id="340016934" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Trowel-Dig-002.wav</ShortName>
+					<Path>Media/340016934.wem</Path>
+					<CachePath>SFX/Env_Trowel-Dig-002_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="777748875" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Trowel-Dig-001.wav</ShortName>
+					<Path>Media/777748875.wem</Path>
+					<CachePath>SFX/Env_Trowel-Dig-001_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="867440051" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Trowel-Dig-003.wav</ShortName>
+					<Path>Media/867440051.wem</Path>
+					<CachePath>SFX/Env_Trowel-Dig-003_F06BAF76.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2888738896" Name="Play_Env_Trowel_Dig" ObjectPath="\Events\WU_Main\Environment\Tools\Play_Env_Trowel_Dig" GUID="{C1403630-CB6D-4305-9951-A36B96625330}" DurationType="OneShot" DurationMin="1.7817974" DurationMax="2.244924">
+					<MediaRefs>
+						<MediaRef Id="340016934"/>
+						<MediaRef Id="777748875"/>
+						<MediaRef Id="867440051"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{993A91F7-9790-8CB1-5891-557E5BBC1F53}</FileHash>
+</SoundBanksInfo>

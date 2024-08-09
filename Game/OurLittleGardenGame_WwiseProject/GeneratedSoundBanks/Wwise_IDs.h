@@ -15,17 +15,34 @@ namespace AK
     {
         static const AkUniqueID PLAY_AMB_GARDENAMB_BIRDS_WIND = 3321113552U;
         static const AkUniqueID PLAY_AMB_INTERIOR = 76573753U;
+        static const AkUniqueID PLAY_ENV_LAMP_HOVER = 3148792683U;
+        static const AkUniqueID PLAY_ENV_LAMP_INTERACT = 60672849U;
+        static const AkUniqueID PLAY_ENV_REGISTER_HOVER = 3717750106U;
+        static const AkUniqueID PLAY_ENV_REGISTER_INTERACT = 197273286U;
+        static const AkUniqueID PLAY_ENV_SEEDBAG_CLOSE = 2134647096U;
+        static const AkUniqueID PLAY_ENV_SEEDBAG_HOVER = 2619604514U;
+        static const AkUniqueID PLAY_ENV_SEEDBAG_OPEN = 642285692U;
         static const AkUniqueID PLAY_ENV_SHOPBELL = 2940245297U;
-        static const AkUniqueID PLAY_INT_DIG = 1278797248U;
-        static const AkUniqueID PLAY_INT_PLANT = 2281605023U;
-        static const AkUniqueID PLAY_INT_WATERINGCAN = 1889388075U;
+        static const AkUniqueID PLAY_ENV_SHOPDOOR_HOVER = 878394813U;
+        static const AkUniqueID PLAY_ENV_SHOPDOOR_INTERACT = 1705306783U;
+        static const AkUniqueID PLAY_ENV_TROWEL_DIG = 2888738896U;
+        static const AkUniqueID PLAY_ENV_TROWEL_HOVER = 1229516846U;
+        static const AkUniqueID PLAY_ENV_TROWEL_PICKUP = 3509013868U;
+        static const AkUniqueID PLAY_ENV_TROWEL_PUTDOWN = 1235655907U;
+        static const AkUniqueID PLAY_ENV_TROWEL_SEEDPLANT = 4281112222U;
+        static const AkUniqueID PLAY_ENV_WATERINGCAN_HOVER = 97207454U;
+        static const AkUniqueID PLAY_ENV_WATERINGCAN_PICKUP = 3730387420U;
+        static const AkUniqueID PLAY_ENV_WATERINGCAN_POUR_START = 4197296339U;
+        static const AkUniqueID PLAY_ENV_WATERINGCAN_PUTDOWN = 3747315027U;
         static const AkUniqueID PLAY_MUSIC_DISTANTGENTLEGUITAR_HRTF = 1539384943U;
+        static const AkUniqueID PLAY_UI_CAMERA_MOVE = 3105845062U;
         static const AkUniqueID PLAY_UI_DIALOGUEPROGRESS = 792485676U;
         static const AkUniqueID PLAY_UI_HOVER = 1339559671U;
         static const AkUniqueID PLAY_UI_POP = 2723271224U;
         static const AkUniqueID PLAY_UI_POP_DOUBLE = 2951446888U;
         static const AkUniqueID PLAY_UI_POP_DOUBLEUP = 3943941319U;
         static const AkUniqueID PLAY_UI_POP_REVERSE = 100379607U;
+        static const AkUniqueID STOP_ENV_WATERINGCAN_POUR_END = 378354790U;
     } // namespace EVENTS
 
     namespace BUSSES

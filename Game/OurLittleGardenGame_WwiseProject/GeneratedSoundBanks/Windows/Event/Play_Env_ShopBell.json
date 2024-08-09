@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{439F0EFE-EF68-487D-A78C-A4CAFF3188FC}",
     "Language": "SFX",
-    "Hash": "{C7941134-A45E-A8FC-CDE2-403ED72347D3}",
+    "Hash": "{E84676E3-65BF-1BAD-A358-5AE0A42120F8}",
     "ObjectPath": "Play_Env_ShopBell",
     "ShortName": "Play_Env_ShopBell",
     "Path": "Event/Play_Env_ShopBell.bnk",
@@ -29,11 +29,11 @@
      {
       "Id": "2940245297",
       "Name": "Play_Env_ShopBell",
-      "ObjectPath": "\\Events\\WU_Main\\Environment\\Play_Env_ShopBell",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_ShopBell",
       "GUID": "{439F0EFE-EF68-487D-A78C-A4CAFF3188FC}",
       "DurationType": "OneShot",
-      "DurationMin": "1.125",
-      "DurationMax": "1.125",
+      "DurationMin": "1.0618585",
+      "DurationMax": "1.1918961",
       "MediaRefs": [
        {
         "Id": "398633420"
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{2BC872DC-05E1-C36B-E916-4A92C1ACAEDD}"
+  "FileHash": "{AD062B81-B52A-A961-3FAE-04E189B324B4}"
  }
 }

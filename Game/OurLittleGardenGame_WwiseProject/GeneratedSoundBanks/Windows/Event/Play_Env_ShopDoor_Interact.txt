@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1705306783	Play_Env_ShopDoor_Interact			\WU_Main\Environment\Shop\Play_Env_ShopDoor_Interact	
+

@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "AkGameplayStatics.h"
 #include "UObject/Interface.h"
 #include "InteractionInterface.generated.h"
 
@@ -27,4 +28,7 @@ public:
 
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Interaction")
 	void Interact();
+
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Interaction")
+	UAkAudioEvent* GetHoverAkEvent();
 };

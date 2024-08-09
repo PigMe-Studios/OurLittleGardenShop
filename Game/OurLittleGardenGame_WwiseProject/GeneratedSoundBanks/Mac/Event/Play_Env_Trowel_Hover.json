@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1229516846",
+    "Type": "Event",
+    "GUID": "{4E4E041D-3978-4629-B317-A1D96DEB7A6F}",
+    "Language": "SFX",
+    "Hash": "{DE0570CF-4778-EB6C-68AC-83915E58EA25}",
+    "ObjectPath": "Play_Env_Trowel_Hover",
+    "ShortName": "Play_Env_Trowel_Hover",
+    "Path": "Event/Play_Env_Trowel_Hover.bnk",
+    "Media": [
+     {
+      "Id": "64273574",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Trowel-Hover-002.wav",
+      "Path": "Media/64273574.wem",
+      "CachePath": "SFX/Env_Trowel-Hover-002_F06BAF76.wem"
+     },
+     {
+      "Id": "142512533",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Trowel-Hover-003.wav",
+      "Path": "Media/142512533.wem",
+      "CachePath": "SFX/Env_Trowel-Hover-003_F06BAF76.wem"
+     },
+     {
+      "Id": "410720252",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Trowel-Hover-001.wav",
+      "Path": "Media/410720252.wem",
+      "CachePath": "SFX/Env_Trowel-Hover-001_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1229516846",
+      "Name": "Play_Env_Trowel_Hover",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Tools\\Play_Env_Trowel_Hover",
+      "GUID": "{4E4E041D-3978-4629-B317-A1D96DEB7A6F}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.8908987",
+      "DurationMax": "1.122462",
+      "MediaRefs": [
+       {
+        "Id": "64273574"
+       },
+       {
+        "Id": "142512533"
+       },
+       {
+        "Id": "410720252"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{BAC5E8A0-AA46-0D64-09BC-5872AF092C0D}"
+ }
+}

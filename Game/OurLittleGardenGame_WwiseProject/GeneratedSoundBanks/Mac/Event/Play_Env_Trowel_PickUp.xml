@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3509013868" Type="Event" GUID="{C0F06098-CAAB-41C6-A972-07E1B3D77B33}" Language="SFX" Hash="{3077051A-92BE-54C7-F94D-82A7A07689EE}">
+			<ObjectPath>Play_Env_Trowel_PickUp</ObjectPath>
+			<ShortName>Play_Env_Trowel_PickUp</ShortName>
+			<Path>Event/Play_Env_Trowel_PickUp.bnk</Path>
+			<Media>
+				<File Id="292968602" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Trowel-PickUp-001.wav</ShortName>
+					<Path>Media/292968602.wem</Path>
+					<CachePath>SFX/Env_Trowel-PickUp-001_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="332250347" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Trowel-PickUp-003.wav</ShortName>
+					<Path>Media/332250347.wem</Path>
+					<CachePath>SFX/Env_Trowel-PickUp-003_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="515549105" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Trowel-PickUp-002.wav</ShortName>
+					<Path>Media/515549105.wem</Path>
+					<CachePath>SFX/Env_Trowel-PickUp-002_F06BAF76.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3509013868" Name="Play_Env_Trowel_PickUp" ObjectPath="\Events\WU_Main\Environment\Tools\Play_Env_Trowel_PickUp" GUID="{C0F06098-CAAB-41C6-A972-07E1B3D77B33}" DurationType="OneShot" DurationMin="0.8908987" DurationMax="1.122462">
+					<MediaRefs>
+						<MediaRef Id="292968602"/>
+						<MediaRef Id="332250347"/>
+						<MediaRef Id="515549105"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{05CDCF5D-CFA5-A94B-A29E-276E40AA05C0}</FileHash>
+</SoundBanksInfo>

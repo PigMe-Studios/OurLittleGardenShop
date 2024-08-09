@@ -34,7 +34,7 @@ void UMenuWidgetSwitcher::SetupWidget()
 
 void UMenuWidgetSwitcher::DestroyWidget()
 {
-    this->RemoveFromViewport();
+    this->RemoveFromParent();   
 
     const UWorld* World = GetWorld();
     if (!ensure(World))

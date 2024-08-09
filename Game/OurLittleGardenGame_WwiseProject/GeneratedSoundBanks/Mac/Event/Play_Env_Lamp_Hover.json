@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3148792683",
+    "Type": "Event",
+    "GUID": "{DE698F2F-D8E7-407C-96E3-7C05E4D3D805}",
+    "Language": "SFX",
+    "Hash": "{D9BC97CE-2E57-27BC-BF25-B7CACC059FA3}",
+    "ObjectPath": "Play_Env_Lamp_Hover",
+    "ShortName": "Play_Env_Lamp_Hover",
+    "Path": "Event/Play_Env_Lamp_Hover.bnk",
+    "Media": [
+     {
+      "Id": "695939908",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Lamp-Hover-003.wav",
+      "Path": "Media/695939908.wem",
+      "CachePath": "SFX/Env_Lamp-Hover-003_F06BAF76.wem"
+     },
+     {
+      "Id": "836559519",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Lamp-Hover-001.wav",
+      "Path": "Media/836559519.wem",
+      "CachePath": "SFX/Env_Lamp-Hover-001_F06BAF76.wem"
+     },
+     {
+      "Id": "1013375167",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Lamp-Hover-002.wav",
+      "Path": "Media/1013375167.wem",
+      "CachePath": "SFX/Env_Lamp-Hover-002_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3148792683",
+      "Name": "Play_Env_Lamp_Hover",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_Lamp_Hover",
+      "GUID": "{DE698F2F-D8E7-407C-96E3-7C05E4D3D805}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.94387424",
+      "DurationMax": "1.0594631",
+      "MediaRefs": [
+       {
+        "Id": "695939908"
+       },
+       {
+        "Id": "836559519"
+       },
+       {
+        "Id": "1013375167"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{8015C6B4-51A0-1A58-C025-000CB79B8835}"
+ }
+}

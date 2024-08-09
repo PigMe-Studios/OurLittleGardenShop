@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3730387420" Type="Event" GUID="{178C431B-C32F-44D0-9E98-8D4A5BF32126}" Language="SFX" Hash="{4F93EBF0-5863-FD00-1AAF-4DED39891E12}">
+			<ObjectPath>Play_Env_WateringCan_PickUp</ObjectPath>
+			<ShortName>Play_Env_WateringCan_PickUp</ShortName>
+			<Path>Event/Play_Env_WateringCan_PickUp.bnk</Path>
+			<Media>
+				<File Id="9513980" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_WateringCan-PickUp-003.wav</ShortName>
+					<Path>Media/9513980.wem</Path>
+					<CachePath>SFX/Env_WateringCan-PickUp-003_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="138893668" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_WateringCan-PickUp-001.wav</ShortName>
+					<Path>Media/138893668.wem</Path>
+					<CachePath>SFX/Env_WateringCan-PickUp-001_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="804111329" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_WateringCan-PickUp-002.wav</ShortName>
+					<Path>Media/804111329.wem</Path>
+					<CachePath>SFX/Env_WateringCan-PickUp-002_F06BAF76.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3730387420" Name="Play_Env_WateringCan_PickUp" ObjectPath="\Events\WU_Main\Environment\Tools\Play_Env_WateringCan_PickUp" GUID="{178C431B-C32F-44D0-9E98-8D4A5BF32126}" DurationType="OneShot" DurationMin="0.8908987" DurationMax="1.122462">
+					<MediaRefs>
+						<MediaRef Id="9513980"/>
+						<MediaRef Id="138893668"/>
+						<MediaRef Id="804111329"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{28B7B2E0-0C10-15BC-CFED-998B3C653832}</FileHash>
+</SoundBanksInfo>

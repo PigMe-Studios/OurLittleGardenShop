@@ -13,6 +13,8 @@
 #include "PhysicsEngine/PhysicsHandleComponent.h"
 #include "InteractableObjectParent.h"
 #include "InteractionInterface.h"
+#include "AkGameplayStatics.h"
+#include "AkAudioEvent.h"
 #include "Kismet/GameplayStatics.h"
 #include "GameFramework/PlayerController.h"
 
@@ -194,6 +196,20 @@ void ACursorController::CurserHoverCheck()
 			SetCursorType(ECursorType::HoverInteract); 
 			//outline triggered on current hovered object
 			HoverOutline(HitActor);
+			
+			//UAkAudioEvent* HoverEvent = IInteractionInterface::Execute_GetHoverAkEvent(HitActor);
+
+			// Correctly call the function to get the UAkAudioEvent*
+			UAkAudioEvent* HoverEvent = IInteractionInterface::Execute_GetHoverAkEvent(HitActor);
+
+			if (!IsValid(HoverEvent))
+			{
+				UE_LOG(LogTemp, Warning, TEXT("Not got the event"));
+				return;
+			}
+			UE_LOG(LogTemp, Warning, TEXT("Got the event"));
+			UAkGameplayStatics::PostEvent(HoverEvent, nullptr, 0, FOnAkPostEventCallback(), true);
+
 		}
 		else
 		{

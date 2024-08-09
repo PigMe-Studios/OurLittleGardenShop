@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3717750106",
+    "Type": "Event",
+    "GUID": "{7FBA88AE-6E5E-4749-84E7-A7DC76D2311F}",
+    "Language": "SFX",
+    "Hash": "{D0CFB1A6-85D9-FF6C-8A42-DE637FFEEE01}",
+    "ObjectPath": "Play_Env_Register_Hover",
+    "ShortName": "Play_Env_Register_Hover",
+    "Path": "Event/Play_Env_Register_Hover.bnk",
+    "Media": [
+     {
+      "Id": "243015615",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Register-Hover.wav",
+      "Path": "Media/243015615.wem",
+      "CachePath": "SFX/Env_Register-Hover_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3717750106",
+      "Name": "Play_Env_Register_Hover",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_Register_Hover",
+      "GUID": "{7FBA88AE-6E5E-4749-84E7-A7DC76D2311F}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.47193712",
+      "DurationMax": "0.5297316",
+      "MediaRefs": [
+       {
+        "Id": "243015615"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{12E75C9C-4DDB-0A3A-F5CB-F7411E3397FD}"
+ }
+}

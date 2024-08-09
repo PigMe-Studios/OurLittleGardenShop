@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="378354790" Type="Event" GUID="{206067AD-9C1F-421D-8786-08D770F6F297}" Language="SFX" Hash="{F12F35D1-69C0-A61D-0C48-EB703DF441E8}">
+			<ObjectPath>Stop_Env_WateringCan_Pour_End</ObjectPath>
+			<ShortName>Stop_Env_WateringCan_Pour_End</ShortName>
+			<Path>Event/Stop_Env_WateringCan_Pour_End.bnk</Path>
+			<Media>
+				<File Id="717163319" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_WateringCan-Pour_End.wav</ShortName>
+					<Path>Media/717163319.wem</Path>
+					<CachePath>SFX/Env_WateringCan-Pour_End_F06BAF76.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="378354790" Name="Stop_Env_WateringCan_Pour_End" ObjectPath="\Events\WU_Main\Environment\Tools\Stop_Env_WateringCan_Pour_End" GUID="{206067AD-9C1F-421D-8786-08D770F6F297}" MaxAttenuation="10000" DurationType="OneShot" DurationMin="1.7817974" DurationMax="2.244924">
+					<MediaRefs>
+						<MediaRef Id="717163319"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{9BA1002F-29CF-4985-E1C7-A9235EECD39E}</FileHash>
+</SoundBanksInfo>

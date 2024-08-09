@@ -42,73 +42,328 @@
 						<Property Name="Color" Type="int16" Value="17"/>
 					</PropertyList>
 					<ChildrenList>
-						<Event Name="Play_Env_ShopBell" ID="{439F0EFE-EF68-487D-A78C-A4CAFF3188FC}">
+						<Folder Name="Tools" ID="{F3CBDF52-416B-4F89-A515-B7F9CCD5B8DD}" ShortID="1050345665">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="17"/>
-								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 							<ChildrenList>
-								<Action Name="" ID="{A0590965-FEFE-4D0A-A496-1C637B0EEAA2}" ShortID="397874735">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Env_ShopBell" ID="{FDD29960-C5E0-45F2-97EB-C7B5B3A5FECD}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
+								<Event Name="Play_Env_SeedBag_Close" ID="{3C643E1F-37F2-4057-9482-2AEC4B9251E2}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="17"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{1AB445E4-A9CF-4B83-9112-2B01A1CBCAC5}" ShortID="198017718">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Env_SeedBag-Close" ID="{4C16E710-E6F5-4FB6-801B-3A5995A82B37}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Env_SeedBag_Hover" ID="{79918A2A-935E-4782-8C1E-383CF88677B2}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="17"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{D527C072-6518-41F5-913A-8E7AFC0D2413}" ShortID="324037261">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Env_SeedBag-Hover" ID="{C0E0B5FC-9F1A-4FBF-B781-C301E4133881}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Env_SeedBag_Open" ID="{AF96BDDD-4061-40DF-A6BC-42FCC0594803}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="17"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{E989110D-2383-46B8-AE06-BDFDFBD26C98}" ShortID="976381695">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Env_SeedBag-Open" ID="{527320CE-D56B-422D-92D0-76E43F409D8A}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Env_Trowel_Dig" ID="{C1403630-CB6D-4305-9951-A36B96625330}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="17"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{A39A26DD-0D0E-469C-A2D0-A6CFE364A582}" ShortID="621705884">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Env_Trowel-Dig" ID="{E1F73D21-E2C3-4D63-A820-6DFA4FBD752B}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Env_Trowel_Hover" ID="{4E4E041D-3978-4629-B317-A1D96DEB7A6F}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="17"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{9EA146DB-795E-45F9-B1FD-BCC10D0DB377}" ShortID="86133483">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Env_Trowel-Hover" ID="{567B4BF9-4025-43C4-816F-F4C16F5A1E93}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Env_Trowel_PickUp" ID="{C0F06098-CAAB-41C6-A972-07E1B3D77B33}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="17"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{E82B3A5E-9CCF-4763-AD96-950A4DEFB334}" ShortID="209515645">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Env_Trowel-PickUp" ID="{1A835148-CB82-4EF7-8047-FD8CFDCAD051}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Env_Trowel_PutDown" ID="{33CDF151-033E-4F85-B69E-DDA9A0D168E6}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="17"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{F8F04F05-1B55-4392-94AB-53CBB3113C01}" ShortID="1040278716">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Env_Trowel-PutDown" ID="{AC2DEE1C-A415-464C-8781-28521E5C7D73}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Env_Trowel_SeedPlant" ID="{1261A477-2724-43B9-97F1-1271FEAF1150}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="17"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{EE680DA0-F472-4E8B-918C-1A26A3491F77}" ShortID="845140261">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Env_Trowel-SeedPlant" ID="{0292D7C7-4D0D-4FAC-9F30-180C03BD8EB0}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Env_WateringCan_Hover" ID="{D942A84E-887E-49AC-9831-48D1D081CAB3}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="17"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{4FE57BF7-B0AA-4FE3-9FEC-AD7F7176BBD9}" ShortID="171104042">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Env_WateringCan-Hover" ID="{5BE0BF40-1503-4E3C-9C55-6FF339CBE2C3}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Env_WateringCan_PickUp" ID="{178C431B-C32F-44D0-9E98-8D4A5BF32126}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="17"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{70ED233B-1EC3-4679-8001-E0D04B8795F2}" ShortID="90928522">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Env_WateringCan-PickUp" ID="{62422294-BD93-4CDA-88F0-DC5588E837DD}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Env_WateringCan_Pour_Start" ID="{71B80328-F9C6-4369-B305-497B7553A0A1}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="17"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{FC96DEBF-71A5-433A-8EE6-F0843D9A81A8}" ShortID="184973663">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Env_WateringCan-Pour_Start" ID="{79255D05-4082-447F-BC10-21EECC0BBE06}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Env_WateringCan_PutDown" ID="{09DFFEAE-4EAC-4767-9CFF-299EC8FE672A}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="17"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{38E3F478-AA1F-4898-B8D7-916E244B8BDE}" ShortID="674016922">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Env_WateringCan-PutDown" ID="{8094D6C9-E2C7-4AB0-BBC4-828D9684841C}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop_Env_WateringCan_Pour_End" ID="{206067AD-9C1F-421D-8786-08D770F6F297}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="23"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{E72C85E0-C517-448D-829F-292CF99BDE02}" ShortID="973165955">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Env_WateringCan-Pour_End" ID="{A642E10B-861B-4541-80B4-66925AF918E9}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{F0CDC0EF-5F7C-492C-AE04-9F851F7D5724}" ShortID="777451846">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Env_WateringCan-Pour_Start" ID="{79255D05-4082-447F-BC10-21EECC0BBE06}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
-						</Event>
-					</ChildrenList>
-				</Folder>
-				<Folder Name="Interact" ID="{44A92588-2E7B-43F4-BC4C-2619A5C9DFFB}" ShortID="921331858">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="17"/>
-					</PropertyList>
-					<ChildrenList>
-						<Event Name="Play_Int_Plant" ID="{E70A92C3-958A-4658-B8C5-F0E6C4E6C785}">
-							<PropertyList>
-								<Property Name="Color" Type="int16" Value="17"/>
-								<Property Name="OverrideColor" Type="bool" Value="True"/>
-							</PropertyList>
+						</Folder>
+						<Folder Name="Shop" ID="{887BBE9B-FB06-4CD0-AA66-BFC088E15125}" ShortID="809391589">
 							<ChildrenList>
-								<Action Name="" ID="{681AB6C3-37A7-4A0A-940C-079ED047ABCB}" ShortID="495237628">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Int_Plant" ID="{A995BECC-B4F7-411E-BDD9-5B63E05EE385}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
+								<Event Name="Play_Env_Lamp_Hover" ID="{DE698F2F-D8E7-407C-96E3-7C05E4D3D805}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="17"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{D287DCE1-FD91-4D80-9CD9-FA8A819E30DD}" ShortID="406895156">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Env_Lamp-Hover" ID="{3E6790D2-901B-4C2F-879D-AA1D3358FA3C}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Env_Lamp_Interact" ID="{2AE28E24-EC6E-40A6-A4BB-BCAD8D25A77C}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="17"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{C5F91BFF-D718-4180-84C7-8F030660A706}" ShortID="617412300">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Env_Lamp-Interact" ID="{6BA8F566-4E5C-4BB5-821C-C561FDE5F711}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Env_Register_Hover" ID="{7FBA88AE-6E5E-4749-84E7-A7DC76D2311F}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="17"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{3ECB630C-0928-41CE-8A9A-09445612BDDF}" ShortID="683376710">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Env_Register-Hover" ID="{C0B6B875-8964-488F-A039-38C16416CF9B}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Env_Register_Interact" ID="{C3184C5C-9280-4C2F-BDFB-BC28C7E35301}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="17"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{FF9093FB-0521-4001-87DA-DB40436F0CC0}" ShortID="505963559">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Env_Register-Interact" ID="{A143364D-33DB-4742-BB94-A274A39D4A5E}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Env_ShopBell" ID="{439F0EFE-EF68-487D-A78C-A4CAFF3188FC}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="17"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{A0590965-FEFE-4D0A-A496-1C637B0EEAA2}" ShortID="397874735">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Env_ShopBell" ID="{FDD29960-C5E0-45F2-97EB-C7B5B3A5FECD}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Env_ShopDoor_Hover" ID="{8F1E4C26-6851-4559-8E49-032EAEB15DC8}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="17"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{AEEB2A81-997D-442E-A5DE-C1B2601CBBBE}" ShortID="176389385">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Env_ShopDoor-Hover" ID="{FD28062C-5AF8-45EE-86E6-EC6B20BE0749}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Env_ShopDoor_Interact" ID="{8A612E3D-10B2-4015-B3E7-C75743580D1D}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="17"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{C5BC452F-7142-4317-B450-179E4D602A0D}" ShortID="625483264">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Env_ShopDoor-Interact" ID="{9FC9E0FD-9106-4130-9DE2-7184F676E34C}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
-						</Event>
-						<Event Name="Play_Int_WateringCan" ID="{7165C635-8EA9-44DB-AEA1-06504646D50B}">
-							<PropertyList>
-								<Property Name="Color" Type="int16" Value="17"/>
-								<Property Name="OverrideColor" Type="bool" Value="True"/>
-							</PropertyList>
-							<ChildrenList>
-								<Action Name="" ID="{178987A2-1CE5-4C39-8419-48D0B4A87D71}" ShortID="725409795">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Int_WateringCan" ID="{53CD4141-E6DC-4448-9865-B58273467F7F}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Int_Dig" ID="{A9A3DFA6-FDD9-4197-8409-F19D7779B0EB}">
-							<PropertyList>
-								<Property Name="Color" Type="int16" Value="17"/>
-								<Property Name="OverrideColor" Type="bool" Value="True"/>
-							</PropertyList>
-							<ChildrenList>
-								<Action Name="" ID="{B42C3ABE-DB73-4E43-A538-10D884D67868}" ShortID="857483671">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Int_Dig" ID="{AD0A2865-EDDB-48A1-94F6-97936759F429}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="UI" ID="{257203CD-56C1-4441-976F-DC24A503EE3F}" ShortID="913592466">
@@ -201,6 +456,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="UI_Hover" ID="{DA5B815D-B7BD-40B2-952F-61F353DE2452}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_UI_Camera_Move" ID="{4C04B47A-6C96-46C2-A4F4-491B6F76D1EA}">
+							<ChildrenList>
+								<Action Name="" ID="{D9D73D2E-9E5B-4867-A275-988CA3B18A1B}" ShortID="609772257">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Camera-Move" ID="{A67AD71F-D000-4A76-B70D-F77CE04104AD}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

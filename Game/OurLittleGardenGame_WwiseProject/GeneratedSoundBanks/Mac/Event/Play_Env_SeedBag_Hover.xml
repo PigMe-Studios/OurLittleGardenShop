@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2619604514" Type="Event" GUID="{79918A2A-935E-4782-8C1E-383CF88677B2}" Language="SFX" Hash="{4071429A-07FC-4D47-FD1C-BE71D175F402}">
+			<ObjectPath>Play_Env_SeedBag_Hover</ObjectPath>
+			<ShortName>Play_Env_SeedBag_Hover</ShortName>
+			<Path>Event/Play_Env_SeedBag_Hover.bnk</Path>
+			<Media>
+				<File Id="347905439" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_SeedBag-Hover-003.wav</ShortName>
+					<Path>Media/347905439.wem</Path>
+					<CachePath>SFX/Env_SeedBag-Hover-003_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="447699529" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_SeedBag-Hover-002.wav</ShortName>
+					<Path>Media/447699529.wem</Path>
+					<CachePath>SFX/Env_SeedBag-Hover-002_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="538399049" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_SeedBag-Hover-001.wav</ShortName>
+					<Path>Media/538399049.wem</Path>
+					<CachePath>SFX/Env_SeedBag-Hover-001_F06BAF76.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2619604514" Name="Play_Env_SeedBag_Hover" ObjectPath="\Events\WU_Main\Environment\Tools\Play_Env_SeedBag_Hover" GUID="{79918A2A-935E-4782-8C1E-383CF88677B2}" DurationType="OneShot" DurationMin="0.8908987" DurationMax="1.122462">
+					<MediaRefs>
+						<MediaRef Id="347905439"/>
+						<MediaRef Id="447699529"/>
+						<MediaRef Id="538399049"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{BA0FDC31-6015-26F8-7209-75BF8EBF3756}</FileHash>
+</SoundBanksInfo>
