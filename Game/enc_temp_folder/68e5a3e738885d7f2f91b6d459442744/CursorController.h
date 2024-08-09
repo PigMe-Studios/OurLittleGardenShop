@@ -97,8 +97,7 @@ protected:
 	// The actor currently being held by the player
 	AActor* HeldActor;
 
-	AActor* PrevHoveredActor = nullptr;
-	bool bHoverSoundPlayed = false;
+	AActor* HoveredInteractable = nullptr;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	UPhysicsHandleComponent* PhysicsHandle;
