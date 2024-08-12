@@ -137,6 +137,7 @@ FString ACustomer::ProcessString(FString Content)
 {
 	FString ProcessedString = Content;
 	ProcessedString = ProcessedString.Replace(TEXT("[Name]"), *NameMap.Find(ECharacter::PLAYER)->ToString());
+	ProcessedString = ProcessedString.Replace(TEXT("[Shop]"), *ShopName.ToString());
 	//ProcessedString = ProcessedString.Replace(TEXT("[Name]"), TEXT("IUHDFIOUAHOIAUDW"));
 	return ProcessedString;
 }
