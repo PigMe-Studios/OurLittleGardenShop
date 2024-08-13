@@ -34,6 +34,8 @@ namespace AK
         static const AkUniqueID PLAY_ENV_WATERINGCAN_PICKUP = 3730387420U;
         static const AkUniqueID PLAY_ENV_WATERINGCAN_POUR_START = 4197296339U;
         static const AkUniqueID PLAY_ENV_WATERINGCAN_PUTDOWN = 3747315027U;
+        static const AkUniqueID PLAY_MUS_PAINTPATCH_DEMOLOOP = 300643740U;
+        static const AkUniqueID PLAY_MUS_TONES = 1072666893U;
         static const AkUniqueID PLAY_MUSIC_DISTANTGENTLEGUITAR_HRTF = 1539384943U;
         static const AkUniqueID PLAY_UI_CAMERA_MOVE = 3105845062U;
         static const AkUniqueID PLAY_UI_DIALOGUEPROGRESS = 792485676U;

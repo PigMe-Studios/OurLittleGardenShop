@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="642285692" Type="Event" GUID="{AF96BDDD-4061-40DF-A6BC-42FCC0594803}" Language="SFX" Hash="{3AE308B5-E367-63B8-5F34-C3F8AE45C6C5}">
+		<SoundBank Id="642285692" Type="Event" GUID="{AF96BDDD-4061-40DF-A6BC-42FCC0594803}" Language="SFX" Hash="{DF47891A-0629-600A-FD0C-3E061ADD666D}">
 			<ObjectPath>Play_Env_SeedBag_Open</ObjectPath>
 			<ShortName>Play_Env_SeedBag_Open</ShortName>
 			<Path>Event/Play_Env_SeedBag_Open.bnk</Path>
@@ -11,10 +11,35 @@
 					<Path>Media/3760087.wem</Path>
 					<CachePath>SFX/Env_SeedBag-Open-001_F06BAF76.wem</CachePath>
 				</File>
+				<File Id="61903052" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_C5.wav</ShortName>
+					<Path>Media/61903052.wem</Path>
+					<CachePath>SFX/Mus_Tone_C5_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="82609520" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_C4.wav</ShortName>
+					<Path>Media/82609520.wem</Path>
+					<CachePath>SFX/Mus_Tone_C4_F06BAF76.wem</CachePath>
+				</File>
 				<File Id="176880429" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Env_SeedBag-Open-002.wav</ShortName>
 					<Path>Media/176880429.wem</Path>
 					<CachePath>SFX/Env_SeedBag-Open-002_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="191846235" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_E4.wav</ShortName>
+					<Path>Media/191846235.wem</Path>
+					<CachePath>SFX/Mus_Tone_E4_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="535351334" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_G4.wav</ShortName>
+					<Path>Media/535351334.wem</Path>
+					<CachePath>SFX/Mus_Tone_G4_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="769164870" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_B4.wav</ShortName>
+					<Path>Media/769164870.wem</Path>
+					<CachePath>SFX/Mus_Tone_B4_F06BAF76.wem</CachePath>
 				</File>
 				<File Id="966916693" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Env_SeedBag-Open-003.wav</ShortName>
@@ -23,15 +48,20 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="642285692" Name="Play_Env_SeedBag_Open" ObjectPath="\Events\WU_Main\Environment\Tools\Play_Env_SeedBag_Open" GUID="{AF96BDDD-4061-40DF-A6BC-42FCC0594803}" DurationType="OneShot" DurationMin="0.8908987" DurationMax="1.122462">
+				<Event Id="642285692" Name="Play_Env_SeedBag_Open" ObjectPath="\Events\WU_Main\Environment\Tools\Play_Env_SeedBag_Open" GUID="{AF96BDDD-4061-40DF-A6BC-42FCC0594803}" DurationType="OneShot" DurationMin="4" DurationMax="4">
 					<MediaRefs>
 						<MediaRef Id="3760087"/>
+						<MediaRef Id="61903052"/>
+						<MediaRef Id="82609520"/>
 						<MediaRef Id="176880429"/>
+						<MediaRef Id="191846235"/>
+						<MediaRef Id="535351334"/>
+						<MediaRef Id="769164870"/>
 						<MediaRef Id="966916693"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6B4116EC-1715-14A5-B82A-F98A385C0D03}</FileHash>
+	<FileHash>{07760CFC-78AD-5C73-3D85-0647490C019A}</FileHash>
 </SoundBanksInfo>

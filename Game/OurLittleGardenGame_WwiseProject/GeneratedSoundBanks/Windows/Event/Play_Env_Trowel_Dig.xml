@@ -1,15 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2888738896" Type="Event" GUID="{C1403630-CB6D-4305-9951-A36B96625330}" Language="SFX" Hash="{517FA44B-C6F7-D51F-4148-89603838D8C9}">
+		<SoundBank Id="2888738896" Type="Event" GUID="{C1403630-CB6D-4305-9951-A36B96625330}" Language="SFX" Hash="{57028EC5-B022-6C9E-471C-7B638F85B710}">
 			<ObjectPath>Play_Env_Trowel_Dig</ObjectPath>
 			<ShortName>Play_Env_Trowel_Dig</ShortName>
 			<Path>Event/Play_Env_Trowel_Dig.bnk</Path>
 			<Media>
+				<File Id="61903052" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_C5.wav</ShortName>
+					<Path>Media/61903052.wem</Path>
+					<CachePath>SFX/Mus_Tone_C5_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="82609520" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_C4.wav</ShortName>
+					<Path>Media/82609520.wem</Path>
+					<CachePath>SFX/Mus_Tone_C4_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="191846235" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_E4.wav</ShortName>
+					<Path>Media/191846235.wem</Path>
+					<CachePath>SFX/Mus_Tone_E4_F06BAF76.wem</CachePath>
+				</File>
 				<File Id="340016934" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Env_Trowel-Dig-002.wav</ShortName>
 					<Path>Media/340016934.wem</Path>
 					<CachePath>SFX/Env_Trowel-Dig-002_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="535351334" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_G4.wav</ShortName>
+					<Path>Media/535351334.wem</Path>
+					<CachePath>SFX/Mus_Tone_G4_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="769164870" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_B4.wav</ShortName>
+					<Path>Media/769164870.wem</Path>
+					<CachePath>SFX/Mus_Tone_B4_F06BAF76.wem</CachePath>
 				</File>
 				<File Id="777748875" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Env_Trowel-Dig-001.wav</ShortName>
@@ -23,9 +48,14 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2888738896" Name="Play_Env_Trowel_Dig" ObjectPath="\Events\WU_Main\Environment\Tools\Play_Env_Trowel_Dig" GUID="{C1403630-CB6D-4305-9951-A36B96625330}" DurationType="OneShot" DurationMin="1.7817974" DurationMax="2.244924">
+				<Event Id="2888738896" Name="Play_Env_Trowel_Dig" ObjectPath="\Events\WU_Main\Environment\Tools\Play_Env_Trowel_Dig" GUID="{C1403630-CB6D-4305-9951-A36B96625330}" DurationType="OneShot" DurationMin="4" DurationMax="4">
 					<MediaRefs>
+						<MediaRef Id="61903052"/>
+						<MediaRef Id="82609520"/>
+						<MediaRef Id="191846235"/>
 						<MediaRef Id="340016934"/>
+						<MediaRef Id="535351334"/>
+						<MediaRef Id="769164870"/>
 						<MediaRef Id="777748875"/>
 						<MediaRef Id="867440051"/>
 					</MediaRefs>
@@ -33,5 +63,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2A1E0DC9-E04D-705A-949C-3E8E5B160936}</FileHash>
+	<FileHash>{C4C3EA45-D369-0197-83FD-34AC11172B67}</FileHash>
 </SoundBanksInfo>

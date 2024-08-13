@@ -1,11 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="197273286" Type="Event" GUID="{C3184C5C-9280-4C2F-BDFB-BC28C7E35301}" Language="SFX" Hash="{4B3B7D01-6B8C-35E7-6023-B0E8C31D8282}">
+		<SoundBank Id="197273286" Type="Event" GUID="{C3184C5C-9280-4C2F-BDFB-BC28C7E35301}" Language="SFX" Hash="{EF830F33-02CB-39B6-E350-5AF296856CBE}">
 			<ObjectPath>Play_Env_Register_Interact</ObjectPath>
 			<ShortName>Play_Env_Register_Interact</ShortName>
 			<Path>Event/Play_Env_Register_Interact.bnk</Path>
 			<Media>
+				<File Id="61903052" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_C5.wav</ShortName>
+					<Path>Media/61903052.wem</Path>
+					<CachePath>SFX/Mus_Tone_C5_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="82609520" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_C4.wav</ShortName>
+					<Path>Media/82609520.wem</Path>
+					<CachePath>SFX/Mus_Tone_C4_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="191846235" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_E4.wav</ShortName>
+					<Path>Media/191846235.wem</Path>
+					<CachePath>SFX/Mus_Tone_E4_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="535351334" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_G4.wav</ShortName>
+					<Path>Media/535351334.wem</Path>
+					<CachePath>SFX/Mus_Tone_G4_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="769164870" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_B4.wav</ShortName>
+					<Path>Media/769164870.wem</Path>
+					<CachePath>SFX/Mus_Tone_B4_F06BAF76.wem</CachePath>
+				</File>
 				<File Id="1007202214" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Env_Register-Interact.wav</ShortName>
 					<Path>Media/1007202214.wem</Path>
@@ -13,13 +38,18 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="197273286" Name="Play_Env_Register_Interact" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_Register_Interact" GUID="{C3184C5C-9280-4C2F-BDFB-BC28C7E35301}" DurationType="OneShot" DurationMin="1.8877485" DurationMax="2.1189263">
+				<Event Id="197273286" Name="Play_Env_Register_Interact" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_Register_Interact" GUID="{C3184C5C-9280-4C2F-BDFB-BC28C7E35301}" DurationType="OneShot" DurationMin="4" DurationMax="4">
 					<MediaRefs>
+						<MediaRef Id="61903052"/>
+						<MediaRef Id="82609520"/>
+						<MediaRef Id="191846235"/>
+						<MediaRef Id="535351334"/>
+						<MediaRef Id="769164870"/>
 						<MediaRef Id="1007202214"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{607ACC79-7355-D15C-A8F1-606C4C9C1E26}</FileHash>
+	<FileHash>{F2B62FEB-980C-5B7C-D333-E1C82F2A603D}</FileHash>
 </SoundBanksInfo>

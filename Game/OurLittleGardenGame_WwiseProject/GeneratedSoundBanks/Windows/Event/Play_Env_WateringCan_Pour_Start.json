@@ -10,11 +10,47 @@
     "Type": "Event",
     "GUID": "{71B80328-F9C6-4369-B305-497B7553A0A1}",
     "Language": "SFX",
-    "Hash": "{5516885C-D29F-98BA-69AB-ADB1F415EB2C}",
+    "Hash": "{4E58DB5F-8397-F6AB-F041-26FA0A2E4B22}",
     "ObjectPath": "Play_Env_WateringCan_Pour_Start",
     "ShortName": "Play_Env_WateringCan_Pour_Start",
     "Path": "Event/Play_Env_WateringCan_Pour_Start.bnk",
     "Media": [
+     {
+      "Id": "61903052",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_C5.wav",
+      "Path": "Media/61903052.wem",
+      "CachePath": "SFX/Mus_Tone_C5_F06BAF76.wem"
+     },
+     {
+      "Id": "82609520",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_C4.wav",
+      "Path": "Media/82609520.wem",
+      "CachePath": "SFX/Mus_Tone_C4_F06BAF76.wem"
+     },
+     {
+      "Id": "191846235",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_E4.wav",
+      "Path": "Media/191846235.wem",
+      "CachePath": "SFX/Mus_Tone_E4_F06BAF76.wem"
+     },
+     {
+      "Id": "535351334",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_G4.wav",
+      "Path": "Media/535351334.wem",
+      "CachePath": "SFX/Mus_Tone_G4_F06BAF76.wem"
+     },
      {
       "Id": "633201667",
       "Language": "SFX",
@@ -23,6 +59,15 @@
       "ShortName": "Env_WateringCan-Pour_Start.wav",
       "Path": "Media/633201667.wem",
       "CachePath": "SFX/Env_WateringCan-Pour_Start_F06BAF76.wem"
+     },
+     {
+      "Id": "769164870",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_B4.wav",
+      "Path": "Media/769164870.wem",
+      "CachePath": "SFX/Mus_Tone_B4_F06BAF76.wem"
      },
      {
       "Id": "841646343",
@@ -40,11 +85,25 @@
       "Name": "Play_Env_WateringCan_Pour_Start",
       "ObjectPath": "\\Events\\WU_Main\\Environment\\Tools\\Play_Env_WateringCan_Pour_Start",
       "GUID": "{71B80328-F9C6-4369-B305-497B7553A0A1}",
-      "MaxAttenuation": "10000",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
+        "Id": "61903052"
+       },
+       {
+        "Id": "82609520"
+       },
+       {
+        "Id": "191846235"
+       },
+       {
+        "Id": "535351334"
+       },
+       {
         "Id": "633201667"
+       },
+       {
+        "Id": "769164870"
        },
        {
         "Id": "841646343"
@@ -54,6 +113,6 @@
     ]
    }
   ],
-  "FileHash": "{7E7B6958-927B-870F-022F-40850C674F08}"
+  "FileHash": "{86F7B246-8ED0-253D-E689-FF12403E985B}"
  }
 }

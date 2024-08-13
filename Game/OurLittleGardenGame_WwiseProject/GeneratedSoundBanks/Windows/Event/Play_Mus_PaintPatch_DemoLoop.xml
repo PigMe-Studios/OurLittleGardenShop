@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="300643740" Type="Event" GUID="{A4E189F8-2B5F-4627-A50A-6D4F3C681783}" Language="SFX" Hash="{410A2998-9352-AAE0-2CF3-3B6D5B6DBE2D}">
+			<ObjectPath>Play_Mus_PaintPatch_DemoLoop</ObjectPath>
+			<ShortName>Play_Mus_PaintPatch_DemoLoop</ShortName>
+			<Path>Event/Play_Mus_PaintPatch_DemoLoop.bnk</Path>
+			<Media>
+				<File Id="858746449" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Mus_PaintPatch-DemoLoop.wav</ShortName>
+					<Path>Media/858746449.wem</Path>
+					<CachePath>SFX/Mus_PaintPatch-DemoLoop_8EC3C7C0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="300643740" Name="Play_Mus_PaintPatch_DemoLoop" ObjectPath="\Events\WU_Main\MusicTemp\Play_Mus_PaintPatch_DemoLoop" GUID="{A4E189F8-2B5F-4627-A50A-6D4F3C681783}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="858746449"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{371C4F94-3805-B906-CCBB-3D243E4E707E}</FileHash>
+</SoundBanksInfo>

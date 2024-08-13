@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{178C431B-C32F-44D0-9E98-8D4A5BF32126}",
     "Language": "SFX",
-    "Hash": "{4F93EBF0-5863-FD00-1AAF-4DED39891E12}",
+    "Hash": "{6B936B4D-0DBA-E336-8F37-E197DD65BABF}",
     "ObjectPath": "Play_Env_WateringCan_PickUp",
     "ShortName": "Play_Env_WateringCan_PickUp",
     "Path": "Event/Play_Env_WateringCan_PickUp.bnk",
@@ -25,6 +25,24 @@
       "CachePath": "SFX/Env_WateringCan-PickUp-003_F06BAF76.wem"
      },
      {
+      "Id": "61903052",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_C5.wav",
+      "Path": "Media/61903052.wem",
+      "CachePath": "SFX/Mus_Tone_C5_F06BAF76.wem"
+     },
+     {
+      "Id": "82609520",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_C4.wav",
+      "Path": "Media/82609520.wem",
+      "CachePath": "SFX/Mus_Tone_C4_F06BAF76.wem"
+     },
+     {
       "Id": "138893668",
       "Language": "SFX",
       "Streaming": "false",
@@ -32,6 +50,33 @@
       "ShortName": "Env_WateringCan-PickUp-001.wav",
       "Path": "Media/138893668.wem",
       "CachePath": "SFX/Env_WateringCan-PickUp-001_F06BAF76.wem"
+     },
+     {
+      "Id": "191846235",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_E4.wav",
+      "Path": "Media/191846235.wem",
+      "CachePath": "SFX/Mus_Tone_E4_F06BAF76.wem"
+     },
+     {
+      "Id": "535351334",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_G4.wav",
+      "Path": "Media/535351334.wem",
+      "CachePath": "SFX/Mus_Tone_G4_F06BAF76.wem"
+     },
+     {
+      "Id": "769164870",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_B4.wav",
+      "Path": "Media/769164870.wem",
+      "CachePath": "SFX/Mus_Tone_B4_F06BAF76.wem"
      },
      {
       "Id": "804111329",
@@ -50,14 +95,29 @@
       "ObjectPath": "\\Events\\WU_Main\\Environment\\Tools\\Play_Env_WateringCan_PickUp",
       "GUID": "{178C431B-C32F-44D0-9E98-8D4A5BF32126}",
       "DurationType": "OneShot",
-      "DurationMin": "0.8908987",
-      "DurationMax": "1.122462",
+      "DurationMin": "4",
+      "DurationMax": "4",
       "MediaRefs": [
        {
         "Id": "9513980"
        },
        {
+        "Id": "61903052"
+       },
+       {
+        "Id": "82609520"
+       },
+       {
         "Id": "138893668"
+       },
+       {
+        "Id": "191846235"
+       },
+       {
+        "Id": "535351334"
+       },
+       {
+        "Id": "769164870"
        },
        {
         "Id": "804111329"
@@ -67,6 +127,6 @@
     ]
    }
   ],
-  "FileHash": "{12CF442E-8411-4F39-51B4-AB8B8712DB18}"
+  "FileHash": "{91A3DB82-40B8-6AF5-7588-5D6A170D4708}"
  }
 }

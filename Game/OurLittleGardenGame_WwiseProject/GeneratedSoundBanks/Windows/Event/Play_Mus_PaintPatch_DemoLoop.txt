@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	300643740	Play_Mus_PaintPatch_DemoLoop			\WU_Main\MusicTemp\Play_Mus_PaintPatch_DemoLoop	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	858746449	Mus_PaintPatch-DemoLoop	S:\Documents\Clones\OurLittleGardenShop\Game\OurLittleGardenGame_WwiseProject\.cache\Windows\SFX\Mus_PaintPatch-DemoLoop_8EC3C7C0.wem	858746449.wem	\Actor-Mixer Hierarchy\WU_Main\MusicTemp\Mus_PaintPatch-DemoLoop	
+
