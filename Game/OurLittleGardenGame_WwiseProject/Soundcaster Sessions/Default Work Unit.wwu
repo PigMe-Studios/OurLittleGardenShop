@@ -50,6 +50,17 @@
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
+				<SoundcasterSession Name="MusicTones" ID="{F724B542-D3B6-4D58-8D13-0CF69E49FB1C}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Mus_PaintPatch_DemoLoop" ID="{A4E189F8-2B5F-4627-A50A-6D4F3C681783}" WorkUnitID="{450AF261-550D-444A-A848-2802D6720954}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundcasterSessions>

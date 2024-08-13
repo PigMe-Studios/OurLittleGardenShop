@@ -40,7 +40,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-10</Value>
+												<Value>-15</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -75,7 +75,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-10</Value>
+												<Value>-15</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -110,7 +110,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-10</Value>
+												<Value>-15</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -223,6 +223,182 @@
 								<ActiveSource Name="Music_DistantGentleGuitar_HRTF" ID="{AE54628D-7161-4367-B687-1CAF8FD0F1A5}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="Mus_PaintPatch-DemoLoop" ID="{FEDAACF7-7476-428B-9CCB-7241203A3EB1}" ShortID="850559576">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Mus_PaintPatch-DemoLoop" ID="{F4BE8473-F1E2-4350-8A5B-59FAF9CAFC97}">
+									<Language>SFX</Language>
+									<AudioFile>Mus_PaintPatch-DemoLoop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="858746449"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Mus_PaintPatch-DemoLoop" ID="{F4BE8473-F1E2-4350-8A5B-59FAF9CAFC97}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<ActorMixer Name="Mus_Tones" ID="{74A1A990-FC92-46A9-880A-E3795CF140B1}" ShortID="420822742">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-20</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Mus_Tones" ID="{2DDBD234-475F-42AF-80AF-28EA01F9B5A5}" ShortID="35972352">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Mus_Tone_B4" ID="{00515990-6E76-47F9-A710-F5C42F72EF26}" ShortID="450933133">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mus_Tone_B4" ID="{E5B70A85-7AFB-4E85-AE4A-DA63D5C1153A}">
+													<Language>SFX</Language>
+													<AudioFile>Mus_Tone_B4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="769164870"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mus_Tone_B4" ID="{E5B70A85-7AFB-4E85-AE4A-DA63D5C1153A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mus_Tone_C4" ID="{BC22D49B-25BD-49B0-8413-B387E950E4D1}" ShortID="885653246">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mus_Tone_C4" ID="{404D21E6-8CB7-4CE9-B57D-56C047914BD5}">
+													<Language>SFX</Language>
+													<AudioFile>Mus_Tone_C4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="82609520"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mus_Tone_C4" ID="{404D21E6-8CB7-4CE9-B57D-56C047914BD5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mus_Tone_C5" ID="{733FE2A7-39A5-4A75-81FA-774F3E028248}" ShortID="725884029">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mus_Tone_C5" ID="{139D7231-9C4D-433E-B0CE-D0D16A63F852}">
+													<Language>SFX</Language>
+													<AudioFile>Mus_Tone_C5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="61903052"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mus_Tone_C5" ID="{139D7231-9C4D-433E-B0CE-D0D16A63F852}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mus_Tone_E4" ID="{C8ADB6D7-EA2D-4CAC-AC76-34E5D3A23C1F}" ShortID="734724579">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mus_Tone_E4" ID="{311FF33F-B485-4B26-8AC0-6141045D0008}">
+													<Language>SFX</Language>
+													<AudioFile>Mus_Tone_E4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="191846235"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mus_Tone_E4" ID="{311FF33F-B485-4B26-8AC0-6141045D0008}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mus_Tone_G4" ID="{F1E4C43A-F986-492E-A922-07CE23A889D8}" ShortID="934420855">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mus_Tone_G4" ID="{9559ADD3-5915-4174-8058-C6B0E58799ED}">
+													<Language>SFX</Language>
+													<AudioFile>Mus_Tone_G4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="535351334"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mus_Tone_G4" ID="{9559ADD3-5915-4174-8058-C6B0E58799ED}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="UI" ID="{6AB08B28-1B6E-4AA2-ADB0-E5C6A842C5BF}" ShortID="69218414">

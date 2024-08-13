@@ -93,6 +93,13 @@
 												</Reference>
 											</ReferenceList>
 										</Action>
+										<Action Name="" ID="{1A73494A-33FC-4730-9A1C-1C10E55C444F}" ShortID="873410800">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Mus_Tones" ID="{2DDBD234-475F-42AF-80AF-28EA01F9B5A5}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
 									</ChildrenList>
 								</Event>
 								<Event Name="Play_Env_Trowel_Dig" ID="{C1403630-CB6D-4305-9951-A36B96625330}">
@@ -105,6 +112,13 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Env_Trowel-Dig" ID="{E1F73D21-E2C3-4D63-A820-6DFA4FBD752B}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{4B458539-0BA6-432C-A23F-5FEA66940A5F}" ShortID="873403622">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Mus_Tones" ID="{2DDBD234-475F-42AF-80AF-28EA01F9B5A5}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -138,6 +152,13 @@
 												</Reference>
 											</ReferenceList>
 										</Action>
+										<Action Name="" ID="{9DDB33E2-F561-438E-B683-41BBB0075644}" ShortID="410936913">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Mus_Tones" ID="{2DDBD234-475F-42AF-80AF-28EA01F9B5A5}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
 									</ChildrenList>
 								</Event>
 								<Event Name="Play_Env_Trowel_PutDown" ID="{33CDF151-033E-4F85-B69E-DDA9A0D168E6}">
@@ -165,6 +186,13 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Env_Trowel-SeedPlant" ID="{0292D7C7-4D0D-4FAC-9F30-180C03BD8EB0}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{C613F582-D917-4304-A90F-E9A763B89A24}" ShortID="468687033">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Mus_Tones" ID="{2DDBD234-475F-42AF-80AF-28EA01F9B5A5}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -198,6 +226,13 @@
 												</Reference>
 											</ReferenceList>
 										</Action>
+										<Action Name="" ID="{BF35CC0F-98E1-4106-980C-CA546D191373}" ShortID="227262551">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Mus_Tones" ID="{2DDBD234-475F-42AF-80AF-28EA01F9B5A5}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
 									</ChildrenList>
 								</Event>
 								<Event Name="Play_Env_WateringCan_Pour_Start" ID="{71B80328-F9C6-4369-B305-497B7553A0A1}">
@@ -210,6 +245,13 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Env_WateringCan-Pour_Start" ID="{79255D05-4082-447F-BC10-21EECC0BBE06}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{46DFDB36-E558-4E29-B9CD-DB8BE7B2BA87}" ShortID="928408281">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Mus_Tones" ID="{2DDBD234-475F-42AF-80AF-28EA01F9B5A5}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -288,6 +330,13 @@
 												</Reference>
 											</ReferenceList>
 										</Action>
+										<Action Name="" ID="{95120816-7E83-4678-9930-3CD98D2B9772}" ShortID="84514601">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Mus_Tones" ID="{2DDBD234-475F-42AF-80AF-28EA01F9B5A5}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
 									</ChildrenList>
 								</Event>
 								<Event Name="Play_Env_Register_Hover" ID="{7FBA88AE-6E5E-4749-84E7-A7DC76D2311F}">
@@ -315,6 +364,13 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Env_Register-Interact" ID="{A143364D-33DB-4742-BB94-A274A39D4A5E}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{5C3578DD-34B3-40D3-B8A7-0646761028F5}" ShortID="659320664">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Mus_Tones" ID="{2DDBD234-475F-42AF-80AF-28EA01F9B5A5}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -360,6 +416,13 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Env_ShopDoor-Interact" ID="{9FC9E0FD-9106-4130-9DE2-7184F676E34C}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{A6F628AF-75B6-4E52-9865-41A00050F21E}" ShortID="443290331">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Mus_Tones" ID="{2DDBD234-475F-42AF-80AF-28EA01F9B5A5}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -492,6 +555,36 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Music_DistantGentleGuitar_HRTF" ID="{3441A69F-BD87-4E8B-8110-9D2DFE56D5C6}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Mus_PaintPatch_DemoLoop" ID="{A4E189F8-2B5F-4627-A50A-6D4F3C681783}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="17"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{D916861D-789F-4293-A8D0-9E4A1EC41D70}" ShortID="163946367">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mus_PaintPatch-DemoLoop" ID="{FEDAACF7-7476-428B-9CCB-7241203A3EB1}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Mus_Tones" ID="{0BD2D1A1-0243-48E3-A287-47F3A167D113}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="17"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{97DA255C-2E5F-4F24-9394-9A3B76B02761}" ShortID="332071899">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mus_Tones" ID="{2DDBD234-475F-42AF-80AF-28EA01F9B5A5}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
