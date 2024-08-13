@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{38E72746-A2E2-4A3D-9127-D24633138B7B}" SchemaVersion="119">
 	<Switches>
-		<WorkUnit Name="WU_Main" ID="{38E72746-A2E2-4A3D-9127-D24633138B7B}" PersistMode="Standalone"/>
+		<WorkUnit Name="WU_Main" ID="{38E72746-A2E2-4A3D-9127-D24633138B7B}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Switch_DialogueRollCharacter" ID="{98A50F19-CDA0-490C-A59C-FAC6E288B097}">
+					<ChildrenList>
+						<Switch Name="Florist" ID="{5E9E9616-61B2-4F5A-9566-FB5F5C5248F0}"/>
+						<Switch Name="Postman" ID="{7130D35B-968C-4673-9BC3-976B7FC47649}"/>
+						<Switch Name="Chef" ID="{AE88FCEC-5377-4D58-A611-C1A179957653}"/>
+						<Switch Name="Null" ID="{138FE25F-4B3D-4BEF-B064-B9C30018CB7F}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Switch_DialogueRollType" ID="{99ADB32F-77C3-48B0-AD29-5BD526F63586}">
+					<ChildrenList>
+						<Switch Name="AlphaNum" ID="{A83AA4F8-6800-4019-B11D-E7064840BDA4}"/>
+						<Switch Name="Exclamation" ID="{A062FAC7-A9C2-45E2-9C04-2947724AABB0}"/>
+						<Switch Name="Punctuation" ID="{2D29CF13-CE81-45CB-8C91-8ECCA5AD221B}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>

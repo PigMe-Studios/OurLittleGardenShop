@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1701607391",
+    "Type": "Event",
+    "GUID": "{06DFBA66-5CF9-49C3-BE6A-FB9F3EF5CCB4}",
+    "Language": "SFX",
+    "Hash": "{F50B4532-4C96-C31A-6CD8-14FF4BE4FF60}",
+    "ObjectPath": "Play_UI_Reverse",
+    "ShortName": "Play_UI_Reverse",
+    "Path": "Event/Play_UI_Reverse.bnk",
+    "Media": [
+     {
+      "Id": "137982451",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_Pop-Reverse.wav",
+      "Path": "Media/137982451.wem",
+      "CachePath": "SFX/UI_Pop-Reverse_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1701607391",
+      "Name": "Play_UI_Reverse",
+      "ObjectPath": "\\Events\\WU_Main\\UI\\Play_UI_Reverse",
+      "GUID": "{06DFBA66-5CF9-49C3-BE6A-FB9F3EF5CCB4}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.47193712",
+      "DurationMax": "0.5297316",
+      "MediaRefs": [
+       {
+        "Id": "137982451"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{E2B794DB-A4CD-8CB1-A02B-1CA9CFB7950B}"
+ }
+}

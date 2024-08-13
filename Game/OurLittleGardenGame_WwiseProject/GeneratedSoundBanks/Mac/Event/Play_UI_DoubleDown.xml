@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3054987940" Type="Event" GUID="{79475BBF-4A51-4D78-A830-3E27BE176768}" Language="SFX" Hash="{B386AB6E-9163-8CC2-91E3-B08C372E0C90}">
+			<ObjectPath>Play_UI_DoubleDown</ObjectPath>
+			<ShortName>Play_UI_DoubleDown</ShortName>
+			<Path>Event/Play_UI_DoubleDown.bnk</Path>
+			<Media>
+				<File Id="627953776" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_Double-Down.wav</ShortName>
+					<Path>Media/627953776.wem</Path>
+					<CachePath>SFX/UI_Double-Down_F06BAF76.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3054987940" Name="Play_UI_DoubleDown" ObjectPath="\Events\WU_Main\UI\Play_UI_DoubleDown" GUID="{79475BBF-4A51-4D78-A830-3E27BE176768}" DurationType="OneShot" DurationMin="0.25" DurationMax="0.25">
+					<MediaRefs>
+						<MediaRef Id="627953776"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{359C7B97-F61B-43EB-CDC1-1CF6CE73CA4C}</FileHash>
+</SoundBanksInfo>

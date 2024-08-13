@@ -32,10 +32,13 @@ bool ACustomer::UpdateDialogue(FName Name)
 	{
 		CurrentDialogue = Name;
 		Emotion = Row->CharacterEmotion;
+
+		//? Redundant rn?
 		FString CharacterFullName = UEnum::GetValueAsString(Row->CharacterSpeaking);
 		CharacterFullName = CharacterFullName.Replace(TEXT("ECharacter::"), TEXT(""));
-		FString ProcessedContent = ProcessString(Row->Content);		
-		ConversationWidget->UpdateContentText(*NameMap.Find(Row->CharacterSpeaking), ProcessedContent);
+
+		FString ProcessedContent = ProcessString(Row->Content);	
+		ConversationWidget->UpdateContentText(Row->CharacterSpeaking, ProcessedContent);
 
 		if (Row->bRespondable)
 		{

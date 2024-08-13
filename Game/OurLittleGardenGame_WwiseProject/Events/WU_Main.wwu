@@ -437,7 +437,7 @@
 						<Property Name="Color" Type="int16" Value="17"/>
 					</PropertyList>
 					<ChildrenList>
-						<Event Name="Play_UI_Pop" ID="{A506968D-F0E2-491A-99D9-A0DF79AB353A}">
+						<Event Name="Play_UI_Single" ID="{A506968D-F0E2-491A-99D9-A0DF79AB353A}">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="17"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
@@ -446,7 +446,7 @@
 								<Action Name="" ID="{21624B75-3D40-4880-82B6-A617A0F2EA86}" ShortID="639353733">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="UI_Pop" ID="{9A3E4AED-7E94-4927-B99F-16B8EC7A62E3}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+											<ObjectRef Name="UI_Single" ID="{D30C46B9-705D-4925-BAE8-771729EC3330}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -467,7 +467,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_UI_Pop_Double" ID="{79475BBF-4A51-4D78-A830-3E27BE176768}">
+						<Event Name="Play_UI_DoubleDown" ID="{79475BBF-4A51-4D78-A830-3E27BE176768}">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="17"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
@@ -476,13 +476,13 @@
 								<Action Name="" ID="{EC76E3CA-FD75-42C7-92AD-6836215BE028}" ShortID="530430670">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="UI_Pop-Double" ID="{6338B50D-1270-4980-961B-541C1D03CD6F}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+											<ObjectRef Name="UI_Double-Down" ID="{CBA18EBF-2D65-45FA-94C8-E6D0A733B963}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_UI_Pop_Reverse" ID="{06DFBA66-5CF9-49C3-BE6A-FB9F3EF5CCB4}">
+						<Event Name="Play_UI_Reverse" ID="{06DFBA66-5CF9-49C3-BE6A-FB9F3EF5CCB4}">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="17"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
@@ -497,7 +497,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_UI_Pop_DoubleUp" ID="{64182781-CF6E-4824-9158-91E2E280AAE7}">
+						<Event Name="Play_UI_DoubleUp" ID="{64182781-CF6E-4824-9158-91E2E280AAE7}">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="17"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
@@ -506,7 +506,7 @@
 								<Action Name="" ID="{2E6AF59F-62EF-4EEB-9DD6-0BB701958029}" ShortID="25110836">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="UI_Pop-DoubleUp" ID="{8EA2F0A9-0597-4290-A153-7F3FF117F99D}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+											<ObjectRef Name="UI_Double-Up" ID="{6E6F4D3B-35B7-4F60-93BC-F91E71A29906}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -528,11 +528,44 @@
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_UI_Camera_Move" ID="{4C04B47A-6C96-46C2-A4F4-491B6F76D1EA}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="17"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
 							<ChildrenList>
 								<Action Name="" ID="{D9D73D2E-9E5B-4867-A275-988CA3B18A1B}" ShortID="609772257">
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="UI_Camera-Move" ID="{A67AD71F-D000-4A76-B70D-F77CE04104AD}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_UI_DialogueRoll" ID="{3EE8C705-3D1F-4FFD-B442-1A949068B8B8}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="17"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{5A44428B-C648-4322-9D16-29CEF2DBDCA2}" ShortID="599660613">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_DialogueRoll_KB" ID="{7284F990-7B10-492D-A4CF-EED04A316E85}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{9CC73AAD-1867-443D-A81A-56C601F263C0}" ShortID="446876383">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_DialogueRollCharacter" ID="{C3435A36-4FD5-46EA-B849-7EEAC452A798}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{0FE2462C-DD25-4236-8102-D4C85B0629D9}" ShortID="878115602">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_DialogueRoll-Tone" ID="{B115C01B-8B5D-4C7A-88B1-3EDB0E1F1424}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
