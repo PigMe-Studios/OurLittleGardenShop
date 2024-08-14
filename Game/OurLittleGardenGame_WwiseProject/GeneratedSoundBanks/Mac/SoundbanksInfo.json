@@ -18,11 +18,38 @@
     "Type": "Event",
     "GUID": "{2AE28E24-EC6E-40A6-A4BB-BCAD8D25A77C}",
     "Language": "SFX",
-    "Hash": "{5962E019-5241-58E2-AB9E-187C880B5427}",
+    "Hash": "{59F11BE5-0413-5BC7-A254-11DF96593110}",
     "ObjectPath": "Play_Env_Lamp_Interact",
     "ShortName": "Play_Env_Lamp_Interact",
     "Path": "Event/Play_Env_Lamp_Interact.bnk",
     "Media": [
+     {
+      "Id": "61903052",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_C5.wav",
+      "Path": "Media/61903052.wem",
+      "CachePath": "SFX/Mus_Tone_C5_F06BAF76.wem"
+     },
+     {
+      "Id": "82609520",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_C4.wav",
+      "Path": "Media/82609520.wem",
+      "CachePath": "SFX/Mus_Tone_C4_F06BAF76.wem"
+     },
+     {
+      "Id": "191846235",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_E4.wav",
+      "Path": "Media/191846235.wem",
+      "CachePath": "SFX/Mus_Tone_E4_F06BAF76.wem"
+     },
      {
       "Id": "307558579",
       "Language": "SFX",
@@ -31,6 +58,24 @@
       "ShortName": "Env_Lamp-Interact-001.wav",
       "Path": "Media/307558579.wem",
       "CachePath": "SFX/Env_Lamp-Interact-001_F06BAF76.wem"
+     },
+     {
+      "Id": "535351334",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_G4.wav",
+      "Path": "Media/535351334.wem",
+      "CachePath": "SFX/Mus_Tone_G4_F06BAF76.wem"
+     },
+     {
+      "Id": "769164870",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_B4.wav",
+      "Path": "Media/769164870.wem",
+      "CachePath": "SFX/Mus_Tone_B4_F06BAF76.wem"
      },
      {
       "Id": "919023126",
@@ -49,11 +94,26 @@
       "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_Lamp_Interact",
       "GUID": "{2AE28E24-EC6E-40A6-A4BB-BCAD8D25A77C}",
       "DurationType": "OneShot",
-      "DurationMin": "0.47193712",
-      "DurationMax": "0.5297316",
+      "DurationMin": "4",
+      "DurationMax": "4",
       "MediaRefs": [
        {
+        "Id": "61903052"
+       },
+       {
+        "Id": "82609520"
+       },
+       {
+        "Id": "191846235"
+       },
+       {
         "Id": "307558579"
+       },
+       {
+        "Id": "535351334"
+       },
+       {
+        "Id": "769164870"
        },
        {
         "Id": "919023126"
@@ -159,52 +219,60 @@
     ]
    },
    {
-    "Id": "100379607",
-    "Type": "Event",
-    "GUID": "{06DFBA66-5CF9-49C3-BE6A-FB9F3EF5CCB4}",
-    "Language": "SFX",
-    "Hash": "{0D2143D3-0847-AEA4-F430-FF84F194E573}",
-    "ObjectPath": "Play_UI_Pop_Reverse",
-    "ShortName": "Play_UI_Pop_Reverse",
-    "Path": "Event/Play_UI_Pop_Reverse.bnk",
-    "Media": [
-     {
-      "Id": "137982451",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "UI_Pop-Reverse.wav",
-      "Path": "Media/137982451.wem",
-      "CachePath": "SFX/UI_Pop-Reverse_F06BAF76.wem"
-     }
-    ],
-    "Events": [
-     {
-      "Id": "100379607",
-      "Name": "Play_UI_Pop_Reverse",
-      "ObjectPath": "\\Events\\WU_Main\\UI\\Play_UI_Pop_Reverse",
-      "GUID": "{06DFBA66-5CF9-49C3-BE6A-FB9F3EF5CCB4}",
-      "DurationType": "OneShot",
-      "DurationMin": "0.47193712",
-      "DurationMax": "0.5297316",
-      "MediaRefs": [
-       {
-        "Id": "137982451"
-       }
-      ]
-     }
-    ]
-   },
-   {
     "Id": "197273286",
     "Type": "Event",
     "GUID": "{C3184C5C-9280-4C2F-BDFB-BC28C7E35301}",
     "Language": "SFX",
-    "Hash": "{4B3B7D01-6B8C-35E7-6023-B0E8C31D8282}",
+    "Hash": "{EF830F33-02CB-39B6-E350-5AF296856CBE}",
     "ObjectPath": "Play_Env_Register_Interact",
     "ShortName": "Play_Env_Register_Interact",
     "Path": "Event/Play_Env_Register_Interact.bnk",
     "Media": [
+     {
+      "Id": "61903052",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_C5.wav",
+      "Path": "Media/61903052.wem",
+      "CachePath": "SFX/Mus_Tone_C5_F06BAF76.wem"
+     },
+     {
+      "Id": "82609520",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_C4.wav",
+      "Path": "Media/82609520.wem",
+      "CachePath": "SFX/Mus_Tone_C4_F06BAF76.wem"
+     },
+     {
+      "Id": "191846235",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_E4.wav",
+      "Path": "Media/191846235.wem",
+      "CachePath": "SFX/Mus_Tone_E4_F06BAF76.wem"
+     },
+     {
+      "Id": "535351334",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_G4.wav",
+      "Path": "Media/535351334.wem",
+      "CachePath": "SFX/Mus_Tone_G4_F06BAF76.wem"
+     },
+     {
+      "Id": "769164870",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_B4.wav",
+      "Path": "Media/769164870.wem",
+      "CachePath": "SFX/Mus_Tone_B4_F06BAF76.wem"
+     },
      {
       "Id": "1007202214",
       "Language": "SFX",
@@ -222,11 +290,61 @@
       "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_Register_Interact",
       "GUID": "{C3184C5C-9280-4C2F-BDFB-BC28C7E35301}",
       "DurationType": "OneShot",
-      "DurationMin": "1.8877485",
-      "DurationMax": "2.1189263",
+      "DurationMin": "4",
+      "DurationMax": "4",
       "MediaRefs": [
        {
+        "Id": "61903052"
+       },
+       {
+        "Id": "82609520"
+       },
+       {
+        "Id": "191846235"
+       },
+       {
+        "Id": "535351334"
+       },
+       {
+        "Id": "769164870"
+       },
+       {
         "Id": "1007202214"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "300643740",
+    "Type": "Event",
+    "GUID": "{A4E189F8-2B5F-4627-A50A-6D4F3C681783}",
+    "Language": "SFX",
+    "Hash": "{410A2998-9352-AAE0-2CF3-3B6D5B6DBE2D}",
+    "ObjectPath": "Play_Mus_PaintPatch_DemoLoop",
+    "ShortName": "Play_Mus_PaintPatch_DemoLoop",
+    "Path": "Event/Play_Mus_PaintPatch_DemoLoop.bnk",
+    "Media": [
+     {
+      "Id": "858746449",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Mus_PaintPatch-DemoLoop.wav",
+      "Path": "Media/858746449.wem",
+      "CachePath": "SFX/Mus_PaintPatch-DemoLoop_8EC3C7C0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "300643740",
+      "Name": "Play_Mus_PaintPatch_DemoLoop",
+      "ObjectPath": "\\Events\\WU_Main\\MusicTemp\\Play_Mus_PaintPatch_DemoLoop",
+      "GUID": "{A4E189F8-2B5F-4627-A50A-6D4F3C681783}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "858746449"
        }
       ]
      }
@@ -271,11 +389,48 @@
     ]
    },
    {
+    "Id": "526886411",
+    "Type": "Event",
+    "GUID": "{A506968D-F0E2-491A-99D9-A0DF79AB353A}",
+    "Language": "SFX",
+    "Hash": "{41138C0D-9735-7FE3-ADCA-11C941CE1049}",
+    "ObjectPath": "Play_UI_Single",
+    "ShortName": "Play_UI_Single",
+    "Path": "Event/Play_UI_Single.bnk",
+    "Media": [
+     {
+      "Id": "313031026",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_Single.wav",
+      "Path": "Media/313031026.wem",
+      "CachePath": "SFX/UI_Single_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "526886411",
+      "Name": "Play_UI_Single",
+      "ObjectPath": "\\Events\\WU_Main\\UI\\Play_UI_Single",
+      "GUID": "{A506968D-F0E2-491A-99D9-A0DF79AB353A}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.25",
+      "DurationMax": "0.25",
+      "MediaRefs": [
+       {
+        "Id": "313031026"
+       }
+      ]
+     }
+    ]
+   },
+   {
     "Id": "642285692",
     "Type": "Event",
     "GUID": "{AF96BDDD-4061-40DF-A6BC-42FCC0594803}",
     "Language": "SFX",
-    "Hash": "{3AE308B5-E367-63B8-5F34-C3F8AE45C6C5}",
+    "Hash": "{DF47891A-0629-600A-FD0C-3E061ADD666D}",
     "ObjectPath": "Play_Env_SeedBag_Open",
     "ShortName": "Play_Env_SeedBag_Open",
     "Path": "Event/Play_Env_SeedBag_Open.bnk",
@@ -290,6 +445,24 @@
       "CachePath": "SFX/Env_SeedBag-Open-001_F06BAF76.wem"
      },
      {
+      "Id": "61903052",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_C5.wav",
+      "Path": "Media/61903052.wem",
+      "CachePath": "SFX/Mus_Tone_C5_F06BAF76.wem"
+     },
+     {
+      "Id": "82609520",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_C4.wav",
+      "Path": "Media/82609520.wem",
+      "CachePath": "SFX/Mus_Tone_C4_F06BAF76.wem"
+     },
+     {
       "Id": "176880429",
       "Language": "SFX",
       "Streaming": "false",
@@ -297,6 +470,33 @@
       "ShortName": "Env_SeedBag-Open-002.wav",
       "Path": "Media/176880429.wem",
       "CachePath": "SFX/Env_SeedBag-Open-002_F06BAF76.wem"
+     },
+     {
+      "Id": "191846235",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_E4.wav",
+      "Path": "Media/191846235.wem",
+      "CachePath": "SFX/Mus_Tone_E4_F06BAF76.wem"
+     },
+     {
+      "Id": "535351334",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_G4.wav",
+      "Path": "Media/535351334.wem",
+      "CachePath": "SFX/Mus_Tone_G4_F06BAF76.wem"
+     },
+     {
+      "Id": "769164870",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_B4.wav",
+      "Path": "Media/769164870.wem",
+      "CachePath": "SFX/Mus_Tone_B4_F06BAF76.wem"
      },
      {
       "Id": "966916693",
@@ -315,14 +515,29 @@
       "ObjectPath": "\\Events\\WU_Main\\Environment\\Tools\\Play_Env_SeedBag_Open",
       "GUID": "{AF96BDDD-4061-40DF-A6BC-42FCC0594803}",
       "DurationType": "OneShot",
-      "DurationMin": "0.8908987",
-      "DurationMax": "1.122462",
+      "DurationMin": "4",
+      "DurationMax": "4",
       "MediaRefs": [
        {
         "Id": "3760087"
        },
        {
+        "Id": "61903052"
+       },
+       {
+        "Id": "82609520"
+       },
+       {
         "Id": "176880429"
+       },
+       {
+        "Id": "191846235"
+       },
+       {
+        "Id": "535351334"
+       },
+       {
+        "Id": "769164870"
        },
        {
         "Id": "966916693"
@@ -400,6 +615,91 @@
       "MediaRefs": [
        {
         "Id": "437583964"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "1072666893",
+    "Type": "Event",
+    "GUID": "{0BD2D1A1-0243-48E3-A287-47F3A167D113}",
+    "Language": "SFX",
+    "Hash": "{1D52D5D6-6029-D7E9-826F-23B206EE663A}",
+    "ObjectPath": "Play_Mus_Tones",
+    "ShortName": "Play_Mus_Tones",
+    "Path": "Event/Play_Mus_Tones.bnk",
+    "Media": [
+     {
+      "Id": "61903052",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_C5.wav",
+      "Path": "Media/61903052.wem",
+      "CachePath": "SFX/Mus_Tone_C5_F06BAF76.wem"
+     },
+     {
+      "Id": "82609520",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_C4.wav",
+      "Path": "Media/82609520.wem",
+      "CachePath": "SFX/Mus_Tone_C4_F06BAF76.wem"
+     },
+     {
+      "Id": "191846235",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_E4.wav",
+      "Path": "Media/191846235.wem",
+      "CachePath": "SFX/Mus_Tone_E4_F06BAF76.wem"
+     },
+     {
+      "Id": "535351334",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_G4.wav",
+      "Path": "Media/535351334.wem",
+      "CachePath": "SFX/Mus_Tone_G4_F06BAF76.wem"
+     },
+     {
+      "Id": "769164870",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_B4.wav",
+      "Path": "Media/769164870.wem",
+      "CachePath": "SFX/Mus_Tone_B4_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1072666893",
+      "Name": "Play_Mus_Tones",
+      "ObjectPath": "\\Events\\WU_Main\\MusicTemp\\Play_Mus_Tones",
+      "GUID": "{0BD2D1A1-0243-48E3-A287-47F3A167D113}",
+      "DurationType": "OneShot",
+      "DurationMin": "4",
+      "DurationMax": "4",
+      "MediaRefs": [
+       {
+        "Id": "61903052"
+       },
+       {
+        "Id": "82609520"
+       },
+       {
+        "Id": "191846235"
+       },
+       {
+        "Id": "535351334"
+       },
+       {
+        "Id": "769164870"
        }
       ]
      }
@@ -660,6 +960,66 @@
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
      }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "556509116",
+      "Name": "Switch_DialogueRollCharacter",
+      "ObjectPath": "\\Switches\\WU_Main\\Switch_DialogueRollCharacter",
+      "GUID": "{98A50F19-CDA0-490C-A59C-FAC6E288B097}",
+      "Switches": [
+       {
+        "Id": "784127654",
+        "Name": "Null",
+        "ObjectPath": "\\Switches\\WU_Main\\Switch_DialogueRollCharacter\\Null",
+        "GUID": "{138FE25F-4B3D-4BEF-B064-B9C30018CB7F}"
+       },
+       {
+        "Id": "1236050664",
+        "Name": "Florist",
+        "ObjectPath": "\\Switches\\WU_Main\\Switch_DialogueRollCharacter\\Florist",
+        "GUID": "{5E9E9616-61B2-4F5A-9566-FB5F5C5248F0}"
+       },
+       {
+        "Id": "2896852321",
+        "Name": "Postman",
+        "ObjectPath": "\\Switches\\WU_Main\\Switch_DialogueRollCharacter\\Postman",
+        "GUID": "{7130D35B-968C-4673-9BC3-976B7FC47649}"
+       },
+       {
+        "Id": "4073193669",
+        "Name": "Chef",
+        "ObjectPath": "\\Switches\\WU_Main\\Switch_DialogueRollCharacter\\Chef",
+        "GUID": "{AE88FCEC-5377-4D58-A611-C1A179957653}"
+       }
+      ]
+     },
+     {
+      "Id": "1868339219",
+      "Name": "Switch_DialogueRollType",
+      "ObjectPath": "\\Switches\\WU_Main\\Switch_DialogueRollType",
+      "GUID": "{99ADB32F-77C3-48B0-AD29-5BD526F63586}",
+      "Switches": [
+       {
+        "Id": "302264719",
+        "Name": "Punctuation",
+        "ObjectPath": "\\Switches\\WU_Main\\Switch_DialogueRollType\\Punctuation",
+        "GUID": "{2D29CF13-CE81-45CB-8C91-8ECCA5AD221B}"
+       },
+       {
+        "Id": "2265253536",
+        "Name": "Exclamation",
+        "ObjectPath": "\\Switches\\WU_Main\\Switch_DialogueRollType\\Exclamation",
+        "GUID": "{A062FAC7-A9C2-45E2-9C04-2947724AABB0}"
+       },
+       {
+        "Id": "3758199925",
+        "Name": "AlphaNum",
+        "ObjectPath": "\\Switches\\WU_Main\\Switch_DialogueRollType\\AlphaNum",
+        "GUID": "{A83AA4F8-6800-4019-B11D-E7064840BDA4}"
+       }
+      ]
+     }
     ]
    },
    {
@@ -698,15 +1058,88 @@
     ]
    },
    {
+    "Id": "1701607391",
+    "Type": "Event",
+    "GUID": "{06DFBA66-5CF9-49C3-BE6A-FB9F3EF5CCB4}",
+    "Language": "SFX",
+    "Hash": "{F50B4532-4C96-C31A-6CD8-14FF4BE4FF60}",
+    "ObjectPath": "Play_UI_Reverse",
+    "ShortName": "Play_UI_Reverse",
+    "Path": "Event/Play_UI_Reverse.bnk",
+    "Media": [
+     {
+      "Id": "137982451",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_Pop-Reverse.wav",
+      "Path": "Media/137982451.wem",
+      "CachePath": "SFX/UI_Pop-Reverse_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1701607391",
+      "Name": "Play_UI_Reverse",
+      "ObjectPath": "\\Events\\WU_Main\\UI\\Play_UI_Reverse",
+      "GUID": "{06DFBA66-5CF9-49C3-BE6A-FB9F3EF5CCB4}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.47193712",
+      "DurationMax": "0.5297316",
+      "MediaRefs": [
+       {
+        "Id": "137982451"
+       }
+      ]
+     }
+    ]
+   },
+   {
     "Id": "1705306783",
     "Type": "Event",
     "GUID": "{8A612E3D-10B2-4015-B3E7-C75743580D1D}",
     "Language": "SFX",
-    "Hash": "{48540583-B643-2CBD-B37F-9936D3A62138}",
+    "Hash": "{B4D17945-DDD3-6DC5-BA86-9299655090A1}",
     "ObjectPath": "Play_Env_ShopDoor_Interact",
     "ShortName": "Play_Env_ShopDoor_Interact",
     "Path": "Event/Play_Env_ShopDoor_Interact.bnk",
     "Media": [
+     {
+      "Id": "61903052",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_C5.wav",
+      "Path": "Media/61903052.wem",
+      "CachePath": "SFX/Mus_Tone_C5_F06BAF76.wem"
+     },
+     {
+      "Id": "82609520",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_C4.wav",
+      "Path": "Media/82609520.wem",
+      "CachePath": "SFX/Mus_Tone_C4_F06BAF76.wem"
+     },
+     {
+      "Id": "191846235",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_E4.wav",
+      "Path": "Media/191846235.wem",
+      "CachePath": "SFX/Mus_Tone_E4_F06BAF76.wem"
+     },
+     {
+      "Id": "535351334",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_G4.wav",
+      "Path": "Media/535351334.wem",
+      "CachePath": "SFX/Mus_Tone_G4_F06BAF76.wem"
+     },
      {
       "Id": "614421866",
       "Language": "SFX",
@@ -715,6 +1148,15 @@
       "ShortName": "Env_ShopDoor-Interact.wav",
       "Path": "Media/614421866.wem",
       "CachePath": "SFX/Env_ShopDoor-Interact_F06BAF76.wem"
+     },
+     {
+      "Id": "769164870",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_B4.wav",
+      "Path": "Media/769164870.wem",
+      "CachePath": "SFX/Mus_Tone_B4_F06BAF76.wem"
      }
     ],
     "Events": [
@@ -724,11 +1166,26 @@
       "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_ShopDoor_Interact",
       "GUID": "{8A612E3D-10B2-4015-B3E7-C75743580D1D}",
       "DurationType": "OneShot",
-      "DurationMin": "1.8877485",
-      "DurationMax": "2.1189263",
+      "DurationMin": "4",
+      "DurationMax": "4",
       "MediaRefs": [
        {
+        "Id": "61903052"
+       },
+       {
+        "Id": "82609520"
+       },
+       {
+        "Id": "191846235"
+       },
+       {
+        "Id": "535351334"
+       },
+       {
         "Id": "614421866"
+       },
+       {
+        "Id": "769164870"
        }
       ]
      }
@@ -857,52 +1314,42 @@
     ]
    },
    {
-    "Id": "2723271224",
-    "Type": "Event",
-    "GUID": "{A506968D-F0E2-491A-99D9-A0DF79AB353A}",
-    "Language": "SFX",
-    "Hash": "{19C01926-4429-3D5D-8210-3D43C2D4B690}",
-    "ObjectPath": "Play_UI_Pop",
-    "ShortName": "Play_UI_Pop",
-    "Path": "Event/Play_UI_Pop.bnk",
-    "Media": [
-     {
-      "Id": "646580617",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "UI_Pop.wav",
-      "Path": "Media/646580617.wem",
-      "CachePath": "SFX/UI_Pop_F06BAF76.wem"
-     }
-    ],
-    "Events": [
-     {
-      "Id": "2723271224",
-      "Name": "Play_UI_Pop",
-      "ObjectPath": "\\Events\\WU_Main\\UI\\Play_UI_Pop",
-      "GUID": "{A506968D-F0E2-491A-99D9-A0DF79AB353A}",
-      "DurationType": "OneShot",
-      "DurationMin": "0.47193712",
-      "DurationMax": "0.5297316",
-      "MediaRefs": [
-       {
-        "Id": "646580617"
-       }
-      ]
-     }
-    ]
-   },
-   {
     "Id": "2888738896",
     "Type": "Event",
     "GUID": "{C1403630-CB6D-4305-9951-A36B96625330}",
     "Language": "SFX",
-    "Hash": "{517FA44B-C6F7-D51F-4148-89603838D8C9}",
+    "Hash": "{57028EC5-B022-6C9E-471C-7B638F85B710}",
     "ObjectPath": "Play_Env_Trowel_Dig",
     "ShortName": "Play_Env_Trowel_Dig",
     "Path": "Event/Play_Env_Trowel_Dig.bnk",
     "Media": [
+     {
+      "Id": "61903052",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_C5.wav",
+      "Path": "Media/61903052.wem",
+      "CachePath": "SFX/Mus_Tone_C5_F06BAF76.wem"
+     },
+     {
+      "Id": "82609520",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_C4.wav",
+      "Path": "Media/82609520.wem",
+      "CachePath": "SFX/Mus_Tone_C4_F06BAF76.wem"
+     },
+     {
+      "Id": "191846235",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_E4.wav",
+      "Path": "Media/191846235.wem",
+      "CachePath": "SFX/Mus_Tone_E4_F06BAF76.wem"
+     },
      {
       "Id": "340016934",
       "Language": "SFX",
@@ -911,6 +1358,24 @@
       "ShortName": "Env_Trowel-Dig-002.wav",
       "Path": "Media/340016934.wem",
       "CachePath": "SFX/Env_Trowel-Dig-002_F06BAF76.wem"
+     },
+     {
+      "Id": "535351334",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_G4.wav",
+      "Path": "Media/535351334.wem",
+      "CachePath": "SFX/Mus_Tone_G4_F06BAF76.wem"
+     },
+     {
+      "Id": "769164870",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_B4.wav",
+      "Path": "Media/769164870.wem",
+      "CachePath": "SFX/Mus_Tone_B4_F06BAF76.wem"
      },
      {
       "Id": "777748875",
@@ -938,11 +1403,26 @@
       "ObjectPath": "\\Events\\WU_Main\\Environment\\Tools\\Play_Env_Trowel_Dig",
       "GUID": "{C1403630-CB6D-4305-9951-A36B96625330}",
       "DurationType": "OneShot",
-      "DurationMin": "1.7817974",
-      "DurationMax": "2.244924",
+      "DurationMin": "4",
+      "DurationMax": "4",
       "MediaRefs": [
        {
+        "Id": "61903052"
+       },
+       {
+        "Id": "82609520"
+       },
+       {
+        "Id": "191846235"
+       },
+       {
         "Id": "340016934"
+       },
+       {
+        "Id": "535351334"
+       },
+       {
+        "Id": "769164870"
        },
        {
         "Id": "777748875"
@@ -992,37 +1472,37 @@
     ]
    },
    {
-    "Id": "2951446888",
+    "Id": "3054987940",
     "Type": "Event",
     "GUID": "{79475BBF-4A51-4D78-A830-3E27BE176768}",
     "Language": "SFX",
-    "Hash": "{996173C7-B727-2237-4483-7963439D49AD}",
-    "ObjectPath": "Play_UI_Pop_Double",
-    "ShortName": "Play_UI_Pop_Double",
-    "Path": "Event/Play_UI_Pop_Double.bnk",
+    "Hash": "{B386AB6E-9163-8CC2-91E3-B08C372E0C90}",
+    "ObjectPath": "Play_UI_DoubleDown",
+    "ShortName": "Play_UI_DoubleDown",
+    "Path": "Event/Play_UI_DoubleDown.bnk",
     "Media": [
      {
-      "Id": "737260249",
+      "Id": "627953776",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "UI_Pop-Double.wav",
-      "Path": "Media/737260249.wem",
-      "CachePath": "SFX/UI_Pop-Double_F06BAF76.wem"
+      "ShortName": "UI_Double-Down.wav",
+      "Path": "Media/627953776.wem",
+      "CachePath": "SFX/UI_Double-Down_F06BAF76.wem"
      }
     ],
     "Events": [
      {
-      "Id": "2951446888",
-      "Name": "Play_UI_Pop_Double",
-      "ObjectPath": "\\Events\\WU_Main\\UI\\Play_UI_Pop_Double",
+      "Id": "3054987940",
+      "Name": "Play_UI_DoubleDown",
+      "ObjectPath": "\\Events\\WU_Main\\UI\\Play_UI_DoubleDown",
       "GUID": "{79475BBF-4A51-4D78-A830-3E27BE176768}",
       "DurationType": "OneShot",
-      "DurationMin": "0.47193712",
-      "DurationMax": "0.5297316",
+      "DurationMin": "0.25",
+      "DurationMax": "0.25",
       "MediaRefs": [
        {
-        "Id": "737260249"
+        "Id": "627953776"
        }
       ]
      }
@@ -1131,7 +1611,7 @@
     "Type": "Event",
     "GUID": "{0EEFC5E7-1F69-4FAF-9ED8-D73E1E099FC4}",
     "Language": "SFX",
-    "Hash": "{C346135D-F569-87BB-688C-F7904E833E71}",
+    "Hash": "{CA7D0BC6-DF9D-F403-E307-0D9AB7C0D8DD}",
     "ObjectPath": "Play_Amb_GardenAmb_Birds_Wind",
     "ShortName": "Play_Amb_GardenAmb_Birds_Wind",
     "Path": "Event/Play_Amb_GardenAmb_Birds_Wind.bnk",
@@ -1166,11 +1646,38 @@
     "Type": "Event",
     "GUID": "{C0F06098-CAAB-41C6-A972-07E1B3D77B33}",
     "Language": "SFX",
-    "Hash": "{3077051A-92BE-54C7-F94D-82A7A07689EE}",
+    "Hash": "{FCA6B7F5-F8FB-2036-B7D7-B7FC2FFB39C6}",
     "ObjectPath": "Play_Env_Trowel_PickUp",
     "ShortName": "Play_Env_Trowel_PickUp",
     "Path": "Event/Play_Env_Trowel_PickUp.bnk",
     "Media": [
+     {
+      "Id": "61903052",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_C5.wav",
+      "Path": "Media/61903052.wem",
+      "CachePath": "SFX/Mus_Tone_C5_F06BAF76.wem"
+     },
+     {
+      "Id": "82609520",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_C4.wav",
+      "Path": "Media/82609520.wem",
+      "CachePath": "SFX/Mus_Tone_C4_F06BAF76.wem"
+     },
+     {
+      "Id": "191846235",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_E4.wav",
+      "Path": "Media/191846235.wem",
+      "CachePath": "SFX/Mus_Tone_E4_F06BAF76.wem"
+     },
      {
       "Id": "292968602",
       "Language": "SFX",
@@ -1197,6 +1704,24 @@
       "ShortName": "Env_Trowel-PickUp-002.wav",
       "Path": "Media/515549105.wem",
       "CachePath": "SFX/Env_Trowel-PickUp-002_F06BAF76.wem"
+     },
+     {
+      "Id": "535351334",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_G4.wav",
+      "Path": "Media/535351334.wem",
+      "CachePath": "SFX/Mus_Tone_G4_F06BAF76.wem"
+     },
+     {
+      "Id": "769164870",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_B4.wav",
+      "Path": "Media/769164870.wem",
+      "CachePath": "SFX/Mus_Tone_B4_F06BAF76.wem"
      }
     ],
     "Events": [
@@ -1206,9 +1731,18 @@
       "ObjectPath": "\\Events\\WU_Main\\Environment\\Tools\\Play_Env_Trowel_PickUp",
       "GUID": "{C0F06098-CAAB-41C6-A972-07E1B3D77B33}",
       "DurationType": "OneShot",
-      "DurationMin": "0.8908987",
-      "DurationMax": "1.122462",
+      "DurationMin": "4",
+      "DurationMax": "4",
       "MediaRefs": [
+       {
+        "Id": "61903052"
+       },
+       {
+        "Id": "82609520"
+       },
+       {
+        "Id": "191846235"
+       },
        {
         "Id": "292968602"
        },
@@ -1217,6 +1751,418 @@
        },
        {
         "Id": "515549105"
+       },
+       {
+        "Id": "535351334"
+       },
+       {
+        "Id": "769164870"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "3555512799",
+    "Type": "Event",
+    "GUID": "{64182781-CF6E-4824-9158-91E2E280AAE7}",
+    "Language": "SFX",
+    "Hash": "{A2532DC7-BDFB-7B31-AA96-D83654350F17}",
+    "ObjectPath": "Play_UI_DoubleUp",
+    "ShortName": "Play_UI_DoubleUp",
+    "Path": "Event/Play_UI_DoubleUp.bnk",
+    "Media": [
+     {
+      "Id": "945032147",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_Double-Up.wav",
+      "Path": "Media/945032147.wem",
+      "CachePath": "SFX/UI_Double-Up_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3555512799",
+      "Name": "Play_UI_DoubleUp",
+      "ObjectPath": "\\Events\\WU_Main\\UI\\Play_UI_DoubleUp",
+      "GUID": "{64182781-CF6E-4824-9158-91E2E280AAE7}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.25",
+      "DurationMax": "0.25",
+      "MediaRefs": [
+       {
+        "Id": "945032147"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "3594163308",
+    "Type": "Event",
+    "GUID": "{3EE8C705-3D1F-4FFD-B442-1A949068B8B8}",
+    "Language": "SFX",
+    "Hash": "{9C92A4EB-126E-569B-2D24-63B996F74436}",
+    "ObjectPath": "Play_UI_DialogueRoll",
+    "ShortName": "Play_UI_DialogueRoll",
+    "Path": "Event/Play_UI_DialogueRoll.bnk",
+    "Media": [
+     {
+      "Id": "45314652",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_Exclam-001.wav",
+      "Path": "Media/45314652.wem",
+      "CachePath": "SFX/UI_DialogueRoll_Exclam-001_F06BAF76.wem"
+     },
+     {
+      "Id": "61285951",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_Exclam-004.wav",
+      "Path": "Media/61285951.wem",
+      "CachePath": "SFX/UI_DialogueRoll_Exclam-004_F06BAF76.wem"
+     },
+     {
+      "Id": "125470387",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_KB-001.wav",
+      "Path": "Media/125470387.wem",
+      "CachePath": "SFX/UI_DialogueRoll_KB-001_F06BAF76.wem"
+     },
+     {
+      "Id": "209701942",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_Punct-001.wav",
+      "Path": "Media/209701942.wem",
+      "CachePath": "SFX/UI_DialogueRoll_Punct-001_F06BAF76.wem"
+     },
+     {
+      "Id": "220222383",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll-Tone.wav",
+      "Path": "Media/220222383.wem",
+      "CachePath": "SFX/UI_DialogueRoll-Tone_F06BAF76.wem"
+     },
+     {
+      "Id": "284491424",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_AlphaNum-002.wav",
+      "Path": "Media/284491424.wem",
+      "CachePath": "SFX/UI_DialogueRoll_AlphaNum-002_F06BAF76.wem"
+     },
+     {
+      "Id": "291926095",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_Exclam-003.wav",
+      "Path": "Media/291926095.wem",
+      "CachePath": "SFX/UI_DialogueRoll_Exclam-003_F06BAF76.wem"
+     },
+     {
+      "Id": "358023881",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_KB-005.wav",
+      "Path": "Media/358023881.wem",
+      "CachePath": "SFX/UI_DialogueRoll_KB-005_F06BAF76.wem"
+     },
+     {
+      "Id": "398048133",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_KB-007.wav",
+      "Path": "Media/398048133.wem",
+      "CachePath": "SFX/UI_DialogueRoll_KB-007_F06BAF76.wem"
+     },
+     {
+      "Id": "466696660",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_Punct-004.wav",
+      "Path": "Media/466696660.wem",
+      "CachePath": "SFX/UI_DialogueRoll_Punct-004_F06BAF76.wem"
+     },
+     {
+      "Id": "539251372",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_KB-004.wav",
+      "Path": "Media/539251372.wem",
+      "CachePath": "SFX/UI_DialogueRoll_KB-004_F06BAF76.wem"
+     },
+     {
+      "Id": "612503434",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_KB-002.wav",
+      "Path": "Media/612503434.wem",
+      "CachePath": "SFX/UI_DialogueRoll_KB-002_F06BAF76.wem"
+     },
+     {
+      "Id": "631092038",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_AlphaNum-001.wav",
+      "Path": "Media/631092038.wem",
+      "CachePath": "SFX/UI_DialogueRoll_AlphaNum-001_F06BAF76.wem"
+     },
+     {
+      "Id": "658697309",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_Punct-002.wav",
+      "Path": "Media/658697309.wem",
+      "CachePath": "SFX/UI_DialogueRoll_Punct-002_F06BAF76.wem"
+     },
+     {
+      "Id": "670153769",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_Exclam-002.wav",
+      "Path": "Media/670153769.wem",
+      "CachePath": "SFX/UI_DialogueRoll_Exclam-002_F06BAF76.wem"
+     },
+     {
+      "Id": "713496097",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_AlphaNum-003.wav",
+      "Path": "Media/713496097.wem",
+      "CachePath": "SFX/UI_DialogueRoll_AlphaNum-003_F06BAF76.wem"
+     },
+     {
+      "Id": "739188682",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_KB-006.wav",
+      "Path": "Media/739188682.wem",
+      "CachePath": "SFX/UI_DialogueRoll_KB-006_F06BAF76.wem"
+     },
+     {
+      "Id": "908574443",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_AlphaNum-004.wav",
+      "Path": "Media/908574443.wem",
+      "CachePath": "SFX/UI_DialogueRoll_AlphaNum-004_F06BAF76.wem"
+     },
+     {
+      "Id": "923228505",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_Punct-003.wav",
+      "Path": "Media/923228505.wem",
+      "CachePath": "SFX/UI_DialogueRoll_Punct-003_F06BAF76.wem"
+     },
+     {
+      "Id": "1021079182",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_KB-003.wav",
+      "Path": "Media/1021079182.wem",
+      "CachePath": "SFX/UI_DialogueRoll_KB-003_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3594163308",
+      "Name": "Play_UI_DialogueRoll",
+      "ObjectPath": "\\Events\\WU_Main\\UI\\Play_UI_DialogueRoll",
+      "GUID": "{3EE8C705-3D1F-4FFD-B442-1A949068B8B8}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.47193712",
+      "DurationMax": "1.0594631",
+      "MediaRefs": [
+       {
+        "Id": "125470387"
+       },
+       {
+        "Id": "220222383"
+       },
+       {
+        "Id": "358023881"
+       },
+       {
+        "Id": "398048133"
+       },
+       {
+        "Id": "539251372"
+       },
+       {
+        "Id": "612503434"
+       },
+       {
+        "Id": "739188682"
+       },
+       {
+        "Id": "1021079182"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "556509116",
+         "Id": "1236050664",
+         "GUID": "{5E9E9616-61B2-4F5A-9566-FB5F5C5248F0}",
+         "Default": "true"
+        },
+        "Children": [
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "1868339219",
+           "Id": "302264719",
+           "GUID": "{2D29CF13-CE81-45CB-8C91-8ECCA5AD221B}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "209701942"
+           },
+           {
+            "Id": "466696660"
+           },
+           {
+            "Id": "658697309"
+           },
+           {
+            "Id": "923228505"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "1868339219",
+           "Id": "2265253536",
+           "GUID": "{A062FAC7-A9C2-45E2-9C04-2947724AABB0}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "45314652"
+           },
+           {
+            "Id": "61285951"
+           },
+           {
+            "Id": "291926095"
+           },
+           {
+            "Id": "670153769"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "1868339219",
+           "Id": "3758199925",
+           "GUID": "{A83AA4F8-6800-4019-B11D-E7064840BDA4}",
+           "Default": "true"
+          },
+          "MediaRefs": [
+           {
+            "Id": "284491424"
+           },
+           {
+            "Id": "631092038"
+           },
+           {
+            "Id": "713496097"
+           },
+           {
+            "Id": "908574443"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "556509116",
+      "Name": "Switch_DialogueRollCharacter",
+      "ObjectPath": "\\Switches\\WU_Main\\Switch_DialogueRollCharacter",
+      "GUID": "{98A50F19-CDA0-490C-A59C-FAC6E288B097}",
+      "Switches": [
+       {
+        "Id": "784127654",
+        "Name": "Null",
+        "ObjectPath": "\\Switches\\WU_Main\\Switch_DialogueRollCharacter\\Null",
+        "GUID": "{138FE25F-4B3D-4BEF-B064-B9C30018CB7F}"
+       },
+       {
+        "Id": "1236050664",
+        "Name": "Florist",
+        "ObjectPath": "\\Switches\\WU_Main\\Switch_DialogueRollCharacter\\Florist",
+        "GUID": "{5E9E9616-61B2-4F5A-9566-FB5F5C5248F0}"
+       },
+       {
+        "Id": "2896852321",
+        "Name": "Postman",
+        "ObjectPath": "\\Switches\\WU_Main\\Switch_DialogueRollCharacter\\Postman",
+        "GUID": "{7130D35B-968C-4673-9BC3-976B7FC47649}"
+       },
+       {
+        "Id": "4073193669",
+        "Name": "Chef",
+        "ObjectPath": "\\Switches\\WU_Main\\Switch_DialogueRollCharacter\\Chef",
+        "GUID": "{AE88FCEC-5377-4D58-A611-C1A179957653}"
+       }
+      ]
+     },
+     {
+      "Id": "1868339219",
+      "Name": "Switch_DialogueRollType",
+      "ObjectPath": "\\Switches\\WU_Main\\Switch_DialogueRollType",
+      "GUID": "{99ADB32F-77C3-48B0-AD29-5BD526F63586}",
+      "Switches": [
+       {
+        "Id": "302264719",
+        "Name": "Punctuation",
+        "ObjectPath": "\\Switches\\WU_Main\\Switch_DialogueRollType\\Punctuation",
+        "GUID": "{2D29CF13-CE81-45CB-8C91-8ECCA5AD221B}"
+       },
+       {
+        "Id": "2265253536",
+        "Name": "Exclamation",
+        "ObjectPath": "\\Switches\\WU_Main\\Switch_DialogueRollType\\Exclamation",
+        "GUID": "{A062FAC7-A9C2-45E2-9C04-2947724AABB0}"
+       },
+       {
+        "Id": "3758199925",
+        "Name": "AlphaNum",
+        "ObjectPath": "\\Switches\\WU_Main\\Switch_DialogueRollType\\AlphaNum",
+        "GUID": "{A83AA4F8-6800-4019-B11D-E7064840BDA4}"
        }
       ]
      }
@@ -1264,7 +2210,7 @@
     "Type": "Event",
     "GUID": "{178C431B-C32F-44D0-9E98-8D4A5BF32126}",
     "Language": "SFX",
-    "Hash": "{4F93EBF0-5863-FD00-1AAF-4DED39891E12}",
+    "Hash": "{6B936B4D-0DBA-E336-8F37-E197DD65BABF}",
     "ObjectPath": "Play_Env_WateringCan_PickUp",
     "ShortName": "Play_Env_WateringCan_PickUp",
     "Path": "Event/Play_Env_WateringCan_PickUp.bnk",
@@ -1279,6 +2225,24 @@
       "CachePath": "SFX/Env_WateringCan-PickUp-003_F06BAF76.wem"
      },
      {
+      "Id": "61903052",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_C5.wav",
+      "Path": "Media/61903052.wem",
+      "CachePath": "SFX/Mus_Tone_C5_F06BAF76.wem"
+     },
+     {
+      "Id": "82609520",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_C4.wav",
+      "Path": "Media/82609520.wem",
+      "CachePath": "SFX/Mus_Tone_C4_F06BAF76.wem"
+     },
+     {
       "Id": "138893668",
       "Language": "SFX",
       "Streaming": "false",
@@ -1286,6 +2250,33 @@
       "ShortName": "Env_WateringCan-PickUp-001.wav",
       "Path": "Media/138893668.wem",
       "CachePath": "SFX/Env_WateringCan-PickUp-001_F06BAF76.wem"
+     },
+     {
+      "Id": "191846235",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_E4.wav",
+      "Path": "Media/191846235.wem",
+      "CachePath": "SFX/Mus_Tone_E4_F06BAF76.wem"
+     },
+     {
+      "Id": "535351334",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_G4.wav",
+      "Path": "Media/535351334.wem",
+      "CachePath": "SFX/Mus_Tone_G4_F06BAF76.wem"
+     },
+     {
+      "Id": "769164870",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_B4.wav",
+      "Path": "Media/769164870.wem",
+      "CachePath": "SFX/Mus_Tone_B4_F06BAF76.wem"
      },
      {
       "Id": "804111329",
@@ -1304,14 +2295,29 @@
       "ObjectPath": "\\Events\\WU_Main\\Environment\\Tools\\Play_Env_WateringCan_PickUp",
       "GUID": "{178C431B-C32F-44D0-9E98-8D4A5BF32126}",
       "DurationType": "OneShot",
-      "DurationMin": "0.8908987",
-      "DurationMax": "1.122462",
+      "DurationMin": "4",
+      "DurationMax": "4",
       "MediaRefs": [
        {
         "Id": "9513980"
        },
        {
+        "Id": "61903052"
+       },
+       {
+        "Id": "82609520"
+       },
+       {
         "Id": "138893668"
+       },
+       {
+        "Id": "191846235"
+       },
+       {
+        "Id": "535351334"
+       },
+       {
+        "Id": "769164870"
        },
        {
         "Id": "804111329"
@@ -1382,52 +2388,51 @@
     ]
    },
    {
-    "Id": "3943941319",
-    "Type": "Event",
-    "GUID": "{64182781-CF6E-4824-9158-91E2E280AAE7}",
-    "Language": "SFX",
-    "Hash": "{68D55D61-0A5A-F3B8-8FBC-6629AF0AC3FB}",
-    "ObjectPath": "Play_UI_Pop_DoubleUp",
-    "ShortName": "Play_UI_Pop_DoubleUp",
-    "Path": "Event/Play_UI_Pop_DoubleUp.bnk",
-    "Media": [
-     {
-      "Id": "56378900",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "UI_Pop-DoubleUp.wav",
-      "Path": "Media/56378900.wem",
-      "CachePath": "SFX/UI_Pop-DoubleUp_F06BAF76.wem"
-     }
-    ],
-    "Events": [
-     {
-      "Id": "3943941319",
-      "Name": "Play_UI_Pop_DoubleUp",
-      "ObjectPath": "\\Events\\WU_Main\\UI\\Play_UI_Pop_DoubleUp",
-      "GUID": "{64182781-CF6E-4824-9158-91E2E280AAE7}",
-      "DurationType": "OneShot",
-      "DurationMin": "0.5625",
-      "DurationMax": "0.5625",
-      "MediaRefs": [
-       {
-        "Id": "56378900"
-       }
-      ]
-     }
-    ]
-   },
-   {
     "Id": "4197296339",
     "Type": "Event",
     "GUID": "{71B80328-F9C6-4369-B305-497B7553A0A1}",
     "Language": "SFX",
-    "Hash": "{5516885C-D29F-98BA-69AB-ADB1F415EB2C}",
+    "Hash": "{4E58DB5F-8397-F6AB-F041-26FA0A2E4B22}",
     "ObjectPath": "Play_Env_WateringCan_Pour_Start",
     "ShortName": "Play_Env_WateringCan_Pour_Start",
     "Path": "Event/Play_Env_WateringCan_Pour_Start.bnk",
     "Media": [
+     {
+      "Id": "61903052",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_C5.wav",
+      "Path": "Media/61903052.wem",
+      "CachePath": "SFX/Mus_Tone_C5_F06BAF76.wem"
+     },
+     {
+      "Id": "82609520",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_C4.wav",
+      "Path": "Media/82609520.wem",
+      "CachePath": "SFX/Mus_Tone_C4_F06BAF76.wem"
+     },
+     {
+      "Id": "191846235",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_E4.wav",
+      "Path": "Media/191846235.wem",
+      "CachePath": "SFX/Mus_Tone_E4_F06BAF76.wem"
+     },
+     {
+      "Id": "535351334",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_G4.wav",
+      "Path": "Media/535351334.wem",
+      "CachePath": "SFX/Mus_Tone_G4_F06BAF76.wem"
+     },
      {
       "Id": "633201667",
       "Language": "SFX",
@@ -1436,6 +2441,15 @@
       "ShortName": "Env_WateringCan-Pour_Start.wav",
       "Path": "Media/633201667.wem",
       "CachePath": "SFX/Env_WateringCan-Pour_Start_F06BAF76.wem"
+     },
+     {
+      "Id": "769164870",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_B4.wav",
+      "Path": "Media/769164870.wem",
+      "CachePath": "SFX/Mus_Tone_B4_F06BAF76.wem"
      },
      {
       "Id": "841646343",
@@ -1453,11 +2467,25 @@
       "Name": "Play_Env_WateringCan_Pour_Start",
       "ObjectPath": "\\Events\\WU_Main\\Environment\\Tools\\Play_Env_WateringCan_Pour_Start",
       "GUID": "{71B80328-F9C6-4369-B305-497B7553A0A1}",
-      "MaxAttenuation": "10000",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
+        "Id": "61903052"
+       },
+       {
+        "Id": "82609520"
+       },
+       {
+        "Id": "191846235"
+       },
+       {
+        "Id": "535351334"
+       },
+       {
         "Id": "633201667"
+       },
+       {
+        "Id": "769164870"
        },
        {
         "Id": "841646343"
@@ -1471,11 +2499,38 @@
     "Type": "Event",
     "GUID": "{1261A477-2724-43B9-97F1-1271FEAF1150}",
     "Language": "SFX",
-    "Hash": "{12CCB978-5301-AC5E-2862-DA8AE967A443}",
+    "Hash": "{53D79139-CD19-7498-DD3C-8562F252E763}",
     "ObjectPath": "Play_Env_Trowel_SeedPlant",
     "ShortName": "Play_Env_Trowel_SeedPlant",
     "Path": "Event/Play_Env_Trowel_SeedPlant.bnk",
     "Media": [
+     {
+      "Id": "61903052",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_C5.wav",
+      "Path": "Media/61903052.wem",
+      "CachePath": "SFX/Mus_Tone_C5_F06BAF76.wem"
+     },
+     {
+      "Id": "82609520",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_C4.wav",
+      "Path": "Media/82609520.wem",
+      "CachePath": "SFX/Mus_Tone_C4_F06BAF76.wem"
+     },
+     {
+      "Id": "191846235",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_E4.wav",
+      "Path": "Media/191846235.wem",
+      "CachePath": "SFX/Mus_Tone_E4_F06BAF76.wem"
+     },
      {
       "Id": "438329037",
       "Language": "SFX",
@@ -1484,6 +2539,24 @@
       "ShortName": "Env_Trowel-SeedPlant-002.wav",
       "Path": "Media/438329037.wem",
       "CachePath": "SFX/Env_Trowel-SeedPlant-002_F06BAF76.wem"
+     },
+     {
+      "Id": "535351334",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_G4.wav",
+      "Path": "Media/535351334.wem",
+      "CachePath": "SFX/Mus_Tone_G4_F06BAF76.wem"
+     },
+     {
+      "Id": "769164870",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_B4.wav",
+      "Path": "Media/769164870.wem",
+      "CachePath": "SFX/Mus_Tone_B4_F06BAF76.wem"
      },
      {
       "Id": "1014697496",
@@ -1511,11 +2584,26 @@
       "ObjectPath": "\\Events\\WU_Main\\Environment\\Tools\\Play_Env_Trowel_SeedPlant",
       "GUID": "{1261A477-2724-43B9-97F1-1271FEAF1150}",
       "DurationType": "OneShot",
-      "DurationMin": "1.7817974",
-      "DurationMax": "2.244924",
+      "DurationMin": "4",
+      "DurationMax": "4",
       "MediaRefs": [
        {
+        "Id": "61903052"
+       },
+       {
+        "Id": "82609520"
+       },
+       {
+        "Id": "191846235"
+       },
+       {
         "Id": "438329037"
+       },
+       {
+        "Id": "535351334"
+       },
+       {
+        "Id": "769164870"
        },
        {
         "Id": "1014697496"
@@ -1528,6 +2616,6 @@
     ]
    }
   ],
-  "FileHash": "{52FD3A91-F7EB-360C-EFF6-2BB65E9F34AD}"
+  "FileHash": "{47F0709C-8512-7C11-2179-1EE9ED9AD3EF}"
  }
 }

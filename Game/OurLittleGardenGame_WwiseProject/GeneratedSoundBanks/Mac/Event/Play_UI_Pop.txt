@@ -1,3 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	2723271224	Play_UI_Pop			\WU_Main\UI\Play_UI_Pop	
-

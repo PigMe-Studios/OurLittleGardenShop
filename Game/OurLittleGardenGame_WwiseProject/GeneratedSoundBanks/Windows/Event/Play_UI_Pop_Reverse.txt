@@ -1,3 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	100379607	Play_UI_Pop_Reverse			\WU_Main\UI\Play_UI_Pop_Reverse	
-

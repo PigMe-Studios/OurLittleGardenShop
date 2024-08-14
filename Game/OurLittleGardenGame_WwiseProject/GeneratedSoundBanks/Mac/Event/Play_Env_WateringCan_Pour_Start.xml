@@ -1,15 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="4197296339" Type="Event" GUID="{71B80328-F9C6-4369-B305-497B7553A0A1}" Language="SFX" Hash="{5516885C-D29F-98BA-69AB-ADB1F415EB2C}">
+		<SoundBank Id="4197296339" Type="Event" GUID="{71B80328-F9C6-4369-B305-497B7553A0A1}" Language="SFX" Hash="{4E58DB5F-8397-F6AB-F041-26FA0A2E4B22}">
 			<ObjectPath>Play_Env_WateringCan_Pour_Start</ObjectPath>
 			<ShortName>Play_Env_WateringCan_Pour_Start</ShortName>
 			<Path>Event/Play_Env_WateringCan_Pour_Start.bnk</Path>
 			<Media>
+				<File Id="61903052" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_C5.wav</ShortName>
+					<Path>Media/61903052.wem</Path>
+					<CachePath>SFX/Mus_Tone_C5_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="82609520" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_C4.wav</ShortName>
+					<Path>Media/82609520.wem</Path>
+					<CachePath>SFX/Mus_Tone_C4_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="191846235" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_E4.wav</ShortName>
+					<Path>Media/191846235.wem</Path>
+					<CachePath>SFX/Mus_Tone_E4_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="535351334" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_G4.wav</ShortName>
+					<Path>Media/535351334.wem</Path>
+					<CachePath>SFX/Mus_Tone_G4_F06BAF76.wem</CachePath>
+				</File>
 				<File Id="633201667" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Env_WateringCan-Pour_Start.wav</ShortName>
 					<Path>Media/633201667.wem</Path>
 					<CachePath>SFX/Env_WateringCan-Pour_Start_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="769164870" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_B4.wav</ShortName>
+					<Path>Media/769164870.wem</Path>
+					<CachePath>SFX/Mus_Tone_B4_F06BAF76.wem</CachePath>
 				</File>
 				<File Id="841646343" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Env_WateringCan-Pour_Sustain.wav</ShortName>
@@ -18,14 +43,19 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="4197296339" Name="Play_Env_WateringCan_Pour_Start" ObjectPath="\Events\WU_Main\Environment\Tools\Play_Env_WateringCan_Pour_Start" GUID="{71B80328-F9C6-4369-B305-497B7553A0A1}" MaxAttenuation="10000" DurationType="Infinite">
+				<Event Id="4197296339" Name="Play_Env_WateringCan_Pour_Start" ObjectPath="\Events\WU_Main\Environment\Tools\Play_Env_WateringCan_Pour_Start" GUID="{71B80328-F9C6-4369-B305-497B7553A0A1}" DurationType="Infinite">
 					<MediaRefs>
+						<MediaRef Id="61903052"/>
+						<MediaRef Id="82609520"/>
+						<MediaRef Id="191846235"/>
+						<MediaRef Id="535351334"/>
 						<MediaRef Id="633201667"/>
+						<MediaRef Id="769164870"/>
 						<MediaRef Id="841646343"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{AEA2C77C-19AD-FF09-33D9-EC7480706BD3}</FileHash>
+	<FileHash>{71EDD1D6-5F3A-4BDB-5EDE-15A9FBE702A7}</FileHash>
 </SoundBanksInfo>

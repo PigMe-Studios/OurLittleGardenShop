@@ -7,11 +7,13 @@
 #include "Components/TextBlock.h"
 #include "Components/Button.h"
 #include "DialogueTrigger.h"
+#include "CharacterEnumeration.h"
 #include "ConversationWidget.generated.h"
 
 class UTextBlock;
 class UButton;
 class ACustomer;
+class UAkAudioEvent;
 
 /**
  * 
@@ -29,7 +31,7 @@ public:
 	/// @brief Update Name and Content textboxes
 	/// @param Name to display in Name textbox
 	/// @param Content is the text to display in the main textbox
-	void UpdateContentText(FName Name, FString Content);
+	void UpdateContentText(ECharacter Character, FString Content);
 
 	/// @brief Un-hide relevant response buttons
 	/// @param Amount of response buttons to display, between 1-3
@@ -74,11 +76,13 @@ public:
 	AActor* OwningCustomer;
 
 	//text anim bits and bobs
-	void UpdateText();
+	void UpdateText(const ECharacter Char);
 
 	FString TextToDisplay;
 	FString CurrentText;
 	FTimerHandle TypingTimerHandle;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Audio")
+	UAkAudioEvent* DialogueRollAkEvent = nullptr;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "DialogueAnim")
 	float TypingAnimInterval; 

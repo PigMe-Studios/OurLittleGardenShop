@@ -1,0 +1,16 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3594163308	Play_UI_DialogueRoll			\WU_Main\UI\Play_UI_DialogueRoll	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	556509116	Switch_DialogueRollCharacter			\WU_Main\Switch_DialogueRollCharacter	
+	1868339219	Switch_DialogueRollType			\WU_Main\Switch_DialogueRollType	
+
+Switch	ID	Name	Switch Group			Notes
+	784127654	Null	Switch_DialogueRollCharacter			
+	1236050664	Florist	Switch_DialogueRollCharacter			
+	2896852321	Postman	Switch_DialogueRollCharacter			
+	4073193669	Chef	Switch_DialogueRollCharacter			
+	302264719	Punctuation	Switch_DialogueRollType			
+	2265253536	Exclamation	Switch_DialogueRollType			
+	3758199925	AlphaNum	Switch_DialogueRollType			
+

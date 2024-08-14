@@ -1,25 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1705306783" Type="Event" GUID="{8A612E3D-10B2-4015-B3E7-C75743580D1D}" Language="SFX" Hash="{48540583-B643-2CBD-B37F-9936D3A62138}">
+		<SoundBank Id="1705306783" Type="Event" GUID="{8A612E3D-10B2-4015-B3E7-C75743580D1D}" Language="SFX" Hash="{B4D17945-DDD3-6DC5-BA86-9299655090A1}">
 			<ObjectPath>Play_Env_ShopDoor_Interact</ObjectPath>
 			<ShortName>Play_Env_ShopDoor_Interact</ShortName>
 			<Path>Event/Play_Env_ShopDoor_Interact.bnk</Path>
 			<Media>
+				<File Id="61903052" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_C5.wav</ShortName>
+					<Path>Media/61903052.wem</Path>
+					<CachePath>SFX/Mus_Tone_C5_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="82609520" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_C4.wav</ShortName>
+					<Path>Media/82609520.wem</Path>
+					<CachePath>SFX/Mus_Tone_C4_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="191846235" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_E4.wav</ShortName>
+					<Path>Media/191846235.wem</Path>
+					<CachePath>SFX/Mus_Tone_E4_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="535351334" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_G4.wav</ShortName>
+					<Path>Media/535351334.wem</Path>
+					<CachePath>SFX/Mus_Tone_G4_F06BAF76.wem</CachePath>
+				</File>
 				<File Id="614421866" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Env_ShopDoor-Interact.wav</ShortName>
 					<Path>Media/614421866.wem</Path>
 					<CachePath>SFX/Env_ShopDoor-Interact_F06BAF76.wem</CachePath>
 				</File>
+				<File Id="769164870" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_B4.wav</ShortName>
+					<Path>Media/769164870.wem</Path>
+					<CachePath>SFX/Mus_Tone_B4_F06BAF76.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
-				<Event Id="1705306783" Name="Play_Env_ShopDoor_Interact" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_ShopDoor_Interact" GUID="{8A612E3D-10B2-4015-B3E7-C75743580D1D}" DurationType="OneShot" DurationMin="1.8877485" DurationMax="2.1189263">
+				<Event Id="1705306783" Name="Play_Env_ShopDoor_Interact" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_ShopDoor_Interact" GUID="{8A612E3D-10B2-4015-B3E7-C75743580D1D}" DurationType="OneShot" DurationMin="4" DurationMax="4">
 					<MediaRefs>
+						<MediaRef Id="61903052"/>
+						<MediaRef Id="82609520"/>
+						<MediaRef Id="191846235"/>
+						<MediaRef Id="535351334"/>
 						<MediaRef Id="614421866"/>
+						<MediaRef Id="769164870"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{4C7A6350-483D-9501-0B8B-F58D6663AB16}</FileHash>
+	<FileHash>{8E6E051E-4802-95ED-BF39-2B435F909BB8}</FileHash>
 </SoundBanksInfo>

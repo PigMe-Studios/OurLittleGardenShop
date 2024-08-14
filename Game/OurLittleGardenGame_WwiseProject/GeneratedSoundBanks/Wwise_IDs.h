@@ -34,16 +34,48 @@ namespace AK
         static const AkUniqueID PLAY_ENV_WATERINGCAN_PICKUP = 3730387420U;
         static const AkUniqueID PLAY_ENV_WATERINGCAN_POUR_START = 4197296339U;
         static const AkUniqueID PLAY_ENV_WATERINGCAN_PUTDOWN = 3747315027U;
+        static const AkUniqueID PLAY_MUS_PAINTPATCH_DEMOLOOP = 300643740U;
+        static const AkUniqueID PLAY_MUS_TONES = 1072666893U;
         static const AkUniqueID PLAY_MUSIC_DISTANTGENTLEGUITAR_HRTF = 1539384943U;
         static const AkUniqueID PLAY_UI_CAMERA_MOVE = 3105845062U;
         static const AkUniqueID PLAY_UI_DIALOGUEPROGRESS = 792485676U;
+        static const AkUniqueID PLAY_UI_DIALOGUEROLL = 3594163308U;
+        static const AkUniqueID PLAY_UI_DOUBLEDOWN = 3054987940U;
+        static const AkUniqueID PLAY_UI_DOUBLEUP = 3555512799U;
         static const AkUniqueID PLAY_UI_HOVER = 1339559671U;
-        static const AkUniqueID PLAY_UI_POP = 2723271224U;
-        static const AkUniqueID PLAY_UI_POP_DOUBLE = 2951446888U;
-        static const AkUniqueID PLAY_UI_POP_DOUBLEUP = 3943941319U;
-        static const AkUniqueID PLAY_UI_POP_REVERSE = 100379607U;
+        static const AkUniqueID PLAY_UI_REVERSE = 1701607391U;
+        static const AkUniqueID PLAY_UI_SINGLE = 526886411U;
         static const AkUniqueID STOP_ENV_WATERINGCAN_POUR_END = 378354790U;
     } // namespace EVENTS
+
+    namespace SWITCHES
+    {
+        namespace SWITCH_DIALOGUEROLLCHARACTER
+        {
+            static const AkUniqueID GROUP = 556509116U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID CHEF = 4073193669U;
+                static const AkUniqueID FLORIST = 1236050664U;
+                static const AkUniqueID NULL = 784127654U;
+                static const AkUniqueID POSTMAN = 2896852321U;
+            } // namespace SWITCH
+        } // namespace SWITCH_DIALOGUEROLLCHARACTER
+
+        namespace SWITCH_DIALOGUEROLLTYPE
+        {
+            static const AkUniqueID GROUP = 1868339219U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID ALPHANUM = 3758199925U;
+                static const AkUniqueID EXCLAMATION = 2265253536U;
+                static const AkUniqueID PUNCTUATION = 302264719U;
+            } // namespace SWITCH
+        } // namespace SWITCH_DIALOGUEROLLTYPE
+
+    } // namespace SWITCHES
 
     namespace BUSSES
     {

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{AF96BDDD-4061-40DF-A6BC-42FCC0594803}",
     "Language": "SFX",
-    "Hash": "{3AE308B5-E367-63B8-5F34-C3F8AE45C6C5}",
+    "Hash": "{DF47891A-0629-600A-FD0C-3E061ADD666D}",
     "ObjectPath": "Play_Env_SeedBag_Open",
     "ShortName": "Play_Env_SeedBag_Open",
     "Path": "Event/Play_Env_SeedBag_Open.bnk",
@@ -25,6 +25,24 @@
       "CachePath": "SFX/Env_SeedBag-Open-001_F06BAF76.wem"
      },
      {
+      "Id": "61903052",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_C5.wav",
+      "Path": "Media/61903052.wem",
+      "CachePath": "SFX/Mus_Tone_C5_F06BAF76.wem"
+     },
+     {
+      "Id": "82609520",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_C4.wav",
+      "Path": "Media/82609520.wem",
+      "CachePath": "SFX/Mus_Tone_C4_F06BAF76.wem"
+     },
+     {
       "Id": "176880429",
       "Language": "SFX",
       "Streaming": "false",
@@ -32,6 +50,33 @@
       "ShortName": "Env_SeedBag-Open-002.wav",
       "Path": "Media/176880429.wem",
       "CachePath": "SFX/Env_SeedBag-Open-002_F06BAF76.wem"
+     },
+     {
+      "Id": "191846235",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_E4.wav",
+      "Path": "Media/191846235.wem",
+      "CachePath": "SFX/Mus_Tone_E4_F06BAF76.wem"
+     },
+     {
+      "Id": "535351334",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_G4.wav",
+      "Path": "Media/535351334.wem",
+      "CachePath": "SFX/Mus_Tone_G4_F06BAF76.wem"
+     },
+     {
+      "Id": "769164870",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_B4.wav",
+      "Path": "Media/769164870.wem",
+      "CachePath": "SFX/Mus_Tone_B4_F06BAF76.wem"
      },
      {
       "Id": "966916693",
@@ -50,14 +95,29 @@
       "ObjectPath": "\\Events\\WU_Main\\Environment\\Tools\\Play_Env_SeedBag_Open",
       "GUID": "{AF96BDDD-4061-40DF-A6BC-42FCC0594803}",
       "DurationType": "OneShot",
-      "DurationMin": "0.8908987",
-      "DurationMax": "1.122462",
+      "DurationMin": "4",
+      "DurationMax": "4",
       "MediaRefs": [
        {
         "Id": "3760087"
        },
        {
+        "Id": "61903052"
+       },
+       {
+        "Id": "82609520"
+       },
+       {
         "Id": "176880429"
+       },
+       {
+        "Id": "191846235"
+       },
+       {
+        "Id": "535351334"
+       },
+       {
+        "Id": "769164870"
        },
        {
         "Id": "966916693"
@@ -67,6 +127,6 @@
     ]
    }
   ],
-  "FileHash": "{F5297F7B-1C95-2603-8499-8BC7F8602728}"
+  "FileHash": "{45CD7856-1CF6-61C9-6547-E609C1839DB3}"
  }
 }

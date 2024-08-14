@@ -1,0 +1,380 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3594163308",
+    "Type": "Event",
+    "GUID": "{3EE8C705-3D1F-4FFD-B442-1A949068B8B8}",
+    "Language": "SFX",
+    "Hash": "{9C92A4EB-126E-569B-2D24-63B996F74436}",
+    "ObjectPath": "Play_UI_DialogueRoll",
+    "ShortName": "Play_UI_DialogueRoll",
+    "Path": "Event/Play_UI_DialogueRoll.bnk",
+    "Media": [
+     {
+      "Id": "45314652",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_Exclam-001.wav",
+      "Path": "Media/45314652.wem",
+      "CachePath": "SFX/UI_DialogueRoll_Exclam-001_F06BAF76.wem"
+     },
+     {
+      "Id": "61285951",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_Exclam-004.wav",
+      "Path": "Media/61285951.wem",
+      "CachePath": "SFX/UI_DialogueRoll_Exclam-004_F06BAF76.wem"
+     },
+     {
+      "Id": "125470387",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_KB-001.wav",
+      "Path": "Media/125470387.wem",
+      "CachePath": "SFX/UI_DialogueRoll_KB-001_F06BAF76.wem"
+     },
+     {
+      "Id": "209701942",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_Punct-001.wav",
+      "Path": "Media/209701942.wem",
+      "CachePath": "SFX/UI_DialogueRoll_Punct-001_F06BAF76.wem"
+     },
+     {
+      "Id": "220222383",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll-Tone.wav",
+      "Path": "Media/220222383.wem",
+      "CachePath": "SFX/UI_DialogueRoll-Tone_F06BAF76.wem"
+     },
+     {
+      "Id": "284491424",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_AlphaNum-002.wav",
+      "Path": "Media/284491424.wem",
+      "CachePath": "SFX/UI_DialogueRoll_AlphaNum-002_F06BAF76.wem"
+     },
+     {
+      "Id": "291926095",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_Exclam-003.wav",
+      "Path": "Media/291926095.wem",
+      "CachePath": "SFX/UI_DialogueRoll_Exclam-003_F06BAF76.wem"
+     },
+     {
+      "Id": "358023881",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_KB-005.wav",
+      "Path": "Media/358023881.wem",
+      "CachePath": "SFX/UI_DialogueRoll_KB-005_F06BAF76.wem"
+     },
+     {
+      "Id": "398048133",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_KB-007.wav",
+      "Path": "Media/398048133.wem",
+      "CachePath": "SFX/UI_DialogueRoll_KB-007_F06BAF76.wem"
+     },
+     {
+      "Id": "466696660",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_Punct-004.wav",
+      "Path": "Media/466696660.wem",
+      "CachePath": "SFX/UI_DialogueRoll_Punct-004_F06BAF76.wem"
+     },
+     {
+      "Id": "539251372",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_KB-004.wav",
+      "Path": "Media/539251372.wem",
+      "CachePath": "SFX/UI_DialogueRoll_KB-004_F06BAF76.wem"
+     },
+     {
+      "Id": "612503434",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_KB-002.wav",
+      "Path": "Media/612503434.wem",
+      "CachePath": "SFX/UI_DialogueRoll_KB-002_F06BAF76.wem"
+     },
+     {
+      "Id": "631092038",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_AlphaNum-001.wav",
+      "Path": "Media/631092038.wem",
+      "CachePath": "SFX/UI_DialogueRoll_AlphaNum-001_F06BAF76.wem"
+     },
+     {
+      "Id": "658697309",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_Punct-002.wav",
+      "Path": "Media/658697309.wem",
+      "CachePath": "SFX/UI_DialogueRoll_Punct-002_F06BAF76.wem"
+     },
+     {
+      "Id": "670153769",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_Exclam-002.wav",
+      "Path": "Media/670153769.wem",
+      "CachePath": "SFX/UI_DialogueRoll_Exclam-002_F06BAF76.wem"
+     },
+     {
+      "Id": "713496097",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_AlphaNum-003.wav",
+      "Path": "Media/713496097.wem",
+      "CachePath": "SFX/UI_DialogueRoll_AlphaNum-003_F06BAF76.wem"
+     },
+     {
+      "Id": "739188682",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_KB-006.wav",
+      "Path": "Media/739188682.wem",
+      "CachePath": "SFX/UI_DialogueRoll_KB-006_F06BAF76.wem"
+     },
+     {
+      "Id": "908574443",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_AlphaNum-004.wav",
+      "Path": "Media/908574443.wem",
+      "CachePath": "SFX/UI_DialogueRoll_AlphaNum-004_F06BAF76.wem"
+     },
+     {
+      "Id": "923228505",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_Punct-003.wav",
+      "Path": "Media/923228505.wem",
+      "CachePath": "SFX/UI_DialogueRoll_Punct-003_F06BAF76.wem"
+     },
+     {
+      "Id": "1021079182",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_KB-003.wav",
+      "Path": "Media/1021079182.wem",
+      "CachePath": "SFX/UI_DialogueRoll_KB-003_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3594163308",
+      "Name": "Play_UI_DialogueRoll",
+      "ObjectPath": "\\Events\\WU_Main\\UI\\Play_UI_DialogueRoll",
+      "GUID": "{3EE8C705-3D1F-4FFD-B442-1A949068B8B8}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.47193712",
+      "DurationMax": "1.0594631",
+      "MediaRefs": [
+       {
+        "Id": "125470387"
+       },
+       {
+        "Id": "220222383"
+       },
+       {
+        "Id": "358023881"
+       },
+       {
+        "Id": "398048133"
+       },
+       {
+        "Id": "539251372"
+       },
+       {
+        "Id": "612503434"
+       },
+       {
+        "Id": "739188682"
+       },
+       {
+        "Id": "1021079182"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "556509116",
+         "Id": "1236050664",
+         "GUID": "{5E9E9616-61B2-4F5A-9566-FB5F5C5248F0}",
+         "Default": "true"
+        },
+        "Children": [
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "1868339219",
+           "Id": "302264719",
+           "GUID": "{2D29CF13-CE81-45CB-8C91-8ECCA5AD221B}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "209701942"
+           },
+           {
+            "Id": "466696660"
+           },
+           {
+            "Id": "658697309"
+           },
+           {
+            "Id": "923228505"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "1868339219",
+           "Id": "2265253536",
+           "GUID": "{A062FAC7-A9C2-45E2-9C04-2947724AABB0}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "45314652"
+           },
+           {
+            "Id": "61285951"
+           },
+           {
+            "Id": "291926095"
+           },
+           {
+            "Id": "670153769"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "1868339219",
+           "Id": "3758199925",
+           "GUID": "{A83AA4F8-6800-4019-B11D-E7064840BDA4}",
+           "Default": "true"
+          },
+          "MediaRefs": [
+           {
+            "Id": "284491424"
+           },
+           {
+            "Id": "631092038"
+           },
+           {
+            "Id": "713496097"
+           },
+           {
+            "Id": "908574443"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "556509116",
+      "Name": "Switch_DialogueRollCharacter",
+      "ObjectPath": "\\Switches\\WU_Main\\Switch_DialogueRollCharacter",
+      "GUID": "{98A50F19-CDA0-490C-A59C-FAC6E288B097}",
+      "Switches": [
+       {
+        "Id": "784127654",
+        "Name": "Null",
+        "ObjectPath": "\\Switches\\WU_Main\\Switch_DialogueRollCharacter\\Null",
+        "GUID": "{138FE25F-4B3D-4BEF-B064-B9C30018CB7F}"
+       },
+       {
+        "Id": "1236050664",
+        "Name": "Florist",
+        "ObjectPath": "\\Switches\\WU_Main\\Switch_DialogueRollCharacter\\Florist",
+        "GUID": "{5E9E9616-61B2-4F5A-9566-FB5F5C5248F0}"
+       },
+       {
+        "Id": "2896852321",
+        "Name": "Postman",
+        "ObjectPath": "\\Switches\\WU_Main\\Switch_DialogueRollCharacter\\Postman",
+        "GUID": "{7130D35B-968C-4673-9BC3-976B7FC47649}"
+       },
+       {
+        "Id": "4073193669",
+        "Name": "Chef",
+        "ObjectPath": "\\Switches\\WU_Main\\Switch_DialogueRollCharacter\\Chef",
+        "GUID": "{AE88FCEC-5377-4D58-A611-C1A179957653}"
+       }
+      ]
+     },
+     {
+      "Id": "1868339219",
+      "Name": "Switch_DialogueRollType",
+      "ObjectPath": "\\Switches\\WU_Main\\Switch_DialogueRollType",
+      "GUID": "{99ADB32F-77C3-48B0-AD29-5BD526F63586}",
+      "Switches": [
+       {
+        "Id": "302264719",
+        "Name": "Punctuation",
+        "ObjectPath": "\\Switches\\WU_Main\\Switch_DialogueRollType\\Punctuation",
+        "GUID": "{2D29CF13-CE81-45CB-8C91-8ECCA5AD221B}"
+       },
+       {
+        "Id": "2265253536",
+        "Name": "Exclamation",
+        "ObjectPath": "\\Switches\\WU_Main\\Switch_DialogueRollType\\Exclamation",
+        "GUID": "{A062FAC7-A9C2-45E2-9C04-2947724AABB0}"
+       },
+       {
+        "Id": "3758199925",
+        "Name": "AlphaNum",
+        "ObjectPath": "\\Switches\\WU_Main\\Switch_DialogueRollType\\AlphaNum",
+        "GUID": "{A83AA4F8-6800-4019-B11D-E7064840BDA4}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{CC5E53C8-18E6-D2B3-171F-D09C94688820}"
+ }
+}

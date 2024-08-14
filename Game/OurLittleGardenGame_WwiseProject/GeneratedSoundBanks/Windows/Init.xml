@@ -24,7 +24,24 @@
 				<Bus Id="3399979499" Name="Bus_ReverbMain" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Bus_ReverbMain" GUID="{CC926357-5A3D-40D8-ADB8-2C3C5BFAC73E}"/>
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 			</Busses>
+			<SwitchGroups>
+				<SwitchGroup Id="556509116" Name="Switch_DialogueRollCharacter" ObjectPath="\Switches\WU_Main\Switch_DialogueRollCharacter" GUID="{98A50F19-CDA0-490C-A59C-FAC6E288B097}">
+					<Switches>
+						<Switch Id="784127654" Name="Null" ObjectPath="\Switches\WU_Main\Switch_DialogueRollCharacter\Null" GUID="{138FE25F-4B3D-4BEF-B064-B9C30018CB7F}"/>
+						<Switch Id="1236050664" Name="Florist" ObjectPath="\Switches\WU_Main\Switch_DialogueRollCharacter\Florist" GUID="{5E9E9616-61B2-4F5A-9566-FB5F5C5248F0}"/>
+						<Switch Id="2896852321" Name="Postman" ObjectPath="\Switches\WU_Main\Switch_DialogueRollCharacter\Postman" GUID="{7130D35B-968C-4673-9BC3-976B7FC47649}"/>
+						<Switch Id="4073193669" Name="Chef" ObjectPath="\Switches\WU_Main\Switch_DialogueRollCharacter\Chef" GUID="{AE88FCEC-5377-4D58-A611-C1A179957653}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="1868339219" Name="Switch_DialogueRollType" ObjectPath="\Switches\WU_Main\Switch_DialogueRollType" GUID="{99ADB32F-77C3-48B0-AD29-5BD526F63586}">
+					<Switches>
+						<Switch Id="302264719" Name="Punctuation" ObjectPath="\Switches\WU_Main\Switch_DialogueRollType\Punctuation" GUID="{2D29CF13-CE81-45CB-8C91-8ECCA5AD221B}"/>
+						<Switch Id="2265253536" Name="Exclamation" ObjectPath="\Switches\WU_Main\Switch_DialogueRollType\Exclamation" GUID="{A062FAC7-A9C2-45E2-9C04-2947724AABB0}"/>
+						<Switch Id="3758199925" Name="AlphaNum" ObjectPath="\Switches\WU_Main\Switch_DialogueRollType\AlphaNum" GUID="{A83AA4F8-6800-4019-B11D-E7064840BDA4}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A4C6EDAB-E5CE-3CA1-EFF6-FB71955F5101}</FileHash>
+	<FileHash>{E565083A-266D-9335-AC79-B67A132A5257}</FileHash>
 </SoundBanksInfo>

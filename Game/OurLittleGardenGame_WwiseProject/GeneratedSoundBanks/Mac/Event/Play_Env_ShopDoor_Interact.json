@@ -10,11 +10,47 @@
     "Type": "Event",
     "GUID": "{8A612E3D-10B2-4015-B3E7-C75743580D1D}",
     "Language": "SFX",
-    "Hash": "{48540583-B643-2CBD-B37F-9936D3A62138}",
+    "Hash": "{B4D17945-DDD3-6DC5-BA86-9299655090A1}",
     "ObjectPath": "Play_Env_ShopDoor_Interact",
     "ShortName": "Play_Env_ShopDoor_Interact",
     "Path": "Event/Play_Env_ShopDoor_Interact.bnk",
     "Media": [
+     {
+      "Id": "61903052",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_C5.wav",
+      "Path": "Media/61903052.wem",
+      "CachePath": "SFX/Mus_Tone_C5_F06BAF76.wem"
+     },
+     {
+      "Id": "82609520",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_C4.wav",
+      "Path": "Media/82609520.wem",
+      "CachePath": "SFX/Mus_Tone_C4_F06BAF76.wem"
+     },
+     {
+      "Id": "191846235",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_E4.wav",
+      "Path": "Media/191846235.wem",
+      "CachePath": "SFX/Mus_Tone_E4_F06BAF76.wem"
+     },
+     {
+      "Id": "535351334",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_G4.wav",
+      "Path": "Media/535351334.wem",
+      "CachePath": "SFX/Mus_Tone_G4_F06BAF76.wem"
+     },
      {
       "Id": "614421866",
       "Language": "SFX",
@@ -23,6 +59,15 @@
       "ShortName": "Env_ShopDoor-Interact.wav",
       "Path": "Media/614421866.wem",
       "CachePath": "SFX/Env_ShopDoor-Interact_F06BAF76.wem"
+     },
+     {
+      "Id": "769164870",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_B4.wav",
+      "Path": "Media/769164870.wem",
+      "CachePath": "SFX/Mus_Tone_B4_F06BAF76.wem"
      }
     ],
     "Events": [
@@ -32,17 +77,32 @@
       "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_ShopDoor_Interact",
       "GUID": "{8A612E3D-10B2-4015-B3E7-C75743580D1D}",
       "DurationType": "OneShot",
-      "DurationMin": "1.8877485",
-      "DurationMax": "2.1189263",
+      "DurationMin": "4",
+      "DurationMax": "4",
       "MediaRefs": [
        {
+        "Id": "61903052"
+       },
+       {
+        "Id": "82609520"
+       },
+       {
+        "Id": "191846235"
+       },
+       {
+        "Id": "535351334"
+       },
+       {
         "Id": "614421866"
+       },
+       {
+        "Id": "769164870"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{1FD421B7-450A-2A8B-2F36-57163D7532CD}"
+  "FileHash": "{1DA85B42-AB6D-7D9C-ABEF-95A50EE8DA28}"
  }
 }

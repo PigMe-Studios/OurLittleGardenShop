@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3555512799" Type="Event" GUID="{64182781-CF6E-4824-9158-91E2E280AAE7}" Language="SFX" Hash="{A2532DC7-BDFB-7B31-AA96-D83654350F17}">
+			<ObjectPath>Play_UI_DoubleUp</ObjectPath>
+			<ShortName>Play_UI_DoubleUp</ShortName>
+			<Path>Event/Play_UI_DoubleUp.bnk</Path>
+			<Media>
+				<File Id="945032147" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_Double-Up.wav</ShortName>
+					<Path>Media/945032147.wem</Path>
+					<CachePath>SFX/UI_Double-Up_F06BAF76.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3555512799" Name="Play_UI_DoubleUp" ObjectPath="\Events\WU_Main\UI\Play_UI_DoubleUp" GUID="{64182781-CF6E-4824-9158-91E2E280AAE7}" DurationType="OneShot" DurationMin="0.25" DurationMax="0.25">
+					<MediaRefs>
+						<MediaRef Id="945032147"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{5B958910-383C-D8B4-467A-177455AC4C06}</FileHash>
+</SoundBanksInfo>

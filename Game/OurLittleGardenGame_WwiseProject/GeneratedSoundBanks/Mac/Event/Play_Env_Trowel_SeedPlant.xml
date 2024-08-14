@@ -1,15 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="4281112222" Type="Event" GUID="{1261A477-2724-43B9-97F1-1271FEAF1150}" Language="SFX" Hash="{12CCB978-5301-AC5E-2862-DA8AE967A443}">
+		<SoundBank Id="4281112222" Type="Event" GUID="{1261A477-2724-43B9-97F1-1271FEAF1150}" Language="SFX" Hash="{53D79139-CD19-7498-DD3C-8562F252E763}">
 			<ObjectPath>Play_Env_Trowel_SeedPlant</ObjectPath>
 			<ShortName>Play_Env_Trowel_SeedPlant</ShortName>
 			<Path>Event/Play_Env_Trowel_SeedPlant.bnk</Path>
 			<Media>
+				<File Id="61903052" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_C5.wav</ShortName>
+					<Path>Media/61903052.wem</Path>
+					<CachePath>SFX/Mus_Tone_C5_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="82609520" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_C4.wav</ShortName>
+					<Path>Media/82609520.wem</Path>
+					<CachePath>SFX/Mus_Tone_C4_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="191846235" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_E4.wav</ShortName>
+					<Path>Media/191846235.wem</Path>
+					<CachePath>SFX/Mus_Tone_E4_F06BAF76.wem</CachePath>
+				</File>
 				<File Id="438329037" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Env_Trowel-SeedPlant-002.wav</ShortName>
 					<Path>Media/438329037.wem</Path>
 					<CachePath>SFX/Env_Trowel-SeedPlant-002_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="535351334" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_G4.wav</ShortName>
+					<Path>Media/535351334.wem</Path>
+					<CachePath>SFX/Mus_Tone_G4_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="769164870" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_B4.wav</ShortName>
+					<Path>Media/769164870.wem</Path>
+					<CachePath>SFX/Mus_Tone_B4_F06BAF76.wem</CachePath>
 				</File>
 				<File Id="1014697496" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Env_Trowel-SeedPlant-003.wav</ShortName>
@@ -23,9 +48,14 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="4281112222" Name="Play_Env_Trowel_SeedPlant" ObjectPath="\Events\WU_Main\Environment\Tools\Play_Env_Trowel_SeedPlant" GUID="{1261A477-2724-43B9-97F1-1271FEAF1150}" DurationType="OneShot" DurationMin="1.7817974" DurationMax="2.244924">
+				<Event Id="4281112222" Name="Play_Env_Trowel_SeedPlant" ObjectPath="\Events\WU_Main\Environment\Tools\Play_Env_Trowel_SeedPlant" GUID="{1261A477-2724-43B9-97F1-1271FEAF1150}" DurationType="OneShot" DurationMin="4" DurationMax="4">
 					<MediaRefs>
+						<MediaRef Id="61903052"/>
+						<MediaRef Id="82609520"/>
+						<MediaRef Id="191846235"/>
 						<MediaRef Id="438329037"/>
+						<MediaRef Id="535351334"/>
+						<MediaRef Id="769164870"/>
 						<MediaRef Id="1014697496"/>
 						<MediaRef Id="1023870359"/>
 					</MediaRefs>
@@ -33,5 +63,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{FDFF598A-B018-AC86-1E5E-486DEA1A8F85}</FileHash>
+	<FileHash>{27922D19-4B56-BF20-F930-07E79A3F9BBB}</FileHash>
 </SoundBanksInfo>

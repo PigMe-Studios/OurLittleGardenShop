@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="526886411" Type="Event" GUID="{A506968D-F0E2-491A-99D9-A0DF79AB353A}" Language="SFX" Hash="{41138C0D-9735-7FE3-ADCA-11C941CE1049}">
+			<ObjectPath>Play_UI_Single</ObjectPath>
+			<ShortName>Play_UI_Single</ShortName>
+			<Path>Event/Play_UI_Single.bnk</Path>
+			<Media>
+				<File Id="313031026" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_Single.wav</ShortName>
+					<Path>Media/313031026.wem</Path>
+					<CachePath>SFX/UI_Single_F06BAF76.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="526886411" Name="Play_UI_Single" ObjectPath="\Events\WU_Main\UI\Play_UI_Single" GUID="{A506968D-F0E2-491A-99D9-A0DF79AB353A}" DurationType="OneShot" DurationMin="0.25" DurationMax="0.25">
+					<MediaRefs>
+						<MediaRef Id="313031026"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{17AFBABC-308A-D37A-E2A1-981D0383BC34}</FileHash>
+</SoundBanksInfo>

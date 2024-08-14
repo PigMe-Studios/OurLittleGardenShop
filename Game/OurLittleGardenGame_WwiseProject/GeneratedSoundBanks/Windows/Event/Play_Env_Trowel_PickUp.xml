@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3509013868" Type="Event" GUID="{C0F06098-CAAB-41C6-A972-07E1B3D77B33}" Language="SFX" Hash="{3077051A-92BE-54C7-F94D-82A7A07689EE}">
+		<SoundBank Id="3509013868" Type="Event" GUID="{C0F06098-CAAB-41C6-A972-07E1B3D77B33}" Language="SFX" Hash="{FCA6B7F5-F8FB-2036-B7D7-B7FC2FFB39C6}">
 			<ObjectPath>Play_Env_Trowel_PickUp</ObjectPath>
 			<ShortName>Play_Env_Trowel_PickUp</ShortName>
 			<Path>Event/Play_Env_Trowel_PickUp.bnk</Path>
 			<Media>
+				<File Id="61903052" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_C5.wav</ShortName>
+					<Path>Media/61903052.wem</Path>
+					<CachePath>SFX/Mus_Tone_C5_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="82609520" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_C4.wav</ShortName>
+					<Path>Media/82609520.wem</Path>
+					<CachePath>SFX/Mus_Tone_C4_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="191846235" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_E4.wav</ShortName>
+					<Path>Media/191846235.wem</Path>
+					<CachePath>SFX/Mus_Tone_E4_F06BAF76.wem</CachePath>
+				</File>
 				<File Id="292968602" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Env_Trowel-PickUp-001.wav</ShortName>
 					<Path>Media/292968602.wem</Path>
@@ -21,17 +36,32 @@
 					<Path>Media/515549105.wem</Path>
 					<CachePath>SFX/Env_Trowel-PickUp-002_F06BAF76.wem</CachePath>
 				</File>
+				<File Id="535351334" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_G4.wav</ShortName>
+					<Path>Media/535351334.wem</Path>
+					<CachePath>SFX/Mus_Tone_G4_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="769164870" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_B4.wav</ShortName>
+					<Path>Media/769164870.wem</Path>
+					<CachePath>SFX/Mus_Tone_B4_F06BAF76.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
-				<Event Id="3509013868" Name="Play_Env_Trowel_PickUp" ObjectPath="\Events\WU_Main\Environment\Tools\Play_Env_Trowel_PickUp" GUID="{C0F06098-CAAB-41C6-A972-07E1B3D77B33}" DurationType="OneShot" DurationMin="0.8908987" DurationMax="1.122462">
+				<Event Id="3509013868" Name="Play_Env_Trowel_PickUp" ObjectPath="\Events\WU_Main\Environment\Tools\Play_Env_Trowel_PickUp" GUID="{C0F06098-CAAB-41C6-A972-07E1B3D77B33}" DurationType="OneShot" DurationMin="4" DurationMax="4">
 					<MediaRefs>
+						<MediaRef Id="61903052"/>
+						<MediaRef Id="82609520"/>
+						<MediaRef Id="191846235"/>
 						<MediaRef Id="292968602"/>
 						<MediaRef Id="332250347"/>
 						<MediaRef Id="515549105"/>
+						<MediaRef Id="535351334"/>
+						<MediaRef Id="769164870"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{59C373E2-C803-6191-4922-0DE87C9AACA2}</FileHash>
+	<FileHash>{397DE3FA-2B06-7A9D-89AF-04E9A8C147C6}</FileHash>
 </SoundBanksInfo>

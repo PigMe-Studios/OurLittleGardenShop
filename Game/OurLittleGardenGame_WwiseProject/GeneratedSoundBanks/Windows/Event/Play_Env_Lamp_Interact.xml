@@ -1,15 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="60672849" Type="Event" GUID="{2AE28E24-EC6E-40A6-A4BB-BCAD8D25A77C}" Language="SFX" Hash="{5962E019-5241-58E2-AB9E-187C880B5427}">
+		<SoundBank Id="60672849" Type="Event" GUID="{2AE28E24-EC6E-40A6-A4BB-BCAD8D25A77C}" Language="SFX" Hash="{59F11BE5-0413-5BC7-A254-11DF96593110}">
 			<ObjectPath>Play_Env_Lamp_Interact</ObjectPath>
 			<ShortName>Play_Env_Lamp_Interact</ShortName>
 			<Path>Event/Play_Env_Lamp_Interact.bnk</Path>
 			<Media>
+				<File Id="61903052" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_C5.wav</ShortName>
+					<Path>Media/61903052.wem</Path>
+					<CachePath>SFX/Mus_Tone_C5_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="82609520" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_C4.wav</ShortName>
+					<Path>Media/82609520.wem</Path>
+					<CachePath>SFX/Mus_Tone_C4_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="191846235" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_E4.wav</ShortName>
+					<Path>Media/191846235.wem</Path>
+					<CachePath>SFX/Mus_Tone_E4_F06BAF76.wem</CachePath>
+				</File>
 				<File Id="307558579" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Env_Lamp-Interact-001.wav</ShortName>
 					<Path>Media/307558579.wem</Path>
 					<CachePath>SFX/Env_Lamp-Interact-001_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="535351334" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_G4.wav</ShortName>
+					<Path>Media/535351334.wem</Path>
+					<CachePath>SFX/Mus_Tone_G4_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="769164870" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_B4.wav</ShortName>
+					<Path>Media/769164870.wem</Path>
+					<CachePath>SFX/Mus_Tone_B4_F06BAF76.wem</CachePath>
 				</File>
 				<File Id="919023126" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Env_Lamp-Interact-002.wav</ShortName>
@@ -18,14 +43,19 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="60672849" Name="Play_Env_Lamp_Interact" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_Lamp_Interact" GUID="{2AE28E24-EC6E-40A6-A4BB-BCAD8D25A77C}" DurationType="OneShot" DurationMin="0.47193712" DurationMax="0.5297316">
+				<Event Id="60672849" Name="Play_Env_Lamp_Interact" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_Lamp_Interact" GUID="{2AE28E24-EC6E-40A6-A4BB-BCAD8D25A77C}" DurationType="OneShot" DurationMin="4" DurationMax="4">
 					<MediaRefs>
+						<MediaRef Id="61903052"/>
+						<MediaRef Id="82609520"/>
+						<MediaRef Id="191846235"/>
 						<MediaRef Id="307558579"/>
+						<MediaRef Id="535351334"/>
+						<MediaRef Id="769164870"/>
 						<MediaRef Id="919023126"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{87E499E9-FDD0-4A46-66C6-FC13CF7A91EF}</FileHash>
+	<FileHash>{4F9C8A45-2D48-4C6B-8B66-2CF190A40E49}</FileHash>
 </SoundBanksInfo>

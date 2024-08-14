@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{0EEFC5E7-1F69-4FAF-9ED8-D73E1E099FC4}",
     "Language": "SFX",
-    "Hash": "{C346135D-F569-87BB-688C-F7904E833E71}",
+    "Hash": "{CA7D0BC6-DF9D-F403-E307-0D9AB7C0D8DD}",
     "ObjectPath": "Play_Amb_GardenAmb_Birds_Wind",
     "ShortName": "Play_Amb_GardenAmb_Birds_Wind",
     "Path": "Event/Play_Amb_GardenAmb_Birds_Wind.bnk",
@@ -41,6 +41,6 @@
     ]
    }
   ],
-  "FileHash": "{2F86CF5E-1AE1-BE2C-3AB6-6C5C4440D4F6}"
+  "FileHash": "{9FF313CA-97BB-94DB-F3EB-9BD5F496782A}"
  }
 }

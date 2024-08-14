@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	526886411	Play_UI_Single			\WU_Main\UI\Play_UI_Single	
+

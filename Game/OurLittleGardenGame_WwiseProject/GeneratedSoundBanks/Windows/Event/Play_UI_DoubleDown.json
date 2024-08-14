@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3054987940",
+    "Type": "Event",
+    "GUID": "{79475BBF-4A51-4D78-A830-3E27BE176768}",
+    "Language": "SFX",
+    "Hash": "{B386AB6E-9163-8CC2-91E3-B08C372E0C90}",
+    "ObjectPath": "Play_UI_DoubleDown",
+    "ShortName": "Play_UI_DoubleDown",
+    "Path": "Event/Play_UI_DoubleDown.bnk",
+    "Media": [
+     {
+      "Id": "627953776",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_Double-Down.wav",
+      "Path": "Media/627953776.wem",
+      "CachePath": "SFX/UI_Double-Down_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3054987940",
+      "Name": "Play_UI_DoubleDown",
+      "ObjectPath": "\\Events\\WU_Main\\UI\\Play_UI_DoubleDown",
+      "GUID": "{79475BBF-4A51-4D78-A830-3E27BE176768}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.25",
+      "DurationMax": "0.25",
+      "MediaRefs": [
+       {
+        "Id": "627953776"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{682D91C6-8796-9C6D-22D4-5D6615F0F9C9}"
+ }
+}

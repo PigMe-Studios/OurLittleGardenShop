@@ -3,6 +3,10 @@
 
 #include "ConversationWidget.h"
 
+#include "AkGameplayStatics.h"
+#include "AkAudioEvent.h"
+#include "AkComponent.h"
+
 class ACustomer;
 
 void UConversationWidget::NativeConstruct()
@@ -16,8 +20,13 @@ void UConversationWidget::NativeConstruct()
 	TypingAnimInterval = 0.04f;
 }
 
-void UConversationWidget::UpdateContentText(FName Name, FString Content)
+void UConversationWidget::UpdateContentText(ECharacter Character, FString Content)
 {
+	// Get ENUM as string, remove class specifier. Convert to FName
+	FString NameString = UEnum::GetValueAsString(Character);
+	NameString = NameString.Replace(TEXT("ECharacter::"), TEXT(""));
+	FName Name = *NameString;
+
 	NAME_TEXT->SetText(FText::FromName(Name));
 
 	TextToDisplay = Content;
@@ -28,7 +37,14 @@ void UConversationWidget::UpdateContentText(FName Name, FString Content)
 		CONTENT_TEXT->SetText(FText::FromString(CurrentText));
 	}
 
-	GetWorld()->GetTimerManager().SetTimer(TypingTimerHandle, this, &UConversationWidget::UpdateText, TypingAnimInterval, true);
+	//? Lowenna I've updated this timer call to use a Lamdba function to capture variables to pass into the Update text method
+	FTimerManager& TimerManager = GetWorld()->GetTimerManager();	
+	TimerManager.SetTimer(
+		TypingTimerHandle, 
+		[Character, this]() { UConversationWidget::UpdateText(Character); },
+		TypingAnimInterval,
+		true
+	);
 }
 
 void UConversationWidget::DisplayResponses(int Amount, TArray<FString> Contents)
@@ -92,7 +108,7 @@ void UConversationWidget::HideResponses()
 	PROGRESS_BUTTON->SetVisibility(ESlateVisibility::Visible);
 }
 
-void UConversationWidget::UpdateText()
+void UConversationWidget::UpdateText(const ECharacter Char)
 {
 	//text anim updating
 	if (CurrentText.Len() < TextToDisplay.Len())
@@ -101,12 +117,59 @@ void UConversationWidget::UpdateText()
 		if (CONTENT_TEXT)
 		{
 			CONTENT_TEXT->SetText(FText::FromString(CurrentText));
+
+#pragma region Audio
+			//Audio
+			if (!IsValid(DialogueRollAkEvent) || CurrentText.IsEmpty()) return;
+
+			//! Should move this outside the timer, but I cba making variables and shit rn
+			bool bAkCompCreated = false;
+			UAkComponent* DialogueComponent = UAkGameplayStatics::GetAkComponent(OwningCustomer->GetRootComponent(), bAkCompCreated, FName(), FVector(), EAttachLocation::KeepRelativeOffset);
+			if (!IsValid(DialogueComponent)) return;
+		
+			//! Move these to their own function for tidiness
+			// Switching between different character layers
+			switch (Char) 
+			{
+			case ECharacter::CHEF:
+				DialogueComponent->SetSwitch(nullptr, "Switch_DialogueRollCharacter", "Chef");
+				break;
+			case ECharacter::FLORIST:
+				DialogueComponent->SetSwitch(nullptr, "Switch_DialogueRollCharacter", "Florist");
+				break;
+			case ECharacter::MAILMAN:
+				DialogueComponent->SetSwitch(nullptr, "Switch_DialogueRollCharacter", "Postman");
+				break;
+			default:
+				DialogueComponent->SetSwitch(nullptr, "Switch_DialogueRollCharacter", "Null");
+				break;
+			}
+			
+			// Switching between different text char types
+			TCHAR LastChar = CurrentText[CurrentText.Len() - 1];
+			if (LastChar == '!' || LastChar == '?') 
+			{
+				DialogueComponent->SetSwitch(nullptr, "Switch_DialogueRollType", "Exclamation");
+			}
+			else if (LastChar == '.' || LastChar == ',') 
+			{
+				DialogueComponent->SetSwitch(nullptr, "Switch_DialogueRollType", "Punctuation");
+			}
+			else
+			{
+				DialogueComponent->SetSwitch(nullptr, "Switch_DialogueRollType", "AlphaNum");
+				int32 RandInt = FMath::RandRange(1, 10);
+				if (RandInt < 4) return;
+			}
+			// Post the Ak event
+			DialogueComponent->PostAkEvent(DialogueRollAkEvent);
+
+#pragma endregion
 		}
 	}
 	else
 	{
 		GetWorld()->GetTimerManager().ClearTimer(TypingTimerHandle);
-
 	}
 }
 
