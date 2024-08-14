@@ -20,7 +20,7 @@ void UConversationWidget::NativeConstruct()
 	TypingAnimInterval = 0.04f;
 }
 
-void UConversationWidget::UpdateContentText(ECharacter Character, FString Content)
+void UConversationWidget::UpdateContentText(FName CharacterName, FString Content, ECharacter Character)
 {
 	//? Added a validity check here for safety
 	if (!IsValid(GetWorld())) 
@@ -28,12 +28,13 @@ void UConversationWidget::UpdateContentText(ECharacter Character, FString Conten
 		UE_LOG(LogTemp, Error, TEXT("ConversationWidget.cpp - UpdateContentText() | GetWorld() is Invalid!"));
 		return;
 	}
+	//? Reverted this to old system, check Customer.cpp for more details
 	// Get ENUM as string, remove class specifier. Convert to FName
-	FString NameString = UEnum::GetValueAsString(Character);
-	NameString = NameString.Replace(TEXT("ECharacter::"), TEXT(""));
-	FName Name = *NameString;
+	//xFString NameString = UEnum::GetValueAsString(Character);
+	//xNameString = NameString.Replace(TEXT("ECharacter::"), TEXT(""));
+	//xFName Name = *NameString;
 
-	NAME_TEXT->SetText(FText::FromName(Name));
+	NAME_TEXT->SetText(FText::FromName(CharacterName));
 
 	TextToDisplay = Content;
 	CurrentText = TEXT("");

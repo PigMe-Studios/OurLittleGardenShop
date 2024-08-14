@@ -63,9 +63,15 @@ public:
 	FName GetResponseDialogue(int ResponseOption) override;
 
 	UFUNCTION(BlueprintCallable)
-		/// @brief Start a new dialogue conversation
-		/// @param Dialogue Line to start the conversation with
-		void StartDialogue(FName DialogueLine) override;
+	/// @brief Start a new dialogue conversation
+	/// @param Dialogue Line to start the conversation with
+	void StartDialogue(FName DialogueLine) override;
+
+	UFUNCTION(BlueprintCallable)
+	/// @brief Change the display name of a character
+	/// @param Character who's name will be changed
+	/// @param New Name to be displayed for the character
+	void ChangeCharacterName(ECharacter SelectedCharacter, FName NewName);
 
 	/// @brief Destroy Conversation widget and end dialogue
 	void EndDialogue() override;

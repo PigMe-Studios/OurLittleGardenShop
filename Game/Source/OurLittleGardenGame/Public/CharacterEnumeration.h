@@ -86,7 +86,6 @@ struct FDialogueLine : public FTableRowBase
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FName CompletedEvent;
 
-
 	//UPROPERTY()
 
 };

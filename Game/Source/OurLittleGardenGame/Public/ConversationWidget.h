@@ -32,7 +32,7 @@ public:
 	/// @brief Update Name and Content textboxes
 	/// @param Name to display in Name textbox
 	/// @param Content is the text to display in the main textbox
-	void UpdateContentText(ECharacter Character, FString Content);
+	void UpdateContentText(FName CharacterName, FString Content, ECharacter Character);
 
 	/// @brief Un-hide relevant response buttons
 	/// @param Amount of response buttons to display, between 1-3
