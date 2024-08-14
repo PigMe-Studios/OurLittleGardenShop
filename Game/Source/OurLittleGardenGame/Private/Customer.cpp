@@ -60,6 +60,11 @@ bool ACustomer::UpdateDialogue(FName Name)
 			ConversationWidget->HideResponses();
 		}
 
+		if (Row->TriggeredQuest != FName(""))
+		{
+			AddQuest(Row->TriggeredQuest);
+		}
+
 		return true;
 	}
 	return false;
@@ -115,10 +120,6 @@ void ACustomer::EndDialogue()
 		if (Row->CompletedEvent != FName(""))
 		{
 			CompleteEvent(Row->CompletedEvent);
-		}
-		if (Row->TriggeredQuest != FName(""))
-		{
-			AddQuest(Row->TriggeredQuest);
 		}
 	}
 
