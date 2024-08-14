@@ -38,7 +38,7 @@ bool ACustomer::UpdateDialogue(FName Name)
 		CharacterFullName = CharacterFullName.Replace(TEXT("ECharacter::"), TEXT(""));
 
 		FString ProcessedContent = ProcessString(Row->Content);	
-		ConversationWidget->UpdateContentText(Row->CharacterSpeaking, ProcessedContent);
+		ConversationWidget->UpdateContentText(Row->CharacterSpeaking, ProcessedContent); //? Updated this to pass the raw ENUM value, processing the string inside function
 
 		if (Row->bRespondable)
 		{

@@ -22,6 +22,12 @@ void UConversationWidget::NativeConstruct()
 
 void UConversationWidget::UpdateContentText(ECharacter Character, FString Content)
 {
+	//? Added a validity check here for safety
+	if (!IsValid(GetWorld())) 
+	{
+		UE_LOG(LogTemp, Error, TEXT("ConversationWidget.cpp - UpdateContentText() | GetWorld() is Invalid!"));
+		return;
+	}
 	// Get ENUM as string, remove class specifier. Convert to FName
 	FString NameString = UEnum::GetValueAsString(Character);
 	NameString = NameString.Replace(TEXT("ECharacter::"), TEXT(""));
@@ -122,47 +128,17 @@ void UConversationWidget::UpdateText(const ECharacter Char)
 			//Audio
 			if (!IsValid(DialogueRollAkEvent) || CurrentText.IsEmpty()) return;
 
-			//! Should move this outside the timer, but I cba making variables and shit rn
-			bool bAkCompCreated = false;
-			UAkComponent* DialogueComponent = UAkGameplayStatics::GetAkComponent(OwningCustomer->GetRootComponent(), bAkCompCreated, FName(), FVector(), EAttachLocation::KeepRelativeOffset);
-			if (!IsValid(DialogueComponent)) return;
-		
-			//! Move these to their own function for tidiness
-			// Switching between different character layers
-			switch (Char) 
+			if (!IsValid(DialogueRollAkComponent))
 			{
-			case ECharacter::CHEF:
-				DialogueComponent->SetSwitch(nullptr, "Switch_DialogueRollCharacter", "Chef");
-				break;
-			case ECharacter::FLORIST:
-				DialogueComponent->SetSwitch(nullptr, "Switch_DialogueRollCharacter", "Florist");
-				break;
-			case ECharacter::MAILMAN:
-				DialogueComponent->SetSwitch(nullptr, "Switch_DialogueRollCharacter", "Postman");
-				break;
-			default:
-				DialogueComponent->SetSwitch(nullptr, "Switch_DialogueRollCharacter", "Null");
-				break;
+				bool bAkCompCreated = false;
+				DialogueRollAkComponent = UAkGameplayStatics::GetAkComponent(OwningCustomer->GetRootComponent(), bAkCompCreated, FName(), FVector(), EAttachLocation::KeepRelativeOffset);
 			}
-			
-			// Switching between different text char types
-			TCHAR LastChar = CurrentText[CurrentText.Len() - 1];
-			if (LastChar == '!' || LastChar == '?') 
-			{
-				DialogueComponent->SetSwitch(nullptr, "Switch_DialogueRollType", "Exclamation");
-			}
-			else if (LastChar == '.' || LastChar == ',') 
-			{
-				DialogueComponent->SetSwitch(nullptr, "Switch_DialogueRollType", "Punctuation");
-			}
-			else
-			{
-				DialogueComponent->SetSwitch(nullptr, "Switch_DialogueRollType", "AlphaNum");
-				int32 RandInt = FMath::RandRange(1, 10);
-				if (RandInt < 4) return;
-			}
+
+			SetCharacterSwitch(DialogueRollAkComponent, Char);
+			SetTextTypeSwitch(DialogueRollAkComponent, CurrentText);
 			// Post the Ak event
-			DialogueComponent->PostAkEvent(DialogueRollAkEvent);
+			if (!ShouldPostEvent(CurrentText)) return;
+			DialogueRollAkComponent->PostAkEvent(DialogueRollAkEvent);
 
 #pragma endregion
 		}
@@ -170,7 +146,66 @@ void UConversationWidget::UpdateText(const ECharacter Char)
 	else
 	{
 		GetWorld()->GetTimerManager().ClearTimer(TypingTimerHandle);
+		//DialogueRollAkComponent->DestroyComponent();
 	}
 }
 
+#pragma region Audio
+
+void UConversationWidget::SetCharacterSwitch(UAkComponent* InComponent, ECharacter InChar)
+{
+	switch (InChar)
+	{
+	case ECharacter::CHEF:
+		InComponent->SetSwitch(nullptr, "Switch_DialogueRollCharacter", "Chef");
+		break;
+	case ECharacter::FLORIST:
+		InComponent->SetSwitch(nullptr, "Switch_DialogueRollCharacter", "Florist");
+		break;
+	case ECharacter::MAILMAN:
+		InComponent->SetSwitch(nullptr, "Switch_DialogueRollCharacter", "Postman");
+		break;
+	default:
+		InComponent->SetSwitch(nullptr, "Switch_DialogueRollCharacter", "Null");
+		break;
+	}
+}
+
+void UConversationWidget::SetTextTypeSwitch(UAkComponent* InComponent, const FString& InCurrentText)
+{
+	TCHAR LastChar = InCurrentText[InCurrentText.Len() - 1];
+	if (LastChar == '!' || LastChar == '?')
+	{
+		InComponent->SetSwitch(nullptr, "Switch_DialogueRollType", "Exclamation");
+	}
+	else if (LastChar == '.' || LastChar == ',')
+	{
+		InComponent->SetSwitch(nullptr, "Switch_DialogueRollType", "Punctuation");
+	}
+	else
+	{
+		InComponent->SetSwitch(nullptr, "Switch_DialogueRollType", "AlphaNum");
+	}
+}
+
+bool UConversationWidget::ShouldPostEvent(const FString& InCurrentText)
+{
+	if (InCurrentText.IsEmpty())
+	{
+		UE_LOG(LogTemp, Error, TEXT("InCurrentText is empty in ShouldPostEvent!"));
+		return false;
+	}
+
+	TCHAR LastChar = InCurrentText[InCurrentText.Len() - 1];
+
+	if (LastChar != '!' && LastChar != '?' && LastChar != '.' && LastChar != ',')
+	{
+		int32 RandInt = FMath::RandRange(1, 10);
+		return RandInt > 4;
+	}
+
+	return false;
+}
+
+#pragma endregion
 
