@@ -63,7 +63,7 @@ bool ACustomer::UpdateDialogue(FName Name)
 			{
 				if (IsResponseConditionMet(Response.Condition))
 				{
-					ResponseContents.Add(Response.Content);
+					ResponseContents.Add(ProcessString(Response.Content));
 					DisplayedResponses.Add(Response.NextLine);
 				}
 			}
