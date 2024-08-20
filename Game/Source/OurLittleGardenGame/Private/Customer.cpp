@@ -158,6 +158,7 @@ FName ACustomer::GetNextLine()
 
 FString ACustomer::ProcessString(FString Content)
 {
+	RefreshNames();
 	FString ProcessedString = Content;
 	ProcessedString = ProcessedString.Replace(TEXT("[Name]"), *NameMap.Find(ECharacter::PLAYER)->ToString());
 	ProcessedString = ProcessedString.Replace(TEXT("[Shop]"), *ShopName.ToString());
