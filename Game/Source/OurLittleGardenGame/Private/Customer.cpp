@@ -28,6 +28,15 @@ void ACustomer::BeginPlay()
 
 bool ACustomer::UpdateDialogue(FName Name)
 {
+	// Events should be completed at the end of a line
+	if (FDialogueLine* PreviousRow = DIALOGUE_TABLE->FindRow<FDialogueLine>(CurrentDialogue, ""))
+	{
+		if (PreviousRow->CompletedEvent != FName(""))
+		{
+			CompleteEvent(PreviousRow->CompletedEvent);
+		}
+	}
+
 	if (FDialogueLine* Row = DIALOGUE_TABLE->FindRow<FDialogueLine>(Name, ""))
 	{
 		CurrentDialogue = Name;
@@ -38,7 +47,12 @@ bool ACustomer::UpdateDialogue(FName Name)
 		CharacterFullName = CharacterFullName.Replace(TEXT("ECharacter::"), TEXT(""));
 
 		FString ProcessedContent = ProcessString(Row->Content);	
-		ConversationWidget->UpdateContentText(Row->CharacterSpeaking, ProcessedContent);
+
+		//? Updated this to pass the raw ENUM value, processing the string inside function
+		//? Response: The character speaking param is for the name on-top of the textbox, and needs to come
+		//? from NameMap to allow for custom names. ProcessString only handles the main part of the textbox.
+		ConversationWidget->UpdateContentText(*NameMap.Find(Row->CharacterSpeaking), ProcessedContent, Row->CharacterSpeaking);
+		
 
 		if (Row->bRespondable)
 		{
@@ -58,6 +72,11 @@ bool ACustomer::UpdateDialogue(FName Name)
 		else
 		{
 			ConversationWidget->HideResponses();
+		}
+
+		if (Row->TriggeredQuest != FName(""))
+		{
+			AddQuest(Row->TriggeredQuest);
 		}
 
 		return true;
@@ -102,6 +121,11 @@ void ACustomer::StartDialogue(FName DialogueLine)
 	SwitchCustomerModel(Row->CharacterSpeaking);
 }
 
+void ACustomer::ChangeCharacterName(ECharacter SelectedCharacter, FName NewName)
+{
+	NameMap.Add(SelectedCharacter, NewName);
+}
+
 void ACustomer::EndDialogue()
 {
 	if (ConversationWidget)
@@ -115,10 +139,6 @@ void ACustomer::EndDialogue()
 		if (Row->CompletedEvent != FName(""))
 		{
 			CompleteEvent(Row->CompletedEvent);
-		}
-		if (Row->TriggeredQuest != FName(""))
-		{
-			AddQuest(Row->TriggeredQuest);
 		}
 	}
 

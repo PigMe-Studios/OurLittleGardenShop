@@ -59,6 +59,7 @@ protected:
 
 	//Called when LMB pressed
 	void ActorInteract(const FInputActionValue& Value);
+	UFUNCTION(BlueprintCallable)
 	//called when lmb released
 	void ReleaseActor(const FInputActionValue& Value);
 	// Called when scroll wheel / QE pressed

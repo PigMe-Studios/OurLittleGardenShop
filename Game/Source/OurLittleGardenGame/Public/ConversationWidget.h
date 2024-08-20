@@ -14,6 +14,7 @@ class UTextBlock;
 class UButton;
 class ACustomer;
 class UAkAudioEvent;
+class UAkComponent;
 
 /**
  * 
@@ -31,7 +32,7 @@ public:
 	/// @brief Update Name and Content textboxes
 	/// @param Name to display in Name textbox
 	/// @param Content is the text to display in the main textbox
-	void UpdateContentText(ECharacter Character, FString Content);
+	void UpdateContentText(FName CharacterName, FString Content, ECharacter Character);
 
 	/// @brief Un-hide relevant response buttons
 	/// @param Amount of response buttons to display, between 1-3
@@ -81,9 +82,28 @@ public:
 	FString TextToDisplay;
 	FString CurrentText;
 	FTimerHandle TypingTimerHandle;
+
+	// Ak audio refs
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Audio")
 	UAkAudioEvent* DialogueRollAkEvent = nullptr;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Audio")
+	UAkComponent* DialogueRollAkComponent = nullptr;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "DialogueAnim")
 	float TypingAnimInterval; 
+
+	/// @brief Sets Ak switch state for Characters
+	/// @param Ak component to apply switch
+	/// @param Current character enum
+	void SetCharacterSwitch(UAkComponent* DialogueComponent, ECharacter Char);
+
+	/// @brief Sets Ak switch state for text character type
+	/// @param Ak component to apply switch
+	/// @param Current text on screen
+	void SetTextTypeSwitch(UAkComponent* DialogueComponent, const FString& CurrentText);
+
+	/// @brief Determines if Ak event should be posted
+	/// @param Current text on screen
+	bool ShouldPostEvent(const FString& InCurrentText);
+
 };
