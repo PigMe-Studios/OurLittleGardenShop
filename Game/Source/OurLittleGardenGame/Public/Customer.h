@@ -35,6 +35,10 @@ protected:
 	UFUNCTION(BlueprintImplementableEvent)
 	void AddQuest(const FName& QuestID);
 
+	/// @brief Reloads the Player and Shop names
+	UFUNCTION(BlueprintImplementableEvent)
+	void RefreshNames();
+
 	/// @brief Mark an event as completed on the event manager
 	/// @param The event to be marked complete
 	UFUNCTION(BlueprintImplementableEvent)
