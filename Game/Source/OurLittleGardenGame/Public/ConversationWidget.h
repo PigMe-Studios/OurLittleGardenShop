@@ -44,6 +44,9 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void ProgressDialogue(int ChosenResponse);
 
+	/// @brief Cancels the timer that triggers "UpdateText)
+	void CancelTimer();
+
 	/// @brief Hide all response buttons
 	void HideResponses();
 
