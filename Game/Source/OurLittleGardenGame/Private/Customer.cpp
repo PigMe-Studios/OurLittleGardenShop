@@ -134,6 +134,7 @@ void ACustomer::EndDialogue()
 {
 	if (ConversationWidget)
 	{
+		ConversationWidget->CancelTimer();
 		ConversationWidget->RemoveFromParent();
 		ConversationWidget = nullptr;
 	}
