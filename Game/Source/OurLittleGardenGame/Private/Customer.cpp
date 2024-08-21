@@ -28,6 +28,10 @@ void ACustomer::BeginPlay()
 
 bool ACustomer::UpdateDialogue(FName Name)
 {
+	if (Name == FName(""))
+	{
+		return false;
+	}
 	// Events should be completed at the end of a line
 	if (FDialogueLine* PreviousRow = DIALOGUE_TABLE->FindRow<FDialogueLine>(CurrentDialogue, ""))
 	{
