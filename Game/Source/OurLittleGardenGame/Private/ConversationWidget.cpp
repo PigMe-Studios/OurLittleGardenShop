@@ -105,6 +105,11 @@ void UConversationWidget::ProgressDialogue(int ChosenResponse)
 	}
 }
 
+void UConversationWidget::CancelTimer()
+{
+	GetWorld()->GetTimerManager().ClearTimer(TypingTimerHandle);
+}
+
 void UConversationWidget::HideResponses()
 {
 	for (UButton* Button : ResponseButtons)
@@ -146,7 +151,7 @@ void UConversationWidget::UpdateText(const ECharacter Char)
 	}
 	else
 	{
-		GetWorld()->GetTimerManager().ClearTimer(TypingTimerHandle);
+		CancelTimer();
 		//DialogueRollAkComponent->DestroyComponent();
 	}
 }

@@ -28,6 +28,10 @@ void ACustomer::BeginPlay()
 
 bool ACustomer::UpdateDialogue(FName Name)
 {
+	if (Name == FName(""))
+	{
+		return false;
+	}
 	// Events should be completed at the end of a line
 	if (FDialogueLine* PreviousRow = DIALOGUE_TABLE->FindRow<FDialogueLine>(CurrentDialogue, ""))
 	{
@@ -63,7 +67,7 @@ bool ACustomer::UpdateDialogue(FName Name)
 			{
 				if (IsResponseConditionMet(Response.Condition))
 				{
-					ResponseContents.Add(Response.Content);
+					ResponseContents.Add(ProcessString(Response.Content));
 					DisplayedResponses.Add(Response.NextLine);
 				}
 			}
@@ -130,6 +134,7 @@ void ACustomer::EndDialogue()
 {
 	if (ConversationWidget)
 	{
+		ConversationWidget->CancelTimer();
 		ConversationWidget->RemoveFromParent();
 		ConversationWidget = nullptr;
 	}
@@ -158,6 +163,7 @@ FName ACustomer::GetNextLine()
 
 FString ACustomer::ProcessString(FString Content)
 {
+	RefreshNames();
 	FString ProcessedString = Content;
 	ProcessedString = ProcessedString.Replace(TEXT("[Name]"), *NameMap.Find(ECharacter::PLAYER)->ToString());
 	ProcessedString = ProcessedString.Replace(TEXT("[Shop]"), *ShopName.ToString());
