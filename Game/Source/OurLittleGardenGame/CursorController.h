@@ -57,6 +57,7 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "EnhancedInput")
 	class UInputAction* RotateAction;
 
+
 	//Called when LMB pressed
 	void ActorInteract(const FInputActionValue& Value);
 	UFUNCTION(BlueprintCallable)
@@ -124,6 +125,12 @@ public:
 	// @Return Is the textbox on screen?
 	UFUNCTION(BlueprintImplementableEvent)
 	bool IsDialogueActive();
+
+	// These are used for the currently active tool
+	UFUNCTION(BlueprintImplementableEvent)
+	void LeftClick();
+	UFUNCTION(BlueprintImplementableEvent)
+	void RightClick();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "EnhancedInput")
 	ACustomer* CustomerReference;

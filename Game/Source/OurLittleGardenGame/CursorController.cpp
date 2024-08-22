@@ -347,9 +347,11 @@ void ACursorController::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 	if (UEnhancedInputComponent* EnhancedInputComponent = CastChecked<UEnhancedInputComponent>(PlayerInputComponent))
 	{
 		EnhancedInputComponent->BindAction(InteractAction, ETriggerEvent::Started, this, &ACursorController::ActorInteract);
+		EnhancedInputComponent->BindAction(InteractAction, ETriggerEvent::Started, this, &ACursorController::LeftClick);
 		EnhancedInputComponent->BindAction(InteractAction, ETriggerEvent::Completed, this, &ACursorController::ReleaseActor);
 
 		EnhancedInputComponent->BindAction(UnInteractAction, ETriggerEvent::Triggered, this, &ACursorController::ReleaseActor);
+		EnhancedInputComponent->BindAction(UnInteractAction, ETriggerEvent::Started, this, &ACursorController::RightClick);
 
 		// Completed rotate action is binded to stop the input
 		EnhancedInputComponent->BindAction(RotateAction, ETriggerEvent::Triggered, this, &ACursorController::RotateActor);
