@@ -87,6 +87,8 @@ protected:
 
 	float RotationSpeed;
 
+	AActor* LastHoveredActor = nullptr;
+
 	// The rotation of the grabbed object when it is first grabbed
 	FRotator GrabRotation;
 
