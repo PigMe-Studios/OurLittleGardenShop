@@ -47,6 +47,7 @@ void ACursorController::BeginPlay()
 	PlayerControllerRef->SetShowMouseCursor(true);
 	
 	SetCursorType(ECursorType::Default);
+	LastHoveredActor = nullptr;
 	//xPlayerControllerRef->DeprojectMousePositionToWorld()
 }
 
@@ -241,8 +242,6 @@ void ACursorController::CurserHoverCheck()
 
 void ACursorController::HoverOutline(AActor* CurrentHoveredActor)
 {
-	static AActor* LastHoveredActor = nullptr;
-
 	//disable 'render customdepth pass' on the last hovered actor
 	if (LastHoveredActor && LastHoveredActor != CurrentHoveredActor)
 	{
