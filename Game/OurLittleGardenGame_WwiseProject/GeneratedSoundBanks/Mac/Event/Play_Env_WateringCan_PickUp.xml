@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3730387420" Type="Event" GUID="{178C431B-C32F-44D0-9E98-8D4A5BF32126}" Language="SFX" Hash="{6B936B4D-0DBA-E336-8F37-E197DD65BABF}">
+		<SoundBank Id="3730387420" Type="Event" GUID="{178C431B-C32F-44D0-9E98-8D4A5BF32126}" Language="SFX" Hash="{2831F1D3-26E6-4AB8-73F1-365CAE664186}">
 			<ObjectPath>Play_Env_WateringCan_PickUp</ObjectPath>
 			<ShortName>Play_Env_WateringCan_PickUp</ShortName>
 			<Path>Event/Play_Env_WateringCan_PickUp.bnk</Path>
@@ -63,5 +63,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0251787C-E2C0-BB6A-3F86-E78B2AC456A4}</FileHash>
+	<FileHash>{902ED8EA-2A8F-56B6-AFBF-BF5606802C0C}</FileHash>
 </SoundBanksInfo>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2888738896" Type="Event" GUID="{C1403630-CB6D-4305-9951-A36B96625330}" Language="SFX" Hash="{57028EC5-B022-6C9E-471C-7B638F85B710}">
+		<SoundBank Id="2888738896" Type="Event" GUID="{C1403630-CB6D-4305-9951-A36B96625330}" Language="SFX" Hash="{748D5454-FAE1-40E7-BBE7-726A64D6AC10}">
 			<ObjectPath>Play_Env_Trowel_Dig</ObjectPath>
 			<ShortName>Play_Env_Trowel_Dig</ShortName>
 			<Path>Event/Play_Env_Trowel_Dig.bnk</Path>
@@ -63,5 +63,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C7BE64EA-32D6-7031-2470-003BAC1B8586}</FileHash>
+	<FileHash>{C8B14BEE-11F9-48A1-F520-C7D767B6865B}</FileHash>
 </SoundBanksInfo>
