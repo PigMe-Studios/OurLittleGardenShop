@@ -755,7 +755,7 @@
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-10</Value>
+														<Value>-12</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -967,7 +967,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<RandomSequenceContainer Name="UI_DialogueRoll_AlphaNum_Florist" ID="{9B32986E-DCBE-48DA-B084-894B077A1371}" ShortID="124747337">
+														<RandomSequenceContainer Name="UI_DialogueRoll_AlphaNum" ID="{9B32986E-DCBE-48DA-B084-894B077A1371}" ShortID="124747337">
 															<PropertyList>
 																<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
 																<Property Name="Pitch" Type="int32">
@@ -996,7 +996,7 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<Sound Name="UI_DialogueRoll_AlphaNum-001" ID="{707300FF-87D2-4237-95A0-F79E97E54990}" ShortID="883165090">
+																<Sound Name="UI_DialogueRoll_Florist_AlphaNum-001" ID="{4FE443F0-543B-4BB5-AED7-A2D0608F86E7}" ShortID="837404514">
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
@@ -1006,19 +1006,19 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="UI_DialogueRoll_AlphaNum-001" ID="{2C24303B-4119-48B7-9359-ABE2FD97F9B5}">
+																		<AudioFileSource Name="UI_DialogueRoll_Florist_AlphaNum-001" ID="{377231ED-5FD9-4EB7-93A7-75B743CC74A7}">
 																			<Language>SFX</Language>
-																			<AudioFile>UI_DialogueRoll_AlphaNum-001.wav</AudioFile>
+																			<AudioFile>UI_DialogueRoll_Florist_AlphaNum-001.wav</AudioFile>
 																			<MediaIDList>
-																				<MediaID ID="631092038"/>
+																				<MediaID ID="47903912"/>
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="UI_DialogueRoll_AlphaNum-001" ID="{2C24303B-4119-48B7-9359-ABE2FD97F9B5}" Platform="Linked"/>
+																		<ActiveSource Name="UI_DialogueRoll_Florist_AlphaNum-001" ID="{377231ED-5FD9-4EB7-93A7-75B743CC74A7}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
-																<Sound Name="UI_DialogueRoll_AlphaNum-002" ID="{4595691B-5F95-408C-9CF3-8802DE5788CC}" ShortID="912077146">
+																<Sound Name="UI_DialogueRoll_Florist_AlphaNum-002" ID="{BBC6F2F7-F60D-4D32-96F8-E215644769B1}" ShortID="622690080">
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
@@ -1028,19 +1028,19 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="UI_DialogueRoll_AlphaNum-002" ID="{83EF8A90-E306-45B4-8E95-9164E96F7CC3}">
+																		<AudioFileSource Name="UI_DialogueRoll_Florist_AlphaNum-002" ID="{2DDFE169-05B5-4BCD-827D-72542C301DB8}">
 																			<Language>SFX</Language>
-																			<AudioFile>UI_DialogueRoll_AlphaNum-002.wav</AudioFile>
+																			<AudioFile>UI_DialogueRoll_Florist_AlphaNum-002.wav</AudioFile>
 																			<MediaIDList>
-																				<MediaID ID="284491424"/>
+																				<MediaID ID="692589193"/>
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="UI_DialogueRoll_AlphaNum-002" ID="{83EF8A90-E306-45B4-8E95-9164E96F7CC3}" Platform="Linked"/>
+																		<ActiveSource Name="UI_DialogueRoll_Florist_AlphaNum-002" ID="{2DDFE169-05B5-4BCD-827D-72542C301DB8}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
-																<Sound Name="UI_DialogueRoll_AlphaNum-003" ID="{0E3A972E-11A1-4216-8EB7-D7C85D829B92}" ShortID="73576117">
+																<Sound Name="UI_DialogueRoll_Florist_AlphaNum-003" ID="{060DC6C3-FD48-45A7-AFA3-0F46A5197723}" ShortID="593825367">
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
@@ -1050,19 +1050,19 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="UI_DialogueRoll_AlphaNum-003" ID="{55DAF671-C24B-4881-A8C2-4D717D294A75}">
+																		<AudioFileSource Name="UI_DialogueRoll_Florist_AlphaNum-003" ID="{1A18F818-D29E-4FD9-900D-39035B2493A8}">
 																			<Language>SFX</Language>
-																			<AudioFile>UI_DialogueRoll_AlphaNum-003.wav</AudioFile>
+																			<AudioFile>UI_DialogueRoll_Florist_AlphaNum-003.wav</AudioFile>
 																			<MediaIDList>
-																				<MediaID ID="713496097"/>
+																				<MediaID ID="1050099795"/>
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="UI_DialogueRoll_AlphaNum-003" ID="{55DAF671-C24B-4881-A8C2-4D717D294A75}" Platform="Linked"/>
+																		<ActiveSource Name="UI_DialogueRoll_Florist_AlphaNum-003" ID="{1A18F818-D29E-4FD9-900D-39035B2493A8}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
-																<Sound Name="UI_DialogueRoll_AlphaNum-004" ID="{AA7B34E2-5D6E-448F-8964-DE1A5A766F21}" ShortID="402154003">
+																<Sound Name="UI_DialogueRoll_Florist_AlphaNum-004" ID="{D2E3806A-C9D3-4E61-A5C4-2425B5055088}" ShortID="681229866">
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
@@ -1072,19 +1072,19 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="UI_DialogueRoll_AlphaNum-004" ID="{6F399A8C-72C5-4846-8537-52F6F0721DD1}">
+																		<AudioFileSource Name="UI_DialogueRoll_Florist_AlphaNum-004" ID="{95075239-65E6-45F5-AB22-9340FA05D614}">
 																			<Language>SFX</Language>
-																			<AudioFile>UI_DialogueRoll_AlphaNum-004.wav</AudioFile>
+																			<AudioFile>UI_DialogueRoll_Florist_AlphaNum-004.wav</AudioFile>
 																			<MediaIDList>
-																				<MediaID ID="908574443"/>
+																				<MediaID ID="545568280"/>
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="UI_DialogueRoll_AlphaNum-004" ID="{6F399A8C-72C5-4846-8537-52F6F0721DD1}" Platform="Linked"/>
+																		<ActiveSource Name="UI_DialogueRoll_Florist_AlphaNum-004" ID="{95075239-65E6-45F5-AB22-9340FA05D614}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
-																<Sound Name="UI_DialogueRoll_AlphaNum-005" ID="{F62FF848-1770-4D65-B852-A0894004690F}" ShortID="930513301">
+																<Sound Name="UI_DialogueRoll_Florist_AlphaNum-005" ID="{B77BBC3E-468D-48B0-A7EA-2A06F6CB20EA}" ShortID="976726535">
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
@@ -1094,19 +1094,19 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="UI_DialogueRoll_AlphaNum-005" ID="{5BC981D0-7DED-4B37-9B44-31A9155D7C56}">
+																		<AudioFileSource Name="UI_DialogueRoll_Florist_AlphaNum-005" ID="{66503F63-C48C-44CF-B1DF-7C5A9F7EEDF5}">
 																			<Language>SFX</Language>
-																			<AudioFile>UI_DialogueRoll_AlphaNum-005.wav</AudioFile>
+																			<AudioFile>UI_DialogueRoll_Florist_AlphaNum-005.wav</AudioFile>
 																			<MediaIDList>
-																				<MediaID ID="779999532"/>
+																				<MediaID ID="693219551"/>
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="UI_DialogueRoll_AlphaNum-005" ID="{5BC981D0-7DED-4B37-9B44-31A9155D7C56}" Platform="Linked"/>
+																		<ActiveSource Name="UI_DialogueRoll_Florist_AlphaNum-005" ID="{66503F63-C48C-44CF-B1DF-7C5A9F7EEDF5}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
-																<Sound Name="UI_DialogueRoll_AlphaNum-006" ID="{CD4528D2-3BC1-4DA5-B8F0-DC3CDB63CE28}" ShortID="852982286">
+																<Sound Name="UI_DialogueRoll_Florist_AlphaNum-006" ID="{1BE070C9-DCF7-48E8-B152-F92CB7D07B62}" ShortID="935245709">
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
@@ -1116,21 +1116,21 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="UI_DialogueRoll_AlphaNum-006" ID="{9E4899B2-084B-466F-BDF8-25C7A8AB3A4C}">
+																		<AudioFileSource Name="UI_DialogueRoll_Florist_AlphaNum-006" ID="{FC84CE2E-D4F9-4190-A950-FA024C17DD17}">
 																			<Language>SFX</Language>
-																			<AudioFile>UI_DialogueRoll_AlphaNum-006.wav</AudioFile>
+																			<AudioFile>UI_DialogueRoll_Florist_AlphaNum-006.wav</AudioFile>
 																			<MediaIDList>
-																				<MediaID ID="845290244"/>
+																				<MediaID ID="215553672"/>
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="UI_DialogueRoll_AlphaNum-006" ID="{9E4899B2-084B-466F-BDF8-25C7A8AB3A4C}" Platform="Linked"/>
+																		<ActiveSource Name="UI_DialogueRoll_Florist_AlphaNum-006" ID="{FC84CE2E-D4F9-4190-A950-FA024C17DD17}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 															</ChildrenList>
 														</RandomSequenceContainer>
-														<RandomSequenceContainer Name="UI_DialogueRoll_Exclam_Florist" ID="{F872BEF6-E90F-43B4-8A27-927E48300AFC}" ShortID="351657208">
+														<RandomSequenceContainer Name="UI_DialogueRoll_Exclam" ID="{F872BEF6-E90F-43B4-8A27-927E48300AFC}" ShortID="351657208">
 															<PropertyList>
 																<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
 																<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
@@ -1169,7 +1169,7 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<Sound Name="UI_DialogueRoll_Exclam-001" ID="{878421EE-42CC-4228-8B59-13BD38D1690F}" ShortID="803300212">
+																<Sound Name="UI_DialogueRoll_Florist_Exclam-001" ID="{E73919AD-59AC-4FA2-BE3D-D723D7EF06FE}" ShortID="360146384">
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
@@ -1179,19 +1179,19 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="UI_DialogueRoll_Exclam-001" ID="{0EE33819-6D7E-4043-B3F0-69DF6B67F83C}">
+																		<AudioFileSource Name="UI_DialogueRoll_Florist_Exclam-001" ID="{F0B8B139-7BE4-4D91-BD02-851A622AE109}">
 																			<Language>SFX</Language>
-																			<AudioFile>UI_DialogueRoll_Exclam-001.wav</AudioFile>
+																			<AudioFile>UI_DialogueRoll_Florist_Exclam-001.wav</AudioFile>
 																			<MediaIDList>
-																				<MediaID ID="45314652"/>
+																				<MediaID ID="695820428"/>
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="UI_DialogueRoll_Exclam-001" ID="{0EE33819-6D7E-4043-B3F0-69DF6B67F83C}" Platform="Linked"/>
+																		<ActiveSource Name="UI_DialogueRoll_Florist_Exclam-001" ID="{F0B8B139-7BE4-4D91-BD02-851A622AE109}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
-																<Sound Name="UI_DialogueRoll_Exclam-002" ID="{9306C034-D7A4-413C-B1F5-F1D494F19254}" ShortID="578786962">
+																<Sound Name="UI_DialogueRoll_Florist_Exclam-002" ID="{63C95D2D-78A4-4390-B907-BF8FE64F3CAA}" ShortID="851533291">
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
@@ -1201,19 +1201,19 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="UI_DialogueRoll_Exclam-002" ID="{14652A4E-9795-4DB2-B156-F5E9961E0731}">
+																		<AudioFileSource Name="UI_DialogueRoll_Florist_Exclam-002" ID="{99979BF2-2622-4493-9AB7-F91AF2280899}">
 																			<Language>SFX</Language>
-																			<AudioFile>UI_DialogueRoll_Exclam-002.wav</AudioFile>
+																			<AudioFile>UI_DialogueRoll_Florist_Exclam-002.wav</AudioFile>
 																			<MediaIDList>
-																				<MediaID ID="670153769"/>
+																				<MediaID ID="230280545"/>
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="UI_DialogueRoll_Exclam-002" ID="{14652A4E-9795-4DB2-B156-F5E9961E0731}" Platform="Linked"/>
+																		<ActiveSource Name="UI_DialogueRoll_Florist_Exclam-002" ID="{99979BF2-2622-4493-9AB7-F91AF2280899}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
-																<Sound Name="UI_DialogueRoll_Exclam-003" ID="{11F985AF-803B-489F-8D30-17CC7EC89DD6}" ShortID="373225900">
+																<Sound Name="UI_DialogueRoll_Florist_Exclam-003" ID="{855626D4-E43B-4E21-92F2-C90A9F198B89}" ShortID="522171530">
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
@@ -1223,19 +1223,19 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="UI_DialogueRoll_Exclam-003" ID="{E4C926B5-44A6-42F9-B10A-33873C656540}">
+																		<AudioFileSource Name="UI_DialogueRoll_Florist_Exclam-003" ID="{2FA0AB36-1671-47AE-9EDE-E63C969E74EF}">
 																			<Language>SFX</Language>
-																			<AudioFile>UI_DialogueRoll_Exclam-003.wav</AudioFile>
+																			<AudioFile>UI_DialogueRoll_Florist_Exclam-003.wav</AudioFile>
 																			<MediaIDList>
-																				<MediaID ID="291926095"/>
+																				<MediaID ID="765502190"/>
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="UI_DialogueRoll_Exclam-003" ID="{E4C926B5-44A6-42F9-B10A-33873C656540}" Platform="Linked"/>
+																		<ActiveSource Name="UI_DialogueRoll_Florist_Exclam-003" ID="{2FA0AB36-1671-47AE-9EDE-E63C969E74EF}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
-																<Sound Name="UI_DialogueRoll_Exclam-004" ID="{70BD420A-1270-41CC-949B-8FEFE926FBBA}" ShortID="877299686">
+																<Sound Name="UI_DialogueRoll_Florist_Exclam-004" ID="{4280B4D9-8FE0-4216-9778-D1110BF00EA8}" ShortID="611942255">
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
@@ -1245,21 +1245,21 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="UI_DialogueRoll_Exclam-004" ID="{F51D75C7-EADA-452C-B8E8-A6025371ECEF}">
+																		<AudioFileSource Name="UI_DialogueRoll_Florist_Exclam-004" ID="{C9C0F661-D3B1-4E79-B850-C81E5C039D14}">
 																			<Language>SFX</Language>
-																			<AudioFile>UI_DialogueRoll_Exclam-004.wav</AudioFile>
+																			<AudioFile>UI_DialogueRoll_Florist_Exclam-004.wav</AudioFile>
 																			<MediaIDList>
-																				<MediaID ID="61285951"/>
+																				<MediaID ID="665201286"/>
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="UI_DialogueRoll_Exclam-004" ID="{F51D75C7-EADA-452C-B8E8-A6025371ECEF}" Platform="Linked"/>
+																		<ActiveSource Name="UI_DialogueRoll_Florist_Exclam-004" ID="{C9C0F661-D3B1-4E79-B850-C81E5C039D14}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 															</ChildrenList>
 														</RandomSequenceContainer>
-														<RandomSequenceContainer Name="UI_DialogueRoll_Punct_Florist" ID="{29DD1CDE-7A3A-4206-8AFD-E7FE0E72F9BE}" ShortID="217731352">
+														<RandomSequenceContainer Name="UI_DialogueRoll_Punct" ID="{29DD1CDE-7A3A-4206-8AFD-E7FE0E72F9BE}" ShortID="217731352">
 															<PropertyList>
 																<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
 																<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
@@ -1298,7 +1298,7 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<Sound Name="UI_DialogueRoll_Punct-001" ID="{1A5E16C6-ED55-453A-B585-E8CF9002A0B4}" ShortID="678457802">
+																<Sound Name="UI_DialogueRoll_Florist_Punct-001" ID="{995112C4-FCE5-490D-8598-3CB4A24152A1}" ShortID="298796532">
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
@@ -1308,19 +1308,19 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="UI_DialogueRoll_Punct-001" ID="{37DA6095-3196-4D9E-AB1F-996E6D057916}">
+																		<AudioFileSource Name="UI_DialogueRoll_Florist_Punct-001" ID="{3D1BE163-49A5-462E-9A22-523D3743A014}">
 																			<Language>SFX</Language>
-																			<AudioFile>UI_DialogueRoll_Punct-001.wav</AudioFile>
+																			<AudioFile>UI_DialogueRoll_Florist_Punct-001.wav</AudioFile>
 																			<MediaIDList>
-																				<MediaID ID="209701942"/>
+																				<MediaID ID="27527582"/>
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="UI_DialogueRoll_Punct-001" ID="{37DA6095-3196-4D9E-AB1F-996E6D057916}" Platform="Linked"/>
+																		<ActiveSource Name="UI_DialogueRoll_Florist_Punct-001" ID="{3D1BE163-49A5-462E-9A22-523D3743A014}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
-																<Sound Name="UI_DialogueRoll_Punct-002" ID="{76934A3E-E16A-4F86-A0CE-A5921E9BBE42}" ShortID="869019433">
+																<Sound Name="UI_DialogueRoll_Florist_Punct-002" ID="{35FFCFC6-A155-4763-B3E1-15083EBBBF0A}" ShortID="771229194">
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
@@ -1330,19 +1330,19 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="UI_DialogueRoll_Punct-002" ID="{FFD094E1-98FB-4463-BB70-D8D1E41DCDCC}">
+																		<AudioFileSource Name="UI_DialogueRoll_Florist_Punct-002" ID="{8E1418FD-D8D7-4E05-9CF2-A4ABE3963F89}">
 																			<Language>SFX</Language>
-																			<AudioFile>UI_DialogueRoll_Punct-002.wav</AudioFile>
+																			<AudioFile>UI_DialogueRoll_Florist_Punct-002.wav</AudioFile>
 																			<MediaIDList>
-																				<MediaID ID="658697309"/>
+																				<MediaID ID="836191498"/>
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="UI_DialogueRoll_Punct-002" ID="{FFD094E1-98FB-4463-BB70-D8D1E41DCDCC}" Platform="Linked"/>
+																		<ActiveSource Name="UI_DialogueRoll_Florist_Punct-002" ID="{8E1418FD-D8D7-4E05-9CF2-A4ABE3963F89}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
-																<Sound Name="UI_DialogueRoll_Punct-003" ID="{4E70D7FA-3449-400F-93CC-E7C5060BA29A}" ShortID="400988134">
+																<Sound Name="UI_DialogueRoll_Florist_Punct-003" ID="{E5DF89C9-CB54-479B-945D-3E48A994A799}" ShortID="832737059">
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
@@ -1352,19 +1352,19 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="UI_DialogueRoll_Punct-003" ID="{BA6EECB4-525F-4201-B2FF-AC3ACE0D6CF1}">
+																		<AudioFileSource Name="UI_DialogueRoll_Florist_Punct-003" ID="{371BF7EE-548A-4668-8DB6-2A7A8F3A2531}">
 																			<Language>SFX</Language>
-																			<AudioFile>UI_DialogueRoll_Punct-003.wav</AudioFile>
+																			<AudioFile>UI_DialogueRoll_Florist_Punct-003.wav</AudioFile>
 																			<MediaIDList>
-																				<MediaID ID="923228505"/>
+																				<MediaID ID="286078869"/>
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="UI_DialogueRoll_Punct-003" ID="{BA6EECB4-525F-4201-B2FF-AC3ACE0D6CF1}" Platform="Linked"/>
+																		<ActiveSource Name="UI_DialogueRoll_Florist_Punct-003" ID="{371BF7EE-548A-4668-8DB6-2A7A8F3A2531}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
-																<Sound Name="UI_DialogueRoll_Punct-004" ID="{E9DA808E-A8F9-4734-A652-62BA07329FCE}" ShortID="205652196">
+																<Sound Name="UI_DialogueRoll_Florist_Punct-004" ID="{A1821E06-63DB-4CF2-B2CB-537046E7ED9C}" ShortID="30108501">
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
@@ -1374,16 +1374,16 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="UI_DialogueRoll_Punct-004" ID="{A8EDE000-E020-4186-B7F5-C219979F0C5B}">
+																		<AudioFileSource Name="UI_DialogueRoll_Florist_Punct-004" ID="{FDA06FF4-FDFF-477C-B117-5DEDCE6EF52C}">
 																			<Language>SFX</Language>
-																			<AudioFile>UI_DialogueRoll_Punct-004.wav</AudioFile>
+																			<AudioFile>UI_DialogueRoll_Florist_Punct-004.wav</AudioFile>
 																			<MediaIDList>
-																				<MediaID ID="466696660"/>
+																				<MediaID ID="478367105"/>
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="UI_DialogueRoll_Punct-004" ID="{A8EDE000-E020-4186-B7F5-C219979F0C5B}" Platform="Linked"/>
+																		<ActiveSource Name="UI_DialogueRoll_Florist_Punct-004" ID="{FDA06FF4-FDFF-477C-B117-5DEDCE6EF52C}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 															</ChildrenList>
@@ -1392,32 +1392,529 @@
 													<GroupingInfo>
 														<GroupingBehaviorList>
 															<GroupingBehavior>
-																<ItemRef Name="UI_DialogueRoll_AlphaNum_Florist" ID="{9B32986E-DCBE-48DA-B084-894B077A1371}"/>
+																<ItemRef Name="UI_DialogueRoll_AlphaNum" ID="{9B32986E-DCBE-48DA-B084-894B077A1371}"/>
 															</GroupingBehavior>
 															<GroupingBehavior>
-																<ItemRef Name="UI_DialogueRoll_Punct_Florist" ID="{29DD1CDE-7A3A-4206-8AFD-E7FE0E72F9BE}"/>
+																<ItemRef Name="UI_DialogueRoll_Punct" ID="{29DD1CDE-7A3A-4206-8AFD-E7FE0E72F9BE}"/>
 															</GroupingBehavior>
 															<GroupingBehavior>
-																<ItemRef Name="UI_DialogueRoll_Exclam_Florist" ID="{F872BEF6-E90F-43B4-8A27-927E48300AFC}"/>
+																<ItemRef Name="UI_DialogueRoll_Exclam" ID="{F872BEF6-E90F-43B4-8A27-927E48300AFC}"/>
 															</GroupingBehavior>
 														</GroupingBehaviorList>
 														<GroupingList>
 															<Grouping>
 																<SwitchRef Name="Punctuation" ID="{2D29CF13-CE81-45CB-8C91-8ECCA5AD221B}"/>
 																<ItemList>
-																	<ItemRef Name="UI_DialogueRoll_Punct_Florist" ID="{29DD1CDE-7A3A-4206-8AFD-E7FE0E72F9BE}"/>
+																	<ItemRef Name="UI_DialogueRoll_Punct" ID="{29DD1CDE-7A3A-4206-8AFD-E7FE0E72F9BE}"/>
 																</ItemList>
 															</Grouping>
 															<Grouping>
 																<SwitchRef Name="Exclamation" ID="{A062FAC7-A9C2-45E2-9C04-2947724AABB0}"/>
 																<ItemList>
-																	<ItemRef Name="UI_DialogueRoll_Exclam_Florist" ID="{F872BEF6-E90F-43B4-8A27-927E48300AFC}"/>
+																	<ItemRef Name="UI_DialogueRoll_Exclam" ID="{F872BEF6-E90F-43B4-8A27-927E48300AFC}"/>
 																</ItemList>
 															</Grouping>
 															<Grouping>
 																<SwitchRef Name="AlphaNum" ID="{A83AA4F8-6800-4019-B11D-E7064840BDA4}"/>
 																<ItemList>
-																	<ItemRef Name="UI_DialogueRoll_AlphaNum_Florist" ID="{9B32986E-DCBE-48DA-B084-894B077A1371}"/>
+																	<ItemRef Name="UI_DialogueRoll_AlphaNum" ID="{9B32986E-DCBE-48DA-B084-894B077A1371}"/>
+																</ItemList>
+															</Grouping>
+														</GroupingList>
+													</GroupingInfo>
+												</SwitchContainer>
+												<SwitchContainer Name="UI_DialogueRoll_Chef" ID="{7F75E99A-5DC9-44EE-8D74-594BB1528B50}" ShortID="817839331">
+													<PropertyList>
+														<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+														</Reference>
+														<Reference Name="DefaultSwitchOrState">
+															<ObjectRef Name="AlphaNum" ID="{A83AA4F8-6800-4019-B11D-E7064840BDA4}" WorkUnitID="{38E72746-A2E2-4A3D-9127-D24633138B7B}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+														</Reference>
+														<Reference Name="SwitchGroupOrStateGroup">
+															<ObjectRef Name="Switch_DialogueRollType" ID="{99ADB32F-77C3-48B0-AD29-5BD526F63586}" WorkUnitID="{38E72746-A2E2-4A3D-9127-D24633138B7B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<RandomSequenceContainer Name="UI_DialogueRoll_AlphaNum" ID="{401E12BB-6F10-4E81-82CA-4A2E56BBEF58}" ShortID="275803536">
+															<PropertyList>
+																<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+																<Property Name="Pitch" Type="int32">
+																	<ValueList>
+																		<Value>600</Value>
+																	</ValueList>
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{A77B9B2E-E63B-4CE8-8CD7-D6093E3F769B}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Max" Type="Real64" Value="300"/>
+																					<Property Name="Min" Type="Real64" Value="-300"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="UI_DialogueRoll_Chef_AlphaNum-001" ID="{00642242-9A0F-43E8-AD0B-0FA4CA7AB6AB}" ShortID="977478248">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="UI_DialogueRoll_Chef_AlphaNum-001" ID="{B13E12C1-EE97-4036-A2C4-900F96F4AA89}">
+																			<Language>SFX</Language>
+																			<AudioFile>UI_DialogueRoll_Chef_AlphaNum-001.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="927183099"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="UI_DialogueRoll_Chef_AlphaNum-001" ID="{B13E12C1-EE97-4036-A2C4-900F96F4AA89}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="UI_DialogueRoll_Chef_AlphaNum-002" ID="{090234DB-545A-4B08-8409-DC3CAE8AE9DB}" ShortID="16091610">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="UI_DialogueRoll_Chef_AlphaNum-002" ID="{F8072B40-BBCD-4A93-86CE-33E0CA53E753}">
+																			<Language>SFX</Language>
+																			<AudioFile>UI_DialogueRoll_Chef_AlphaNum-002.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="259102436"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="UI_DialogueRoll_Chef_AlphaNum-002" ID="{F8072B40-BBCD-4A93-86CE-33E0CA53E753}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="UI_DialogueRoll_Chef_AlphaNum-003" ID="{1808FEED-C544-405C-8D9E-B8A16715D91C}" ShortID="471456259">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="UI_DialogueRoll_Chef_AlphaNum-003" ID="{4167992D-5E86-473D-8A0F-3D4CA955BE85}">
+																			<Language>SFX</Language>
+																			<AudioFile>UI_DialogueRoll_Chef_AlphaNum-003.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="961528444"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="UI_DialogueRoll_Chef_AlphaNum-003" ID="{4167992D-5E86-473D-8A0F-3D4CA955BE85}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="UI_DialogueRoll_Chef_AlphaNum-004" ID="{1B9AB671-2811-4249-AE92-7EEB3839C476}" ShortID="776552338">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="UI_DialogueRoll_Chef_AlphaNum-004" ID="{770F1601-2864-4E72-8214-10F6DCD35D13}">
+																			<Language>SFX</Language>
+																			<AudioFile>UI_DialogueRoll_Chef_AlphaNum-004.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="397005282"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="UI_DialogueRoll_Chef_AlphaNum-004" ID="{770F1601-2864-4E72-8214-10F6DCD35D13}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="UI_DialogueRoll_Chef_AlphaNum-005" ID="{6104E8C2-7CFA-4876-B72F-DD6597F1DEBC}" ShortID="674447426">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="UI_DialogueRoll_Chef_AlphaNum-005" ID="{2D70154E-E8D3-426A-BF72-2449688FDFC7}">
+																			<Language>SFX</Language>
+																			<AudioFile>UI_DialogueRoll_Chef_AlphaNum-005.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="304797527"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="UI_DialogueRoll_Chef_AlphaNum-005" ID="{2D70154E-E8D3-426A-BF72-2449688FDFC7}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="UI_DialogueRoll_Chef_AlphaNum-006" ID="{9E00F37E-AF00-426E-AF11-7D694B97A299}" ShortID="488911929">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="UI_DialogueRoll_Chef_AlphaNum-006" ID="{18A1971B-9F2E-4FF7-BB81-96A3D223F0B2}">
+																			<Language>SFX</Language>
+																			<AudioFile>UI_DialogueRoll_Chef_AlphaNum-006.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="112816640"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="UI_DialogueRoll_Chef_AlphaNum-006" ID="{18A1971B-9F2E-4FF7-BB81-96A3D223F0B2}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="UI_DialogueRoll_Chef_AlphaNum-007" ID="{4925FE45-4BEF-4749-A1D3-127ED9F6BE2B}" ShortID="220047722">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="UI_DialogueRoll_Chef_AlphaNum-007" ID="{7A382775-C1F6-426F-88F1-84CC504668C5}">
+																			<Language>SFX</Language>
+																			<AudioFile>UI_DialogueRoll_Chef_AlphaNum-007.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="373152147"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="UI_DialogueRoll_Chef_AlphaNum-007" ID="{7A382775-C1F6-426F-88F1-84CC504668C5}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+														<RandomSequenceContainer Name="UI_DialogueRoll_Exclam" ID="{6910A7D0-84BB-46BC-96E8-D5FD91302038}" ShortID="851502967">
+															<PropertyList>
+																<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+																<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+																<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+																<Property Name="MaxSoundPerInstance" Type="int16">
+																	<ValueList>
+																		<Value>3</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
+																<Property Name="Pitch" Type="int32">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{F944F874-9CBA-40CB-ACF3-66A63ECDB9A7}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Max" Type="Real64" Value="100"/>
+																					<Property Name="Min" Type="Real64" Value="-100"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+																<Property Name="UseMaxSoundPerInstance" Type="bool">
+																	<ValueList>
+																		<Value>True</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="UI_DialogueRoll_Chef_Exclam-001" ID="{59E5F188-020B-41CE-B3D7-4D371482110F}" ShortID="675525302">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="UI_DialogueRoll_Chef_Exclam-001" ID="{CA5B057C-DE55-4C5C-AD4D-DC29784FD588}">
+																			<Language>SFX</Language>
+																			<AudioFile>UI_DialogueRoll_Chef_Exclam-001.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="981229866"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="UI_DialogueRoll_Chef_Exclam-001" ID="{CA5B057C-DE55-4C5C-AD4D-DC29784FD588}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="UI_DialogueRoll_Chef_Exclam-002" ID="{E92302C4-78F0-464F-91A8-03C926A76290}" ShortID="893296312">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="UI_DialogueRoll_Chef_Exclam-002" ID="{98225E33-5FB3-41BF-9E48-33948BCEA029}">
+																			<Language>SFX</Language>
+																			<AudioFile>UI_DialogueRoll_Chef_Exclam-002.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="74110002"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="UI_DialogueRoll_Chef_Exclam-002" ID="{98225E33-5FB3-41BF-9E48-33948BCEA029}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="UI_DialogueRoll_Chef_Exclam-003" ID="{875A36C4-0212-43E4-84B0-B7C286E2A21D}" ShortID="104289928">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="UI_DialogueRoll_Chef_Exclam-003" ID="{8C664D19-BEA2-43CA-B5F5-B638E6078D10}">
+																			<Language>SFX</Language>
+																			<AudioFile>UI_DialogueRoll_Chef_Exclam-003.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="204532031"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="UI_DialogueRoll_Chef_Exclam-003" ID="{8C664D19-BEA2-43CA-B5F5-B638E6078D10}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="UI_DialogueRoll_Chef_Exclam-004" ID="{35FCC556-A3C2-4827-852F-72A2B9A2DE34}" ShortID="45656971">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="UI_DialogueRoll_Chef_Exclam-004" ID="{372E23C7-3EBC-49F5-8F20-893B7C7D12C8}">
+																			<Language>SFX</Language>
+																			<AudioFile>UI_DialogueRoll_Chef_Exclam-004.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="249627688"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="UI_DialogueRoll_Chef_Exclam-004" ID="{372E23C7-3EBC-49F5-8F20-893B7C7D12C8}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+														<RandomSequenceContainer Name="UI_DialogueRoll_Punct" ID="{BDE14575-29FF-49E5-8448-D7FB364A6D66}" ShortID="150210277">
+															<PropertyList>
+																<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+																<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+																<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+																<Property Name="MaxSoundPerInstance" Type="int16">
+																	<ValueList>
+																		<Value>3</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
+																<Property Name="Pitch" Type="int32">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{1076F80A-8B1A-491E-99CD-B96A3BEC3B7F}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Max" Type="Real64" Value="100"/>
+																					<Property Name="Min" Type="Real64" Value="-100"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+																<Property Name="UseMaxSoundPerInstance" Type="bool">
+																	<ValueList>
+																		<Value>True</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="UI_DialogueRoll_Chef_Punct-001" ID="{99B5EE02-E530-4660-A455-56409045094A}" ShortID="449705604">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="UI_DialogueRoll_Chef_Punct-001" ID="{84E6BA79-00EA-48E5-B36E-3F8EA5E166B9}">
+																			<Language>SFX</Language>
+																			<AudioFile>UI_DialogueRoll_Chef_Punct-001.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="128901487"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="UI_DialogueRoll_Chef_Punct-001" ID="{84E6BA79-00EA-48E5-B36E-3F8EA5E166B9}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="UI_DialogueRoll_Chef_Punct-002" ID="{01E64B33-F4C3-491E-8767-F294E9ACE75C}" ShortID="481321108">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="UI_DialogueRoll_Chef_Punct-002" ID="{C93419A9-3EA9-4DA6-9033-5A10876CD168}">
+																			<Language>SFX</Language>
+																			<AudioFile>UI_DialogueRoll_Chef_Punct-002.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="1058720332"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="UI_DialogueRoll_Chef_Punct-002" ID="{C93419A9-3EA9-4DA6-9033-5A10876CD168}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="UI_DialogueRoll_Chef_Punct-003" ID="{61EB1CBB-B87F-408B-BB84-8A236C2DA229}" ShortID="282082288">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="UI_DialogueRoll_Chef_Punct-003" ID="{3FE8C318-0340-4045-9A2F-85B159A25D1A}">
+																			<Language>SFX</Language>
+																			<AudioFile>UI_DialogueRoll_Chef_Punct-003.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="221014258"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="UI_DialogueRoll_Chef_Punct-003" ID="{3FE8C318-0340-4045-9A2F-85B159A25D1A}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="UI_DialogueRoll_Chef_Punct-004" ID="{07400CE2-4E36-47EC-92C4-792E5A3E6720}" ShortID="724244337">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="UI_DialogueRoll_Chef_Punct-004" ID="{4C7B7B4A-63E5-4953-BA7F-1888CAA8050D}">
+																			<Language>SFX</Language>
+																			<AudioFile>UI_DialogueRoll_Chef_Punct-004.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="864563100"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="UI_DialogueRoll_Chef_Punct-004" ID="{4C7B7B4A-63E5-4953-BA7F-1888CAA8050D}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+													</ChildrenList>
+													<GroupingInfo>
+														<GroupingBehaviorList>
+															<GroupingBehavior>
+																<ItemRef Name="UI_DialogueRoll_Punct" ID="{BDE14575-29FF-49E5-8448-D7FB364A6D66}"/>
+															</GroupingBehavior>
+															<GroupingBehavior>
+																<ItemRef Name="UI_DialogueRoll_AlphaNum" ID="{401E12BB-6F10-4E81-82CA-4A2E56BBEF58}"/>
+															</GroupingBehavior>
+															<GroupingBehavior>
+																<ItemRef Name="UI_DialogueRoll_Exclam" ID="{6910A7D0-84BB-46BC-96E8-D5FD91302038}"/>
+															</GroupingBehavior>
+														</GroupingBehaviorList>
+														<GroupingList>
+															<Grouping>
+																<SwitchRef Name="Punctuation" ID="{2D29CF13-CE81-45CB-8C91-8ECCA5AD221B}"/>
+																<ItemList>
+																	<ItemRef Name="UI_DialogueRoll_Punct" ID="{BDE14575-29FF-49E5-8448-D7FB364A6D66}"/>
+																</ItemList>
+															</Grouping>
+															<Grouping>
+																<SwitchRef Name="Exclamation" ID="{A062FAC7-A9C2-45E2-9C04-2947724AABB0}"/>
+																<ItemList>
+																	<ItemRef Name="UI_DialogueRoll_Exclam" ID="{6910A7D0-84BB-46BC-96E8-D5FD91302038}"/>
+																</ItemList>
+															</Grouping>
+															<Grouping>
+																<SwitchRef Name="AlphaNum" ID="{A83AA4F8-6800-4019-B11D-E7064840BDA4}"/>
+																<ItemList>
+																	<ItemRef Name="UI_DialogueRoll_AlphaNum" ID="{401E12BB-6F10-4E81-82CA-4A2E56BBEF58}"/>
 																</ItemList>
 															</Grouping>
 														</GroupingList>
@@ -1427,6 +1924,9 @@
 											<GroupingInfo>
 												<GroupingBehaviorList>
 													<GroupingBehavior>
+														<ItemRef Name="UI_DialogueRoll_Chef" ID="{7F75E99A-5DC9-44EE-8D74-594BB1528B50}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
 														<ItemRef Name="UI_DialogueRoll_Florist" ID="{35B642DF-364F-41F4-87A3-CD39F24CB64B}"/>
 													</GroupingBehavior>
 												</GroupingBehaviorList>
@@ -1435,6 +1935,12 @@
 														<SwitchRef Name="Florist" ID="{5E9E9616-61B2-4F5A-9566-FB5F5C5248F0}"/>
 														<ItemList>
 															<ItemRef Name="UI_DialogueRoll_Florist" ID="{35B642DF-364F-41F4-87A3-CD39F24CB64B}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="Chef" ID="{AE88FCEC-5377-4D58-A611-C1A179957653}"/>
+														<ItemList>
+															<ItemRef Name="UI_DialogueRoll_Chef" ID="{7F75E99A-5DC9-44EE-8D74-594BB1528B50}"/>
 														</ItemList>
 													</Grouping>
 												</GroupingList>

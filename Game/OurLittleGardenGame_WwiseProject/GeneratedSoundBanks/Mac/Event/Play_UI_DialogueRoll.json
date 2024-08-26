@@ -10,28 +10,46 @@
     "Type": "Event",
     "GUID": "{3EE8C705-3D1F-4FFD-B442-1A949068B8B8}",
     "Language": "SFX",
-    "Hash": "{15D18876-346D-A53F-9AA4-2FDE0FF331CE}",
+    "Hash": "{CBC4DFA2-5BAA-0CB8-F18D-28E321E0A409}",
     "ObjectPath": "Play_UI_DialogueRoll",
     "ShortName": "Play_UI_DialogueRoll",
     "Path": "Event/Play_UI_DialogueRoll.bnk",
     "Media": [
      {
-      "Id": "45314652",
+      "Id": "27527582",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "UI_DialogueRoll_Exclam-001.wav",
-      "Path": "Media/45314652.wem",
-      "CachePath": "SFX/UI_DialogueRoll_Exclam-001_F06BAF76.wem"
+      "ShortName": "UI_DialogueRoll_Florist_Punct-001.wav",
+      "Path": "Media/27527582.wem",
+      "CachePath": "SFX/UI_DialogueRoll_Florist_Punct-001_F06BAF76.wem"
      },
      {
-      "Id": "61285951",
+      "Id": "47903912",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "UI_DialogueRoll_Exclam-004.wav",
-      "Path": "Media/61285951.wem",
-      "CachePath": "SFX/UI_DialogueRoll_Exclam-004_F06BAF76.wem"
+      "ShortName": "UI_DialogueRoll_Florist_AlphaNum-001.wav",
+      "Path": "Media/47903912.wem",
+      "CachePath": "SFX/UI_DialogueRoll_Florist_AlphaNum-001_F06BAF76.wem"
+     },
+     {
+      "Id": "74110002",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_Chef_Exclam-002.wav",
+      "Path": "Media/74110002.wem",
+      "CachePath": "SFX/UI_DialogueRoll_Chef_Exclam-002_F06BAF76.wem"
+     },
+     {
+      "Id": "112816640",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_Chef_AlphaNum-006.wav",
+      "Path": "Media/112816640.wem",
+      "CachePath": "SFX/UI_DialogueRoll_Chef_AlphaNum-006_F06BAF76.wem"
      },
      {
       "Id": "125470387",
@@ -43,13 +61,31 @@
       "CachePath": "SFX/UI_DialogueRoll_KB-001_F06BAF76.wem"
      },
      {
-      "Id": "209701942",
+      "Id": "128901487",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "UI_DialogueRoll_Punct-001.wav",
-      "Path": "Media/209701942.wem",
-      "CachePath": "SFX/UI_DialogueRoll_Punct-001_F06BAF76.wem"
+      "ShortName": "UI_DialogueRoll_Chef_Punct-001.wav",
+      "Path": "Media/128901487.wem",
+      "CachePath": "SFX/UI_DialogueRoll_Chef_Punct-001_F06BAF76.wem"
+     },
+     {
+      "Id": "204532031",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_Chef_Exclam-003.wav",
+      "Path": "Media/204532031.wem",
+      "CachePath": "SFX/UI_DialogueRoll_Chef_Exclam-003_F06BAF76.wem"
+     },
+     {
+      "Id": "215553672",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_Florist_AlphaNum-006.wav",
+      "Path": "Media/215553672.wem",
+      "CachePath": "SFX/UI_DialogueRoll_Florist_AlphaNum-006_F06BAF76.wem"
      },
      {
       "Id": "220222383",
@@ -61,22 +97,58 @@
       "CachePath": "SFX/UI_DialogueRoll-Tone_F06BAF76.wem"
      },
      {
-      "Id": "284491424",
+      "Id": "221014258",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "UI_DialogueRoll_AlphaNum-002.wav",
-      "Path": "Media/284491424.wem",
-      "CachePath": "SFX/UI_DialogueRoll_AlphaNum-002_F06BAF76.wem"
+      "ShortName": "UI_DialogueRoll_Chef_Punct-003.wav",
+      "Path": "Media/221014258.wem",
+      "CachePath": "SFX/UI_DialogueRoll_Chef_Punct-003_F06BAF76.wem"
      },
      {
-      "Id": "291926095",
+      "Id": "230280545",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "UI_DialogueRoll_Exclam-003.wav",
-      "Path": "Media/291926095.wem",
-      "CachePath": "SFX/UI_DialogueRoll_Exclam-003_F06BAF76.wem"
+      "ShortName": "UI_DialogueRoll_Florist_Exclam-002.wav",
+      "Path": "Media/230280545.wem",
+      "CachePath": "SFX/UI_DialogueRoll_Florist_Exclam-002_F06BAF76.wem"
+     },
+     {
+      "Id": "249627688",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_Chef_Exclam-004.wav",
+      "Path": "Media/249627688.wem",
+      "CachePath": "SFX/UI_DialogueRoll_Chef_Exclam-004_F06BAF76.wem"
+     },
+     {
+      "Id": "259102436",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_Chef_AlphaNum-002.wav",
+      "Path": "Media/259102436.wem",
+      "CachePath": "SFX/UI_DialogueRoll_Chef_AlphaNum-002_F06BAF76.wem"
+     },
+     {
+      "Id": "286078869",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_Florist_Punct-003.wav",
+      "Path": "Media/286078869.wem",
+      "CachePath": "SFX/UI_DialogueRoll_Florist_Punct-003_F06BAF76.wem"
+     },
+     {
+      "Id": "304797527",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_Chef_AlphaNum-005.wav",
+      "Path": "Media/304797527.wem",
+      "CachePath": "SFX/UI_DialogueRoll_Chef_AlphaNum-005_F06BAF76.wem"
      },
      {
       "Id": "358023881",
@@ -88,6 +160,24 @@
       "CachePath": "SFX/UI_DialogueRoll_KB-005_F06BAF76.wem"
      },
      {
+      "Id": "373152147",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_Chef_AlphaNum-007.wav",
+      "Path": "Media/373152147.wem",
+      "CachePath": "SFX/UI_DialogueRoll_Chef_AlphaNum-007_F06BAF76.wem"
+     },
+     {
+      "Id": "397005282",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_Chef_AlphaNum-004.wav",
+      "Path": "Media/397005282.wem",
+      "CachePath": "SFX/UI_DialogueRoll_Chef_AlphaNum-004_F06BAF76.wem"
+     },
+     {
       "Id": "398048133",
       "Language": "SFX",
       "Streaming": "false",
@@ -97,13 +187,13 @@
       "CachePath": "SFX/UI_DialogueRoll_KB-007_F06BAF76.wem"
      },
      {
-      "Id": "466696660",
+      "Id": "478367105",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "UI_DialogueRoll_Punct-004.wav",
-      "Path": "Media/466696660.wem",
-      "CachePath": "SFX/UI_DialogueRoll_Punct-004_F06BAF76.wem"
+      "ShortName": "UI_DialogueRoll_Florist_Punct-004.wav",
+      "Path": "Media/478367105.wem",
+      "CachePath": "SFX/UI_DialogueRoll_Florist_Punct-004_F06BAF76.wem"
      },
      {
       "Id": "539251372",
@@ -115,6 +205,15 @@
       "CachePath": "SFX/UI_DialogueRoll_KB-004_F06BAF76.wem"
      },
      {
+      "Id": "545568280",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_Florist_AlphaNum-004.wav",
+      "Path": "Media/545568280.wem",
+      "CachePath": "SFX/UI_DialogueRoll_Florist_AlphaNum-004_F06BAF76.wem"
+     },
+     {
       "Id": "612503434",
       "Language": "SFX",
       "Streaming": "false",
@@ -124,40 +223,40 @@
       "CachePath": "SFX/UI_DialogueRoll_KB-002_F06BAF76.wem"
      },
      {
-      "Id": "631092038",
+      "Id": "665201286",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "UI_DialogueRoll_AlphaNum-001.wav",
-      "Path": "Media/631092038.wem",
-      "CachePath": "SFX/UI_DialogueRoll_AlphaNum-001_F06BAF76.wem"
+      "ShortName": "UI_DialogueRoll_Florist_Exclam-004.wav",
+      "Path": "Media/665201286.wem",
+      "CachePath": "SFX/UI_DialogueRoll_Florist_Exclam-004_F06BAF76.wem"
      },
      {
-      "Id": "658697309",
+      "Id": "692589193",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "UI_DialogueRoll_Punct-002.wav",
-      "Path": "Media/658697309.wem",
-      "CachePath": "SFX/UI_DialogueRoll_Punct-002_F06BAF76.wem"
+      "ShortName": "UI_DialogueRoll_Florist_AlphaNum-002.wav",
+      "Path": "Media/692589193.wem",
+      "CachePath": "SFX/UI_DialogueRoll_Florist_AlphaNum-002_F06BAF76.wem"
      },
      {
-      "Id": "670153769",
+      "Id": "693219551",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "UI_DialogueRoll_Exclam-002.wav",
-      "Path": "Media/670153769.wem",
-      "CachePath": "SFX/UI_DialogueRoll_Exclam-002_F06BAF76.wem"
+      "ShortName": "UI_DialogueRoll_Florist_AlphaNum-005.wav",
+      "Path": "Media/693219551.wem",
+      "CachePath": "SFX/UI_DialogueRoll_Florist_AlphaNum-005_F06BAF76.wem"
      },
      {
-      "Id": "713496097",
+      "Id": "695820428",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "UI_DialogueRoll_AlphaNum-003.wav",
-      "Path": "Media/713496097.wem",
-      "CachePath": "SFX/UI_DialogueRoll_AlphaNum-003_F06BAF76.wem"
+      "ShortName": "UI_DialogueRoll_Florist_Exclam-001.wav",
+      "Path": "Media/695820428.wem",
+      "CachePath": "SFX/UI_DialogueRoll_Florist_Exclam-001_F06BAF76.wem"
      },
      {
       "Id": "739188682",
@@ -169,40 +268,58 @@
       "CachePath": "SFX/UI_DialogueRoll_KB-006_F06BAF76.wem"
      },
      {
-      "Id": "779999532",
+      "Id": "765502190",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "UI_DialogueRoll_AlphaNum-005.wav",
-      "Path": "Media/779999532.wem",
-      "CachePath": "SFX/UI_DialogueRoll_AlphaNum-005_F06BAF76.wem"
+      "ShortName": "UI_DialogueRoll_Florist_Exclam-003.wav",
+      "Path": "Media/765502190.wem",
+      "CachePath": "SFX/UI_DialogueRoll_Florist_Exclam-003_F06BAF76.wem"
      },
      {
-      "Id": "845290244",
+      "Id": "836191498",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "UI_DialogueRoll_AlphaNum-006.wav",
-      "Path": "Media/845290244.wem",
-      "CachePath": "SFX/UI_DialogueRoll_AlphaNum-006_F06BAF76.wem"
+      "ShortName": "UI_DialogueRoll_Florist_Punct-002.wav",
+      "Path": "Media/836191498.wem",
+      "CachePath": "SFX/UI_DialogueRoll_Florist_Punct-002_F06BAF76.wem"
      },
      {
-      "Id": "908574443",
+      "Id": "864563100",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "UI_DialogueRoll_AlphaNum-004.wav",
-      "Path": "Media/908574443.wem",
-      "CachePath": "SFX/UI_DialogueRoll_AlphaNum-004_F06BAF76.wem"
+      "ShortName": "UI_DialogueRoll_Chef_Punct-004.wav",
+      "Path": "Media/864563100.wem",
+      "CachePath": "SFX/UI_DialogueRoll_Chef_Punct-004_F06BAF76.wem"
      },
      {
-      "Id": "923228505",
+      "Id": "927183099",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "UI_DialogueRoll_Punct-003.wav",
-      "Path": "Media/923228505.wem",
-      "CachePath": "SFX/UI_DialogueRoll_Punct-003_F06BAF76.wem"
+      "ShortName": "UI_DialogueRoll_Chef_AlphaNum-001.wav",
+      "Path": "Media/927183099.wem",
+      "CachePath": "SFX/UI_DialogueRoll_Chef_AlphaNum-001_F06BAF76.wem"
+     },
+     {
+      "Id": "961528444",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_Chef_AlphaNum-003.wav",
+      "Path": "Media/961528444.wem",
+      "CachePath": "SFX/UI_DialogueRoll_Chef_AlphaNum-003_F06BAF76.wem"
+     },
+     {
+      "Id": "981229866",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_Chef_Exclam-001.wav",
+      "Path": "Media/981229866.wem",
+      "CachePath": "SFX/UI_DialogueRoll_Chef_Exclam-001_F06BAF76.wem"
      },
      {
       "Id": "1021079182",
@@ -212,6 +329,24 @@
       "ShortName": "UI_DialogueRoll_KB-003.wav",
       "Path": "Media/1021079182.wem",
       "CachePath": "SFX/UI_DialogueRoll_KB-003_F06BAF76.wem"
+     },
+     {
+      "Id": "1050099795",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_Florist_AlphaNum-003.wav",
+      "Path": "Media/1050099795.wem",
+      "CachePath": "SFX/UI_DialogueRoll_Florist_AlphaNum-003_F06BAF76.wem"
+     },
+     {
+      "Id": "1058720332",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_Chef_Punct-002.wav",
+      "Path": "Media/1058720332.wem",
+      "CachePath": "SFX/UI_DialogueRoll_Chef_Punct-002_F06BAF76.wem"
      }
     ],
     "Events": [
@@ -268,16 +403,16 @@
           },
           "MediaRefs": [
            {
-            "Id": "209701942"
+            "Id": "27527582"
            },
            {
-            "Id": "466696660"
+            "Id": "286078869"
            },
            {
-            "Id": "658697309"
+            "Id": "478367105"
            },
            {
-            "Id": "923228505"
+            "Id": "836191498"
            }
           ]
          },
@@ -290,16 +425,16 @@
           },
           "MediaRefs": [
            {
-            "Id": "45314652"
+            "Id": "230280545"
            },
            {
-            "Id": "61285951"
+            "Id": "665201286"
            },
            {
-            "Id": "291926095"
+            "Id": "695820428"
            },
            {
-            "Id": "670153769"
+            "Id": "765502190"
            }
           ]
          },
@@ -313,22 +448,108 @@
           },
           "MediaRefs": [
            {
-            "Id": "284491424"
+            "Id": "47903912"
            },
            {
-            "Id": "631092038"
+            "Id": "215553672"
            },
            {
-            "Id": "713496097"
+            "Id": "545568280"
            },
            {
-            "Id": "779999532"
+            "Id": "692589193"
            },
            {
-            "Id": "845290244"
+            "Id": "693219551"
            },
            {
-            "Id": "908574443"
+            "Id": "1050099795"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "556509116",
+         "Id": "4073193669",
+         "GUID": "{AE88FCEC-5377-4D58-A611-C1A179957653}"
+        },
+        "Children": [
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "1868339219",
+           "Id": "302264719",
+           "GUID": "{2D29CF13-CE81-45CB-8C91-8ECCA5AD221B}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "128901487"
+           },
+           {
+            "Id": "221014258"
+           },
+           {
+            "Id": "864563100"
+           },
+           {
+            "Id": "1058720332"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "1868339219",
+           "Id": "2265253536",
+           "GUID": "{A062FAC7-A9C2-45E2-9C04-2947724AABB0}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "74110002"
+           },
+           {
+            "Id": "204532031"
+           },
+           {
+            "Id": "249627688"
+           },
+           {
+            "Id": "981229866"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "1868339219",
+           "Id": "3758199925",
+           "GUID": "{A83AA4F8-6800-4019-B11D-E7064840BDA4}",
+           "Default": "true"
+          },
+          "MediaRefs": [
+           {
+            "Id": "112816640"
+           },
+           {
+            "Id": "259102436"
+           },
+           {
+            "Id": "304797527"
+           },
+           {
+            "Id": "373152147"
+           },
+           {
+            "Id": "397005282"
+           },
+           {
+            "Id": "927183099"
+           },
+           {
+            "Id": "961528444"
            }
           ]
          }
@@ -399,6 +620,6 @@
     ]
    }
   ],
-  "FileHash": "{ADEA4E46-F4E6-AD19-1280-EE8F277A581F}"
+  "FileHash": "{A7B1EE00-CB91-7875-55C4-687AEB173A97}"
  }
 }
