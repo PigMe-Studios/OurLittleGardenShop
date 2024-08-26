@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3594163308" Type="Event" GUID="{3EE8C705-3D1F-4FFD-B442-1A949068B8B8}" Language="SFX" Hash="{CBC4DFA2-5BAA-0CB8-F18D-28E321E0A409}">
+		<SoundBank Id="3594163308" Type="Event" GUID="{3EE8C705-3D1F-4FFD-B442-1A949068B8B8}" Language="SFX" Hash="{B1E3DCF7-ED5C-90E3-EF64-4F417F078CD4}">
 			<ObjectPath>Play_UI_DialogueRoll</ObjectPath>
 			<ShortName>Play_UI_DialogueRoll</ShortName>
 			<Path>Event/Play_UI_DialogueRoll.bnk</Path>
@@ -296,5 +296,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{45398624-B906-0F19-BB74-4FC8A8944C04}</FileHash>
+	<FileHash>{419DF510-483F-F302-0D35-25E7273D9A6D}</FileHash>
 </SoundBanksInfo>
