@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3594163308" Type="Event" GUID="{3EE8C705-3D1F-4FFD-B442-1A949068B8B8}" Language="SFX" Hash="{9C92A4EB-126E-569B-2D24-63B996F74436}">
+		<SoundBank Id="3594163308" Type="Event" GUID="{3EE8C705-3D1F-4FFD-B442-1A949068B8B8}" Language="SFX" Hash="{15D18876-346D-A53F-9AA4-2FDE0FF331CE}">
 			<ObjectPath>Play_UI_DialogueRoll</ObjectPath>
 			<ShortName>Play_UI_DialogueRoll</ShortName>
 			<Path>Event/Play_UI_DialogueRoll.bnk</Path>
@@ -91,6 +91,16 @@
 					<Path>Media/739188682.wem</Path>
 					<CachePath>SFX/UI_DialogueRoll_KB-006_F06BAF76.wem</CachePath>
 				</File>
+				<File Id="779999532" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_DialogueRoll_AlphaNum-005.wav</ShortName>
+					<Path>Media/779999532.wem</Path>
+					<CachePath>SFX/UI_DialogueRoll_AlphaNum-005_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="845290244" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_DialogueRoll_AlphaNum-006.wav</ShortName>
+					<Path>Media/845290244.wem</Path>
+					<CachePath>SFX/UI_DialogueRoll_AlphaNum-006_F06BAF76.wem</CachePath>
+				</File>
 				<File Id="908574443" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>UI_DialogueRoll_AlphaNum-004.wav</ShortName>
 					<Path>Media/908574443.wem</Path>
@@ -147,6 +157,8 @@
 										<MediaRef Id="284491424"/>
 										<MediaRef Id="631092038"/>
 										<MediaRef Id="713496097"/>
+										<MediaRef Id="779999532"/>
+										<MediaRef Id="845290244"/>
 										<MediaRef Id="908574443"/>
 									</MediaRefs>
 								</SwitchContainer>
@@ -174,5 +186,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{659753C9-A2D3-2982-F63D-4D769A56258C}</FileHash>
+	<FileHash>{9673BAC3-CE30-C09A-FEE8-8FE866DC03F7}</FileHash>
 </SoundBanksInfo>

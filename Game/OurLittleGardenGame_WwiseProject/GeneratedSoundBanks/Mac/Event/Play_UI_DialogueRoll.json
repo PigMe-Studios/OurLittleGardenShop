@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{3EE8C705-3D1F-4FFD-B442-1A949068B8B8}",
     "Language": "SFX",
-    "Hash": "{9C92A4EB-126E-569B-2D24-63B996F74436}",
+    "Hash": "{15D18876-346D-A53F-9AA4-2FDE0FF331CE}",
     "ObjectPath": "Play_UI_DialogueRoll",
     "ShortName": "Play_UI_DialogueRoll",
     "Path": "Event/Play_UI_DialogueRoll.bnk",
@@ -169,6 +169,24 @@
       "CachePath": "SFX/UI_DialogueRoll_KB-006_F06BAF76.wem"
      },
      {
+      "Id": "779999532",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_AlphaNum-005.wav",
+      "Path": "Media/779999532.wem",
+      "CachePath": "SFX/UI_DialogueRoll_AlphaNum-005_F06BAF76.wem"
+     },
+     {
+      "Id": "845290244",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_AlphaNum-006.wav",
+      "Path": "Media/845290244.wem",
+      "CachePath": "SFX/UI_DialogueRoll_AlphaNum-006_F06BAF76.wem"
+     },
+     {
       "Id": "908574443",
       "Language": "SFX",
       "Streaming": "false",
@@ -304,6 +322,12 @@
             "Id": "713496097"
            },
            {
+            "Id": "779999532"
+           },
+           {
+            "Id": "845290244"
+           },
+           {
             "Id": "908574443"
            }
           ]
@@ -375,6 +399,6 @@
     ]
    }
   ],
-  "FileHash": "{B271A7FD-201F-BE5F-EE90-7E786C6295A3}"
+  "FileHash": "{ADEA4E46-F4E6-AD19-1280-EE8F277A581F}"
  }
 }

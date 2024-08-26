@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2894209661",
+    "Type": "Event",
+    "GUID": "{56A8363B-3D8F-4F8B-963B-6490AE50C4CD}",
+    "Language": "SFX",
+    "Hash": "{9438EA3E-82EF-D6B3-770C-9BB18D3EDE59}",
+    "ObjectPath": "Play_Env_Taperoll_CompleteOrder",
+    "ShortName": "Play_Env_Taperoll_CompleteOrder",
+    "Path": "Event/Play_Env_Taperoll_CompleteOrder.bnk",
+    "Media": [
+     {
+      "Id": "416847368",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Taperoll-CompleteOrder-001.wav",
+      "Path": "Media/416847368.wem",
+      "CachePath": "SFX/Env_Taperoll-CompleteOrder-001_F06BAF76.wem"
+     },
+     {
+      "Id": "754152263",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Taperoll-CompleteOrder-002.wav",
+      "Path": "Media/754152263.wem",
+      "CachePath": "SFX/Env_Taperoll-CompleteOrder-002_F06BAF76.wem"
+     },
+     {
+      "Id": "822603994",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Taperoll-CompleteOrder-003.wav",
+      "Path": "Media/822603994.wem",
+      "CachePath": "SFX/Env_Taperoll-CompleteOrder-003_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2894209661",
+      "Name": "Play_Env_Taperoll_CompleteOrder",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_Taperoll_CompleteOrder",
+      "GUID": "{56A8363B-3D8F-4F8B-963B-6490AE50C4CD}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.8877485",
+      "DurationMax": "2.1189263",
+      "MediaRefs": [
+       {
+        "Id": "416847368"
+       },
+       {
+        "Id": "754152263"
+       },
+       {
+        "Id": "822603994"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{2586124B-9320-8FEA-ADEB-27CE3211BA2E}"
+ }
+}

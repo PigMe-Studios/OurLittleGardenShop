@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3973484368" Type="Event" GUID="{50DCD0C8-6FCC-426B-A210-E305A2391545}" Language="SFX" Hash="{FC9B8C89-9AAF-069D-B3A8-6C60F861B738}">
+			<ObjectPath>Play_Env_Taperoll_Interact</ObjectPath>
+			<ShortName>Play_Env_Taperoll_Interact</ShortName>
+			<Path>Event/Play_Env_Taperoll_Interact.bnk</Path>
+			<Media>
+				<File Id="236508583" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Taperoll-Interact-002.wav</ShortName>
+					<Path>Media/236508583.wem</Path>
+					<CachePath>SFX/Env_Taperoll-Interact-002_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="348279081" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Taperoll-Interact-001.wav</ShortName>
+					<Path>Media/348279081.wem</Path>
+					<CachePath>SFX/Env_Taperoll-Interact-001_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="523467876" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Taperoll-Interact-003.wav</ShortName>
+					<Path>Media/523467876.wem</Path>
+					<CachePath>SFX/Env_Taperoll-Interact-003_F06BAF76.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3973484368" Name="Play_Env_Taperoll_Interact" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_Taperoll_Interact" GUID="{50DCD0C8-6FCC-426B-A210-E305A2391545}" DurationType="OneShot" DurationMin="0.94387424" DurationMax="1.0594631">
+					<MediaRefs>
+						<MediaRef Id="236508583"/>
+						<MediaRef Id="348279081"/>
+						<MediaRef Id="523467876"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{964CC844-A01D-EC75-1A8F-EBDB85B2EA87}</FileHash>
+</SoundBanksInfo>

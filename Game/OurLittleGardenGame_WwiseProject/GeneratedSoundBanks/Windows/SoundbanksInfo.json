@@ -1192,6 +1192,67 @@
     ]
    },
    {
+    "Id": "1832498624",
+    "Type": "Event",
+    "GUID": "{3C203139-541E-4D6E-BA25-A80B7FB56A6D}",
+    "Language": "SFX",
+    "Hash": "{88AD6704-BFFB-DD69-490C-9C76043CBAE2}",
+    "ObjectPath": "Play_Env_Taperoll_Hover",
+    "ShortName": "Play_Env_Taperoll_Hover",
+    "Path": "Event/Play_Env_Taperoll_Hover.bnk",
+    "Media": [
+     {
+      "Id": "227932799",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Taperoll-Hover-002.wav",
+      "Path": "Media/227932799.wem",
+      "CachePath": "SFX/Env_Taperoll-Hover-002_F06BAF76.wem"
+     },
+     {
+      "Id": "577638899",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Taperoll-Hover-001.wav",
+      "Path": "Media/577638899.wem",
+      "CachePath": "SFX/Env_Taperoll-Hover-001_F06BAF76.wem"
+     },
+     {
+      "Id": "784050180",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Taperoll-Hover-003.wav",
+      "Path": "Media/784050180.wem",
+      "CachePath": "SFX/Env_Taperoll-Hover-003_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1832498624",
+      "Name": "Play_Env_Taperoll_Hover",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_Taperoll_Hover",
+      "GUID": "{3C203139-541E-4D6E-BA25-A80B7FB56A6D}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.94387424",
+      "DurationMax": "1.0594631",
+      "MediaRefs": [
+       {
+        "Id": "227932799"
+       },
+       {
+        "Id": "577638899"
+       },
+       {
+        "Id": "784050180"
+       }
+      ]
+     }
+    ]
+   },
+   {
     "Id": "2134647096",
     "Type": "Event",
     "GUID": "{3C643E1F-37F2-4057-9482-2AEC4B9251E2}",
@@ -1429,6 +1490,67 @@
        },
        {
         "Id": "867440051"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "2894209661",
+    "Type": "Event",
+    "GUID": "{56A8363B-3D8F-4F8B-963B-6490AE50C4CD}",
+    "Language": "SFX",
+    "Hash": "{9438EA3E-82EF-D6B3-770C-9BB18D3EDE59}",
+    "ObjectPath": "Play_Env_Taperoll_CompleteOrder",
+    "ShortName": "Play_Env_Taperoll_CompleteOrder",
+    "Path": "Event/Play_Env_Taperoll_CompleteOrder.bnk",
+    "Media": [
+     {
+      "Id": "416847368",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Taperoll-CompleteOrder-001.wav",
+      "Path": "Media/416847368.wem",
+      "CachePath": "SFX/Env_Taperoll-CompleteOrder-001_F06BAF76.wem"
+     },
+     {
+      "Id": "754152263",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Taperoll-CompleteOrder-002.wav",
+      "Path": "Media/754152263.wem",
+      "CachePath": "SFX/Env_Taperoll-CompleteOrder-002_F06BAF76.wem"
+     },
+     {
+      "Id": "822603994",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Taperoll-CompleteOrder-003.wav",
+      "Path": "Media/822603994.wem",
+      "CachePath": "SFX/Env_Taperoll-CompleteOrder-003_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2894209661",
+      "Name": "Play_Env_Taperoll_CompleteOrder",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_Taperoll_CompleteOrder",
+      "GUID": "{56A8363B-3D8F-4F8B-963B-6490AE50C4CD}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.8877485",
+      "DurationMax": "2.1189263",
+      "MediaRefs": [
+       {
+        "Id": "416847368"
+       },
+       {
+        "Id": "754152263"
+       },
+       {
+        "Id": "822603994"
        }
       ]
      }
@@ -1804,7 +1926,7 @@
     "Type": "Event",
     "GUID": "{3EE8C705-3D1F-4FFD-B442-1A949068B8B8}",
     "Language": "SFX",
-    "Hash": "{9C92A4EB-126E-569B-2D24-63B996F74436}",
+    "Hash": "{15D18876-346D-A53F-9AA4-2FDE0FF331CE}",
     "ObjectPath": "Play_UI_DialogueRoll",
     "ShortName": "Play_UI_DialogueRoll",
     "Path": "Event/Play_UI_DialogueRoll.bnk",
@@ -1963,6 +2085,24 @@
       "CachePath": "SFX/UI_DialogueRoll_KB-006_F06BAF76.wem"
      },
      {
+      "Id": "779999532",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_AlphaNum-005.wav",
+      "Path": "Media/779999532.wem",
+      "CachePath": "SFX/UI_DialogueRoll_AlphaNum-005_F06BAF76.wem"
+     },
+     {
+      "Id": "845290244",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_AlphaNum-006.wav",
+      "Path": "Media/845290244.wem",
+      "CachePath": "SFX/UI_DialogueRoll_AlphaNum-006_F06BAF76.wem"
+     },
+     {
       "Id": "908574443",
       "Language": "SFX",
       "Streaming": "false",
@@ -2096,6 +2236,12 @@
            },
            {
             "Id": "713496097"
+           },
+           {
+            "Id": "779999532"
+           },
+           {
+            "Id": "845290244"
            },
            {
             "Id": "908574443"
@@ -2388,6 +2534,67 @@
     ]
    },
    {
+    "Id": "3973484368",
+    "Type": "Event",
+    "GUID": "{50DCD0C8-6FCC-426B-A210-E305A2391545}",
+    "Language": "SFX",
+    "Hash": "{FC9B8C89-9AAF-069D-B3A8-6C60F861B738}",
+    "ObjectPath": "Play_Env_Taperoll_Interact",
+    "ShortName": "Play_Env_Taperoll_Interact",
+    "Path": "Event/Play_Env_Taperoll_Interact.bnk",
+    "Media": [
+     {
+      "Id": "236508583",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Taperoll-Interact-002.wav",
+      "Path": "Media/236508583.wem",
+      "CachePath": "SFX/Env_Taperoll-Interact-002_F06BAF76.wem"
+     },
+     {
+      "Id": "348279081",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Taperoll-Interact-001.wav",
+      "Path": "Media/348279081.wem",
+      "CachePath": "SFX/Env_Taperoll-Interact-001_F06BAF76.wem"
+     },
+     {
+      "Id": "523467876",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Taperoll-Interact-003.wav",
+      "Path": "Media/523467876.wem",
+      "CachePath": "SFX/Env_Taperoll-Interact-003_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3973484368",
+      "Name": "Play_Env_Taperoll_Interact",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_Taperoll_Interact",
+      "GUID": "{50DCD0C8-6FCC-426B-A210-E305A2391545}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.94387424",
+      "DurationMax": "1.0594631",
+      "MediaRefs": [
+       {
+        "Id": "236508583"
+       },
+       {
+        "Id": "348279081"
+       },
+       {
+        "Id": "523467876"
+       }
+      ]
+     }
+    ]
+   },
+   {
     "Id": "4197296339",
     "Type": "Event",
     "GUID": "{71B80328-F9C6-4369-B305-497B7553A0A1}",
@@ -2616,6 +2823,6 @@
     ]
    }
   ],
-  "FileHash": "{71C1F49D-3EAE-6017-B0C6-B58A49D2C37F}"
+  "FileHash": "{490C5672-5156-FF7E-ECFD-DE1A798A74BF}"
  }
 }
