@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{0BD2D1A1-0243-48E3-A287-47F3A167D113}",
     "Language": "SFX",
-    "Hash": "{1D52D5D6-6029-D7E9-826F-23B206EE663A}",
+    "Hash": "{8CCF7020-7FDC-A131-4ED4-5D094D54E5AE}",
     "ObjectPath": "Play_Mus_Tones",
     "ShortName": "Play_Mus_Tones",
     "Path": "Event/Play_Mus_Tones.bnk",
@@ -91,6 +91,6 @@
     ]
    }
   ],
-  "FileHash": "{A3760577-9780-D1C8-81B3-6AFC4B96515A}"
+  "FileHash": "{923B1DF6-1F45-06F2-BF82-0500592B3EF0}"
  }
 }

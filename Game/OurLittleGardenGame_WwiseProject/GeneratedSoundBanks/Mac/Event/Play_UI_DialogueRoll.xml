@@ -1,110 +1,195 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3594163308" Type="Event" GUID="{3EE8C705-3D1F-4FFD-B442-1A949068B8B8}" Language="SFX" Hash="{9C92A4EB-126E-569B-2D24-63B996F74436}">
+		<SoundBank Id="3594163308" Type="Event" GUID="{3EE8C705-3D1F-4FFD-B442-1A949068B8B8}" Language="SFX" Hash="{B1E3DCF7-ED5C-90E3-EF64-4F417F078CD4}">
 			<ObjectPath>Play_UI_DialogueRoll</ObjectPath>
 			<ShortName>Play_UI_DialogueRoll</ShortName>
 			<Path>Event/Play_UI_DialogueRoll.bnk</Path>
 			<Media>
-				<File Id="45314652" Language="SFX" Streaming="false" Location="Loose">
-					<ShortName>UI_DialogueRoll_Exclam-001.wav</ShortName>
-					<Path>Media/45314652.wem</Path>
-					<CachePath>SFX/UI_DialogueRoll_Exclam-001_F06BAF76.wem</CachePath>
+				<File Id="27527582" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_DialogueRoll_Florist_Punct-001.wav</ShortName>
+					<Path>Media/27527582.wem</Path>
+					<CachePath>SFX/UI_DialogueRoll_Florist_Punct-001_F06BAF76.wem</CachePath>
 				</File>
-				<File Id="61285951" Language="SFX" Streaming="false" Location="Loose">
-					<ShortName>UI_DialogueRoll_Exclam-004.wav</ShortName>
-					<Path>Media/61285951.wem</Path>
-					<CachePath>SFX/UI_DialogueRoll_Exclam-004_F06BAF76.wem</CachePath>
+				<File Id="47903912" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_DialogueRoll_Florist_AlphaNum-001.wav</ShortName>
+					<Path>Media/47903912.wem</Path>
+					<CachePath>SFX/UI_DialogueRoll_Florist_AlphaNum-001_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="74110002" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_DialogueRoll_Chef_Exclam-002.wav</ShortName>
+					<Path>Media/74110002.wem</Path>
+					<CachePath>SFX/UI_DialogueRoll_Chef_Exclam-002_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="112816640" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_DialogueRoll_Chef_AlphaNum-006.wav</ShortName>
+					<Path>Media/112816640.wem</Path>
+					<CachePath>SFX/UI_DialogueRoll_Chef_AlphaNum-006_F06BAF76.wem</CachePath>
 				</File>
 				<File Id="125470387" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>UI_DialogueRoll_KB-001.wav</ShortName>
 					<Path>Media/125470387.wem</Path>
 					<CachePath>SFX/UI_DialogueRoll_KB-001_F06BAF76.wem</CachePath>
 				</File>
-				<File Id="209701942" Language="SFX" Streaming="false" Location="Loose">
-					<ShortName>UI_DialogueRoll_Punct-001.wav</ShortName>
-					<Path>Media/209701942.wem</Path>
-					<CachePath>SFX/UI_DialogueRoll_Punct-001_F06BAF76.wem</CachePath>
+				<File Id="128901487" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_DialogueRoll_Chef_Punct-001.wav</ShortName>
+					<Path>Media/128901487.wem</Path>
+					<CachePath>SFX/UI_DialogueRoll_Chef_Punct-001_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="204532031" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_DialogueRoll_Chef_Exclam-003.wav</ShortName>
+					<Path>Media/204532031.wem</Path>
+					<CachePath>SFX/UI_DialogueRoll_Chef_Exclam-003_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="215553672" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_DialogueRoll_Florist_AlphaNum-006.wav</ShortName>
+					<Path>Media/215553672.wem</Path>
+					<CachePath>SFX/UI_DialogueRoll_Florist_AlphaNum-006_F06BAF76.wem</CachePath>
 				</File>
 				<File Id="220222383" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>UI_DialogueRoll-Tone.wav</ShortName>
 					<Path>Media/220222383.wem</Path>
 					<CachePath>SFX/UI_DialogueRoll-Tone_F06BAF76.wem</CachePath>
 				</File>
-				<File Id="284491424" Language="SFX" Streaming="false" Location="Loose">
-					<ShortName>UI_DialogueRoll_AlphaNum-002.wav</ShortName>
-					<Path>Media/284491424.wem</Path>
-					<CachePath>SFX/UI_DialogueRoll_AlphaNum-002_F06BAF76.wem</CachePath>
+				<File Id="221014258" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_DialogueRoll_Chef_Punct-003.wav</ShortName>
+					<Path>Media/221014258.wem</Path>
+					<CachePath>SFX/UI_DialogueRoll_Chef_Punct-003_F06BAF76.wem</CachePath>
 				</File>
-				<File Id="291926095" Language="SFX" Streaming="false" Location="Loose">
-					<ShortName>UI_DialogueRoll_Exclam-003.wav</ShortName>
-					<Path>Media/291926095.wem</Path>
-					<CachePath>SFX/UI_DialogueRoll_Exclam-003_F06BAF76.wem</CachePath>
+				<File Id="230280545" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_DialogueRoll_Florist_Exclam-002.wav</ShortName>
+					<Path>Media/230280545.wem</Path>
+					<CachePath>SFX/UI_DialogueRoll_Florist_Exclam-002_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="249627688" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_DialogueRoll_Chef_Exclam-004.wav</ShortName>
+					<Path>Media/249627688.wem</Path>
+					<CachePath>SFX/UI_DialogueRoll_Chef_Exclam-004_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="259102436" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_DialogueRoll_Chef_AlphaNum-002.wav</ShortName>
+					<Path>Media/259102436.wem</Path>
+					<CachePath>SFX/UI_DialogueRoll_Chef_AlphaNum-002_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="286078869" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_DialogueRoll_Florist_Punct-003.wav</ShortName>
+					<Path>Media/286078869.wem</Path>
+					<CachePath>SFX/UI_DialogueRoll_Florist_Punct-003_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="304797527" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_DialogueRoll_Chef_AlphaNum-005.wav</ShortName>
+					<Path>Media/304797527.wem</Path>
+					<CachePath>SFX/UI_DialogueRoll_Chef_AlphaNum-005_F06BAF76.wem</CachePath>
 				</File>
 				<File Id="358023881" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>UI_DialogueRoll_KB-005.wav</ShortName>
 					<Path>Media/358023881.wem</Path>
 					<CachePath>SFX/UI_DialogueRoll_KB-005_F06BAF76.wem</CachePath>
 				</File>
+				<File Id="373152147" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_DialogueRoll_Chef_AlphaNum-007.wav</ShortName>
+					<Path>Media/373152147.wem</Path>
+					<CachePath>SFX/UI_DialogueRoll_Chef_AlphaNum-007_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="397005282" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_DialogueRoll_Chef_AlphaNum-004.wav</ShortName>
+					<Path>Media/397005282.wem</Path>
+					<CachePath>SFX/UI_DialogueRoll_Chef_AlphaNum-004_F06BAF76.wem</CachePath>
+				</File>
 				<File Id="398048133" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>UI_DialogueRoll_KB-007.wav</ShortName>
 					<Path>Media/398048133.wem</Path>
 					<CachePath>SFX/UI_DialogueRoll_KB-007_F06BAF76.wem</CachePath>
 				</File>
-				<File Id="466696660" Language="SFX" Streaming="false" Location="Loose">
-					<ShortName>UI_DialogueRoll_Punct-004.wav</ShortName>
-					<Path>Media/466696660.wem</Path>
-					<CachePath>SFX/UI_DialogueRoll_Punct-004_F06BAF76.wem</CachePath>
+				<File Id="478367105" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_DialogueRoll_Florist_Punct-004.wav</ShortName>
+					<Path>Media/478367105.wem</Path>
+					<CachePath>SFX/UI_DialogueRoll_Florist_Punct-004_F06BAF76.wem</CachePath>
 				</File>
 				<File Id="539251372" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>UI_DialogueRoll_KB-004.wav</ShortName>
 					<Path>Media/539251372.wem</Path>
 					<CachePath>SFX/UI_DialogueRoll_KB-004_F06BAF76.wem</CachePath>
 				</File>
+				<File Id="545568280" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_DialogueRoll_Florist_AlphaNum-004.wav</ShortName>
+					<Path>Media/545568280.wem</Path>
+					<CachePath>SFX/UI_DialogueRoll_Florist_AlphaNum-004_F06BAF76.wem</CachePath>
+				</File>
 				<File Id="612503434" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>UI_DialogueRoll_KB-002.wav</ShortName>
 					<Path>Media/612503434.wem</Path>
 					<CachePath>SFX/UI_DialogueRoll_KB-002_F06BAF76.wem</CachePath>
 				</File>
-				<File Id="631092038" Language="SFX" Streaming="false" Location="Loose">
-					<ShortName>UI_DialogueRoll_AlphaNum-001.wav</ShortName>
-					<Path>Media/631092038.wem</Path>
-					<CachePath>SFX/UI_DialogueRoll_AlphaNum-001_F06BAF76.wem</CachePath>
+				<File Id="665201286" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_DialogueRoll_Florist_Exclam-004.wav</ShortName>
+					<Path>Media/665201286.wem</Path>
+					<CachePath>SFX/UI_DialogueRoll_Florist_Exclam-004_F06BAF76.wem</CachePath>
 				</File>
-				<File Id="658697309" Language="SFX" Streaming="false" Location="Loose">
-					<ShortName>UI_DialogueRoll_Punct-002.wav</ShortName>
-					<Path>Media/658697309.wem</Path>
-					<CachePath>SFX/UI_DialogueRoll_Punct-002_F06BAF76.wem</CachePath>
+				<File Id="692589193" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_DialogueRoll_Florist_AlphaNum-002.wav</ShortName>
+					<Path>Media/692589193.wem</Path>
+					<CachePath>SFX/UI_DialogueRoll_Florist_AlphaNum-002_F06BAF76.wem</CachePath>
 				</File>
-				<File Id="670153769" Language="SFX" Streaming="false" Location="Loose">
-					<ShortName>UI_DialogueRoll_Exclam-002.wav</ShortName>
-					<Path>Media/670153769.wem</Path>
-					<CachePath>SFX/UI_DialogueRoll_Exclam-002_F06BAF76.wem</CachePath>
+				<File Id="693219551" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_DialogueRoll_Florist_AlphaNum-005.wav</ShortName>
+					<Path>Media/693219551.wem</Path>
+					<CachePath>SFX/UI_DialogueRoll_Florist_AlphaNum-005_F06BAF76.wem</CachePath>
 				</File>
-				<File Id="713496097" Language="SFX" Streaming="false" Location="Loose">
-					<ShortName>UI_DialogueRoll_AlphaNum-003.wav</ShortName>
-					<Path>Media/713496097.wem</Path>
-					<CachePath>SFX/UI_DialogueRoll_AlphaNum-003_F06BAF76.wem</CachePath>
+				<File Id="695820428" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_DialogueRoll_Florist_Exclam-001.wav</ShortName>
+					<Path>Media/695820428.wem</Path>
+					<CachePath>SFX/UI_DialogueRoll_Florist_Exclam-001_F06BAF76.wem</CachePath>
 				</File>
 				<File Id="739188682" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>UI_DialogueRoll_KB-006.wav</ShortName>
 					<Path>Media/739188682.wem</Path>
 					<CachePath>SFX/UI_DialogueRoll_KB-006_F06BAF76.wem</CachePath>
 				</File>
-				<File Id="908574443" Language="SFX" Streaming="false" Location="Loose">
-					<ShortName>UI_DialogueRoll_AlphaNum-004.wav</ShortName>
-					<Path>Media/908574443.wem</Path>
-					<CachePath>SFX/UI_DialogueRoll_AlphaNum-004_F06BAF76.wem</CachePath>
+				<File Id="765502190" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_DialogueRoll_Florist_Exclam-003.wav</ShortName>
+					<Path>Media/765502190.wem</Path>
+					<CachePath>SFX/UI_DialogueRoll_Florist_Exclam-003_F06BAF76.wem</CachePath>
 				</File>
-				<File Id="923228505" Language="SFX" Streaming="false" Location="Loose">
-					<ShortName>UI_DialogueRoll_Punct-003.wav</ShortName>
-					<Path>Media/923228505.wem</Path>
-					<CachePath>SFX/UI_DialogueRoll_Punct-003_F06BAF76.wem</CachePath>
+				<File Id="836191498" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_DialogueRoll_Florist_Punct-002.wav</ShortName>
+					<Path>Media/836191498.wem</Path>
+					<CachePath>SFX/UI_DialogueRoll_Florist_Punct-002_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="864563100" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_DialogueRoll_Chef_Punct-004.wav</ShortName>
+					<Path>Media/864563100.wem</Path>
+					<CachePath>SFX/UI_DialogueRoll_Chef_Punct-004_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="927183099" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_DialogueRoll_Chef_AlphaNum-001.wav</ShortName>
+					<Path>Media/927183099.wem</Path>
+					<CachePath>SFX/UI_DialogueRoll_Chef_AlphaNum-001_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="961528444" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_DialogueRoll_Chef_AlphaNum-003.wav</ShortName>
+					<Path>Media/961528444.wem</Path>
+					<CachePath>SFX/UI_DialogueRoll_Chef_AlphaNum-003_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="981229866" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_DialogueRoll_Chef_Exclam-001.wav</ShortName>
+					<Path>Media/981229866.wem</Path>
+					<CachePath>SFX/UI_DialogueRoll_Chef_Exclam-001_F06BAF76.wem</CachePath>
 				</File>
 				<File Id="1021079182" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>UI_DialogueRoll_KB-003.wav</ShortName>
 					<Path>Media/1021079182.wem</Path>
 					<CachePath>SFX/UI_DialogueRoll_KB-003_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="1050099795" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_DialogueRoll_Florist_AlphaNum-003.wav</ShortName>
+					<Path>Media/1050099795.wem</Path>
+					<CachePath>SFX/UI_DialogueRoll_Florist_AlphaNum-003_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="1058720332" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_DialogueRoll_Chef_Punct-002.wav</ShortName>
+					<Path>Media/1058720332.wem</Path>
+					<CachePath>SFX/UI_DialogueRoll_Chef_Punct-002_F06BAF76.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -126,28 +211,65 @@
 								<SwitchContainer>
 									<SwitchValue GroupType="Switch" GroupId="1868339219" Id="302264719" GUID="{2D29CF13-CE81-45CB-8C91-8ECCA5AD221B}"/>
 									<MediaRefs>
-										<MediaRef Id="209701942"/>
-										<MediaRef Id="466696660"/>
-										<MediaRef Id="658697309"/>
-										<MediaRef Id="923228505"/>
+										<MediaRef Id="27527582"/>
+										<MediaRef Id="286078869"/>
+										<MediaRef Id="478367105"/>
+										<MediaRef Id="836191498"/>
 									</MediaRefs>
 								</SwitchContainer>
 								<SwitchContainer>
 									<SwitchValue GroupType="Switch" GroupId="1868339219" Id="2265253536" GUID="{A062FAC7-A9C2-45E2-9C04-2947724AABB0}"/>
 									<MediaRefs>
-										<MediaRef Id="45314652"/>
-										<MediaRef Id="61285951"/>
-										<MediaRef Id="291926095"/>
-										<MediaRef Id="670153769"/>
+										<MediaRef Id="230280545"/>
+										<MediaRef Id="665201286"/>
+										<MediaRef Id="695820428"/>
+										<MediaRef Id="765502190"/>
 									</MediaRefs>
 								</SwitchContainer>
 								<SwitchContainer>
 									<SwitchValue GroupType="Switch" GroupId="1868339219" Id="3758199925" GUID="{A83AA4F8-6800-4019-B11D-E7064840BDA4}" Default="true"/>
 									<MediaRefs>
-										<MediaRef Id="284491424"/>
-										<MediaRef Id="631092038"/>
-										<MediaRef Id="713496097"/>
-										<MediaRef Id="908574443"/>
+										<MediaRef Id="47903912"/>
+										<MediaRef Id="215553672"/>
+										<MediaRef Id="545568280"/>
+										<MediaRef Id="692589193"/>
+										<MediaRef Id="693219551"/>
+										<MediaRef Id="1050099795"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="556509116" Id="4073193669" GUID="{AE88FCEC-5377-4D58-A611-C1A179957653}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="1868339219" Id="302264719" GUID="{2D29CF13-CE81-45CB-8C91-8ECCA5AD221B}"/>
+									<MediaRefs>
+										<MediaRef Id="128901487"/>
+										<MediaRef Id="221014258"/>
+										<MediaRef Id="864563100"/>
+										<MediaRef Id="1058720332"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="1868339219" Id="2265253536" GUID="{A062FAC7-A9C2-45E2-9C04-2947724AABB0}"/>
+									<MediaRefs>
+										<MediaRef Id="74110002"/>
+										<MediaRef Id="204532031"/>
+										<MediaRef Id="249627688"/>
+										<MediaRef Id="981229866"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="1868339219" Id="3758199925" GUID="{A83AA4F8-6800-4019-B11D-E7064840BDA4}" Default="true"/>
+									<MediaRefs>
+										<MediaRef Id="112816640"/>
+										<MediaRef Id="259102436"/>
+										<MediaRef Id="304797527"/>
+										<MediaRef Id="373152147"/>
+										<MediaRef Id="397005282"/>
+										<MediaRef Id="927183099"/>
+										<MediaRef Id="961528444"/>
 									</MediaRefs>
 								</SwitchContainer>
 							</Children>
@@ -174,5 +296,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{659753C9-A2D3-2982-F63D-4D769A56258C}</FileHash>
+	<FileHash>{FE11CAF8-9F27-BF1D-8741-8716B8255682}</FileHash>
 </SoundBanksInfo>

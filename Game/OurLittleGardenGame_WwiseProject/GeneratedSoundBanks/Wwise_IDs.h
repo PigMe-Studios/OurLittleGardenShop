@@ -25,6 +25,9 @@ namespace AK
         static const AkUniqueID PLAY_ENV_SHOPBELL = 2940245297U;
         static const AkUniqueID PLAY_ENV_SHOPDOOR_HOVER = 878394813U;
         static const AkUniqueID PLAY_ENV_SHOPDOOR_INTERACT = 1705306783U;
+        static const AkUniqueID PLAY_ENV_TAPEROLL_COMPLETEORDER = 2894209661U;
+        static const AkUniqueID PLAY_ENV_TAPEROLL_HOVER = 1832498624U;
+        static const AkUniqueID PLAY_ENV_TAPEROLL_INTERACT = 3973484368U;
         static const AkUniqueID PLAY_ENV_TROWEL_DIG = 2888738896U;
         static const AkUniqueID PLAY_ENV_TROWEL_HOVER = 1229516846U;
         static const AkUniqueID PLAY_ENV_TROWEL_PICKUP = 3509013868U;

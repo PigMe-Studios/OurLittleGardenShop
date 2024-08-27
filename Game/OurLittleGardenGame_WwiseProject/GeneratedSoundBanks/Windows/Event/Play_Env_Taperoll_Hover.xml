@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1832498624" Type="Event" GUID="{3C203139-541E-4D6E-BA25-A80B7FB56A6D}" Language="SFX" Hash="{88AD6704-BFFB-DD69-490C-9C76043CBAE2}">
+			<ObjectPath>Play_Env_Taperoll_Hover</ObjectPath>
+			<ShortName>Play_Env_Taperoll_Hover</ShortName>
+			<Path>Event/Play_Env_Taperoll_Hover.bnk</Path>
+			<Media>
+				<File Id="227932799" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Taperoll-Hover-002.wav</ShortName>
+					<Path>Media/227932799.wem</Path>
+					<CachePath>SFX/Env_Taperoll-Hover-002_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="577638899" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Taperoll-Hover-001.wav</ShortName>
+					<Path>Media/577638899.wem</Path>
+					<CachePath>SFX/Env_Taperoll-Hover-001_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="784050180" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Taperoll-Hover-003.wav</ShortName>
+					<Path>Media/784050180.wem</Path>
+					<CachePath>SFX/Env_Taperoll-Hover-003_F06BAF76.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1832498624" Name="Play_Env_Taperoll_Hover" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_Taperoll_Hover" GUID="{3C203139-541E-4D6E-BA25-A80B7FB56A6D}" DurationType="OneShot" DurationMin="0.94387424" DurationMax="1.0594631">
+					<MediaRefs>
+						<MediaRef Id="227932799"/>
+						<MediaRef Id="577638899"/>
+						<MediaRef Id="784050180"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{EA4DDB8C-0743-CAB6-85A8-34A54D13577B}</FileHash>
+</SoundBanksInfo>

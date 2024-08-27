@@ -428,6 +428,51 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Play_Env_Taperoll_Hover" ID="{3C203139-541E-4D6E-BA25-A80B7FB56A6D}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="17"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{5EB46FC9-7031-4ACA-B2B2-B6C8A0F0ED33}" ShortID="635309244">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Env_Taperoll-Hover" ID="{0572558C-982D-4161-97A3-8921EFBF52A2}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Env_Taperoll_Interact" ID="{50DCD0C8-6FCC-426B-A210-E305A2391545}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="17"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{EDBC01F0-426D-4A2A-BF98-42695A687B3E}" ShortID="820476558">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Env_Taperoll-Interact" ID="{E7721677-31B7-45BF-826A-76F1B7483270}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Env_Taperoll_CompleteOrder" ID="{56A8363B-3D8F-4F8B-963B-6490AE50C4CD}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="17"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{69910E6A-2017-4C54-9445-BA8D87B4AE88}" ShortID="168386798">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Env_Taperoll-CompleteOrder" ID="{B961B464-49BF-47D8-855B-C42FE6E5ABA8}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2894209661" Type="Event" GUID="{56A8363B-3D8F-4F8B-963B-6490AE50C4CD}" Language="SFX" Hash="{9438EA3E-82EF-D6B3-770C-9BB18D3EDE59}">
+			<ObjectPath>Play_Env_Taperoll_CompleteOrder</ObjectPath>
+			<ShortName>Play_Env_Taperoll_CompleteOrder</ShortName>
+			<Path>Event/Play_Env_Taperoll_CompleteOrder.bnk</Path>
+			<Media>
+				<File Id="416847368" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Taperoll-CompleteOrder-001.wav</ShortName>
+					<Path>Media/416847368.wem</Path>
+					<CachePath>SFX/Env_Taperoll-CompleteOrder-001_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="754152263" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Taperoll-CompleteOrder-002.wav</ShortName>
+					<Path>Media/754152263.wem</Path>
+					<CachePath>SFX/Env_Taperoll-CompleteOrder-002_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="822603994" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Taperoll-CompleteOrder-003.wav</ShortName>
+					<Path>Media/822603994.wem</Path>
+					<CachePath>SFX/Env_Taperoll-CompleteOrder-003_F06BAF76.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2894209661" Name="Play_Env_Taperoll_CompleteOrder" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_Taperoll_CompleteOrder" GUID="{56A8363B-3D8F-4F8B-963B-6490AE50C4CD}" DurationType="OneShot" DurationMin="1.8877485" DurationMax="2.1189263">
+					<MediaRefs>
+						<MediaRef Id="416847368"/>
+						<MediaRef Id="754152263"/>
+						<MediaRef Id="822603994"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{30328DFA-AB4C-4E8A-23CA-C984B19737C7}</FileHash>
+</SoundBanksInfo>
