@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="197273286" Type="Event" GUID="{C3184C5C-9280-4C2F-BDFB-BC28C7E35301}" Language="SFX" Hash="{EF830F33-02CB-39B6-E350-5AF296856CBE}">
+		<SoundBank Id="197273286" Type="Event" GUID="{C3184C5C-9280-4C2F-BDFB-BC28C7E35301}" Language="SFX" Hash="{E81AB740-7D06-9983-5F85-4A32A92984D4}">
 			<ObjectPath>Play_Env_Register_Interact</ObjectPath>
 			<ShortName>Play_Env_Register_Interact</ShortName>
 			<Path>Event/Play_Env_Register_Interact.bnk</Path>
@@ -51,5 +51,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{5F621015-9215-C73E-50E6-C998050C4F25}</FileHash>
+	<FileHash>{A96B0E02-42D9-B06C-DB2B-9732AF3480C1}</FileHash>
 </SoundBanksInfo>

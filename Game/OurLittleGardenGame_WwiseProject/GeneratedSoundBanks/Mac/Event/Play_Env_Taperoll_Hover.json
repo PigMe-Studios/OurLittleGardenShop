@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1832498624",
+    "Type": "Event",
+    "GUID": "{3C203139-541E-4D6E-BA25-A80B7FB56A6D}",
+    "Language": "SFX",
+    "Hash": "{88AD6704-BFFB-DD69-490C-9C76043CBAE2}",
+    "ObjectPath": "Play_Env_Taperoll_Hover",
+    "ShortName": "Play_Env_Taperoll_Hover",
+    "Path": "Event/Play_Env_Taperoll_Hover.bnk",
+    "Media": [
+     {
+      "Id": "227932799",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Taperoll-Hover-002.wav",
+      "Path": "Media/227932799.wem",
+      "CachePath": "SFX/Env_Taperoll-Hover-002_F06BAF76.wem"
+     },
+     {
+      "Id": "577638899",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Taperoll-Hover-001.wav",
+      "Path": "Media/577638899.wem",
+      "CachePath": "SFX/Env_Taperoll-Hover-001_F06BAF76.wem"
+     },
+     {
+      "Id": "784050180",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Taperoll-Hover-003.wav",
+      "Path": "Media/784050180.wem",
+      "CachePath": "SFX/Env_Taperoll-Hover-003_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1832498624",
+      "Name": "Play_Env_Taperoll_Hover",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_Taperoll_Hover",
+      "GUID": "{3C203139-541E-4D6E-BA25-A80B7FB56A6D}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.94387424",
+      "DurationMax": "1.0594631",
+      "MediaRefs": [
+       {
+        "Id": "227932799"
+       },
+       {
+        "Id": "577638899"
+       },
+       {
+        "Id": "784050180"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{BF1A4E69-85E1-48DC-34DC-DAE53650CA9E}"
+ }
+}

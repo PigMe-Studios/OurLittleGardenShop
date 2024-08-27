@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{AF96BDDD-4061-40DF-A6BC-42FCC0594803}",
     "Language": "SFX",
-    "Hash": "{DF47891A-0629-600A-FD0C-3E061ADD666D}",
+    "Hash": "{B287A901-7B77-537D-64E2-B2C67D9FFEEF}",
     "ObjectPath": "Play_Env_SeedBag_Open",
     "ShortName": "Play_Env_SeedBag_Open",
     "Path": "Event/Play_Env_SeedBag_Open.bnk",
@@ -127,6 +127,6 @@
     ]
    }
   ],
-  "FileHash": "{45CD7856-1CF6-61C9-6547-E609C1839DB3}"
+  "FileHash": "{5E7FEBE4-A0B1-6F9A-7B79-443D9F220B7B}"
  }
 }

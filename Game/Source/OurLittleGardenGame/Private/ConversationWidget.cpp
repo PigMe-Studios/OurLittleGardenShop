@@ -210,7 +210,7 @@ bool UConversationWidget::ShouldPostEvent(const FString& InCurrentText)
 		return RandInt > 4;
 	}
 
-	return false;
+	return true;
 }
 
 #pragma endregion

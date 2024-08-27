@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="300643740" Type="Event" GUID="{A4E189F8-2B5F-4627-A50A-6D4F3C681783}" Language="SFX" Hash="{410A2998-9352-AAE0-2CF3-3B6D5B6DBE2D}">
+		<SoundBank Id="300643740" Type="Event" GUID="{A4E189F8-2B5F-4627-A50A-6D4F3C681783}" Language="SFX" Hash="{FF2DE391-53FA-84CB-25F7-292CC369BD2C}">
 			<ObjectPath>Play_Mus_PaintPatch_DemoLoop</ObjectPath>
 			<ShortName>Play_Mus_PaintPatch_DemoLoop</ShortName>
 			<Path>Event/Play_Mus_PaintPatch_DemoLoop.bnk</Path>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{371C4F94-3805-B906-CCBB-3D243E4E707E}</FileHash>
+	<FileHash>{9839AE91-92E2-7012-9D1B-94F2201B0AFA}</FileHash>
 </SoundBanksInfo>

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{C1403630-CB6D-4305-9951-A36B96625330}",
     "Language": "SFX",
-    "Hash": "{57028EC5-B022-6C9E-471C-7B638F85B710}",
+    "Hash": "{748D5454-FAE1-40E7-BBE7-726A64D6AC10}",
     "ObjectPath": "Play_Env_Trowel_Dig",
     "ShortName": "Play_Env_Trowel_Dig",
     "Path": "Event/Play_Env_Trowel_Dig.bnk",
@@ -127,6 +127,6 @@
     ]
    }
   ],
-  "FileHash": "{B3E16A16-FDAC-4085-4B95-196F8E9BEE06}"
+  "FileHash": "{32C75B97-39EE-FF20-B9DE-FA2843143A79}"
  }
 }

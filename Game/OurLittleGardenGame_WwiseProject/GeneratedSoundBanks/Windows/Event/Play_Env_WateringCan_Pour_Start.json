@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{71B80328-F9C6-4369-B305-497B7553A0A1}",
     "Language": "SFX",
-    "Hash": "{4E58DB5F-8397-F6AB-F041-26FA0A2E4B22}",
+    "Hash": "{F43F6E07-62C4-A519-0347-79D50DAF7436}",
     "ObjectPath": "Play_Env_WateringCan_Pour_Start",
     "ShortName": "Play_Env_WateringCan_Pour_Start",
     "Path": "Event/Play_Env_WateringCan_Pour_Start.bnk",
@@ -113,6 +113,6 @@
     ]
    }
   ],
-  "FileHash": "{86F7B246-8ED0-253D-E689-FF12403E985B}"
+  "FileHash": "{D1E853B3-E8E4-0FE7-4BFD-921D45B53937}"
  }
 }

@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3973484368	Play_Env_Taperoll_Interact			\WU_Main\Environment\Shop\Play_Env_Taperoll_Interact	
+
