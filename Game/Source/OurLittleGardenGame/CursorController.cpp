@@ -295,7 +295,15 @@ void ACursorController::ReleaseActor(const FInputActionValue& Value)
 
 void ACursorController::RotateActor(const FInputActionValue& Value)
 {
-	RotationMagnitude = Value.Get<float>();
+	if (HeldActor == nullptr)
+	{
+		RotateInput(Value.Get<float>());
+	}
+	else
+	{
+		RotationMagnitude = Value.Get<float>();
+	}
+	
 }
 
 
