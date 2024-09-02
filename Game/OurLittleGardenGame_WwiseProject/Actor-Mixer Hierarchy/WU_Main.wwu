@@ -996,7 +996,7 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<Sound Name="UI_DialogueRoll_Florist_AlphaNum-001" ID="{4FE443F0-543B-4BB5-AED7-A2D0608F86E7}" ShortID="837404514">
+																<Sound Name="UI_DialogueRoll_Florist_AlphaNum3-001" ID="{1EEDC51D-497B-450D-9B62-037E099B5AD5}" ShortID="783947512">
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
@@ -1006,19 +1006,19 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="UI_DialogueRoll_Florist_AlphaNum-001" ID="{377231ED-5FD9-4EB7-93A7-75B743CC74A7}">
+																		<AudioFileSource Name="UI_DialogueRoll_Florist_AlphaNum3-001" ID="{1A2B1BE2-A009-452C-90CA-E29C18AD1BE5}">
 																			<Language>SFX</Language>
-																			<AudioFile>UI_DialogueRoll_Florist_AlphaNum-001.wav</AudioFile>
+																			<AudioFile>UI_DialogueRoll_Florist_AlphaNum3-001.wav</AudioFile>
 																			<MediaIDList>
-																				<MediaID ID="47903912"/>
+																				<MediaID ID="239944162"/>
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="UI_DialogueRoll_Florist_AlphaNum-001" ID="{377231ED-5FD9-4EB7-93A7-75B743CC74A7}" Platform="Linked"/>
+																		<ActiveSource Name="UI_DialogueRoll_Florist_AlphaNum3-001" ID="{1A2B1BE2-A009-452C-90CA-E29C18AD1BE5}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
-																<Sound Name="UI_DialogueRoll_Florist_AlphaNum-002" ID="{BBC6F2F7-F60D-4D32-96F8-E215644769B1}" ShortID="622690080">
+																<Sound Name="UI_DialogueRoll_Florist_AlphaNum3-002" ID="{F82098F9-410C-47EC-80C1-B4DD7EAB7591}" ShortID="160237596">
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
@@ -1028,19 +1028,19 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="UI_DialogueRoll_Florist_AlphaNum-002" ID="{2DDFE169-05B5-4BCD-827D-72542C301DB8}">
+																		<AudioFileSource Name="UI_DialogueRoll_Florist_AlphaNum3-002" ID="{8940BEB9-3963-4523-B6F9-F4CC1A63F99E}">
 																			<Language>SFX</Language>
-																			<AudioFile>UI_DialogueRoll_Florist_AlphaNum-002.wav</AudioFile>
+																			<AudioFile>UI_DialogueRoll_Florist_AlphaNum3-002.wav</AudioFile>
 																			<MediaIDList>
-																				<MediaID ID="692589193"/>
+																				<MediaID ID="1028270375"/>
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="UI_DialogueRoll_Florist_AlphaNum-002" ID="{2DDFE169-05B5-4BCD-827D-72542C301DB8}" Platform="Linked"/>
+																		<ActiveSource Name="UI_DialogueRoll_Florist_AlphaNum3-002" ID="{8940BEB9-3963-4523-B6F9-F4CC1A63F99E}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
-																<Sound Name="UI_DialogueRoll_Florist_AlphaNum-003" ID="{060DC6C3-FD48-45A7-AFA3-0F46A5197723}" ShortID="593825367">
+																<Sound Name="UI_DialogueRoll_Florist_AlphaNum3-003" ID="{A56D231B-CA88-479A-B637-4DFAC1266BD7}" ShortID="1004199073">
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
@@ -1050,19 +1050,19 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="UI_DialogueRoll_Florist_AlphaNum-003" ID="{1A18F818-D29E-4FD9-900D-39035B2493A8}">
+																		<AudioFileSource Name="UI_DialogueRoll_Florist_AlphaNum3-003" ID="{17715BDD-E475-4BF9-9457-8EA9CAC654E5}">
 																			<Language>SFX</Language>
-																			<AudioFile>UI_DialogueRoll_Florist_AlphaNum-003.wav</AudioFile>
+																			<AudioFile>UI_DialogueRoll_Florist_AlphaNum3-003.wav</AudioFile>
 																			<MediaIDList>
-																				<MediaID ID="1050099795"/>
+																				<MediaID ID="762179201"/>
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="UI_DialogueRoll_Florist_AlphaNum-003" ID="{1A18F818-D29E-4FD9-900D-39035B2493A8}" Platform="Linked"/>
+																		<ActiveSource Name="UI_DialogueRoll_Florist_AlphaNum3-003" ID="{17715BDD-E475-4BF9-9457-8EA9CAC654E5}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
-																<Sound Name="UI_DialogueRoll_Florist_AlphaNum-004" ID="{D2E3806A-C9D3-4E61-A5C4-2425B5055088}" ShortID="681229866">
+																<Sound Name="UI_DialogueRoll_Florist_AlphaNum3-004" ID="{F8EB91DA-FB49-4114-8190-0728C0F7510E}" ShortID="958674508">
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
@@ -1072,19 +1072,19 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="UI_DialogueRoll_Florist_AlphaNum-004" ID="{95075239-65E6-45F5-AB22-9340FA05D614}">
+																		<AudioFileSource Name="UI_DialogueRoll_Florist_AlphaNum3-004" ID="{44BC5814-FD71-49DD-A65C-3E3F7A02A38B}">
 																			<Language>SFX</Language>
-																			<AudioFile>UI_DialogueRoll_Florist_AlphaNum-004.wav</AudioFile>
+																			<AudioFile>UI_DialogueRoll_Florist_AlphaNum3-004.wav</AudioFile>
 																			<MediaIDList>
-																				<MediaID ID="545568280"/>
+																				<MediaID ID="13804236"/>
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="UI_DialogueRoll_Florist_AlphaNum-004" ID="{95075239-65E6-45F5-AB22-9340FA05D614}" Platform="Linked"/>
+																		<ActiveSource Name="UI_DialogueRoll_Florist_AlphaNum3-004" ID="{44BC5814-FD71-49DD-A65C-3E3F7A02A38B}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
-																<Sound Name="UI_DialogueRoll_Florist_AlphaNum-005" ID="{B77BBC3E-468D-48B0-A7EA-2A06F6CB20EA}" ShortID="976726535">
+																<Sound Name="UI_DialogueRoll_Florist_AlphaNum3-005" ID="{195A6A37-F6AB-46CD-B329-A11B4525C485}" ShortID="119794569">
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
@@ -1094,19 +1094,19 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="UI_DialogueRoll_Florist_AlphaNum-005" ID="{66503F63-C48C-44CF-B1DF-7C5A9F7EEDF5}">
+																		<AudioFileSource Name="UI_DialogueRoll_Florist_AlphaNum3-005" ID="{345055CF-529B-465E-9ABD-01674C175F0D}">
 																			<Language>SFX</Language>
-																			<AudioFile>UI_DialogueRoll_Florist_AlphaNum-005.wav</AudioFile>
+																			<AudioFile>UI_DialogueRoll_Florist_AlphaNum3-005.wav</AudioFile>
 																			<MediaIDList>
-																				<MediaID ID="693219551"/>
+																				<MediaID ID="436702672"/>
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="UI_DialogueRoll_Florist_AlphaNum-005" ID="{66503F63-C48C-44CF-B1DF-7C5A9F7EEDF5}" Platform="Linked"/>
+																		<ActiveSource Name="UI_DialogueRoll_Florist_AlphaNum3-005" ID="{345055CF-529B-465E-9ABD-01674C175F0D}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
-																<Sound Name="UI_DialogueRoll_Florist_AlphaNum-006" ID="{1BE070C9-DCF7-48E8-B152-F92CB7D07B62}" ShortID="935245709">
+																<Sound Name="UI_DialogueRoll_Florist_AlphaNum3-006" ID="{77137715-0A16-4B03-BE91-31EDF7B37896}" ShortID="629501752">
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
@@ -1116,16 +1116,60 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="UI_DialogueRoll_Florist_AlphaNum-006" ID="{FC84CE2E-D4F9-4190-A950-FA024C17DD17}">
+																		<AudioFileSource Name="UI_DialogueRoll_Florist_AlphaNum3-006" ID="{78517C2B-268E-47DF-AC74-5D74FD8B9857}">
 																			<Language>SFX</Language>
-																			<AudioFile>UI_DialogueRoll_Florist_AlphaNum-006.wav</AudioFile>
+																			<AudioFile>UI_DialogueRoll_Florist_AlphaNum3-006.wav</AudioFile>
 																			<MediaIDList>
-																				<MediaID ID="215553672"/>
+																				<MediaID ID="45032725"/>
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="UI_DialogueRoll_Florist_AlphaNum-006" ID="{FC84CE2E-D4F9-4190-A950-FA024C17DD17}" Platform="Linked"/>
+																		<ActiveSource Name="UI_DialogueRoll_Florist_AlphaNum3-006" ID="{78517C2B-268E-47DF-AC74-5D74FD8B9857}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="UI_DialogueRoll_Florist_AlphaNum3-007" ID="{77C4ED83-8D28-4F1B-AF1E-5EB666306F51}" ShortID="25395583">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="UI_DialogueRoll_Florist_AlphaNum3-007" ID="{58468F7B-019E-40F4-95BE-E3322D6A0B4B}">
+																			<Language>SFX</Language>
+																			<AudioFile>UI_DialogueRoll_Florist_AlphaNum3-007.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="91551130"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="UI_DialogueRoll_Florist_AlphaNum3-007" ID="{58468F7B-019E-40F4-95BE-E3322D6A0B4B}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="UI_DialogueRoll_Florist_AlphaNum3-008" ID="{34E82F6E-78DF-4094-B5B6-C0AEBC90EB78}" ShortID="980158274">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="UI_DialogueRoll_Florist_AlphaNum3-008" ID="{453EA996-FBD4-44A7-9383-6012006AB766}">
+																			<Language>SFX</Language>
+																			<AudioFile>UI_DialogueRoll_Florist_AlphaNum3-008.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="1000158962"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="UI_DialogueRoll_Florist_AlphaNum3-008" ID="{453EA996-FBD4-44A7-9383-6012006AB766}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 															</ChildrenList>
@@ -1169,7 +1213,10 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<Sound Name="UI_DialogueRoll_Florist_Exclam-001" ID="{E73919AD-59AC-4FA2-BE3D-D723D7EF06FE}" ShortID="360146384">
+																<Sound Name="UI_DialogueRoll_Florist_AlphaNum2-002" ID="{E8BE42C1-5818-422B-9EA4-4F1783D909BC}" ShortID="943828347">
+																	<PropertyList>
+																		<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
@@ -1179,19 +1226,22 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="UI_DialogueRoll_Florist_Exclam-001" ID="{F0B8B139-7BE4-4D91-BD02-851A622AE109}">
+																		<AudioFileSource Name="UI_DialogueRoll_Florist_AlphaNum2-002" ID="{47074A7E-1A90-41FE-B559-01EA949355B4}">
 																			<Language>SFX</Language>
-																			<AudioFile>UI_DialogueRoll_Florist_Exclam-001.wav</AudioFile>
+																			<AudioFile>UI_DialogueRoll_Florist_AlphaNum2-002.wav</AudioFile>
 																			<MediaIDList>
-																				<MediaID ID="695820428"/>
+																				<MediaID ID="918100333"/>
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="UI_DialogueRoll_Florist_Exclam-001" ID="{F0B8B139-7BE4-4D91-BD02-851A622AE109}" Platform="Linked"/>
+																		<ActiveSource Name="UI_DialogueRoll_Florist_AlphaNum2-002" ID="{47074A7E-1A90-41FE-B559-01EA949355B4}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
-																<Sound Name="UI_DialogueRoll_Florist_Exclam-002" ID="{63C95D2D-78A4-4390-B907-BF8FE64F3CAA}" ShortID="851533291">
+																<Sound Name="UI_DialogueRoll_Florist_AlphaNum2-003" ID="{A2332539-FC69-4215-829A-FD71C8FE25A3}" ShortID="662249203">
+																	<PropertyList>
+																		<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
@@ -1201,19 +1251,22 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="UI_DialogueRoll_Florist_Exclam-002" ID="{99979BF2-2622-4493-9AB7-F91AF2280899}">
+																		<AudioFileSource Name="UI_DialogueRoll_Florist_AlphaNum2-003" ID="{E5006303-5A29-46FB-A20F-F4A06BD61967}">
 																			<Language>SFX</Language>
-																			<AudioFile>UI_DialogueRoll_Florist_Exclam-002.wav</AudioFile>
+																			<AudioFile>UI_DialogueRoll_Florist_AlphaNum2-003.wav</AudioFile>
 																			<MediaIDList>
-																				<MediaID ID="230280545"/>
+																				<MediaID ID="611510845"/>
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="UI_DialogueRoll_Florist_Exclam-002" ID="{99979BF2-2622-4493-9AB7-F91AF2280899}" Platform="Linked"/>
+																		<ActiveSource Name="UI_DialogueRoll_Florist_AlphaNum2-003" ID="{E5006303-5A29-46FB-A20F-F4A06BD61967}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
-																<Sound Name="UI_DialogueRoll_Florist_Exclam-003" ID="{855626D4-E43B-4E21-92F2-C90A9F198B89}" ShortID="522171530">
+																<Sound Name="UI_DialogueRoll_Florist_AlphaNum2-001" ID="{9BB0C0CE-CC30-40AB-BE34-8A93996D73FE}" ShortID="618579002">
+																	<PropertyList>
+																		<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
@@ -1223,38 +1276,16 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="UI_DialogueRoll_Florist_Exclam-003" ID="{2FA0AB36-1671-47AE-9EDE-E63C969E74EF}">
+																		<AudioFileSource Name="UI_DialogueRoll_Florist_AlphaNum2-001" ID="{B8555C3D-4A3F-40A0-B648-74438EC9858E}">
 																			<Language>SFX</Language>
-																			<AudioFile>UI_DialogueRoll_Florist_Exclam-003.wav</AudioFile>
+																			<AudioFile>UI_DialogueRoll_Florist_AlphaNum2-001.wav</AudioFile>
 																			<MediaIDList>
-																				<MediaID ID="765502190"/>
+																				<MediaID ID="1022219765"/>
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="UI_DialogueRoll_Florist_Exclam-003" ID="{2FA0AB36-1671-47AE-9EDE-E63C969E74EF}" Platform="Linked"/>
-																	</ActiveSourceList>
-																</Sound>
-																<Sound Name="UI_DialogueRoll_Florist_Exclam-004" ID="{4280B4D9-8FE0-4216-9778-D1110BF00EA8}" ShortID="611942255">
-																	<ReferenceList>
-																		<Reference Name="Conversion">
-																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
-																		</Reference>
-																		<Reference Name="OutputBus">
-																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
-																		</Reference>
-																	</ReferenceList>
-																	<ChildrenList>
-																		<AudioFileSource Name="UI_DialogueRoll_Florist_Exclam-004" ID="{C9C0F661-D3B1-4E79-B850-C81E5C039D14}">
-																			<Language>SFX</Language>
-																			<AudioFile>UI_DialogueRoll_Florist_Exclam-004.wav</AudioFile>
-																			<MediaIDList>
-																				<MediaID ID="665201286"/>
-																			</MediaIDList>
-																		</AudioFileSource>
-																	</ChildrenList>
-																	<ActiveSourceList>
-																		<ActiveSource Name="UI_DialogueRoll_Florist_Exclam-004" ID="{C9C0F661-D3B1-4E79-B850-C81E5C039D14}" Platform="Linked"/>
+																		<ActiveSource Name="UI_DialogueRoll_Florist_AlphaNum2-001" ID="{B8555C3D-4A3F-40A0-B648-74438EC9858E}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 															</ChildrenList>
@@ -1299,6 +1330,13 @@
 															</ReferenceList>
 															<ChildrenList>
 																<Sound Name="UI_DialogueRoll_Florist_Punct-001" ID="{995112C4-FCE5-490D-8598-3CB4A24152A1}" ShortID="298796532">
+																	<PropertyList>
+																		<Property Name="Inclusion" Type="bool">
+																			<ValueList>
+																				<Value>False</Value>
+																			</ValueList>
+																		</Property>
+																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
@@ -1321,6 +1359,13 @@
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="UI_DialogueRoll_Florist_Punct-002" ID="{35FFCFC6-A155-4763-B3E1-15083EBBBF0A}" ShortID="771229194">
+																	<PropertyList>
+																		<Property Name="Inclusion" Type="bool">
+																			<ValueList>
+																				<Value>False</Value>
+																			</ValueList>
+																		</Property>
+																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
@@ -1343,6 +1388,13 @@
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="UI_DialogueRoll_Florist_Punct-003" ID="{E5DF89C9-CB54-479B-945D-3E48A994A799}" ShortID="832737059">
+																	<PropertyList>
+																		<Property Name="Inclusion" Type="bool">
+																			<ValueList>
+																				<Value>False</Value>
+																			</ValueList>
+																		</Property>
+																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
@@ -1365,6 +1417,13 @@
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="UI_DialogueRoll_Florist_Punct-004" ID="{A1821E06-63DB-4CF2-B2CB-537046E7ED9C}" ShortID="30108501">
+																	<PropertyList>
+																		<Property Name="Inclusion" Type="bool">
+																			<ValueList>
+																				<Value>False</Value>
+																			</ValueList>
+																		</Property>
+																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
@@ -1386,38 +1445,10 @@
 																		<ActiveSource Name="UI_DialogueRoll_Florist_Punct-004" ID="{FDA06FF4-FDFF-477C-B117-5DEDCE6EF52C}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
-															</ChildrenList>
-														</RandomSequenceContainer>
-														<RandomSequenceContainer Name="UI_DialogueRoll_AlphaNum2" ID="{922730F2-7B0B-44C3-AA0A-FD39DB656662}" ShortID="910851464">
-															<PropertyList>
-																<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
-																<Property Name="Pitch" Type="int32">
-																	<ValueList>
-																		<Value>600</Value>
-																	</ValueList>
-																	<ModifierList>
-																		<ModifierInfo>
-																			<Modifier Name="" ID="{EA20F1B2-FBA6-4628-9A15-F3E8AFDDEDB5}">
-																				<PropertyList>
-																					<Property Name="Enabled" Type="bool" Value="True"/>
-																					<Property Name="Max" Type="Real64" Value="300"/>
-																					<Property Name="Min" Type="Real64" Value="-300"/>
-																				</PropertyList>
-																			</Modifier>
-																		</ModifierInfo>
-																	</ModifierList>
-																</Property>
-															</PropertyList>
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<Sound Name="UI_DialogueRoll_Florist_AlphaNum2-001" ID="{9BB0C0CE-CC30-40AB-BE34-8A93996D73FE}" ShortID="618579002">
+																<Sound Name="UI_DialogueRoll_Florist_Exclam-003" ID="{855626D4-E43B-4E21-92F2-C90A9F198B89}" ShortID="522171530">
+																	<PropertyList>
+																		<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
@@ -1427,19 +1458,22 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="UI_DialogueRoll_Florist_AlphaNum2-001" ID="{B8555C3D-4A3F-40A0-B648-74438EC9858E}">
+																		<AudioFileSource Name="UI_DialogueRoll_Florist_Exclam-003" ID="{2FA0AB36-1671-47AE-9EDE-E63C969E74EF}">
 																			<Language>SFX</Language>
-																			<AudioFile>UI_DialogueRoll_Florist_AlphaNum2-001.wav</AudioFile>
+																			<AudioFile>UI_DialogueRoll_Florist_Exclam-003.wav</AudioFile>
 																			<MediaIDList>
-																				<MediaID ID="1022219765"/>
+																				<MediaID ID="765502190"/>
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="UI_DialogueRoll_Florist_AlphaNum2-001" ID="{B8555C3D-4A3F-40A0-B648-74438EC9858E}" Platform="Linked"/>
+																		<ActiveSource Name="UI_DialogueRoll_Florist_Exclam-003" ID="{2FA0AB36-1671-47AE-9EDE-E63C969E74EF}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
-																<Sound Name="UI_DialogueRoll_Florist_AlphaNum2-002" ID="{E8BE42C1-5818-422B-9EA4-4F1783D909BC}" ShortID="943828347">
+																<Sound Name="UI_DialogueRoll_Florist_Exclam-004" ID="{4280B4D9-8FE0-4216-9778-D1110BF00EA8}" ShortID="611942255">
+																	<PropertyList>
+																		<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
@@ -1449,19 +1483,22 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="UI_DialogueRoll_Florist_AlphaNum2-002" ID="{47074A7E-1A90-41FE-B559-01EA949355B4}">
+																		<AudioFileSource Name="UI_DialogueRoll_Florist_Exclam-004" ID="{C9C0F661-D3B1-4E79-B850-C81E5C039D14}">
 																			<Language>SFX</Language>
-																			<AudioFile>UI_DialogueRoll_Florist_AlphaNum2-002.wav</AudioFile>
+																			<AudioFile>UI_DialogueRoll_Florist_Exclam-004.wav</AudioFile>
 																			<MediaIDList>
-																				<MediaID ID="918100333"/>
+																				<MediaID ID="665201286"/>
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="UI_DialogueRoll_Florist_AlphaNum2-002" ID="{47074A7E-1A90-41FE-B559-01EA949355B4}" Platform="Linked"/>
+																		<ActiveSource Name="UI_DialogueRoll_Florist_Exclam-004" ID="{C9C0F661-D3B1-4E79-B850-C81E5C039D14}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
-																<Sound Name="UI_DialogueRoll_Florist_AlphaNum2-003" ID="{A2332539-FC69-4215-829A-FD71C8FE25A3}" ShortID="662249203">
+																<Sound Name="UI_DialogueRoll_Florist_Exclam-002" ID="{63C95D2D-78A4-4390-B907-BF8FE64F3CAA}" ShortID="851533291">
+																	<PropertyList>
+																		<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
@@ -1471,16 +1508,41 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="UI_DialogueRoll_Florist_AlphaNum2-003" ID="{E5006303-5A29-46FB-A20F-F4A06BD61967}">
+																		<AudioFileSource Name="UI_DialogueRoll_Florist_Exclam-002" ID="{99979BF2-2622-4493-9AB7-F91AF2280899}">
 																			<Language>SFX</Language>
-																			<AudioFile>UI_DialogueRoll_Florist_AlphaNum2-003.wav</AudioFile>
+																			<AudioFile>UI_DialogueRoll_Florist_Exclam-002.wav</AudioFile>
 																			<MediaIDList>
-																				<MediaID ID="611510845"/>
+																				<MediaID ID="230280545"/>
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="UI_DialogueRoll_Florist_AlphaNum2-003" ID="{E5006303-5A29-46FB-A20F-F4A06BD61967}" Platform="Linked"/>
+																		<ActiveSource Name="UI_DialogueRoll_Florist_Exclam-002" ID="{99979BF2-2622-4493-9AB7-F91AF2280899}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="UI_DialogueRoll_Florist_Exclam-001" ID="{E73919AD-59AC-4FA2-BE3D-D723D7EF06FE}" ShortID="360146384">
+																	<PropertyList>
+																		<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="UI_DialogueRoll_Florist_Exclam-001" ID="{F0B8B139-7BE4-4D91-BD02-851A622AE109}">
+																			<Language>SFX</Language>
+																			<AudioFile>UI_DialogueRoll_Florist_Exclam-001.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="695820428"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="UI_DialogueRoll_Florist_Exclam-001" ID="{F0B8B139-7BE4-4D91-BD02-851A622AE109}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 															</ChildrenList>
@@ -1493,9 +1555,6 @@
 															</GroupingBehavior>
 															<GroupingBehavior>
 																<ItemRef Name="UI_DialogueRoll_Punct" ID="{29DD1CDE-7A3A-4206-8AFD-E7FE0E72F9BE}"/>
-															</GroupingBehavior>
-															<GroupingBehavior>
-																<ItemRef Name="UI_DialogueRoll_AlphaNum2" ID="{922730F2-7B0B-44C3-AA0A-FD39DB656662}"/>
 															</GroupingBehavior>
 															<GroupingBehavior>
 																<ItemRef Name="UI_DialogueRoll_Exclam" ID="{F872BEF6-E90F-43B4-8A27-927E48300AFC}"/>
