@@ -330,14 +330,18 @@ void ACursorController::Tick(float DeltaTime)
 		FVector SnapStart = updatelocation + (CursorWorldDirection * 50.0f);
 		FVector SnapEnd = SnapStart + (CursorWorldDirection * 5000.0f);
 		FCollisionQueryParams LineTraceParams;
+
+		// Raycast to check for snap points
 		if (GetWorld()->LineTraceSingleByChannel(SnapHitResult, SnapStart, SnapEnd, ECollisionChannel::ECC_Visibility, LineTraceParams, FCollisionResponseParams()))
 		{
 			UPrimitiveComponent* SnapHitComponent = SnapHitResult.GetComponent();
 
-			GEngine->AddOnScreenDebugMessage(1, 200, FColor::Green, FString::Printf(TEXT("Hot Comp: %s"), *SnapHitComponent->GetName()));
+			GEngine->AddOnScreenDebugMessage(1, 200, FColor::Green, FString::Printf(TEXT("Detected Component: %s"), *SnapHitComponent->GetName()));
 			if (SnapHitComponent->ComponentHasTag(TEXT("Snap")))
 			{
 				GEngine->AddOnScreenDebugMessage(1, 1, FColor::Red, FString::Printf(TEXT("Snap Detected!")));
+				PhysicsHandle->SetTargetLocation(SnapHitComponent->GetComponentLocation());
+
 			}
 		}
 		//PhysicsHandle->SetTargetLocation(updatelocation);
