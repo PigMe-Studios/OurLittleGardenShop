@@ -336,10 +336,11 @@ void ACursorController::Tick(float DeltaTime)
 		{
 			UPrimitiveComponent* SnapHitComponent = SnapHitResult.GetComponent();
 
-			GEngine->AddOnScreenDebugMessage(1, 200, FColor::Green, FString::Printf(TEXT("Detected Component: %s"), *SnapHitComponent->GetName()));
+			//xGEngine->AddOnScreenDebugMessage(1, 200, FColor::Green, FString::Printf(TEXT("Detected Component: %s"), *SnapHitComponent->GetName()));
 			if (SnapHitComponent->ComponentHasTag(TEXT("Snap")))
 			{
-				GEngine->AddOnScreenDebugMessage(1, 1, FColor::Red, FString::Printf(TEXT("Snap Detected!")));
+				// When hovering over snap point, change target location of held object
+				//xGEngine->AddOnScreenDebugMessage(1, 1, FColor::Red, FString::Printf(TEXT("Snap Detected!")));
 				PhysicsHandle->SetTargetLocation(SnapHitComponent->GetComponentLocation());
 
 			}
