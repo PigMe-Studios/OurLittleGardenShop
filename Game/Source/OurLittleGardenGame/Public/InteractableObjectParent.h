@@ -58,10 +58,6 @@ public:
 	// actual decleration of interactinterface
 	virtual void Interact_Implementation() override;
 
-	//toggle outlines to be enabled or disabled
-	UFUNCTION(BlueprintCallable, Category = "Hover Outline")
-	void EnableHoverOutline(bool bEnable);
-
 	// Function to toggle the ability to display hover outline
 	UFUNCTION(BlueprintCallable, Category = "Hover Outline")
 	void SetHoverOutlineEnabled(bool bEnabled);

@@ -40,8 +40,6 @@ void AInteractableObjectParent::Interact_Implementation()
 	}
 }
 
-
-
 void AInteractableObjectParent::SetHoverOutlineEnabled(bool bEnabled)
 {
 	bHoverOutlineEnabled = bEnabled;
