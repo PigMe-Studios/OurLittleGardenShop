@@ -67,7 +67,7 @@ public:
 	void SetHoverOutlineEnabled(bool bEnabled);
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Hover Outline")
-	bool bHoverOutlineEnabled;
+	bool bHoverOutlineEnabled = true;
 
 private:
 	UUserWidget* ActiveWidget;

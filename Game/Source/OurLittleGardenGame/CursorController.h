@@ -107,6 +107,8 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	UPhysicsHandleComponent* PhysicsHandle;
 
+	bool bInteractionEnabled = true;
+
 
 
 public:	
@@ -140,6 +142,11 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "EnhancedInput")
 	ACustomer* CustomerReference;
+
+	//tracks if interaction with objects is enabled
+	UFUNCTION( BlueprintCallable, Category = "Interaction")
+	void SetInteractionEnabled(bool bEnabled);
+
 
 private:
 };

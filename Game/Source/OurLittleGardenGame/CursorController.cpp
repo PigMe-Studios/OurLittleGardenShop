@@ -77,11 +77,12 @@ void ACursorController::CursorWorldPosition()
 
 void ACursorController::ActorInteract(const FInputActionValue& Value)
 {
-	//check if already hoilding item
-	if (bIsInteracting)
+	//check if already hoilding item or interaction is disablked
+	if (bIsInteracting || !bInteractionEnabled)
 	{
 		return;
 	}
+
 	if (CustomerReference && CustomerReference->ConversationWidget != nullptr)
 	{
 		return;
@@ -95,16 +96,12 @@ void ACursorController::ActorInteract(const FInputActionValue& Value)
 	if (GetWorld()->LineTraceSingleByChannel(HitResult, Start, End, ECollisionChannel::ECC_Visibility, LineTraceParams, FCollisionResponseParams())
 		&& !IsDialogueActive())
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("HitSomething: %s"), *HitResult.GetActor()->GetName()));
-
 		AActor* HitActor = HitResult.GetActor();
 
 		if (HitActor && HitActor->GetClass()->ImplementsInterface(UInteractionInterface::StaticClass()))
 		{
-			//HitResult.GetActor()
 			IInteractionInterface::Execute_Interact(HitActor);
-			//IInteractionInterface::Execute_Interact(HitActor, CursorController	
-			// 
+		
 			AInteractableObjectParent* InteractableObject = Cast<AInteractableObjectParent>(HitActor);
 			if (InteractableObject && InteractableObject->bCanBePickedUp)
 			{
@@ -116,8 +113,6 @@ void ACursorController::ActorInteract(const FInputActionValue& Value)
 			//if not interactable, pick up as physical object
 			//GrabActor(HitResult, nullptr);
 		}
-		//todo:change mouse cursor to different state on interact
-
 	}
 }
 
@@ -239,9 +234,31 @@ void ACursorController::CurserHoverCheck()
 
 }
 
+void ACursorController::SetInteractionEnabled(bool bEnabled)
+{
+	bInteractionEnabled = bEnabled;
+
+	// remove outline from actor if disabled
+	if (!bInteractionEnabled)
+	{
+		if (LastHoveredActor)
+		{
+			if (UStaticMeshComponent* LastMeshComponent = LastHoveredActor->FindComponentByClass<UStaticMeshComponent>())
+			{
+				LastMeshComponent->SetRenderCustomDepth(false);
+			}
+			LastHoveredActor = nullptr;
+		}
+	}
+}
+
 
 void ACursorController::HoverOutline(AActor* CurrentHoveredActor)
 {
+	if (!bInteractionEnabled)
+	{
+		return;
+	}
 
 	//disable 'render customdepth pass' on the last hovered actor
 	if (LastHoveredActor && LastHoveredActor != CurrentHoveredActor)
@@ -251,6 +268,7 @@ void ACursorController::HoverOutline(AActor* CurrentHoveredActor)
 			LastMeshComponent->SetRenderCustomDepth(false);
 		}
 	}
+
 
 	//update the last hovered actor
 	LastHoveredActor = CurrentHoveredActor;
