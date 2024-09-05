@@ -57,7 +57,7 @@ enum EPlants
 {
 	None UMETA(DisplayName = "None"),
 	Carrot UMETA(DisplayName = "Carrot"),
-	Sage UMETA(DisplayName = "Sage"),
+	PakChoy UMETA(DisplayName = "Pak Choy"),
 	Potato UMETA(DisplayName = "Potato"),
 	Lavender UMETA(DisplayName = "Lavender"),
 };

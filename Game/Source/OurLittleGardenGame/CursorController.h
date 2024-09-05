@@ -134,6 +134,10 @@ public:
 	UFUNCTION(BlueprintImplementableEvent)
 	void RightClick();
 
+	// Used to rotate around Pak Choy
+	UFUNCTION(BlueprintImplementableEvent)
+	void RotateInput(float Value);
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "EnhancedInput")
 	ACustomer* CustomerReference;
 

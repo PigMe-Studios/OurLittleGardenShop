@@ -52,6 +52,10 @@ protected:
 	UFUNCTION(BlueprintImplementableEvent)
 	void UpdateStatus(bool bDialogueOpen);
 
+	// Removes a box from underneath the desk
+	UFUNCTION(BlueprintImplementableEvent)
+	void RemoveBox();
+
 	/// @brief Search condition map to find if condition met
 	/// @param Condition to search for
 	/// @return Returns true is condition not found or condition's status is true
