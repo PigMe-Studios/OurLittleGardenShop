@@ -9,7 +9,6 @@
 #include "EnhancedInputSubsystems.h"
 #include "EnhancedInputComponent.h"
 #include "Materials/MaterialInstanceDynamic.h"
-//#include "Kismet/GameplayStatics.h"
 #include "PhysicsEngine/PhysicsHandleComponent.h"
 #include "InteractableObjectParent.h"
 #include "InteractionInterface.h"
@@ -240,8 +239,10 @@ void ACursorController::CurserHoverCheck()
 
 }
 
+
 void ACursorController::HoverOutline(AActor* CurrentHoveredActor)
 {
+
 	//disable 'render customdepth pass' on the last hovered actor
 	if (LastHoveredActor && LastHoveredActor != CurrentHoveredActor)
 	{
@@ -254,16 +255,26 @@ void ACursorController::HoverOutline(AActor* CurrentHoveredActor)
 	//update the last hovered actor
 	LastHoveredActor = CurrentHoveredActor;
 
-	//enable 'render customdepth pass' on the current hovered actor
+	//is object valid
 	if (CurrentHoveredActor)
 	{
-		if (UStaticMeshComponent* MeshComponent = CurrentHoveredActor->FindComponentByClass<UStaticMeshComponent>())
+		//cast to object
+		if (AInteractableObjectParent* Interactable = Cast<AInteractableObjectParent>(CurrentHoveredActor))
 		{
-			MeshComponent->SetRenderCustomDepth(true);
+			// checks if the object has enabled outlines
+			if (Interactable->bHoverOutlineEnabled)
+			{
+				//updates object outline to true
+				if (UStaticMeshComponent* MeshComponent = CurrentHoveredActor->FindComponentByClass<UStaticMeshComponent>())
+				{
+					MeshComponent->SetRenderCustomDepth(true);
+				}
+			}
 		}
 	}
 
 }
+
 
 void ACursorController::ReleaseActor(const FInputActionValue& Value)
 {

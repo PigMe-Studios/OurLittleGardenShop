@@ -3,7 +3,6 @@
 
 #include "InteractableObjectParent.h"
 #include "GameFramework/PlayerController.h"
-//#include "CursorController.generated.h"
 #include "Blueprint/UserWidget.h"
 #include "Engine/Engine.h"
 
@@ -24,7 +23,8 @@ AInteractableObjectParent::AInteractableObjectParent()
 	bCanBePickedUp = true;
 	bIsWidgetVisible = false;
 
-	//ActiveWBP_RequestBoard = nullptr;
+	// Hover outline is enabled by default
+	bHoverOutlineEnabled = true;
 
 }
 
@@ -38,6 +38,13 @@ void AInteractableObjectParent::Interact_Implementation()
 	{
 		View();
 	}
+}
+
+
+
+void AInteractableObjectParent::SetHoverOutlineEnabled(bool bEnabled)
+{
+	bHoverOutlineEnabled = bEnabled;
 }
 
 void AInteractableObjectParent::OnGrab()

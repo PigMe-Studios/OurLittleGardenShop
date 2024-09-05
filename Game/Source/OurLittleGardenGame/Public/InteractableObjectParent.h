@@ -46,6 +46,7 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -56,6 +57,17 @@ public:
 	void Interact(); 
 	// actual decleration of interactinterface
 	virtual void Interact_Implementation() override;
+
+	//toggle outlines to be enabled or disabled
+	UFUNCTION(BlueprintCallable, Category = "Hover Outline")
+	void EnableHoverOutline(bool bEnable);
+
+	// Function to toggle the ability to display hover outline
+	UFUNCTION(BlueprintCallable, Category = "Hover Outline")
+	void SetHoverOutlineEnabled(bool bEnabled);
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Hover Outline")
+	bool bHoverOutlineEnabled;
 
 private:
 	UUserWidget* ActiveWidget;
