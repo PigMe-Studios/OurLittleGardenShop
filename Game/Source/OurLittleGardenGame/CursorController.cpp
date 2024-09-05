@@ -185,6 +185,7 @@ void ACursorController::CurserHoverCheck()
 	if (GetWorld()->LineTraceSingleByChannel(HitResult, Start, End, ECollisionChannel::ECC_Visibility, LineTraceParams, FCollisionResponseParams()))
 	{
 		AActor* HitActor = HitResult.GetActor();
+		UPrimitiveComponent* HitComponent = HitResult.GetComponent();
 
 		if (!IsValid(HitActor))
 		{
@@ -352,6 +353,27 @@ void ACursorController::Tick(float DeltaTime)
 
 		FRotator AddedYaw = FRotator(0, RotationYaw, 0) + GrabRotation;
 		PhysicsHandle->SetTargetLocationAndRotation(updatelocation, AddedYaw);//CursorWorldRotation + AddedYaw);
+
+		GEngine->AddOnScreenDebugMessage(1, 200, FColor::Green, FString::Printf(TEXT("Check for snap")));
+		FHitResult SnapHitResult;
+		FVector SnapStart = updatelocation + (CursorWorldDirection * 50.0f);
+		FVector SnapEnd = SnapStart + (CursorWorldDirection * 5000.0f);
+		FCollisionQueryParams LineTraceParams;
+
+		// Raycast to check for snap points
+		if (GetWorld()->LineTraceSingleByChannel(SnapHitResult, SnapStart, SnapEnd, ECollisionChannel::ECC_Visibility, LineTraceParams, FCollisionResponseParams()))
+		{
+			UPrimitiveComponent* SnapHitComponent = SnapHitResult.GetComponent();
+
+			//xGEngine->AddOnScreenDebugMessage(1, 200, FColor::Green, FString::Printf(TEXT("Detected Component: %s"), *SnapHitComponent->GetName()));
+			if (SnapHitComponent->ComponentHasTag(TEXT("Snap")))
+			{
+				// When hovering over snap point, change target location of held object
+				//xGEngine->AddOnScreenDebugMessage(1, 1, FColor::Red, FString::Printf(TEXT("Snap Detected!")));
+				PhysicsHandle->SetTargetLocation(SnapHitComponent->GetComponentLocation());
+
+			}
+		}
 		//PhysicsHandle->SetTargetLocation(updatelocation);
 	}
 

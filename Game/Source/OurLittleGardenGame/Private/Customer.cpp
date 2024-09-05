@@ -82,6 +82,10 @@ bool ACustomer::UpdateDialogue(FName Name)
 		{
 			AddQuest(Row->TriggeredQuest);
 		}
+		if (Row->bRemoveBox)
+		{
+			RemoveBox();
+		}
 
 		return true;
 	}
