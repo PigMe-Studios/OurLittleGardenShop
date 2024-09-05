@@ -1,0 +1,29 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3548773928	Play_Amb_Dynamic			\WU_Main\Ambience\Play_Amb_Dynamic	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	806345494	State_Environment			\WU_Main\State_Environment	
+	2484199401	State_Weather			\WU_Main\State_Weather	
+	4010970612	State_Time			\WU_Main\State_Time	
+
+State	ID	Name	State Group			Notes
+	748895195	None	State_Environment			
+	1132214669	Interior	State_Environment			
+	2213992659	Exterior	State_Environment			
+	748895195	None	State_Weather			
+	1537061107	Wind	State_Weather			
+	1686739424	Storm	State_Weather			
+	1754255536	Clear	State_Weather			
+	2043403999	Rain	State_Weather			
+	311764537	Day	State_Time			
+	748895195	None	State_Time			
+	1011622525	Night	State_Time			
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	33761221	Amb_GardenAmb_Birds	S:\Documents\Clones\OurLittleGardenShop\Game\OurLittleGardenGame_WwiseProject\.cache\Windows\SFX\Amb_GardenAmb_Birds_8EC3C7C0.wem	33761221.wem	\Actor-Mixer Hierarchy\WU_Main\Ambience\AM_AmbientBeds\Amb_Dynamic\Amb_Weather\Amb_GardenAmb_Birds	
+	272028858	Amb_GardenAmb_Wind	S:\Documents\Clones\OurLittleGardenShop\Game\OurLittleGardenGame_WwiseProject\.cache\Windows\SFX\Amb_GardenAmb_Wind_8EC3C7C0.wem	272028858.wem	\Actor-Mixer Hierarchy\WU_Main\Ambience\AM_AmbientBeds\Amb_Dynamic\Amb_Weather\Amb_GardenAmb_Wind	
+	478117225	Amb_Rain	S:\Documents\Clones\OurLittleGardenShop\Game\OurLittleGardenGame_WwiseProject\.cache\Windows\SFX\Amb_Rain_8EC3C7C0.wem	478117225.wem	\Actor-Mixer Hierarchy\WU_Main\Ambience\AM_AmbientBeds\Amb_Dynamic\Amb_Weather\Amb_Rain	
+	546883298	Amb_Night	S:\Documents\Clones\OurLittleGardenShop\Game\OurLittleGardenGame_WwiseProject\.cache\Windows\SFX\Amb_Night_8EC3C7C0.wem	546883298.wem	\Actor-Mixer Hierarchy\WU_Main\Ambience\AM_AmbientBeds\Amb_Dynamic\Amb_Night	
+	570396914	Amb_Base	S:\Documents\Clones\OurLittleGardenShop\Game\OurLittleGardenGame_WwiseProject\.cache\Windows\SFX\Amb_Base_8EC3C7C0.wem	570396914.wem	\Actor-Mixer Hierarchy\WU_Main\Ambience\AM_AmbientBeds\Amb_Dynamic\Amb_Base	
+	998621744	Amb_Wind	S:\Documents\Clones\OurLittleGardenShop\Game\OurLittleGardenGame_WwiseProject\.cache\Windows\SFX\Amb_Wind_8EC3C7C0.wem	998621744.wem	\Actor-Mixer Hierarchy\WU_Main\Ambience\AM_AmbientBeds\Amb_Dynamic\Amb_Weather\Amb_Wind	
+

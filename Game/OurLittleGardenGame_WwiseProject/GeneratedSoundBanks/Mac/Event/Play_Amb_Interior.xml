@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="76573753" Type="Event" GUID="{6E036834-B727-46B5-A4B8-5BF5434403A9}" Language="SFX" Hash="{8F3B37F6-E308-0947-EB70-12247F5A876F}">
+		<SoundBank Id="76573753" Type="Event" GUID="{6E036834-B727-46B5-A4B8-5BF5434403A9}" Language="SFX" Hash="{35309C00-71B0-A7F3-8CD6-B993868F5B1C}">
 			<ObjectPath>Play_Amb_Interior</ObjectPath>
 			<ShortName>Play_Amb_Interior</ShortName>
 			<Path>Event/Play_Amb_Interior.bnk</Path>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{7F392C0B-5AC0-240B-2731-9E2B3860D7D6}</FileHash>
+	<FileHash>{90317A8A-A6DC-EF77-C424-7CC87727666C}</FileHash>
 </SoundBanksInfo>

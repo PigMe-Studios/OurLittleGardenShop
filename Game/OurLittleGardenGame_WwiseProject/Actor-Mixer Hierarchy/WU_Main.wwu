@@ -11,15 +11,10 @@
 								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 								<Property Name="MaxSoundPerInstance" Type="int16">
 									<ValueList>
-										<Value>2</Value>
+										<Value>10</Value>
 									</ValueList>
 								</Property>
 								<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
-								<Property Name="UseMaxSoundPerInstance" Type="bool">
-									<ValueList>
-										<Value>True</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -30,41 +25,6 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Amb_GardenAmb_Birds" ID="{56D66C4D-DB71-4CB5-953F-8F99167B1EB5}" ShortID="742337933">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="IsStreamingEnabled" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-15</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Amb_GardenAmb_Birds" ID="{1A3BBD8D-703D-40BA-ADD6-97DF1B9181A2}">
-											<Language>SFX</Language>
-											<AudioFile>Amb_GardenAmb_Birds.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="33761221"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Amb_GardenAmb_Birds" ID="{1A3BBD8D-703D-40BA-ADD6-97DF1B9181A2}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<Sound Name="Amb_GardenAmb_Birds-Wind" ID="{2E16CD7C-7F94-4318-A082-E6F2B1354335}" ShortID="621051196">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
@@ -98,41 +58,6 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="Amb_GardenAmb_Birds-Wind" ID="{720CA246-5EE4-476C-AD68-F4307F3E59EA}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Amb_GardenAmb_Wind" ID="{EA92028F-7DA3-4A1F-82C2-847EBD13284E}" ShortID="398977470">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="IsStreamingEnabled" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-15</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Amb_GardenAmb_Wind" ID="{6C8C9B6E-E41E-4C14-AE1A-554E928FA2B3}">
-											<Language>SFX</Language>
-											<AudioFile>Amb_GardenAmb_Wind.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="272028858"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Amb_GardenAmb_Wind" ID="{6C8C9B6E-E41E-4C14-AE1A-554E928FA2B3}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Amb_Interior" ID="{4C4A7380-6F40-4302-8E65-239CFBF97B36}" ShortID="389682492">
@@ -170,6 +95,548 @@
 										<ActiveSource Name="Amb_Interior" ID="{7DDD336B-4618-416A-BB9B-3D0CC55E5669}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<BlendContainer Name="Amb_Dynamic" ID="{B4C69457-4AB2-4743-A703-D7EED9ECEC83}" ShortID="355156938">
+									<PropertyList>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<SwitchContainer Name="Amb_Weather" ID="{C8781A28-339E-46A7-87DA-92817A4425CD}" ShortID="287896472">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+												<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+												</Reference>
+												<Reference Name="SwitchGroupOrStateGroup">
+													<ObjectRef Name="State_Weather" ID="{766E4167-09AD-49D2-9C95-D82A819212CB}" WorkUnitID="{2511F5C8-7CC6-476D-B361-8C4BF738B299}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Amb_Rain" ID="{FA82B9D7-C4ED-433C-97FB-EF42FF6A8A1A}" ShortID="979004578">
+													<PropertyList>
+														<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="IsStreamingEnabled" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-5</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Amb_Rain" ID="{4CFFA16F-BD05-476A-B3D7-7D532775ED10}">
+															<Language>SFX</Language>
+															<AudioFile>Amb_Rain.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="478117225"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Amb_Rain" ID="{4CFFA16F-BD05-476A-B3D7-7D532775ED10}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_GardenAmb_Birds" ID="{56D66C4D-DB71-4CB5-953F-8F99167B1EB5}" ShortID="742337933">
+													<PropertyList>
+														<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="IsStreamingEnabled" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-15</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Amb_GardenAmb_Birds" ID="{1A3BBD8D-703D-40BA-ADD6-97DF1B9181A2}">
+															<Language>SFX</Language>
+															<AudioFile>Amb_GardenAmb_Birds.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="33761221"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<StateInfo>
+														<StateGroupList>
+															<StateGroupInfo>
+																<StateGroupRef Name="State_Time" ID="{39CDDB23-A360-4FF7-B3B6-F9C5B0E6BA4B}"/>
+															</StateGroupInfo>
+														</StateGroupList>
+														<CustomStateList>
+															<CustomState>
+																<StateRef Name="Day" ID="{248E31A7-FAA3-4E79-8A75-403268BC8A6A}"/>
+																<CustomState Name="" ID="{707AB9EE-73DD-4AA2-96AA-1B97029E9DFC}" ShortID="276614511">
+																	<PropertyList>
+																		<Property Name="Highpass" Type="int16" Value="30"/>
+																	</PropertyList>
+																</CustomState>
+															</CustomState>
+															<CustomState>
+																<StateRef Name="Night" ID="{747E19E9-5779-4EDD-8E9A-7AFBD22A3487}"/>
+																<CustomState Name="" ID="{C287396B-CDB1-4AB3-8CC5-FB0A76AAFA0A}" ShortID="674445633">
+																	<PropertyList>
+																		<Property Name="Highpass" Type="int16" Value="32"/>
+																		<Property Name="MakeUpGain" Type="Real64" Value="-192"/>
+																	</PropertyList>
+																</CustomState>
+															</CustomState>
+														</CustomStateList>
+													</StateInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="Amb_GardenAmb_Birds" ID="{1A3BBD8D-703D-40BA-ADD6-97DF1B9181A2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_GardenAmb_Wind" ID="{EA92028F-7DA3-4A1F-82C2-847EBD13284E}" ShortID="398977470">
+													<PropertyList>
+														<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="IsStreamingEnabled" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-10</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Amb_GardenAmb_Wind" ID="{6C8C9B6E-E41E-4C14-AE1A-554E928FA2B3}">
+															<Language>SFX</Language>
+															<AudioFile>Amb_GardenAmb_Wind.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="272028858"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Amb_GardenAmb_Wind" ID="{6C8C9B6E-E41E-4C14-AE1A-554E928FA2B3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_Wind" ID="{050BDA83-0019-4210-98E8-2D7AD924F01E}" ShortID="496455136">
+													<PropertyList>
+														<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="IsStreamingEnabled" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-5</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Amb_Wind" ID="{03E902DA-E716-40C3-87C9-7B5C1E95A757}">
+															<Language>SFX</Language>
+															<AudioFile>Amb_Wind.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="998621744"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Amb_Wind" ID="{03E902DA-E716-40C3-87C9-7B5C1E95A757}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_Thunder" ID="{A2150A29-B5E6-4029-80B2-ECB59E400A18}" ShortID="239815989">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-5</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Amb_Thunder" ID="{7C097F13-D158-446E-A850-0C64119067F5}">
+															<Language>SFX</Language>
+															<AudioFile>Amb_Thunder.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="965160876"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Amb_Thunder" ID="{7C097F13-D158-446E-A850-0C64119067F5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="State_Environment" ID="{D9720876-6AD9-4093-AA6B-D6DE0F42996C}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Exterior" ID="{C9CF9832-9804-4BBD-BC52-0743C9E8C215}"/>
+														<CustomState Name="" ID="{D0A994A5-97B7-4CC4-9E60-8161FAF5FC21}" ShortID="518422126"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Interior" ID="{E7F64BEA-5889-4CD0-99A9-E04FA82AE18E}"/>
+														<CustomState Name="" ID="{44311BDA-F024-4647-BB57-CC8A36A06EB5}" ShortID="884175870">
+															<PropertyList>
+																<Property Name="Lowpass" Type="int16" Value="50"/>
+																<Property Name="MakeUpGain" Type="Real64" Value="-5"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
+											<GroupingInfo>
+												<GroupingBehaviorList>
+													<GroupingBehavior>
+														<ItemRef Name="Amb_Thunder" ID="{A2150A29-B5E6-4029-80B2-ECB59E400A18}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="Amb_GardenAmb_Birds" ID="{56D66C4D-DB71-4CB5-953F-8F99167B1EB5}"/>
+														<PropertyList>
+															<Property Name="ContinuePlay" Type="bool" Value="True"/>
+															<Property Name="FadeInTime" Type="Real64">
+																<ValueList>
+																	<Value>10</Value>
+																</ValueList>
+															</Property>
+															<Property Name="FadeOutTime" Type="Real64">
+																<ValueList>
+																	<Value>10</Value>
+																</ValueList>
+															</Property>
+														</PropertyList>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="Amb_Wind" ID="{050BDA83-0019-4210-98E8-2D7AD924F01E}"/>
+														<PropertyList>
+															<Property Name="ContinuePlay" Type="bool" Value="True"/>
+															<Property Name="FadeInTime" Type="Real64">
+																<ValueList>
+																	<Value>10</Value>
+																</ValueList>
+															</Property>
+															<Property Name="FadeOutTime" Type="Real64">
+																<ValueList>
+																	<Value>10</Value>
+																</ValueList>
+															</Property>
+														</PropertyList>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="Amb_GardenAmb_Wind" ID="{EA92028F-7DA3-4A1F-82C2-847EBD13284E}"/>
+														<PropertyList>
+															<Property Name="ContinuePlay" Type="bool" Value="True"/>
+															<Property Name="FadeInTime" Type="Real64">
+																<ValueList>
+																	<Value>10</Value>
+																</ValueList>
+															</Property>
+															<Property Name="FadeOutTime" Type="Real64">
+																<ValueList>
+																	<Value>10</Value>
+																</ValueList>
+															</Property>
+														</PropertyList>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="Amb_Rain" ID="{FA82B9D7-C4ED-433C-97FB-EF42FF6A8A1A}"/>
+														<PropertyList>
+															<Property Name="ContinuePlay" Type="bool" Value="True"/>
+															<Property Name="FadeInTime" Type="Real64">
+																<ValueList>
+																	<Value>10</Value>
+																</ValueList>
+															</Property>
+															<Property Name="FadeOutTime" Type="Real64">
+																<ValueList>
+																	<Value>10</Value>
+																</ValueList>
+															</Property>
+														</PropertyList>
+													</GroupingBehavior>
+												</GroupingBehaviorList>
+												<GroupingList>
+													<Grouping>
+														<SwitchRef Name="Clear" ID="{EE64540B-1AB7-48A1-A201-744014433BC6}"/>
+														<ItemList>
+															<ItemRef Name="Amb_GardenAmb_Birds" ID="{56D66C4D-DB71-4CB5-953F-8F99167B1EB5}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="Storm" ID="{8E96F21B-A702-4B1E-839F-95BBDC9F2F45}"/>
+														<ItemList>
+															<ItemRef Name="Amb_Wind" ID="{050BDA83-0019-4210-98E8-2D7AD924F01E}"/>
+															<ItemRef Name="Amb_Rain" ID="{FA82B9D7-C4ED-433C-97FB-EF42FF6A8A1A}"/>
+															<ItemRef Name="Amb_Thunder" ID="{A2150A29-B5E6-4029-80B2-ECB59E400A18}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="Wind" ID="{09F987A8-171E-4A7A-9DEB-56C035254F1D}"/>
+														<ItemList>
+															<ItemRef Name="Amb_GardenAmb_Wind" ID="{EA92028F-7DA3-4A1F-82C2-847EBD13284E}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="Rain" ID="{FFA2A6AB-5203-4E71-ABEC-52308BC45DCE}"/>
+														<ItemList>
+															<ItemRef Name="Amb_Rain" ID="{FA82B9D7-C4ED-433C-97FB-EF42FF6A8A1A}"/>
+														</ItemList>
+													</Grouping>
+												</GroupingList>
+											</GroupingInfo>
+										</SwitchContainer>
+										<Sound Name="Amb_Base" ID="{CBB92213-2EEF-4A7C-989F-E617E1737D70}" ShortID="479927196">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-20</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Amb_Base" ID="{A80B09EA-D12B-4E40-8672-381FC70BF8D2}">
+													<Language>SFX</Language>
+													<AudioFile>Amb_Base.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="570396914"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="State_Environment" ID="{D9720876-6AD9-4093-AA6B-D6DE0F42996C}"/>
+													</StateGroupInfo>
+													<StateGroupInfo>
+														<StateGroupRef Name="State_Time" ID="{39CDDB23-A360-4FF7-B3B6-F9C5B0E6BA4B}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Exterior" ID="{C9CF9832-9804-4BBD-BC52-0743C9E8C215}"/>
+														<CustomState Name="" ID="{9382C766-C43D-43EA-9CCD-30C4A109ADF3}" ShortID="352018212"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Interior" ID="{E7F64BEA-5889-4CD0-99A9-E04FA82AE18E}"/>
+														<CustomState Name="" ID="{6D7BB84E-8FE8-4DA2-AC26-043B2444F9DC}" ShortID="239017976">
+															<PropertyList>
+																<Property Name="Highpass" Type="int16" Value="30"/>
+																<Property Name="Lowpass" Type="int16" Value="50"/>
+																<Property Name="MakeUpGain" Type="Real64" Value="-5"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Day" ID="{248E31A7-FAA3-4E79-8A75-403268BC8A6A}"/>
+														<CustomState Name="" ID="{4D28A5BB-14A7-4BD6-B388-D9DEE73DED6D}" ShortID="828033568">
+															<PropertyList>
+																<Property Name="Highpass" Type="int16" Value="20"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Night" ID="{747E19E9-5779-4EDD-8E9A-7AFBD22A3487}"/>
+														<CustomState Name="" ID="{355A47F1-9537-4A98-86DF-61D71198864C}" ShortID="386197531">
+															<PropertyList>
+																<Property Name="Highpass" Type="int16" Value="30"/>
+																<Property Name="MakeUpGain" Type="Real64" Value="-5"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="Amb_Base" ID="{A80B09EA-D12B-4E40-8672-381FC70BF8D2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Amb_Night" ID="{0ED7541B-E31E-4595-8224-A0A8B2549796}" ShortID="1040340097">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-25</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Amb_Night" ID="{C82A8C3A-6E77-4075-AAEA-C994E90EEE56}">
+													<Language>SFX</Language>
+													<AudioFile>Amb_Night.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="546883298"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="State_Time" ID="{39CDDB23-A360-4FF7-B3B6-F9C5B0E6BA4B}"/>
+													</StateGroupInfo>
+													<StateGroupInfo>
+														<StateGroupRef Name="State_Weather" ID="{766E4167-09AD-49D2-9C95-D82A819212CB}"/>
+													</StateGroupInfo>
+													<StateGroupInfo>
+														<StateGroupRef Name="State_Environment" ID="{D9720876-6AD9-4093-AA6B-D6DE0F42996C}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Clear" ID="{EE64540B-1AB7-48A1-A201-744014433BC6}"/>
+														<CustomState Name="" ID="{505A5620-D1A1-4C3A-B10D-E6DA66B366CD}" ShortID="55771756"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Wind" ID="{09F987A8-171E-4A7A-9DEB-56C035254F1D}"/>
+														<CustomState Name="" ID="{03483FC1-5C34-4AA2-9864-9A0D22B174DF}" ShortID="66761463">
+															<PropertyList>
+																<Property Name="MakeUpGain" Type="Real64" Value="-10"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Storm" ID="{8E96F21B-A702-4B1E-839F-95BBDC9F2F45}"/>
+														<CustomState Name="" ID="{868DD66D-8EEE-49B1-B76B-4333B8194F02}" ShortID="709309636">
+															<PropertyList>
+																<Property Name="MakeUpGain" Type="Real64" Value="-192"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Exterior" ID="{C9CF9832-9804-4BBD-BC52-0743C9E8C215}"/>
+														<CustomState Name="" ID="{CC41BBE1-BD47-410B-8DDB-FAE5697FFBEB}" ShortID="135632259"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Interior" ID="{E7F64BEA-5889-4CD0-99A9-E04FA82AE18E}"/>
+														<CustomState Name="" ID="{F8CBBB20-4C9E-4E7C-9BB4-EC6ECFF878D1}" ShortID="414063517">
+															<PropertyList>
+																<Property Name="Lowpass" Type="int16" Value="50"/>
+																<Property Name="MakeUpGain" Type="Real64" Value="-5"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Rain" ID="{FFA2A6AB-5203-4E71-ABEC-52308BC45DCE}"/>
+														<CustomState Name="" ID="{0AC163ED-2540-49EA-B58D-AF2BB7F306C1}" ShortID="658135199">
+															<PropertyList>
+																<Property Name="MakeUpGain" Type="Real64" Value="-20"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Day" ID="{248E31A7-FAA3-4E79-8A75-403268BC8A6A}"/>
+														<CustomState Name="" ID="{B1D4EF00-CAD4-4CD0-AD4E-ED048EBF1D60}" ShortID="853646282">
+															<PropertyList>
+																<Property Name="MakeUpGain" Type="Real64" Value="-192"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Night" ID="{747E19E9-5779-4EDD-8E9A-7AFBD22A3487}"/>
+														<CustomState Name="" ID="{B3BF1244-2EFE-4A15-BC4B-53E2EDC7B1C8}" ShortID="921824706"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="Amb_Night" ID="{C82A8C3A-6E77-4075-AAEA-C994E90EEE56}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</BlendContainer>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>

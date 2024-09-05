@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{9939FEAE-9F37-3006-A98C-6F3588F7B0F5}",
+    "Hash": "{68B5C2B7-528F-755F-EB0D-F2E26AA41E1B}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -102,6 +102,98 @@
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
      }
     ],
+    "StateGroups": [
+     {
+      "Id": "806345494",
+      "Name": "State_Environment",
+      "ObjectPath": "\\States\\WU_Main\\State_Environment",
+      "GUID": "{D9720876-6AD9-4093-AA6B-D6DE0F42996C}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\WU_Main\\State_Environment\\None",
+        "GUID": "{E3C0CC08-79C6-44BA-859A-26F0932AAFED}"
+       },
+       {
+        "Id": "1132214669",
+        "Name": "Interior",
+        "ObjectPath": "\\States\\WU_Main\\State_Environment\\Interior",
+        "GUID": "{E7F64BEA-5889-4CD0-99A9-E04FA82AE18E}"
+       },
+       {
+        "Id": "2213992659",
+        "Name": "Exterior",
+        "ObjectPath": "\\States\\WU_Main\\State_Environment\\Exterior",
+        "GUID": "{C9CF9832-9804-4BBD-BC52-0743C9E8C215}"
+       }
+      ]
+     },
+     {
+      "Id": "2484199401",
+      "Name": "State_Weather",
+      "ObjectPath": "\\States\\WU_Main\\State_Weather",
+      "GUID": "{766E4167-09AD-49D2-9C95-D82A819212CB}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\WU_Main\\State_Weather\\None",
+        "GUID": "{823DF19D-DE68-4203-839C-D8A8C41FC168}"
+       },
+       {
+        "Id": "1537061107",
+        "Name": "Wind",
+        "ObjectPath": "\\States\\WU_Main\\State_Weather\\Wind",
+        "GUID": "{09F987A8-171E-4A7A-9DEB-56C035254F1D}"
+       },
+       {
+        "Id": "1686739424",
+        "Name": "Storm",
+        "ObjectPath": "\\States\\WU_Main\\State_Weather\\Storm",
+        "GUID": "{8E96F21B-A702-4B1E-839F-95BBDC9F2F45}"
+       },
+       {
+        "Id": "1754255536",
+        "Name": "Clear",
+        "ObjectPath": "\\States\\WU_Main\\State_Weather\\Clear",
+        "GUID": "{EE64540B-1AB7-48A1-A201-744014433BC6}"
+       },
+       {
+        "Id": "2043403999",
+        "Name": "Rain",
+        "ObjectPath": "\\States\\WU_Main\\State_Weather\\Rain",
+        "GUID": "{FFA2A6AB-5203-4E71-ABEC-52308BC45DCE}"
+       }
+      ]
+     },
+     {
+      "Id": "4010970612",
+      "Name": "State_Time",
+      "ObjectPath": "\\States\\WU_Main\\State_Time",
+      "GUID": "{39CDDB23-A360-4FF7-B3B6-F9C5B0E6BA4B}",
+      "States": [
+       {
+        "Id": "311764537",
+        "Name": "Day",
+        "ObjectPath": "\\States\\WU_Main\\State_Time\\Day",
+        "GUID": "{248E31A7-FAA3-4E79-8A75-403268BC8A6A}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\WU_Main\\State_Time\\None",
+        "GUID": "{EE5ACC82-1E37-40C6-86AA-5BBED7534224}"
+       },
+       {
+        "Id": "1011622525",
+        "Name": "Night",
+        "ObjectPath": "\\States\\WU_Main\\State_Time\\Night",
+        "GUID": "{747E19E9-5779-4EDD-8E9A-7AFBD22A3487}"
+       }
+      ]
+     }
+    ],
     "SwitchGroups": [
      {
       "Id": "556509116",
@@ -164,6 +256,6 @@
     ]
    }
   ],
-  "FileHash": "{19880F24-6F64-663C-BE43-EE0917DAA6FD}"
+  "FileHash": "{59471AAB-92DD-94DC-EC39-E629252D5C78}"
  }
 }
