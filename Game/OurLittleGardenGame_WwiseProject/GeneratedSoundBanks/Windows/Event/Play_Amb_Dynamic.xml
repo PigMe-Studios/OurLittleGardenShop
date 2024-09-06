@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3548773928" Type="Event" GUID="{EC72F8BB-D0CA-442E-AB0D-3B876C366614}" Language="SFX" Hash="{38E12DC8-F5ED-17F7-45EC-55004ECE499F}">
+		<SoundBank Id="3548773928" Type="Event" GUID="{EC72F8BB-D0CA-442E-AB0D-3B876C366614}" Language="SFX" Hash="{645F3501-13DC-A33E-8538-1D7DCE45C7D4}">
 			<ObjectPath>Play_Amb_Dynamic</ObjectPath>
 			<ShortName>Play_Amb_Dynamic</ShortName>
 			<Path>Event/Play_Amb_Dynamic.bnk</Path>
@@ -31,10 +31,10 @@
 					<Path>Media/570396914.wem</Path>
 					<CachePath>SFX/Amb_Base_8EC3C7C0.wem</CachePath>
 				</File>
-				<File Id="965160876" Language="SFX" Streaming="false" Location="Loose">
+				<File Id="965160876" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Amb_Thunder.wav</ShortName>
 					<Path>Media/965160876.wem</Path>
-					<CachePath>SFX/Amb_Thunder_F06BAF76.wem</CachePath>
+					<CachePath>SFX/Amb_Thunder_8EC3C7C0.wem</CachePath>
 				</File>
 				<File Id="998621744" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Amb_Wind.wav</ShortName>
@@ -91,5 +91,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{AD8AB443-AE70-CCD7-2ACF-60F3926B3014}</FileHash>
+	<FileHash>{4A6B373D-638F-B937-DD07-2C1939FB7B4E}</FileHash>
 </SoundBanksInfo>

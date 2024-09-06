@@ -54,7 +54,7 @@
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="AlphaNum" ID="{A83AA4F8-6800-4019-B11D-E7064840BDA4}"/>
-						<CurrentSwitchRef Name="Florist" ID="{5E9E9616-61B2-4F5A-9566-FB5F5C5248F0}"/>
+						<CurrentSwitchRef Name="Chef" ID="{AE88FCEC-5377-4D58-A611-C1A179957653}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="MusicTones" ID="{F724B542-D3B6-4D58-8D13-0CF69E49FB1C}">
@@ -81,7 +81,10 @@
 						<CurrentStateRef Name="Clear" ID="{EE64540B-1AB7-48A1-A201-744014433BC6}"/>
 						<CurrentStateRef Name="Day" ID="{248E31A7-FAA3-4E79-8A75-403268BC8A6A}"/>
 					</CurrentStateList>
-					<CurrentSwitchList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="AlphaNum" ID="{A83AA4F8-6800-4019-B11D-E7064840BDA4}"/>
+						<CurrentSwitchRef Name="Chef" ID="{AE88FCEC-5377-4D58-A611-C1A179957653}"/>
+					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>

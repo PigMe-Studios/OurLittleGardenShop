@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{EC72F8BB-D0CA-442E-AB0D-3B876C366614}",
     "Language": "SFX",
-    "Hash": "{38E12DC8-F5ED-17F7-45EC-55004ECE499F}",
+    "Hash": "{645F3501-13DC-A33E-8538-1D7DCE45C7D4}",
     "ObjectPath": "Play_Amb_Dynamic",
     "ShortName": "Play_Amb_Dynamic",
     "Path": "Event/Play_Amb_Dynamic.bnk",
@@ -63,11 +63,11 @@
      {
       "Id": "965160876",
       "Language": "SFX",
-      "Streaming": "false",
+      "Streaming": "true",
       "Location": "Loose",
       "ShortName": "Amb_Thunder.wav",
       "Path": "Media/965160876.wem",
-      "CachePath": "SFX/Amb_Thunder_F06BAF76.wem"
+      "CachePath": "SFX/Amb_Thunder_8EC3C7C0.wem"
      },
      {
       "Id": "998621744",
@@ -198,6 +198,6 @@
     ]
    }
   ],
-  "FileHash": "{56C10679-677C-76B9-8079-0EDD77F9ACC3}"
+  "FileHash": "{9215B443-B729-B35B-1DA9-D3BCC8A95A2F}"
  }
 }
