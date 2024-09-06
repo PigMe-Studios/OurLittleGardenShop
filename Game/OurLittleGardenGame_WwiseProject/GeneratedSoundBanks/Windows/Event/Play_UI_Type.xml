@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="142592887" Type="Event" GUID="{A2A87D41-B97D-48FB-ADDC-D8EC9F1FD607}" Language="SFX" Hash="{68E9D470-FB97-4353-E53F-5B4CC0B9AA21}">
+			<ObjectPath>Play_UI_Type</ObjectPath>
+			<ShortName>Play_UI_Type</ShortName>
+			<Path>Event/Play_UI_Type.bnk</Path>
+			<Media>
+				<File Id="125470387" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_DialogueRoll_KB-001.wav</ShortName>
+					<Path>Media/125470387.wem</Path>
+					<CachePath>SFX/UI_DialogueRoll_KB-001_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="358023881" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_DialogueRoll_KB-005.wav</ShortName>
+					<Path>Media/358023881.wem</Path>
+					<CachePath>SFX/UI_DialogueRoll_KB-005_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="398048133" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_DialogueRoll_KB-007.wav</ShortName>
+					<Path>Media/398048133.wem</Path>
+					<CachePath>SFX/UI_DialogueRoll_KB-007_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="539251372" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_DialogueRoll_KB-004.wav</ShortName>
+					<Path>Media/539251372.wem</Path>
+					<CachePath>SFX/UI_DialogueRoll_KB-004_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="612503434" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_DialogueRoll_KB-002.wav</ShortName>
+					<Path>Media/612503434.wem</Path>
+					<CachePath>SFX/UI_DialogueRoll_KB-002_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="739188682" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_DialogueRoll_KB-006.wav</ShortName>
+					<Path>Media/739188682.wem</Path>
+					<CachePath>SFX/UI_DialogueRoll_KB-006_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="1021079182" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_DialogueRoll_KB-003.wav</ShortName>
+					<Path>Media/1021079182.wem</Path>
+					<CachePath>SFX/UI_DialogueRoll_KB-003_F06BAF76.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="142592887" Name="Play_UI_Type" ObjectPath="\Events\WU_Main\UI\Play_UI_Type" GUID="{A2A87D41-B97D-48FB-ADDC-D8EC9F1FD607}" DurationType="OneShot" DurationMin="0.47193712" DurationMax="0.5297316">
+					<MediaRefs>
+						<MediaRef Id="125470387"/>
+						<MediaRef Id="358023881"/>
+						<MediaRef Id="398048133"/>
+						<MediaRef Id="539251372"/>
+						<MediaRef Id="612503434"/>
+						<MediaRef Id="739188682"/>
+						<MediaRef Id="1021079182"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{7D748401-CF5B-BB76-0868-5E20BA5AD8AB}</FileHash>
+</SoundBanksInfo>

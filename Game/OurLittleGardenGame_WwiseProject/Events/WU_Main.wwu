@@ -38,6 +38,21 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Amb_Dynamic" ID="{EC72F8BB-D0CA-442E-AB0D-3B876C366614}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="17"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{1B3E1DE0-77F3-4C59-B6FF-022B5F6CAA22}" ShortID="761763748">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Dynamic" ID="{B4C69457-4AB2-4743-A703-D7EED9ECEC83}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Environment" ID="{B1B7B36E-5C77-4ADB-8BCC-9BB68FD1639D}" ShortID="16762382">
@@ -611,6 +626,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="UI_DialogueRoll-Tone" ID="{B115C01B-8B5D-4C7A-88B1-3EDB0E1F1424}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_UI_Type" ID="{A2A87D41-B97D-48FB-ADDC-D8EC9F1FD607}">
+							<ChildrenList>
+								<Action Name="" ID="{89CDB9E0-2500-44E1-9486-953B861789FE}" ShortID="14833025">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Type" ID="{3428AD21-458E-45BB-B611-8671D723479F}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

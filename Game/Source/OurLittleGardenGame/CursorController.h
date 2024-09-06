@@ -107,6 +107,8 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	UPhysicsHandleComponent* PhysicsHandle;
 
+	bool bInteractionEnabled = true;
+
 
 
 public:	
@@ -124,7 +126,7 @@ public:
 	void CurserHoverCheck();
 
 	// @Breif Check if the textbox is currently on screen
-	// @Return Is the textbox on screen?
+	// @Return* Is the textbox on screen?
 	UFUNCTION(BlueprintImplementableEvent)
 	bool IsDialogueActive();
 
@@ -140,6 +142,11 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "EnhancedInput")
 	ACustomer* CustomerReference;
+
+	//tracks if interaction with objects is enabled
+	UFUNCTION( BlueprintCallable, Category = "Interaction")
+	void SetInteractionEnabled(bool bEnabled);
+
 
 private:
 };

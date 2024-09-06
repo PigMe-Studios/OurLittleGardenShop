@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{FFE960F3-1402-FCD5-7585-DF69F8D3A524}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{1B54B4FA-AA50-AE87-95B9-7DC29156FEFF}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -24,6 +24,31 @@
 				<Bus Id="3399979499" Name="Bus_ReverbMain" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Bus_ReverbMain" GUID="{CC926357-5A3D-40D8-ADB8-2C3C5BFAC73E}"/>
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 			</Busses>
+			<StateGroups>
+				<StateGroup Id="806345494" Name="State_Environment" ObjectPath="\States\WU_Main\State_Environment" GUID="{D9720876-6AD9-4093-AA6B-D6DE0F42996C}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\WU_Main\State_Environment\None" GUID="{E3C0CC08-79C6-44BA-859A-26F0932AAFED}"/>
+						<State Id="1132214669" Name="Interior" ObjectPath="\States\WU_Main\State_Environment\Interior" GUID="{E7F64BEA-5889-4CD0-99A9-E04FA82AE18E}"/>
+						<State Id="2213992659" Name="Exterior" ObjectPath="\States\WU_Main\State_Environment\Exterior" GUID="{C9CF9832-9804-4BBD-BC52-0743C9E8C215}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2484199401" Name="State_Weather" ObjectPath="\States\WU_Main\State_Weather" GUID="{766E4167-09AD-49D2-9C95-D82A819212CB}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\WU_Main\State_Weather\None" GUID="{823DF19D-DE68-4203-839C-D8A8C41FC168}"/>
+						<State Id="1537061107" Name="Wind" ObjectPath="\States\WU_Main\State_Weather\Wind" GUID="{09F987A8-171E-4A7A-9DEB-56C035254F1D}"/>
+						<State Id="1686739424" Name="Storm" ObjectPath="\States\WU_Main\State_Weather\Storm" GUID="{8E96F21B-A702-4B1E-839F-95BBDC9F2F45}"/>
+						<State Id="1754255536" Name="Clear" ObjectPath="\States\WU_Main\State_Weather\Clear" GUID="{EE64540B-1AB7-48A1-A201-744014433BC6}"/>
+						<State Id="2043403999" Name="Rain" ObjectPath="\States\WU_Main\State_Weather\Rain" GUID="{FFA2A6AB-5203-4E71-ABEC-52308BC45DCE}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="4010970612" Name="State_Time" ObjectPath="\States\WU_Main\State_Time" GUID="{39CDDB23-A360-4FF7-B3B6-F9C5B0E6BA4B}">
+					<States>
+						<State Id="311764537" Name="Day" ObjectPath="\States\WU_Main\State_Time\Day" GUID="{248E31A7-FAA3-4E79-8A75-403268BC8A6A}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\WU_Main\State_Time\None" GUID="{EE5ACC82-1E37-40C6-86AA-5BBED7534224}"/>
+						<State Id="1011622525" Name="Night" ObjectPath="\States\WU_Main\State_Time\Night" GUID="{747E19E9-5779-4EDD-8E9A-7AFBD22A3487}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 			<SwitchGroups>
 				<SwitchGroup Id="556509116" Name="Switch_DialogueRollCharacter" ObjectPath="\Switches\WU_Main\Switch_DialogueRollCharacter" GUID="{98A50F19-CDA0-490C-A59C-FAC6E288B097}">
 					<Switches>
@@ -43,5 +68,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1E2412F3-C530-0C00-0176-205374F24179}</FileHash>
+	<FileHash>{6C762B3D-A1E9-4F5C-BBE8-A403C6EAE7E7}</FileHash>
 </SoundBanksInfo>
