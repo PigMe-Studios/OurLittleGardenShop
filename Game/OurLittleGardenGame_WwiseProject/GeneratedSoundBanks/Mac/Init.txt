@@ -1,3 +1,21 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	806345494	State_Environment			\WU_Main\State_Environment	
+	2484199401	State_Weather			\WU_Main\State_Weather	
+	4010970612	State_Time			\WU_Main\State_Time	
+
+State	ID	Name	State Group			Notes
+	748895195	None	State_Environment			
+	1132214669	Interior	State_Environment			
+	2213992659	Exterior	State_Environment			
+	748895195	None	State_Weather			
+	1537061107	Wind	State_Weather			
+	1686739424	Storm	State_Weather			
+	1754255536	Clear	State_Weather			
+	2043403999	Rain	State_Weather			
+	311764537	Day	State_Time			
+	748895195	None	State_Time			
+	1011622525	Night	State_Time			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	17369109	Bus_InteractMain			\Default Work Unit\Master Audio Bus\Bus_InteractMain	
 	447158585	Bus_UIMain			\Default Work Unit\Master Audio Bus\Bus_UIMain	

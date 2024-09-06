@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_AMB_DYNAMIC = 3548773928U;
         static const AkUniqueID PLAY_AMB_GARDENAMB_BIRDS_WIND = 3321113552U;
         static const AkUniqueID PLAY_AMB_INTERIOR = 76573753U;
         static const AkUniqueID PLAY_ENV_LAMP_HOVER = 3148792683U;
@@ -48,8 +49,51 @@ namespace AK
         static const AkUniqueID PLAY_UI_HOVER = 1339559671U;
         static const AkUniqueID PLAY_UI_REVERSE = 1701607391U;
         static const AkUniqueID PLAY_UI_SINGLE = 526886411U;
+        static const AkUniqueID PLAY_UI_TYPE = 142592887U;
         static const AkUniqueID STOP_ENV_WATERINGCAN_POUR_END = 378354790U;
     } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace STATE_ENVIRONMENT
+        {
+            static const AkUniqueID GROUP = 806345494U;
+
+            namespace STATE
+            {
+                static const AkUniqueID EXTERIOR = 2213992659U;
+                static const AkUniqueID INTERIOR = 1132214669U;
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace STATE_ENVIRONMENT
+
+        namespace STATE_TIME
+        {
+            static const AkUniqueID GROUP = 4010970612U;
+
+            namespace STATE
+            {
+                static const AkUniqueID DAY = 311764537U;
+                static const AkUniqueID NIGHT = 1011622525U;
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace STATE_TIME
+
+        namespace STATE_WEATHER
+        {
+            static const AkUniqueID GROUP = 2484199401U;
+
+            namespace STATE
+            {
+                static const AkUniqueID CLEAR = 1754255536U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID RAIN = 2043403999U;
+                static const AkUniqueID STORM = 1686739424U;
+                static const AkUniqueID WIND = 1537061107U;
+            } // namespace STATE
+        } // namespace STATE_WEATHER
+
+    } // namespace STATES
 
     namespace SWITCHES
     {

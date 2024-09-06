@@ -127,7 +127,7 @@
     "Type": "Event",
     "GUID": "{6E036834-B727-46B5-A4B8-5BF5434403A9}",
     "Language": "SFX",
-    "Hash": "{8F3B37F6-E308-0947-EB70-12247F5A876F}",
+    "Hash": "{35309C00-71B0-A7F3-8CD6-B993868F5B1C}",
     "ObjectPath": "Play_Amb_Interior",
     "ShortName": "Play_Amb_Interior",
     "Path": "Event/Play_Amb_Interior.bnk",
@@ -213,6 +213,115 @@
        },
        {
         "Id": "997588128"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "142592887",
+    "Type": "Event",
+    "GUID": "{A2A87D41-B97D-48FB-ADDC-D8EC9F1FD607}",
+    "Language": "SFX",
+    "Hash": "{68E9D470-FB97-4353-E53F-5B4CC0B9AA21}",
+    "ObjectPath": "Play_UI_Type",
+    "ShortName": "Play_UI_Type",
+    "Path": "Event/Play_UI_Type.bnk",
+    "Media": [
+     {
+      "Id": "125470387",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_KB-001.wav",
+      "Path": "Media/125470387.wem",
+      "CachePath": "SFX/UI_DialogueRoll_KB-001_F06BAF76.wem"
+     },
+     {
+      "Id": "358023881",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_KB-005.wav",
+      "Path": "Media/358023881.wem",
+      "CachePath": "SFX/UI_DialogueRoll_KB-005_F06BAF76.wem"
+     },
+     {
+      "Id": "398048133",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_KB-007.wav",
+      "Path": "Media/398048133.wem",
+      "CachePath": "SFX/UI_DialogueRoll_KB-007_F06BAF76.wem"
+     },
+     {
+      "Id": "539251372",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_KB-004.wav",
+      "Path": "Media/539251372.wem",
+      "CachePath": "SFX/UI_DialogueRoll_KB-004_F06BAF76.wem"
+     },
+     {
+      "Id": "612503434",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_KB-002.wav",
+      "Path": "Media/612503434.wem",
+      "CachePath": "SFX/UI_DialogueRoll_KB-002_F06BAF76.wem"
+     },
+     {
+      "Id": "739188682",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_KB-006.wav",
+      "Path": "Media/739188682.wem",
+      "CachePath": "SFX/UI_DialogueRoll_KB-006_F06BAF76.wem"
+     },
+     {
+      "Id": "1021079182",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_DialogueRoll_KB-003.wav",
+      "Path": "Media/1021079182.wem",
+      "CachePath": "SFX/UI_DialogueRoll_KB-003_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "142592887",
+      "Name": "Play_UI_Type",
+      "ObjectPath": "\\Events\\WU_Main\\UI\\Play_UI_Type",
+      "GUID": "{A2A87D41-B97D-48FB-ADDC-D8EC9F1FD607}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.47193712",
+      "DurationMax": "0.5297316",
+      "MediaRefs": [
+       {
+        "Id": "125470387"
+       },
+       {
+        "Id": "358023881"
+       },
+       {
+        "Id": "398048133"
+       },
+       {
+        "Id": "539251372"
+       },
+       {
+        "Id": "612503434"
+       },
+       {
+        "Id": "739188682"
+       },
+       {
+        "Id": "1021079182"
        }
       ]
      }
@@ -869,7 +978,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{9939FEAE-9F37-3006-A98C-6F3588F7B0F5}",
+    "Hash": "{68B5C2B7-528F-755F-EB0D-F2E26AA41E1B}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -959,6 +1068,98 @@
       "Name": "Master Audio Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "806345494",
+      "Name": "State_Environment",
+      "ObjectPath": "\\States\\WU_Main\\State_Environment",
+      "GUID": "{D9720876-6AD9-4093-AA6B-D6DE0F42996C}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\WU_Main\\State_Environment\\None",
+        "GUID": "{E3C0CC08-79C6-44BA-859A-26F0932AAFED}"
+       },
+       {
+        "Id": "1132214669",
+        "Name": "Interior",
+        "ObjectPath": "\\States\\WU_Main\\State_Environment\\Interior",
+        "GUID": "{E7F64BEA-5889-4CD0-99A9-E04FA82AE18E}"
+       },
+       {
+        "Id": "2213992659",
+        "Name": "Exterior",
+        "ObjectPath": "\\States\\WU_Main\\State_Environment\\Exterior",
+        "GUID": "{C9CF9832-9804-4BBD-BC52-0743C9E8C215}"
+       }
+      ]
+     },
+     {
+      "Id": "2484199401",
+      "Name": "State_Weather",
+      "ObjectPath": "\\States\\WU_Main\\State_Weather",
+      "GUID": "{766E4167-09AD-49D2-9C95-D82A819212CB}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\WU_Main\\State_Weather\\None",
+        "GUID": "{823DF19D-DE68-4203-839C-D8A8C41FC168}"
+       },
+       {
+        "Id": "1537061107",
+        "Name": "Wind",
+        "ObjectPath": "\\States\\WU_Main\\State_Weather\\Wind",
+        "GUID": "{09F987A8-171E-4A7A-9DEB-56C035254F1D}"
+       },
+       {
+        "Id": "1686739424",
+        "Name": "Storm",
+        "ObjectPath": "\\States\\WU_Main\\State_Weather\\Storm",
+        "GUID": "{8E96F21B-A702-4B1E-839F-95BBDC9F2F45}"
+       },
+       {
+        "Id": "1754255536",
+        "Name": "Clear",
+        "ObjectPath": "\\States\\WU_Main\\State_Weather\\Clear",
+        "GUID": "{EE64540B-1AB7-48A1-A201-744014433BC6}"
+       },
+       {
+        "Id": "2043403999",
+        "Name": "Rain",
+        "ObjectPath": "\\States\\WU_Main\\State_Weather\\Rain",
+        "GUID": "{FFA2A6AB-5203-4E71-ABEC-52308BC45DCE}"
+       }
+      ]
+     },
+     {
+      "Id": "4010970612",
+      "Name": "State_Time",
+      "ObjectPath": "\\States\\WU_Main\\State_Time",
+      "GUID": "{39CDDB23-A360-4FF7-B3B6-F9C5B0E6BA4B}",
+      "States": [
+       {
+        "Id": "311764537",
+        "Name": "Day",
+        "ObjectPath": "\\States\\WU_Main\\State_Time\\Day",
+        "GUID": "{248E31A7-FAA3-4E79-8A75-403268BC8A6A}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\WU_Main\\State_Time\\None",
+        "GUID": "{EE5ACC82-1E37-40C6-86AA-5BBED7534224}"
+       },
+       {
+        "Id": "1011622525",
+        "Name": "Night",
+        "ObjectPath": "\\States\\WU_Main\\State_Time\\Night",
+        "GUID": "{747E19E9-5779-4EDD-8E9A-7AFBD22A3487}"
+       }
+      ]
      }
     ],
     "SwitchGroups": [
@@ -1733,7 +1934,7 @@
     "Type": "Event",
     "GUID": "{0EEFC5E7-1F69-4FAF-9ED8-D73E1E099FC4}",
     "Language": "SFX",
-    "Hash": "{CA7D0BC6-DF9D-F403-E307-0D9AB7C0D8DD}",
+    "Hash": "{1A696C23-A902-663C-4C39-E82B0DA68671}",
     "ObjectPath": "Play_Amb_GardenAmb_Birds_Wind",
     "ShortName": "Play_Amb_GardenAmb_Birds_Wind",
     "Path": "Event/Play_Amb_GardenAmb_Birds_Wind.bnk",
@@ -1879,6 +2080,198 @@
        },
        {
         "Id": "769164870"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "3548773928",
+    "Type": "Event",
+    "GUID": "{EC72F8BB-D0CA-442E-AB0D-3B876C366614}",
+    "Language": "SFX",
+    "Hash": "{645F3501-13DC-A33E-8538-1D7DCE45C7D4}",
+    "ObjectPath": "Play_Amb_Dynamic",
+    "ShortName": "Play_Amb_Dynamic",
+    "Path": "Event/Play_Amb_Dynamic.bnk",
+    "Media": [
+     {
+      "Id": "33761221",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Amb_GardenAmb_Birds.wav",
+      "Path": "Media/33761221.wem",
+      "CachePath": "SFX/Amb_GardenAmb_Birds_8EC3C7C0.wem"
+     },
+     {
+      "Id": "272028858",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Amb_GardenAmb_Wind.wav",
+      "Path": "Media/272028858.wem",
+      "CachePath": "SFX/Amb_GardenAmb_Wind_8EC3C7C0.wem"
+     },
+     {
+      "Id": "478117225",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Amb_Rain.wav",
+      "Path": "Media/478117225.wem",
+      "CachePath": "SFX/Amb_Rain_8EC3C7C0.wem"
+     },
+     {
+      "Id": "546883298",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Amb_Night.wav",
+      "Path": "Media/546883298.wem",
+      "CachePath": "SFX/Amb_Night_8EC3C7C0.wem"
+     },
+     {
+      "Id": "570396914",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Amb_Base.wav",
+      "Path": "Media/570396914.wem",
+      "CachePath": "SFX/Amb_Base_8EC3C7C0.wem"
+     },
+     {
+      "Id": "965160876",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Amb_Thunder.wav",
+      "Path": "Media/965160876.wem",
+      "CachePath": "SFX/Amb_Thunder_8EC3C7C0.wem"
+     },
+     {
+      "Id": "998621744",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Amb_Wind.wav",
+      "Path": "Media/998621744.wem",
+      "CachePath": "SFX/Amb_Wind_8EC3C7C0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3548773928",
+      "Name": "Play_Amb_Dynamic",
+      "ObjectPath": "\\Events\\WU_Main\\Ambience\\Play_Amb_Dynamic",
+      "GUID": "{EC72F8BB-D0CA-442E-AB0D-3B876C366614}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "546883298"
+       },
+       {
+        "Id": "570396914"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2484199401",
+         "Id": "1754255536",
+         "GUID": "{EE64540B-1AB7-48A1-A201-744014433BC6}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "33761221"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2484199401",
+         "Id": "1686739424",
+         "GUID": "{8E96F21B-A702-4B1E-839F-95BBDC9F2F45}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "478117225"
+         },
+         {
+          "Id": "965160876"
+         },
+         {
+          "Id": "998621744"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2484199401",
+         "Id": "1537061107",
+         "GUID": "{09F987A8-171E-4A7A-9DEB-56C035254F1D}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "272028858"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2484199401",
+         "Id": "2043403999",
+         "GUID": "{FFA2A6AB-5203-4E71-ABEC-52308BC45DCE}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "478117225"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "2484199401",
+      "Name": "State_Weather",
+      "ObjectPath": "\\States\\WU_Main\\State_Weather",
+      "GUID": "{766E4167-09AD-49D2-9C95-D82A819212CB}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\WU_Main\\State_Weather\\None",
+        "GUID": "{823DF19D-DE68-4203-839C-D8A8C41FC168}"
+       },
+       {
+        "Id": "1537061107",
+        "Name": "Wind",
+        "ObjectPath": "\\States\\WU_Main\\State_Weather\\Wind",
+        "GUID": "{09F987A8-171E-4A7A-9DEB-56C035254F1D}"
+       },
+       {
+        "Id": "1686739424",
+        "Name": "Storm",
+        "ObjectPath": "\\States\\WU_Main\\State_Weather\\Storm",
+        "GUID": "{8E96F21B-A702-4B1E-839F-95BBDC9F2F45}"
+       },
+       {
+        "Id": "1754255536",
+        "Name": "Clear",
+        "ObjectPath": "\\States\\WU_Main\\State_Weather\\Clear",
+        "GUID": "{EE64540B-1AB7-48A1-A201-744014433BC6}"
+       },
+       {
+        "Id": "2043403999",
+        "Name": "Rain",
+        "ObjectPath": "\\States\\WU_Main\\State_Weather\\Rain",
+        "GUID": "{FFA2A6AB-5203-4E71-ABEC-52308BC45DCE}"
        }
       ]
      }
@@ -3056,6 +3449,6 @@
     ]
    }
   ],
-  "FileHash": "{8E86028A-9105-7E31-19D0-122748230DC5}"
+  "FileHash": "{600E5980-3C7C-7A70-D559-0E413D5C343C}"
  }
 }

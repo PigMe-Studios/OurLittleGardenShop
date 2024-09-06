@@ -9,7 +9,6 @@
 #include "EnhancedInputSubsystems.h"
 #include "EnhancedInputComponent.h"
 #include "Materials/MaterialInstanceDynamic.h"
-//#include "Kismet/GameplayStatics.h"
 #include "PhysicsEngine/PhysicsHandleComponent.h"
 #include "InteractableObjectParent.h"
 #include "InteractionInterface.h"
@@ -78,11 +77,12 @@ void ACursorController::CursorWorldPosition()
 
 void ACursorController::ActorInteract(const FInputActionValue& Value)
 {
-	//check if already hoilding item
-	if (bIsInteracting)
+	//check if already hoilding item or interaction is disablked
+	if (bIsInteracting || !bInteractionEnabled)
 	{
 		return;
 	}
+
 	if (CustomerReference && CustomerReference->ConversationWidget != nullptr)
 	{
 		return;
@@ -96,16 +96,12 @@ void ACursorController::ActorInteract(const FInputActionValue& Value)
 	if (GetWorld()->LineTraceSingleByChannel(HitResult, Start, End, ECollisionChannel::ECC_Visibility, LineTraceParams, FCollisionResponseParams())
 		&& !IsDialogueActive())
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("HitSomething: %s"), *HitResult.GetActor()->GetName()));
-
 		AActor* HitActor = HitResult.GetActor();
 
 		if (HitActor && HitActor->GetClass()->ImplementsInterface(UInteractionInterface::StaticClass()))
 		{
-			//HitResult.GetActor()
 			IInteractionInterface::Execute_Interact(HitActor);
-			//IInteractionInterface::Execute_Interact(HitActor, CursorController	
-			// 
+		
 			AInteractableObjectParent* InteractableObject = Cast<AInteractableObjectParent>(HitActor);
 			if (InteractableObject && InteractableObject->bCanBePickedUp)
 			{
@@ -117,8 +113,6 @@ void ACursorController::ActorInteract(const FInputActionValue& Value)
 			//if not interactable, pick up as physical object
 			//GrabActor(HitResult, nullptr);
 		}
-		//todo:change mouse cursor to different state on interact
-
 	}
 }
 
@@ -191,6 +185,7 @@ void ACursorController::CurserHoverCheck()
 	if (GetWorld()->LineTraceSingleByChannel(HitResult, Start, End, ECollisionChannel::ECC_Visibility, LineTraceParams, FCollisionResponseParams()))
 	{
 		AActor* HitActor = HitResult.GetActor();
+		UPrimitiveComponent* HitComponent = HitResult.GetComponent();
 
 		if (!IsValid(HitActor))
 		{
@@ -240,8 +235,32 @@ void ACursorController::CurserHoverCheck()
 
 }
 
+void ACursorController::SetInteractionEnabled(bool bEnabled)
+{
+	bInteractionEnabled = bEnabled;
+
+	// remove outline from actor if disabled
+	if (!bInteractionEnabled)
+	{
+		if (LastHoveredActor)
+		{
+			if (UStaticMeshComponent* LastMeshComponent = LastHoveredActor->FindComponentByClass<UStaticMeshComponent>())
+			{
+				LastMeshComponent->SetRenderCustomDepth(false);
+			}
+			LastHoveredActor = nullptr;
+		}
+	}
+}
+
+
 void ACursorController::HoverOutline(AActor* CurrentHoveredActor)
 {
+	if (!bInteractionEnabled)
+	{
+		return;
+	}
+
 	//disable 'render customdepth pass' on the last hovered actor
 	if (LastHoveredActor && LastHoveredActor != CurrentHoveredActor)
 	{
@@ -251,19 +270,30 @@ void ACursorController::HoverOutline(AActor* CurrentHoveredActor)
 		}
 	}
 
+
 	//update the last hovered actor
 	LastHoveredActor = CurrentHoveredActor;
 
-	//enable 'render customdepth pass' on the current hovered actor
+	//is object valid
 	if (CurrentHoveredActor)
 	{
-		if (UStaticMeshComponent* MeshComponent = CurrentHoveredActor->FindComponentByClass<UStaticMeshComponent>())
+		//cast to object
+		if (AInteractableObjectParent* Interactable = Cast<AInteractableObjectParent>(CurrentHoveredActor))
 		{
-			MeshComponent->SetRenderCustomDepth(true);
+			// checks if the object has enabled outlines
+			if (Interactable->bHoverOutlineEnabled)
+			{
+				//updates object outline to true
+				if (UStaticMeshComponent* MeshComponent = CurrentHoveredActor->FindComponentByClass<UStaticMeshComponent>())
+				{
+					MeshComponent->SetRenderCustomDepth(true);
+				}
+			}
 		}
 	}
 
 }
+
 
 void ACursorController::ReleaseActor(const FInputActionValue& Value)
 {
@@ -323,6 +353,27 @@ void ACursorController::Tick(float DeltaTime)
 
 		FRotator AddedYaw = FRotator(0, RotationYaw, 0) + GrabRotation;
 		PhysicsHandle->SetTargetLocationAndRotation(updatelocation, AddedYaw);//CursorWorldRotation + AddedYaw);
+
+		GEngine->AddOnScreenDebugMessage(1, 200, FColor::Green, FString::Printf(TEXT("Check for snap")));
+		FHitResult SnapHitResult;
+		FVector SnapStart = updatelocation + (CursorWorldDirection * 50.0f);
+		FVector SnapEnd = SnapStart + (CursorWorldDirection * 5000.0f);
+		FCollisionQueryParams LineTraceParams;
+
+		// Raycast to check for snap points
+		if (GetWorld()->LineTraceSingleByChannel(SnapHitResult, SnapStart, SnapEnd, ECollisionChannel::ECC_Visibility, LineTraceParams, FCollisionResponseParams()))
+		{
+			UPrimitiveComponent* SnapHitComponent = SnapHitResult.GetComponent();
+
+			//xGEngine->AddOnScreenDebugMessage(1, 200, FColor::Green, FString::Printf(TEXT("Detected Component: %s"), *SnapHitComponent->GetName()));
+			if (SnapHitComponent->ComponentHasTag(TEXT("Snap")))
+			{
+				// When hovering over snap point, change target location of held object
+				//xGEngine->AddOnScreenDebugMessage(1, 1, FColor::Red, FString::Printf(TEXT("Snap Detected!")));
+				PhysicsHandle->SetTargetLocation(SnapHitComponent->GetComponentLocation());
+
+			}
+		}
 		//PhysicsHandle->SetTargetLocation(updatelocation);
 	}
 
