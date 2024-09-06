@@ -16,7 +16,11 @@ public:
 	// Sets default values for this component's properties
 	UScreenLock();
 
+	/// @brief Check if the restrained mesh is currently on screen
+	/// @return Returns if the mesh is on the screen or not
 	bool CheckOnScreen();
+
+	void ReverseVelocity();
 
 	// Should the object be restricted to the screen
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
@@ -29,6 +33,9 @@ public:
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
+
+	// Cooldown between reversing velocity (to stop object sticking in a single place)
+	float Cooldown = 0;
 
 public:	
 	// Called every frame

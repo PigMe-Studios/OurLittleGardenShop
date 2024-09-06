@@ -37,6 +37,16 @@ bool UScreenLock::CheckOnScreen()
 	return true;
 }
 
+void UScreenLock::ReverseVelocity()
+{ 
+	//AActor* Parent = RestrainedMesh->GetOwner();
+	//FVector Velocity = Parent->GetVelocity();
+	//Parent->SetVeloci
+	FVector Velocity = RestrainedMesh->GetComponentVelocity();
+	RestrainedMesh->SetAllPhysicsLinearVelocity(Velocity * -0.1, false);
+	Cooldown = 0.2;
+}
+
 
 // Called when the game starts
 void UScreenLock::BeginPlay()
@@ -52,9 +62,15 @@ void UScreenLock::BeginPlay()
 void UScreenLock::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-	if (bLockToScreen && !CheckOnScreen())
+	if (bLockToScreen && !CheckOnScreen() && Cooldown <= 0)
 	{
 		GEngine->AddOnScreenDebugMessage(1, 1, FColor::Red, FString::Printf(TEXT("Offscreen")));
+		ReverseVelocity();
+	}
+
+	if (Cooldown > 0)
+	{
+		Cooldown -= DeltaTime;
 	}
 
 	// ...
