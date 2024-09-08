@@ -1841,6 +1841,11 @@
 																		</ModifierInfo>
 																	</ModifierList>
 																</Property>
+																<Property Name="Volume" Type="Real64">
+																	<ValueList>
+																		<Value>-5</Value>
+																	</ValueList>
+																</Property>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
