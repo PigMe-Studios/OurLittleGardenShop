@@ -656,6 +656,193 @@
 										<ActiveSource Name="UI_Single" ID="{3E44E399-80D5-4958-A32D-BD78BC180403}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<RandomSequenceContainer Name="UI_Type" ID="{3428AD21-458E-45BB-B611-8671D723479F}" ShortID="608852641">
+									<PropertyList>
+										<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{1518E590-47CD-41F5-9E22-4C6FAE5E4057}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="UI_DialogueRoll_KB-001" ID="{5A7B500C-9644-4CF5-B5EB-6D17A745797C}" ShortID="847763700">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_DialogueRoll_KB-001" ID="{6485301B-6FD7-4A2B-B0B6-58B3A0E5BFA1}">
+													<Language>SFX</Language>
+													<AudioFile>UI_DialogueRoll_KB-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="125470387"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_DialogueRoll_KB-001" ID="{6485301B-6FD7-4A2B-B0B6-58B3A0E5BFA1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_DialogueRoll_KB-002" ID="{0902EA34-F0D1-4621-A55C-EFB2C282EE47}" ShortID="783026669">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_DialogueRoll_KB-002" ID="{41EBFB9E-68C6-4942-A7BF-E95A643AE272}">
+													<Language>SFX</Language>
+													<AudioFile>UI_DialogueRoll_KB-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="612503434"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_DialogueRoll_KB-002" ID="{41EBFB9E-68C6-4942-A7BF-E95A643AE272}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_DialogueRoll_KB-003" ID="{8FECC0C9-1151-4576-A655-175473AAE19B}" ShortID="289291772">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_DialogueRoll_KB-003" ID="{E7CC7717-02FD-4DAA-9147-31E9293173F0}">
+													<Language>SFX</Language>
+													<AudioFile>UI_DialogueRoll_KB-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1021079182"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_DialogueRoll_KB-003" ID="{E7CC7717-02FD-4DAA-9147-31E9293173F0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_DialogueRoll_KB-004" ID="{DBA917AC-6BDE-4D66-9928-1AC54564777D}" ShortID="815530184">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_DialogueRoll_KB-004" ID="{772F032D-9CDA-4D98-9571-EF7F5C317D07}">
+													<Language>SFX</Language>
+													<AudioFile>UI_DialogueRoll_KB-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="539251372"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_DialogueRoll_KB-004" ID="{772F032D-9CDA-4D98-9571-EF7F5C317D07}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_DialogueRoll_KB-005" ID="{C7871A84-A87A-48B9-9FA4-42F306BFDDAF}" ShortID="817464455">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_DialogueRoll_KB-005" ID="{6AC92982-C7C7-482A-8264-804138A5A94D}">
+													<Language>SFX</Language>
+													<AudioFile>UI_DialogueRoll_KB-005.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="358023881"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_DialogueRoll_KB-005" ID="{6AC92982-C7C7-482A-8264-804138A5A94D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_DialogueRoll_KB-006" ID="{DB2B5F35-14A2-4322-A488-C76E699AEB93}" ShortID="228412965">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_DialogueRoll_KB-006" ID="{52BB4C70-71C8-42F4-9909-14F69C652A35}">
+													<Language>SFX</Language>
+													<AudioFile>UI_DialogueRoll_KB-006.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="739188682"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_DialogueRoll_KB-006" ID="{52BB4C70-71C8-42F4-9909-14F69C652A35}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_DialogueRoll_KB-007" ID="{00047519-C979-44A7-9148-EE4BF209958D}" ShortID="679510631">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_DialogueRoll_KB-007" ID="{986C64D1-888F-4FD2-A21E-9A92452D55AA}">
+													<Language>SFX</Language>
+													<AudioFile>UI_DialogueRoll_KB-007.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="398048133"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_DialogueRoll_KB-007" ID="{986C64D1-888F-4FD2-A21E-9A92452D55AA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="AM_Dialogue" ID="{CB5D924D-E368-4E0C-AC80-4182314B99A8}" ShortID="933529033">

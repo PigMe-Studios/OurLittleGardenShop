@@ -616,6 +616,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_UI_Type" ID="{A2A87D41-B97D-48FB-ADDC-D8EC9F1FD607}">
+							<ChildrenList>
+								<Action Name="" ID="{89CDB9E0-2500-44E1-9486-953B861789FE}" ShortID="14833025">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Type" ID="{3428AD21-458E-45BB-B611-8671D723479F}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="MusicTemp" ID="{D4C91DA7-D0D2-4C4A-9D7E-0D793990C0A4}" ShortID="114645410">
