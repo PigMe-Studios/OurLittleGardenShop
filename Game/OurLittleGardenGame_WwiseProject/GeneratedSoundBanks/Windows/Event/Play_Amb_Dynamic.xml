@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3548773928" Type="Event" GUID="{EC72F8BB-D0CA-442E-AB0D-3B876C366614}" Language="SFX" Hash="{645F3501-13DC-A33E-8538-1D7DCE45C7D4}">
+			<ObjectPath>Play_Amb_Dynamic</ObjectPath>
+			<ShortName>Play_Amb_Dynamic</ShortName>
+			<Path>Event/Play_Amb_Dynamic.bnk</Path>
+			<Media>
+				<File Id="33761221" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Amb_GardenAmb_Birds.wav</ShortName>
+					<Path>Media/33761221.wem</Path>
+					<CachePath>SFX/Amb_GardenAmb_Birds_8EC3C7C0.wem</CachePath>
+				</File>
+				<File Id="272028858" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Amb_GardenAmb_Wind.wav</ShortName>
+					<Path>Media/272028858.wem</Path>
+					<CachePath>SFX/Amb_GardenAmb_Wind_8EC3C7C0.wem</CachePath>
+				</File>
+				<File Id="478117225" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Amb_Rain.wav</ShortName>
+					<Path>Media/478117225.wem</Path>
+					<CachePath>SFX/Amb_Rain_8EC3C7C0.wem</CachePath>
+				</File>
+				<File Id="546883298" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Amb_Night.wav</ShortName>
+					<Path>Media/546883298.wem</Path>
+					<CachePath>SFX/Amb_Night_8EC3C7C0.wem</CachePath>
+				</File>
+				<File Id="570396914" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Amb_Base.wav</ShortName>
+					<Path>Media/570396914.wem</Path>
+					<CachePath>SFX/Amb_Base_8EC3C7C0.wem</CachePath>
+				</File>
+				<File Id="965160876" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Amb_Thunder.wav</ShortName>
+					<Path>Media/965160876.wem</Path>
+					<CachePath>SFX/Amb_Thunder_8EC3C7C0.wem</CachePath>
+				</File>
+				<File Id="998621744" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Amb_Wind.wav</ShortName>
+					<Path>Media/998621744.wem</Path>
+					<CachePath>SFX/Amb_Wind_8EC3C7C0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3548773928" Name="Play_Amb_Dynamic" ObjectPath="\Events\WU_Main\Ambience\Play_Amb_Dynamic" GUID="{EC72F8BB-D0CA-442E-AB0D-3B876C366614}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="546883298"/>
+						<MediaRef Id="570396914"/>
+					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2484199401" Id="1754255536" GUID="{EE64540B-1AB7-48A1-A201-744014433BC6}"/>
+							<MediaRefs>
+								<MediaRef Id="33761221"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2484199401" Id="1686739424" GUID="{8E96F21B-A702-4B1E-839F-95BBDC9F2F45}"/>
+							<MediaRefs>
+								<MediaRef Id="478117225"/>
+								<MediaRef Id="965160876"/>
+								<MediaRef Id="998621744"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2484199401" Id="1537061107" GUID="{09F987A8-171E-4A7A-9DEB-56C035254F1D}"/>
+							<MediaRefs>
+								<MediaRef Id="272028858"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2484199401" Id="2043403999" GUID="{FFA2A6AB-5203-4E71-ABEC-52308BC45DCE}"/>
+							<MediaRefs>
+								<MediaRef Id="478117225"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<StateGroups>
+				<StateGroup Id="2484199401" Name="State_Weather" ObjectPath="\States\WU_Main\State_Weather" GUID="{766E4167-09AD-49D2-9C95-D82A819212CB}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\WU_Main\State_Weather\None" GUID="{823DF19D-DE68-4203-839C-D8A8C41FC168}"/>
+						<State Id="1537061107" Name="Wind" ObjectPath="\States\WU_Main\State_Weather\Wind" GUID="{09F987A8-171E-4A7A-9DEB-56C035254F1D}"/>
+						<State Id="1686739424" Name="Storm" ObjectPath="\States\WU_Main\State_Weather\Storm" GUID="{8E96F21B-A702-4B1E-839F-95BBDC9F2F45}"/>
+						<State Id="1754255536" Name="Clear" ObjectPath="\States\WU_Main\State_Weather\Clear" GUID="{EE64540B-1AB7-48A1-A201-744014433BC6}"/>
+						<State Id="2043403999" Name="Rain" ObjectPath="\States\WU_Main\State_Weather\Rain" GUID="{FFA2A6AB-5203-4E71-ABEC-52308BC45DCE}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{4A6B373D-638F-B937-DD07-2C1939FB7B4E}</FileHash>
+</SoundBanksInfo>

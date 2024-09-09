@@ -126,7 +126,7 @@ public:
 	void CurserHoverCheck();
 
 	// @Breif Check if the textbox is currently on screen
-	// @Return Is the textbox on screen?
+	// @Return* Is the textbox on screen?
 	UFUNCTION(BlueprintImplementableEvent)
 	bool IsDialogueActive();
 

@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{2511F5C8-7CC6-476D-B361-8C4BF738B299}" SchemaVersion="119">
 	<States>
-		<WorkUnit Name="WU_Main" ID="{2511F5C8-7CC6-476D-B361-8C4BF738B299}" PersistMode="Standalone"/>
+		<WorkUnit Name="WU_Main" ID="{2511F5C8-7CC6-476D-B361-8C4BF738B299}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="State_Weather" ID="{766E4167-09AD-49D2-9C95-D82A819212CB}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="5"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{823DF19D-DE68-4203-839C-D8A8C41FC168}"/>
+						<State Name="Rain" ID="{FFA2A6AB-5203-4E71-ABEC-52308BC45DCE}"/>
+						<State Name="Clear" ID="{EE64540B-1AB7-48A1-A201-744014433BC6}"/>
+						<State Name="Wind" ID="{09F987A8-171E-4A7A-9DEB-56C035254F1D}"/>
+						<State Name="Storm" ID="{8E96F21B-A702-4B1E-839F-95BBDC9F2F45}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="State_Time" ID="{39CDDB23-A360-4FF7-B3B6-F9C5B0E6BA4B}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="20"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{EE5ACC82-1E37-40C6-86AA-5BBED7534224}"/>
+						<State Name="Day" ID="{248E31A7-FAA3-4E79-8A75-403268BC8A6A}"/>
+						<State Name="Night" ID="{747E19E9-5779-4EDD-8E9A-7AFBD22A3487}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="State_Environment" ID="{D9720876-6AD9-4093-AA6B-D6DE0F42996C}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="2"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{E3C0CC08-79C6-44BA-859A-26F0932AAFED}"/>
+						<State Name="Interior" ID="{E7F64BEA-5889-4CD0-99A9-E04FA82AE18E}"/>
+						<State Name="Exterior" ID="{C9CF9832-9804-4BBD-BC52-0743C9E8C215}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>
