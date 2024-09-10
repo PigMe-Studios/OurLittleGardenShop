@@ -275,23 +275,14 @@ void ACursorController::HoverOutline(AActor* CurrentHoveredActor)
 	LastHoveredActor = CurrentHoveredActor;
 
 	//is object valid
-	if (CurrentHoveredActor)
+	if (CurrentHoveredActor && CurrentHoveredActor->GetClass()->ImplementsInterface(UInteractionInterface::StaticClass()))
 	{
-		//cast to object
-		if (AInteractableObjectParent* Interactable = Cast<AInteractableObjectParent>(CurrentHoveredActor))
+		//updates object outline to true
+		if (UStaticMeshComponent* MeshComponent = CurrentHoveredActor->FindComponentByClass<UStaticMeshComponent>())
 		{
-			// checks if the object has enabled outlines
-			if (Interactable->bHoverOutlineEnabled)
-			{
-				//updates object outline to true
-				if (UStaticMeshComponent* MeshComponent = CurrentHoveredActor->FindComponentByClass<UStaticMeshComponent>())
-				{
-					MeshComponent->SetRenderCustomDepth(true);
-				}
-			}
+			MeshComponent->SetRenderCustomDepth(true);
 		}
 	}
-
 }
 
 
