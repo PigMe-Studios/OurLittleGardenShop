@@ -264,9 +264,13 @@ void ACursorController::HoverOutline(AActor* CurrentHoveredActor)
 	//disable 'render customdepth pass' on the last hovered actor
 	if (LastHoveredActor && LastHoveredActor != CurrentHoveredActor)
 	{
-		if (UStaticMeshComponent* LastMeshComponent = LastHoveredActor->FindComponentByClass<UStaticMeshComponent>())
+		TArray<UStaticMeshComponent*> LastMeshComponents;
+		LastHoveredActor->GetComponents<UStaticMeshComponent>(LastMeshComponents);
+
+		//loops through all the meshes in the acotr bp instead 
+		for (UStaticMeshComponent * MeshComponent : LastMeshComponents)
 		{
-			LastMeshComponent->SetRenderCustomDepth(false);
+			MeshComponent->SetRenderCustomDepth(false);
 		}
 	}
 
@@ -274,11 +278,14 @@ void ACursorController::HoverOutline(AActor* CurrentHoveredActor)
 	//update the last hovered actor
 	LastHoveredActor = CurrentHoveredActor;
 
-	//is object valid
+	//is object valid with interaction interface
 	if (CurrentHoveredActor && CurrentHoveredActor->GetClass()->ImplementsInterface(UInteractionInterface::StaticClass()))
 	{
-		//updates object outline to true
-		if (UStaticMeshComponent* MeshComponent = CurrentHoveredActor->FindComponentByClass<UStaticMeshComponent>())
+		TArray<UStaticMeshComponent*> MeshComponents;
+		LastHoveredActor->GetComponents<UStaticMeshComponent>(MeshComponents);
+
+		//updates all object outlines to true
+		for (UStaticMeshComponent* MeshComponent : MeshComponents)
 		{
 			MeshComponent->SetRenderCustomDepth(true);
 		}
