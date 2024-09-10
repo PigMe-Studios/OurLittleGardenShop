@@ -167,8 +167,15 @@ void ACursorController::SetCursorType(ECursorType CursorType)
 
 void ACursorController::CurserHoverCheck()
 {
-	//checking for cursor hover over interactable item
+	//check if interaction is enabled
+	if (!bInteractionEnabled)
+	{
+		SetCursorType(ECursorType::Default);
+		HoverOutline(nullptr);
+		return;
+	}
 
+	//checking for cursor hover over interactable item
 	if (bIsInteracting)
 	{
 		SetCursorType(ECursorType::Interact);
