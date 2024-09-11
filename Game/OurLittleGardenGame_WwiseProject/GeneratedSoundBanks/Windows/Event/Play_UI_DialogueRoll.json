@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{3EE8C705-3D1F-4FFD-B442-1A949068B8B8}",
     "Language": "SFX",
-    "Hash": "{4D725BB9-867A-2D66-277E-8FEF7F9A8FAC}",
+    "Hash": "{6F36502D-F831-3917-9737-ADB75D92FD63}",
     "ObjectPath": "Play_UI_DialogueRoll",
     "ShortName": "Play_UI_DialogueRoll",
     "Path": "Event/Play_UI_DialogueRoll.bnk",
@@ -365,32 +365,11 @@
       "ObjectPath": "\\Events\\WU_Main\\UI\\Play_UI_DialogueRoll",
       "GUID": "{3EE8C705-3D1F-4FFD-B442-1A949068B8B8}",
       "DurationType": "OneShot",
-      "DurationMin": "0.47193712",
+      "DurationMin": "0.29730177",
       "DurationMax": "1.0594631",
       "MediaRefs": [
        {
-        "Id": "125470387"
-       },
-       {
         "Id": "220222383"
-       },
-       {
-        "Id": "358023881"
-       },
-       {
-        "Id": "398048133"
-       },
-       {
-        "Id": "539251372"
-       },
-       {
-        "Id": "612503434"
-       },
-       {
-        "Id": "739188682"
-       },
-       {
-        "Id": "1021079182"
        }
       ],
       "SwitchContainers": [
@@ -478,6 +457,37 @@
             "Id": "1028270375"
            }
           ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "556509116",
+         "Id": "784127654",
+         "GUID": "{138FE25F-4B3D-4BEF-B064-B9C30018CB7F}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "125470387"
+         },
+         {
+          "Id": "358023881"
+         },
+         {
+          "Id": "398048133"
+         },
+         {
+          "Id": "539251372"
+         },
+         {
+          "Id": "612503434"
+         },
+         {
+          "Id": "739188682"
+         },
+         {
+          "Id": "1021079182"
          }
         ]
        },
@@ -632,6 +642,6 @@
     ]
    }
   ],
-  "FileHash": "{6187AB82-CA26-511D-0076-4E94DC5293D6}"
+  "FileHash": "{F7B53455-4722-0FDA-CA8A-EB9D1EF87F69}"
  }
 }

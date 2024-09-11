@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3594163308" Type="Event" GUID="{3EE8C705-3D1F-4FFD-B442-1A949068B8B8}" Language="SFX" Hash="{4D725BB9-867A-2D66-277E-8FEF7F9A8FAC}">
+		<SoundBank Id="3594163308" Type="Event" GUID="{3EE8C705-3D1F-4FFD-B442-1A949068B8B8}" Language="SFX" Hash="{6F36502D-F831-3917-9737-ADB75D92FD63}">
 			<ObjectPath>Play_UI_DialogueRoll</ObjectPath>
 			<ShortName>Play_UI_DialogueRoll</ShortName>
 			<Path>Event/Play_UI_DialogueRoll.bnk</Path>
@@ -198,16 +198,9 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3594163308" Name="Play_UI_DialogueRoll" ObjectPath="\Events\WU_Main\UI\Play_UI_DialogueRoll" GUID="{3EE8C705-3D1F-4FFD-B442-1A949068B8B8}" DurationType="OneShot" DurationMin="0.47193712" DurationMax="1.0594631">
+				<Event Id="3594163308" Name="Play_UI_DialogueRoll" ObjectPath="\Events\WU_Main\UI\Play_UI_DialogueRoll" GUID="{3EE8C705-3D1F-4FFD-B442-1A949068B8B8}" DurationType="OneShot" DurationMin="0.29730177" DurationMax="1.0594631">
 					<MediaRefs>
-						<MediaRef Id="125470387"/>
 						<MediaRef Id="220222383"/>
-						<MediaRef Id="358023881"/>
-						<MediaRef Id="398048133"/>
-						<MediaRef Id="539251372"/>
-						<MediaRef Id="612503434"/>
-						<MediaRef Id="739188682"/>
-						<MediaRef Id="1021079182"/>
 					</MediaRefs>
 					<SwitchContainers>
 						<SwitchContainer>
@@ -244,6 +237,18 @@
 									</MediaRefs>
 								</SwitchContainer>
 							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="556509116" Id="784127654" GUID="{138FE25F-4B3D-4BEF-B064-B9C30018CB7F}"/>
+							<MediaRefs>
+								<MediaRef Id="125470387"/>
+								<MediaRef Id="358023881"/>
+								<MediaRef Id="398048133"/>
+								<MediaRef Id="539251372"/>
+								<MediaRef Id="612503434"/>
+								<MediaRef Id="739188682"/>
+								<MediaRef Id="1021079182"/>
+							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="556509116" Id="4073193669" GUID="{AE88FCEC-5377-4D58-A611-C1A179957653}"/>
@@ -302,5 +307,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C74A6FA9-23CD-B278-C77C-30B8A2D085A9}</FileHash>
+	<FileHash>{F1DA76A7-0C99-F230-B561-2C44FC139BFC}</FileHash>
 </SoundBanksInfo>
