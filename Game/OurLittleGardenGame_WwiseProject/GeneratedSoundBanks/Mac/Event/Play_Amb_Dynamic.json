@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{EC72F8BB-D0CA-442E-AB0D-3B876C366614}",
     "Language": "SFX",
-    "Hash": "{645F3501-13DC-A33E-8538-1D7DCE45C7D4}",
+    "Hash": "{D4AC75DF-87B3-08CA-1A94-BACA25254FFE}",
     "ObjectPath": "Play_Amb_Dynamic",
     "ShortName": "Play_Amb_Dynamic",
     "Path": "Event/Play_Amb_Dynamic.bnk",
@@ -198,6 +198,6 @@
     ]
    }
   ],
-  "FileHash": "{9215B443-B729-B35B-1DA9-D3BCC8A95A2F}"
+  "FileHash": "{244511FF-3BE4-664A-11AF-1B7A830DC218}"
  }
 }

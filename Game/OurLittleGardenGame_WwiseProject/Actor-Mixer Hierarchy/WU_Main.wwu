@@ -549,12 +549,12 @@
 															<Property Name="ContinuePlay" Type="bool" Value="True"/>
 															<Property Name="FadeInTime" Type="Real64">
 																<ValueList>
-																	<Value>10</Value>
+																	<Value>6</Value>
 																</ValueList>
 															</Property>
 															<Property Name="FadeOutTime" Type="Real64">
 																<ValueList>
-																	<Value>5</Value>
+																	<Value>3</Value>
 																</ValueList>
 															</Property>
 														</PropertyList>
@@ -565,12 +565,12 @@
 															<Property Name="ContinuePlay" Type="bool" Value="True"/>
 															<Property Name="FadeInTime" Type="Real64">
 																<ValueList>
-																	<Value>10</Value>
+																	<Value>6</Value>
 																</ValueList>
 															</Property>
 															<Property Name="FadeOutTime" Type="Real64">
 																<ValueList>
-																	<Value>5</Value>
+																	<Value>3</Value>
 																</ValueList>
 															</Property>
 														</PropertyList>
@@ -581,12 +581,12 @@
 															<Property Name="ContinuePlay" Type="bool" Value="True"/>
 															<Property Name="FadeInTime" Type="Real64">
 																<ValueList>
-																	<Value>10</Value>
+																	<Value>6</Value>
 																</ValueList>
 															</Property>
 															<Property Name="FadeOutTime" Type="Real64">
 																<ValueList>
-																	<Value>10</Value>
+																	<Value>6</Value>
 																</ValueList>
 															</Property>
 														</PropertyList>
@@ -597,12 +597,12 @@
 															<Property Name="ContinuePlay" Type="bool" Value="True"/>
 															<Property Name="FadeInTime" Type="Real64">
 																<ValueList>
-																	<Value>10</Value>
+																	<Value>6</Value>
 																</ValueList>
 															</Property>
 															<Property Name="FadeOutTime" Type="Real64">
 																<ValueList>
-																	<Value>10</Value>
+																	<Value>6</Value>
 																</ValueList>
 															</Property>
 														</PropertyList>
@@ -613,12 +613,12 @@
 															<Property Name="ContinuePlay" Type="bool" Value="True"/>
 															<Property Name="FadeInTime" Type="Real64">
 																<ValueList>
-																	<Value>10</Value>
+																	<Value>6</Value>
 																</ValueList>
 															</Property>
 															<Property Name="FadeOutTime" Type="Real64">
 																<ValueList>
-																	<Value>10</Value>
+																	<Value>6</Value>
 																</ValueList>
 															</Property>
 														</PropertyList>
@@ -1579,7 +1579,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-10</Value>
+												<Value>-8</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -2992,7 +2992,7 @@
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-10</Value>
+														<Value>-6</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
