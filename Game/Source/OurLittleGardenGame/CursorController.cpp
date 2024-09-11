@@ -260,6 +260,11 @@ void ACursorController::SetInteractionEnabled(bool bEnabled)
 	}
 }
 
+bool ACursorController::IsInteractionEnabled() const
+{
+	return bInteractionEnabled;
+}
+
 
 void ACursorController::HoverOutline(AActor* CurrentHoveredActor)
 {
