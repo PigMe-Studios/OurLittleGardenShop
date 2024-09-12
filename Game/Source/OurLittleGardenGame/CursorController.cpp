@@ -93,7 +93,7 @@ void ACursorController::ActorInteract(const FInputActionValue& Value)
 	FHitResult HitResult;
 	FCollisionQueryParams LineTraceParams;
 
-	if (GetWorld()->LineTraceSingleByChannel(HitResult, Start, End, ECollisionChannel::ECC_Visibility, LineTraceParams, FCollisionResponseParams())
+	if (GetWorld()->LineTraceSingleByChannel(HitResult, Start, End, ECollisionChannel::ECC_GameTraceChannel5, LineTraceParams, FCollisionResponseParams())
 		&& !IsDialogueActive())
 	{
 		AActor* HitActor = HitResult.GetActor();
@@ -189,7 +189,7 @@ void ACursorController::CurserHoverCheck()
 	FHitResult HitResult;
 	FCollisionQueryParams LineTraceParams;
 
-	if (GetWorld()->LineTraceSingleByChannel(HitResult, Start, End, ECollisionChannel::ECC_Visibility, LineTraceParams, FCollisionResponseParams()))
+	if (GetWorld()->LineTraceSingleByChannel(HitResult, Start, End, ECollisionChannel::ECC_GameTraceChannel5, LineTraceParams, FCollisionResponseParams()))
 	{
 		AActor* HitActor = HitResult.GetActor();
 		UPrimitiveComponent* HitComponent = HitResult.GetComponent();
