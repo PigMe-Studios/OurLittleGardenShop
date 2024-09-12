@@ -100,6 +100,7 @@ protected:
 
 	bool bIsInteracting;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	// The actor currently being held by the player
 	AActor* HeldActor;
 
