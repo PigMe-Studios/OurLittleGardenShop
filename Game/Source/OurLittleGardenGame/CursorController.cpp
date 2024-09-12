@@ -167,8 +167,15 @@ void ACursorController::SetCursorType(ECursorType CursorType)
 
 void ACursorController::CurserHoverCheck()
 {
-	//checking for cursor hover over interactable item
+	//check if interaction is enabled
+	if (!bInteractionEnabled)
+	{
+		SetCursorType(ECursorType::Default);
+		HoverOutline(nullptr);
+		return;
+	}
 
+	//checking for cursor hover over interactable item
 	if (bIsInteracting)
 	{
 		SetCursorType(ECursorType::Interact);
@@ -253,6 +260,11 @@ void ACursorController::SetInteractionEnabled(bool bEnabled)
 	}
 }
 
+bool ACursorController::IsInteractionEnabled() const
+{
+	return bInteractionEnabled;
+}
+
 
 void ACursorController::HoverOutline(AActor* CurrentHoveredActor)
 {
@@ -264,9 +276,13 @@ void ACursorController::HoverOutline(AActor* CurrentHoveredActor)
 	//disable 'render customdepth pass' on the last hovered actor
 	if (LastHoveredActor && LastHoveredActor != CurrentHoveredActor)
 	{
-		if (UStaticMeshComponent* LastMeshComponent = LastHoveredActor->FindComponentByClass<UStaticMeshComponent>())
+		TArray<UStaticMeshComponent*> LastMeshComponents;
+		LastHoveredActor->GetComponents<UStaticMeshComponent>(LastMeshComponents);
+
+		//loops through all the meshes in the acotr bp instead 
+		for (UStaticMeshComponent * MeshComponent : LastMeshComponents)
 		{
-			LastMeshComponent->SetRenderCustomDepth(false);
+			MeshComponent->SetRenderCustomDepth(false);
 		}
 	}
 
@@ -274,24 +290,18 @@ void ACursorController::HoverOutline(AActor* CurrentHoveredActor)
 	//update the last hovered actor
 	LastHoveredActor = CurrentHoveredActor;
 
-	//is object valid
-	if (CurrentHoveredActor)
+	//is object valid with interaction interface
+	if (CurrentHoveredActor && CurrentHoveredActor->GetClass()->ImplementsInterface(UInteractionInterface::StaticClass()))
 	{
-		//cast to object
-		if (AInteractableObjectParent* Interactable = Cast<AInteractableObjectParent>(CurrentHoveredActor))
+		TArray<UStaticMeshComponent*> MeshComponents;
+		LastHoveredActor->GetComponents<UStaticMeshComponent>(MeshComponents);
+
+		//updates all object outlines to true
+		for (UStaticMeshComponent* MeshComponent : MeshComponents)
 		{
-			// checks if the object has enabled outlines
-			if (Interactable->bHoverOutlineEnabled)
-			{
-				//updates object outline to true
-				if (UStaticMeshComponent* MeshComponent = CurrentHoveredActor->FindComponentByClass<UStaticMeshComponent>())
-				{
-					MeshComponent->SetRenderCustomDepth(true);
-				}
-			}
+			MeshComponent->SetRenderCustomDepth(true);
 		}
 	}
-
 }
 
 

@@ -146,6 +146,9 @@ public:
 	//tracks if interaction with objects is enabled
 	UFUNCTION( BlueprintCallable, Category = "Interaction")
 	void SetInteractionEnabled(bool bEnabled);
+	//getter for above func
+	UFUNCTION(BlueprintPure, Category = "Interaction")
+	bool IsInteractionEnabled() const;
 
 
 private:
