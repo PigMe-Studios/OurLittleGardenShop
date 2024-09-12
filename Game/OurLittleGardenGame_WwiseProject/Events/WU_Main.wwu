@@ -608,13 +608,6 @@
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 							<ChildrenList>
-								<Action Name="" ID="{5A44428B-C648-4322-9D16-29CEF2DBDCA2}" ShortID="599660613">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="UI_DialogueRoll_KB" ID="{7284F990-7B10-492D-A4CF-EED04A316E85}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
 								<Action Name="" ID="{9CC73AAD-1867-443D-A81A-56C601F263C0}" ShortID="446876383">
 									<ReferenceList>
 										<Reference Name="Target">

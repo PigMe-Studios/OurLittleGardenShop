@@ -978,7 +978,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{68B5C2B7-528F-755F-EB0D-F2E26AA41E1B}",
+    "Hash": "{F207667B-D9E7-D533-EE2E-28E28248833F}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -2090,7 +2090,7 @@
     "Type": "Event",
     "GUID": "{EC72F8BB-D0CA-442E-AB0D-3B876C366614}",
     "Language": "SFX",
-    "Hash": "{645F3501-13DC-A33E-8538-1D7DCE45C7D4}",
+    "Hash": "{D4AC75DF-87B3-08CA-1A94-BACA25254FFE}",
     "ObjectPath": "Play_Amb_Dynamic",
     "ShortName": "Play_Amb_Dynamic",
     "Path": "Event/Play_Amb_Dynamic.bnk",
@@ -2319,7 +2319,7 @@
     "Type": "Event",
     "GUID": "{3EE8C705-3D1F-4FFD-B442-1A949068B8B8}",
     "Language": "SFX",
-    "Hash": "{4D725BB9-867A-2D66-277E-8FEF7F9A8FAC}",
+    "Hash": "{44B8960B-3454-060D-A222-8FD23A2A4F4C}",
     "ObjectPath": "Play_UI_DialogueRoll",
     "ShortName": "Play_UI_DialogueRoll",
     "Path": "Event/Play_UI_DialogueRoll.bnk",
@@ -2674,32 +2674,11 @@
       "ObjectPath": "\\Events\\WU_Main\\UI\\Play_UI_DialogueRoll",
       "GUID": "{3EE8C705-3D1F-4FFD-B442-1A949068B8B8}",
       "DurationType": "OneShot",
-      "DurationMin": "0.47193712",
+      "DurationMin": "0.29730177",
       "DurationMax": "1.0594631",
       "MediaRefs": [
        {
-        "Id": "125470387"
-       },
-       {
         "Id": "220222383"
-       },
-       {
-        "Id": "358023881"
-       },
-       {
-        "Id": "398048133"
-       },
-       {
-        "Id": "539251372"
-       },
-       {
-        "Id": "612503434"
-       },
-       {
-        "Id": "739188682"
-       },
-       {
-        "Id": "1021079182"
        }
       ],
       "SwitchContainers": [
@@ -2787,6 +2766,37 @@
             "Id": "1028270375"
            }
           ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "556509116",
+         "Id": "784127654",
+         "GUID": "{138FE25F-4B3D-4BEF-B064-B9C30018CB7F}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "125470387"
+         },
+         {
+          "Id": "358023881"
+         },
+         {
+          "Id": "398048133"
+         },
+         {
+          "Id": "539251372"
+         },
+         {
+          "Id": "612503434"
+         },
+         {
+          "Id": "739188682"
+         },
+         {
+          "Id": "1021079182"
          }
         ]
        },
@@ -3449,6 +3459,6 @@
     ]
    }
   ],
-  "FileHash": "{D1F2CC9E-B68E-75DF-1346-8B940B6BF710}"
+  "FileHash": "{8AEC363D-FE17-5649-73E7-70FED1DDB045}"
  }
 }

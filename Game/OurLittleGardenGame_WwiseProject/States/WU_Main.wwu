@@ -17,7 +17,7 @@
 				</StateGroup>
 				<StateGroup Name="State_Time" ID="{39CDDB23-A360-4FF7-B3B6-F9C5B0E6BA4B}">
 					<PropertyList>
-						<Property Name="DefaultTransitionTime" Type="Real64" Value="20"/>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="5"/>
 					</PropertyList>
 					<ChildrenList>
 						<State Name="None" ID="{EE5ACC82-1E37-40C6-86AA-5BBED7534224}"/>
@@ -26,9 +26,6 @@
 					</ChildrenList>
 				</StateGroup>
 				<StateGroup Name="State_Environment" ID="{D9720876-6AD9-4093-AA6B-D6DE0F42996C}">
-					<PropertyList>
-						<Property Name="DefaultTransitionTime" Type="Real64" Value="2"/>
-					</PropertyList>
 					<ChildrenList>
 						<State Name="None" ID="{E3C0CC08-79C6-44BA-859A-26F0932AAFED}"/>
 						<State Name="Interior" ID="{E7F64BEA-5889-4CD0-99A9-E04FA82AE18E}"/>
