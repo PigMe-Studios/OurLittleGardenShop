@@ -57,6 +57,8 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "EnhancedInput")
 	class UInputAction* RotateAction;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TArray<AActor*> IgnoredActors;
 
 	//Called when LMB pressed
 	void ActorInteract(const FInputActionValue& Value);
@@ -98,6 +100,7 @@ protected:
 
 	bool bIsInteracting;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	// The actor currently being held by the player
 	AActor* HeldActor;
 
