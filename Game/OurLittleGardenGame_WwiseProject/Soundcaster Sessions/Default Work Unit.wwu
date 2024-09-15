@@ -50,7 +50,7 @@
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Interior" ID="{E7F64BEA-5889-4CD0-99A9-E04FA82AE18E}"/>
 						<CurrentStateRef Name="Clear" ID="{EE64540B-1AB7-48A1-A201-744014433BC6}"/>
-						<CurrentStateRef Name="Day" ID="{248E31A7-FAA3-4E79-8A75-403268BC8A6A}"/>
+						<CurrentStateRef Name="None" ID="{EE5ACC82-1E37-40C6-86AA-5BBED7534224}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="AlphaNum" ID="{A83AA4F8-6800-4019-B11D-E7064840BDA4}"/>
