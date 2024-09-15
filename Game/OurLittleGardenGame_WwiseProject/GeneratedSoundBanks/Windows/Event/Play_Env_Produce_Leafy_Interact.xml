@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2806152183" Type="Event" GUID="{D64F8692-028A-4C5B-AB54-5FCBE0F0C760}" Language="SFX" Hash="{B89A0733-F006-8915-B833-FE8E336A7961}">
+		<SoundBank Id="2806152183" Type="Event" GUID="{D64F8692-028A-4C5B-AB54-5FCBE0F0C760}" Language="SFX" Hash="{06766FB1-D735-27EA-55ED-0C9F974430B5}">
 			<ObjectPath>Play_Env_Produce_Leafy_Interact</ObjectPath>
 			<ShortName>Play_Env_Produce_Leafy_Interact</ShortName>
 			<Path>Event/Play_Env_Produce_Leafy_Interact.bnk</Path>
@@ -23,7 +23,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2806152183" Name="Play_Env_Produce_Leafy_Interact" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_Produce_Leafy_Interact" GUID="{D64F8692-028A-4C5B-AB54-5FCBE0F0C760}" DurationType="OneShot" DurationMin="1" DurationMax="1">
+				<Event Id="2806152183" Name="Play_Env_Produce_Leafy_Interact" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_Produce_Leafy_Interact" GUID="{D64F8692-028A-4C5B-AB54-5FCBE0F0C760}" DurationType="OneShot" DurationMin="0.94387424" DurationMax="1.0594631">
 					<MediaRefs>
 						<MediaRef Id="208038388"/>
 						<MediaRef Id="357708089"/>
@@ -33,5 +33,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B72B5503-BCDC-5A37-4E88-ADDEF821F0C1}</FileHash>
+	<FileHash>{E6424750-1565-3590-0172-AADBF2A54E07}</FileHash>
 </SoundBanksInfo>

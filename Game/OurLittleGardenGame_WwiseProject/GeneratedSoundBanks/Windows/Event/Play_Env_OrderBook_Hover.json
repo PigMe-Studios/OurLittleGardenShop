@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{CB095974-FDCC-4690-BAE8-7DE5B6DD2232}",
     "Language": "SFX",
-    "Hash": "{12BC6A24-7C4B-C8A7-6E62-E24C8184F477}",
+    "Hash": "{D8E0F744-BDCD-AF57-417F-E3821368036E}",
     "ObjectPath": "Play_Env_OrderBook_Hover",
     "ShortName": "Play_Env_OrderBook_Hover",
     "Path": "Event/Play_Env_OrderBook_Hover.bnk",
@@ -50,8 +50,8 @@
       "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_OrderBook_Hover",
       "GUID": "{CB095974-FDCC-4690-BAE8-7DE5B6DD2232}",
       "DurationType": "OneShot",
-      "DurationMin": "1",
-      "DurationMax": "1",
+      "DurationMin": "0.94387424",
+      "DurationMax": "1.0594631",
       "MediaRefs": [
        {
         "Id": "32974419"
@@ -67,6 +67,6 @@
     ]
    }
   ],
-  "FileHash": "{C17D2863-B09B-7882-01A9-CA4A0AD73B86}"
+  "FileHash": "{2AEE5F6F-98F1-081E-11C4-3C5DEF59D1DC}"
  }
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2229079685" Type="Event" GUID="{E954E2BD-4C23-4668-9618-912EAF3A219C}" Language="SFX" Hash="{20DCC5E7-735A-6DE2-B6C3-77693BA72448}">
+		<SoundBank Id="2229079685" Type="Event" GUID="{E954E2BD-4C23-4668-9618-912EAF3A219C}" Language="SFX" Hash="{7AE0F927-3584-6104-DD05-E586E0C73563}">
 			<ObjectPath>Play_Env_Produce_Leafy_Hover</ObjectPath>
 			<ShortName>Play_Env_Produce_Leafy_Hover</ShortName>
 			<Path>Event/Play_Env_Produce_Leafy_Hover.bnk</Path>
@@ -23,7 +23,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2229079685" Name="Play_Env_Produce_Leafy_Hover" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_Produce_Leafy_Hover" GUID="{E954E2BD-4C23-4668-9618-912EAF3A219C}" DurationType="OneShot" DurationMin="1" DurationMax="1">
+				<Event Id="2229079685" Name="Play_Env_Produce_Leafy_Hover" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_Produce_Leafy_Hover" GUID="{E954E2BD-4C23-4668-9618-912EAF3A219C}" DurationType="OneShot" DurationMin="0.94387424" DurationMax="1.0594631">
 					<MediaRefs>
 						<MediaRef Id="58422087"/>
 						<MediaRef Id="331588443"/>
@@ -33,5 +33,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{8479DE47-88CB-99B0-F051-4830BEEBA0AD}</FileHash>
+	<FileHash>{2973D8BA-3F8D-0C18-1E4F-D06CD5D36298}</FileHash>
 </SoundBanksInfo>

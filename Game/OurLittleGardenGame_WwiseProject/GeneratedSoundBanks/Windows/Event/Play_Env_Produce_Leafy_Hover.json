@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{E954E2BD-4C23-4668-9618-912EAF3A219C}",
     "Language": "SFX",
-    "Hash": "{20DCC5E7-735A-6DE2-B6C3-77693BA72448}",
+    "Hash": "{7AE0F927-3584-6104-DD05-E586E0C73563}",
     "ObjectPath": "Play_Env_Produce_Leafy_Hover",
     "ShortName": "Play_Env_Produce_Leafy_Hover",
     "Path": "Event/Play_Env_Produce_Leafy_Hover.bnk",
@@ -50,8 +50,8 @@
       "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_Produce_Leafy_Hover",
       "GUID": "{E954E2BD-4C23-4668-9618-912EAF3A219C}",
       "DurationType": "OneShot",
-      "DurationMin": "1",
-      "DurationMax": "1",
+      "DurationMin": "0.94387424",
+      "DurationMax": "1.0594631",
       "MediaRefs": [
        {
         "Id": "58422087"
@@ -67,6 +67,6 @@
     ]
    }
   ],
-  "FileHash": "{C520EE82-D34E-C414-E021-45D37CE09641}"
+  "FileHash": "{E6707A35-6ED4-C16D-8127-6A35A13721E6}"
  }
 }

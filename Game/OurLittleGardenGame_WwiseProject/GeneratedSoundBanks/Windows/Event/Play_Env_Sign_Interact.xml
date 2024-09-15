@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1384375282" Type="Event" GUID="{B0433BF4-FC66-4670-87A2-27362E958926}" Language="SFX" Hash="{3707B7F5-2416-340C-9FD5-8F37D0194FB8}">
+		<SoundBank Id="1384375282" Type="Event" GUID="{B0433BF4-FC66-4670-87A2-27362E958926}" Language="SFX" Hash="{122F9E39-825C-A4A7-1D8F-B64915B743A3}">
 			<ObjectPath>Play_Env_Sign_Interact</ObjectPath>
 			<ShortName>Play_Env_Sign_Interact</ShortName>
 			<Path>Event/Play_Env_Sign_Interact.bnk</Path>
@@ -23,7 +23,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1384375282" Name="Play_Env_Sign_Interact" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_Sign_Interact" GUID="{B0433BF4-FC66-4670-87A2-27362E958926}" DurationType="OneShot" DurationMin="1" DurationMax="1">
+				<Event Id="1384375282" Name="Play_Env_Sign_Interact" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_Sign_Interact" GUID="{B0433BF4-FC66-4670-87A2-27362E958926}" DurationType="OneShot" DurationMin="0.94387424" DurationMax="1.0594631">
 					<MediaRefs>
 						<MediaRef Id="28657466"/>
 						<MediaRef Id="286285642"/>
@@ -33,5 +33,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{58263BDF-258C-268F-A6B3-F8A68127990C}</FileHash>
+	<FileHash>{06D69CCD-B194-0DEA-59D7-F20724BFA470}</FileHash>
 </SoundBanksInfo>

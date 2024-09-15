@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="728403297" Type="Event" GUID="{F70CF74C-D047-4C84-888E-614C4180B8E5}" Language="SFX" Hash="{E148AC64-4344-D983-C6C3-D2C453971E40}">
+		<SoundBank Id="728403297" Type="Event" GUID="{F70CF74C-D047-4C84-888E-614C4180B8E5}" Language="SFX" Hash="{9B56FB91-B4FB-29CF-020F-7D936D3E068C}">
 			<ObjectPath>Play_Env_Produce_Solid_Hover</ObjectPath>
 			<ShortName>Play_Env_Produce_Solid_Hover</ShortName>
 			<Path>Event/Play_Env_Produce_Solid_Hover.bnk</Path>
@@ -23,7 +23,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="728403297" Name="Play_Env_Produce_Solid_Hover" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_Produce_Solid_Hover" GUID="{F70CF74C-D047-4C84-888E-614C4180B8E5}" DurationType="OneShot" DurationMin="1" DurationMax="1">
+				<Event Id="728403297" Name="Play_Env_Produce_Solid_Hover" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_Produce_Solid_Hover" GUID="{F70CF74C-D047-4C84-888E-614C4180B8E5}" DurationType="OneShot" DurationMin="0.94387424" DurationMax="1.0594631">
 					<MediaRefs>
 						<MediaRef Id="3405889"/>
 						<MediaRef Id="113058954"/>
@@ -33,5 +33,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0A60EB72-82E8-1393-7095-E602B88F5021}</FileHash>
+	<FileHash>{9E23C072-C716-2474-FBC7-F8ABDCCAB987}</FileHash>
 </SoundBanksInfo>

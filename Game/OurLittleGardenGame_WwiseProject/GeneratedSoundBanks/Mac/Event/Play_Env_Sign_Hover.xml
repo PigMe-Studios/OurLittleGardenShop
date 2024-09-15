@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="557622806" Type="Event" GUID="{56FB1F52-EE6B-4E7F-A819-449672F15813}" Language="SFX" Hash="{F80830F6-6156-445D-B3AA-E47264D8C8FB}">
+		<SoundBank Id="557622806" Type="Event" GUID="{56FB1F52-EE6B-4E7F-A819-449672F15813}" Language="SFX" Hash="{766AAC30-905A-EE6F-4861-174E22754A3A}">
 			<ObjectPath>Play_Env_Sign_Hover</ObjectPath>
 			<ShortName>Play_Env_Sign_Hover</ShortName>
 			<Path>Event/Play_Env_Sign_Hover.bnk</Path>
@@ -23,7 +23,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="557622806" Name="Play_Env_Sign_Hover" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_Sign_Hover" GUID="{56FB1F52-EE6B-4E7F-A819-449672F15813}" DurationType="OneShot" DurationMin="1" DurationMax="1">
+				<Event Id="557622806" Name="Play_Env_Sign_Hover" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_Sign_Hover" GUID="{56FB1F52-EE6B-4E7F-A819-449672F15813}" DurationType="OneShot" DurationMin="0.94387424" DurationMax="1.0594631">
 					<MediaRefs>
 						<MediaRef Id="395947664"/>
 						<MediaRef Id="650971537"/>
@@ -33,5 +33,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{4010384A-0161-4DF8-9537-738EB8FECDB4}</FileHash>
+	<FileHash>{91880BEF-C66C-F493-3D82-80BCB03E0B61}</FileHash>
 </SoundBanksInfo>

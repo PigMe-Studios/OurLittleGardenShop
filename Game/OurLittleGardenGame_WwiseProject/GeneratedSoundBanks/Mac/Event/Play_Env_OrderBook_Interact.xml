@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3966720210" Type="Event" GUID="{D24ADE26-A41B-437E-B723-D4525841236A}" Language="SFX" Hash="{EB187F0F-A739-4107-189F-4B5190A699D6}">
+		<SoundBank Id="3966720210" Type="Event" GUID="{D24ADE26-A41B-437E-B723-D4525841236A}" Language="SFX" Hash="{F6EF6F61-9159-BF0C-1319-82ED2F3B7C95}">
 			<ObjectPath>Play_Env_OrderBook_Interact</ObjectPath>
 			<ShortName>Play_Env_OrderBook_Interact</ShortName>
 			<Path>Event/Play_Env_OrderBook_Interact.bnk</Path>
@@ -23,7 +23,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3966720210" Name="Play_Env_OrderBook_Interact" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_OrderBook_Interact" GUID="{D24ADE26-A41B-437E-B723-D4525841236A}" DurationType="OneShot" DurationMin="1" DurationMax="1">
+				<Event Id="3966720210" Name="Play_Env_OrderBook_Interact" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_OrderBook_Interact" GUID="{D24ADE26-A41B-437E-B723-D4525841236A}" DurationType="OneShot" DurationMin="0.94387424" DurationMax="1.0594631">
 					<MediaRefs>
 						<MediaRef Id="24915585"/>
 						<MediaRef Id="123669511"/>
@@ -33,5 +33,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1DE75A15-1301-F239-36B3-81D18F007481}</FileHash>
+	<FileHash>{A243FF69-5F57-D9D5-FA32-ED743F9BC4C7}</FileHash>
 </SoundBanksInfo>

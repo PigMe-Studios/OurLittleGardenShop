@@ -539,7 +539,7 @@
     "Type": "Event",
     "GUID": "{56FB1F52-EE6B-4E7F-A819-449672F15813}",
     "Language": "SFX",
-    "Hash": "{F80830F6-6156-445D-B3AA-E47264D8C8FB}",
+    "Hash": "{766AAC30-905A-EE6F-4861-174E22754A3A}",
     "ObjectPath": "Play_Env_Sign_Hover",
     "ShortName": "Play_Env_Sign_Hover",
     "Path": "Event/Play_Env_Sign_Hover.bnk",
@@ -579,8 +579,8 @@
       "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_Sign_Hover",
       "GUID": "{56FB1F52-EE6B-4E7F-A819-449672F15813}",
       "DurationType": "OneShot",
-      "DurationMin": "1",
-      "DurationMax": "1",
+      "DurationMin": "0.94387424",
+      "DurationMax": "1.0594631",
       "MediaRefs": [
        {
         "Id": "395947664"
@@ -600,7 +600,7 @@
     "Type": "Event",
     "GUID": "{24715FB4-8FA3-405E-A274-68CCB969C3DA}",
     "Language": "SFX",
-    "Hash": "{D923A99D-EC4D-0A76-85B9-1DF3041924EA}",
+    "Hash": "{07C701C1-0D9F-EA67-397D-D44BE7C69E9F}",
     "ObjectPath": "Play_Env_Produce_Solid_Impact",
     "ShortName": "Play_Env_Produce_Solid_Impact",
     "Path": "Event/Play_Env_Produce_Solid_Impact.bnk",
@@ -640,8 +640,8 @@
       "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_Produce_Solid_Impact",
       "GUID": "{24715FB4-8FA3-405E-A274-68CCB969C3DA}",
       "DurationType": "OneShot",
-      "DurationMin": "1",
-      "DurationMax": "1",
+      "DurationMin": "0.94387424",
+      "DurationMax": "1.0594631",
       "MediaRefs": [
        {
         "Id": "484049294"
@@ -782,7 +782,7 @@
     "Type": "Event",
     "GUID": "{F70CF74C-D047-4C84-888E-614C4180B8E5}",
     "Language": "SFX",
-    "Hash": "{E148AC64-4344-D983-C6C3-D2C453971E40}",
+    "Hash": "{9B56FB91-B4FB-29CF-020F-7D936D3E068C}",
     "ObjectPath": "Play_Env_Produce_Solid_Hover",
     "ShortName": "Play_Env_Produce_Solid_Hover",
     "Path": "Event/Play_Env_Produce_Solid_Hover.bnk",
@@ -822,8 +822,8 @@
       "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_Produce_Solid_Hover",
       "GUID": "{F70CF74C-D047-4C84-888E-614C4180B8E5}",
       "DurationType": "OneShot",
-      "DurationMin": "1",
-      "DurationMax": "1",
+      "DurationMin": "0.94387424",
+      "DurationMax": "1.0594631",
       "MediaRefs": [
        {
         "Id": "3405889"
@@ -1411,7 +1411,7 @@
     "Type": "Event",
     "GUID": "{B0433BF4-FC66-4670-87A2-27362E958926}",
     "Language": "SFX",
-    "Hash": "{3707B7F5-2416-340C-9FD5-8F37D0194FB8}",
+    "Hash": "{122F9E39-825C-A4A7-1D8F-B64915B743A3}",
     "ObjectPath": "Play_Env_Sign_Interact",
     "ShortName": "Play_Env_Sign_Interact",
     "Path": "Event/Play_Env_Sign_Interact.bnk",
@@ -1451,8 +1451,8 @@
       "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_Sign_Interact",
       "GUID": "{B0433BF4-FC66-4670-87A2-27362E958926}",
       "DurationType": "OneShot",
-      "DurationMin": "1",
-      "DurationMax": "1",
+      "DurationMin": "0.94387424",
+      "DurationMax": "1.0594631",
       "MediaRefs": [
        {
         "Id": "28657466"
@@ -1507,7 +1507,7 @@
     "Type": "Event",
     "GUID": "{2692050E-2BE7-43E8-A059-2FFAED370B75}",
     "Language": "SFX",
-    "Hash": "{7DEBC296-A0ED-EF1C-9160-2606C15E4DD0}",
+    "Hash": "{5A02E5DB-E00F-9B96-4986-A61C7568E813}",
     "ObjectPath": "Play_Env_OrderBox_Interact",
     "ShortName": "Play_Env_OrderBox_Interact",
     "Path": "Event/Play_Env_OrderBox_Interact.bnk",
@@ -1547,8 +1547,8 @@
       "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_OrderBox_Interact",
       "GUID": "{2692050E-2BE7-43E8-A059-2FFAED370B75}",
       "DurationType": "OneShot",
-      "DurationMin": "1",
-      "DurationMax": "1",
+      "DurationMin": "0.94387424",
+      "DurationMax": "1.0594631",
       "MediaRefs": [
        {
         "Id": "474527285"
@@ -1568,7 +1568,7 @@
     "Type": "Event",
     "GUID": "{CB095974-FDCC-4690-BAE8-7DE5B6DD2232}",
     "Language": "SFX",
-    "Hash": "{12BC6A24-7C4B-C8A7-6E62-E24C8184F477}",
+    "Hash": "{D8E0F744-BDCD-AF57-417F-E3821368036E}",
     "ObjectPath": "Play_Env_OrderBook_Hover",
     "ShortName": "Play_Env_OrderBook_Hover",
     "Path": "Event/Play_Env_OrderBook_Hover.bnk",
@@ -1608,8 +1608,8 @@
       "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_OrderBook_Hover",
       "GUID": "{CB095974-FDCC-4690-BAE8-7DE5B6DD2232}",
       "DurationType": "OneShot",
-      "DurationMin": "1",
-      "DurationMax": "1",
+      "DurationMin": "0.94387424",
+      "DurationMax": "1.0594631",
       "MediaRefs": [
        {
         "Id": "32974419"
@@ -1885,7 +1885,7 @@
     "Type": "Event",
     "GUID": "{E954E2BD-4C23-4668-9618-912EAF3A219C}",
     "Language": "SFX",
-    "Hash": "{20DCC5E7-735A-6DE2-B6C3-77693BA72448}",
+    "Hash": "{7AE0F927-3584-6104-DD05-E586E0C73563}",
     "ObjectPath": "Play_Env_Produce_Leafy_Hover",
     "ShortName": "Play_Env_Produce_Leafy_Hover",
     "Path": "Event/Play_Env_Produce_Leafy_Hover.bnk",
@@ -1925,8 +1925,8 @@
       "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_Produce_Leafy_Hover",
       "GUID": "{E954E2BD-4C23-4668-9618-912EAF3A219C}",
       "DurationType": "OneShot",
-      "DurationMin": "1",
-      "DurationMax": "1",
+      "DurationMin": "0.94387424",
+      "DurationMax": "1.0594631",
       "MediaRefs": [
        {
         "Id": "58422087"
@@ -2007,7 +2007,7 @@
     "Type": "Event",
     "GUID": "{D64F8692-028A-4C5B-AB54-5FCBE0F0C760}",
     "Language": "SFX",
-    "Hash": "{B89A0733-F006-8915-B833-FE8E336A7961}",
+    "Hash": "{06766FB1-D735-27EA-55ED-0C9F974430B5}",
     "ObjectPath": "Play_Env_Produce_Leafy_Interact",
     "ShortName": "Play_Env_Produce_Leafy_Interact",
     "Path": "Event/Play_Env_Produce_Leafy_Interact.bnk",
@@ -2047,8 +2047,8 @@
       "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_Produce_Leafy_Interact",
       "GUID": "{D64F8692-028A-4C5B-AB54-5FCBE0F0C760}",
       "DurationType": "OneShot",
-      "DurationMin": "1",
-      "DurationMax": "1",
+      "DurationMin": "0.94387424",
+      "DurationMax": "1.0594631",
       "MediaRefs": [
        {
         "Id": "208038388"
@@ -3480,7 +3480,7 @@
     "Type": "Event",
     "GUID": "{F8BFB922-8137-43A2-A664-6688CF2EA546}",
     "Language": "SFX",
-    "Hash": "{4074FA59-2C6E-903F-84DF-8D4D48D98F3E}",
+    "Hash": "{AB82B149-FAA4-439D-BBC9-658D202BB334}",
     "ObjectPath": "Play_Env_OrderBox_Hover",
     "ShortName": "Play_Env_OrderBox_Hover",
     "Path": "Event/Play_Env_OrderBox_Hover.bnk",
@@ -3520,8 +3520,8 @@
       "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_OrderBox_Hover",
       "GUID": "{F8BFB922-8137-43A2-A664-6688CF2EA546}",
       "DurationType": "OneShot",
-      "DurationMin": "1",
-      "DurationMax": "1",
+      "DurationMin": "0.94387424",
+      "DurationMax": "1.0594631",
       "MediaRefs": [
        {
         "Id": "369285105"
@@ -3723,7 +3723,7 @@
     "Type": "Event",
     "GUID": "{D24ADE26-A41B-437E-B723-D4525841236A}",
     "Language": "SFX",
-    "Hash": "{EB187F0F-A739-4107-189F-4B5190A699D6}",
+    "Hash": "{F6EF6F61-9159-BF0C-1319-82ED2F3B7C95}",
     "ObjectPath": "Play_Env_OrderBook_Interact",
     "ShortName": "Play_Env_OrderBook_Interact",
     "Path": "Event/Play_Env_OrderBook_Interact.bnk",
@@ -3763,8 +3763,8 @@
       "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_OrderBook_Interact",
       "GUID": "{D24ADE26-A41B-437E-B723-D4525841236A}",
       "DurationType": "OneShot",
-      "DurationMin": "1",
-      "DurationMax": "1",
+      "DurationMin": "0.94387424",
+      "DurationMax": "1.0594631",
       "MediaRefs": [
        {
         "Id": "24915585"
@@ -3845,7 +3845,7 @@
     "Type": "Event",
     "GUID": "{45599040-E4EE-485C-993C-C1EB728D030C}",
     "Language": "SFX",
-    "Hash": "{02A78275-9C3F-FF8B-8EF3-6D6E6B95013B}",
+    "Hash": "{3FBB49F7-300C-8CFD-EA38-6F36E013D7E5}",
     "ObjectPath": "Play_Env_Produce_Solid_Interact",
     "ShortName": "Play_Env_Produce_Solid_Interact",
     "Path": "Event/Play_Env_Produce_Solid_Interact.bnk",
@@ -3885,8 +3885,8 @@
       "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_Produce_Solid_Interact",
       "GUID": "{45599040-E4EE-485C-993C-C1EB728D030C}",
       "DurationType": "OneShot",
-      "DurationMin": "1",
-      "DurationMax": "1",
+      "DurationMin": "0.94387424",
+      "DurationMax": "1.0594631",
       "MediaRefs": [
        {
         "Id": "164285435"
@@ -3906,7 +3906,7 @@
     "Type": "Event",
     "GUID": "{648F65CF-5BF4-480C-83A9-C56E5E543B57}",
     "Language": "SFX",
-    "Hash": "{3705FC5F-89EF-DE4E-7870-AE26D8D81D2E}",
+    "Hash": "{6DABB0A8-A69C-9ED8-AF7F-02C65495AD1E}",
     "ObjectPath": "Play_Env_Produce_Leafy_Impact",
     "ShortName": "Play_Env_Produce_Leafy_Impact",
     "Path": "Event/Play_Env_Produce_Leafy_Impact.bnk",
@@ -3946,8 +3946,8 @@
       "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_Produce_Leafy_Impact",
       "GUID": "{648F65CF-5BF4-480C-83A9-C56E5E543B57}",
       "DurationType": "OneShot",
-      "DurationMin": "1",
-      "DurationMax": "1",
+      "DurationMin": "0.94387424",
+      "DurationMax": "1.0594631",
       "MediaRefs": [
        {
         "Id": "117848228"
@@ -4191,6 +4191,6 @@
     ]
    }
   ],
-  "FileHash": "{BA8081ED-3794-8DE0-80BA-96CDB3E47533}"
+  "FileHash": "{4684EAFA-C00C-4AEC-1DF5-4A2DDF6340E0}"
  }
 }

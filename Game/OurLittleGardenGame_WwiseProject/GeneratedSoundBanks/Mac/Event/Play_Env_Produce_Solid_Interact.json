@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{45599040-E4EE-485C-993C-C1EB728D030C}",
     "Language": "SFX",
-    "Hash": "{02A78275-9C3F-FF8B-8EF3-6D6E6B95013B}",
+    "Hash": "{3FBB49F7-300C-8CFD-EA38-6F36E013D7E5}",
     "ObjectPath": "Play_Env_Produce_Solid_Interact",
     "ShortName": "Play_Env_Produce_Solid_Interact",
     "Path": "Event/Play_Env_Produce_Solid_Interact.bnk",
@@ -50,8 +50,8 @@
       "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_Produce_Solid_Interact",
       "GUID": "{45599040-E4EE-485C-993C-C1EB728D030C}",
       "DurationType": "OneShot",
-      "DurationMin": "1",
-      "DurationMax": "1",
+      "DurationMin": "0.94387424",
+      "DurationMax": "1.0594631",
       "MediaRefs": [
        {
         "Id": "164285435"
@@ -67,6 +67,6 @@
     ]
    }
   ],
-  "FileHash": "{2043ACA2-51AE-FF80-FEC2-6A36F8DCBF6A}"
+  "FileHash": "{4B366B19-EBFF-2125-0BBD-9A862BBA8C9A}"
  }
 }

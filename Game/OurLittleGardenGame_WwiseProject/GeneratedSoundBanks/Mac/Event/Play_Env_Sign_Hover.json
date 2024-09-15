@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{56FB1F52-EE6B-4E7F-A819-449672F15813}",
     "Language": "SFX",
-    "Hash": "{F80830F6-6156-445D-B3AA-E47264D8C8FB}",
+    "Hash": "{766AAC30-905A-EE6F-4861-174E22754A3A}",
     "ObjectPath": "Play_Env_Sign_Hover",
     "ShortName": "Play_Env_Sign_Hover",
     "Path": "Event/Play_Env_Sign_Hover.bnk",
@@ -50,8 +50,8 @@
       "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_Sign_Hover",
       "GUID": "{56FB1F52-EE6B-4E7F-A819-449672F15813}",
       "DurationType": "OneShot",
-      "DurationMin": "1",
-      "DurationMax": "1",
+      "DurationMin": "0.94387424",
+      "DurationMax": "1.0594631",
       "MediaRefs": [
        {
         "Id": "395947664"
@@ -67,6 +67,6 @@
     ]
    }
   ],
-  "FileHash": "{F81C6FFA-9BBA-E8E0-6D9C-F49FC81AFEE8}"
+  "FileHash": "{F215BE4E-AB33-2048-CD01-37EE844BD264}"
  }
 }

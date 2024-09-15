@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{F70CF74C-D047-4C84-888E-614C4180B8E5}",
     "Language": "SFX",
-    "Hash": "{E148AC64-4344-D983-C6C3-D2C453971E40}",
+    "Hash": "{9B56FB91-B4FB-29CF-020F-7D936D3E068C}",
     "ObjectPath": "Play_Env_Produce_Solid_Hover",
     "ShortName": "Play_Env_Produce_Solid_Hover",
     "Path": "Event/Play_Env_Produce_Solid_Hover.bnk",
@@ -50,8 +50,8 @@
       "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_Produce_Solid_Hover",
       "GUID": "{F70CF74C-D047-4C84-888E-614C4180B8E5}",
       "DurationType": "OneShot",
-      "DurationMin": "1",
-      "DurationMax": "1",
+      "DurationMin": "0.94387424",
+      "DurationMax": "1.0594631",
       "MediaRefs": [
        {
         "Id": "3405889"
@@ -67,6 +67,6 @@
     ]
    }
   ],
-  "FileHash": "{52798CD4-9EAA-5E16-F4CB-A2FD6293BB6A}"
+  "FileHash": "{BB4C9EDD-3150-D558-93E9-DB3929E462D1}"
  }
 }

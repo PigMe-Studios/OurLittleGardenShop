@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{2692050E-2BE7-43E8-A059-2FFAED370B75}",
     "Language": "SFX",
-    "Hash": "{7DEBC296-A0ED-EF1C-9160-2606C15E4DD0}",
+    "Hash": "{5A02E5DB-E00F-9B96-4986-A61C7568E813}",
     "ObjectPath": "Play_Env_OrderBox_Interact",
     "ShortName": "Play_Env_OrderBox_Interact",
     "Path": "Event/Play_Env_OrderBox_Interact.bnk",
@@ -50,8 +50,8 @@
       "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_OrderBox_Interact",
       "GUID": "{2692050E-2BE7-43E8-A059-2FFAED370B75}",
       "DurationType": "OneShot",
-      "DurationMin": "1",
-      "DurationMax": "1",
+      "DurationMin": "0.94387424",
+      "DurationMax": "1.0594631",
       "MediaRefs": [
        {
         "Id": "474527285"
@@ -67,6 +67,6 @@
     ]
    }
   ],
-  "FileHash": "{0208A839-F4EB-8718-FEF9-B9C6AF9AF5F4}"
+  "FileHash": "{0C897CB5-C713-4450-8C97-C41AE6597B8B}"
  }
 }

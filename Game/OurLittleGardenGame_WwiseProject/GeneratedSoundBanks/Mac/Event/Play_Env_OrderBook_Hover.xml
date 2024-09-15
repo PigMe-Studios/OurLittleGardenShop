@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1670963574" Type="Event" GUID="{CB095974-FDCC-4690-BAE8-7DE5B6DD2232}" Language="SFX" Hash="{12BC6A24-7C4B-C8A7-6E62-E24C8184F477}">
+		<SoundBank Id="1670963574" Type="Event" GUID="{CB095974-FDCC-4690-BAE8-7DE5B6DD2232}" Language="SFX" Hash="{D8E0F744-BDCD-AF57-417F-E3821368036E}">
 			<ObjectPath>Play_Env_OrderBook_Hover</ObjectPath>
 			<ShortName>Play_Env_OrderBook_Hover</ShortName>
 			<Path>Event/Play_Env_OrderBook_Hover.bnk</Path>
@@ -23,7 +23,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1670963574" Name="Play_Env_OrderBook_Hover" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_OrderBook_Hover" GUID="{CB095974-FDCC-4690-BAE8-7DE5B6DD2232}" DurationType="OneShot" DurationMin="1" DurationMax="1">
+				<Event Id="1670963574" Name="Play_Env_OrderBook_Hover" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_OrderBook_Hover" GUID="{CB095974-FDCC-4690-BAE8-7DE5B6DD2232}" DurationType="OneShot" DurationMin="0.94387424" DurationMax="1.0594631">
 					<MediaRefs>
 						<MediaRef Id="32974419"/>
 						<MediaRef Id="770259592"/>
@@ -33,5 +33,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{84494349-ECFD-EDF8-DC1F-4DAF41FB5D24}</FileHash>
+	<FileHash>{B38FF38B-69CA-CDD0-FE63-2D7EC81D962E}</FileHash>
 </SoundBanksInfo>

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{B0433BF4-FC66-4670-87A2-27362E958926}",
     "Language": "SFX",
-    "Hash": "{3707B7F5-2416-340C-9FD5-8F37D0194FB8}",
+    "Hash": "{122F9E39-825C-A4A7-1D8F-B64915B743A3}",
     "ObjectPath": "Play_Env_Sign_Interact",
     "ShortName": "Play_Env_Sign_Interact",
     "Path": "Event/Play_Env_Sign_Interact.bnk",
@@ -50,8 +50,8 @@
       "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_Sign_Interact",
       "GUID": "{B0433BF4-FC66-4670-87A2-27362E958926}",
       "DurationType": "OneShot",
-      "DurationMin": "1",
-      "DurationMax": "1",
+      "DurationMin": "0.94387424",
+      "DurationMax": "1.0594631",
       "MediaRefs": [
        {
         "Id": "28657466"
@@ -67,6 +67,6 @@
     ]
    }
   ],
-  "FileHash": "{6FB9F98C-31D2-7A0B-3EA7-2D4EA80B3915}"
+  "FileHash": "{985D1117-612E-4605-1FD0-957C8DEB0FB0}"
  }
 }

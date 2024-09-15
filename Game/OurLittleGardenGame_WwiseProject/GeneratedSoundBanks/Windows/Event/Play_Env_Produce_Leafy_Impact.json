@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{648F65CF-5BF4-480C-83A9-C56E5E543B57}",
     "Language": "SFX",
-    "Hash": "{3705FC5F-89EF-DE4E-7870-AE26D8D81D2E}",
+    "Hash": "{6DABB0A8-A69C-9ED8-AF7F-02C65495AD1E}",
     "ObjectPath": "Play_Env_Produce_Leafy_Impact",
     "ShortName": "Play_Env_Produce_Leafy_Impact",
     "Path": "Event/Play_Env_Produce_Leafy_Impact.bnk",
@@ -50,8 +50,8 @@
       "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_Produce_Leafy_Impact",
       "GUID": "{648F65CF-5BF4-480C-83A9-C56E5E543B57}",
       "DurationType": "OneShot",
-      "DurationMin": "1",
-      "DurationMax": "1",
+      "DurationMin": "0.94387424",
+      "DurationMax": "1.0594631",
       "MediaRefs": [
        {
         "Id": "117848228"
@@ -67,6 +67,6 @@
     ]
    }
   ],
-  "FileHash": "{EDCEDD0B-79D2-04F6-FFBE-05F71D7FF1FC}"
+  "FileHash": "{5D6CE4C9-4C68-7497-09FC-BBD85F7BC7E1}"
  }
 }

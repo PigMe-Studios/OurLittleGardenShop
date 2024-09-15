@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3727527182" Type="Event" GUID="{F8BFB922-8137-43A2-A664-6688CF2EA546}" Language="SFX" Hash="{4074FA59-2C6E-903F-84DF-8D4D48D98F3E}">
+		<SoundBank Id="3727527182" Type="Event" GUID="{F8BFB922-8137-43A2-A664-6688CF2EA546}" Language="SFX" Hash="{AB82B149-FAA4-439D-BBC9-658D202BB334}">
 			<ObjectPath>Play_Env_OrderBox_Hover</ObjectPath>
 			<ShortName>Play_Env_OrderBox_Hover</ShortName>
 			<Path>Event/Play_Env_OrderBox_Hover.bnk</Path>
@@ -23,7 +23,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3727527182" Name="Play_Env_OrderBox_Hover" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_OrderBox_Hover" GUID="{F8BFB922-8137-43A2-A664-6688CF2EA546}" DurationType="OneShot" DurationMin="1" DurationMax="1">
+				<Event Id="3727527182" Name="Play_Env_OrderBox_Hover" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_OrderBox_Hover" GUID="{F8BFB922-8137-43A2-A664-6688CF2EA546}" DurationType="OneShot" DurationMin="0.94387424" DurationMax="1.0594631">
 					<MediaRefs>
 						<MediaRef Id="369285105"/>
 						<MediaRef Id="822056817"/>
@@ -33,5 +33,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A1518A80-A708-CB55-8F70-8234DD7CF95B}</FileHash>
+	<FileHash>{9D113442-E561-6DA4-D3E1-A9BB94C3DE5F}</FileHash>
 </SoundBanksInfo>

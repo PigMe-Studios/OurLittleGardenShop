@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="4128093859" Type="Event" GUID="{45599040-E4EE-485C-993C-C1EB728D030C}" Language="SFX" Hash="{02A78275-9C3F-FF8B-8EF3-6D6E6B95013B}">
+		<SoundBank Id="4128093859" Type="Event" GUID="{45599040-E4EE-485C-993C-C1EB728D030C}" Language="SFX" Hash="{3FBB49F7-300C-8CFD-EA38-6F36E013D7E5}">
 			<ObjectPath>Play_Env_Produce_Solid_Interact</ObjectPath>
 			<ShortName>Play_Env_Produce_Solid_Interact</ShortName>
 			<Path>Event/Play_Env_Produce_Solid_Interact.bnk</Path>
@@ -23,7 +23,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="4128093859" Name="Play_Env_Produce_Solid_Interact" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_Produce_Solid_Interact" GUID="{45599040-E4EE-485C-993C-C1EB728D030C}" DurationType="OneShot" DurationMin="1" DurationMax="1">
+				<Event Id="4128093859" Name="Play_Env_Produce_Solid_Interact" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_Produce_Solid_Interact" GUID="{45599040-E4EE-485C-993C-C1EB728D030C}" DurationType="OneShot" DurationMin="0.94387424" DurationMax="1.0594631">
 					<MediaRefs>
 						<MediaRef Id="164285435"/>
 						<MediaRef Id="166981092"/>
@@ -33,5 +33,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{CD0F5A1A-4457-C8D4-DCBD-514ED6062B77}</FileHash>
+	<FileHash>{F95F0885-5E8E-6898-9AB0-4558425D0D46}</FileHash>
 </SoundBanksInfo>

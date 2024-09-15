@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{D64F8692-028A-4C5B-AB54-5FCBE0F0C760}",
     "Language": "SFX",
-    "Hash": "{B89A0733-F006-8915-B833-FE8E336A7961}",
+    "Hash": "{06766FB1-D735-27EA-55ED-0C9F974430B5}",
     "ObjectPath": "Play_Env_Produce_Leafy_Interact",
     "ShortName": "Play_Env_Produce_Leafy_Interact",
     "Path": "Event/Play_Env_Produce_Leafy_Interact.bnk",
@@ -50,8 +50,8 @@
       "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_Produce_Leafy_Interact",
       "GUID": "{D64F8692-028A-4C5B-AB54-5FCBE0F0C760}",
       "DurationType": "OneShot",
-      "DurationMin": "1",
-      "DurationMax": "1",
+      "DurationMin": "0.94387424",
+      "DurationMax": "1.0594631",
       "MediaRefs": [
        {
         "Id": "208038388"
@@ -67,6 +67,6 @@
     ]
    }
   ],
-  "FileHash": "{4E6D3BC8-A64B-74A6-C444-D7F5F6BF48A2}"
+  "FileHash": "{8AE6EDE6-BF74-5E98-B519-F8789572951D}"
  }
 }

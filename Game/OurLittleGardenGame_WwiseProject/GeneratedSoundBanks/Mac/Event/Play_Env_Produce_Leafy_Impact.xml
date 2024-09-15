@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="4174116071" Type="Event" GUID="{648F65CF-5BF4-480C-83A9-C56E5E543B57}" Language="SFX" Hash="{3705FC5F-89EF-DE4E-7870-AE26D8D81D2E}">
+		<SoundBank Id="4174116071" Type="Event" GUID="{648F65CF-5BF4-480C-83A9-C56E5E543B57}" Language="SFX" Hash="{6DABB0A8-A69C-9ED8-AF7F-02C65495AD1E}">
 			<ObjectPath>Play_Env_Produce_Leafy_Impact</ObjectPath>
 			<ShortName>Play_Env_Produce_Leafy_Impact</ShortName>
 			<Path>Event/Play_Env_Produce_Leafy_Impact.bnk</Path>
@@ -23,7 +23,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="4174116071" Name="Play_Env_Produce_Leafy_Impact" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_Produce_Leafy_Impact" GUID="{648F65CF-5BF4-480C-83A9-C56E5E543B57}" DurationType="OneShot" DurationMin="1" DurationMax="1">
+				<Event Id="4174116071" Name="Play_Env_Produce_Leafy_Impact" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_Produce_Leafy_Impact" GUID="{648F65CF-5BF4-480C-83A9-C56E5E543B57}" DurationType="OneShot" DurationMin="0.94387424" DurationMax="1.0594631">
 					<MediaRefs>
 						<MediaRef Id="117848228"/>
 						<MediaRef Id="356884088"/>
@@ -33,5 +33,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{CF7B0590-783E-08E1-FC91-E2617A60F74D}</FileHash>
+	<FileHash>{8E9CD7C5-8CDD-9FC4-DDD9-0740A201D83E}</FileHash>
 </SoundBanksInfo>
