@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3966720210" Type="Event" GUID="{D24ADE26-A41B-437E-B723-D4525841236A}" Language="SFX" Hash="{EB187F0F-A739-4107-189F-4B5190A699D6}">
+			<ObjectPath>Play_Env_OrderBook_Interact</ObjectPath>
+			<ShortName>Play_Env_OrderBook_Interact</ShortName>
+			<Path>Event/Play_Env_OrderBook_Interact.bnk</Path>
+			<Media>
+				<File Id="24915585" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_OrderBook-Interact-003.wav</ShortName>
+					<Path>Media/24915585.wem</Path>
+					<CachePath>SFX/Env_OrderBook-Interact-003_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="123669511" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_OrderBook-Interact-002.wav</ShortName>
+					<Path>Media/123669511.wem</Path>
+					<CachePath>SFX/Env_OrderBook-Interact-002_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="1072263630" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_OrderBook-Interact-001.wav</ShortName>
+					<Path>Media/1072263630.wem</Path>
+					<CachePath>SFX/Env_OrderBook-Interact-001_F06BAF76.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3966720210" Name="Play_Env_OrderBook_Interact" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_OrderBook_Interact" GUID="{D24ADE26-A41B-437E-B723-D4525841236A}" DurationType="OneShot" DurationMin="1" DurationMax="1">
+					<MediaRefs>
+						<MediaRef Id="24915585"/>
+						<MediaRef Id="123669511"/>
+						<MediaRef Id="1072263630"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{1DE75A15-1301-F239-36B3-81D18F007481}</FileHash>
+</SoundBanksInfo>

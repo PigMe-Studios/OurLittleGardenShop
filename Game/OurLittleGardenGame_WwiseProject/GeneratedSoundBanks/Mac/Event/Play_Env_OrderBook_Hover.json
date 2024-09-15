@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1670963574",
+    "Type": "Event",
+    "GUID": "{CB095974-FDCC-4690-BAE8-7DE5B6DD2232}",
+    "Language": "SFX",
+    "Hash": "{12BC6A24-7C4B-C8A7-6E62-E24C8184F477}",
+    "ObjectPath": "Play_Env_OrderBook_Hover",
+    "ShortName": "Play_Env_OrderBook_Hover",
+    "Path": "Event/Play_Env_OrderBook_Hover.bnk",
+    "Media": [
+     {
+      "Id": "32974419",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_OrderBook-Hover-002.wav",
+      "Path": "Media/32974419.wem",
+      "CachePath": "SFX/Env_OrderBook-Hover-002_F06BAF76.wem"
+     },
+     {
+      "Id": "770259592",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_OrderBook-Hover-001.wav",
+      "Path": "Media/770259592.wem",
+      "CachePath": "SFX/Env_OrderBook-Hover-001_F06BAF76.wem"
+     },
+     {
+      "Id": "1018895930",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_OrderBook-Hover-003.wav",
+      "Path": "Media/1018895930.wem",
+      "CachePath": "SFX/Env_OrderBook-Hover-003_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1670963574",
+      "Name": "Play_Env_OrderBook_Hover",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_OrderBook_Hover",
+      "GUID": "{CB095974-FDCC-4690-BAE8-7DE5B6DD2232}",
+      "DurationType": "OneShot",
+      "DurationMin": "1",
+      "DurationMax": "1",
+      "MediaRefs": [
+       {
+        "Id": "32974419"
+       },
+       {
+        "Id": "770259592"
+       },
+       {
+        "Id": "1018895930"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{3E6CEF02-ED4D-D94C-DF0C-DD58909E7484}"
+ }
+}

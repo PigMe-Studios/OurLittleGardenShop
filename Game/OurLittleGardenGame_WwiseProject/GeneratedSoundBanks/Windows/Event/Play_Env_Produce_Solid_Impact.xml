@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="588414595" Type="Event" GUID="{24715FB4-8FA3-405E-A274-68CCB969C3DA}" Language="SFX" Hash="{D923A99D-EC4D-0A76-85B9-1DF3041924EA}">
+			<ObjectPath>Play_Env_Produce_Solid_Impact</ObjectPath>
+			<ShortName>Play_Env_Produce_Solid_Impact</ShortName>
+			<Path>Event/Play_Env_Produce_Solid_Impact.bnk</Path>
+			<Media>
+				<File Id="484049294" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Produce_Solid-Impact-002.wav</ShortName>
+					<Path>Media/484049294.wem</Path>
+					<CachePath>SFX/Env_Produce_Solid-Impact-002_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="903198115" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Produce_Solid-Impact-001.wav</ShortName>
+					<Path>Media/903198115.wem</Path>
+					<CachePath>SFX/Env_Produce_Solid-Impact-001_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="1009659373" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Produce_Solid-Impact-003.wav</ShortName>
+					<Path>Media/1009659373.wem</Path>
+					<CachePath>SFX/Env_Produce_Solid-Impact-003_F06BAF76.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="588414595" Name="Play_Env_Produce_Solid_Impact" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_Produce_Solid_Impact" GUID="{24715FB4-8FA3-405E-A274-68CCB969C3DA}" DurationType="OneShot" DurationMin="1" DurationMax="1">
+					<MediaRefs>
+						<MediaRef Id="484049294"/>
+						<MediaRef Id="903198115"/>
+						<MediaRef Id="1009659373"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{34FBF2E6-7D2F-AAE6-C27A-705E2BD37320}</FileHash>
+</SoundBanksInfo>

@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2806152183	Play_Env_Produce_Leafy_Interact			\WU_Main\Environment\Shop\Play_Env_Produce_Leafy_Interact	
+

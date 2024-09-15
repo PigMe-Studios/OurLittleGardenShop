@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "4174116071",
+    "Type": "Event",
+    "GUID": "{648F65CF-5BF4-480C-83A9-C56E5E543B57}",
+    "Language": "SFX",
+    "Hash": "{3705FC5F-89EF-DE4E-7870-AE26D8D81D2E}",
+    "ObjectPath": "Play_Env_Produce_Leafy_Impact",
+    "ShortName": "Play_Env_Produce_Leafy_Impact",
+    "Path": "Event/Play_Env_Produce_Leafy_Impact.bnk",
+    "Media": [
+     {
+      "Id": "117848228",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Produce_Leafy-Impact-002.wav",
+      "Path": "Media/117848228.wem",
+      "CachePath": "SFX/Env_Produce_Leafy-Impact-002_F06BAF76.wem"
+     },
+     {
+      "Id": "356884088",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Produce_Leafy-Impact-001.wav",
+      "Path": "Media/356884088.wem",
+      "CachePath": "SFX/Env_Produce_Leafy-Impact-001_F06BAF76.wem"
+     },
+     {
+      "Id": "387664255",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Produce_Leafy-Impact-003.wav",
+      "Path": "Media/387664255.wem",
+      "CachePath": "SFX/Env_Produce_Leafy-Impact-003_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4174116071",
+      "Name": "Play_Env_Produce_Leafy_Impact",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_Produce_Leafy_Impact",
+      "GUID": "{648F65CF-5BF4-480C-83A9-C56E5E543B57}",
+      "DurationType": "OneShot",
+      "DurationMin": "1",
+      "DurationMax": "1",
+      "MediaRefs": [
+       {
+        "Id": "117848228"
+       },
+       {
+        "Id": "356884088"
+       },
+       {
+        "Id": "387664255"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{397682F8-4D90-5C94-70A1-ABC7CC878C71}"
+ }
+}

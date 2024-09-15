@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2229079685	Play_Env_Produce_Leafy_Hover			\WU_Main\Environment\Shop\Play_Env_Produce_Leafy_Hover	
+

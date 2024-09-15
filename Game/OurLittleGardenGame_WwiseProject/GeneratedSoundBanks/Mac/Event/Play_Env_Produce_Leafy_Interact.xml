@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2806152183" Type="Event" GUID="{D64F8692-028A-4C5B-AB54-5FCBE0F0C760}" Language="SFX" Hash="{B89A0733-F006-8915-B833-FE8E336A7961}">
+			<ObjectPath>Play_Env_Produce_Leafy_Interact</ObjectPath>
+			<ShortName>Play_Env_Produce_Leafy_Interact</ShortName>
+			<Path>Event/Play_Env_Produce_Leafy_Interact.bnk</Path>
+			<Media>
+				<File Id="208038388" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Produce_Leafy-Interact-001.wav</ShortName>
+					<Path>Media/208038388.wem</Path>
+					<CachePath>SFX/Env_Produce_Leafy-Interact-001_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="357708089" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Produce_Leafy-Interact-003.wav</ShortName>
+					<Path>Media/357708089.wem</Path>
+					<CachePath>SFX/Env_Produce_Leafy-Interact-003_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="365089039" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Produce_Leafy-Interact-002.wav</ShortName>
+					<Path>Media/365089039.wem</Path>
+					<CachePath>SFX/Env_Produce_Leafy-Interact-002_F06BAF76.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2806152183" Name="Play_Env_Produce_Leafy_Interact" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_Produce_Leafy_Interact" GUID="{D64F8692-028A-4C5B-AB54-5FCBE0F0C760}" DurationType="OneShot" DurationMin="1" DurationMax="1">
+					<MediaRefs>
+						<MediaRef Id="208038388"/>
+						<MediaRef Id="357708089"/>
+						<MediaRef Id="365089039"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{6079EEE2-FD6D-9D17-250A-368BA0E0C142}</FileHash>
+</SoundBanksInfo>
