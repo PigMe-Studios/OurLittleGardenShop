@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3966720210",
+    "Type": "Event",
+    "GUID": "{D24ADE26-A41B-437E-B723-D4525841236A}",
+    "Language": "SFX",
+    "Hash": "{F6EF6F61-9159-BF0C-1319-82ED2F3B7C95}",
+    "ObjectPath": "Play_Env_OrderBook_Interact",
+    "ShortName": "Play_Env_OrderBook_Interact",
+    "Path": "Event/Play_Env_OrderBook_Interact.bnk",
+    "Media": [
+     {
+      "Id": "24915585",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_OrderBook-Interact-003.wav",
+      "Path": "Media/24915585.wem",
+      "CachePath": "SFX/Env_OrderBook-Interact-003_F06BAF76.wem"
+     },
+     {
+      "Id": "123669511",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_OrderBook-Interact-002.wav",
+      "Path": "Media/123669511.wem",
+      "CachePath": "SFX/Env_OrderBook-Interact-002_F06BAF76.wem"
+     },
+     {
+      "Id": "1072263630",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_OrderBook-Interact-001.wav",
+      "Path": "Media/1072263630.wem",
+      "CachePath": "SFX/Env_OrderBook-Interact-001_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3966720210",
+      "Name": "Play_Env_OrderBook_Interact",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_OrderBook_Interact",
+      "GUID": "{D24ADE26-A41B-437E-B723-D4525841236A}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.94387424",
+      "DurationMax": "1.0594631",
+      "MediaRefs": [
+       {
+        "Id": "24915585"
+       },
+       {
+        "Id": "123669511"
+       },
+       {
+        "Id": "1072263630"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{91CD9827-C0B9-F252-48E4-80B9B1873339}"
+ }
+}

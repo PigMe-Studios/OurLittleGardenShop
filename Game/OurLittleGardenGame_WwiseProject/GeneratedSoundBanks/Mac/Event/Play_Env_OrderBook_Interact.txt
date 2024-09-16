@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3966720210	Play_Env_OrderBook_Interact			\WU_Main\Environment\Shop\Play_Env_OrderBook_Interact	
+

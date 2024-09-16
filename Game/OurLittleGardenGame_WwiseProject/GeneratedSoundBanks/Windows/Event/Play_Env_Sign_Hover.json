@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "557622806",
+    "Type": "Event",
+    "GUID": "{56FB1F52-EE6B-4E7F-A819-449672F15813}",
+    "Language": "SFX",
+    "Hash": "{766AAC30-905A-EE6F-4861-174E22754A3A}",
+    "ObjectPath": "Play_Env_Sign_Hover",
+    "ShortName": "Play_Env_Sign_Hover",
+    "Path": "Event/Play_Env_Sign_Hover.bnk",
+    "Media": [
+     {
+      "Id": "395947664",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Sign-Hover-003.wav",
+      "Path": "Media/395947664.wem",
+      "CachePath": "SFX/Env_Sign-Hover-003_F06BAF76.wem"
+     },
+     {
+      "Id": "650971537",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Sign-Hover-001.wav",
+      "Path": "Media/650971537.wem",
+      "CachePath": "SFX/Env_Sign-Hover-001_F06BAF76.wem"
+     },
+     {
+      "Id": "676733585",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Sign-Hover-002.wav",
+      "Path": "Media/676733585.wem",
+      "CachePath": "SFX/Env_Sign-Hover-002_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "557622806",
+      "Name": "Play_Env_Sign_Hover",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_Sign_Hover",
+      "GUID": "{56FB1F52-EE6B-4E7F-A819-449672F15813}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.94387424",
+      "DurationMax": "1.0594631",
+      "MediaRefs": [
+       {
+        "Id": "395947664"
+       },
+       {
+        "Id": "650971537"
+       },
+       {
+        "Id": "676733585"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{7E9D219F-17C2-BA3A-7F04-629E6C06E6B6}"
+ }
+}

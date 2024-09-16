@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2229079685",
+    "Type": "Event",
+    "GUID": "{E954E2BD-4C23-4668-9618-912EAF3A219C}",
+    "Language": "SFX",
+    "Hash": "{7AE0F927-3584-6104-DD05-E586E0C73563}",
+    "ObjectPath": "Play_Env_Produce_Leafy_Hover",
+    "ShortName": "Play_Env_Produce_Leafy_Hover",
+    "Path": "Event/Play_Env_Produce_Leafy_Hover.bnk",
+    "Media": [
+     {
+      "Id": "58422087",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Produce_Leafy-Hover-002.wav",
+      "Path": "Media/58422087.wem",
+      "CachePath": "SFX/Env_Produce_Leafy-Hover-002_F06BAF76.wem"
+     },
+     {
+      "Id": "331588443",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Produce_Leafy-Hover-001.wav",
+      "Path": "Media/331588443.wem",
+      "CachePath": "SFX/Env_Produce_Leafy-Hover-001_F06BAF76.wem"
+     },
+     {
+      "Id": "431137250",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Produce_Leafy-Hover-003.wav",
+      "Path": "Media/431137250.wem",
+      "CachePath": "SFX/Env_Produce_Leafy-Hover-003_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2229079685",
+      "Name": "Play_Env_Produce_Leafy_Hover",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_Produce_Leafy_Hover",
+      "GUID": "{E954E2BD-4C23-4668-9618-912EAF3A219C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.94387424",
+      "DurationMax": "1.0594631",
+      "MediaRefs": [
+       {
+        "Id": "58422087"
+       },
+       {
+        "Id": "331588443"
+       },
+       {
+        "Id": "431137250"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{E6707A35-6ED4-C16D-8127-6A35A13721E6}"
+ }
+}

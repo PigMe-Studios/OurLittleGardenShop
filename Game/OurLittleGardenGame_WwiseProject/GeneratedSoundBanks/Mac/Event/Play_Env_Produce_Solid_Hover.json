@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "728403297",
+    "Type": "Event",
+    "GUID": "{F70CF74C-D047-4C84-888E-614C4180B8E5}",
+    "Language": "SFX",
+    "Hash": "{9B56FB91-B4FB-29CF-020F-7D936D3E068C}",
+    "ObjectPath": "Play_Env_Produce_Solid_Hover",
+    "ShortName": "Play_Env_Produce_Solid_Hover",
+    "Path": "Event/Play_Env_Produce_Solid_Hover.bnk",
+    "Media": [
+     {
+      "Id": "3405889",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Produce_Solid-Hover-001.wav",
+      "Path": "Media/3405889.wem",
+      "CachePath": "SFX/Env_Produce_Solid-Hover-001_F06BAF76.wem"
+     },
+     {
+      "Id": "113058954",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Produce_Solid-Hover-002.wav",
+      "Path": "Media/113058954.wem",
+      "CachePath": "SFX/Env_Produce_Solid-Hover-002_F06BAF76.wem"
+     },
+     {
+      "Id": "186973250",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Produce_Solid-Hover-003.wav",
+      "Path": "Media/186973250.wem",
+      "CachePath": "SFX/Env_Produce_Solid-Hover-003_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "728403297",
+      "Name": "Play_Env_Produce_Solid_Hover",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_Produce_Solid_Hover",
+      "GUID": "{F70CF74C-D047-4C84-888E-614C4180B8E5}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.94387424",
+      "DurationMax": "1.0594631",
+      "MediaRefs": [
+       {
+        "Id": "3405889"
+       },
+       {
+        "Id": "113058954"
+       },
+       {
+        "Id": "186973250"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{BB4C9EDD-3150-D558-93E9-DB3929E462D1}"
+ }
+}

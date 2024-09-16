@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4128093859	Play_Env_Produce_Solid_Interact			\WU_Main\Environment\Shop\Play_Env_Produce_Solid_Interact	
+

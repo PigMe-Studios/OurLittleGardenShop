@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1384375282",
+    "Type": "Event",
+    "GUID": "{B0433BF4-FC66-4670-87A2-27362E958926}",
+    "Language": "SFX",
+    "Hash": "{122F9E39-825C-A4A7-1D8F-B64915B743A3}",
+    "ObjectPath": "Play_Env_Sign_Interact",
+    "ShortName": "Play_Env_Sign_Interact",
+    "Path": "Event/Play_Env_Sign_Interact.bnk",
+    "Media": [
+     {
+      "Id": "28657466",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Sign-Interact-001.wav",
+      "Path": "Media/28657466.wem",
+      "CachePath": "SFX/Env_Sign-Interact-001_F06BAF76.wem"
+     },
+     {
+      "Id": "286285642",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Sign-Interact-002.wav",
+      "Path": "Media/286285642.wem",
+      "CachePath": "SFX/Env_Sign-Interact-002_F06BAF76.wem"
+     },
+     {
+      "Id": "1067639559",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Sign-Interact-003.wav",
+      "Path": "Media/1067639559.wem",
+      "CachePath": "SFX/Env_Sign-Interact-003_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1384375282",
+      "Name": "Play_Env_Sign_Interact",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_Sign_Interact",
+      "GUID": "{B0433BF4-FC66-4670-87A2-27362E958926}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.94387424",
+      "DurationMax": "1.0594631",
+      "MediaRefs": [
+       {
+        "Id": "28657466"
+       },
+       {
+        "Id": "286285642"
+       },
+       {
+        "Id": "1067639559"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{985D1117-612E-4605-1FD0-957C8DEB0FB0}"
+ }
+}

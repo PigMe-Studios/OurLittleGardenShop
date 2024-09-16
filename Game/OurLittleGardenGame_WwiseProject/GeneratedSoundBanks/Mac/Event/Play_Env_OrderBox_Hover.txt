@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3727527182	Play_Env_OrderBox_Hover			\WU_Main\Environment\Shop\Play_Env_OrderBox_Hover	
+

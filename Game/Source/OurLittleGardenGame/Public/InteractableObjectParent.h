@@ -6,6 +6,7 @@
 #include "GameFramework/Actor.h"
 #include "InteractionInterface.h"
 #include "Blueprint/UserWidget.h"
+#include "AkGameplayStatics.h"
 #include "InteractableObjectParent.generated.h"
 
 
@@ -31,6 +32,13 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interaction")
 	TSubclassOf<UUserWidget> InteractionWidgetClass;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Audio")
+	UAkAudioEvent* InteractSound = nullptr;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Audio")
+	UAkAudioEvent* ImpactSound = nullptr;
+
 
 	void OnGrab();
 	void OnRelease();
