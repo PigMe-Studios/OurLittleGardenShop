@@ -44,7 +44,10 @@ bool ACustomer::UpdateDialogue(FName Name)
 	if (FDialogueLine* Row = DIALOGUE_TABLE->FindRow<FDialogueLine>(Name, ""))
 	{
 		CurrentDialogue = Name;
-		Emotion = Row->CharacterEmotion;
+		if (Row->CharacterSpeaking != ECharacter::PLAYER)
+		{
+			Emotion = Row->CharacterEmotion;
+		}
 
 		//? Redundant rn?
 		FString CharacterFullName = UEnum::GetValueAsString(Row->CharacterSpeaking);
