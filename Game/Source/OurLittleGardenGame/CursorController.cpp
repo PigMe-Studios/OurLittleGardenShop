@@ -251,10 +251,26 @@ void ACursorController::SetInteractionEnabled(bool bEnabled)
 	{
 		if (LastHoveredActor)
 		{
-			if (UStaticMeshComponent* LastMeshComponent = LastHoveredActor->FindComponentByClass<UStaticMeshComponent>())
+			//xif (UStaticMeshComponent* LastMeshComponent = LastHoveredActor->FindComponentByClass<UStaticMeshComponent>())
+			//x{
+			//x	LastMeshComponent->SetRenderCustomDepth(false);
+			//x}
+			TArray<UStaticMeshComponent*> LastMeshComponents;
+			LastHoveredActor->GetComponents<UStaticMeshComponent>(LastMeshComponents);
+
+			TArray<USkeletalMeshComponent*> LastSkeleMeshComponents;
+			LastHoveredActor->GetComponents<USkeletalMeshComponent>(LastSkeleMeshComponents);
+
+			//loops through all the meshes in the acotr bp instead 
+			for (UStaticMeshComponent* MeshComponent : LastMeshComponents)
 			{
-				LastMeshComponent->SetRenderCustomDepth(false);
+				MeshComponent->SetRenderCustomDepth(false);
 			}
+			for (USkeletalMeshComponent* SkeleMeshComponent : LastSkeleMeshComponents)
+			{
+				SkeleMeshComponent->SetRenderCustomDepth(false);
+			}
+
 			LastHoveredActor = nullptr;
 		}
 	}
