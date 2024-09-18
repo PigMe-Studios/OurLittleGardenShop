@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "588414595",
+    "Type": "Event",
+    "GUID": "{24715FB4-8FA3-405E-A274-68CCB969C3DA}",
+    "Language": "SFX",
+    "Hash": "{07C701C1-0D9F-EA67-397D-D44BE7C69E9F}",
+    "ObjectPath": "Play_Env_Produce_Solid_Impact",
+    "ShortName": "Play_Env_Produce_Solid_Impact",
+    "Path": "Event/Play_Env_Produce_Solid_Impact.bnk",
+    "Media": [
+     {
+      "Id": "484049294",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Produce_Solid-Impact-002.wav",
+      "Path": "Media/484049294.wem",
+      "CachePath": "SFX/Env_Produce_Solid-Impact-002_F06BAF76.wem"
+     },
+     {
+      "Id": "903198115",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Produce_Solid-Impact-001.wav",
+      "Path": "Media/903198115.wem",
+      "CachePath": "SFX/Env_Produce_Solid-Impact-001_F06BAF76.wem"
+     },
+     {
+      "Id": "1009659373",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Produce_Solid-Impact-003.wav",
+      "Path": "Media/1009659373.wem",
+      "CachePath": "SFX/Env_Produce_Solid-Impact-003_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "588414595",
+      "Name": "Play_Env_Produce_Solid_Impact",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_Produce_Solid_Impact",
+      "GUID": "{24715FB4-8FA3-405E-A274-68CCB969C3DA}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.94387424",
+      "DurationMax": "1.0594631",
+      "MediaRefs": [
+       {
+        "Id": "484049294"
+       },
+       {
+        "Id": "903198115"
+       },
+       {
+        "Id": "1009659373"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{2708EF6F-9299-735C-6B97-973EB97019BD}"
+ }
+}

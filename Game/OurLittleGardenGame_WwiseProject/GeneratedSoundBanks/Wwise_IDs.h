@@ -18,6 +18,16 @@ namespace AK
         static const AkUniqueID PLAY_AMB_INTERIOR = 76573753U;
         static const AkUniqueID PLAY_ENV_LAMP_HOVER = 3148792683U;
         static const AkUniqueID PLAY_ENV_LAMP_INTERACT = 60672849U;
+        static const AkUniqueID PLAY_ENV_ORDERBOOK_HOVER = 1670963574U;
+        static const AkUniqueID PLAY_ENV_ORDERBOOK_INTERACT = 3966720210U;
+        static const AkUniqueID PLAY_ENV_ORDERBOX_HOVER = 3727527182U;
+        static const AkUniqueID PLAY_ENV_ORDERBOX_INTERACT = 1617000666U;
+        static const AkUniqueID PLAY_ENV_PRODUCE_LEAFY_HOVER = 2229079685U;
+        static const AkUniqueID PLAY_ENV_PRODUCE_LEAFY_IMPACT = 4174116071U;
+        static const AkUniqueID PLAY_ENV_PRODUCE_LEAFY_INTERACT = 2806152183U;
+        static const AkUniqueID PLAY_ENV_PRODUCE_SOLID_HOVER = 728403297U;
+        static const AkUniqueID PLAY_ENV_PRODUCE_SOLID_IMPACT = 588414595U;
+        static const AkUniqueID PLAY_ENV_PRODUCE_SOLID_INTERACT = 4128093859U;
         static const AkUniqueID PLAY_ENV_REGISTER_HOVER = 3717750106U;
         static const AkUniqueID PLAY_ENV_REGISTER_INTERACT = 197273286U;
         static const AkUniqueID PLAY_ENV_SEEDBAG_CLOSE = 2134647096U;
@@ -26,6 +36,8 @@ namespace AK
         static const AkUniqueID PLAY_ENV_SHOPBELL = 2940245297U;
         static const AkUniqueID PLAY_ENV_SHOPDOOR_HOVER = 878394813U;
         static const AkUniqueID PLAY_ENV_SHOPDOOR_INTERACT = 1705306783U;
+        static const AkUniqueID PLAY_ENV_SIGN_HOVER = 557622806U;
+        static const AkUniqueID PLAY_ENV_SIGN_INTERACT = 1384375282U;
         static const AkUniqueID PLAY_ENV_TAPEROLL_COMPLETEORDER = 2894209661U;
         static const AkUniqueID PLAY_ENV_TAPEROLL_HOVER = 1832498624U;
         static const AkUniqueID PLAY_ENV_TAPEROLL_INTERACT = 3973484368U;

@@ -5,6 +5,8 @@
 #include "GameFramework/PlayerController.h"
 #include "Blueprint/UserWidget.h"
 #include "Engine/Engine.h"
+#include "AkGameplayStatics.h"
+#include "AkAudioEvent.h"
 
 // Sets default values
 AInteractableObjectParent::AInteractableObjectParent()
@@ -59,6 +61,8 @@ void AInteractableObjectParent::pickup()
 {
 	//pickup
 	GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Emerald, TEXT("holding object"));
+
+	if (IsValid(InteractSound)) UAkGameplayStatics::PostEvent(InteractSound, this, 0, FOnAkPostEventCallback(), true);
 }
 
 void AInteractableObjectParent::View()

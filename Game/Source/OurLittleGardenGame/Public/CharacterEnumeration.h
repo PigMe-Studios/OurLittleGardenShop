@@ -11,7 +11,7 @@ enum class ECharacter : uint8
 	NONE UMETA(DisplayName = "???"),
 	PLAYER UMETA(DisplayName = "Player"),
 	CHEF UMETA(DisplayName = "Chef"),
-	FLORIST UMETA(DisplayName = "Florist"),
+	FLORIST UMETA(DisplayName = "Iris"),
 	MAILMAN UMETA(DisplayName = "Mailman")
 
 };
@@ -21,8 +21,11 @@ enum class EEmotion : uint8
 {
 	HAPPY,
 	SAD,
-	ANGRY
-
+	ANGRY,
+	NEUTRAL,
+	LAUGHING,
+	REMINISCING,
+	SHOCKED
 };
 
 USTRUCT(BlueprintType)

@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	557622806	Play_Env_Sign_Hover			\WU_Main\Environment\Shop\Play_Env_Sign_Hover	
+

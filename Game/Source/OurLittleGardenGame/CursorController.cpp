@@ -93,7 +93,7 @@ void ACursorController::ActorInteract(const FInputActionValue& Value)
 	FHitResult HitResult;
 	FCollisionQueryParams LineTraceParams;
 
-	if (GetWorld()->LineTraceSingleByChannel(HitResult, Start, End, ECollisionChannel::ECC_Visibility, LineTraceParams, FCollisionResponseParams())
+	if (GetWorld()->LineTraceSingleByChannel(HitResult, Start, End, ECollisionChannel::ECC_GameTraceChannel5, LineTraceParams, FCollisionResponseParams())
 		&& !IsDialogueActive())
 	{
 		AActor* HitActor = HitResult.GetActor();
@@ -189,7 +189,7 @@ void ACursorController::CurserHoverCheck()
 	FHitResult HitResult;
 	FCollisionQueryParams LineTraceParams;
 
-	if (GetWorld()->LineTraceSingleByChannel(HitResult, Start, End, ECollisionChannel::ECC_Visibility, LineTraceParams, FCollisionResponseParams()))
+	if (GetWorld()->LineTraceSingleByChannel(HitResult, Start, End, ECollisionChannel::ECC_GameTraceChannel5, LineTraceParams, FCollisionResponseParams()))
 	{
 		AActor* HitActor = HitResult.GetActor();
 		UPrimitiveComponent* HitComponent = HitResult.GetComponent();
@@ -279,10 +279,17 @@ void ACursorController::HoverOutline(AActor* CurrentHoveredActor)
 		TArray<UStaticMeshComponent*> LastMeshComponents;
 		LastHoveredActor->GetComponents<UStaticMeshComponent>(LastMeshComponents);
 
+		TArray<USkeletalMeshComponent*> LastSkeleMeshComponents;
+		LastHoveredActor->GetComponents<USkeletalMeshComponent>(LastSkeleMeshComponents);
+
 		//loops through all the meshes in the acotr bp instead 
 		for (UStaticMeshComponent * MeshComponent : LastMeshComponents)
 		{
 			MeshComponent->SetRenderCustomDepth(false);
+		}
+		for (USkeletalMeshComponent* SkeleMeshComponent : LastSkeleMeshComponents)
+		{
+			SkeleMeshComponent->SetRenderCustomDepth(false);
 		}
 	}
 
@@ -296,10 +303,17 @@ void ACursorController::HoverOutline(AActor* CurrentHoveredActor)
 		TArray<UStaticMeshComponent*> MeshComponents;
 		LastHoveredActor->GetComponents<UStaticMeshComponent>(MeshComponents);
 
+		TArray<USkeletalMeshComponent*> SkeleMeshComponents;
+		LastHoveredActor->GetComponents<USkeletalMeshComponent>(SkeleMeshComponents);
+
 		//updates all object outlines to true
 		for (UStaticMeshComponent* MeshComponent : MeshComponents)
 		{
 			MeshComponent->SetRenderCustomDepth(true);
+		}
+		for (USkeletalMeshComponent* SkeleMeshComponent : SkeleMeshComponents)
+		{
+			SkeleMeshComponent->SetRenderCustomDepth(true);
 		}
 	}
 }

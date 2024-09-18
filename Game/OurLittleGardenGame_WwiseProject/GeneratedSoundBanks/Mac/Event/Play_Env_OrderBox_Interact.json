@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1617000666",
+    "Type": "Event",
+    "GUID": "{2692050E-2BE7-43E8-A059-2FFAED370B75}",
+    "Language": "SFX",
+    "Hash": "{5A02E5DB-E00F-9B96-4986-A61C7568E813}",
+    "ObjectPath": "Play_Env_OrderBox_Interact",
+    "ShortName": "Play_Env_OrderBox_Interact",
+    "Path": "Event/Play_Env_OrderBox_Interact.bnk",
+    "Media": [
+     {
+      "Id": "474527285",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_OrderBox-Interact-001.wav",
+      "Path": "Media/474527285.wem",
+      "CachePath": "SFX/Env_OrderBox-Interact-001_F06BAF76.wem"
+     },
+     {
+      "Id": "903780621",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_OrderBox-Interact-002.wav",
+      "Path": "Media/903780621.wem",
+      "CachePath": "SFX/Env_OrderBox-Interact-002_F06BAF76.wem"
+     },
+     {
+      "Id": "950198732",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_OrderBox-Interact-003.wav",
+      "Path": "Media/950198732.wem",
+      "CachePath": "SFX/Env_OrderBox-Interact-003_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1617000666",
+      "Name": "Play_Env_OrderBox_Interact",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_OrderBox_Interact",
+      "GUID": "{2692050E-2BE7-43E8-A059-2FFAED370B75}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.94387424",
+      "DurationMax": "1.0594631",
+      "MediaRefs": [
+       {
+        "Id": "474527285"
+       },
+       {
+        "Id": "903780621"
+       },
+       {
+        "Id": "950198732"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{1BA09DDD-F5E1-16AD-95B6-3911FA1CCB50}"
+ }
+}

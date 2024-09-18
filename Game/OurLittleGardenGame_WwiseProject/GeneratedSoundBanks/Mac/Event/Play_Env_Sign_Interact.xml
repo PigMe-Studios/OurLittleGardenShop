@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1384375282" Type="Event" GUID="{B0433BF4-FC66-4670-87A2-27362E958926}" Language="SFX" Hash="{122F9E39-825C-A4A7-1D8F-B64915B743A3}">
+			<ObjectPath>Play_Env_Sign_Interact</ObjectPath>
+			<ShortName>Play_Env_Sign_Interact</ShortName>
+			<Path>Event/Play_Env_Sign_Interact.bnk</Path>
+			<Media>
+				<File Id="28657466" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Sign-Interact-001.wav</ShortName>
+					<Path>Media/28657466.wem</Path>
+					<CachePath>SFX/Env_Sign-Interact-001_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="286285642" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Sign-Interact-002.wav</ShortName>
+					<Path>Media/286285642.wem</Path>
+					<CachePath>SFX/Env_Sign-Interact-002_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="1067639559" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Sign-Interact-003.wav</ShortName>
+					<Path>Media/1067639559.wem</Path>
+					<CachePath>SFX/Env_Sign-Interact-003_F06BAF76.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1384375282" Name="Play_Env_Sign_Interact" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_Sign_Interact" GUID="{B0433BF4-FC66-4670-87A2-27362E958926}" DurationType="OneShot" DurationMin="0.94387424" DurationMax="1.0594631">
+					<MediaRefs>
+						<MediaRef Id="28657466"/>
+						<MediaRef Id="286285642"/>
+						<MediaRef Id="1067639559"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{526D3FFC-9E31-530C-A4EC-71C2289F5ABD}</FileHash>
+</SoundBanksInfo>
