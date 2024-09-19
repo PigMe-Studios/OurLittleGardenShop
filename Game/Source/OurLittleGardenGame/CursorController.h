@@ -73,6 +73,9 @@ protected:
 
 	void CursorWorldPosition();
 
+	UFUNCTION(BlueprintCallable)
+	void IgnoreActor(AActor* TargetActor);
+
 	//mouse detection for screen location
 	float MouseX;
 	float MouseY;
