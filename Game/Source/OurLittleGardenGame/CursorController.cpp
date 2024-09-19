@@ -75,6 +75,31 @@ void ACursorController::CursorWorldPosition()
 	
 }
 
+void ACursorController::IgnoreActor(AActor* TargetActor)
+{
+	IgnoredActors.Add(TargetActor);
+	if (IsValid(TargetActor))
+	{
+		TArray<UStaticMeshComponent*> MeshComponents;
+		TargetActor->GetComponents<UStaticMeshComponent>(MeshComponents);
+
+		TArray<USkeletalMeshComponent*> SkeleMeshComponents;
+		TargetActor->GetComponents<USkeletalMeshComponent>(SkeleMeshComponents);
+
+		//loops through all the meshes in the acotr bp instead 
+		for (UStaticMeshComponent* MeshComponent : MeshComponents)
+		{
+			MeshComponent->SetRenderCustomDepth(false);
+		}
+		for (USkeletalMeshComponent* SkeleMeshComponent : SkeleMeshComponents)
+		{
+			SkeleMeshComponent->SetRenderCustomDepth(false);
+		}
+
+		//LastHoveredActor = nullptr;
+	}
+}
+
 void ACursorController::ActorInteract(const FInputActionValue& Value)
 {
 	//check if already hoilding item or interaction is disablked
@@ -98,7 +123,7 @@ void ACursorController::ActorInteract(const FInputActionValue& Value)
 	{
 		AActor* HitActor = HitResult.GetActor();
 
-		if (HitActor && HitActor->GetClass()->ImplementsInterface(UInteractionInterface::StaticClass()))
+		if (HitActor && HitActor->GetClass()->ImplementsInterface(UInteractionInterface::StaticClass()) && !IgnoredActors.Contains(HitActor))
 		{
 			IInteractionInterface::Execute_Interact(HitActor);
 		
@@ -244,6 +269,7 @@ void ACursorController::CurserHoverCheck()
 
 void ACursorController::SetInteractionEnabled(bool bEnabled)
 {
+	//pin
 	bInteractionEnabled = bEnabled;
 
 	// remove outline from actor if disabled
@@ -284,7 +310,7 @@ bool ACursorController::IsInteractionEnabled() const
 
 void ACursorController::HoverOutline(AActor* CurrentHoveredActor)
 {
-	if (!bInteractionEnabled)
+	if (!bInteractionEnabled or IgnoredActors.Contains(CurrentHoveredActor))
 	{
 		return;
 	}
