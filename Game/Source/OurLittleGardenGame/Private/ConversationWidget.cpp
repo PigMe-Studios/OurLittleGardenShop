@@ -39,6 +39,8 @@ void UConversationWidget::UpdateContentText(FName CharacterName, FString Content
 	TextToDisplay = Content;
 	CurrentText = TEXT("");
 
+	bIsTyping = true;
+
 	if (CONTENT_TEXT)
 	{
 		CONTENT_TEXT->SetText(FText::FromString(CurrentText));
@@ -99,6 +101,8 @@ void UConversationWidget::ProgressDialogue(int ChosenResponse)
 			else
 			{
 				DialogueInterface->UpdateDialogue(NextLine);
+
+				bIsTyping = true;
 			}
 		}
 
@@ -118,10 +122,19 @@ void UConversationWidget::HideResponses()
 	}
 	//show progress button
 	PROGRESS_BUTTON->SetVisibility(ESlateVisibility::Visible);
+	SkipText_Button->SetVisibility(ESlateVisibility::Visible);
 }
 
 void UConversationWidget::UpdateText(const ECharacter Char)
 {
+	if (!bIsTyping)
+	{
+		CONTENT_TEXT->SetText(FText::FromString(TextToDisplay));
+		CancelTimer();
+		return;
+	}
+
+
 	//text anim updating
 	if (CurrentText.Len() < TextToDisplay.Len())
 	{
@@ -152,9 +165,22 @@ void UConversationWidget::UpdateText(const ECharacter Char)
 	else
 	{
 		CancelTimer();
+		bIsTyping = false;
 		//DialogueRollAkComponent->DestroyComponent();
 	}
 }
+
+void UConversationWidget::SkipTextRollout()
+{
+	if (bIsTyping)
+	{
+		bIsTyping = false;
+		CancelTimer();
+		//reveals full text, skips 'anim'
+		CONTENT_TEXT->SetText(FText::FromString(TextToDisplay));
+	}
+}
+
 
 #pragma region Audio
 

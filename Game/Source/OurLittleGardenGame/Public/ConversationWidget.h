@@ -59,6 +59,9 @@ public:
 	UPROPERTY(EditAnywhere, meta = (BindWidget))
 	UButton* PROGRESS_BUTTON;
 
+	UPROPERTY(EditAnywhere, meta = (BindWidget))
+	UButton* SkipText_Button;
+
 	// Reponse buttons
 	UPROPERTY(EditAnywhere, meta = (BindWidget))
 	UButton* RESPONSE_BUTTON_1;
@@ -81,6 +84,12 @@ public:
 
 	//text anim bits and bobs
 	void UpdateText(const ECharacter Char);
+
+	//skips text typing animation
+	UFUNCTION(BlueprintCallable)
+	void SkipTextRollout();
+
+	bool bIsTyping = true;
 
 	FString TextToDisplay;
 	FString CurrentText;
