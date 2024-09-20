@@ -85,6 +85,9 @@ struct FPlantStatus
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float PlantHealth;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	bool HasSlug;
+
 	//UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	//EIrreparableDamage PermanentDefects;
 };
