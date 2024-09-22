@@ -23,7 +23,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2134647096" Name="Play_Env_SeedBag_Close" ObjectPath="\Events\WU_Main\Environment\Tools\Play_Env_SeedBag_Close" GUID="{3C643E1F-37F2-4057-9482-2AEC4B9251E2}" DurationType="OneShot" DurationMin="0.8908987" DurationMax="1.122462">
+				<Event Id="2134647096" Name="Play_Env_SeedBag_Close" ObjectPath="\Events\WU_Main\Environment\Garden\Play_Env_SeedBag_Close" GUID="{3C643E1F-37F2-4057-9482-2AEC4B9251E2}" DurationType="OneShot" DurationMin="0.8908987" DurationMax="1.122462">
 					<MediaRefs>
 						<MediaRef Id="209489599"/>
 						<MediaRef Id="583845754"/>
@@ -33,5 +33,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2900F356-3795-184D-4E40-068FC0C60FFC}</FileHash>
+	<FileHash>{55A882BD-E8DB-19FE-2E08-8F4F8778E5E4}</FileHash>
 </SoundBanksInfo>

@@ -48,7 +48,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="4281112222" Name="Play_Env_Trowel_SeedPlant" ObjectPath="\Events\WU_Main\Environment\Tools\Play_Env_Trowel_SeedPlant" GUID="{1261A477-2724-43B9-97F1-1271FEAF1150}" DurationType="OneShot" DurationMin="4" DurationMax="4">
+				<Event Id="4281112222" Name="Play_Env_Trowel_SeedPlant" ObjectPath="\Events\WU_Main\Environment\Garden\Play_Env_Trowel_SeedPlant" GUID="{1261A477-2724-43B9-97F1-1271FEAF1150}" DurationType="OneShot" DurationMin="4" DurationMax="4">
 					<MediaRefs>
 						<MediaRef Id="61903052"/>
 						<MediaRef Id="82609520"/>
@@ -63,5 +63,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6C924CDD-DF95-DD27-90CF-05839579F787}</FileHash>
+	<FileHash>{8BAE0A0F-F26B-7723-5176-E1EE1FE741CD}</FileHash>
 </SoundBanksInfo>

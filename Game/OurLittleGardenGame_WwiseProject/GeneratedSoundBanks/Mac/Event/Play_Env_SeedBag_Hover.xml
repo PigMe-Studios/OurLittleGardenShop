@@ -23,7 +23,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2619604514" Name="Play_Env_SeedBag_Hover" ObjectPath="\Events\WU_Main\Environment\Tools\Play_Env_SeedBag_Hover" GUID="{79918A2A-935E-4782-8C1E-383CF88677B2}" DurationType="OneShot" DurationMin="0.8908987" DurationMax="1.122462">
+				<Event Id="2619604514" Name="Play_Env_SeedBag_Hover" ObjectPath="\Events\WU_Main\Environment\Garden\Play_Env_SeedBag_Hover" GUID="{79918A2A-935E-4782-8C1E-383CF88677B2}" DurationType="OneShot" DurationMin="0.8908987" DurationMax="1.122462">
 					<MediaRefs>
 						<MediaRef Id="347905439"/>
 						<MediaRef Id="447699529"/>
@@ -33,5 +33,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C652D009-C5F7-C1B4-1D22-692CCEE25EDB}</FileHash>
+	<FileHash>{7F527C32-862C-1AB6-C19E-2716F28F38DC}</FileHash>
 </SoundBanksInfo>

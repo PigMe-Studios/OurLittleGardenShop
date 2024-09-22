@@ -47,7 +47,7 @@
      {
       "Id": "2619604514",
       "Name": "Play_Env_SeedBag_Hover",
-      "ObjectPath": "\\Events\\WU_Main\\Environment\\Tools\\Play_Env_SeedBag_Hover",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Garden\\Play_Env_SeedBag_Hover",
       "GUID": "{79918A2A-935E-4782-8C1E-383CF88677B2}",
       "DurationType": "OneShot",
       "DurationMin": "0.8908987",
@@ -67,6 +67,6 @@
     ]
    }
   ],
-  "FileHash": "{6C50966E-0709-73B1-2400-0F7FA2601110}"
+  "FileHash": "{1B5D22FD-C3DA-6F68-8DAB-8B95A538EFEC}"
  }
 }

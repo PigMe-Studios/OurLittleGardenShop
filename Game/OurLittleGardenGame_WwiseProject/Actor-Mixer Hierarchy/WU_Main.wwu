@@ -5028,7 +5028,7 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
-						<ActorMixer Name="AM_Tools" ID="{223CE8EE-007A-42F6-BEBF-070533BBF185}" ShortID="230369366">
+						<ActorMixer Name="AM_Garden" ID="{223CE8EE-007A-42F6-BEBF-070533BBF185}" ShortID="230369366">
 							<PropertyList>
 								<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
 								<Property Name="MaxSoundPerInstance" Type="int16">
@@ -6348,6 +6348,521 @@
 										<ActiveSource Name="Env_WateringCan-Pour_End" ID="{DFD463F5-F9D0-4059-861D-6819809FECA4}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<RandomSequenceContainer Name="Env_Slug-Interact" ID="{C9811235-75C6-4462-BDD2-5472FDB079AD}" ShortID="42414367">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{B3E5D685-0FCA-4712-AD5B-47638AA5CCE3}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Env_Slug-Interact-001" ID="{385D268A-33DA-403A-B4F2-2F2CE7B81438}" ShortID="653825139">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Env_Slug-Interact-001" ID="{84D072BE-08FC-4D22-9274-0DFFF3C453A8}">
+													<Language>SFX</Language>
+													<AudioFile>Env_Slug-Interact-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="870060745"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Env_Slug-Interact-001" ID="{84D072BE-08FC-4D22-9274-0DFFF3C453A8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Env_Slug-Interact-002" ID="{59C1254B-D770-42F7-AA50-9BCB5A0398F5}" ShortID="650374419">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Env_Slug-Interact-002" ID="{9CC72254-C294-4D1D-9932-A175304C1550}">
+													<Language>SFX</Language>
+													<AudioFile>Env_Slug-Interact-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="376418612"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Env_Slug-Interact-002" ID="{9CC72254-C294-4D1D-9932-A175304C1550}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Env_Slug-Interact-003" ID="{21937278-209E-48B9-8F7A-EC0775515DBB}" ShortID="169192357">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Env_Slug-Interact-003" ID="{894B40B5-0A6A-462B-9356-8C5FE4F24E54}">
+													<Language>SFX</Language>
+													<AudioFile>Env_Slug-Interact-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="565855276"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Env_Slug-Interact-003" ID="{894B40B5-0A6A-462B-9356-8C5FE4F24E54}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Env_Slug-Hover" ID="{CB2239B5-3473-4A14-8F2A-59218404CE5D}" ShortID="184050326">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{3B9E0790-8E7C-4D7D-A4A2-0C7B7BD36336}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Env_Slug-Hover-001" ID="{6740AF1C-BDD1-4BD4-B5C4-B026872639C4}" ShortID="744982865">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Env_Slug-Hover-001" ID="{D9EB2848-6759-40FA-BA4F-D51CF46F0AF9}">
+													<Language>SFX</Language>
+													<AudioFile>Env_Slug-Hover-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="133324283"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Env_Slug-Hover-001" ID="{D9EB2848-6759-40FA-BA4F-D51CF46F0AF9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Env_Slug-Hover-002" ID="{920EB0A1-EC13-4155-B433-F706E612F9EA}" ShortID="129196796">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Env_Slug-Hover-002" ID="{F489B944-25B6-4617-A97D-096F39D22665}">
+													<Language>SFX</Language>
+													<AudioFile>Env_Slug-Hover-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="56440513"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Env_Slug-Hover-002" ID="{F489B944-25B6-4617-A97D-096F39D22665}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Env_Slug-Hover-003" ID="{E48A0E6C-D37B-4A26-B81B-54AADFCD1F9E}" ShortID="220744432">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Env_Slug-Hover-003" ID="{36C465C8-ABAC-4FE0-BC8D-BE90E5DF9001}">
+													<Language>SFX</Language>
+													<AudioFile>Env_Slug-Hover-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="337460451"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Env_Slug-Hover-003" ID="{36C465C8-ABAC-4FE0-BC8D-BE90E5DF9001}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Env_Slug-Death" ID="{A783863F-0A26-40EC-AE97-B61EC8EE5D54}" ShortID="950871129">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{78019AB2-D995-4A6A-B690-405E842A601E}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Env_Slug-Death-001" ID="{482E7D8D-779B-47C5-B1C0-13409C168485}" ShortID="995683808">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Env_Slug-Death-001" ID="{E1B2C293-8DD2-48AC-9453-4A9052506DBF}">
+													<Language>SFX</Language>
+													<AudioFile>Env_Slug-Death-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1036884987"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Env_Slug-Death-001" ID="{E1B2C293-8DD2-48AC-9453-4A9052506DBF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Env_Slug-Death-002" ID="{282EBEA8-D79C-4CF5-8273-2B5253235DF8}" ShortID="857249221">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Env_Slug-Death-002" ID="{8F56D0EA-B0EA-47F2-8F77-8B819F26C3A1}">
+													<Language>SFX</Language>
+													<AudioFile>Env_Slug-Death-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="148437905"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Env_Slug-Death-002" ID="{8F56D0EA-B0EA-47F2-8F77-8B819F26C3A1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Env_Slug-Death-003" ID="{9438B64A-0D77-476B-8F9D-4A7412E836ED}" ShortID="927079929">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Env_Slug-Death-003" ID="{41E19779-F79B-4072-A34B-4E73F87ADF24}">
+													<Language>SFX</Language>
+													<AudioFile>Env_Slug-Death-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="971755062"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Env_Slug-Death-003" ID="{41E19779-F79B-4072-A34B-4E73F87ADF24}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Env_Plant-Cut" ID="{60FF1D42-01A9-4260-B837-8D4B51E1757B}" ShortID="945565587">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{51282538-2DE0-499D-B34E-85875325C0BC}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Env_Plant-Cut-001" ID="{623D6832-AE8B-46E8-AFE8-2BABAB76E201}" ShortID="712026700">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Env_Plant-Cut-001" ID="{C5B7244E-6797-455F-8E51-79A78D14D224}">
+													<Language>SFX</Language>
+													<AudioFile>Env_Plant-Cut-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="457571121"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Env_Plant-Cut-001" ID="{C5B7244E-6797-455F-8E51-79A78D14D224}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Env_Plant-Cut-002" ID="{B7DD490C-87F4-4EA1-AF24-5F27CECAA3CD}" ShortID="924313263">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Env_Plant-Cut-002" ID="{23509EDE-A1B8-460E-A816-EB90B3692152}">
+													<Language>SFX</Language>
+													<AudioFile>Env_Plant-Cut-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="335712144"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Env_Plant-Cut-002" ID="{23509EDE-A1B8-460E-A816-EB90B3692152}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Env_Plant-Cut-003" ID="{9888B1F7-506E-4346-BC29-8B918EDA8CC1}" ShortID="871406544">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Env_Plant-Cut-003" ID="{096F9EC0-D4E9-4E32-A99E-4EDD30977D2D}">
+													<Language>SFX</Language>
+													<AudioFile>Env_Plant-Cut-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="912969944"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Env_Plant-Cut-003" ID="{096F9EC0-D4E9-4E32-A99E-4EDD30977D2D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Env_Carrot-Wiggle" ID="{BE116FBB-4E98-4040-815B-0B5579A06A34}" ShortID="507927435">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{651EC243-AFE4-4D09-86E3-7471EA5D8272}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Env_Carrot-Wiggle-001" ID="{F16EB7BF-05E4-4126-96AB-0ABB14C06C0E}" ShortID="682760418">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Env_Carrot-Wiggle-001" ID="{0BBB2E24-D575-47C8-B953-D3D30FA601AA}">
+													<Language>SFX</Language>
+													<AudioFile>Env_Carrot-Wiggle-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="986607185"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Env_Carrot-Wiggle-001" ID="{0BBB2E24-D575-47C8-B953-D3D30FA601AA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Env_Carrot-Wiggle-002" ID="{67BC1998-EE04-438A-A793-F0E3A0299C4D}" ShortID="484186832">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Env_Carrot-Wiggle-002" ID="{1DD4510C-6BCB-4AC8-AD0F-E964323C7F6E}">
+													<Language>SFX</Language>
+													<AudioFile>Env_Carrot-Wiggle-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="2847453"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Env_Carrot-Wiggle-002" ID="{1DD4510C-6BCB-4AC8-AD0F-E964323C7F6E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Env_Carrot-Wiggle-003" ID="{061932F4-9436-4E8A-8005-33F624B05864}" ShortID="43856786">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{52388106-22B9-4F57-B11B-3AB0662BBA52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D9368D35-E065-46B3-93B7-5187147384E4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Env_Carrot-Wiggle-003" ID="{1B9636F5-1108-4CF4-99B0-71BA69E8BE83}">
+													<Language>SFX</Language>
+													<AudioFile>Env_Carrot-Wiggle-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="958718392"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Env_Carrot-Wiggle-003" ID="{1B9636F5-1108-4CF4-99B0-71BA69E8BE83}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>

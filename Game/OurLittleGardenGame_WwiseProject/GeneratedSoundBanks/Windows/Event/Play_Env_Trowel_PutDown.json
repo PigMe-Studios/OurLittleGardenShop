@@ -47,7 +47,7 @@
      {
       "Id": "1235655907",
       "Name": "Play_Env_Trowel_PutDown",
-      "ObjectPath": "\\Events\\WU_Main\\Environment\\Tools\\Play_Env_Trowel_PutDown",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Garden\\Play_Env_Trowel_PutDown",
       "GUID": "{33CDF151-033E-4F85-B69E-DDA9A0D168E6}",
       "DurationType": "OneShot",
       "DurationMin": "1.7817974",
@@ -67,6 +67,6 @@
     ]
    }
   ],
-  "FileHash": "{9684B02F-C80A-1B0E-09F6-47B928C2D01E}"
+  "FileHash": "{63088A70-0BB3-31E3-C3EB-5535D0521852}"
  }
 }

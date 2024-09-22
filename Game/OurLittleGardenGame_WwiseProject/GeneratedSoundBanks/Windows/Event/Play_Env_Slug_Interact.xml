@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3225573224" Type="Event" GUID="{080E62BF-E702-4D2A-88D9-FDBFD25B4346}" Language="SFX" Hash="{96368F77-DD46-FE69-ABFF-C825E842DC95}">
+			<ObjectPath>Play_Env_Slug_Interact</ObjectPath>
+			<ShortName>Play_Env_Slug_Interact</ShortName>
+			<Path>Event/Play_Env_Slug_Interact.bnk</Path>
+			<Media>
+				<File Id="376418612" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Slug-Interact-002.wav</ShortName>
+					<Path>Media/376418612.wem</Path>
+					<CachePath>SFX/Env_Slug-Interact-002_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="565855276" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Slug-Interact-003.wav</ShortName>
+					<Path>Media/565855276.wem</Path>
+					<CachePath>SFX/Env_Slug-Interact-003_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="870060745" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Slug-Interact-001.wav</ShortName>
+					<Path>Media/870060745.wem</Path>
+					<CachePath>SFX/Env_Slug-Interact-001_F06BAF76.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3225573224" Name="Play_Env_Slug_Interact" ObjectPath="\Events\WU_Main\Environment\Garden\Play_Env_Slug_Interact" GUID="{080E62BF-E702-4D2A-88D9-FDBFD25B4346}" DurationType="OneShot" DurationMin="0.44544935" DurationMax="0.561231">
+					<MediaRefs>
+						<MediaRef Id="376418612"/>
+						<MediaRef Id="565855276"/>
+						<MediaRef Id="870060745"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{DEC24518-2B3F-6281-0B20-8D7225FF6F36}</FileHash>
+</SoundBanksInfo>

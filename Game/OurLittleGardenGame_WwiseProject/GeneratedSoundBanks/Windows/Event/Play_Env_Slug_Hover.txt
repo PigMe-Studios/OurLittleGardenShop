@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2437059528	Play_Env_Slug_Hover			\WU_Main\Environment\Garden\Play_Env_Slug_Hover	
+

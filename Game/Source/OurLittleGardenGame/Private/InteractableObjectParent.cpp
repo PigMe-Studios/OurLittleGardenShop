@@ -50,6 +50,7 @@ void AInteractableObjectParent::SetHoverOutlineEnabled(bool bEnabled)
 void AInteractableObjectParent::OnGrab()
 {
 	GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Blue, TEXT("BISHELD"));
+
 }
 
 void AInteractableObjectParent::OnRelease()
@@ -61,8 +62,6 @@ void AInteractableObjectParent::pickup()
 {
 	//pickup
 	GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Emerald, TEXT("holding object"));
-
-	if (IsValid(InteractSound)) UAkGameplayStatics::PostEvent(InteractSound, this, 0, FOnAkPostEventCallback(), true);
 }
 
 void AInteractableObjectParent::View()

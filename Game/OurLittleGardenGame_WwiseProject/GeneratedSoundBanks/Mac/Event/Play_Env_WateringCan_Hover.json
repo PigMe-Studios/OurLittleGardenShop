@@ -47,7 +47,7 @@
      {
       "Id": "97207454",
       "Name": "Play_Env_WateringCan_Hover",
-      "ObjectPath": "\\Events\\WU_Main\\Environment\\Tools\\Play_Env_WateringCan_Hover",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Garden\\Play_Env_WateringCan_Hover",
       "GUID": "{D942A84E-887E-49AC-9831-48D1D081CAB3}",
       "DurationType": "OneShot",
       "DurationMin": "0.8908987",
@@ -67,6 +67,6 @@
     ]
    }
   ],
-  "FileHash": "{06E34379-A4D7-58D0-B4AB-245A158B1F72}"
+  "FileHash": "{8478CC28-9C72-A308-51F1-7ED4401ABC2F}"
  }
 }

@@ -92,7 +92,7 @@
      {
       "Id": "2888738896",
       "Name": "Play_Env_Trowel_Dig",
-      "ObjectPath": "\\Events\\WU_Main\\Environment\\Tools\\Play_Env_Trowel_Dig",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Garden\\Play_Env_Trowel_Dig",
       "GUID": "{C1403630-CB6D-4305-9951-A36B96625330}",
       "DurationType": "OneShot",
       "DurationMin": "4",
@@ -127,6 +127,6 @@
     ]
    }
   ],
-  "FileHash": "{2B5E19FA-7C3B-7F49-9E3A-868173CBDC1D}"
+  "FileHash": "{A5C15662-C7A0-2C1A-8D45-2994C062CC21}"
  }
 }

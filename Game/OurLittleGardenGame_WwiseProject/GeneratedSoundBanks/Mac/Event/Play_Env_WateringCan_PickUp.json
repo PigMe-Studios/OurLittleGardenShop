@@ -92,7 +92,7 @@
      {
       "Id": "3730387420",
       "Name": "Play_Env_WateringCan_PickUp",
-      "ObjectPath": "\\Events\\WU_Main\\Environment\\Tools\\Play_Env_WateringCan_PickUp",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Garden\\Play_Env_WateringCan_PickUp",
       "GUID": "{178C431B-C32F-44D0-9E98-8D4A5BF32126}",
       "DurationType": "OneShot",
       "DurationMin": "4",
@@ -127,6 +127,6 @@
     ]
    }
   ],
-  "FileHash": "{BB3282DF-11EB-8D96-62FF-793DEA6B1D3B}"
+  "FileHash": "{E5732DEF-0B68-2C10-E262-744609652CCF}"
  }
 }

@@ -23,7 +23,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1235655907" Name="Play_Env_Trowel_PutDown" ObjectPath="\Events\WU_Main\Environment\Tools\Play_Env_Trowel_PutDown" GUID="{33CDF151-033E-4F85-B69E-DDA9A0D168E6}" DurationType="OneShot" DurationMin="1.7817974" DurationMax="2.244924">
+				<Event Id="1235655907" Name="Play_Env_Trowel_PutDown" ObjectPath="\Events\WU_Main\Environment\Garden\Play_Env_Trowel_PutDown" GUID="{33CDF151-033E-4F85-B69E-DDA9A0D168E6}" DurationType="OneShot" DurationMin="1.7817974" DurationMax="2.244924">
 					<MediaRefs>
 						<MediaRef Id="357472209"/>
 						<MediaRef Id="542901787"/>
@@ -33,5 +33,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{5034EBEF-361C-D85B-BFB5-8B91127E9047}</FileHash>
+	<FileHash>{E8332EE0-E315-700C-96E5-7113D4E5D118}</FileHash>
 </SoundBanksInfo>

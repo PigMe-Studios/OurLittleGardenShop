@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3488080417" Type="Event" GUID="{457E2C0E-EBD6-4705-8E91-02213961B650}" Language="SFX" Hash="{7B011DD8-F661-9ECC-44FE-196B2DDA318E}">
+			<ObjectPath>Play_Env_Carrot_Wiggle</ObjectPath>
+			<ShortName>Play_Env_Carrot_Wiggle</ShortName>
+			<Path>Event/Play_Env_Carrot_Wiggle.bnk</Path>
+			<Media>
+				<File Id="2847453" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Carrot-Wiggle-002.wav</ShortName>
+					<Path>Media/2847453.wem</Path>
+					<CachePath>SFX/Env_Carrot-Wiggle-002_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="958718392" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Carrot-Wiggle-003.wav</ShortName>
+					<Path>Media/958718392.wem</Path>
+					<CachePath>SFX/Env_Carrot-Wiggle-003_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="986607185" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Carrot-Wiggle-001.wav</ShortName>
+					<Path>Media/986607185.wem</Path>
+					<CachePath>SFX/Env_Carrot-Wiggle-001_F06BAF76.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3488080417" Name="Play_Env_Carrot_Wiggle" ObjectPath="\Events\WU_Main\Environment\Garden\Play_Env_Carrot_Wiggle" GUID="{457E2C0E-EBD6-4705-8E91-02213961B650}" DurationType="OneShot" DurationMin="0.8908987" DurationMax="1.122462">
+					<MediaRefs>
+						<MediaRef Id="2847453"/>
+						<MediaRef Id="958718392"/>
+						<MediaRef Id="986607185"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{C70A2A22-8016-B780-A5FE-98DACB6F3000}</FileHash>
+</SoundBanksInfo>

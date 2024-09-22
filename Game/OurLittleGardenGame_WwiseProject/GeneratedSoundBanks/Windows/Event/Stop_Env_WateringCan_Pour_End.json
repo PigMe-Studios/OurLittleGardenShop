@@ -29,7 +29,7 @@
      {
       "Id": "378354790",
       "Name": "Stop_Env_WateringCan_Pour_End",
-      "ObjectPath": "\\Events\\WU_Main\\Environment\\Tools\\Stop_Env_WateringCan_Pour_End",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Garden\\Stop_Env_WateringCan_Pour_End",
       "GUID": "{206067AD-9C1F-421D-8786-08D770F6F297}",
       "MaxAttenuation": "10000",
       "DurationType": "OneShot",
@@ -44,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{BAF00263-81FF-1E4C-7092-45347513C0C6}"
+  "FileHash": "{780DC090-565F-7EC3-0567-3EF77A72FAE3}"
  }
 }

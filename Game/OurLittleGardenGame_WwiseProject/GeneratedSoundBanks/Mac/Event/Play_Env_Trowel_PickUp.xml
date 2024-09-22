@@ -48,7 +48,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3509013868" Name="Play_Env_Trowel_PickUp" ObjectPath="\Events\WU_Main\Environment\Tools\Play_Env_Trowel_PickUp" GUID="{C0F06098-CAAB-41C6-A972-07E1B3D77B33}" DurationType="OneShot" DurationMin="4" DurationMax="4">
+				<Event Id="3509013868" Name="Play_Env_Trowel_PickUp" ObjectPath="\Events\WU_Main\Environment\Garden\Play_Env_Trowel_PickUp" GUID="{C0F06098-CAAB-41C6-A972-07E1B3D77B33}" DurationType="OneShot" DurationMin="4" DurationMax="4">
 					<MediaRefs>
 						<MediaRef Id="61903052"/>
 						<MediaRef Id="82609520"/>
@@ -63,5 +63,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{997EE09E-2ECB-0162-0042-E4B143FBEE1C}</FileHash>
+	<FileHash>{6B322CC8-8AE7-3B6F-E505-F538E29A0E40}</FileHash>
 </SoundBanksInfo>

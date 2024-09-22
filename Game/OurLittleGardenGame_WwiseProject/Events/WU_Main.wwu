@@ -60,7 +60,7 @@
 						<Property Name="Color" Type="int16" Value="17"/>
 					</PropertyList>
 					<ChildrenList>
-						<Folder Name="Tools" ID="{F3CBDF52-416B-4F89-A515-B7F9CCD5B8DD}" ShortID="1050345665">
+						<Folder Name="Garden" ID="{F3CBDF52-416B-4F89-A515-B7F9CCD5B8DD}" ShortID="1050345665">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="17"/>
 							</PropertyList>
@@ -308,6 +308,61 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Env_WateringCan-Pour_Start" ID="{79255D05-4082-447F-BC10-21EECC0BBE06}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Env_Plant_Cut" ID="{1CB11544-36C5-4EE6-963A-FE81C18DF32F}">
+									<ChildrenList>
+										<Action Name="" ID="{F51D1048-69E0-44E5-A591-3EEB00FA323B}" ShortID="662634078">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Env_Plant-Cut" ID="{60FF1D42-01A9-4260-B837-8D4B51E1757B}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Env_Slug_Death" ID="{5AA2C2D5-F341-47AC-B79E-9BCDCB37DDCD}">
+									<ChildrenList>
+										<Action Name="" ID="{94C2FA58-250D-4A59-A467-B2DB404947A9}" ShortID="492349657">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Env_Slug-Death" ID="{A783863F-0A26-40EC-AE97-B61EC8EE5D54}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Env_Slug_Interact" ID="{080E62BF-E702-4D2A-88D9-FDBFD25B4346}">
+									<ChildrenList>
+										<Action Name="" ID="{285AE8DD-EA1D-48AC-9BEE-634EAABC428B}" ShortID="589452451">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Env_Slug-Interact" ID="{C9811235-75C6-4462-BDD2-5472FDB079AD}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Env_Slug_Hover" ID="{443D78E2-43EB-48FE-B712-00965DC09F3B}">
+									<ChildrenList>
+										<Action Name="" ID="{E4CFFC5D-82F7-4E92-8214-2C7BA758C8C0}" ShortID="587771607">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Env_Slug-Hover" ID="{CB2239B5-3473-4A14-8F2A-59218404CE5D}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Env_Carrot_Wiggle" ID="{457E2C0E-EBD6-4705-8E91-02213961B650}">
+									<ChildrenList>
+										<Action Name="" ID="{F29BD90E-41AA-4DBF-B728-DAC74C8BCA9E}" ShortID="24905710">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Env_Carrot-Wiggle" ID="{BE116FBB-4E98-4040-815B-0B5579A06A34}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

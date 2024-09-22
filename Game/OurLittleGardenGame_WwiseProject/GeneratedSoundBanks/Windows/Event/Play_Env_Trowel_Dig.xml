@@ -48,7 +48,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2888738896" Name="Play_Env_Trowel_Dig" ObjectPath="\Events\WU_Main\Environment\Tools\Play_Env_Trowel_Dig" GUID="{C1403630-CB6D-4305-9951-A36B96625330}" DurationType="OneShot" DurationMin="4" DurationMax="4">
+				<Event Id="2888738896" Name="Play_Env_Trowel_Dig" ObjectPath="\Events\WU_Main\Environment\Garden\Play_Env_Trowel_Dig" GUID="{C1403630-CB6D-4305-9951-A36B96625330}" DurationType="OneShot" DurationMin="4" DurationMax="4">
 					<MediaRefs>
 						<MediaRef Id="61903052"/>
 						<MediaRef Id="82609520"/>
@@ -63,5 +63,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1F8B2895-26DA-845F-AE64-170D75E11301}</FileHash>
+	<FileHash>{A580E97E-EFD4-084F-3E19-0C45DB02E5B7}</FileHash>
 </SoundBanksInfo>

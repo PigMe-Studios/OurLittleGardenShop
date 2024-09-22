@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1409316184" Type="Event" GUID="{1CB11544-36C5-4EE6-963A-FE81C18DF32F}" Language="SFX" Hash="{2F5469CA-C42A-F690-D499-AFB61040B597}">
+			<ObjectPath>Play_Env_Plant_Cut</ObjectPath>
+			<ShortName>Play_Env_Plant_Cut</ShortName>
+			<Path>Event/Play_Env_Plant_Cut.bnk</Path>
+			<Media>
+				<File Id="335712144" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Plant-Cut-002.wav</ShortName>
+					<Path>Media/335712144.wem</Path>
+					<CachePath>SFX/Env_Plant-Cut-002_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="457571121" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Plant-Cut-001.wav</ShortName>
+					<Path>Media/457571121.wem</Path>
+					<CachePath>SFX/Env_Plant-Cut-001_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="912969944" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Plant-Cut-003.wav</ShortName>
+					<Path>Media/912969944.wem</Path>
+					<CachePath>SFX/Env_Plant-Cut-003_F06BAF76.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1409316184" Name="Play_Env_Plant_Cut" ObjectPath="\Events\WU_Main\Environment\Garden\Play_Env_Plant_Cut" GUID="{1CB11544-36C5-4EE6-963A-FE81C18DF32F}" DurationType="OneShot" DurationMin="0.8908987" DurationMax="1.122462">
+					<MediaRefs>
+						<MediaRef Id="335712144"/>
+						<MediaRef Id="457571121"/>
+						<MediaRef Id="912969944"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{81701F0E-338D-AE6A-6F32-AFCD53B55F44}</FileHash>
+</SoundBanksInfo>

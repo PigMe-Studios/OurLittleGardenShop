@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1223224652",
+    "Type": "Event",
+    "GUID": "{5AA2C2D5-F341-47AC-B79E-9BCDCB37DDCD}",
+    "Language": "SFX",
+    "Hash": "{D5C5F601-D741-97ED-FE90-26E635B5418F}",
+    "ObjectPath": "Play_Env_Slug_Death",
+    "ShortName": "Play_Env_Slug_Death",
+    "Path": "Event/Play_Env_Slug_Death.bnk",
+    "Media": [
+     {
+      "Id": "148437905",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Slug-Death-002.wav",
+      "Path": "Media/148437905.wem",
+      "CachePath": "SFX/Env_Slug-Death-002_F06BAF76.wem"
+     },
+     {
+      "Id": "971755062",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Slug-Death-003.wav",
+      "Path": "Media/971755062.wem",
+      "CachePath": "SFX/Env_Slug-Death-003_F06BAF76.wem"
+     },
+     {
+      "Id": "1036884987",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Slug-Death-001.wav",
+      "Path": "Media/1036884987.wem",
+      "CachePath": "SFX/Env_Slug-Death-001_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1223224652",
+      "Name": "Play_Env_Slug_Death",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Garden\\Play_Env_Slug_Death",
+      "GUID": "{5AA2C2D5-F341-47AC-B79E-9BCDCB37DDCD}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.8908987",
+      "DurationMax": "1.122462",
+      "MediaRefs": [
+       {
+        "Id": "148437905"
+       },
+       {
+        "Id": "971755062"
+       },
+       {
+        "Id": "1036884987"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{0FB381A0-9180-7C80-82CC-A7936ED9B615}"
+ }
+}

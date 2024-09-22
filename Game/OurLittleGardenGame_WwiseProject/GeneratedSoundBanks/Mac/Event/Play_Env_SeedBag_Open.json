@@ -92,7 +92,7 @@
      {
       "Id": "642285692",
       "Name": "Play_Env_SeedBag_Open",
-      "ObjectPath": "\\Events\\WU_Main\\Environment\\Tools\\Play_Env_SeedBag_Open",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Garden\\Play_Env_SeedBag_Open",
       "GUID": "{AF96BDDD-4061-40DF-A6BC-42FCC0594803}",
       "DurationType": "OneShot",
       "DurationMin": "4",
@@ -127,6 +127,6 @@
     ]
    }
   ],
-  "FileHash": "{5E7FEBE4-A0B1-6F9A-7B79-443D9F220B7B}"
+  "FileHash": "{ED3472A6-D64C-9E2D-AF67-D28951B7887A}"
  }
 }

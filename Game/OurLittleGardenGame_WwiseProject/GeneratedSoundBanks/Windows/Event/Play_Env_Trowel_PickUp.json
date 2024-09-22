@@ -92,7 +92,7 @@
      {
       "Id": "3509013868",
       "Name": "Play_Env_Trowel_PickUp",
-      "ObjectPath": "\\Events\\WU_Main\\Environment\\Tools\\Play_Env_Trowel_PickUp",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Garden\\Play_Env_Trowel_PickUp",
       "GUID": "{C0F06098-CAAB-41C6-A972-07E1B3D77B33}",
       "DurationType": "OneShot",
       "DurationMin": "4",
@@ -127,6 +127,6 @@
     ]
    }
   ],
-  "FileHash": "{11B3BC36-AE3C-3315-1FDD-7886DE8F921C}"
+  "FileHash": "{1A550E3E-BB17-8EF4-D290-1FEA24D74B65}"
  }
 }

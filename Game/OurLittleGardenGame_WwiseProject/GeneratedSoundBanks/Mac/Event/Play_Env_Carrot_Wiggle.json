@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3488080417",
+    "Type": "Event",
+    "GUID": "{457E2C0E-EBD6-4705-8E91-02213961B650}",
+    "Language": "SFX",
+    "Hash": "{7B011DD8-F661-9ECC-44FE-196B2DDA318E}",
+    "ObjectPath": "Play_Env_Carrot_Wiggle",
+    "ShortName": "Play_Env_Carrot_Wiggle",
+    "Path": "Event/Play_Env_Carrot_Wiggle.bnk",
+    "Media": [
+     {
+      "Id": "2847453",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Carrot-Wiggle-002.wav",
+      "Path": "Media/2847453.wem",
+      "CachePath": "SFX/Env_Carrot-Wiggle-002_F06BAF76.wem"
+     },
+     {
+      "Id": "958718392",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Carrot-Wiggle-003.wav",
+      "Path": "Media/958718392.wem",
+      "CachePath": "SFX/Env_Carrot-Wiggle-003_F06BAF76.wem"
+     },
+     {
+      "Id": "986607185",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Env_Carrot-Wiggle-001.wav",
+      "Path": "Media/986607185.wem",
+      "CachePath": "SFX/Env_Carrot-Wiggle-001_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3488080417",
+      "Name": "Play_Env_Carrot_Wiggle",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Garden\\Play_Env_Carrot_Wiggle",
+      "GUID": "{457E2C0E-EBD6-4705-8E91-02213961B650}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.8908987",
+      "DurationMax": "1.122462",
+      "MediaRefs": [
+       {
+        "Id": "2847453"
+       },
+       {
+        "Id": "958718392"
+       },
+       {
+        "Id": "986607185"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{0613D50F-D12F-B8AC-1CF8-D5DB7FC637AD}"
+ }
+}

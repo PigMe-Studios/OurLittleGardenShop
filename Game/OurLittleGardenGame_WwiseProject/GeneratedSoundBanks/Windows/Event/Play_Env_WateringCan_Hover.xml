@@ -23,7 +23,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="97207454" Name="Play_Env_WateringCan_Hover" ObjectPath="\Events\WU_Main\Environment\Tools\Play_Env_WateringCan_Hover" GUID="{D942A84E-887E-49AC-9831-48D1D081CAB3}" DurationType="OneShot" DurationMin="0.8908987" DurationMax="1.122462">
+				<Event Id="97207454" Name="Play_Env_WateringCan_Hover" ObjectPath="\Events\WU_Main\Environment\Garden\Play_Env_WateringCan_Hover" GUID="{D942A84E-887E-49AC-9831-48D1D081CAB3}" DurationType="OneShot" DurationMin="0.8908987" DurationMax="1.122462">
 					<MediaRefs>
 						<MediaRef Id="120729745"/>
 						<MediaRef Id="314947773"/>
@@ -33,5 +33,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{901AA41B-D991-7130-64AB-BEF3B6D8C4EE}</FileHash>
+	<FileHash>{1687EA66-941E-5EF7-72A0-19ECE5187F50}</FileHash>
 </SoundBanksInfo>

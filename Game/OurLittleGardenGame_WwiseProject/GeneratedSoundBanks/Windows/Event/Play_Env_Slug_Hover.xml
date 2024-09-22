@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2437059528" Type="Event" GUID="{443D78E2-43EB-48FE-B712-00965DC09F3B}" Language="SFX" Hash="{88A1CFAB-44D2-ACEE-E3FC-913118C46BD1}">
+			<ObjectPath>Play_Env_Slug_Hover</ObjectPath>
+			<ShortName>Play_Env_Slug_Hover</ShortName>
+			<Path>Event/Play_Env_Slug_Hover.bnk</Path>
+			<Media>
+				<File Id="56440513" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Slug-Hover-002.wav</ShortName>
+					<Path>Media/56440513.wem</Path>
+					<CachePath>SFX/Env_Slug-Hover-002_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="133324283" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Slug-Hover-001.wav</ShortName>
+					<Path>Media/133324283.wem</Path>
+					<CachePath>SFX/Env_Slug-Hover-001_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="337460451" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Env_Slug-Hover-003.wav</ShortName>
+					<Path>Media/337460451.wem</Path>
+					<CachePath>SFX/Env_Slug-Hover-003_F06BAF76.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2437059528" Name="Play_Env_Slug_Hover" ObjectPath="\Events\WU_Main\Environment\Garden\Play_Env_Slug_Hover" GUID="{443D78E2-43EB-48FE-B712-00965DC09F3B}" DurationType="OneShot" DurationMin="0.8908987" DurationMax="1.122462">
+					<MediaRefs>
+						<MediaRef Id="56440513"/>
+						<MediaRef Id="133324283"/>
+						<MediaRef Id="337460451"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{68FE1874-1F6B-6ADC-B964-AEC2E7B8D1A6}</FileHash>
+</SoundBanksInfo>

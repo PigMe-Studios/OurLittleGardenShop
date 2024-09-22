@@ -23,7 +23,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3747315027" Name="Play_Env_WateringCan_PutDown" ObjectPath="\Events\WU_Main\Environment\Tools\Play_Env_WateringCan_PutDown" GUID="{09DFFEAE-4EAC-4767-9CFF-299EC8FE672A}" DurationType="OneShot" DurationMin="1.7817974" DurationMax="2.244924">
+				<Event Id="3747315027" Name="Play_Env_WateringCan_PutDown" ObjectPath="\Events\WU_Main\Environment\Garden\Play_Env_WateringCan_PutDown" GUID="{09DFFEAE-4EAC-4767-9CFF-299EC8FE672A}" DurationType="OneShot" DurationMin="1.7817974" DurationMax="2.244924">
 					<MediaRefs>
 						<MediaRef Id="7582067"/>
 						<MediaRef Id="478489129"/>
@@ -33,5 +33,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{73B6E0B1-2BCD-99D7-534A-4A8F039AFAAD}</FileHash>
+	<FileHash>{96D5228D-C8FB-F3C8-9981-28042E5BAAAE}</FileHash>
 </SoundBanksInfo>

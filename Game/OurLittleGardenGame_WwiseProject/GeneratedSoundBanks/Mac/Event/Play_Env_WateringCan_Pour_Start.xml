@@ -43,7 +43,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="4197296339" Name="Play_Env_WateringCan_Pour_Start" ObjectPath="\Events\WU_Main\Environment\Tools\Play_Env_WateringCan_Pour_Start" GUID="{71B80328-F9C6-4369-B305-497B7553A0A1}" DurationType="Infinite">
+				<Event Id="4197296339" Name="Play_Env_WateringCan_Pour_Start" ObjectPath="\Events\WU_Main\Environment\Garden\Play_Env_WateringCan_Pour_Start" GUID="{71B80328-F9C6-4369-B305-497B7553A0A1}" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="61903052"/>
 						<MediaRef Id="82609520"/>
@@ -57,5 +57,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{80AACB0B-75F0-0C9B-37D7-37611469E01D}</FileHash>
+	<FileHash>{A5D4DF32-097F-D8A5-67FB-6555FDEB8F6C}</FileHash>
 </SoundBanksInfo>

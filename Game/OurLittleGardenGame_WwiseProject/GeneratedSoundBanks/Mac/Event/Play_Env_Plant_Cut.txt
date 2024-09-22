@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1409316184	Play_Env_Plant_Cut			\WU_Main\Environment\Garden\Play_Env_Plant_Cut	
+

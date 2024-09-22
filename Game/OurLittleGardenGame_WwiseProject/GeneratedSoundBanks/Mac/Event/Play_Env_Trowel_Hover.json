@@ -47,7 +47,7 @@
      {
       "Id": "1229516846",
       "Name": "Play_Env_Trowel_Hover",
-      "ObjectPath": "\\Events\\WU_Main\\Environment\\Tools\\Play_Env_Trowel_Hover",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Garden\\Play_Env_Trowel_Hover",
       "GUID": "{4E4E041D-3978-4629-B317-A1D96DEB7A6F}",
       "DurationType": "OneShot",
       "DurationMin": "0.8908987",
@@ -67,6 +67,6 @@
     ]
    }
   ],
-  "FileHash": "{2FFD2C4D-0A90-386E-35BA-B67A06D790F1}"
+  "FileHash": "{012A1063-886A-7EEB-C20F-178CA42EE925}"
  }
 }

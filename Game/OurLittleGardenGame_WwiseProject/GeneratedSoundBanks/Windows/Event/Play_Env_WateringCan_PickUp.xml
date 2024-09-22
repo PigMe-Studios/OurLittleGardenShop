@@ -48,7 +48,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3730387420" Name="Play_Env_WateringCan_PickUp" ObjectPath="\Events\WU_Main\Environment\Tools\Play_Env_WateringCan_PickUp" GUID="{178C431B-C32F-44D0-9E98-8D4A5BF32126}" DurationType="OneShot" DurationMin="4" DurationMax="4">
+				<Event Id="3730387420" Name="Play_Env_WateringCan_PickUp" ObjectPath="\Events\WU_Main\Environment\Garden\Play_Env_WateringCan_PickUp" GUID="{178C431B-C32F-44D0-9E98-8D4A5BF32126}" DurationType="OneShot" DurationMin="4" DurationMax="4">
 					<MediaRefs>
 						<MediaRef Id="9513980"/>
 						<MediaRef Id="61903052"/>
@@ -63,5 +63,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E82F7B10-607B-89CE-BF00-BA77E805CF66}</FileHash>
+	<FileHash>{42A5B93E-B254-2FAA-6E87-FB81160CAFBC}</FileHash>
 </SoundBanksInfo>

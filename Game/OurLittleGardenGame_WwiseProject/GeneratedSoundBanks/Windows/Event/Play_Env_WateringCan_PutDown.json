@@ -47,7 +47,7 @@
      {
       "Id": "3747315027",
       "Name": "Play_Env_WateringCan_PutDown",
-      "ObjectPath": "\\Events\\WU_Main\\Environment\\Tools\\Play_Env_WateringCan_PutDown",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Garden\\Play_Env_WateringCan_PutDown",
       "GUID": "{09DFFEAE-4EAC-4767-9CFF-299EC8FE672A}",
       "DurationType": "OneShot",
       "DurationMin": "1.7817974",
@@ -67,6 +67,6 @@
     ]
    }
   ],
-  "FileHash": "{D04A2CD6-E3D4-FCBD-B1D0-4249B04C71E7}"
+  "FileHash": "{DF4D8DEF-46A3-968E-DE1E-95055A1BBBD8}"
  }
 }

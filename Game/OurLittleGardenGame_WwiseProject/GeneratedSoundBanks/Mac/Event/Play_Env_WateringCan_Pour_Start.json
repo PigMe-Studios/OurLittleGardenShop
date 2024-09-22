@@ -83,7 +83,7 @@
      {
       "Id": "4197296339",
       "Name": "Play_Env_WateringCan_Pour_Start",
-      "ObjectPath": "\\Events\\WU_Main\\Environment\\Tools\\Play_Env_WateringCan_Pour_Start",
+      "ObjectPath": "\\Events\\WU_Main\\Environment\\Garden\\Play_Env_WateringCan_Pour_Start",
       "GUID": "{71B80328-F9C6-4369-B305-497B7553A0A1}",
       "DurationType": "Infinite",
       "MediaRefs": [
@@ -113,6 +113,6 @@
     ]
    }
   ],
-  "FileHash": "{15144F68-79F2-EB92-443A-E9896103190E}"
+  "FileHash": "{93702481-C473-A35C-AA1E-180B528839ED}"
  }
 }

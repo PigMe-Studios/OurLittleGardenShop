@@ -13,7 +13,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="378354790" Name="Stop_Env_WateringCan_Pour_End" ObjectPath="\Events\WU_Main\Environment\Tools\Stop_Env_WateringCan_Pour_End" GUID="{206067AD-9C1F-421D-8786-08D770F6F297}" MaxAttenuation="10000" DurationType="OneShot" DurationMin="1.7817974" DurationMax="2.244924">
+				<Event Id="378354790" Name="Stop_Env_WateringCan_Pour_End" ObjectPath="\Events\WU_Main\Environment\Garden\Stop_Env_WateringCan_Pour_End" GUID="{206067AD-9C1F-421D-8786-08D770F6F297}" MaxAttenuation="10000" DurationType="OneShot" DurationMin="1.7817974" DurationMax="2.244924">
 					<MediaRefs>
 						<MediaRef Id="717163319"/>
 					</MediaRefs>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{9BA1002F-29CF-4985-E1C7-A9235EECD39E}</FileHash>
+	<FileHash>{5D089672-E9E5-19E7-066E-F4D6F4BD0ABA}</FileHash>
 </SoundBanksInfo>

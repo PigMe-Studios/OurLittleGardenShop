@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3225573224	Play_Env_Slug_Interact			\WU_Main\Environment\Garden\Play_Env_Slug_Interact	
+
