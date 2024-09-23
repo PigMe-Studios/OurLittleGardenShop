@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="60672849" Type="Event" GUID="{2AE28E24-EC6E-40A6-A4BB-BCAD8D25A77C}" Language="SFX" Hash="{28682648-718F-2555-751E-79A5723B1307}">
+		<SoundBank Id="60672849" Type="Event" GUID="{2AE28E24-EC6E-40A6-A4BB-BCAD8D25A77C}" Language="SFX" Hash="{5525D8FB-12D3-1952-6769-B32B8806CB65}">
 			<ObjectPath>Play_Env_Lamp_Interact</ObjectPath>
 			<ShortName>Play_Env_Lamp_Interact</ShortName>
 			<Path>Event/Play_Env_Lamp_Interact.bnk</Path>
@@ -57,5 +57,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B1172B2D-AE31-E057-80AF-1AAE3230DC93}</FileHash>
+	<FileHash>{C4065E14-621B-EB17-7F1E-DFA59F7D021B}</FileHash>
 </SoundBanksInfo>

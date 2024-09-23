@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{3EE8C705-3D1F-4FFD-B442-1A949068B8B8}",
     "Language": "SFX",
-    "Hash": "{44B8960B-3454-060D-A222-8FD23A2A4F4C}",
+    "Hash": "{BBB3CAA9-1652-97E3-330B-3A9D1BDE1B13}",
     "ObjectPath": "Play_UI_DialogueRoll",
     "ShortName": "Play_UI_DialogueRoll",
     "Path": "Event/Play_UI_DialogueRoll.bnk",
@@ -642,6 +642,6 @@
     ]
    }
   ],
-  "FileHash": "{787A3B71-53B4-D311-D39B-C2A8BC8949E2}"
+  "FileHash": "{6289290A-9F43-10D4-376D-ACF2C90BF1C1}"
  }
 }

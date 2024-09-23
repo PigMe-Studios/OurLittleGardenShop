@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{F8BFB922-8137-43A2-A664-6688CF2EA546}",
     "Language": "SFX",
-    "Hash": "{AB82B149-FAA4-439D-BBC9-658D202BB334}",
+    "Hash": "{759042EB-FD4D-52D9-04D7-1603A03D8C9F}",
     "ObjectPath": "Play_Env_OrderBox_Hover",
     "ShortName": "Play_Env_OrderBox_Hover",
     "Path": "Event/Play_Env_OrderBox_Hover.bnk",
@@ -67,6 +67,6 @@
     ]
    }
   ],
-  "FileHash": "{D57063AD-6347-1F50-C583-558BE1BCF7DE}"
+  "FileHash": "{F67984F6-9C5B-38B8-49F1-010495045B20}"
  }
 }

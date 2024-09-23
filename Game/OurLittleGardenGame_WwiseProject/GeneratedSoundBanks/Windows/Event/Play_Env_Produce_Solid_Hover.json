@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{F70CF74C-D047-4C84-888E-614C4180B8E5}",
     "Language": "SFX",
-    "Hash": "{9B56FB91-B4FB-29CF-020F-7D936D3E068C}",
+    "Hash": "{0EA9423C-0801-E0E6-D2A7-7A142349A3BB}",
     "ObjectPath": "Play_Env_Produce_Solid_Hover",
     "ShortName": "Play_Env_Produce_Solid_Hover",
     "Path": "Event/Play_Env_Produce_Solid_Hover.bnk",
@@ -67,6 +67,6 @@
     ]
    }
   ],
-  "FileHash": "{284D35A9-0263-4D1C-DCAD-5CEB13F0227F}"
+  "FileHash": "{D323AD9B-3395-D9DE-9145-D7D6CF4BC611}"
  }
 }

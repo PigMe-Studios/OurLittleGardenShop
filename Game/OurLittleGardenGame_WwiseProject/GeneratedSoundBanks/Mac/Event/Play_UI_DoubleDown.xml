@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3054987940" Type="Event" GUID="{79475BBF-4A51-4D78-A830-3E27BE176768}" Language="SFX" Hash="{B386AB6E-9163-8CC2-91E3-B08C372E0C90}">
+		<SoundBank Id="3054987940" Type="Event" GUID="{79475BBF-4A51-4D78-A830-3E27BE176768}" Language="SFX" Hash="{25FD305D-16BE-933E-8CD1-A5DA93BDC169}">
 			<ObjectPath>Play_UI_DoubleDown</ObjectPath>
 			<ShortName>Play_UI_DoubleDown</ShortName>
 			<Path>Event/Play_UI_DoubleDown.bnk</Path>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{359C7B97-F61B-43EB-CDC1-1CF6CE73CA4C}</FileHash>
+	<FileHash>{DCE261A7-4AAB-7A7F-6D51-3FACDA1CE4C8}</FileHash>
 </SoundBanksInfo>

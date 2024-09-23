@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{2AE28E24-EC6E-40A6-A4BB-BCAD8D25A77C}",
     "Language": "SFX",
-    "Hash": "{28682648-718F-2555-751E-79A5723B1307}",
+    "Hash": "{5525D8FB-12D3-1952-6769-B32B8806CB65}",
     "ObjectPath": "Play_Env_Lamp_Interact",
     "ShortName": "Play_Env_Lamp_Interact",
     "Path": "Event/Play_Env_Lamp_Interact.bnk",
@@ -115,6 +115,6 @@
     ]
    }
   ],
-  "FileHash": "{A34CF5A3-72F0-469E-0673-9388A3520DB9}"
+  "FileHash": "{613B6598-D970-A7FC-0D7E-A0880F7A0ADB}"
  }
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="557622806" Type="Event" GUID="{56FB1F52-EE6B-4E7F-A819-449672F15813}" Language="SFX" Hash="{766AAC30-905A-EE6F-4861-174E22754A3A}">
+		<SoundBank Id="557622806" Type="Event" GUID="{56FB1F52-EE6B-4E7F-A819-449672F15813}" Language="SFX" Hash="{9FAEFF9D-A502-5356-1F33-6D743A952231}">
 			<ObjectPath>Play_Env_Sign_Hover</ObjectPath>
 			<ShortName>Play_Env_Sign_Hover</ShortName>
 			<Path>Event/Play_Env_Sign_Hover.bnk</Path>
@@ -33,5 +33,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{91880BEF-C66C-F493-3D82-80BCB03E0B61}</FileHash>
+	<FileHash>{48578DF0-CEEB-6A34-C856-AA9E801D25B6}</FileHash>
 </SoundBanksInfo>

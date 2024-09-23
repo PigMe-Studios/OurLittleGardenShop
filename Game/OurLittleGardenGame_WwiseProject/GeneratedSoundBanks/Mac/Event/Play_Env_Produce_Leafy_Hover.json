@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{E954E2BD-4C23-4668-9618-912EAF3A219C}",
     "Language": "SFX",
-    "Hash": "{7AE0F927-3584-6104-DD05-E586E0C73563}",
+    "Hash": "{E0896D9F-06AE-F733-393A-C464CEBB0B98}",
     "ObjectPath": "Play_Env_Produce_Leafy_Hover",
     "ShortName": "Play_Env_Produce_Leafy_Hover",
     "Path": "Event/Play_Env_Produce_Leafy_Hover.bnk",
@@ -67,6 +67,6 @@
     ]
    }
   ],
-  "FileHash": "{365ABBA8-4DDA-E700-0F93-F839FDD2F9CA}"
+  "FileHash": "{0F124B05-9D6F-753F-6715-C1AC9FFC5239}"
  }
 }

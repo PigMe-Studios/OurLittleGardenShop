@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3321113552" Type="Event" GUID="{0EEFC5E7-1F69-4FAF-9ED8-D73E1E099FC4}" Language="SFX" Hash="{1A696C23-A902-663C-4C39-E82B0DA68671}">
+		<SoundBank Id="3321113552" Type="Event" GUID="{0EEFC5E7-1F69-4FAF-9ED8-D73E1E099FC4}" Language="SFX" Hash="{CCDDE290-AA06-2926-8847-5F9DC9AFD72D}">
 			<ObjectPath>Play_Amb_GardenAmb_Birds_Wind</ObjectPath>
 			<ShortName>Play_Amb_GardenAmb_Birds_Wind</ShortName>
 			<Path>Event/Play_Amb_GardenAmb_Birds_Wind.bnk</Path>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E06E3384-F3DA-AE20-1242-4853BDCC921E}</FileHash>
+	<FileHash>{A63946B0-A292-8B82-2A00-5E40585C3957}</FileHash>
 </SoundBanksInfo>

@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2806152183" Type="Event" GUID="{D64F8692-028A-4C5B-AB54-5FCBE0F0C760}" Language="SFX" Hash="{06766FB1-D735-27EA-55ED-0C9F974430B5}">
+		<SoundBank Id="2806152183" Type="Event" GUID="{D64F8692-028A-4C5B-AB54-5FCBE0F0C760}" Language="SFX" Hash="{C226A3E7-117D-B885-C9B0-0B56C33F1F5C}">
 			<ObjectPath>Play_Env_Produce_Leafy_Interact</ObjectPath>
 			<ShortName>Play_Env_Produce_Leafy_Interact</ShortName>
 			<Path>Event/Play_Env_Produce_Leafy_Interact.bnk</Path>
 			<Media>
+				<File Id="61903052" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_C5.wav</ShortName>
+					<Path>Media/61903052.wem</Path>
+					<CachePath>SFX/Mus_Tone_C5_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="82609520" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_C4.wav</ShortName>
+					<Path>Media/82609520.wem</Path>
+					<CachePath>SFX/Mus_Tone_C4_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="191846235" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_E4.wav</ShortName>
+					<Path>Media/191846235.wem</Path>
+					<CachePath>SFX/Mus_Tone_E4_F06BAF76.wem</CachePath>
+				</File>
 				<File Id="208038388" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Env_Produce_Leafy-Interact-001.wav</ShortName>
 					<Path>Media/208038388.wem</Path>
@@ -21,17 +36,32 @@
 					<Path>Media/365089039.wem</Path>
 					<CachePath>SFX/Env_Produce_Leafy-Interact-002_F06BAF76.wem</CachePath>
 				</File>
+				<File Id="535351334" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_G4.wav</ShortName>
+					<Path>Media/535351334.wem</Path>
+					<CachePath>SFX/Mus_Tone_G4_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="769164870" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_B4.wav</ShortName>
+					<Path>Media/769164870.wem</Path>
+					<CachePath>SFX/Mus_Tone_B4_F06BAF76.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
-				<Event Id="2806152183" Name="Play_Env_Produce_Leafy_Interact" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_Produce_Leafy_Interact" GUID="{D64F8692-028A-4C5B-AB54-5FCBE0F0C760}" DurationType="OneShot" DurationMin="0.94387424" DurationMax="1.0594631">
+				<Event Id="2806152183" Name="Play_Env_Produce_Leafy_Interact" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_Produce_Leafy_Interact" GUID="{D64F8692-028A-4C5B-AB54-5FCBE0F0C760}" DurationType="OneShot" DurationMin="4" DurationMax="4">
 					<MediaRefs>
+						<MediaRef Id="61903052"/>
+						<MediaRef Id="82609520"/>
+						<MediaRef Id="191846235"/>
 						<MediaRef Id="208038388"/>
 						<MediaRef Id="357708089"/>
 						<MediaRef Id="365089039"/>
+						<MediaRef Id="535351334"/>
+						<MediaRef Id="769164870"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E6424750-1565-3590-0172-AADBF2A54E07}</FileHash>
+	<FileHash>{B309657F-5E06-63A6-2861-3D8C4656A0DA}</FileHash>
 </SoundBanksInfo>

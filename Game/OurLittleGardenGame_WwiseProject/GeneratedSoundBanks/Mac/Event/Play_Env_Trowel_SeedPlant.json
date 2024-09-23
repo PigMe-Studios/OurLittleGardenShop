@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{1261A477-2724-43B9-97F1-1271FEAF1150}",
     "Language": "SFX",
-    "Hash": "{4D243FCA-14A7-6A83-C8A1-15665F2F4584}",
+    "Hash": "{983DD9E2-67B9-C881-A0D2-5E5A7ED42576}",
     "ObjectPath": "Play_Env_Trowel_SeedPlant",
     "ShortName": "Play_Env_Trowel_SeedPlant",
     "Path": "Event/Play_Env_Trowel_SeedPlant.bnk",
@@ -127,6 +127,6 @@
     ]
    }
   ],
-  "FileHash": "{54B4E63F-86F1-B215-F301-E03F9C7DC955}"
+  "FileHash": "{7F45BFDD-6BAE-BE1C-4E65-8FA5642167F1}"
  }
 }

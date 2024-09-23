@@ -46,7 +46,28 @@
 							<Position X="2" Y="2"/>
 						</Module>
 					</ModuleList>
-					<RTPCValueList ShowAll="true"/>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_UI" ID="{770F4522-34E2-4059-91C7-A198565BD926}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_Ambience" ID="{2CE96074-A19A-453F-AA09-95882CFB6051}"/>
+							<Value>1.48498076464223E-311</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_Master" ID="{EA83AD0B-B366-4B00-94C9-F011F533BD32}"/>
+							<Value>1.48498076869752E-311</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_Music" ID="{4F13BFB8-5220-4F48-BC16-0AE0A75E9270}"/>
+							<Value>1.48498076784377E-311</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_SFX" ID="{BAE2B662-4B18-4FAC-A5FD-3A8F24CFC082}"/>
+							<Value>1.48498076848408E-311</Value>
+						</RTPCValue>
+					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Interior" ID="{E7F64BEA-5889-4CD0-99A9-E04FA82AE18E}"/>
 						<CurrentStateRef Name="Clear" ID="{EE64540B-1AB7-48A1-A201-744014433BC6}"/>

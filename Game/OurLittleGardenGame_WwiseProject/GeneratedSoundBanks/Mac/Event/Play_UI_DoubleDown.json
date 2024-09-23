@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{79475BBF-4A51-4D78-A830-3E27BE176768}",
     "Language": "SFX",
-    "Hash": "{B386AB6E-9163-8CC2-91E3-B08C372E0C90}",
+    "Hash": "{25FD305D-16BE-933E-8CD1-A5DA93BDC169}",
     "ObjectPath": "Play_UI_DoubleDown",
     "ShortName": "Play_UI_DoubleDown",
     "Path": "Event/Play_UI_DoubleDown.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{6CB5D088-2923-EE52-B311-1C87CB07F00A}"
+  "FileHash": "{3B5930FA-7C9A-4193-113A-F5D55E13B5C7}"
  }
 }

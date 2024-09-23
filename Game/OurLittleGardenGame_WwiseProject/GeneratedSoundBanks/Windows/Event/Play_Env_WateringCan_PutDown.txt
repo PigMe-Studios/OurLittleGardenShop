@@ -1,3 +1,3 @@
 Event	ID	Name			Wwise Object Path	Notes
-	3747315027	Play_Env_WateringCan_PutDown			\WU_Main\Environment\Tools\Play_Env_WateringCan_PutDown	
+	3747315027	Play_Env_WateringCan_PutDown			\WU_Main\Environment\Garden\Play_Env_WateringCan_PutDown	
 

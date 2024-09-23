@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="4174116071" Type="Event" GUID="{648F65CF-5BF4-480C-83A9-C56E5E543B57}" Language="SFX" Hash="{6DABB0A8-A69C-9ED8-AF7F-02C65495AD1E}">
+		<SoundBank Id="4174116071" Type="Event" GUID="{648F65CF-5BF4-480C-83A9-C56E5E543B57}" Language="SFX" Hash="{501E1431-4AA0-0128-174E-BF3BD6C77F5F}">
 			<ObjectPath>Play_Env_Produce_Leafy_Impact</ObjectPath>
 			<ShortName>Play_Env_Produce_Leafy_Impact</ShortName>
 			<Path>Event/Play_Env_Produce_Leafy_Impact.bnk</Path>
@@ -33,5 +33,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{02BDAC63-DB44-4680-354C-4790492CBB4B}</FileHash>
+	<FileHash>{B2C9513D-54AF-EC2F-171A-F990DA789B57}</FileHash>
 </SoundBanksInfo>

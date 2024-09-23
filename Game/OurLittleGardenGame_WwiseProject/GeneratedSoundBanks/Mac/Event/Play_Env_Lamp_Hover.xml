@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3148792683" Type="Event" GUID="{DE698F2F-D8E7-407C-96E3-7C05E4D3D805}" Language="SFX" Hash="{A73984B0-CA85-F220-7310-041DC703794B}">
+		<SoundBank Id="3148792683" Type="Event" GUID="{DE698F2F-D8E7-407C-96E3-7C05E4D3D805}" Language="SFX" Hash="{F1810FCD-8AFE-4BBF-C6E8-1050897928FF}">
 			<ObjectPath>Play_Env_Lamp_Hover</ObjectPath>
 			<ShortName>Play_Env_Lamp_Hover</ShortName>
 			<Path>Event/Play_Env_Lamp_Hover.bnk</Path>
@@ -33,5 +33,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{658EC4EB-5470-49FC-ABD5-F24331BE6C4E}</FileHash>
+	<FileHash>{D524A26A-032A-AA9A-AC77-14375493FC41}</FileHash>
 </SoundBanksInfo>

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{3C203139-541E-4D6E-BA25-A80B7FB56A6D}",
     "Language": "SFX",
-    "Hash": "{88AD6704-BFFB-DD69-490C-9C76043CBAE2}",
+    "Hash": "{FD94B8BF-5334-8AA5-DDB7-B87956FE6DCD}",
     "ObjectPath": "Play_Env_Taperoll_Hover",
     "ShortName": "Play_Env_Taperoll_Hover",
     "Path": "Event/Play_Env_Taperoll_Hover.bnk",
@@ -67,6 +67,6 @@
     ]
    }
   ],
-  "FileHash": "{B22FF928-4FF3-E12E-27B3-66A2E2E4A11D}"
+  "FileHash": "{1AAA28A7-82C6-B846-28B7-74304C10C892}"
  }
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2894209661" Type="Event" GUID="{56A8363B-3D8F-4F8B-963B-6490AE50C4CD}" Language="SFX" Hash="{9438EA3E-82EF-D6B3-770C-9BB18D3EDE59}">
+		<SoundBank Id="2894209661" Type="Event" GUID="{56A8363B-3D8F-4F8B-963B-6490AE50C4CD}" Language="SFX" Hash="{A2FFCC54-07D4-4226-C61C-BB1214BB02D9}">
 			<ObjectPath>Play_Env_Taperoll_CompleteOrder</ObjectPath>
 			<ShortName>Play_Env_Taperoll_CompleteOrder</ShortName>
 			<Path>Event/Play_Env_Taperoll_CompleteOrder.bnk</Path>
@@ -33,5 +33,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{30328DFA-AB4C-4E8A-23CA-C984B19737C7}</FileHash>
+	<FileHash>{51FE8E0B-C456-8A5D-9706-C784193C7388}</FileHash>
 </SoundBanksInfo>

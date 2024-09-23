@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3747315027" Type="Event" GUID="{09DFFEAE-4EAC-4767-9CFF-299EC8FE672A}" Language="SFX" Hash="{0E541325-C8D8-2E99-2802-4A83F08186D9}">
+		<SoundBank Id="3747315027" Type="Event" GUID="{09DFFEAE-4EAC-4767-9CFF-299EC8FE672A}" Language="SFX" Hash="{79615FBE-30D5-A3F0-7047-BD11EF51D694}">
 			<ObjectPath>Play_Env_WateringCan_PutDown</ObjectPath>
 			<ShortName>Play_Env_WateringCan_PutDown</ShortName>
 			<Path>Event/Play_Env_WateringCan_PutDown.bnk</Path>
@@ -33,5 +33,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{96D5228D-C8FB-F3C8-9981-28042E5BAAAE}</FileHash>
+	<FileHash>{E152227D-73A7-AEBA-5039-F3EEC36C4AF1}</FileHash>
 </SoundBanksInfo>

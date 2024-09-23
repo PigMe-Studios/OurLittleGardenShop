@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3966720210" Type="Event" GUID="{D24ADE26-A41B-437E-B723-D4525841236A}" Language="SFX" Hash="{F6EF6F61-9159-BF0C-1319-82ED2F3B7C95}">
+		<SoundBank Id="3966720210" Type="Event" GUID="{D24ADE26-A41B-437E-B723-D4525841236A}" Language="SFX" Hash="{9B2F3927-87B1-B6EE-FFD1-4303DD8BB261}">
 			<ObjectPath>Play_Env_OrderBook_Interact</ObjectPath>
 			<ShortName>Play_Env_OrderBook_Interact</ShortName>
 			<Path>Event/Play_Env_OrderBook_Interact.bnk</Path>
@@ -11,10 +11,35 @@
 					<Path>Media/24915585.wem</Path>
 					<CachePath>SFX/Env_OrderBook-Interact-003_F06BAF76.wem</CachePath>
 				</File>
+				<File Id="61903052" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_C5.wav</ShortName>
+					<Path>Media/61903052.wem</Path>
+					<CachePath>SFX/Mus_Tone_C5_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="82609520" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_C4.wav</ShortName>
+					<Path>Media/82609520.wem</Path>
+					<CachePath>SFX/Mus_Tone_C4_F06BAF76.wem</CachePath>
+				</File>
 				<File Id="123669511" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Env_OrderBook-Interact-002.wav</ShortName>
 					<Path>Media/123669511.wem</Path>
 					<CachePath>SFX/Env_OrderBook-Interact-002_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="191846235" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_E4.wav</ShortName>
+					<Path>Media/191846235.wem</Path>
+					<CachePath>SFX/Mus_Tone_E4_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="535351334" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_G4.wav</ShortName>
+					<Path>Media/535351334.wem</Path>
+					<CachePath>SFX/Mus_Tone_G4_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="769164870" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_B4.wav</ShortName>
+					<Path>Media/769164870.wem</Path>
+					<CachePath>SFX/Mus_Tone_B4_F06BAF76.wem</CachePath>
 				</File>
 				<File Id="1072263630" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Env_OrderBook-Interact-001.wav</ShortName>
@@ -23,15 +48,20 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3966720210" Name="Play_Env_OrderBook_Interact" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_OrderBook_Interact" GUID="{D24ADE26-A41B-437E-B723-D4525841236A}" DurationType="OneShot" DurationMin="0.94387424" DurationMax="1.0594631">
+				<Event Id="3966720210" Name="Play_Env_OrderBook_Interact" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_OrderBook_Interact" GUID="{D24ADE26-A41B-437E-B723-D4525841236A}" DurationType="OneShot" DurationMin="4" DurationMax="4">
 					<MediaRefs>
 						<MediaRef Id="24915585"/>
+						<MediaRef Id="61903052"/>
+						<MediaRef Id="82609520"/>
 						<MediaRef Id="123669511"/>
+						<MediaRef Id="191846235"/>
+						<MediaRef Id="535351334"/>
+						<MediaRef Id="769164870"/>
 						<MediaRef Id="1072263630"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A243FF69-5F57-D9D5-FA32-ED743F9BC4C7}</FileHash>
+	<FileHash>{9499A71B-D7B4-3969-5AAF-CD2697EBBA5E}</FileHash>
 </SoundBanksInfo>

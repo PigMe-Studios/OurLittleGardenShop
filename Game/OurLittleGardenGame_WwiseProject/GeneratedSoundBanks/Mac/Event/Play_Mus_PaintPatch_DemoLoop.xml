@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="300643740" Type="Event" GUID="{A4E189F8-2B5F-4627-A50A-6D4F3C681783}" Language="SFX" Hash="{FF2DE391-53FA-84CB-25F7-292CC369BD2C}">
+		<SoundBank Id="300643740" Type="Event" GUID="{A4E189F8-2B5F-4627-A50A-6D4F3C681783}" Language="SFX" Hash="{A8D87A7B-49CB-EA34-22B0-80A8C700C239}">
 			<ObjectPath>Play_Mus_PaintPatch_DemoLoop</ObjectPath>
 			<ShortName>Play_Mus_PaintPatch_DemoLoop</ShortName>
 			<Path>Event/Play_Mus_PaintPatch_DemoLoop.bnk</Path>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{572156B3-9E24-6BFE-B753-9118C624BCD9}</FileHash>
+	<FileHash>{54AEEB71-A70C-09FD-1EB8-94A595FBDA9E}</FileHash>
 </SoundBanksInfo>

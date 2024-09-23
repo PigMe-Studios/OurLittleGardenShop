@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3973484368" Type="Event" GUID="{50DCD0C8-6FCC-426B-A210-E305A2391545}" Language="SFX" Hash="{FC9B8C89-9AAF-069D-B3A8-6C60F861B738}">
+		<SoundBank Id="3973484368" Type="Event" GUID="{50DCD0C8-6FCC-426B-A210-E305A2391545}" Language="SFX" Hash="{7EA14AF1-B1BC-D942-5215-EBC37B7CF3F9}">
 			<ObjectPath>Play_Env_Taperoll_Interact</ObjectPath>
 			<ShortName>Play_Env_Taperoll_Interact</ShortName>
 			<Path>Event/Play_Env_Taperoll_Interact.bnk</Path>
 			<Media>
+				<File Id="61903052" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_C5.wav</ShortName>
+					<Path>Media/61903052.wem</Path>
+					<CachePath>SFX/Mus_Tone_C5_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="82609520" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_C4.wav</ShortName>
+					<Path>Media/82609520.wem</Path>
+					<CachePath>SFX/Mus_Tone_C4_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="191846235" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_E4.wav</ShortName>
+					<Path>Media/191846235.wem</Path>
+					<CachePath>SFX/Mus_Tone_E4_F06BAF76.wem</CachePath>
+				</File>
 				<File Id="236508583" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Env_Taperoll-Interact-002.wav</ShortName>
 					<Path>Media/236508583.wem</Path>
@@ -21,17 +36,32 @@
 					<Path>Media/523467876.wem</Path>
 					<CachePath>SFX/Env_Taperoll-Interact-003_F06BAF76.wem</CachePath>
 				</File>
+				<File Id="535351334" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_G4.wav</ShortName>
+					<Path>Media/535351334.wem</Path>
+					<CachePath>SFX/Mus_Tone_G4_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="769164870" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_B4.wav</ShortName>
+					<Path>Media/769164870.wem</Path>
+					<CachePath>SFX/Mus_Tone_B4_F06BAF76.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
-				<Event Id="3973484368" Name="Play_Env_Taperoll_Interact" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_Taperoll_Interact" GUID="{50DCD0C8-6FCC-426B-A210-E305A2391545}" DurationType="OneShot" DurationMin="0.94387424" DurationMax="1.0594631">
+				<Event Id="3973484368" Name="Play_Env_Taperoll_Interact" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_Taperoll_Interact" GUID="{50DCD0C8-6FCC-426B-A210-E305A2391545}" DurationType="OneShot" DurationMin="4" DurationMax="4">
 					<MediaRefs>
+						<MediaRef Id="61903052"/>
+						<MediaRef Id="82609520"/>
+						<MediaRef Id="191846235"/>
 						<MediaRef Id="236508583"/>
 						<MediaRef Id="348279081"/>
 						<MediaRef Id="523467876"/>
+						<MediaRef Id="535351334"/>
+						<MediaRef Id="769164870"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{964CC844-A01D-EC75-1A8F-EBDB85B2EA87}</FileHash>
+	<FileHash>{1FB03EA5-CB86-DCBF-280D-5E90DE12685F}</FileHash>
 </SoundBanksInfo>

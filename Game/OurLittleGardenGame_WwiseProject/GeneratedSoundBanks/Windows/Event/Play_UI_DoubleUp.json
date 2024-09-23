@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{64182781-CF6E-4824-9158-91E2E280AAE7}",
     "Language": "SFX",
-    "Hash": "{A2532DC7-BDFB-7B31-AA96-D83654350F17}",
+    "Hash": "{FADB2426-65F7-3FA4-71C4-A2E2F68A1F4C}",
     "ObjectPath": "Play_UI_DoubleUp",
     "ShortName": "Play_UI_DoubleUp",
     "Path": "Event/Play_UI_DoubleUp.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{1C0578DD-0558-55E9-98E4-571EE0A5A738}"
+  "FileHash": "{06859EBA-2B8E-A2CC-E252-FEC258E243EF}"
  }
 }

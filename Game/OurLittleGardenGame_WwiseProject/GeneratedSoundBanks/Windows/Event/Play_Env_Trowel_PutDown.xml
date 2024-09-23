@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1235655907" Type="Event" GUID="{33CDF151-033E-4F85-B69E-DDA9A0D168E6}" Language="SFX" Hash="{5E3D3925-F397-850E-7CC0-1BC0F2A5DB0E}">
+		<SoundBank Id="1235655907" Type="Event" GUID="{33CDF151-033E-4F85-B69E-DDA9A0D168E6}" Language="SFX" Hash="{206FCA08-A8C4-34D4-3E8B-1AB3C233E0CC}">
 			<ObjectPath>Play_Env_Trowel_PutDown</ObjectPath>
 			<ShortName>Play_Env_Trowel_PutDown</ShortName>
 			<Path>Event/Play_Env_Trowel_PutDown.bnk</Path>
@@ -33,5 +33,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E8332EE0-E315-700C-96E5-7113D4E5D118}</FileHash>
+	<FileHash>{3FE5AEF7-3A61-6C06-4C7F-FF0CC7321027}</FileHash>
 </SoundBanksInfo>

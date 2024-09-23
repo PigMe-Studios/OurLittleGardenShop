@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{A4E189F8-2B5F-4627-A50A-6D4F3C681783}",
     "Language": "SFX",
-    "Hash": "{FF2DE391-53FA-84CB-25F7-292CC369BD2C}",
+    "Hash": "{A8D87A7B-49CB-EA34-22B0-80A8C700C239}",
     "ObjectPath": "Play_Mus_PaintPatch_DemoLoop",
     "ShortName": "Play_Mus_PaintPatch_DemoLoop",
     "Path": "Event/Play_Mus_PaintPatch_DemoLoop.bnk",
@@ -41,6 +41,6 @@
     ]
    }
   ],
-  "FileHash": "{B56D0FB1-335F-AF27-262B-FD89D951BBAE}"
+  "FileHash": "{AF2E68B6-E51E-0F9D-ED82-633D1FD3DFFA}"
  }
 }

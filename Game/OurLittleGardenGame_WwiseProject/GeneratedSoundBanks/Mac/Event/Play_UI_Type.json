@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{A2A87D41-B97D-48FB-ADDC-D8EC9F1FD607}",
     "Language": "SFX",
-    "Hash": "{68E9D470-FB97-4353-E53F-5B4CC0B9AA21}",
+    "Hash": "{451EDC6E-F5CB-EAE4-8205-E1A9A82AD624}",
     "ObjectPath": "Play_UI_Type",
     "ShortName": "Play_UI_Type",
     "Path": "Event/Play_UI_Type.bnk",
@@ -115,6 +115,6 @@
     ]
    }
   ],
-  "FileHash": "{E61946B2-5F9B-1F57-84F7-F268B5733662}"
+  "FileHash": "{94847AA2-C5A4-E4BA-17D2-342EE1307601}"
  }
 }

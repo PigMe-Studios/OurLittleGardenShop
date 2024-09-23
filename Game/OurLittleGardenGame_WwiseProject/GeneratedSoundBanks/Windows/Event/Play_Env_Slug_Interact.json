@@ -10,11 +10,38 @@
     "Type": "Event",
     "GUID": "{080E62BF-E702-4D2A-88D9-FDBFD25B4346}",
     "Language": "SFX",
-    "Hash": "{96368F77-DD46-FE69-ABFF-C825E842DC95}",
+    "Hash": "{E4372D33-4087-D81F-CCD9-BE58C60EC577}",
     "ObjectPath": "Play_Env_Slug_Interact",
     "ShortName": "Play_Env_Slug_Interact",
     "Path": "Event/Play_Env_Slug_Interact.bnk",
     "Media": [
+     {
+      "Id": "61903052",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_C5.wav",
+      "Path": "Media/61903052.wem",
+      "CachePath": "SFX/Mus_Tone_C5_F06BAF76.wem"
+     },
+     {
+      "Id": "82609520",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_C4.wav",
+      "Path": "Media/82609520.wem",
+      "CachePath": "SFX/Mus_Tone_C4_F06BAF76.wem"
+     },
+     {
+      "Id": "191846235",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_E4.wav",
+      "Path": "Media/191846235.wem",
+      "CachePath": "SFX/Mus_Tone_E4_F06BAF76.wem"
+     },
      {
       "Id": "376418612",
       "Language": "SFX",
@@ -25,6 +52,15 @@
       "CachePath": "SFX/Env_Slug-Interact-002_F06BAF76.wem"
      },
      {
+      "Id": "535351334",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_G4.wav",
+      "Path": "Media/535351334.wem",
+      "CachePath": "SFX/Mus_Tone_G4_F06BAF76.wem"
+     },
+     {
       "Id": "565855276",
       "Language": "SFX",
       "Streaming": "false",
@@ -32,6 +68,15 @@
       "ShortName": "Env_Slug-Interact-003.wav",
       "Path": "Media/565855276.wem",
       "CachePath": "SFX/Env_Slug-Interact-003_F06BAF76.wem"
+     },
+     {
+      "Id": "769164870",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_B4.wav",
+      "Path": "Media/769164870.wem",
+      "CachePath": "SFX/Mus_Tone_B4_F06BAF76.wem"
      },
      {
       "Id": "870060745",
@@ -50,14 +95,29 @@
       "ObjectPath": "\\Events\\WU_Main\\Environment\\Garden\\Play_Env_Slug_Interact",
       "GUID": "{080E62BF-E702-4D2A-88D9-FDBFD25B4346}",
       "DurationType": "OneShot",
-      "DurationMin": "0.44544935",
-      "DurationMax": "0.561231",
+      "DurationMin": "4",
+      "DurationMax": "4",
       "MediaRefs": [
+       {
+        "Id": "61903052"
+       },
+       {
+        "Id": "82609520"
+       },
+       {
+        "Id": "191846235"
+       },
        {
         "Id": "376418612"
        },
        {
+        "Id": "535351334"
+       },
+       {
         "Id": "565855276"
+       },
+       {
+        "Id": "769164870"
        },
        {
         "Id": "870060745"
@@ -67,6 +127,6 @@
     ]
    }
   ],
-  "FileHash": "{A1A41F93-3A1C-F423-E932-4A0E2C182767}"
+  "FileHash": "{AC744A8E-A8D1-7E76-62C8-269FE7200CA2}"
  }
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="378354790" Type="Event" GUID="{206067AD-9C1F-421D-8786-08D770F6F297}" Language="SFX" Hash="{F12F35D1-69C0-A61D-0C48-EB703DF441E8}">
+		<SoundBank Id="378354790" Type="Event" GUID="{206067AD-9C1F-421D-8786-08D770F6F297}" Language="SFX" Hash="{4993B44C-25E6-D44B-C0DF-6A71799B085C}">
 			<ObjectPath>Stop_Env_WateringCan_Pour_End</ObjectPath>
 			<ShortName>Stop_Env_WateringCan_Pour_End</ShortName>
 			<Path>Event/Stop_Env_WateringCan_Pour_End.bnk</Path>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{5D089672-E9E5-19E7-066E-F4D6F4BD0ABA}</FileHash>
+	<FileHash>{1583BA8A-CC41-FCD7-EF56-B570AE3303D5}</FileHash>
 </SoundBanksInfo>

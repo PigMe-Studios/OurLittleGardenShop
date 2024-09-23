@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{56A8363B-3D8F-4F8B-963B-6490AE50C4CD}",
     "Language": "SFX",
-    "Hash": "{9438EA3E-82EF-D6B3-770C-9BB18D3EDE59}",
+    "Hash": "{A2FFCC54-07D4-4226-C61C-BB1214BB02D9}",
     "ObjectPath": "Play_Env_Taperoll_CompleteOrder",
     "ShortName": "Play_Env_Taperoll_CompleteOrder",
     "Path": "Event/Play_Env_Taperoll_CompleteOrder.bnk",
@@ -67,6 +67,6 @@
     ]
    }
   ],
-  "FileHash": "{2586124B-9320-8FEA-ADEB-27CE3211BA2E}"
+  "FileHash": "{95F47641-2321-CC8C-659E-064AEFCDB39C}"
  }
 }

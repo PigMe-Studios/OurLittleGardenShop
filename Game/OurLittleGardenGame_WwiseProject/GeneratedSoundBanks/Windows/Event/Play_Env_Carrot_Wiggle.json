@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{457E2C0E-EBD6-4705-8E91-02213961B650}",
     "Language": "SFX",
-    "Hash": "{7B011DD8-F661-9ECC-44FE-196B2DDA318E}",
+    "Hash": "{7FC0CC70-D9B6-5BCC-A25B-1930E9B6AD09}",
     "ObjectPath": "Play_Env_Carrot_Wiggle",
     "ShortName": "Play_Env_Carrot_Wiggle",
     "Path": "Event/Play_Env_Carrot_Wiggle.bnk",
@@ -23,6 +23,51 @@
       "ShortName": "Env_Carrot-Wiggle-002.wav",
       "Path": "Media/2847453.wem",
       "CachePath": "SFX/Env_Carrot-Wiggle-002_F06BAF76.wem"
+     },
+     {
+      "Id": "61903052",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_C5.wav",
+      "Path": "Media/61903052.wem",
+      "CachePath": "SFX/Mus_Tone_C5_F06BAF76.wem"
+     },
+     {
+      "Id": "82609520",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_C4.wav",
+      "Path": "Media/82609520.wem",
+      "CachePath": "SFX/Mus_Tone_C4_F06BAF76.wem"
+     },
+     {
+      "Id": "191846235",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_E4.wav",
+      "Path": "Media/191846235.wem",
+      "CachePath": "SFX/Mus_Tone_E4_F06BAF76.wem"
+     },
+     {
+      "Id": "535351334",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_G4.wav",
+      "Path": "Media/535351334.wem",
+      "CachePath": "SFX/Mus_Tone_G4_F06BAF76.wem"
+     },
+     {
+      "Id": "769164870",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_B4.wav",
+      "Path": "Media/769164870.wem",
+      "CachePath": "SFX/Mus_Tone_B4_F06BAF76.wem"
      },
      {
       "Id": "958718392",
@@ -50,11 +95,26 @@
       "ObjectPath": "\\Events\\WU_Main\\Environment\\Garden\\Play_Env_Carrot_Wiggle",
       "GUID": "{457E2C0E-EBD6-4705-8E91-02213961B650}",
       "DurationType": "OneShot",
-      "DurationMin": "0.8908987",
-      "DurationMax": "1.122462",
+      "DurationMin": "4",
+      "DurationMax": "4",
       "MediaRefs": [
        {
         "Id": "2847453"
+       },
+       {
+        "Id": "61903052"
+       },
+       {
+        "Id": "82609520"
+       },
+       {
+        "Id": "191846235"
+       },
+       {
+        "Id": "535351334"
+       },
+       {
+        "Id": "769164870"
        },
        {
         "Id": "958718392"
@@ -67,6 +127,6 @@
     ]
    }
   ],
-  "FileHash": "{EAFFBA27-85B8-662E-2EE4-169728E9D178}"
+  "FileHash": "{8B5CB515-E940-7112-B251-287F328AD1F7}"
  }
 }

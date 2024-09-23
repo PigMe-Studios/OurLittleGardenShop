@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{B0433BF4-FC66-4670-87A2-27362E958926}",
     "Language": "SFX",
-    "Hash": "{122F9E39-825C-A4A7-1D8F-B64915B743A3}",
+    "Hash": "{E3EA9940-C293-00B9-AA15-FD473B5C5EB2}",
     "ObjectPath": "Play_Env_Sign_Interact",
     "ShortName": "Play_Env_Sign_Interact",
     "Path": "Event/Play_Env_Sign_Interact.bnk",
@@ -25,6 +25,33 @@
       "CachePath": "SFX/Env_Sign-Interact-001_F06BAF76.wem"
      },
      {
+      "Id": "61903052",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_C5.wav",
+      "Path": "Media/61903052.wem",
+      "CachePath": "SFX/Mus_Tone_C5_F06BAF76.wem"
+     },
+     {
+      "Id": "82609520",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_C4.wav",
+      "Path": "Media/82609520.wem",
+      "CachePath": "SFX/Mus_Tone_C4_F06BAF76.wem"
+     },
+     {
+      "Id": "191846235",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_E4.wav",
+      "Path": "Media/191846235.wem",
+      "CachePath": "SFX/Mus_Tone_E4_F06BAF76.wem"
+     },
+     {
       "Id": "286285642",
       "Language": "SFX",
       "Streaming": "false",
@@ -32,6 +59,24 @@
       "ShortName": "Env_Sign-Interact-002.wav",
       "Path": "Media/286285642.wem",
       "CachePath": "SFX/Env_Sign-Interact-002_F06BAF76.wem"
+     },
+     {
+      "Id": "535351334",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_G4.wav",
+      "Path": "Media/535351334.wem",
+      "CachePath": "SFX/Mus_Tone_G4_F06BAF76.wem"
+     },
+     {
+      "Id": "769164870",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_B4.wav",
+      "Path": "Media/769164870.wem",
+      "CachePath": "SFX/Mus_Tone_B4_F06BAF76.wem"
      },
      {
       "Id": "1067639559",
@@ -50,14 +95,29 @@
       "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_Sign_Interact",
       "GUID": "{B0433BF4-FC66-4670-87A2-27362E958926}",
       "DurationType": "OneShot",
-      "DurationMin": "0.94387424",
-      "DurationMax": "1.0594631",
+      "DurationMin": "4",
+      "DurationMax": "4",
       "MediaRefs": [
        {
         "Id": "28657466"
        },
        {
+        "Id": "61903052"
+       },
+       {
+        "Id": "82609520"
+       },
+       {
+        "Id": "191846235"
+       },
+       {
         "Id": "286285642"
+       },
+       {
+        "Id": "535351334"
+       },
+       {
+        "Id": "769164870"
        },
        {
         "Id": "1067639559"
@@ -67,6 +127,6 @@
     ]
    }
   ],
-  "FileHash": "{C72CECC1-68CB-BD90-1819-3CDFA3D90582}"
+  "FileHash": "{4B4A3AEE-6ABE-A7C0-2A65-9A0F7FDDB9A1}"
  }
 }

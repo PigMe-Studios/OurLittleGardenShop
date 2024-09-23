@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3105845062" Type="Event" GUID="{4C04B47A-6C96-46C2-A4F4-491B6F76D1EA}" Language="SFX" Hash="{8C28FB0E-CC7A-5B78-6692-525020D533C1}">
+		<SoundBank Id="3105845062" Type="Event" GUID="{4C04B47A-6C96-46C2-A4F4-491B6F76D1EA}" Language="SFX" Hash="{DFCF6793-3811-6F35-02A2-A541895CBD8E}">
 			<ObjectPath>Play_UI_Camera_Move</ObjectPath>
 			<ShortName>Play_UI_Camera_Move</ShortName>
 			<Path>Event/Play_UI_Camera_Move.bnk</Path>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0234BBC7-0FA5-0172-7AB3-31977C6B21C1}</FileHash>
+	<FileHash>{86E25779-4A6D-5ED7-0B20-1CFC35CA0F5C}</FileHash>
 </SoundBanksInfo>

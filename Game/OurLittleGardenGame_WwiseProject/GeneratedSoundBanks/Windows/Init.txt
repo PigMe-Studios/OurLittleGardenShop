@@ -16,17 +16,21 @@ State	ID	Name	State Group			Notes
 	748895195	None	State_Time			
 	1011622525	Night	State_Time			
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	419259289	RTPC_UI			\WU_Main\RTPC_UI	
+	2972739263	RTPC_Ambience			\WU_Main\RTPC_Ambience	
+	3438452020	RTPC_SFX			\WU_Main\RTPC_SFX	
+	3445598977	RTPC_Master			\WU_Main\RTPC_Master	
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
-	17369109	Bus_InteractMain			\Default Work Unit\Master Audio Bus\Bus_InteractMain	
 	447158585	Bus_UIMain			\Default Work Unit\Master Audio Bus\Bus_UIMain	
 	1058635679	Bus_3DAmb			\Default Work Unit\Master Audio Bus\Bus_AmbienceMain\Bus_3DAmb	
 	1626632198	Bus_MusicMain			\Default Work Unit\Master Audio Bus\Bus_MusicMain	
-	1648915229	Bus_DialogueMain			\Default Work Unit\Master Audio Bus\Bus_DialogueMain	
-	2223238396	Bus_EnvironmentMain			\Default Work Unit\Master Audio Bus\Bus_EnvironmentMain	
 	2272199487	Bus_AmbienceMain			\Default Work Unit\Master Audio Bus\Bus_AmbienceMain	
 	2313054124	Bus_AmbBeds			\Default Work Unit\Master Audio Bus\Bus_AmbienceMain\Bus_AmbBeds	
 	2340005898	Bus_2DAmb			\Default Work Unit\Master Audio Bus\Bus_AmbienceMain\Bus_2DAmb	
-	3399979499	Bus_ReverbMain			\Default Work Unit\Master Audio Bus\Bus_ReverbMain	
+	2404700026	Bus_SFXMain			\Default Work Unit\Master Audio Bus\Bus_SFXMain	
+	3399979499	Bus_ReverbMain			\Default Work Unit\Master Audio Bus\Bus_SFXMain\Bus_ReverbMain	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Audio Devices	ID	Name	Type				Notes

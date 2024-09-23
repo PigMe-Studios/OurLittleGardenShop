@@ -1,3 +1,3 @@
 Event	ID	Name			Wwise Object Path	Notes
-	4281112222	Play_Env_Trowel_SeedPlant			\WU_Main\Environment\Tools\Play_Env_Trowel_SeedPlant	
+	4281112222	Play_Env_Trowel_SeedPlant			\WU_Main\Environment\Garden\Play_Env_Trowel_SeedPlant	
 

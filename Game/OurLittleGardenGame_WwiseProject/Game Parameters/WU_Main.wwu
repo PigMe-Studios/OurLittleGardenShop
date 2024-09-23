@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{D6D10C93-B51B-428F-988B-8EEF0A0CD1BB}" SchemaVersion="119">
 	<GameParameters>
-		<WorkUnit Name="WU_Main" ID="{D6D10C93-B51B-428F-988B-8EEF0A0CD1BB}" PersistMode="Standalone"/>
+		<WorkUnit Name="WU_Main" ID="{D6D10C93-B51B-428F-988B-8EEF0A0CD1BB}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="RTPC_Ambience" ID="{2CE96074-A19A-453F-AA09-95882CFB6051}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_Music" ID="{4F13BFB8-5220-4F48-BC16-0AE0A75E9270}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_Master" ID="{EA83AD0B-B366-4B00-94C9-F011F533BD32}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_UI" ID="{770F4522-34E2-4059-91C7-A198565BD926}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_SFX" ID="{BAE2B662-4B18-4FAC-A5FD-3A8F24CFC082}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{09DFFEAE-4EAC-4767-9CFF-299EC8FE672A}",
     "Language": "SFX",
-    "Hash": "{0E541325-C8D8-2E99-2802-4A83F08186D9}",
+    "Hash": "{79615FBE-30D5-A3F0-7047-BD11EF51D694}",
     "ObjectPath": "Play_Env_WateringCan_PutDown",
     "ShortName": "Play_Env_WateringCan_PutDown",
     "Path": "Event/Play_Env_WateringCan_PutDown.bnk",
@@ -67,6 +67,6 @@
     ]
    }
   ],
-  "FileHash": "{DCC2D7AA-D8A6-F68A-2D5B-98F139144433}"
+  "FileHash": "{BE08219F-5787-567F-4A52-86866B27C640}"
  }
 }

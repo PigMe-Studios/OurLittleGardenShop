@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1832498624" Type="Event" GUID="{3C203139-541E-4D6E-BA25-A80B7FB56A6D}" Language="SFX" Hash="{88AD6704-BFFB-DD69-490C-9C76043CBAE2}">
+		<SoundBank Id="1832498624" Type="Event" GUID="{3C203139-541E-4D6E-BA25-A80B7FB56A6D}" Language="SFX" Hash="{FD94B8BF-5334-8AA5-DDB7-B87956FE6DCD}">
 			<ObjectPath>Play_Env_Taperoll_Hover</ObjectPath>
 			<ShortName>Play_Env_Taperoll_Hover</ShortName>
 			<Path>Event/Play_Env_Taperoll_Hover.bnk</Path>
@@ -33,5 +33,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{EA4DDB8C-0743-CAB6-85A8-34A54D13577B}</FileHash>
+	<FileHash>{03F316A5-45D4-1377-94ED-D3699359500F}</FileHash>
 </SoundBanksInfo>

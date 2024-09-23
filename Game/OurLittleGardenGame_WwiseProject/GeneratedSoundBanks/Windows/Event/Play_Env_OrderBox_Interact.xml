@@ -1,15 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1617000666" Type="Event" GUID="{2692050E-2BE7-43E8-A059-2FFAED370B75}" Language="SFX" Hash="{5A02E5DB-E00F-9B96-4986-A61C7568E813}">
+		<SoundBank Id="1617000666" Type="Event" GUID="{2692050E-2BE7-43E8-A059-2FFAED370B75}" Language="SFX" Hash="{F7D7909D-66A4-594B-80B6-4C34715915A6}">
 			<ObjectPath>Play_Env_OrderBox_Interact</ObjectPath>
 			<ShortName>Play_Env_OrderBox_Interact</ShortName>
 			<Path>Event/Play_Env_OrderBox_Interact.bnk</Path>
 			<Media>
+				<File Id="61903052" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_C5.wav</ShortName>
+					<Path>Media/61903052.wem</Path>
+					<CachePath>SFX/Mus_Tone_C5_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="82609520" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_C4.wav</ShortName>
+					<Path>Media/82609520.wem</Path>
+					<CachePath>SFX/Mus_Tone_C4_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="191846235" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_E4.wav</ShortName>
+					<Path>Media/191846235.wem</Path>
+					<CachePath>SFX/Mus_Tone_E4_F06BAF76.wem</CachePath>
+				</File>
 				<File Id="474527285" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Env_OrderBox-Interact-001.wav</ShortName>
 					<Path>Media/474527285.wem</Path>
 					<CachePath>SFX/Env_OrderBox-Interact-001_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="535351334" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_G4.wav</ShortName>
+					<Path>Media/535351334.wem</Path>
+					<CachePath>SFX/Mus_Tone_G4_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="769164870" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_B4.wav</ShortName>
+					<Path>Media/769164870.wem</Path>
+					<CachePath>SFX/Mus_Tone_B4_F06BAF76.wem</CachePath>
 				</File>
 				<File Id="903780621" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Env_OrderBox-Interact-002.wav</ShortName>
@@ -23,9 +48,14 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1617000666" Name="Play_Env_OrderBox_Interact" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_OrderBox_Interact" GUID="{2692050E-2BE7-43E8-A059-2FFAED370B75}" DurationType="OneShot" DurationMin="0.94387424" DurationMax="1.0594631">
+				<Event Id="1617000666" Name="Play_Env_OrderBox_Interact" ObjectPath="\Events\WU_Main\Environment\Shop\Play_Env_OrderBox_Interact" GUID="{2692050E-2BE7-43E8-A059-2FFAED370B75}" DurationType="OneShot" DurationMin="4" DurationMax="4">
 					<MediaRefs>
+						<MediaRef Id="61903052"/>
+						<MediaRef Id="82609520"/>
+						<MediaRef Id="191846235"/>
 						<MediaRef Id="474527285"/>
+						<MediaRef Id="535351334"/>
+						<MediaRef Id="769164870"/>
 						<MediaRef Id="903780621"/>
 						<MediaRef Id="950198732"/>
 					</MediaRefs>
@@ -33,5 +63,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A4413FB3-724C-FF0B-C932-CA8993C53F38}</FileHash>
+	<FileHash>{333B9648-A099-1936-F075-45FF2CEC30EF}</FileHash>
 </SoundBanksInfo>

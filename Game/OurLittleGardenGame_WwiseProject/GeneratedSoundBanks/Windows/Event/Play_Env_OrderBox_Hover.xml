@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3727527182" Type="Event" GUID="{F8BFB922-8137-43A2-A664-6688CF2EA546}" Language="SFX" Hash="{AB82B149-FAA4-439D-BBC9-658D202BB334}">
+		<SoundBank Id="3727527182" Type="Event" GUID="{F8BFB922-8137-43A2-A664-6688CF2EA546}" Language="SFX" Hash="{759042EB-FD4D-52D9-04D7-1603A03D8C9F}">
 			<ObjectPath>Play_Env_OrderBox_Hover</ObjectPath>
 			<ShortName>Play_Env_OrderBox_Hover</ShortName>
 			<Path>Event/Play_Env_OrderBox_Hover.bnk</Path>
@@ -33,5 +33,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{9D113442-E561-6DA4-D3E1-A9BB94C3DE5F}</FileHash>
+	<FileHash>{61AE5264-6E47-6E43-A488-C3AD8A52C303}</FileHash>
 </SoundBanksInfo>

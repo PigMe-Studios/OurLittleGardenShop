@@ -141,17 +141,24 @@ namespace AK
 
     } // namespace SWITCHES
 
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID RTPC_AMBIENCE = 2972739263U;
+        static const AkUniqueID RTPC_MASTER = 3445598977U;
+        static const AkUniqueID RTPC_MUSIC = 3709650428U;
+        static const AkUniqueID RTPC_SFX = 3438452020U;
+        static const AkUniqueID RTPC_UI = 419259289U;
+    } // namespace GAME_PARAMETERS
+
     namespace BUSSES
     {
         static const AkUniqueID BUS_2DAMB = 2340005898U;
         static const AkUniqueID BUS_3DAMB = 1058635679U;
         static const AkUniqueID BUS_AMBBEDS = 2313054124U;
         static const AkUniqueID BUS_AMBIENCEMAIN = 2272199487U;
-        static const AkUniqueID BUS_DIALOGUEMAIN = 1648915229U;
-        static const AkUniqueID BUS_ENVIRONMENTMAIN = 2223238396U;
-        static const AkUniqueID BUS_INTERACTMAIN = 17369109U;
         static const AkUniqueID BUS_MUSICMAIN = 1626632198U;
         static const AkUniqueID BUS_REVERBMAIN = 3399979499U;
+        static const AkUniqueID BUS_SFXMAIN = 2404700026U;
         static const AkUniqueID BUS_UIMAIN = 447158585U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
     } // namespace BUSSES

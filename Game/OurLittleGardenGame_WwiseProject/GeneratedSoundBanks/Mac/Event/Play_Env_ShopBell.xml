@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2940245297" Type="Event" GUID="{439F0EFE-EF68-487D-A78C-A4CAFF3188FC}" Language="SFX" Hash="{E84676E3-65BF-1BAD-A358-5AE0A42120F8}">
+		<SoundBank Id="2940245297" Type="Event" GUID="{439F0EFE-EF68-487D-A78C-A4CAFF3188FC}" Language="SFX" Hash="{B526E21D-9071-D310-6E4B-52CD9A89379C}">
 			<ObjectPath>Play_Env_ShopBell</ObjectPath>
 			<ShortName>Play_Env_ShopBell</ShortName>
 			<Path>Event/Play_Env_ShopBell.bnk</Path>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D74A5866-18BB-88DC-1B31-DDF3E683682D}</FileHash>
+	<FileHash>{1C0602A3-922A-FC2F-4AD2-407E216DC6FB}</FileHash>
 </SoundBanksInfo>
