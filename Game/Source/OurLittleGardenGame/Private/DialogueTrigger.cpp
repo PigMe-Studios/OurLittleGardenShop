@@ -24,6 +24,6 @@ void IDialogueTrigger::StartDialogue(FName DialogueLine)
 {
 }
 
-void IDialogueTrigger::EndDialogue()
+void IDialogueTrigger::EndDialogue(bool bCharacterLeave)
 {
 }

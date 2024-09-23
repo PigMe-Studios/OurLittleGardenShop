@@ -82,7 +82,7 @@ public:
 	void ChangeCharacterName(ECharacter SelectedCharacter, FName NewName);
 
 	/// @brief Destroy Conversation widget and end dialogue
-	void EndDialogue() override;
+	void EndDialogue(bool bCharacterLeave) override;
 
 
 	/// @brief Get the Name of the next dialogue line from the current dialogue line

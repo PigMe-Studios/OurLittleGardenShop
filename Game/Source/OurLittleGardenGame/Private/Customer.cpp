@@ -137,7 +137,7 @@ void ACustomer::ChangeCharacterName(ECharacter SelectedCharacter, FName NewName)
 	NameMap.Add(SelectedCharacter, NewName);
 }
 
-void ACustomer::EndDialogue()
+void ACustomer::EndDialogue(bool bCharacterLeave)
 {
 	if (ConversationWidget)
 	{
@@ -154,7 +154,11 @@ void ACustomer::EndDialogue()
 		}
 	}
 
-	SwitchCustomerModel(ECharacter::NONE);
+	if (bCharacterLeave)
+	{
+		SwitchCustomerModel(ECharacter::NONE);
+	}
+	
 	//bDialogueOpen = false;
 	UpdateStatus(false);
 

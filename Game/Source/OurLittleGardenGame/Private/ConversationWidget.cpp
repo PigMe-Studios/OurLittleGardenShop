@@ -96,7 +96,11 @@ void UConversationWidget::ProgressDialogue(int ChosenResponse)
 			NextLine = DialogueInterface->GetNextLine();
 			if (NextLine == FName(""))
 			{
-				DialogueInterface->EndDialogue();
+				DialogueInterface->EndDialogue(true);
+			}
+			else if (NextLine == FName("[Stay]"))
+			{
+				DialogueInterface->EndDialogue(false);
 			}
 			else
 			{

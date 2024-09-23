@@ -42,5 +42,6 @@ public:
 	virtual void StartDialogue(FName DialogueLine);
 
 	/// @brief Destroy Conversation widget and end dialogue
-	virtual void EndDialogue();
+	/// @param Should the character leave after this dialogue line has finished?
+	virtual void EndDialogue(bool bCharacterLeave);
 };
