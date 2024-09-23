@@ -66,7 +66,7 @@ void UMainMenuWS::OpenStartMenu()
 void UMainMenuWS::OpenOptionsMenu()
 {
 	/**this will be a todo later down the line. Dont need this right now!!*/
-	GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Purple, TEXT("Options menu will be real one day <3"));
+	MainMenuWidgetSwitcher->SetActiveWidget(OptionsMenu);
 
 	//MainMenuWidgetSwitcher->SetActiveWidget(OptionsMenu);
 }
