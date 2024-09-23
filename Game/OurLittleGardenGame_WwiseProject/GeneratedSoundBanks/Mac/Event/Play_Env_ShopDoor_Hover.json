@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{8F1E4C26-6851-4559-8E49-032EAEB15DC8}",
     "Language": "SFX",
-    "Hash": "{12D3B17C-C53A-156F-6814-57A8435C8529}",
+    "Hash": "{790DF2C3-3EE8-B870-FF9A-6C3961F5756B}",
     "ObjectPath": "Play_Env_ShopDoor_Hover",
     "ShortName": "Play_Env_ShopDoor_Hover",
     "Path": "Event/Play_Env_ShopDoor_Hover.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{D509C770-27E2-7EB5-38FC-76FE1EAFC1FD}"
+  "FileHash": "{4DDD3223-C62F-0EFF-648E-BF9585B1BD27}"
  }
 }

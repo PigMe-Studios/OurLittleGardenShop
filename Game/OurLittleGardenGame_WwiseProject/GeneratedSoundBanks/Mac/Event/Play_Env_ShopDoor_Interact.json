@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{8A612E3D-10B2-4015-B3E7-C75743580D1D}",
     "Language": "SFX",
-    "Hash": "{7ECBFEE1-B827-5546-C81E-EF991E3D54B4}",
+    "Hash": "{03D069C6-25CA-BE45-D646-CAF8B2270642}",
     "ObjectPath": "Play_Env_ShopDoor_Interact",
     "ShortName": "Play_Env_ShopDoor_Interact",
     "Path": "Event/Play_Env_ShopDoor_Interact.bnk",
@@ -103,6 +103,6 @@
     ]
    }
   ],
-  "FileHash": "{D852EC67-00ED-0631-6B36-7EAC6FE5661A}"
+  "FileHash": "{D3AD8DBF-3EF2-02D0-DA1E-020CF9116D66}"
  }
 }

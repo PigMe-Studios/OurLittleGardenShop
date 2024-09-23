@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3730387420" Type="Event" GUID="{178C431B-C32F-44D0-9E98-8D4A5BF32126}" Language="SFX" Hash="{2831F1D3-26E6-4AB8-73F1-365CAE664186}">
+		<SoundBank Id="3730387420" Type="Event" GUID="{178C431B-C32F-44D0-9E98-8D4A5BF32126}" Language="SFX" Hash="{0C5C9ECF-BD6B-3F31-BC98-D36B87838473}">
 			<ObjectPath>Play_Env_WateringCan_PickUp</ObjectPath>
 			<ShortName>Play_Env_WateringCan_PickUp</ShortName>
 			<Path>Event/Play_Env_WateringCan_PickUp.bnk</Path>
@@ -63,5 +63,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{42A5B93E-B254-2FAA-6E87-FB81160CAFBC}</FileHash>
+	<FileHash>{87AE5D38-745B-3639-7A92-2D50AE5BFA2C}</FileHash>
 </SoundBanksInfo>

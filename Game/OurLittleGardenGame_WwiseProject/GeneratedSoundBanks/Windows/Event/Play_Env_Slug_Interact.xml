@@ -1,20 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3225573224" Type="Event" GUID="{080E62BF-E702-4D2A-88D9-FDBFD25B4346}" Language="SFX" Hash="{96368F77-DD46-FE69-ABFF-C825E842DC95}">
+		<SoundBank Id="3225573224" Type="Event" GUID="{080E62BF-E702-4D2A-88D9-FDBFD25B4346}" Language="SFX" Hash="{E4372D33-4087-D81F-CCD9-BE58C60EC577}">
 			<ObjectPath>Play_Env_Slug_Interact</ObjectPath>
 			<ShortName>Play_Env_Slug_Interact</ShortName>
 			<Path>Event/Play_Env_Slug_Interact.bnk</Path>
 			<Media>
+				<File Id="61903052" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_C5.wav</ShortName>
+					<Path>Media/61903052.wem</Path>
+					<CachePath>SFX/Mus_Tone_C5_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="82609520" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_C4.wav</ShortName>
+					<Path>Media/82609520.wem</Path>
+					<CachePath>SFX/Mus_Tone_C4_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="191846235" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_E4.wav</ShortName>
+					<Path>Media/191846235.wem</Path>
+					<CachePath>SFX/Mus_Tone_E4_F06BAF76.wem</CachePath>
+				</File>
 				<File Id="376418612" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Env_Slug-Interact-002.wav</ShortName>
 					<Path>Media/376418612.wem</Path>
 					<CachePath>SFX/Env_Slug-Interact-002_F06BAF76.wem</CachePath>
 				</File>
+				<File Id="535351334" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_G4.wav</ShortName>
+					<Path>Media/535351334.wem</Path>
+					<CachePath>SFX/Mus_Tone_G4_F06BAF76.wem</CachePath>
+				</File>
 				<File Id="565855276" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Env_Slug-Interact-003.wav</ShortName>
 					<Path>Media/565855276.wem</Path>
 					<CachePath>SFX/Env_Slug-Interact-003_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="769164870" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_B4.wav</ShortName>
+					<Path>Media/769164870.wem</Path>
+					<CachePath>SFX/Mus_Tone_B4_F06BAF76.wem</CachePath>
 				</File>
 				<File Id="870060745" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Env_Slug-Interact-001.wav</ShortName>
@@ -23,15 +48,20 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3225573224" Name="Play_Env_Slug_Interact" ObjectPath="\Events\WU_Main\Environment\Garden\Play_Env_Slug_Interact" GUID="{080E62BF-E702-4D2A-88D9-FDBFD25B4346}" DurationType="OneShot" DurationMin="0.44544935" DurationMax="0.561231">
+				<Event Id="3225573224" Name="Play_Env_Slug_Interact" ObjectPath="\Events\WU_Main\Environment\Garden\Play_Env_Slug_Interact" GUID="{080E62BF-E702-4D2A-88D9-FDBFD25B4346}" DurationType="OneShot" DurationMin="4" DurationMax="4">
 					<MediaRefs>
+						<MediaRef Id="61903052"/>
+						<MediaRef Id="82609520"/>
+						<MediaRef Id="191846235"/>
 						<MediaRef Id="376418612"/>
+						<MediaRef Id="535351334"/>
 						<MediaRef Id="565855276"/>
+						<MediaRef Id="769164870"/>
 						<MediaRef Id="870060745"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{DEC24518-2B3F-6281-0B20-8D7225FF6F36}</FileHash>
+	<FileHash>{C97D7BF9-18B8-A20B-486A-4ECC53E196BB}</FileHash>
 </SoundBanksInfo>

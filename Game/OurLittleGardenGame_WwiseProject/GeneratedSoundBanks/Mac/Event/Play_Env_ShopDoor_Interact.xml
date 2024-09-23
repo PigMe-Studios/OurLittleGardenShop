@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1705306783" Type="Event" GUID="{8A612E3D-10B2-4015-B3E7-C75743580D1D}" Language="SFX" Hash="{7ECBFEE1-B827-5546-C81E-EF991E3D54B4}">
+		<SoundBank Id="1705306783" Type="Event" GUID="{8A612E3D-10B2-4015-B3E7-C75743580D1D}" Language="SFX" Hash="{03D069C6-25CA-BE45-D646-CAF8B2270642}">
 			<ObjectPath>Play_Env_ShopDoor_Interact</ObjectPath>
 			<ShortName>Play_Env_ShopDoor_Interact</ShortName>
 			<Path>Event/Play_Env_ShopDoor_Interact.bnk</Path>
@@ -51,5 +51,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{FAB65171-1B18-A365-15D2-B7CF68412D71}</FileHash>
+	<FileHash>{A7F70FAA-7AE0-DB86-CAE7-1A31735D3988}</FileHash>
 </SoundBanksInfo>

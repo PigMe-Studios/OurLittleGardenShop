@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1409316184" Type="Event" GUID="{1CB11544-36C5-4EE6-963A-FE81C18DF32F}" Language="SFX" Hash="{2F5469CA-C42A-F690-D499-AFB61040B597}">
+		<SoundBank Id="1409316184" Type="Event" GUID="{1CB11544-36C5-4EE6-963A-FE81C18DF32F}" Language="SFX" Hash="{17F7CCD7-7425-BB9D-D840-ECDDCEC891F6}">
 			<ObjectPath>Play_Env_Plant_Cut</ObjectPath>
 			<ShortName>Play_Env_Plant_Cut</ShortName>
 			<Path>Event/Play_Env_Plant_Cut.bnk</Path>
 			<Media>
+				<File Id="61903052" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_C5.wav</ShortName>
+					<Path>Media/61903052.wem</Path>
+					<CachePath>SFX/Mus_Tone_C5_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="82609520" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_C4.wav</ShortName>
+					<Path>Media/82609520.wem</Path>
+					<CachePath>SFX/Mus_Tone_C4_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="191846235" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_E4.wav</ShortName>
+					<Path>Media/191846235.wem</Path>
+					<CachePath>SFX/Mus_Tone_E4_F06BAF76.wem</CachePath>
+				</File>
 				<File Id="335712144" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Env_Plant-Cut-002.wav</ShortName>
 					<Path>Media/335712144.wem</Path>
@@ -16,6 +31,16 @@
 					<Path>Media/457571121.wem</Path>
 					<CachePath>SFX/Env_Plant-Cut-001_F06BAF76.wem</CachePath>
 				</File>
+				<File Id="535351334" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_G4.wav</ShortName>
+					<Path>Media/535351334.wem</Path>
+					<CachePath>SFX/Mus_Tone_G4_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="769164870" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_B4.wav</ShortName>
+					<Path>Media/769164870.wem</Path>
+					<CachePath>SFX/Mus_Tone_B4_F06BAF76.wem</CachePath>
+				</File>
 				<File Id="912969944" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Env_Plant-Cut-003.wav</ShortName>
 					<Path>Media/912969944.wem</Path>
@@ -23,15 +48,20 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1409316184" Name="Play_Env_Plant_Cut" ObjectPath="\Events\WU_Main\Environment\Garden\Play_Env_Plant_Cut" GUID="{1CB11544-36C5-4EE6-963A-FE81C18DF32F}" DurationType="OneShot" DurationMin="0.8908987" DurationMax="1.122462">
+				<Event Id="1409316184" Name="Play_Env_Plant_Cut" ObjectPath="\Events\WU_Main\Environment\Garden\Play_Env_Plant_Cut" GUID="{1CB11544-36C5-4EE6-963A-FE81C18DF32F}" DurationType="OneShot" DurationMin="4" DurationMax="4">
 					<MediaRefs>
+						<MediaRef Id="61903052"/>
+						<MediaRef Id="82609520"/>
+						<MediaRef Id="191846235"/>
 						<MediaRef Id="335712144"/>
 						<MediaRef Id="457571121"/>
+						<MediaRef Id="535351334"/>
+						<MediaRef Id="769164870"/>
 						<MediaRef Id="912969944"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{81701F0E-338D-AE6A-6F32-AFCD53B55F44}</FileHash>
+	<FileHash>{BC0435D5-15B8-AEAC-A018-FEE10CB82997}</FileHash>
 </SoundBanksInfo>

@@ -1,3 +1,3 @@
 Event	ID	Name			Wwise Object Path	Notes
-	1235655907	Play_Env_Trowel_PutDown			\WU_Main\Environment\Tools\Play_Env_Trowel_PutDown	
+	1235655907	Play_Env_Trowel_PutDown			\WU_Main\Environment\Garden\Play_Env_Trowel_PutDown	
 

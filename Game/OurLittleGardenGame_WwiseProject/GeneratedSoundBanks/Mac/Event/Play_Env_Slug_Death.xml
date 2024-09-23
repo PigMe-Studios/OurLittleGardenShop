@@ -1,15 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1223224652" Type="Event" GUID="{5AA2C2D5-F341-47AC-B79E-9BCDCB37DDCD}" Language="SFX" Hash="{D5C5F601-D741-97ED-FE90-26E635B5418F}">
+		<SoundBank Id="1223224652" Type="Event" GUID="{5AA2C2D5-F341-47AC-B79E-9BCDCB37DDCD}" Language="SFX" Hash="{154425C7-40DA-5A5B-E333-77E716380507}">
 			<ObjectPath>Play_Env_Slug_Death</ObjectPath>
 			<ShortName>Play_Env_Slug_Death</ShortName>
 			<Path>Event/Play_Env_Slug_Death.bnk</Path>
 			<Media>
+				<File Id="61903052" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_C5.wav</ShortName>
+					<Path>Media/61903052.wem</Path>
+					<CachePath>SFX/Mus_Tone_C5_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="82609520" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_C4.wav</ShortName>
+					<Path>Media/82609520.wem</Path>
+					<CachePath>SFX/Mus_Tone_C4_F06BAF76.wem</CachePath>
+				</File>
 				<File Id="148437905" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Env_Slug-Death-002.wav</ShortName>
 					<Path>Media/148437905.wem</Path>
 					<CachePath>SFX/Env_Slug-Death-002_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="191846235" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_E4.wav</ShortName>
+					<Path>Media/191846235.wem</Path>
+					<CachePath>SFX/Mus_Tone_E4_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="535351334" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_G4.wav</ShortName>
+					<Path>Media/535351334.wem</Path>
+					<CachePath>SFX/Mus_Tone_G4_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="769164870" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_B4.wav</ShortName>
+					<Path>Media/769164870.wem</Path>
+					<CachePath>SFX/Mus_Tone_B4_F06BAF76.wem</CachePath>
 				</File>
 				<File Id="971755062" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Env_Slug-Death-003.wav</ShortName>
@@ -23,9 +48,14 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1223224652" Name="Play_Env_Slug_Death" ObjectPath="\Events\WU_Main\Environment\Garden\Play_Env_Slug_Death" GUID="{5AA2C2D5-F341-47AC-B79E-9BCDCB37DDCD}" DurationType="OneShot" DurationMin="0.8908987" DurationMax="1.122462">
+				<Event Id="1223224652" Name="Play_Env_Slug_Death" ObjectPath="\Events\WU_Main\Environment\Garden\Play_Env_Slug_Death" GUID="{5AA2C2D5-F341-47AC-B79E-9BCDCB37DDCD}" DurationType="OneShot" DurationMin="4" DurationMax="4">
 					<MediaRefs>
+						<MediaRef Id="61903052"/>
+						<MediaRef Id="82609520"/>
 						<MediaRef Id="148437905"/>
+						<MediaRef Id="191846235"/>
+						<MediaRef Id="535351334"/>
+						<MediaRef Id="769164870"/>
 						<MediaRef Id="971755062"/>
 						<MediaRef Id="1036884987"/>
 					</MediaRefs>
@@ -33,5 +63,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D3EF239A-5337-C0F6-317D-13F909B641ED}</FileHash>
+	<FileHash>{32721F14-D6F7-D047-63B8-BD10DB92BB57}</FileHash>
 </SoundBanksInfo>

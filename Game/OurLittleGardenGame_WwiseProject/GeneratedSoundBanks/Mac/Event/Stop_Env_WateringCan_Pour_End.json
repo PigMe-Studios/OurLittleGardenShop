@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{206067AD-9C1F-421D-8786-08D770F6F297}",
     "Language": "SFX",
-    "Hash": "{F12F35D1-69C0-A61D-0C48-EB703DF441E8}",
+    "Hash": "{4993B44C-25E6-D44B-C0DF-6A71799B085C}",
     "ObjectPath": "Stop_Env_WateringCan_Pour_End",
     "ShortName": "Stop_Env_WateringCan_Pour_End",
     "Path": "Event/Stop_Env_WateringCan_Pour_End.bnk",
@@ -44,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{BBC1E959-7EBF-9600-3647-5DE871F40710}"
+  "FileHash": "{0BCF66F1-DAFC-54E1-26BD-DBA6129995FA}"
  }
 }

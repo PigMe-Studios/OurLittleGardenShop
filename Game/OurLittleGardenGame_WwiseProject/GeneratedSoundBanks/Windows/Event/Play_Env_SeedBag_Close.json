@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{3C643E1F-37F2-4057-9482-2AEC4B9251E2}",
     "Language": "SFX",
-    "Hash": "{92217292-B458-B048-1E82-24D6328C3F2D}",
+    "Hash": "{1362C0B6-71E2-BF1C-997A-D2D5AA479A4A}",
     "ObjectPath": "Play_Env_SeedBag_Close",
     "ShortName": "Play_Env_SeedBag_Close",
     "Path": "Event/Play_Env_SeedBag_Close.bnk",
@@ -67,6 +67,6 @@
     ]
    }
   ],
-  "FileHash": "{FDC36E80-B640-DD26-81AF-867D72172E23}"
+  "FileHash": "{8AB58EDD-4857-4C8A-3F13-6B220CDD7013}"
  }
 }

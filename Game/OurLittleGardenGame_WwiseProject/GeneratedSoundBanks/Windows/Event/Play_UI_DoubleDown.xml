@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3054987940" Type="Event" GUID="{79475BBF-4A51-4D78-A830-3E27BE176768}" Language="SFX" Hash="{B386AB6E-9163-8CC2-91E3-B08C372E0C90}">
+		<SoundBank Id="3054987940" Type="Event" GUID="{79475BBF-4A51-4D78-A830-3E27BE176768}" Language="SFX" Hash="{25FD305D-16BE-933E-8CD1-A5DA93BDC169}">
 			<ObjectPath>Play_UI_DoubleDown</ObjectPath>
 			<ShortName>Play_UI_DoubleDown</ShortName>
 			<Path>Event/Play_UI_DoubleDown.bnk</Path>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{01CFC3C5-8669-3437-F0A9-9445FB6BEDBC}</FileHash>
+	<FileHash>{E80B0E74-1F5F-1D35-17C7-14B472A6ABE8}</FileHash>
 </SoundBanksInfo>

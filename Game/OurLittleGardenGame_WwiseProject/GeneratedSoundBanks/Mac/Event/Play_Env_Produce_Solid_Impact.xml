@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="588414595" Type="Event" GUID="{24715FB4-8FA3-405E-A274-68CCB969C3DA}" Language="SFX" Hash="{07C701C1-0D9F-EA67-397D-D44BE7C69E9F}">
+		<SoundBank Id="588414595" Type="Event" GUID="{24715FB4-8FA3-405E-A274-68CCB969C3DA}" Language="SFX" Hash="{9E0327F5-F8A9-8F1D-786F-91209ED6B9A0}">
 			<ObjectPath>Play_Env_Produce_Solid_Impact</ObjectPath>
 			<ShortName>Play_Env_Produce_Solid_Impact</ShortName>
 			<Path>Event/Play_Env_Produce_Solid_Impact.bnk</Path>
@@ -33,5 +33,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D43E161C-7E04-C1B0-95B6-9EE0655383C2}</FileHash>
+	<FileHash>{7B58D6A9-6E50-48DF-B850-EF82A4470F1C}</FileHash>
 </SoundBanksInfo>

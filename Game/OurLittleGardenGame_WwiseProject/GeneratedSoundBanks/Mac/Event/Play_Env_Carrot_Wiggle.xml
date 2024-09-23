@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3488080417" Type="Event" GUID="{457E2C0E-EBD6-4705-8E91-02213961B650}" Language="SFX" Hash="{7B011DD8-F661-9ECC-44FE-196B2DDA318E}">
+		<SoundBank Id="3488080417" Type="Event" GUID="{457E2C0E-EBD6-4705-8E91-02213961B650}" Language="SFX" Hash="{7FC0CC70-D9B6-5BCC-A25B-1930E9B6AD09}">
 			<ObjectPath>Play_Env_Carrot_Wiggle</ObjectPath>
 			<ShortName>Play_Env_Carrot_Wiggle</ShortName>
 			<Path>Event/Play_Env_Carrot_Wiggle.bnk</Path>
@@ -10,6 +10,31 @@
 					<ShortName>Env_Carrot-Wiggle-002.wav</ShortName>
 					<Path>Media/2847453.wem</Path>
 					<CachePath>SFX/Env_Carrot-Wiggle-002_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="61903052" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_C5.wav</ShortName>
+					<Path>Media/61903052.wem</Path>
+					<CachePath>SFX/Mus_Tone_C5_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="82609520" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_C4.wav</ShortName>
+					<Path>Media/82609520.wem</Path>
+					<CachePath>SFX/Mus_Tone_C4_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="191846235" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_E4.wav</ShortName>
+					<Path>Media/191846235.wem</Path>
+					<CachePath>SFX/Mus_Tone_E4_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="535351334" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_G4.wav</ShortName>
+					<Path>Media/535351334.wem</Path>
+					<CachePath>SFX/Mus_Tone_G4_F06BAF76.wem</CachePath>
+				</File>
+				<File Id="769164870" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mus_Tone_B4.wav</ShortName>
+					<Path>Media/769164870.wem</Path>
+					<CachePath>SFX/Mus_Tone_B4_F06BAF76.wem</CachePath>
 				</File>
 				<File Id="958718392" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Env_Carrot-Wiggle-003.wav</ShortName>
@@ -23,9 +48,14 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3488080417" Name="Play_Env_Carrot_Wiggle" ObjectPath="\Events\WU_Main\Environment\Garden\Play_Env_Carrot_Wiggle" GUID="{457E2C0E-EBD6-4705-8E91-02213961B650}" DurationType="OneShot" DurationMin="0.8908987" DurationMax="1.122462">
+				<Event Id="3488080417" Name="Play_Env_Carrot_Wiggle" ObjectPath="\Events\WU_Main\Environment\Garden\Play_Env_Carrot_Wiggle" GUID="{457E2C0E-EBD6-4705-8E91-02213961B650}" DurationType="OneShot" DurationMin="4" DurationMax="4">
 					<MediaRefs>
 						<MediaRef Id="2847453"/>
+						<MediaRef Id="61903052"/>
+						<MediaRef Id="82609520"/>
+						<MediaRef Id="191846235"/>
+						<MediaRef Id="535351334"/>
+						<MediaRef Id="769164870"/>
 						<MediaRef Id="958718392"/>
 						<MediaRef Id="986607185"/>
 					</MediaRefs>
@@ -33,5 +63,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C70A2A22-8016-B780-A5FE-98DACB6F3000}</FileHash>
+	<FileHash>{979D1F5E-72BD-FE75-1CED-812DE1F9D074}</FileHash>
 </SoundBanksInfo>

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{4C04B47A-6C96-46C2-A4F4-491B6F76D1EA}",
     "Language": "SFX",
-    "Hash": "{8C28FB0E-CC7A-5B78-6692-525020D533C1}",
+    "Hash": "{DFCF6793-3811-6F35-02A2-A541895CBD8E}",
     "ObjectPath": "Play_UI_Camera_Move",
     "ShortName": "Play_UI_Camera_Move",
     "Path": "Event/Play_UI_Camera_Move.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{87B0F975-3D50-08E6-33C6-9F84CA8F8795}"
+  "FileHash": "{0E6F5DE5-A557-A09F-3714-C85B1020213E}"
  }
 }

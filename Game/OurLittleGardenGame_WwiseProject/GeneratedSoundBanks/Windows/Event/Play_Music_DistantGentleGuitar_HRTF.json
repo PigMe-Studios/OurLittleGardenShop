@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{C50085BD-D3FB-42B4-A59A-E92B4AB326F4}",
     "Language": "SFX",
-    "Hash": "{5DDE641A-4487-6723-874E-4A0CE3EC5056}",
+    "Hash": "{98A6C1F5-C5B7-5383-E328-ABB64C787D0F}",
     "ObjectPath": "Play_Music_DistantGentleGuitar_HRTF",
     "ShortName": "Play_Music_DistantGentleGuitar_HRTF",
     "Path": "Event/Play_Music_DistantGentleGuitar_HRTF.bnk",
@@ -41,6 +41,6 @@
     ]
    }
   ],
-  "FileHash": "{26DF26E3-7868-F811-424C-BF4EB7FB0B42}"
+  "FileHash": "{04003521-54C8-9FCB-E636-6D16788D9B76}"
  }
 }

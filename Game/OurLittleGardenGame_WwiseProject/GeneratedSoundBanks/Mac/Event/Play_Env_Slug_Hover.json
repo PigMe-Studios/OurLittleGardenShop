@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{443D78E2-43EB-48FE-B712-00965DC09F3B}",
     "Language": "SFX",
-    "Hash": "{88A1CFAB-44D2-ACEE-E3FC-913118C46BD1}",
+    "Hash": "{520AF39A-341F-814B-DD7F-6C4F5462FFE0}",
     "ObjectPath": "Play_Env_Slug_Hover",
     "ShortName": "Play_Env_Slug_Hover",
     "Path": "Event/Play_Env_Slug_Hover.bnk",
@@ -67,6 +67,6 @@
     ]
    }
   ],
-  "FileHash": "{B02C2FB3-0955-A232-1804-9811808ADD6E}"
+  "FileHash": "{8CD8A804-1820-C578-85F9-9137092685EB}"
  }
 }

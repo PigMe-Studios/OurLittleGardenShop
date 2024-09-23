@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{CC2F2DC8-9DAD-4DCE-B366-7147C7AF4F04}",
     "Language": "SFX",
-    "Hash": "{42BDE9FF-930E-E00B-6716-03E096D542DB}",
+    "Hash": "{FA05B867-A5C0-FC02-A8AC-C873BDB2B746}",
     "ObjectPath": "Play_UI_Hover",
     "ShortName": "Play_UI_Hover",
     "Path": "Event/Play_UI_Hover.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{617FB48E-29B4-365D-1CA0-14A6B139D42D}"
+  "FileHash": "{71212C5C-ADD1-3641-33A9-74AE883800A1}"
  }
 }

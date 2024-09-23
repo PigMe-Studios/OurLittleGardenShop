@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3321113552" Type="Event" GUID="{0EEFC5E7-1F69-4FAF-9ED8-D73E1E099FC4}" Language="SFX" Hash="{1A696C23-A902-663C-4C39-E82B0DA68671}">
+		<SoundBank Id="3321113552" Type="Event" GUID="{0EEFC5E7-1F69-4FAF-9ED8-D73E1E099FC4}" Language="SFX" Hash="{CCDDE290-AA06-2926-8847-5F9DC9AFD72D}">
 			<ObjectPath>Play_Amb_GardenAmb_Birds_Wind</ObjectPath>
 			<ShortName>Play_Amb_GardenAmb_Birds_Wind</ShortName>
 			<Path>Event/Play_Amb_GardenAmb_Birds_Wind.bnk</Path>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{784D31D8-958F-B6B2-1992-8A99390FF29D}</FileHash>
+	<FileHash>{D7C22D37-C590-05D0-438D-D9A97C0E3750}</FileHash>
 </SoundBanksInfo>

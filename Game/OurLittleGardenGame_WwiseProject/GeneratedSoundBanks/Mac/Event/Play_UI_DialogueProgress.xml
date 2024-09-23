@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="792485676" Type="Event" GUID="{E8BD84C4-15A4-4E44-A5C3-3AE191C8E802}" Language="SFX" Hash="{F6F0EB0E-201B-B606-9D10-D162D6373A8F}">
+		<SoundBank Id="792485676" Type="Event" GUID="{E8BD84C4-15A4-4E44-A5C3-3AE191C8E802}" Language="SFX" Hash="{FF51905D-BACF-9C0E-A681-491B150A72E3}">
 			<ObjectPath>Play_UI_DialogueProgress</ObjectPath>
 			<ShortName>Play_UI_DialogueProgress</ShortName>
 			<Path>Event/Play_UI_DialogueProgress.bnk</Path>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C040E891-E1EA-48C2-D0EA-688E54691932}</FileHash>
+	<FileHash>{EF12E425-6DC1-0902-E846-4FAC8B503EF4}</FileHash>
 </SoundBanksInfo>

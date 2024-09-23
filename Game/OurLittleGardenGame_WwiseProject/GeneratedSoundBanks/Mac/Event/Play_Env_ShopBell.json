@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{439F0EFE-EF68-487D-A78C-A4CAFF3188FC}",
     "Language": "SFX",
-    "Hash": "{E84676E3-65BF-1BAD-A358-5AE0A42120F8}",
+    "Hash": "{B526E21D-9071-D310-6E4B-52CD9A89379C}",
     "ObjectPath": "Play_Env_ShopBell",
     "ShortName": "Play_Env_ShopBell",
     "Path": "Event/Play_Env_ShopBell.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{7E646180-E9FF-A31B-2B7F-033B35766297}"
+  "FileHash": "{6C37C2CC-667E-60DC-CA5A-40A1F89CF6A2}"
  }
 }

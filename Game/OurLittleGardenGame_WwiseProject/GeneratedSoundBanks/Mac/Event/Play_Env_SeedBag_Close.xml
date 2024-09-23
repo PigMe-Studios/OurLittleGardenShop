@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2134647096" Type="Event" GUID="{3C643E1F-37F2-4057-9482-2AEC4B9251E2}" Language="SFX" Hash="{92217292-B458-B048-1E82-24D6328C3F2D}">
+		<SoundBank Id="2134647096" Type="Event" GUID="{3C643E1F-37F2-4057-9482-2AEC4B9251E2}" Language="SFX" Hash="{1362C0B6-71E2-BF1C-997A-D2D5AA479A4A}">
 			<ObjectPath>Play_Env_SeedBag_Close</ObjectPath>
 			<ShortName>Play_Env_SeedBag_Close</ShortName>
 			<Path>Event/Play_Env_SeedBag_Close.bnk</Path>
@@ -33,5 +33,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C5C7D850-256F-F9A3-52CA-D4F533813582}</FileHash>
+	<FileHash>{8F21A70D-B3DE-33D2-5F72-F6A8643A974C}</FileHash>
 </SoundBanksInfo>

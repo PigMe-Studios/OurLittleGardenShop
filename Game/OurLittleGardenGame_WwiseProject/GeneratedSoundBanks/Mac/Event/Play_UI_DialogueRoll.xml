@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3594163308" Type="Event" GUID="{3EE8C705-3D1F-4FFD-B442-1A949068B8B8}" Language="SFX" Hash="{44B8960B-3454-060D-A222-8FD23A2A4F4C}">
+		<SoundBank Id="3594163308" Type="Event" GUID="{3EE8C705-3D1F-4FFD-B442-1A949068B8B8}" Language="SFX" Hash="{BBB3CAA9-1652-97E3-330B-3A9D1BDE1B13}">
 			<ObjectPath>Play_UI_DialogueRoll</ObjectPath>
 			<ShortName>Play_UI_DialogueRoll</ShortName>
 			<Path>Event/Play_UI_DialogueRoll.bnk</Path>
@@ -307,5 +307,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{3322AD77-558E-33CD-DF93-A3AF2A834CEB}</FileHash>
+	<FileHash>{440D89D9-7A95-CFF4-3BCA-BC016E2CEE21}</FileHash>
 </SoundBanksInfo>

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{79918A2A-935E-4782-8C1E-383CF88677B2}",
     "Language": "SFX",
-    "Hash": "{9992A927-3822-923E-A2BE-9AC246601A7B}",
+    "Hash": "{892F4924-2A6D-0375-B3A7-C30E321C4C1C}",
     "ObjectPath": "Play_Env_SeedBag_Hover",
     "ShortName": "Play_Env_SeedBag_Hover",
     "Path": "Event/Play_Env_SeedBag_Hover.bnk",
@@ -67,6 +67,6 @@
     ]
    }
   ],
-  "FileHash": "{1B5D22FD-C3DA-6F68-8DAB-8B95A538EFEC}"
+  "FileHash": "{0F85CC47-2999-14EB-5E85-821E5AF1D6BB}"
  }
 }

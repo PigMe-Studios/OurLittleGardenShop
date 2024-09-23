@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="97207454" Type="Event" GUID="{D942A84E-887E-49AC-9831-48D1D081CAB3}" Language="SFX" Hash="{4A27FCAF-2724-D04D-F220-28715B8BFC48}">
+		<SoundBank Id="97207454" Type="Event" GUID="{D942A84E-887E-49AC-9831-48D1D081CAB3}" Language="SFX" Hash="{85E92F87-5BA6-5F87-711D-4AF9BADBEC54}">
 			<ObjectPath>Play_Env_WateringCan_Hover</ObjectPath>
 			<ShortName>Play_Env_WateringCan_Hover</ShortName>
 			<Path>Event/Play_Env_WateringCan_Hover.bnk</Path>
@@ -33,5 +33,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{19C23B5A-1B19-F4C6-A77C-DDBF356CD030}</FileHash>
+	<FileHash>{572A5979-B0BC-F837-5E70-902F1A3B6C5E}</FileHash>
 </SoundBanksInfo>

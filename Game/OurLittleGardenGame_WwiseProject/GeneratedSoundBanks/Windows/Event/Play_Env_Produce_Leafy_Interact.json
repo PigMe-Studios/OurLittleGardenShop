@@ -10,11 +10,38 @@
     "Type": "Event",
     "GUID": "{D64F8692-028A-4C5B-AB54-5FCBE0F0C760}",
     "Language": "SFX",
-    "Hash": "{06766FB1-D735-27EA-55ED-0C9F974430B5}",
+    "Hash": "{C226A3E7-117D-B885-C9B0-0B56C33F1F5C}",
     "ObjectPath": "Play_Env_Produce_Leafy_Interact",
     "ShortName": "Play_Env_Produce_Leafy_Interact",
     "Path": "Event/Play_Env_Produce_Leafy_Interact.bnk",
     "Media": [
+     {
+      "Id": "61903052",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_C5.wav",
+      "Path": "Media/61903052.wem",
+      "CachePath": "SFX/Mus_Tone_C5_F06BAF76.wem"
+     },
+     {
+      "Id": "82609520",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_C4.wav",
+      "Path": "Media/82609520.wem",
+      "CachePath": "SFX/Mus_Tone_C4_F06BAF76.wem"
+     },
+     {
+      "Id": "191846235",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_E4.wav",
+      "Path": "Media/191846235.wem",
+      "CachePath": "SFX/Mus_Tone_E4_F06BAF76.wem"
+     },
      {
       "Id": "208038388",
       "Language": "SFX",
@@ -41,6 +68,24 @@
       "ShortName": "Env_Produce_Leafy-Interact-002.wav",
       "Path": "Media/365089039.wem",
       "CachePath": "SFX/Env_Produce_Leafy-Interact-002_F06BAF76.wem"
+     },
+     {
+      "Id": "535351334",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_G4.wav",
+      "Path": "Media/535351334.wem",
+      "CachePath": "SFX/Mus_Tone_G4_F06BAF76.wem"
+     },
+     {
+      "Id": "769164870",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_B4.wav",
+      "Path": "Media/769164870.wem",
+      "CachePath": "SFX/Mus_Tone_B4_F06BAF76.wem"
      }
     ],
     "Events": [
@@ -50,9 +95,18 @@
       "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_Produce_Leafy_Interact",
       "GUID": "{D64F8692-028A-4C5B-AB54-5FCBE0F0C760}",
       "DurationType": "OneShot",
-      "DurationMin": "0.94387424",
-      "DurationMax": "1.0594631",
+      "DurationMin": "4",
+      "DurationMax": "4",
       "MediaRefs": [
+       {
+        "Id": "61903052"
+       },
+       {
+        "Id": "82609520"
+       },
+       {
+        "Id": "191846235"
+       },
        {
         "Id": "208038388"
        },
@@ -61,12 +115,18 @@
        },
        {
         "Id": "365089039"
+       },
+       {
+        "Id": "535351334"
+       },
+       {
+        "Id": "769164870"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{8AE6EDE6-BF74-5E98-B519-F8789572951D}"
+  "FileHash": "{68C33AF2-6E2C-68C1-6CB8-8F2F27C467B4}"
  }
 }

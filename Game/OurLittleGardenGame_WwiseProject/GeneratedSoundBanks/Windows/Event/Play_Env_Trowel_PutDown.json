@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{33CDF151-033E-4F85-B69E-DDA9A0D168E6}",
     "Language": "SFX",
-    "Hash": "{5E3D3925-F397-850E-7CC0-1BC0F2A5DB0E}",
+    "Hash": "{206FCA08-A8C4-34D4-3E8B-1AB3C233E0CC}",
     "ObjectPath": "Play_Env_Trowel_PutDown",
     "ShortName": "Play_Env_Trowel_PutDown",
     "Path": "Event/Play_Env_Trowel_PutDown.bnk",
@@ -67,6 +67,6 @@
     ]
    }
   ],
-  "FileHash": "{63088A70-0BB3-31E3-C3EB-5535D0521852}"
+  "FileHash": "{2E2921E6-C7B8-DD19-55AC-00A03753BD15}"
  }
 }

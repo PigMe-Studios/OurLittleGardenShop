@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1701607391" Type="Event" GUID="{06DFBA66-5CF9-49C3-BE6A-FB9F3EF5CCB4}" Language="SFX" Hash="{F50B4532-4C96-C31A-6CD8-14FF4BE4FF60}">
+		<SoundBank Id="1701607391" Type="Event" GUID="{06DFBA66-5CF9-49C3-BE6A-FB9F3EF5CCB4}" Language="SFX" Hash="{671BDAF5-36F4-F6BA-A189-DA8DB5AA0080}">
 			<ObjectPath>Play_UI_Reverse</ObjectPath>
 			<ShortName>Play_UI_Reverse</ShortName>
 			<Path>Event/Play_UI_Reverse.bnk</Path>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{7FA63B9C-C4BF-CEA3-0A3F-53D64347D0A0}</FileHash>
+	<FileHash>{BA8AD7C2-D128-2789-CB93-AE6D07A9D443}</FileHash>
 </SoundBanksInfo>

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{178C431B-C32F-44D0-9E98-8D4A5BF32126}",
     "Language": "SFX",
-    "Hash": "{2831F1D3-26E6-4AB8-73F1-365CAE664186}",
+    "Hash": "{0C5C9ECF-BD6B-3F31-BC98-D36B87838473}",
     "ObjectPath": "Play_Env_WateringCan_PickUp",
     "ShortName": "Play_Env_WateringCan_PickUp",
     "Path": "Event/Play_Env_WateringCan_PickUp.bnk",
@@ -127,6 +127,6 @@
     ]
    }
   ],
-  "FileHash": "{7E40B588-A8A7-0B42-D1B2-39C93D896807}"
+  "FileHash": "{A669B93B-6D25-FBC0-E485-598CFD5F63A4}"
  }
 }

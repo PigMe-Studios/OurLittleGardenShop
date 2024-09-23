@@ -1,3 +1,3 @@
 Event	ID	Name			Wwise Object Path	Notes
-	97207454	Play_Env_WateringCan_Hover			\WU_Main\Environment\Tools\Play_Env_WateringCan_Hover	
+	97207454	Play_Env_WateringCan_Hover			\WU_Main\Environment\Garden\Play_Env_WateringCan_Hover	
 

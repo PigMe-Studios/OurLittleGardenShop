@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3747315027" Type="Event" GUID="{09DFFEAE-4EAC-4767-9CFF-299EC8FE672A}" Language="SFX" Hash="{0E541325-C8D8-2E99-2802-4A83F08186D9}">
+		<SoundBank Id="3747315027" Type="Event" GUID="{09DFFEAE-4EAC-4767-9CFF-299EC8FE672A}" Language="SFX" Hash="{79615FBE-30D5-A3F0-7047-BD11EF51D694}">
 			<ObjectPath>Play_Env_WateringCan_PutDown</ObjectPath>
 			<ShortName>Play_Env_WateringCan_PutDown</ShortName>
 			<Path>Event/Play_Env_WateringCan_PutDown.bnk</Path>
@@ -33,5 +33,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{8D5011A2-626F-3EC5-0A39-DC3E2976235C}</FileHash>
+	<FileHash>{D1170D77-7018-4725-67EB-91EAFFC994DC}</FileHash>
 </SoundBanksInfo>

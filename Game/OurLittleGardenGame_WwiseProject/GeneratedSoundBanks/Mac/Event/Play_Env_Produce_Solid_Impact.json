@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{24715FB4-8FA3-405E-A274-68CCB969C3DA}",
     "Language": "SFX",
-    "Hash": "{07C701C1-0D9F-EA67-397D-D44BE7C69E9F}",
+    "Hash": "{9E0327F5-F8A9-8F1D-786F-91209ED6B9A0}",
     "ObjectPath": "Play_Env_Produce_Solid_Impact",
     "ShortName": "Play_Env_Produce_Solid_Impact",
     "Path": "Event/Play_Env_Produce_Solid_Impact.bnk",
@@ -67,6 +67,6 @@
     ]
    }
   ],
-  "FileHash": "{A2509B8F-DB37-DCE8-4968-987E4F7075F9}"
+  "FileHash": "{F5128228-3CBA-988E-61A2-60E29FB26EB3}"
  }
 }

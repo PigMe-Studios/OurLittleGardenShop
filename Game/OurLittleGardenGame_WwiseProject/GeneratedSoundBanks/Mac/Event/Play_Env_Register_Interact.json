@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{C3184C5C-9280-4C2F-BDFB-BC28C7E35301}",
     "Language": "SFX",
-    "Hash": "{E81AB740-7D06-9983-5F85-4A32A92984D4}",
+    "Hash": "{3DB0FEB7-09AA-DAAC-6C62-024001AFB65D}",
     "ObjectPath": "Play_Env_Register_Interact",
     "ShortName": "Play_Env_Register_Interact",
     "Path": "Event/Play_Env_Register_Interact.bnk",
@@ -103,6 +103,6 @@
     ]
    }
   ],
-  "FileHash": "{52E179AE-AB39-8B33-A86C-F45664F63272}"
+  "FileHash": "{560CD887-840B-C000-6BE5-20984D3FF6B8}"
  }
 }

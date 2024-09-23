@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1539384943" Type="Event" GUID="{C50085BD-D3FB-42B4-A59A-E92B4AB326F4}" Language="SFX" Hash="{5DDE641A-4487-6723-874E-4A0CE3EC5056}">
+		<SoundBank Id="1539384943" Type="Event" GUID="{C50085BD-D3FB-42B4-A59A-E92B4AB326F4}" Language="SFX" Hash="{98A6C1F5-C5B7-5383-E328-ABB64C787D0F}">
 			<ObjectPath>Play_Music_DistantGentleGuitar_HRTF</ObjectPath>
 			<ShortName>Play_Music_DistantGentleGuitar_HRTF</ShortName>
 			<Path>Event/Play_Music_DistantGentleGuitar_HRTF.bnk</Path>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{CEA532B8-424F-337C-4C60-9C171BCC4B13}</FileHash>
+	<FileHash>{B538342D-82B2-BAEA-8BCE-BAF02905FA10}</FileHash>
 </SoundBanksInfo>

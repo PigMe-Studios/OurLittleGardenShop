@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2229079685" Type="Event" GUID="{E954E2BD-4C23-4668-9618-912EAF3A219C}" Language="SFX" Hash="{7AE0F927-3584-6104-DD05-E586E0C73563}">
+		<SoundBank Id="2229079685" Type="Event" GUID="{E954E2BD-4C23-4668-9618-912EAF3A219C}" Language="SFX" Hash="{E0896D9F-06AE-F733-393A-C464CEBB0B98}">
 			<ObjectPath>Play_Env_Produce_Leafy_Hover</ObjectPath>
 			<ShortName>Play_Env_Produce_Leafy_Hover</ShortName>
 			<Path>Event/Play_Env_Produce_Leafy_Hover.bnk</Path>
@@ -33,5 +33,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2973D8BA-3F8D-0C18-1E4F-D06CD5D36298}</FileHash>
+	<FileHash>{D0070184-A910-2781-6CFA-FA5DC7A4ED76}</FileHash>
 </SoundBanksInfo>

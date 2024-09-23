@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{56FB1F52-EE6B-4E7F-A819-449672F15813}",
     "Language": "SFX",
-    "Hash": "{766AAC30-905A-EE6F-4861-174E22754A3A}",
+    "Hash": "{9FAEFF9D-A502-5356-1F33-6D743A952231}",
     "ObjectPath": "Play_Env_Sign_Hover",
     "ShortName": "Play_Env_Sign_Hover",
     "Path": "Event/Play_Env_Sign_Hover.bnk",
@@ -67,6 +67,6 @@
     ]
    }
   ],
-  "FileHash": "{F215BE4E-AB33-2048-CD01-37EE844BD264}"
+  "FileHash": "{38B06B31-A070-0D3E-46B5-67C3F96971B6}"
  }
 }

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{6E036834-B727-46B5-A4B8-5BF5434403A9}",
     "Language": "SFX",
-    "Hash": "{35309C00-71B0-A7F3-8CD6-B993868F5B1C}",
+    "Hash": "{FA1E4745-E5DA-0513-6E92-CA40D3376D74}",
     "ObjectPath": "Play_Amb_Interior",
     "ShortName": "Play_Amb_Interior",
     "Path": "Event/Play_Amb_Interior.bnk",
@@ -41,6 +41,6 @@
     ]
    }
   ],
-  "FileHash": "{9F8C5D67-F5B5-940C-6741-D95F7DB49941}"
+  "FileHash": "{AE05909B-69DB-5F0A-292B-8BFEF7F852C8}"
  }
 }

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{D24ADE26-A41B-437E-B723-D4525841236A}",
     "Language": "SFX",
-    "Hash": "{F6EF6F61-9159-BF0C-1319-82ED2F3B7C95}",
+    "Hash": "{9B2F3927-87B1-B6EE-FFD1-4303DD8BB261}",
     "ObjectPath": "Play_Env_OrderBook_Interact",
     "ShortName": "Play_Env_OrderBook_Interact",
     "Path": "Event/Play_Env_OrderBook_Interact.bnk",
@@ -25,6 +25,24 @@
       "CachePath": "SFX/Env_OrderBook-Interact-003_F06BAF76.wem"
      },
      {
+      "Id": "61903052",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_C5.wav",
+      "Path": "Media/61903052.wem",
+      "CachePath": "SFX/Mus_Tone_C5_F06BAF76.wem"
+     },
+     {
+      "Id": "82609520",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_C4.wav",
+      "Path": "Media/82609520.wem",
+      "CachePath": "SFX/Mus_Tone_C4_F06BAF76.wem"
+     },
+     {
       "Id": "123669511",
       "Language": "SFX",
       "Streaming": "false",
@@ -32,6 +50,33 @@
       "ShortName": "Env_OrderBook-Interact-002.wav",
       "Path": "Media/123669511.wem",
       "CachePath": "SFX/Env_OrderBook-Interact-002_F06BAF76.wem"
+     },
+     {
+      "Id": "191846235",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_E4.wav",
+      "Path": "Media/191846235.wem",
+      "CachePath": "SFX/Mus_Tone_E4_F06BAF76.wem"
+     },
+     {
+      "Id": "535351334",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_G4.wav",
+      "Path": "Media/535351334.wem",
+      "CachePath": "SFX/Mus_Tone_G4_F06BAF76.wem"
+     },
+     {
+      "Id": "769164870",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mus_Tone_B4.wav",
+      "Path": "Media/769164870.wem",
+      "CachePath": "SFX/Mus_Tone_B4_F06BAF76.wem"
      },
      {
       "Id": "1072263630",
@@ -50,14 +95,29 @@
       "ObjectPath": "\\Events\\WU_Main\\Environment\\Shop\\Play_Env_OrderBook_Interact",
       "GUID": "{D24ADE26-A41B-437E-B723-D4525841236A}",
       "DurationType": "OneShot",
-      "DurationMin": "0.94387424",
-      "DurationMax": "1.0594631",
+      "DurationMin": "4",
+      "DurationMax": "4",
       "MediaRefs": [
        {
         "Id": "24915585"
        },
        {
+        "Id": "61903052"
+       },
+       {
+        "Id": "82609520"
+       },
+       {
         "Id": "123669511"
+       },
+       {
+        "Id": "191846235"
+       },
+       {
+        "Id": "535351334"
+       },
+       {
+        "Id": "769164870"
        },
        {
         "Id": "1072263630"
@@ -67,6 +127,6 @@
     ]
    }
   ],
-  "FileHash": "{91CD9827-C0B9-F252-48E4-80B9B1873339}"
+  "FileHash": "{D8884A07-E569-16E3-4F69-D5D61DE3F052}"
  }
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{C808ADBD-8F0E-A4B4-20C2-DF8C4D6291C8}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{D967F10E-22D9-4C99-4A8C-97A1F088AC0F}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -12,18 +12,23 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
-				<Bus Id="17369109" Name="Bus_InteractMain" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Bus_InteractMain" GUID="{1ED810A1-9436-4662-BA12-C45DC74DE6CC}"/>
 				<Bus Id="447158585" Name="Bus_UIMain" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Bus_UIMain" GUID="{27D152F2-3896-49A6-A472-FF8223072D63}"/>
 				<Bus Id="1058635679" Name="Bus_3DAmb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Bus_AmbienceMain\Bus_3DAmb" GUID="{A7D004DA-7A5D-412E-B7FE-AF07B68D1D38}"/>
 				<Bus Id="1626632198" Name="Bus_MusicMain" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Bus_MusicMain" GUID="{B3499051-F3FB-45D0-9D09-A5EE0276A6CD}"/>
-				<Bus Id="1648915229" Name="Bus_DialogueMain" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Bus_DialogueMain" GUID="{016BF56C-4F89-4395-8DC0-B824483205A5}"/>
-				<Bus Id="2223238396" Name="Bus_EnvironmentMain" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Bus_EnvironmentMain" GUID="{F3C7F1CC-E9A6-46E9-9BE7-7487009DB83B}"/>
 				<Bus Id="2272199487" Name="Bus_AmbienceMain" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Bus_AmbienceMain" GUID="{2361CC39-9E38-480C-BFEE-CAAE36414582}"/>
 				<Bus Id="2313054124" Name="Bus_AmbBeds" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Bus_AmbienceMain\Bus_AmbBeds" GUID="{B629EC4F-752A-4AC2-805F-786103F9BEE2}"/>
 				<Bus Id="2340005898" Name="Bus_2DAmb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Bus_AmbienceMain\Bus_2DAmb" GUID="{AA621647-7B84-413D-AC76-4BBFA01ACC3B}"/>
-				<Bus Id="3399979499" Name="Bus_ReverbMain" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Bus_ReverbMain" GUID="{CC926357-5A3D-40D8-ADB8-2C3C5BFAC73E}"/>
+				<Bus Id="2404700026" Name="Bus_SFXMain" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Bus_SFXMain" GUID="{F3C7F1CC-E9A6-46E9-9BE7-7487009DB83B}"/>
+				<Bus Id="3399979499" Name="Bus_ReverbMain" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Bus_SFXMain\Bus_ReverbMain" GUID="{CC926357-5A3D-40D8-ADB8-2C3C5BFAC73E}"/>
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 			</Busses>
+			<GameParameters>
+				<GameParameter Id="419259289" Name="RTPC_UI" ObjectPath="\Game Parameters\WU_Main\RTPC_UI" GUID="{770F4522-34E2-4059-91C7-A198565BD926}"/>
+				<GameParameter Id="2972739263" Name="RTPC_Ambience" ObjectPath="\Game Parameters\WU_Main\RTPC_Ambience" GUID="{2CE96074-A19A-453F-AA09-95882CFB6051}"/>
+				<GameParameter Id="3438452020" Name="RTPC_SFX" ObjectPath="\Game Parameters\WU_Main\RTPC_SFX" GUID="{BAE2B662-4B18-4FAC-A5FD-3A8F24CFC082}"/>
+				<GameParameter Id="3445598977" Name="RTPC_Master" ObjectPath="\Game Parameters\WU_Main\RTPC_Master" GUID="{EA83AD0B-B366-4B00-94C9-F011F533BD32}"/>
+				<GameParameter Id="3709650428" Name="RTPC_Music" ObjectPath="\Game Parameters\WU_Main\RTPC_Music" GUID="{4F13BFB8-5220-4F48-BC16-0AE0A75E9270}"/>
+			</GameParameters>
 			<StateGroups>
 				<StateGroup Id="806345494" Name="State_Environment" ObjectPath="\States\WU_Main\State_Environment" GUID="{D9720876-6AD9-4093-AA6B-D6DE0F42996C}">
 					<States>
@@ -68,5 +73,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0C935AC9-5FBD-4137-D3E0-D21673ABAE87}</FileHash>
+	<FileHash>{00140F66-DB8C-B671-0549-4EBA6D363525}</FileHash>
 </SoundBanksInfo>
