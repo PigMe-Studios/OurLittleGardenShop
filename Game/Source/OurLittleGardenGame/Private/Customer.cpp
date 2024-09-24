@@ -12,8 +12,8 @@ ACustomer::ACustomer()
 	PrimaryActorTick.bCanEverTick = true;
 
 	// Initialise Name map, player name needs to be loaded from Instance in BP
-	NameMap.Add(ECharacter::CHEF, FName("Chef"));
-	NameMap.Add(ECharacter::FLORIST, FName("Florist"));
+	NameMap.Add(ECharacter::CHEF, FName("Terry"));
+	NameMap.Add(ECharacter::FLORIST, FName("Iris"));
 	NameMap.Add(ECharacter::MAILMAN, FName("Post Man"));
 	NameMap.Add(ECharacter::PLAYER, FName("Player"));
 
