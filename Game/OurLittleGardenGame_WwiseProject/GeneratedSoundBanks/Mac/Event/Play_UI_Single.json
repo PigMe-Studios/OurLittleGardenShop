@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{A506968D-F0E2-491A-99D9-A0DF79AB353A}",
     "Language": "SFX",
-    "Hash": "{A9F9DAAA-7A99-BC81-2D90-571FEBB41AED}",
+    "Hash": "{B5B759DE-CD0E-C29A-823D-E92FF1002770}",
     "ObjectPath": "Play_UI_Single",
     "ShortName": "Play_UI_Single",
     "Path": "Event/Play_UI_Single.bnk",
@@ -32,8 +32,8 @@
       "ObjectPath": "\\Events\\WU_Main\\UI\\Play_UI_Single",
       "GUID": "{A506968D-F0E2-491A-99D9-A0DF79AB353A}",
       "DurationType": "OneShot",
-      "DurationMin": "0.25",
-      "DurationMax": "0.25",
+      "DurationMin": "0.23596856",
+      "DurationMax": "0.2648658",
       "MediaRefs": [
        {
         "Id": "313031026"
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{AE7C86C2-6FA5-013A-8954-B2F67E163725}"
+  "FileHash": "{685DFC0B-B5FB-483E-727A-DF0174377DBA}"
  }
 }

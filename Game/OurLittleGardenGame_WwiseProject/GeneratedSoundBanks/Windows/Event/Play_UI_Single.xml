@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="526886411" Type="Event" GUID="{A506968D-F0E2-491A-99D9-A0DF79AB353A}" Language="SFX" Hash="{A9F9DAAA-7A99-BC81-2D90-571FEBB41AED}">
+		<SoundBank Id="526886411" Type="Event" GUID="{A506968D-F0E2-491A-99D9-A0DF79AB353A}" Language="SFX" Hash="{B5B759DE-CD0E-C29A-823D-E92FF1002770}">
 			<ObjectPath>Play_UI_Single</ObjectPath>
 			<ShortName>Play_UI_Single</ShortName>
 			<Path>Event/Play_UI_Single.bnk</Path>
@@ -13,7 +13,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="526886411" Name="Play_UI_Single" ObjectPath="\Events\WU_Main\UI\Play_UI_Single" GUID="{A506968D-F0E2-491A-99D9-A0DF79AB353A}" DurationType="OneShot" DurationMin="0.25" DurationMax="0.25">
+				<Event Id="526886411" Name="Play_UI_Single" ObjectPath="\Events\WU_Main\UI\Play_UI_Single" GUID="{A506968D-F0E2-491A-99D9-A0DF79AB353A}" DurationType="OneShot" DurationMin="0.23596856" DurationMax="0.2648658">
 					<MediaRefs>
 						<MediaRef Id="313031026"/>
 					</MediaRefs>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E6AFFCFF-78FA-987E-627A-D9967F54DD0F}</FileHash>
+	<FileHash>{DB82D85B-1102-ABE1-F70A-1B812C745EFD}</FileHash>
 </SoundBanksInfo>

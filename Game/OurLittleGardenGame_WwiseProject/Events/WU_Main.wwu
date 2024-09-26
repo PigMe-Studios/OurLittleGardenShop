@@ -930,11 +930,30 @@
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_UI_Type" ID="{A2A87D41-B97D-48FB-ADDC-D8EC9F1FD607}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="17"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
 							<ChildrenList>
 								<Action Name="" ID="{89CDB9E0-2500-44E1-9486-953B861789FE}" ShortID="14833025">
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="UI_Type" ID="{3428AD21-458E-45BB-B611-8671D723479F}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_UI_WaterComplete" ID="{70E37EE0-B5BA-4DFE-B4F4-12945DA3F256}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="17"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{88AB916C-C55C-4C05-98E4-7A1FE1B8A040}" ShortID="946985293">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_WaterComplete" ID="{803A1A0D-AFDF-4E1E-A41F-A55D452F1694}" WorkUnitID="{388B863D-AA53-4E9B-A18D-F003F504CAC0}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

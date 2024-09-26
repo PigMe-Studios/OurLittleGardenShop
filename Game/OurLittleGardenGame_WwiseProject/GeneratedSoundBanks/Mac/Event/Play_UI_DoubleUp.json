@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{64182781-CF6E-4824-9158-91E2E280AAE7}",
     "Language": "SFX",
-    "Hash": "{FADB2426-65F7-3FA4-71C4-A2E2F68A1F4C}",
+    "Hash": "{A34D315B-1BA7-31C2-9C79-ACFB1BC09B7E}",
     "ObjectPath": "Play_UI_DoubleUp",
     "ShortName": "Play_UI_DoubleUp",
     "Path": "Event/Play_UI_DoubleUp.bnk",
@@ -32,8 +32,8 @@
       "ObjectPath": "\\Events\\WU_Main\\UI\\Play_UI_DoubleUp",
       "GUID": "{64182781-CF6E-4824-9158-91E2E280AAE7}",
       "DurationType": "OneShot",
-      "DurationMin": "0.25",
-      "DurationMax": "0.25",
+      "DurationMin": "0.23596856",
+      "DurationMax": "0.2648658",
       "MediaRefs": [
        {
         "Id": "945032147"
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{27DF65DC-4EFB-9C08-066E-BD79C34BBE1B}"
+  "FileHash": "{B8E39366-0174-EB61-7C60-C5DEAF5A8F33}"
  }
 }

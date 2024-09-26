@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{79475BBF-4A51-4D78-A830-3E27BE176768}",
     "Language": "SFX",
-    "Hash": "{25FD305D-16BE-933E-8CD1-A5DA93BDC169}",
+    "Hash": "{46E5D6C6-EA23-3864-B879-B2476B9D5DD7}",
     "ObjectPath": "Play_UI_DoubleDown",
     "ShortName": "Play_UI_DoubleDown",
     "Path": "Event/Play_UI_DoubleDown.bnk",
@@ -32,8 +32,8 @@
       "ObjectPath": "\\Events\\WU_Main\\UI\\Play_UI_DoubleDown",
       "GUID": "{79475BBF-4A51-4D78-A830-3E27BE176768}",
       "DurationType": "OneShot",
-      "DurationMin": "0.25",
-      "DurationMax": "0.25",
+      "DurationMin": "0.23596856",
+      "DurationMax": "0.2648658",
       "MediaRefs": [
        {
         "Id": "627953776"
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{3239A7DB-1258-F967-E1CC-BDB192270DD3}"
+  "FileHash": "{069E1D14-94A4-DEF9-0B31-32FEAC1623D9}"
  }
 }

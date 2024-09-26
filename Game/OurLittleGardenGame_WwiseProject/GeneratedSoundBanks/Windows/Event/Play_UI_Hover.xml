@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1339559671" Type="Event" GUID="{CC2F2DC8-9DAD-4DCE-B366-7147C7AF4F04}" Language="SFX" Hash="{FA05B867-A5C0-FC02-A8AC-C873BDB2B746}">
+		<SoundBank Id="1339559671" Type="Event" GUID="{CC2F2DC8-9DAD-4DCE-B366-7147C7AF4F04}" Language="SFX" Hash="{717A5CB9-639F-0F17-3FBC-2A269756752A}">
 			<ObjectPath>Play_UI_Hover</ObjectPath>
 			<ShortName>Play_UI_Hover</ShortName>
 			<Path>Event/Play_UI_Hover.bnk</Path>
@@ -13,7 +13,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1339559671" Name="Play_UI_Hover" ObjectPath="\Events\WU_Main\UI\Play_UI_Hover" GUID="{CC2F2DC8-9DAD-4DCE-B366-7147C7AF4F04}" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
+				<Event Id="1339559671" Name="Play_UI_Hover" ObjectPath="\Events\WU_Main\UI\Play_UI_Hover" GUID="{CC2F2DC8-9DAD-4DCE-B366-7147C7AF4F04}" DurationType="OneShot" DurationMin="0.47193712" DurationMax="0.5297316">
 					<MediaRefs>
 						<MediaRef Id="623789532"/>
 					</MediaRefs>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{FE8D89AE-72DE-601C-810F-6B1F0166FEB8}</FileHash>
+	<FileHash>{34035B28-B721-62B1-B745-BA4C1DAFC041}</FileHash>
 </SoundBanksInfo>

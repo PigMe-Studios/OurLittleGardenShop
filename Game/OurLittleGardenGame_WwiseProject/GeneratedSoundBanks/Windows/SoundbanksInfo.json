@@ -502,7 +502,7 @@
     "Type": "Event",
     "GUID": "{A506968D-F0E2-491A-99D9-A0DF79AB353A}",
     "Language": "SFX",
-    "Hash": "{A9F9DAAA-7A99-BC81-2D90-571FEBB41AED}",
+    "Hash": "{B5B759DE-CD0E-C29A-823D-E92FF1002770}",
     "ObjectPath": "Play_UI_Single",
     "ShortName": "Play_UI_Single",
     "Path": "Event/Play_UI_Single.bnk",
@@ -524,8 +524,8 @@
       "ObjectPath": "\\Events\\WU_Main\\UI\\Play_UI_Single",
       "GUID": "{A506968D-F0E2-491A-99D9-A0DF79AB353A}",
       "DurationType": "OneShot",
-      "DurationMin": "0.25",
-      "DurationMax": "0.25",
+      "DurationMin": "0.23596856",
+      "DurationMax": "0.2648658",
       "MediaRefs": [
        {
         "Id": "313031026"
@@ -1245,7 +1245,7 @@
     "Type": "Event",
     "GUID": "{CC2F2DC8-9DAD-4DCE-B366-7147C7AF4F04}",
     "Language": "SFX",
-    "Hash": "{FA05B867-A5C0-FC02-A8AC-C873BDB2B746}",
+    "Hash": "{717A5CB9-639F-0F17-3FBC-2A269756752A}",
     "ObjectPath": "Play_UI_Hover",
     "ShortName": "Play_UI_Hover",
     "Path": "Event/Play_UI_Hover.bnk",
@@ -1267,8 +1267,8 @@
       "ObjectPath": "\\Events\\WU_Main\\UI\\Play_UI_Hover",
       "GUID": "{CC2F2DC8-9DAD-4DCE-B366-7147C7AF4F04}",
       "DurationType": "OneShot",
-      "DurationMin": "0.5",
-      "DurationMax": "0.5",
+      "DurationMin": "0.47193712",
+      "DurationMax": "0.5297316",
       "MediaRefs": [
        {
         "Id": "623789532"
@@ -1784,6 +1784,43 @@
        },
        {
         "Id": "912969944"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "1537509925",
+    "Type": "Event",
+    "GUID": "{70E37EE0-B5BA-4DFE-B4F4-12945DA3F256}",
+    "Language": "SFX",
+    "Hash": "{4C1D77E0-316D-38B6-9132-17E784FCB9C9}",
+    "ObjectPath": "Play_UI_WaterComplete",
+    "ShortName": "Play_UI_WaterComplete",
+    "Path": "Event/Play_UI_WaterComplete.bnk",
+    "Media": [
+     {
+      "Id": "465775353",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_WaterComplete.wav",
+      "Path": "Media/465775353.wem",
+      "CachePath": "SFX/UI_WaterComplete_F06BAF76.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1537509925",
+      "Name": "Play_UI_WaterComplete",
+      "ObjectPath": "\\Events\\WU_Main\\UI\\Play_UI_WaterComplete",
+      "GUID": "{70E37EE0-B5BA-4DFE-B4F4-12945DA3F256}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.8316226",
+      "DurationMax": "3.1783895",
+      "MediaRefs": [
+       {
+        "Id": "465775353"
        }
       ]
      }
@@ -2790,7 +2827,7 @@
     "Type": "Event",
     "GUID": "{79475BBF-4A51-4D78-A830-3E27BE176768}",
     "Language": "SFX",
-    "Hash": "{25FD305D-16BE-933E-8CD1-A5DA93BDC169}",
+    "Hash": "{46E5D6C6-EA23-3864-B879-B2476B9D5DD7}",
     "ObjectPath": "Play_UI_DoubleDown",
     "ShortName": "Play_UI_DoubleDown",
     "Path": "Event/Play_UI_DoubleDown.bnk",
@@ -2812,8 +2849,8 @@
       "ObjectPath": "\\Events\\WU_Main\\UI\\Play_UI_DoubleDown",
       "GUID": "{79475BBF-4A51-4D78-A830-3E27BE176768}",
       "DurationType": "OneShot",
-      "DurationMin": "0.25",
-      "DurationMax": "0.25",
+      "DurationMin": "0.23596856",
+      "DurationMax": "0.2648658",
       "MediaRefs": [
        {
         "Id": "627953776"
@@ -3515,7 +3552,7 @@
     "Type": "Event",
     "GUID": "{64182781-CF6E-4824-9158-91E2E280AAE7}",
     "Language": "SFX",
-    "Hash": "{FADB2426-65F7-3FA4-71C4-A2E2F68A1F4C}",
+    "Hash": "{A34D315B-1BA7-31C2-9C79-ACFB1BC09B7E}",
     "ObjectPath": "Play_UI_DoubleUp",
     "ShortName": "Play_UI_DoubleUp",
     "Path": "Event/Play_UI_DoubleUp.bnk",
@@ -3537,8 +3574,8 @@
       "ObjectPath": "\\Events\\WU_Main\\UI\\Play_UI_DoubleUp",
       "GUID": "{64182781-CF6E-4824-9158-91E2E280AAE7}",
       "DurationType": "OneShot",
-      "DurationMin": "0.25",
-      "DurationMax": "0.25",
+      "DurationMin": "0.23596856",
+      "DurationMax": "0.2648658",
       "MediaRefs": [
        {
         "Id": "945032147"
@@ -5116,6 +5153,6 @@
     ]
    }
   ],
-  "FileHash": "{65A8E6A4-A268-689A-9592-B96B2F4D8219}"
+  "FileHash": "{3104B46A-0CF6-B107-0BFD-F211880DAC78}"
  }
 }

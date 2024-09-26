@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1537509925" Type="Event" GUID="{70E37EE0-B5BA-4DFE-B4F4-12945DA3F256}" Language="SFX" Hash="{4C1D77E0-316D-38B6-9132-17E784FCB9C9}">
+			<ObjectPath>Play_UI_WaterComplete</ObjectPath>
+			<ShortName>Play_UI_WaterComplete</ShortName>
+			<Path>Event/Play_UI_WaterComplete.bnk</Path>
+			<Media>
+				<File Id="465775353" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_WaterComplete.wav</ShortName>
+					<Path>Media/465775353.wem</Path>
+					<CachePath>SFX/UI_WaterComplete_F06BAF76.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1537509925" Name="Play_UI_WaterComplete" ObjectPath="\Events\WU_Main\UI\Play_UI_WaterComplete" GUID="{70E37EE0-B5BA-4DFE-B4F4-12945DA3F256}" DurationType="OneShot" DurationMin="2.8316226" DurationMax="3.1783895">
+					<MediaRefs>
+						<MediaRef Id="465775353"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{29FFAC96-4796-7CE3-C198-9880835376E9}</FileHash>
+</SoundBanksInfo>

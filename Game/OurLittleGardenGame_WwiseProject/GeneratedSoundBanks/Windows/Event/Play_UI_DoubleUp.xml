@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3555512799" Type="Event" GUID="{64182781-CF6E-4824-9158-91E2E280AAE7}" Language="SFX" Hash="{FADB2426-65F7-3FA4-71C4-A2E2F68A1F4C}">
+		<SoundBank Id="3555512799" Type="Event" GUID="{64182781-CF6E-4824-9158-91E2E280AAE7}" Language="SFX" Hash="{A34D315B-1BA7-31C2-9C79-ACFB1BC09B7E}">
 			<ObjectPath>Play_UI_DoubleUp</ObjectPath>
 			<ShortName>Play_UI_DoubleUp</ShortName>
 			<Path>Event/Play_UI_DoubleUp.bnk</Path>
@@ -13,7 +13,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3555512799" Name="Play_UI_DoubleUp" ObjectPath="\Events\WU_Main\UI\Play_UI_DoubleUp" GUID="{64182781-CF6E-4824-9158-91E2E280AAE7}" DurationType="OneShot" DurationMin="0.25" DurationMax="0.25">
+				<Event Id="3555512799" Name="Play_UI_DoubleUp" ObjectPath="\Events\WU_Main\UI\Play_UI_DoubleUp" GUID="{64182781-CF6E-4824-9158-91E2E280AAE7}" DurationType="OneShot" DurationMin="0.23596856" DurationMax="0.2648658">
 					<MediaRefs>
 						<MediaRef Id="945032147"/>
 					</MediaRefs>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{AB65DC2D-C3D6-8C00-9970-DD6E9E8D8BE2}</FileHash>
+	<FileHash>{FF9D1273-7578-5099-D791-13AFC2A42BB9}</FileHash>
 </SoundBanksInfo>
