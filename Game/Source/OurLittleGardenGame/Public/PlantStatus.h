@@ -88,6 +88,9 @@ struct FPlantStatus
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	bool HasSlug;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	bool IsHarvested;
+
 	//UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	//EIrreparableDamage PermanentDefects;
 };
