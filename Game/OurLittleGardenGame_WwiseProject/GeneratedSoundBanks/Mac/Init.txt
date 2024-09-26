@@ -21,6 +21,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	2972739263	RTPC_Ambience			\WU_Main\RTPC_Ambience	
 	3438452020	RTPC_SFX			\WU_Main\RTPC_SFX	
 	3445598977	RTPC_Master			\WU_Main\RTPC_Master	
+	3709650428	RTPC_Music			\WU_Main\RTPC_Music	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	447158585	Bus_UIMain			\Default Work Unit\Master Audio Bus\Bus_UIMain	

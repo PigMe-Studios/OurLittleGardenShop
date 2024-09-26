@@ -111,7 +111,7 @@
 												</PropertyList>
 												<ReferenceList>
 													<Reference Name="ControlInput">
-														<ObjectRef Name="RTPC_SFX" ID="{BAE2B662-4B18-4FAC-A5FD-3A8F24CFC082}" WorkUnitID="{D6D10C93-B51B-428F-988B-8EEF0A0CD1BB}"/>
+														<ObjectRef Name="RTPC_Music" ID="{4F13BFB8-5220-4F48-BC16-0AE0A75E9270}" WorkUnitID="{D6D10C93-B51B-428F-988B-8EEF0A0CD1BB}"/>
 													</Reference>
 													<Reference Name="Curve">
 														<Custom>
