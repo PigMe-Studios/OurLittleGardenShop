@@ -17,8 +17,6 @@ State	ID	Name	State Group			Notes
 	1011622525	Night	State_Time			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
-	419259289	RTPC_UI			\WU_Main\RTPC_UI	
-	2972739263	RTPC_Ambience			\WU_Main\RTPC_Ambience	
 	3438452020	RTPC_SFX			\WU_Main\RTPC_SFX	
 	3445598977	RTPC_Master			\WU_Main\RTPC_Master	
 	3709650428	RTPC_Music			\WU_Main\RTPC_Music	

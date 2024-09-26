@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{457E2C0E-EBD6-4705-8E91-02213961B650}",
     "Language": "SFX",
-    "Hash": "{7FC0CC70-D9B6-5BCC-A25B-1930E9B6AD09}",
+    "Hash": "{6338CCB1-BB2A-4217-08D3-D5A44B14C7DD}",
     "ObjectPath": "Play_Env_Carrot_Wiggle",
     "ShortName": "Play_Env_Carrot_Wiggle",
     "Path": "Event/Play_Env_Carrot_Wiggle.bnk",
@@ -127,6 +127,6 @@
     ]
    }
   ],
-  "FileHash": "{34AA5EB9-BFF0-CEA7-1C1F-C6A3BE6E9A84}"
+  "FileHash": "{68364974-DDFF-6231-80F9-9FB8CE812830}"
  }
 }

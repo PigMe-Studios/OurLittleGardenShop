@@ -429,7 +429,7 @@
     "Type": "Event",
     "GUID": "{A4E189F8-2B5F-4627-A50A-6D4F3C681783}",
     "Language": "SFX",
-    "Hash": "{A8D87A7B-49CB-EA34-22B0-80A8C700C239}",
+    "Hash": "{349463E1-0F10-B460-7E93-81C1FFF32521}",
     "ObjectPath": "Play_Mus_PaintPatch_DemoLoop",
     "ShortName": "Play_Mus_PaintPatch_DemoLoop",
     "Path": "Event/Play_Mus_PaintPatch_DemoLoop.bnk",
@@ -1282,7 +1282,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{367AA3A9-B5A1-830B-ABC0-606493DA19B3}",
+    "Hash": "{DED20713-26F7-3476-7115-5605446E5158}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -3118,7 +3118,7 @@
     "Type": "Event",
     "GUID": "{457E2C0E-EBD6-4705-8E91-02213961B650}",
     "Language": "SFX",
-    "Hash": "{7FC0CC70-D9B6-5BCC-A25B-1930E9B6AD09}",
+    "Hash": "{6338CCB1-BB2A-4217-08D3-D5A44B14C7DD}",
     "ObjectPath": "Play_Env_Carrot_Wiggle",
     "ShortName": "Play_Env_Carrot_Wiggle",
     "Path": "Event/Play_Env_Carrot_Wiggle.bnk",
@@ -5153,6 +5153,6 @@
     ]
    }
   ],
-  "FileHash": "{7F927B7D-B43A-4908-7D12-2306A67C40A4}"
+  "FileHash": "{477BB1E8-6960-0239-BA10-3C52D56A6C68}"
  }
 }

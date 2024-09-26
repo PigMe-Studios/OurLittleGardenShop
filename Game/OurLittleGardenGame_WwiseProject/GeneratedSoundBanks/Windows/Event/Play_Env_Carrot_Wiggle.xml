@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3488080417" Type="Event" GUID="{457E2C0E-EBD6-4705-8E91-02213961B650}" Language="SFX" Hash="{7FC0CC70-D9B6-5BCC-A25B-1930E9B6AD09}">
+		<SoundBank Id="3488080417" Type="Event" GUID="{457E2C0E-EBD6-4705-8E91-02213961B650}" Language="SFX" Hash="{6338CCB1-BB2A-4217-08D3-D5A44B14C7DD}">
 			<ObjectPath>Play_Env_Carrot_Wiggle</ObjectPath>
 			<ShortName>Play_Env_Carrot_Wiggle</ShortName>
 			<Path>Event/Play_Env_Carrot_Wiggle.bnk</Path>
@@ -63,5 +63,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E7CCED8C-9A4F-0201-442C-8B4B9F0E4678}</FileHash>
+	<FileHash>{3E636803-0FE8-9038-6C7E-A82273B51C4D}</FileHash>
 </SoundBanksInfo>

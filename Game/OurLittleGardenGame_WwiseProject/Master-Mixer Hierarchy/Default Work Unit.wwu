@@ -26,7 +26,7 @@
 												</PropertyList>
 												<ReferenceList>
 													<Reference Name="ControlInput">
-														<ObjectRef Name="RTPC_Ambience" ID="{2CE96074-A19A-453F-AA09-95882CFB6051}" WorkUnitID="{D6D10C93-B51B-428F-988B-8EEF0A0CD1BB}"/>
+														<ObjectRef Name="RTPC_SFX" ID="{BAE2B662-4B18-4FAC-A5FD-3A8F24CFC082}" WorkUnitID="{D6D10C93-B51B-428F-988B-8EEF0A0CD1BB}"/>
 													</Reference>
 													<Reference Name="Curve">
 														<Custom>
@@ -152,7 +152,7 @@
 												</PropertyList>
 												<ReferenceList>
 													<Reference Name="ControlInput">
-														<ObjectRef Name="RTPC_UI" ID="{770F4522-34E2-4059-91C7-A198565BD926}" WorkUnitID="{D6D10C93-B51B-428F-988B-8EEF0A0CD1BB}"/>
+														<ObjectRef Name="RTPC_SFX" ID="{BAE2B662-4B18-4FAC-A5FD-3A8F24CFC082}" WorkUnitID="{D6D10C93-B51B-428F-988B-8EEF0A0CD1BB}"/>
 													</Reference>
 													<Reference Name="Curve">
 														<Custom>
