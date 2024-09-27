@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3548773928" Type="Event" GUID="{EC72F8BB-D0CA-442E-AB0D-3B876C366614}" Language="SFX" Hash="{186DA99E-113F-DD16-B775-AABC134F2426}">
+		<SoundBank Id="3548773928" Type="Event" GUID="{EC72F8BB-D0CA-442E-AB0D-3B876C366614}" Language="SFX" Hash="{8E9D771C-937B-F6AF-AB91-99CBE0F155CD}">
 			<ObjectPath>Play_Amb_Dynamic</ObjectPath>
 			<ShortName>Play_Amb_Dynamic</ShortName>
 			<Path>Event/Play_Amb_Dynamic.bnk</Path>
@@ -91,5 +91,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{8E785549-851E-7153-A025-8C87CB91787D}</FileHash>
+	<FileHash>{C64E49BF-E393-1E14-726F-0098C45215B7}</FileHash>
 </SoundBanksInfo>
